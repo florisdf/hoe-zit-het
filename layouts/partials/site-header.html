@@ -1,0 +1,48 @@
+{{ $featured_image := .Param "featured_image" | default "images/gohugo-default-sample-hero-image.jpg" }}
+{{ if $featured_image }}
+  {{/* Trimming the slash and adding absURL make sure the image works no matter where our site lives */}}
+  {{ $featured_image := (trim $featured_image "/") | absURL }}
+
+	{{ if .Params.title_img }}
+		{{ .Scratch.Add "header_img" (.Params.title_img | default $featured_image) }}
+		{{ .Scratch.Add "header_overlay_class" "" }}
+		{{ .Scratch.Add "title" "" }} 
+		{{ .Scratch.Add "description" "" }} 
+	{{ else }}
+		{{ .Scratch.Add "header_img" $featured_image }}
+		{{ .Scratch.Add "header_overlay_class" "bg-black-60" }}
+		{{ .Scratch.Add "title"  (.Title | default .Site.Title) }} 
+		{{ .Scratch.Add "description" .Params.description }} 
+	{{ end }}
+  <header class="cover bg-top" style="background-image: url('{{ .Scratch.Get "header_img" }}');">
+		<div class="{{ .Scratch.Get "header_overlay_class" }}">
+      {{ partial "site-navigation.html" .}}
+      <div class="tc-l pv4 pv6-l ph3 ph4-ns">
+        <h1 class="f2 f-subheadline-l fw2 white-90 mb0 lh-title">
+          {{ .Scratch.Get "title" }}
+        </h1>
+        {{ with .Scratch.Get "description" }}
+          <h2 class="fw1 f5 f3-l white-80 measure-wide-l center mt3">
+            {{ . }}
+          </h2>
+        {{ end }}
+      </div>
+    </div>
+  </header>
+{{ else }}
+  <header>
+    <div class="pb3-m pb6-l {{ .Site.Params.background_color_class | default "bg-black" }}">
+      {{ partial "site-navigation.html" . }}
+      <div class="tc-l pv3 ph3 ph4-ns">
+        <h1 class="f2 f-subheadline-l fw2 light-silver mb0 lh-title">
+          {{ .Title | default .Site.Title }}
+        </h1>
+        {{ with .Params.description }}
+          <h2 class="fw1 f5 f3-l white-80 measure-wide-l center lh-copy mt3 mb4">
+            {{ . }}
+          </h2>
+        {{ end }}
+      </div>
+    </div>
+  </header>
+{{ end }}
