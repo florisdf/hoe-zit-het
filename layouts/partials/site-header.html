@@ -3,6 +3,7 @@
   {{/* Trimming the slash and adding absURL make sure the image works no matter where our site lives */}}
   {{ $featured_image := (trim $featured_image "/") | absURL }}
 
+	{{/* If the image functions as a title, don't add a title */}}
 	{{ if .Params.title_img }}
 		{{ .Scratch.Add "header_img" (.Params.title_img | default $featured_image) }}
 		{{ .Scratch.Add "header_overlay_class" "" }}
@@ -14,7 +15,7 @@
 		{{ .Scratch.Add "title"  (.Title | default .Site.Title) }} 
 		{{ .Scratch.Add "description" .Params.description }} 
 	{{ end }}
-  <header class="cover bg-top" style="background-image: url('{{ .Scratch.Get "header_img" }}');">
+  <header class="contain bg-top" style="background-image: url('{{ .Scratch.Get "header_img" }}');">
 		<div class="{{ .Scratch.Get "header_overlay_class" }}">
       {{ partial "site-navigation.html" .}}
       <div class="tc-l pv4 pv6-l ph3 ph4-ns">

@@ -1,10 +1,11 @@
 ---
 title: Contact
 description: Vraag erop los!
-type: page
+title_img : "/images/contact.svg"
+draft: true
 menu:
-  main: {}
-
+  main:
+    weight: 30
 ---
 
 Als je prangende vragen hebt over relevante of volstrekt irrelevante materie: aarzel niet om me te contacteren! Dat kan heel eenvoudig via onderstaand contactformulier. Ik beloof zo snel mogelijk te antwoorden. 👍
