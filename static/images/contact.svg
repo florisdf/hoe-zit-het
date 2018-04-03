@@ -9,9 +9,9 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="290.69208mm"
-   height="85.535606mm"
-   viewBox="0 0 290.69208 85.535608"
+   width="161.47485mm"
+   height="59.27784mm"
+   viewBox="0 0 161.47485 59.277841"
    version="1.1"
    id="svg5423"
    sodipodi:docname="contact.svg"
@@ -29,8 +29,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.4"
-     inkscape:cx="560.71168"
-     inkscape:cy="188.61263"
+     inkscape:cx="292.13793"
+     inkscape:cy="70.068395"
      inkscape:document-units="mm"
      inkscape:current-layer="g916"
      showgrid="false"
@@ -49,7 +49,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -57,7 +57,7 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(62.945494,-223.23813)">
+     transform="translate(-10.09902,-233.25012)">
     <g
        id="g1604"
        transform="matrix(1.9771757,0,0,1.9771757,-803.08015,-251.17144)"

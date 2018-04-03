@@ -15,7 +15,7 @@ enableRobotsTXT = true
   filename = "sitemap.xml"
 
 [params]
-  favicon = "/images/favicon.png"
+  favicon = "/images/favicon.svg"
   description = ""
   facebook = ""
   twitter = ""

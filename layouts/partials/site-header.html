@@ -15,10 +15,10 @@
 		{{ .Scratch.Add "title"  (.Title | default .Site.Title) }} 
 		{{ .Scratch.Add "description" .Params.description }} 
 	{{ end }}
-  <header class="contain bg-top" style="background-image: url('{{ .Scratch.Get "header_img" }}');">
+  <header>
 		<div class="{{ .Scratch.Get "header_overlay_class" }}">
       {{ partial "site-navigation.html" .}}
-      <div class="tc-l pv4 pv6-l ph3 ph4-ns">
+      <div class="tc-l pv4 pv6-l ph3 ph4-ns contain bg-top" style="background-image: url('{{ .Scratch.Get "header_img" }}');">
         <h1 class="f2 f-subheadline-l fw2 white-90 mb0 lh-title">
           {{ .Scratch.Get "title" }}
         </h1>
