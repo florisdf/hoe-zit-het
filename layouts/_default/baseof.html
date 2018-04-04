@@ -17,7 +17,11 @@
       <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
     {{ end }}
 
+		{{ block "custom_fonts" . }}
+			{{ partial "custom-fonts.html" . }}
+		{{ end }}
     <link href='{{ "dist/main.css" | absURL }}' rel='stylesheet' type="text/css" />
+		<link href="/css/custom_styles.css" rel="stylesheet" type="text/css" />
     {{ block "favicon" . }}
       {{ partial "site-favicon.html" . }}
     {{ end }}
