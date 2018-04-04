@@ -7,4 +7,4 @@ menu:
   main:
     weight: 20
 ---
-"Hoe zit het" is een site waarin ik mijn uiterste best doe om dingen die me interesseren (voornamelijk wiskunde en fysica) duidelijk uit te leggen. Moest je vragen, opmerkingen of suggesties hebben, zijn deze meer dan welkom!
+"Hoe zit het?" is een site waarin ik mijn uiterste best doe om dingen die me interesseren uit te leggen. Moest je vragen, opmerkingen of suggesties hebben, zijn deze meer dan welkom!
