@@ -14,13 +14,13 @@
 				</section>
 		{{ else }}
 			{{ $section := .Paginate (where .Data.Pages "Section" .Section) }}
-			<section class="flex-ns flex-wrap justify-around">
-				{{ range  $section.Pages }}
-						<div onclick="window.location='{{ .URL }}';" class="shadow-hover relative w-100 w-30-l mb4 bg-white">
-							{{ .Render "summary" }}
+				<section class="center w-100 mw8">
+					{{ range  $section.Pages }}
+						<div class="relative w-100 mb4">
+							{{ partial "summary-with-image.html" . }}
 						</div>
-				{{ end }}
-			</section>
+					{{ end }}
+				</section>
 			{{ template "_internal/pagination.html" . }}
 		{{ end }}
 </article>
