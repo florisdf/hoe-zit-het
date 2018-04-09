@@ -20,8 +20,8 @@
 							{{ partial "summary-with-image.html" . }}
 						</div>
 					{{ end }}
+					{{ template "_internal/pagination.html" . }}
 				</section>
-			{{ template "_internal/pagination.html" . }}
 		{{ end }}
 </article>
 {{ end }}
