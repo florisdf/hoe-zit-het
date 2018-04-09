@@ -10,15 +10,15 @@
 		{{ .Scratch.Add "title" "" }} 
 		{{ .Scratch.Add "description" "" }} 
 	{{ else }}
-		{{ .Scratch.Add "header_img" $featured_image }}
+		{{ .Scratch.Add "header_img" "" }}
 		{{ .Scratch.Add "header_overlay_class" "bg-black-60" }}
 		{{ .Scratch.Add "title"  (.Title | default .Site.Title) }} 
 		{{ .Scratch.Add "description" .Params.description }} 
 	{{ end }}
   <header>
-		<div class="{{ .Scratch.Get "header_overlay_class" }}">
+		<div class="ph3 ph4-ns {{ .Scratch.Get "header_overlay_class" }}">
       {{ partial "site-navigation.html" .}}
-      <div class="tc-l pv4 pv6-l ph3 ph4-ns contain bg-top" style="background-image: url('{{ .Scratch.Get "header_img" }}');">
+      <div class="tc-l pv4 pv6-l contain bg-top" style="background-image: url('{{ .Scratch.Get "header_img" }}');">
         <h1 class="f2 f-subheadline-l fw2 white-90 mb0 lh-title">
           {{ .Scratch.Get "title" }}
         </h1>
@@ -32,9 +32,9 @@
   </header>
 {{ else }}
   <header>
-    <div class="pb3-m pb6-l {{ .Site.Params.background_color_class | default "bg-black" }}">
+    <div class="ph3 ph4-ns pb3-m pb6-l {{ .Site.Params.background_color_class | default "bg-black" }}">
       {{ partial "site-navigation.html" . }}
-      <div class="tc-l pv3 ph3 ph4-ns">
+      <div class="tc-l pv3">
         <h1 class="f2 f-subheadline-l fw2 light-silver mb0 lh-title">
           {{ .Title | default .Site.Title }}
         </h1>
@@ -47,3 +47,4 @@
     </div>
   </header>
 {{ end }}
+{{ partial "breadcrumbs.html" . }}
