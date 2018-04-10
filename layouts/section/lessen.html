@@ -4,24 +4,35 @@
 	{{ .Content }}
 	</main>
 
+		<section class="center w-100 mw8">
 		{{ if gt (len .Sections) 0 }}
-				<section class="flex-ns flex-wrap justify-around">
-					{{ range .Sections}}
-							<div onclick="window.location='{{ .URL }}';" class="shadow-hover relative w-100 w-30-l mb4 bg-white">
-								{{ .Render "summary" }}
-							</div>
-						{{ end }}
-				</section>
+
+			{{ range .Sections}}
+				{{ if gt (len .Sections) 0 }}
+					<!-- There are nested sections. Display them as well. -->
+					<h1> {{ .Title }} </h1>
+					 <div class="flex-ns flex-wrap justify-left center w-100 mw8">
+					{{ range .Sections }}
+						{{ partial "nested-section-summary.html" . }}
+					{{ end }}
+					</div>
+
+				{{ else }}
+					<!-- There are no nested sections. Just list -->
+					{{ partial "nested-section-summary.html" . }}
+
+				{{ end }}
+			{{ end }}
+
 		{{ else }}
 			{{ $section := .Paginate (where .Data.Pages "Section" .Section) }}
-				<section class="center w-100 mw8">
-					{{ range  $section.Pages }}
-						<div class="relative w-100 mb4">
-							{{ partial "summary-with-image.html" . }}
-						</div>
-					{{ end }}
-					{{ template "_internal/pagination.html" . }}
-				</section>
+			{{ range  $section.Pages }}
+				<div class="relative w-100 mb4">
+					{{ partial "summary-with-image.html" . }}
+				</div>
+			{{ end }}
+			{{ template "_internal/pagination.html" . }}
+
 		{{ end }}
 </article>
 {{ end }}

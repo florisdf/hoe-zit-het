@@ -5,15 +5,15 @@
 
 	{{/* If the image functions as a title, don't add a title */}}
 	{{ if .Params.title_img }}
-		{{ .Scratch.Add "header_img" (.Params.title_img | default $featured_image) }}
-		{{ .Scratch.Add "header_overlay_class" "" }}
-		{{ .Scratch.Add "title" "" }} 
-		{{ .Scratch.Add "description" "" }} 
+		{{ .Scratch.Set "header_img" (.Params.title_img | default $featured_image) }}
+		{{ .Scratch.Set "header_overlay_class" "" }}
+		{{ .Scratch.Set "title" "" }} 
+		{{ .Scratch.Set "description" "" }} 
 	{{ else }}
-		{{ .Scratch.Add "header_img" "" }}
-		{{ .Scratch.Add "header_overlay_class" "bg-black-60" }}
-		{{ .Scratch.Add "title"  (.Title | default .Site.Title) }} 
-		{{ .Scratch.Add "description" (.Params.description | default "") }} 
+		{{ .Scratch.Set "header_img" "" }}
+		{{ .Scratch.Set "header_overlay_class" "bg-black-60" }}
+		{{ .Scratch.Set "title"  (.Title | default .Site.Title) }} 
+		{{ .Scratch.Set "description" (.Params.description | default "") }} 
 	{{ end }}
   <header>
 		<div class="ph3 ph4-ns {{ .Scratch.Get "header_overlay_class" }}">

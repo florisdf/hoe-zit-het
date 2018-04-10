@@ -1,4 +1,5 @@
 {{ $url := replace .Permalink ( printf "%s" .Site.BaseURL) "" }}
+{{ $.Scratch.Delete "path" }}
 {{ $.Scratch.Add "path" .Site.BaseURL }}
 <nav class="f4 center measure-wide-l pa2 mt2">
 	{{ $paths := split $url "/" }}
