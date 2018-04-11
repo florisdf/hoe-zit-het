@@ -1,0 +1,8 @@
+{{ $section := .Paginate (where .Data.Pages "Section" .Section) }}
+{{ range  $section.Pages }}
+<div class="relative w-100 mb4">
+	{{ .Render "sections/summary-with-image" }}
+</div>
+{{ end }}
+{{ template "_internal/pagination.html" . }}
+

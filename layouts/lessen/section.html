@@ -6,33 +6,24 @@
 
 		<section class="center w-100 mw8">
 		{{ if gt (len .Sections) 0 }}
+		<!-- This section has sections as children -->
 
 			{{ range .Sections}}
 				{{ if gt (len .Sections) 0 }}
-					<!-- There are nested sections. Display them as well. -->
-					<h1> {{ .Title }} </h1>
-					 <div class="flex-ns flex-wrap justify-left center w-100 mw8">
-					{{ range .Sections }}
-						{{ .Render "nested-section-summary" }}
-					{{ end }}
-					</div>
+					<!-- The section-children contain themselves sections -->
+					{{ .Render "sections/section-children-with-sections" }}
 
 				{{ else }}
-					<!-- There are no nested sections. Just list -->
-					{{ .Render "nested-section-summary" }}
+					<!-- The section-children contain single pages -->
+					{{ .Render "sections/section-children-with-single-pages" }}
 
 				{{ end }}
 			{{ end }}
 
 		{{ else }}
-			{{ $section := .Paginate (where .Data.Pages "Section" .Section) }}
-			{{ range  $section.Pages }}
-				<div class="relative w-100 mb4">
-					{{ .Render "summary-with-image" }}
-				</div>
-			{{ end }}
-			{{ template "_internal/pagination.html" . }}
-
+			<!-- This section has single pages as children -->
+			{{ .Render "sections/section-with-single-pages" }}
 		{{ end }}
+		</section>
 </article>
 {{ end }}

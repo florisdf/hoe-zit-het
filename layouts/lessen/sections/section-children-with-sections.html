@@ -1,0 +1,6 @@
+<h1> <a class="black link dim" href="{{ .URL }}"> {{ .Title }} </a> </h1>
+<div class="flex-ns flex-wrap justify-left center w-100 mw8">
+	{{ range .Sections }}
+	{{ .Render "sections/nested-section-summary" }}
+	{{ end }}
+</div>
