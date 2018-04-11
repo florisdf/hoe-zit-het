@@ -13,13 +13,13 @@
 					<h1> {{ .Title }} </h1>
 					 <div class="flex-ns flex-wrap justify-left center w-100 mw8">
 					{{ range .Sections }}
-						{{ partial "nested-section-summary.html" . }}
+						{{ .Render "nested-section-summary" }}
 					{{ end }}
 					</div>
 
 				{{ else }}
 					<!-- There are no nested sections. Just list -->
-					{{ partial "nested-section-summary.html" . }}
+					{{ .Render "nested-section-summary" }}
 
 				{{ end }}
 			{{ end }}
@@ -28,7 +28,7 @@
 			{{ $section := .Paginate (where .Data.Pages "Section" .Section) }}
 			{{ range  $section.Pages }}
 				<div class="relative w-100 mb4">
-					{{ partial "summary-with-image.html" . }}
+					{{ .Render "summary-with-image" }}
 				</div>
 			{{ end }}
 			{{ template "_internal/pagination.html" . }}
