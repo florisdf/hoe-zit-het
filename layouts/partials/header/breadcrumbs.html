@@ -1,10 +1,8 @@
-<nav class="f4 center measure-wide-l pa2 mt2">
+<div>
 	{{ template "breadcrumbnav" (dict "p1" . "p2" .) }}
-</nav>
+</div>
 
 {{ define "breadcrumbnav" }}
-	{{ $css_class := "link dim gray" }}
-
 	{{ if .p1.Parent }}
 		{{ template "breadcrumbnav" (dict "p1" .p1.Parent "p2" .p2 )  }}
 
@@ -13,9 +11,30 @@
 	
 	{{ end }}
 
-	{{ if not .p1.IsHome }}
-		<a class="{{ $css_class }}" href="{{ .p1.Permalink }}"> > </a>
+	{{ .p1.Scratch.Set "crumb_class" "no-underline dib v-mid " }}
+
+	<!-- Set breadcrumb's text color -->
+	{{ .p1.Scratch.Add "crumb_class" "o-90 " }}
+	{{ if eq .p1 .p2 }}
+		{{ .p1.Scratch.Add "crumb_class" "black " }}
+	{{ else }}
+		{{ .p1.Scratch.Add "crumb_class" "gray " }}
 	{{ end }}
-	<a class="{{ if eq .p1 .p2 }}blue{{ end }} {{ $css_class }}" href="{{ .p1.Permalink }}">{{ .p1.Title | humanize | lower }}</a>
+
+
+	<!-- Set breadcrumb's text size -->
+	{{ if .p1.IsHome }}
+		{{ .p1.Scratch.Add "crumb_class" "f3 fw7 " }}
+	{{ else }}
+		{{ .p1.Scratch.Add "crumb_class" "f5 f4-ns" }}
+	{{ end }}
+
+
+	<!-- Prepend crumbs with `>` -->
+	{{ if not .p1.IsHome }}
+		<div class="dib {{ .p1.Scratch.Get "crumb_class" }}"> /  </div>
+	{{ end }}
+
+	<a class="{{ .p1.Scratch.Get "crumb_class" }}" href="{{ .p1.Permalink }}">{{ .p1.Title | humanize | lower }}</a>
 
 {{ end }}

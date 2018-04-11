@@ -1,8 +1,6 @@
 <nav class="pv3" role="navigation">
   <div class="flex-l justify-between items-center center">
-    <a href="{{ .Site.BaseURL }}" class="f3 fw7 dim no-underline black-90 dib">
-      {{ .Site.Title }}
-    </a>
+		{{ partial "header/breadcrumbs.html" . }}
     <div class="flex-l items-center">
       {{ if .Site.Menus.main }}
         <ul class="pl0 ml3">
