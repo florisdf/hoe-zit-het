@@ -18,12 +18,12 @@
     {{ end }}
 
 		{{ block "custom_fonts" . }}
-			{{ partial "custom-fonts.html" . }}
+			{{ partial "head/custom-fonts.html" . }}
 		{{ end }}
     <link href='{{ "dist/main.css" | absURL }}' rel='stylesheet' type="text/css" />
 		<link href="/css/custom_styles.css" rel="stylesheet" type="text/css" />
     {{ block "favicon" . }}
-      {{ partial "site-favicon.html" . }}
+      {{ partial "head/site-favicon.html" . }}
     {{ end }}
 
     {{ if .RSSLink }}
@@ -44,11 +44,11 @@
 
   <body class="ma0 {{ $.Param "body_classes"  | default "avenir bg-near-white"}}{{ with getenv "HUGO_ENV" }} {{ . }}{{ end }}">
 
-    {{ block "header" . }}{{ partial "site-header.html" .}}{{ end }}
+    {{ block "header" . }}{{ partial "header/site-header.html" .}}{{ end }}
     <main class="pb7" role="main">
       {{ block "main" . }}{{ end }}
     </main>
-    {{ block "footer" . }}{{ partial "site-footer.html" . }}{{ end }}
-    {{ block "scripts" . }}{{ partial "site-scripts.html" . }}{{ end }}
+    {{ block "footer" . }}{{ partial "footer/site-footer.html" . }}{{ end }}
+    {{ block "scripts" . }}{{ partial "footer/site-scripts.html" . }}{{ end }}
   </body>
 </html>

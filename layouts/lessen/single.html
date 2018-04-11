@@ -1,6 +1,6 @@
 {{ define "header" }}
    {{/* We can override any block in the baseof file be defining it in the template */}}
-  {{ partial "page-header.html" . }}
+  {{ partial "head/page-header.html" . }}
 {{ end }}
 
 {{ define "main" }}
@@ -21,10 +21,10 @@
       <section class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray">
         {{ .Content }}
       </section>
-      {{ partial "tags.html" . }}
+      {{ partial "main/tags.html" . }}
     </article>
     <div class="ph3 mt2 mt6-ns">
-      {{ partial "menu-contextual.html" . }}
+      {{ partial "main/menu-contextual.html" . }}
     </div>
   </div>
 {{ end }}

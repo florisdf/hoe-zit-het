@@ -17,7 +17,7 @@
 	{{ end }}
   <header>
 		<div class="ph3 ph4-ns {{ .Scratch.Get "header_overlay_class" }}">
-      {{ partial "site-navigation.html" .}}
+      {{ partial "header/site-navigation.html" .}}
       <div class="tc-l pv4 pv6-l contain bg-top" style="background-image: url('{{ .Scratch.Get "header_img" }}');">
         <h1 class="f2 f-subheadline-l fw2 white-90 mb0 lh-title">
           {{ .Scratch.Get "title" }}
@@ -33,7 +33,7 @@
 {{ else }}
   <header>
     <div class="ph3 ph4-ns pb3-m pb6-l {{ .Site.Params.background_color_class | default "bg-black" }}">
-      {{ partial "site-navigation.html" . }}
+      {{ partial "header/site-navigation.html" . }}
       <div class="tc-l pv3">
         <h1 class="f2 f-subheadline-l fw2 light-silver mb0 lh-title">
           {{ .Title | default .Site.Title }}
@@ -47,4 +47,4 @@
     </div>
   </header>
 {{ end }}
-{{ partial "breadcrumbs.html" . }}
+{{ partial "header/breadcrumbs.html" . }}

@@ -1,4 +1,4 @@
-{{ define "header" }}{{ partial "page-header.html" . }}{{ end }}
+{{ define "header" }}{{ partial "header/page-header.html" . }}{{ end }}
 {{ define "main" }}
   <div class="flex-l mt2 mw8 center">
     <article class="center cf pv5 ph3 ph4-ns mw7">
@@ -15,7 +15,7 @@
       </div>
     </article>
     <aside class="ph3 mt2 mt6-ns">
-      {{ partial "menu-contextual.html" . }}
+      {{ partial "main/menu-contextual.html" . }}
     </aside>
   </div>
 {{ end }}
