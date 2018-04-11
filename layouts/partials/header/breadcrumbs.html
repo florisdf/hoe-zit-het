@@ -1,18 +1,21 @@
-{{ $url := replace .Permalink ( printf "%s" .Site.BaseURL) "" }}
-{{ $.Scratch.Delete "path" }}
-{{ $.Scratch.Add "path" .Site.BaseURL }}
 <nav class="f4 center measure-wide-l pa2 mt2">
-	{{ $paths := split $url "/" }}
-	{{ if gt (len $paths) 1 }}
-		{{ $css_class := "link dim gray" }}
-		<a class="{{ $css_class }}" href="{{ .Site.BaseURL }}">{{ .Site.Title }} </a>
-		{{ range $index, $element := split $url "/" }}
-			{{ $.Scratch.Add "path" $element }}
-				{{ if ne $element "" }}
-				<a class="{{ $css_class }}" href='{{ $.Scratch.Get "path" }}'> > </a>
-				<a class="{{ $css_class }}" href='{{ $.Scratch.Get "path" }}'> {{ . | humanize | lower }} </a>
-				{{ $.Scratch.Add "path" "/" }}
-				{{ end }}
-		{{ end }}
-	{{ end }}
+	{{ template "breadcrumbnav" (dict "p1" . "p2" .) }}
 </nav>
+
+{{ define "breadcrumbnav" }}
+	{{ $css_class := "link dim gray" }}
+
+	{{ if .p1.Parent }}
+		{{ template "breadcrumbnav" (dict "p1" .p1.Parent "p2" .p2 )  }}
+
+	{{ else if not .p1.IsHome }}
+		{{ template "breadcrumbnav" (dict "p1" .p1.Site.Home "p2" .p2 )  }}
+	
+	{{ end }}
+
+	{{ if not .p1.IsHome }}
+		<a class="{{ $css_class }}" href="{{ .p1.Permalink }}"> > </a>
+	{{ end }}
+	<a class="{{ if eq .p1 .p2 }}blue{{ end }} {{ $css_class }}" href="{{ .p1.Permalink }}">{{ .p1.Title | humanize | lower }}</a>
+
+{{ end }}
