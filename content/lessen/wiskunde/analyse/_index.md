@@ -1,5 +1,5 @@
 ---
 title: "Analyse"
 title_img: "/images/analyse.svg"
-bg_class: "bg-green"
+section_color: "#19a974"
 ---

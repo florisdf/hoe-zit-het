@@ -3,6 +3,9 @@
 </div>
 
 {{ define "breadcrumbnav" }}
+	{{ .p1.Scratch.Set "crumb_style" "" }}
+	{{ .p1.Scratch.Set "crumb_style" "" }}
+
 	{{ if .p1.Parent }}
 		{{ template "breadcrumbnav" (dict "p1" .p1.Parent "p2" .p2 )  }}
 
@@ -16,7 +19,9 @@
 	<!-- Set breadcrumb's text color -->
 	{{ .p1.Scratch.Add "crumb_class" "o-90 " }}
 	{{ if eq .p1 .p2 }}
-		{{ .p1.Scratch.Add "crumb_class" "black " }}
+		{{ .p1.Scratch.Set "crumb_style" "color: " }}
+		{{ $crumb_color :=  (.p1.Params.section_color | default .p1.Site.Params.default_stroke) }}
+		{{ .p1.Scratch.Add "crumb_style" $crumb_color }}
 	{{ else }}
 		{{ .p1.Scratch.Add "crumb_class" "gray " }}
 	{{ end }}
@@ -26,15 +31,15 @@
 	{{ if .p1.IsHome }}
 		{{ .p1.Scratch.Add "crumb_class" "f3 fw7 " }}
 	{{ else }}
-		{{ .p1.Scratch.Add "crumb_class" "f5 f4-ns" }}
+		{{ .p1.Scratch.Add "crumb_class" "f5 f4-ns " }}
 	{{ end }}
 
 
 	<!-- Prepend crumbs with `>` -->
 	{{ if not .p1.IsHome }}
-		<div class="dib {{ .p1.Scratch.Get "crumb_class" }}"> /  </div>
+	<div class="dib gray {{ .p1.Scratch.Get "crumb_class" }}"> / </div>
 	{{ end }}
 
-	<a class="{{ .p1.Scratch.Get "crumb_class" }}" href="{{ .p1.Permalink }}">{{ .p1.Title | humanize | lower }}</a>
+	<a class="{{ .p1.Scratch.Get "crumb_class" }}" href="{{ .p1.Permalink }}" style="{{ .p1.Scratch.Get "crumb_style" }}">{{ .p1.Title | humanize | lower }}</a>
 
 {{ end }}

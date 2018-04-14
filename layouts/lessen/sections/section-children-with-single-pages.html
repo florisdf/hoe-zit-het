@@ -1,6 +1,10 @@
+{{ $section := .Pages }}
+{{ $n_posts := $.Param "posts_per_section" | default 3 }}
+{{ $section_count := len $section }}
+{{ if ge $section_count 1 }}
 <div onclick="window.location='{{ .URL }}';" class="grow shadow-hover relative w-100 mb1 contain bg-center o-90" style="background-image: url('{{ .Params.title_img | default "" }}');">
 
-	<div class="{{ .Params.bg_class | default "bg-black" }} o-90 pa1"/>
+	<div class="o-90 pa1" style="background-color: {{ .Params.section_color | default "#000000" }};" />
 		<h1 class="f3" style="text-shadow: 1px 1px rgba(0,0,0,0.3);">
 			<a href="{{ .URL }}" class="link near-white"/>
 				{{ .Title }}
@@ -9,14 +13,18 @@
 	</div>
 </div>
 
-{{ $section := .Pages }}
-{{ $n_posts := $.Param "recent_posts_number" | default 3 }}
+	<section class="w-100 mw8">
+		{{/* Range through the first $n_posts items of the section */}}
+		{{ range (first $n_posts $section) }}
+		<div class="relative w-100 mb4">
+			{{ .Render "summary-with-image" }}
+		</div>
+		{{ end }}
 
-<section class="w-100 mw8">
-	{{/* Range through the first $n_posts items of the section */}}
-	{{ range (first $n_posts $section) }}
-	<div class="relative w-100 mb4">
-		{{ .Render "summary-with-image" }}
-	</div>
+		{{ if ge $section_count (add $n_posts 1) }}
+			{{ $.Scratch.Add "link_text" "Meer " }}
+			{{ $.Scratch.Add "link_text" (.Title | lower) }}
+			{{ partial "main/button_link.html" (dict "link_url" .URL "link_text" ($.Scratch.Get "link_text") "link_color" (.Params.section_color | default "#000000")) }}
+		{{ end }}
+	</section>
 	{{ end }}
-</section>

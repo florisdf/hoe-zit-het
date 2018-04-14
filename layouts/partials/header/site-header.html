@@ -6,20 +6,18 @@
 	{{/* If the image functions as a title, don't add a title */}}
 	{{ if .Params.title_img }}
 		{{ .Scratch.Set "header_img" (.Params.title_img | default $featured_image) }}
-		{{ .Scratch.Set "header_overlay_class" "" }}
 		{{ .Scratch.Set "title" "" }} 
 		{{ .Scratch.Set "description" "" }} 
 	{{ else }}
 		{{ .Scratch.Set "header_img" "" }}
-		{{ .Scratch.Set "header_overlay_class" "bg-black-60" }}
 		{{ .Scratch.Set "title"  (.Title | default .Site.Title) }} 
 		{{ .Scratch.Set "description" (.Params.description | default "") }} 
 	{{ end }}
   <header>
-		<div class="ph3 ph4-ns {{ .Scratch.Get "header_overlay_class" }}">
+		<div class="ph3 ph4-ns">
       {{ partial "header/site-navigation.html" .}}
       <div class="tc-l pv4 pv6-l contain bg-top" style="background-image: url('{{ .Scratch.Get "header_img" }}');">
-        <h1 class="f2 f-subheadline-l fw2 white-90 mb0 lh-title">
+				<h1 class="f2 f-subheadline-l fw2 mb0 lh-title" style="color: {{ .Params.section_color | default .Site.Params.default_stroke }}">
           {{ .Scratch.Get "title" }}
         </h1>
         {{ with .Scratch.Get "description" }}

@@ -8,7 +8,7 @@
 		{{ if gt (len .Sections) 0 }}
 		<!-- This section has sections as children -->
 
-			{{ range .Sections}}
+			{{ range .Sections.ByTitle }}
 				{{ if gt (len .Sections) 0 }}
 					<!-- The section-children contain themselves sections -->
 					{{ .Render "sections/section-children-with-sections" }}

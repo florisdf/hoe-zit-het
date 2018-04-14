@@ -1,6 +1,6 @@
 <div onclick="window.location='{{ .URL }}';" class="grow shadow-hover relative w-100 w-30-l mb4 mr3 contain bg-center o-90" style="background-image: url('{{ .Params.title_img | default "" }}');">
 
-	<div class="{{ .Params.bg_class | default "bg-black" }} o-90 pa3"/>
+	<div class="o-90 pa3" style="background-color: {{ .Params.section_color | default .Site.Params.default_stroke }};"/>
 		<h1 class="f3" style="text-shadow: 1px 1px rgba(0,0,0,0.3);">
 			<a href="{{ .URL }}" class="link near-white"/>
 				{{ .Title }}

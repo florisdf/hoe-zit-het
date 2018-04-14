@@ -4,8 +4,8 @@
         {{ .Date.Format "January 2, 2006" }}
       </div>
     {{ end }}
-    <h1 class="f3 near-black">
-      <a href="{{ .URL }}" class="link black dim">
+    <h1 class="f3">
+      <a href="{{ .URL }}" class="link dim" style="color: {{ .CurrentSection.Params.section_color | default .Site.Params.default_stroke }};">
         {{ .Title }}
       </a>
     </h1>

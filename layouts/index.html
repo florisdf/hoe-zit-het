@@ -37,7 +37,7 @@
         {{/* Now, range through the next four after the initial $n_posts items. Nest the requirements, "after" then "first" on the outside */}}
         {{ range (first 4 (after $n_posts $section))  }}
           <h2 class="f5 fw4 mb4 dib mr3">
-            <a href="{{ .URL }}" class="link black dim">
+            <a href="{{ .URL }}" class="link black dim"  style="color: {{ .CurrentSection.Params.section_color | default .Site.Params.default_stroke }};">
               {{ .Title }}
             </a>
           </h2>
@@ -45,7 +45,9 @@
 
         {{/* As above, Use $section_name to get the section title, and URL. Use "with" to only show it if it exists */}}
         {{ with .Site.GetPage "section" $section_name }}
-          <a href="{{ .URL }}" class="f6 link dim db br2 ba bw1 ph2 pv1 mid-gray w4 tc">Alle {{ .Title | lower }}</a>
+					{{ $.Scratch.Add "link_text" "Alle " }}
+					{{ $.Scratch.Add "link_text" (.Title | lower) }}
+					{{ partial "main/button_link.html" (dict "link_url" .URL "link_text" ($.Scratch.Get "link_text") "link_color" "#000000") }}
         {{ end }}
         </section>
       {{ end }}
