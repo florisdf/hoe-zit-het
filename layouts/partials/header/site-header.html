@@ -44,4 +44,5 @@
       </div>
     </div>
   </header>
+	{{ partial "svg/svg_color_replace.svg" dict ( "svg_file" .Scratch.Get "header_img" "old_color" "#000000" "new_color" .Params.section_color ) }}
 {{ end }}
