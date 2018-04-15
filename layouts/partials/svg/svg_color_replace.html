@@ -1,0 +1,4 @@
+{{ $old_color := (.old_color | default "#000000") }}
+{{ $height_regex := "(<svg[^>]*height=\")[^\"]*(\")" }}
+{{ $svg_file := (delimit (slice "/static" .svg_file) "/") }}
+{{ replace (readFile $svg_file) $old_color .new_color | replaceRE "<\\?xml.*\\?>" "" | replaceRE "<svg([^>]*)>" "<svg$1 style=\"height: inherit;\">" | replaceRE "(<svg[^>]*width=\")[^\"]*(\")" "$1 auto $2" | replaceRE "(<svg[^>]*height=\")[^\"]*(\")" "$1 auto $2" | safeHTML }}

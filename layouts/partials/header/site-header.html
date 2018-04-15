@@ -16,10 +16,15 @@
   <header>
 		<div class="ph3 ph4-ns">
       {{ partial "header/site-navigation.html" .}}
-      <div class="tc-l pv4 pv6-l contain bg-top" style="background-image: url('{{ .Scratch.Get "header_img" }}');">
-				<h1 class="f2 f-subheadline-l fw2 mb0 lh-title" style="color: {{ .Params.section_color | default .Site.Params.default_stroke }}">
-          {{ .Scratch.Get "title" }}
-        </h1>
+      <div class="tc-l pv2 pv4-l contain bg-top">
+				<div class="h5 center">
+					{{ partial "svg/svg_color_replace.html" (dict "svg_file" (.Scratch.Get "header_img" | default $.Params.default_image) "new_color" (.Params.section_color | default $.Params.default_fill) ) }}
+				</div>
+				{{ with .Scratch.Get "title" }}
+					<h1 class="f2 f-subheadline-l fw2 mb0 lh-title" style="color: {{ .Params.section_color | default .Site.Params.default_stroke }}">
+						{{ . }}
+					</h1>
+				{{ end }}
         {{ with .Scratch.Get "description" }}
           <h2 class="fw1 f5 f3-l white-80 measure-wide-l center mt3">
             {{ . }}
@@ -44,5 +49,4 @@
       </div>
     </div>
   </header>
-	{{ partial "svg/svg_color_replace.svg" dict ( "svg_file" .Scratch.Get "header_img" "old_color" "#000000" "new_color" .Params.section_color ) }}
 {{ end }}

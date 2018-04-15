@@ -32,3 +32,4 @@ enableRobotsTXT = true
   read_more_copy = "Lees meer"
   default_fill = "#ffffff"
   default_stroke = "#000000"
+	default_image = "/images/logo.svg"

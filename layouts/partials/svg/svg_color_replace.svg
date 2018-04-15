@@ -1,3 +1,0 @@
-<object data="{{ replace (readFile .svg_file) .old_color .new_color }}" type="image/svg+xml">
-  <img src="{{ .svg_file }}" />
-</object>
