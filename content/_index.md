@@ -1,4 +1,4 @@
 ---
 title: "Hoe zit het?"
-title_img : "/images/logo_black.svg"
+title_img : "/images/logo.svg"
 ---

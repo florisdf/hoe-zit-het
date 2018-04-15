@@ -1,0 +1,21 @@
+{{ $svg_file := (delimit (slice "/static" .svg_file) "/") }}
+
+{{/* Define all regex patterns and their substitutions*/}}
+{{ $color_pattern := (.old_color | default "#000000") }}
+{{ $color_subst := .new_color }}
+
+{{ $style_pattern := "<svg([^>]*)>" }}
+{{ $style_subst := "<svg$1 style=\"height: inherit;\">"  }}
+
+{{ $height_pattern := "(<svg[^>]*height=\")[^\"]*(\")"  }}
+{{ $height_subst := "$1 auto $2"  }}
+
+{{ $width_pattern := "(<svg[^>]*width=\")[^\"]*(\")"  }}
+{{ $width_subst := "$1 auto $2"  }}
+
+{{ $old_text := (.old_text | default "default") }}
+{{ $text_pattern := (delimit (slice "(<tspan[^>]*>)" $old_text "(</tspan>)") "") }}
+{{ $new_text := (.new_text | default "") }}
+{{ $text_subst := (delimit (slice "$1" $new_text "$2") " ") }}
+
+{{ readFile $svg_file | replaceRE $color_pattern $color_subst | replaceRE $style_pattern $style_subst | replaceRE $height_pattern $height_subst | replaceRE $width_pattern $width_subst | replaceRE $text_pattern $new_text | safeHTML }}
