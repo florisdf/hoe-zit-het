@@ -47,7 +47,7 @@
 
         {{/* As above, Use $section_name to get the section title, and URL. Use "with" to only show it if it exists */}}
         {{ with .Site.GetPage "section" $section_name }}
-					{{ $.Scratch.Add "link_text" "Alle " }}
+					{{ $.Scratch.Set "link_text" "Alle " }}
 					{{ $.Scratch.Add "link_text" (.Title | lower) }}
 					{{ partial "main/button_link.html" (dict "link_url" .URL "link_text" ($.Scratch.Get "link_text") "link_color" "#000000") }}
         {{ end }}
