@@ -20,7 +20,7 @@
 	{{ .p1.Scratch.Add "crumb_class" "o-90 " }}
 	{{ if eq .p1 .p2 }}
 		{{ .p1.Scratch.Set "crumb_style" "color: " }}
-		{{ $crumb_color :=  (.p1.Params.section_color | default .p1.Site.Params.default_stroke) }}
+		{{ $crumb_color :=  (.p1.Params.section_color | default (.p1.Scratch.Get "stroke") | default .p1.Site.Params.default_stroke) }}
 		{{ .p1.Scratch.Add "crumb_style" $crumb_color }}
 	{{ else }}
 		{{ .p1.Scratch.Add "crumb_class" "gray " }}
