@@ -5,7 +5,7 @@
 {{ $color_subst := .new_color }}
 
 {{ $style_pattern := "<svg([^>]*)>" }}
-{{ $style_subst := "<svg$1 style=\"height: inherit;\">"  }}
+{{ $style_subst := "<svg$1 style=\"height: inherit; width: 100%\">"  }}
 
 {{ $height_pattern := "(<svg[^>]*height=\")[^\"]*(\")"  }}
 {{ $height_subst := "$1 auto $2"  }}
