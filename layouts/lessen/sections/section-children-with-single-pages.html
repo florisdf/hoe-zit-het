@@ -22,7 +22,7 @@
 		{{ end }}
 
 		{{ if ge $section_count (add $n_posts 1) }}
-			{{ $.Scratch.Add "link_text" "Meer " }}
+			{{ $.Scratch.Set "link_text" "Meer " }}
 			{{ $.Scratch.Add "link_text" (.Title | lower) }}
 			{{ partial "main/button_link.html" (dict "link_url" .URL "link_text" ($.Scratch.Get "link_text") "link_color" (.Params.section_color | default "#000000")) }}
 		{{ end }}
