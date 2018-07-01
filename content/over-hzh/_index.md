@@ -2,7 +2,7 @@
 title: "Over"
 date: 2018-04-02T22:49:16+02:00
 title_img : "/images/about.svg"
-draft: true
+draft: false
 menu:
   main:
     weight: 20
