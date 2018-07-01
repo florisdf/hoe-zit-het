@@ -9,6 +9,7 @@ Paginate = 3 # this is set low for demonstrating with dummy content. Set to a hi
 PaginatePath = "pagina"
 googleAnalytics = ""
 enableRobotsTXT = true
+enableEmoji = true
 
 [sitemap]
   changefreq = "monthly"
