@@ -7,7 +7,7 @@ menu:
   main:
     weight: 20
 ---
-"Hoe zit het?" is een site waarin ik (Floris) uitleg hoe dingen die me interesseren in elkaar zitten. Ik probeer dat telkens op een bevattelijke, niet al te saaie manier te doen. Het moet gezellig blijven. In principe is er  geen specifieke doelgroep, maar ik hoop in de eerst plaats dat ik leerlingen en studenten die hier en daar wat moeite hebben met wiskunde en wetenschappen iets kan bijbrengen.
+"Hoe zit het?" is een site waarin ik (Floris) uitleg hoe dingen die me interesseren in elkaar zitten. Ik probeer dat telkens op een bevattelijke, niet al te saaie manier te doen. Het moet gezellig blijven, hé. In principe is er  geen specifieke doelgroep, maar ik hoop in de eerst plaats dat ik leerlingen en studenten die hier en daar wat moeite hebben met wiskunde en wetenschappen iets kan bijbrengen.
 
 Moest je vragen, opmerkingen of suggesties hebben, zijn deze [meer dan welkom](/contact)!
 
