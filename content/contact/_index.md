@@ -2,7 +2,7 @@
 title: Contact
 description: Vraag erop los!
 title_img : "/images/contact.svg"
-draft: true
+draft: false
 menu:
   main:
     weight: 30
