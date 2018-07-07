@@ -50,7 +50,10 @@ idee van iets wat in waanzinnig veel situaties voorkomt. Door het abstracte
 idee van functies in de wiskunde te bestuderen, kunnen we over al die 
 verschillende situaties op dezelfde manier nadenken.
 
+## Één vraag, (g)één antwoord
+Je mag je een functie voorstellen als een 
+
 [^1]: Abstract (komt van het Latijn *abstrahere* --- weglaten) wilt zeggen dat 
-  je details weglaat tot je enkel overhoudt "wat er echt toe doet". Een 
-  "abstracte" voorstelling van een mens is bijvoorbeeld het stokmannetje dat je 
-  als kleuter tekende.
+    je details weglaat tot je enkel overhoudt "wat er echt toe doet". Een 
+    "abstracte" voorstelling van een mens is bijvoorbeeld het stokmannetje dat 
+    je als kleuter tekende.
