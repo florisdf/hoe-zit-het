@@ -2,6 +2,7 @@ title = "hoe zit het?"
 baseURL = "https://hoezithet.net/"
 languageCode = "nl-be"
 theme = "gohugo-theme-ananke"
+pluralizelisttitles = "false"
 
 MetaDataFormat = "yaml"
 DefaultContentLanguage = "nl"
