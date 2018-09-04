@@ -24,15 +24,15 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="1920"
-     inkscape:window-height="1018"
+     inkscape:window-width="1600"
+     inkscape:window-height="872"
      id="namedview1731"
      showgrid="false"
      inkscape:zoom="1.1936257"
-     inkscape:cx="390.67976"
+     inkscape:cx="248.25655"
      inkscape:cy="202.50797"
-     inkscape:window-x="1600"
-     inkscape:window-y="34"
+     inkscape:window-x="0"
+     inkscape:window-y="180"
      inkscape:window-maximized="1"
      inkscape:current-layer="g4598"
      inkscape:snap-global="false" />
@@ -204,7 +204,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -623,7 +623,7 @@
          d="m 75.730197,30.176531 q 0,-0.03873 0.125878,-0.132333 0.674574,-0.522875 1.158719,-1.329783 0.487372,-0.806907 0.706851,-1.62027 0.222706,-0.813363 0.222706,-1.5654 0,-0.448641 -0.0936,-0.819819 -0.09037,-0.371177 -0.200113,-0.551924 -0.109739,-0.180747 -0.203341,-0.31308 -0.09037,-0.132333 -0.09037,-0.161381 0,-0.0581 0.112967,-0.0581 h 0.132332 q 0.132333,0 0.322763,0.290486 0.442185,0.66812 0.442185,1.659002 0,0.719761 -0.213023,1.516986 -0.209796,0.797224 -0.726217,1.655774 -0.513193,0.858549 -1.255547,1.407247 -0.106512,0.08069 -0.216252,0.08069 h -0.100056 q -0.125878,0 -0.125878,-0.0581 z" />
       <text
          xml:space="preserve"
-         style="font-style:italic;font-variant:normal;font-weight:500;font-stretch:normal;font-size:10.58333397px;line-height:1.25;font-family:'CMU Concrete';-inkscape-font-specification:'CMU Concrete Medium Italic';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458335"
+         style="font-style:italic;font-variant:normal;font-weight:500;font-stretch:normal;font-size:10.58333397px;line-height:1.25;font-family:'CMU Concrete';-inkscape-font-specification:'CMU Concrete Medium Italic';letter-spacing:0px;word-spacing:0px;fill:#ff6600;fill-opacity:1;stroke:none;stroke-width:0.26458335;"
          x="127.69723"
          y="59.775108"
          id="text6207"><tspan
@@ -631,7 +631,7 @@
            id="tspan6205"
            x="127.69723"
            y="59.775108"
-           style="stroke-width:0.26458335">1</tspan></text>
+           style="stroke-width:0.26458335;fill:#ff6600;">1</tspan></text>
     </g>
   </g>
   <g
