@@ -6,7 +6,7 @@ tags: ["Functies", "Analyse"]
 categories: ["wiskunde", "analyse", "3e middelbaar"]
 ---
 ## Een functie is een machientje
-Je kan een functie zien als een *machientje* waar je een getal $x$ instopt en een getal $y$ uitkomt. Jij kiest de $x$. Het machientje bepaalt de $y$ afhankelijk van jouw $x$.
+Je kan een functie zien als een *machientje* waar je een getal $x$ instopt en een getal $y$ uitkomt. [^1] Jij kiest de $x$. Het machientje bepaalt de $y$ afhankelijk van jouw $x$.
 
 {{< img "img/conveyor_plain.svg" "" >}}
 
@@ -112,3 +112,13 @@ hebben.*
 
 Ga even na wat de nulpunten van de groene en de oranje functies zijn. Je zou
 moeten vinden dat ze allebei een nulpunt hebben voor $x=0$.
+
+## Samengevat
+Een functie kan je zien als een machientje waar je een getal kan in stoppen
+($x$) en waar vervolgens een getal uit komt ($y$). De manier waarop de $y$
+wordt berekent verschilt van functie tot functie. Alle mogelijke $x$-waarden
+noemen we het **domein** van de functie. Alle mogelijke $y$-waarden noemen we
+het **beeld** van de functie. De **nulpunten** zijn de $x$-waarden die ervoor
+zorgen dat $y=0$.
+
+[^1]: Met *getallen* bedoelen we in dit artikel altijd [*reële* getallen](https://nl.wikipedia.org/wiki/Re%C3%ABel_getal). Met *functies* bedoelen we *reële* functies.
