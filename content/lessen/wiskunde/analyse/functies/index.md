@@ -91,12 +91,24 @@ enkel positieve getallen kunnen komen! Zo is het ook. Welk getal je ook in het
 oranje machientje stopt, er komt **altijd een positief getal uit**. Het beeld
 van de oranje functie bevat dus alle *positieve* getallen.
 
+Je kan dezelfde oefening eens proberen maken voor het blauwe en het groene
+machientje. Probeer zelf na te gaan waarom het blauwe domein alle getallen
+bevat en het groene domein enkel alle positieve getallen.
+
 ## Nulpunten van een functie
-Je kan je inbeelden dat er soms $x$-waarden zullen zijn waarvoor de $y$-waarden
-$0$ zijn. Deze $x$-waarden noemen we **nulpunten**. De functie $y = x + 2$
-heeft als nulpunt $x = -2$. De functie $y = \sqrt{x}$ heeft als nulpunt $x = 0$
-en de functie $y = x^2 - 9$ heeft de nulpunten $x = -3$ en $x = 3$.
+Even terug naar het eenvoudige blauwe machientje:
 
-{{< img "img/conveyor_zero.svg" "" >}}
+{{< img "img/conveyor_voorschrift_1.svg" "" >}}
 
-[^1]: Eigenlijk kan dit wel, maar de uitkomst is geen reëel getal.
+Een laatste vraag: **Zijn er $x$-waarden waarvoor er een $0$ uit het machientje komt?**
+
+Door even na te denken zie je inderdaad dat er een $0$ uit het blauwe
+machientje komt wanneer je er $-2$ in stopt.
+
+{{< img "img/zero_blauw.svg" "" >}}
+
+*De nulpunten van een functie zijn de $x$-waarden die als $y$-waarde $0$
+hebben.*
+
+Ga even na wat de nulpunten van de groene en de oranje functies zijn. Je zou
+moeten vinden dat ze allebei een nulpunt hebben voor $x=0$.
