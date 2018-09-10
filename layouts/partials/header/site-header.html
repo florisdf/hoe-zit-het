@@ -1,4 +1,4 @@
-{{ $svg_file := (.Params.title_img | default $.Site.Params.default_image ) }}
+{{ $svg_file := (.Params.title_img | default ($.Scratch.Get "title_img") | default $.Site.Params.default_image ) }}
 {{ $svg_color := (.Params.section_color | default ($.Scratch.Get "stroke") | default $.Site.Params.default_stroke) }}
 
 {{ $title := (.Title | default .Site.Title) }}
