@@ -11,7 +11,7 @@ Je kan een functie zien als een *machientje* waar je een getal $x$ instopt en ee
 {{< img "img/conveyor_plain.svg" "" >}}
 
 Bijvoorbeeld: we hebben een blauw machientje dat altijd twee optelt bij jouw $x$. Je kan
-zeggen dat de $y$ die uit het machientje komt gelijkt is aan $x+2$:
+zeggen dat de $y$ die uit het machientje komt gelijk is aan $x+2$:
 
 $$y = x + 2$$
 
