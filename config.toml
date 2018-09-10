@@ -35,3 +35,4 @@ enableEmoji = true
   default_fill = "#ffffff"
   default_stroke = "#000000"
 	default_image = "/images/default.svg"
+  env = "production"
