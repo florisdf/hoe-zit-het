@@ -102,8 +102,8 @@ Even terug naar het eenvoudige blauwe machientje:
 
 Een laatste vraag: **Zijn er $x$-waarden waarvoor er een $0$ uit het machientje komt?**
 
-Door even na te denken zie je inderdaad dat er een $0$ uit het blauwe
-machientje komt wanneer je er $-2$ in stopt.
+Door even na te denken zie je inderdaad dat $y=0$ wanneer je $x=-2$ in het
+blauwe machientje stopt.
 
 {{< img "img/zero_blauw.svg" "" >}}
 
