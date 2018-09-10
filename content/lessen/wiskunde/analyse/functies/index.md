@@ -103,7 +103,8 @@ Even terug naar het eenvoudige blauwe machientje:
 Een laatste vraag: **Zijn er $x$-waarden waarvoor er een $0$ uit het machientje komt?**
 
 Door even na te denken zie je inderdaad dat $y=0$ wanneer je $x=-2$ in het
-blauwe machientje stopt.
+blauwe machientje stopt. We zeggen dat het nulpunt van de blauwe functie $x=-2$
+is.
 
 {{< img "img/zero_blauw.svg" "" >}}
 
