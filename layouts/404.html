@@ -1,8 +1,11 @@
-{{ define "header" }}{{ partial "page-header.html" . }}{{ end }}
+{{ define "header" }}
+{{ $.Scratch.Set "title_img" "/images/404.svg" }}
+{{ partial "header/site-header.html" . }}
+{{ end }}
+
 {{ define "main" }}
-    <article class="center cf pv5 measure-wide-l">
-      <h1>
-        This is not the page you were looking for
-      </h1>
-    </article>
+<article class="center cf pv5 measure-wide-l">
+  <h1 class="tc">Hier zit je niet goed...</h1>
+  <div class="tc">Terug naar de <a href="{{ "/" | relURL }}">startpagina</a>!</div>
+</article>
 {{ end }}
