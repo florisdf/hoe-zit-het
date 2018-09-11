@@ -4,7 +4,7 @@
   <div class="b ttu {{ $color }}">
     {{ $title }}
   </div>
-  <div class="b">
-    {{ .Inner }}
+  <div class="">
+    {{ replace (replace .Inner "<p>" "") "</p>" "" | safeHTML }}
   </div>
 </div>
