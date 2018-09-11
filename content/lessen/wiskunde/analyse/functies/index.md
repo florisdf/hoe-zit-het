@@ -49,10 +49,10 @@ getallen**. Even illustreren:
 {{% img "img/conveyor_not_in_domain.svg" "" %}}
 
 {{% attention "Definitie" %}}
-Het **domein van een functie** is de verzameling van alle mogelijke $x$-waarden (ingangen) waarvoor de functie een $y$-waarde kan berekenen.
+Het **domein van een functie** is de verzameling van alle mogelijke $x-$waarden (ingangen) waarvoor de functie een $y-$waarde kan berekenen.
 {{% /attention %}}
 
-Voor de $x$-waarden die niet in het domein zitten, bestaat er dus géén $y$-waarde.
+Voor de $x-$waarden die niet in het domein zitten, bestaat er dus géén $y-$waarde.
 We zeggen dat **het domein** van het *blauwe* machientje alle getallen bevat,
 terwijl het domein van het *groene* machientje enkel alle *positieve* getallen
 bevat.
@@ -74,16 +74,16 @@ bedenken want het oranje domein bevat nu eenmaal **alle** getallen.
 
 {{% img "img/range_oranje.svg" "" %}}
 
-De $y$-waarden die telkens uit het oranje machientje komen, verzamelen we in een aparte doos.
-Eens we alle $x$-waarden van het oranje domein in het machientje hebben gestopt,
-hebben we aan de uitgang een hele hoop $y$-waarden verzameld. Die verzameling
-van $y$-waarden noemen we **het beeld** van de oranje functie.
+De $y-$waarden die telkens uit het oranje machientje komen, verzamelen we in een aparte doos.
+Eens we alle $x-$waarden van het oranje domein in het machientje hebben gestopt,
+hebben we aan de uitgang een hele hoop $y-$waarden verzameld. Die verzameling
+van $y-$waarden noemen we **het beeld** van de oranje functie.
 
 {{% attention "Definitie" %}}
-Het **beeld van een functie** is de verzameling van alle mogelijke $y$-waarden (uitgangen) die uit de functie kunnen komen.
+Het **beeld van een functie** is de verzameling van alle mogelijke $y-$waarden (uitgangen) die uit de functie kunnen komen.
 {{% /attention %}}
 
-Het beeld bevat dus de $y$-waarden die uit de functie komen wanneer je alle $x$-waarden van het domein één voor één in de functie stopt.
+Het beeld bevat dus de $y-$waarden die uit de functie komen wanneer je alle $x-$waarden van het domein één voor één in de functie stopt.
 Nu is de vraag natuurlijk: welke getallen zitten er allemaal in het oranje beeld?
 Wel als we $2$ in het oranje machientje stoppen, komt er $4$ uit. Als we
 $-2$ in het oranje machientje stoppen, komt er *ook* $4$ uit.
@@ -105,7 +105,7 @@ Even terug naar het eenvoudige blauwe machientje:
 
 {{% img "img/conveyor_voorschrift_1.svg" "" %}}
 
-Een laatste vraag: **Zijn er $x$-waarden waarvoor er een $0$ uit het machientje komt?**
+Een laatste vraag: **Zijn er $x-$waarden waarvoor er een $0$ uit het machientje komt?**
 
 Door even na te denken zie je inderdaad dat $y=0$ wanneer je $x=-2$ in het
 blauwe machientje stopt. We zeggen dat het nulpunt van de blauwe functie $x=-2$
@@ -114,7 +114,7 @@ is.
 {{% img "img/zero_blauw.svg" "" %}}
 
 {{% attention "Definitie" %}}
-De **nulpunten van een functie** zijn de $x$-waarden die als $y$-waarde $0$
+De **nulpunten van een functie** zijn de $x-$waarden die als $y-$waarde $0$
 hebben.
 {{% /attention %}}
 
@@ -125,9 +125,9 @@ moeten vinden dat ze allebei een nulpunt hebben voor $x=0$.
 ## Samengevat
 Een functie kan je zien als een machientje waar je een getal kan in stoppen
 ($x$) en waar vervolgens een getal uit komt ($y$). De manier waarop de $y$
-wordt berekent verschilt van functie tot functie. Alle mogelijke $x$-waarden
-noemen we het **domein** van de functie. Alle mogelijke $y$-waarden noemen we
-het **beeld** van de functie. De **nulpunten** zijn de $x$-waarden die ervoor
+wordt berekent verschilt van functie tot functie. Alle mogelijke $x-$waarden
+noemen we het **domein** van de functie. Alle mogelijke $y-$waarden noemen we
+het **beeld** van de functie. De **nulpunten** zijn de $x-$waarden die ervoor
 zorgen dat $y=0$.
 
 [^1]: Met *getallen* bedoelen we in dit artikel altijd [*reële* getallen](https://nl.wikipedia.org/wiki/Re%C3%ABel_getal). Met *functies* bedoelen we *reële* functies.
