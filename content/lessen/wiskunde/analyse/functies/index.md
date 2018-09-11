@@ -48,8 +48,10 @@ getallen**. Even illustreren:
 {{< img "img/conveyor_in_domain_2.svg" "" >}}
 {{< img "img/conveyor_not_in_domain.svg" "" >}}
 
-*Het domein van een functie is de verzameling van alle mogelijke $x$-waarden (ingangen) waarvoor de functie een $y$-waarde kan berekenen.
-Voor de $x$-waarden die niet in het domein zitten, bestaat er géén $y$-waarde.*
+{{< attention "Definitie" >}}
+Het domein van een functie is de verzameling van alle mogelijke $x$-waarden (ingangen) waarvoor de functie een $y$-waarde kan berekenen.
+Voor de $x$-waarden die niet in het domein zitten, bestaat er géén $y$-waarde.
+{{< /attention >}}
 
 We zeggen dat **het domein** van het *blauwe* machientje alle getallen bevat,
 terwijl het domein van het *groene* machientje enkel alle *positieve* getallen
@@ -77,7 +79,9 @@ Eens we alle $x$-waarden van het oranje domein in het machientje hebben gestopt,
 hebben we aan de uitgang een hele hoop $y$-waarden verzameld. Die verzameling
 van $y$-waarden noemen we **het beeld** van de oranje functie.
 
-*Het beeld van een functie is de verzameling van alle mogelijke $y$-waarden (uitgangen) die uit de functie kunnen komen. Ze zijn de $y$-waarden die uit de functie komen wanneer je alle $x$-waarden van het domein één voor één in de functie stopt.*
+{{< attention "Definitie" >}}
+Het beeld van een functie is de verzameling van alle mogelijke $y$-waarden (uitgangen) die uit de functie kunnen komen. Ze zijn de $y$-waarden die uit de functie komen wanneer je alle $x$-waarden van het domein één voor één in de functie stopt.
+{{< /attention >}}
 
 Nu is de vraag natuurlijk: welke getallen zitten er allemaal in het oranje beeld?
 Wel als we $2$ in het oranje machientje stoppen, komt er $4$ uit. Als we
@@ -108,8 +112,11 @@ is.
 
 {{< img "img/zero_blauw.svg" "" >}}
 
-*De nulpunten van een functie zijn de $x$-waarden die als $y$-waarde $0$
-hebben.*
+{{< attention "Definitie" >}}
+De nulpunten van een functie zijn de $x$-waarden die als $y$-waarde $0$
+hebben.
+{{< /attention >}}
+
 
 Ga even na wat de nulpunten van de groene en de oranje functies zijn. Je zou
 moeten vinden dat ze allebei een nulpunt hebben voor $x=0$.
