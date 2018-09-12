@@ -125,7 +125,7 @@ moeten vinden dat ze allebei een nulpunt hebben voor $x=0$.
 ## Samengevat
 Een functie kan je zien als een machientje waar je een getal kan in stoppen
 ($x$) en waar vervolgens een getal uit komt ($y$). De manier waarop de $y$
-wordt berekent verschilt van functie tot functie. Alle mogelijke $x-$waarden
+wordt berekend verschilt van functie tot functie. Alle mogelijke $x-$waarden
 noemen we het **domein** van de functie. Alle mogelijke $y-$waarden noemen we
 het **beeld** van de functie. De **nulpunten** zijn de $x-$waarden die ervoor
 zorgen dat $y=0$.
