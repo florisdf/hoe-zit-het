@@ -11,3 +11,23 @@
 /* CODE FONTS */
 .code, .courier  {
 }
+
+/* TOC */
+#TableOfContents ul { 
+  list-style-type: none; 
+  padding: 0;
+}
+
+#TableOfContents li {
+  margin: 1em 0 0 .5em;
+}
+
+#TableOfContents ul a { 
+  text-decoration: inherit;
+  color: inherit;
+}
+
+/* Don't underline links */
+a {
+  text-decoration: none
+}
