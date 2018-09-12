@@ -12,6 +12,7 @@
 .code, .courier  {
 }
 
+/* TOC */
 #TableOfContents ul { 
   list-style-type: none; 
   padding: 0;
@@ -24,4 +25,9 @@
 #TableOfContents ul a { 
   text-decoration: inherit;
   color: inherit;
+}
+
+/* Don't underline links */
+a {
+  text-decoration: none
 }
