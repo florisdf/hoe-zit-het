@@ -1,10 +1,12 @@
 {{ if and (gt .WordCount 400 ) (ne .Params.toc "false") }}
-<aside class="mid-gray mt6-ns mt0-m">
-  <div class="br3-ns br0-m bg-black-05 ph3 pv1">
+<aside class="mid-gray">
+  <div class="br3 bg-black-05 ph3 pv1">
     <header>
     <h2>Inhoud</h2>
     </header>
-    {{.TableOfContents}}
+    <div class="mid-gray">
+      {{.TableOfContents}}
+    </div>
   </div>
 </aside>
 {{ end }}
