@@ -5,8 +5,12 @@
       {{ if .Site.Menus.main }}
         <ul class="pl0 tc">
           {{ range .Site.Menus.main }}
-          <li class="list f5 f4-ns fw4 dib pl3">
-            <a class="dim no-underline black-90" href="{{ .URL }}" title="{{ .Name }} page">
+          <li class="list f3 fw4 dib ph1">
+            {{ $.Scratch.Set "color" "black-20" }}
+            {{ if (or (in $.Permalink .URL) ( $.IsHome )) }}
+              {{ $.Scratch.Set "color" "mid-gray" }}
+            {{ end }}
+            <a class="dim no-underline {{ $.Scratch.Get "color" }}" href="{{ .URL }}" title="{{ .Name }}">
               {{ .Name | lower }}
             </a>
           </li>
