@@ -105,7 +105,12 @@ Of korter
 
 $$x = 6$$
 
-Et voilà: **we hebben $x$ gevonden** :muscle:.
+Et voilà: **we hebben $x$ gevonden** :muscle:. Snel even controleren door de
+$x$ in de oorspronkelijke vergelijking te vervangen door $6$: klopt het dat
+
+$$\color{#ffb700}{2\cdot} 6 \color{#ffb700}{- 4} = \color{#ffb700}{8}$$
+
+Inderdaad, $12 - 4 = 8$!
 
 ## De truc verklapt
 Een goede goochelaar verklapt zijn trucs niet. Gelukkig ben ik geen goede
