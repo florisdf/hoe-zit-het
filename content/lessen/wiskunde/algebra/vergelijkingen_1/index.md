@@ -238,3 +238,17 @@ $$\Leftrightarrow \frac{20}{3} - \frac{9}{3} \stackrel{?}{=} \frac{8}{3} + \frac
 $$\Leftrightarrow \frac{11}{3} \stackrel{!}{=} \frac{11}{3}$$
 
 Correct! :ok_hand:
+
+## Waarom de eerste graad?
+Dit is een les over vergelijkingen van de **eerste graad**. Waarom zijn deze
+van de eerste graad? Bestaan er ook andere graden?
+
+Wel, een vergelijking van de vorm $\color{#ff6300}{ax + b} =
+\color{#ff6300}{c}$ is van de *eerste* graad omdat $1$ de hoogste macht is van
+$x$. Er staat eigenlijk $\color{#ff6300}{ax^\textbf{1} + b} = \color{#ff6300}{c}$.
+
+Er bestaan natuurlijk ook nog vergelijkingen van hogere graden: 2, 3,... Later
+zullen we nog vaak vergelijkingen van de *tweede* graad tegenkomen, met als
+algemene vorm $ax^2 + bx + c = 0$. Deze vergelijkingen moeten echter op een
+iets andere manier worden opgelost dan de vergelijkingen van de eerste graad
+die we in deze les besproken hebben. Maar dat zijn zorgen voor later.
