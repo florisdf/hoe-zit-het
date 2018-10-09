@@ -119,28 +119,29 @@ Inderdaad, $12 - 4 \stackrel{!}{=} 8$!
 
 ## De truc verklapt
 Een goede goochelaar verklapt zijn trucs niet. Gelukkig ben ik geen goede
-goochelaar. Het trucje is heel eenvoudig: we voegen zelf getallen toe die ervoor zorgen
-dat er getallen wegvallen die rond $x$ staan. Dit doen we tot enkel de $x$ overblijft.
+goochelaar. Het trucje is heel eenvoudig: we voegen stapje per stapje getallen toe aan de vergelijking
+zodat alle getallen die rond $x$ staan gewoon wegvallen.
+Dit doen we tot er aan één kant enkel de $x$ overblijft.
 
 ### Vergelijking van de vorm $x + b = c$
 Bijvoorbeeld:
 
-$$\color{#ffb700}{x + 2} = \color{#ffb700}{9}$$
+$$\color{#19a974}{x + 2} = \color{#19a974}{9}$$
 
 Aan de kant van de $x$ staat enkel een $2$. We kunnen deze doen verdwijnen
 door die $2$ van de vergelijking **af te trekken**:
 
-$$\color{#ffb700}{x + 2} - 2 = \color{#ffb700}{9} - 2$$
+$$\color{#19a974}{x + 2} - 2 = \color{#19a974}{9} - 2$$
 
 Of dus
 $$x + 0 = 7$$
 $$\Leftrightarrow x = 7$$
 
 {{% attention "Werkwijze" %}}
-$$\color{#ffb700}{x + b} = \color{#ffb700}{c}$$
+$$\color{#19a974}{x + b} = \color{#19a974}{c}$$
 met $b, c \in \mathbb{R}$, los je op door $b$ van de vergelijking **af te
 trekken**:
-$$x + b - b = c - b$$
+$$\color{#19a974}{x + b} - b = \color{#19a974}{c} - b$$
 $$\Leftrightarrow x = c - b$$
 {{% /attention %}}
 
@@ -170,15 +171,15 @@ $$\Leftrightarrow x = \frac{c}{a}$$
 {{% /attention %}}
 
 ### Vergelijking van de vorm $ax + b = c$
-De twee vormen die we hierboven bespraken ($\color{#ffb700}{x + b} = \color{#ffb700}{c}$ en $\color{#357edd}{ax} = \color{#357edd}c$), kunnen
+De twee vormen die we hierboven bespraken ($\color{#19a974}{x + b} = \color{#19a974}{c}$ en $\color{#357edd}{ax} = \color{#357edd}c$), kunnen
 natuurlijk ook samen voorkomen. In dat geval volg je eerst de stappen van de
-vorm $\color{#ffb700}{x + b} = \color{#ffb700}{c}$ en nadien de stappen van de vorm $\color{#357edd}{ax} = \color{#357edd}c$.
+vorm $\color{#19a974}{x + b} = \color{#19a974}{c}$ en nadien de stappen van de vorm $\color{#357edd}{ax} = \color{#357edd}c$.
 
 Bijvoorbeeld:
 $$\color{#ff6300}{-2x - 3} = \color{#ff6300}{13}$$
 
-We volgen eerst de stappen van de vorm $\color{#ffb700}{x + b} =
-\color{#ffb700}{c}$. Die zeggen dat we de $b$ (bij ons $-3$) van de
+We volgen eerst de stappen van de vorm $\color{#19a974}{x + b} =
+\color{#19a974}{c}$. Die zeggen dat we de $b$ (bij ons $-3$) van de
 vergelijking moeten aftrekken:
 
 $$\color{#ff6300}{-2x - 3} - (-3) = \color{#ff6300}{13} - (-3)$$
@@ -218,7 +219,7 @@ Bijvoorbeeld:
 
 $$\color{#ff41b4}{5x - 3} = \color{#ff41b4}{2x + 1}$$
 
-In dat geval is er maar één extra stapje waarin we de vergelijking omzetten
+In dat geval is er maar één extra stapje: we moeten eerst de vergelijking omzetten
 naar iets van de vorm $\color{#ff6300}{ax + b} = \color{#ff6300}{c}$. Dat doen
 we eenvoudigweg door van de vergelijking de $2x$ af te trekken:
 
