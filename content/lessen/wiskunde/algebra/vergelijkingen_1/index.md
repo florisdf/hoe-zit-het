@@ -2,6 +2,7 @@
 title: "Vergelijkingen van de eerste graad"
 date: 2018-09-12T22:34:11+02:00
 draft: false
+toc: true
 tags: ["Vergelijkingen", "Eerste graad", "Algebra"]
 categories: ["wiskunde", "vergelijkingen", "2e middelbaar"]
 ---
@@ -179,8 +180,10 @@ Bijvoorbeeld:
 $$\color{#ff6300}{-2x - 3} = \color{#ff6300}{13}$$
 
 We volgen eerst de stappen van de vorm $\color{#19a974}{x + b} =
-\color{#19a974}{c}$. Die zeggen dat we de $b$ (bij ons $-3$) van de
-vergelijking moeten aftrekken:
+\color{#19a974}{c}$. Die zeggen dat we de $b$ (bij ons $-3$, zie je waarom?) van de
+vergelijking moeten aftrekken. Let op, we hebben nu **twee** mintekens: het
+eerste omdat onze $b$ **negatief** is (namelijk $-3$) en het
+tweede omdat we $b$ moeten **aftrekken** aan beide kanten. We krijgen:
 
 $$\color{#ff6300}{-2x - 3} - (-3) = \color{#ff6300}{13} - (-3)$$
 $$\Leftrightarrow -2x - 3 + 3 = 13 + 3$$
@@ -226,12 +229,23 @@ we eenvoudigweg door van de vergelijking de $2x$ af te trekken:
 $$\color{#ff41b4}{5x - 3} - 2x = \color{#ff41b4}{2x + 1} - 2x$$
 $$\Leftrightarrow 5x - 2x - 3 = 0x + 1$$
 $$\Leftrightarrow \color{#ff6300}{3x - 3} = \color{#ff6300}{1}$$
+
+En we krijgen iets van de vorm $\color{#ff6300}{ax + b} = \color{#ff6300}{c}$!
+Die vorm kunnen we al oplossen (zie [hierboven](#vergelijking-van-de-vorm-ax-b-c)).
+
 $$\Leftrightarrow \color{#ff6300}{3x - 3} - (-3) = \color{#ff6300}{1} - (-3)$$
 $$\Leftrightarrow \color{#357edd}{3x} = \color{#357edd}{4}$$
+
+En nu iets van de vorm $\color{#357edd}{ax} = \color{#357edd}c$!
+Die kunnen we [ook al oplossen](#vergelijking-van-de-vorm-ax-c).
+
 $$\Leftrightarrow \frac{\color{#357edd}{3x}}{3} = \frac{\color{#357edd}{4}}{3}$$
 $$\Leftrightarrow x = \frac{4}{3}$$
 
-Controle:
+En we zijn er! :dancer:
+
+We controleren door de $x$ in de oorspronkelijke vergelijking te vervangen door
+$\frac{4}{3}$:
 $$\color{#ff41b4}{5\cdot} \frac{4}{3} \color{#ff41b4}{- 3} \stackrel{?}{=} \color{#ff41b4}{2\cdot}\frac{4}{3} \color{#ff41b4}{+ 1}$$
 $$\Leftrightarrow \frac{20}{3} - 3 \stackrel{?}{=} \frac{8}{3} + 1$$
 $$\Leftrightarrow \frac{20}{3} - \frac{9}{3} \stackrel{?}{=} \frac{8}{3} + \frac{3}{3}$$
