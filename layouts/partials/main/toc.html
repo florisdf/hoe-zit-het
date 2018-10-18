@@ -1,11 +1,65 @@
-{{ if and (gt .WordCount 400 ) (ne .Params.toc "false") }}
+ <!-- ignore empty links with + -->
+{{ $headers := findRE "<h[1-6].*?>(.|\n])+</h[1-6]>" .Content }}
+<!-- at least one header to link to -->
+{{ $has_headers := ge (len $headers) 1 }}
+<!-- a post can explicitly disable Table of Contents with toc: false -->
+{{ $show_toc := and (gt .WordCount 400 ) (ne $.Params.toc false) }}
+<!-- the deepest h in toc -->
+{{ $max_toc := int ( $.Params.maxtoc | default 2 ) }}
+
+{{ $.Scratch.Set "min_toc" "6" }}
+{{ range $headers }}
+  {{ $header := . }}
+  {{ $lev_ptrn := "<h([1-6]).*?>.*?</h.*?>" }}
+  {{ $level := int (replaceRE $lev_ptrn "$1" $header) }}
+  {{ if lt $level ( $.Scratch.Get "min_toc" ) }}
+    {{ $.Scratch.Set "min_toc" $level }}
+  {{ end }}
+{{ end }}
+
+{{ $min_toc := int ( $.Scratch.Get "min_toc" ) }}
+
+{{ if and $has_headers $show_toc }}
 <aside class="mid-gray">
   <div class="br3 bg-black-05 ph3 pv1">
     <header>
     <h2>Inhoud</h2>
     </header>
     <div class="mid-gray">
-      {{.TableOfContents}}
+      <ul>
+      {{ range $headers }}
+          {{ $header := . }}
+
+          {{ $lev_ptrn := "<h([1-6]).*?>.*?</h.*?>" }}
+          {{ $level := int (replaceRE $lev_ptrn "$1" $header) }}
+
+          <!-- indent level -->
+          <!-- avoid unwanted indenting of e.g. h2 if there is no h1 -->
+          {{ $ilevel := sub $level $min_toc }}
+
+          {{ $titl_ptrn := "<h.*?>(.*?)</h.*?>" }}
+          {{ $title := replaceRE $titl_ptrn "$1" $header }}
+
+          {{ $id_ptrn := "<h.*?id=\"(.*?)\".*?>.*?</h.*?>" }}
+          {{ $id := replaceRE $id_ptrn "$1" $header }}
+
+          {{ if le $level $max_toc }}
+            <!-- generate li array of the proper depth -->
+            {{ range seq $ilevel }}
+                <ul>
+            {{end}}
+            <li class="pv1">
+              <a href="{{ print "#" $id }}" class="dim dark-gray">
+                {{ $title | markdownify }}
+              </a>
+            </li>
+            <!-- close list -->
+            {{ range seq $ilevel }}
+                </ul>
+            {{ end }}
+          {{ end }}
+      {{ end }}
+      </ul>
     </div>
   </div>
 </aside>
