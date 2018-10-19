@@ -1,0 +1,15 @@
+\documentclass{standalone}
+\usepackage{tikz}
+
+\begin{document}
+\begin{tikzpicture}[scale=2]
+    \draw [help lines] (0, 0) grid (2, 2);
+
+    \node (LL) {$4+\ldots$};
+    \node (EQ) at (LL.east) {$=$};
+    \node (RL) at (EQ.east) {$7$};
+
+    \node (LLlabel) at (LL.north) {Linkerlid};
+    \draw [<-] (LL.north) to [out=90,in=90] (LLlabel.south);
+\end{tikzpicture}
+\end{document}
