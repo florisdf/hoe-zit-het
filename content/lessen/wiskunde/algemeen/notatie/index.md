@@ -2,6 +2,7 @@
 title: "Wiskundige notatie"
 date: 2018-10-19T22:00:00+02:00
 tags: ["Notatie", "symbolen"]
+draft: true
 categories: ["wiskunde", "getallen", "algemeen"]
 ---
 ## Verzamelingen
