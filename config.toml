@@ -6,7 +6,7 @@ pluralizelisttitles = "false"
 
 MetaDataFormat = "yaml"
 DefaultContentLanguage = "nl"
-Paginate = 3 # this is set low for demonstrating with dummy content. Set to a higher number
+Paginate = 10
 PaginatePath = "pagina"
 googleAnalytics = ""
 enableRobotsTXT = true
