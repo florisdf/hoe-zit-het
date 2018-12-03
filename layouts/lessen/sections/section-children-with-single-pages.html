@@ -1,4 +1,4 @@
-{{ $section := .Pages }}
+{{ $section := .Pages.ByDate }}
 {{ $n_posts := $.Param "posts_per_section" | default 3 }}
 {{ $section_count := len $section }}
 {{ if ge $section_count 1 }}
