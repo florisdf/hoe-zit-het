@@ -149,4 +149,29 @@ uitdrukking binnen de haakjes natuurlijk ook gewoon de volgorde van de
 bewerkingen toe.
 
 Bijvoorbeeld
-$$-5^3 + \frac{\sqrt{-6 + 5 \cdot 2}}{2}$$
+$$-5^3 + \frac{\sqrt{-6 + 5^2 \cdot 2}}{2}$$
+
+In de teller staat een uitdrukking op zich:
+$$\sqrt{-6 + 5^2 \cdot 2}$$
+
+Hier passen we apart de volgorde van de bewerkingen op toe. Het resultaat
+stoppen we dan in de oorspronkelijke uitdrukking.
+\begin{equation}
+    \begin{split}
+        \sqrt{-6 + \clra{5^2} \cdot 2}
+        &= \sqrt{-6 + \clra{25} \cdot 2} \\\\\
+        &= \sqrt{-6 + \clra{25 \cdot 2}} \\\\\
+        &= \sqrt{-6 + \clra{50}} \\\\\
+        &= \sqrt{\clra{-6 + 50}} \\\\\
+        &= \sqrt{\clra{44}} \\\\\
+        &= \clra{\sqrt{44}} \\\\\
+        &\approx \clra{6.63\ldots}
+    \end{split}
+\end{equation}
+
+De oorspronkelijke uitdrukking wordt dus:
+$$-5^3 + \frac{\clra{6.63\ldots}}{2}$$
+
+Hier kan je weer de volgorde van de bewerkingen op toepassen. Je zult vinden
+dat de uitdrukking gelijk is aan $\clra{-121.6}$ (afgerond op 1 cijfer na de
+komma).
