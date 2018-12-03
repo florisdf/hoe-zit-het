@@ -1,7 +1,7 @@
 ---
 title: "Volgorde van de bewerkingen"
 date: 2018-10-19T22:00:00+02:00
-draft: true
+draft: false
 tags: ["Rekenregels", "Volgorde van de bewerkingen"]
 categories: ["wiskunde", "getallen", "1e middelbaar"]
 ---
