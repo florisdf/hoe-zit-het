@@ -104,12 +104,12 @@ $\ref{eq:expfirst}$.
 ## Een ingewikkelder voorbeeld
 In plaats van langzaam op te bouwen naar een ingewikkeld voorbeeld, zullen we
 meteen eens een monster van uitdrukking uitrekenen.
-$$-(7 - 4)^2 \cdot 2 + \sqrt{9 \cdot 4} \div 3 - \frac{4 \cdot 3}{-5 + 7}$$
+$$-(4 - 7)^2 \cdot 2 + \sqrt{9 \cdot 4} \div 3 - \frac{4 \cdot 3}{-5 + 7}$$
 
 Hoe kan je zoiets uitrekenen? De volgorde van de bewerkingen leidt er ons
 stapje per stapje door. Ze zegt dat de **haakjes** altijd eerst moeten worden
 uitgerekend, zij hebben voorrang op **alles**. Hier staan **vier** dingen tussen haakjes:
-$$-(\clra{7 - 4})^2 \cdot 2 + \sqrt{\clra{9 \cdot 4}} \div 3 - \frac{\clra{4 \cdot 3}}{\clra{-5 + 7}}$$
+$$-(\clra{4 - 7})^2 \cdot 2 + \sqrt{\clra{9 \cdot 4}} \div 3 - \frac{\clra{4 \cdot 3}}{\clra{-5 + 7}}$$
 
 Merk op dat we de *teller* en *noemer* van een breuk ook als iets tussen haakjes zien. Dat
 komt omdat we een breuk zoals bijvoorbeeld $\frac{1 - 4}{3 + 2}$ ook kunnen schrijven als
