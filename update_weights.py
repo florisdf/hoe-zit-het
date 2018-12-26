@@ -1,17 +1,23 @@
 #!/usr/bin/env python
+"""
+Updates the weights of each "les" in "content/lessen". This way we can order
+the tutorials in any way we want by updating the "order.txt" file that is
+present in each "lessen" section.
+"""
 from pathlib import Path
 import re
 
 p = Path('./content/lessen/')
 
 # Remove lines from order.txt that are obsolete
-for order in p.glob('*/*/order.txt'):
+for order in p.rglob('*/order.txt'):
     good_lines = [l for l in order.open().readlines()
-                  if (order.parent / l[:-1] / 'index.md').exists()]
+                  if ((order.parent / l[:-1] / 'index.md').exists()
+                      or (order.parent / l[:-1] / '_index.md').exists())]
     order.open('w').writelines(good_lines)
 
 # Add files to order.txt
-for idx in p.glob('*/*/*/index.md'):
+for idx in p.rglob('*/*index.md'):
     order = idx.parent.parent / 'order.txt'
 
     # Create empty order.txt if it does not exist
@@ -23,9 +29,13 @@ for idx in p.glob('*/*/*/index.md'):
         order.open('a').write(f'{idx.parent.stem}\n')
 
 # Change the weights to their line number in the order.txt file
-for order in p.glob('*/*/order.txt'):
+for order in p.rglob('*/*order.txt'):
     for i, il in enumerate(order.open().readlines()):
         idx = (order.parent / il[:-1] / 'index.md')
+        if not idx.exists():
+            idx = (order.parent / il[:-1] / '_index.md')
+        assert idx.exists()
+
         idx_lines = idx.open().readlines()
         for j, jl in enumerate(idx_lines):
             if re.search('^weight: ', jl):

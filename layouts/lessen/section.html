@@ -10,12 +10,12 @@
 		{{ if gt (len .Sections) 0 }}
 		<!-- This section has sections as children -->
 
-			{{ range .Sections.ByTitle }}
+			{{ range .Sections.ByWeight }}
 				{{ if gt (len .Sections) 0 }}
 					<!-- The section-children contain themselves sections -->
             <h1 class="mid-gray">{{ .Title }}</h1>
             <div class="flex-ns flex-wrap justify-left center w-100 mw8">
-              {{ range .Sections.ByTitle }}
+              {{ range .Sections.ByWeight }}
                 {{ .Render "section-pages-blocks" }}
               {{ end }}
             </div>
