@@ -1,13 +1,13 @@
 {{ define "main" }}
 	{{ with .Content }}
-  <article class="cf ph3 ph4-ns f4 tc center measure-wide lh-copy nested-links">
+  <article class="cf ph3 ph4-ns f4 tc center measure-wide lh-copy nested-links mid-gray">
     {{ . }}
 
     <div class="dt center">
     {{ with $.Site.GetPage "section" "lessen" }}
       {{ $.Scratch.Set "link_text" "Alle " }}
       {{ $.Scratch.Add "link_text" (.Title | lower) }}
-      {{ partial "main/button_link.html" (dict "link_url" .URL "link_text" ($.Scratch.Get "link_text") "link_color" "#000000") }}
+      {{ partial "main/button_link.html" (dict "link_url" .URL "link_text" ($.Scratch.Get "link_text") "link_color" "#DDD" "text_color" "#333") }}
     {{ end }}
     </div>
   </article>
