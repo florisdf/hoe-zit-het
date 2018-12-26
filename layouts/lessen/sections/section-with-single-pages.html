@@ -1,8 +1,16 @@
 {{ $section := .Paginate (where .Data.Pages "Section" .Section) }}
-{{ range  $section.Pages.ByDate }}
-<div class="relative w-100 mb4">
-	{{ .Render "summary-with-image" }}
-</div>
-{{ end }}
+<ol style="column-count: 3">
+  {{ range  $section.Pages.ByDate }}
+  <li
+    class="f3 dim pointer"
+    style="color: {{ .CurrentSection.Params.section_color | default .Site.Params.default_stroke }}; ">
+    <a 
+      href="{{ .URL }}"
+      style="color: inherit">
+      {{ .Title }}
+    </a>
+  </li>
+  {{ end }}
+<ol>
 {{ template "_internal/pagination.html" . }}
 

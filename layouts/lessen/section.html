@@ -6,19 +6,26 @@
 		</main>
 	{{ end }}
 
-		<section class="center w-100 mw8">
+		<section class="center w-100 mw8 flex-ns flex-wrap justify-left">
 		{{ if gt (len .Sections) 0 }}
 		<!-- This section has sections as children -->
 
 			{{ range .Sections.ByTitle }}
 				{{ if gt (len .Sections) 0 }}
 					<!-- The section-children contain themselves sections -->
-					{{ .Render "sections/section-children-with-sections" }}
-
+            <h1> <a class="black link dim" href="{{ .URL }}"> {{ .Title }} </a> </h1>
+            <div class="flex-ns flex-wrap justify-left center w-100 mw8">
+              {{ range .Sections.ByTitle }}
+                {{ $child_section := .Pages }}
+                {{ $section_count := len $child_section }}
+                {{ if ge $section_count 1 }}
+                  {{ .Render "sections/colored-section-summary" }}
+                {{ end }}
+              {{ end }}
+            </div>
 				{{ else }}
 					<!-- The section-children contain single pages -->
-					{{ .Render "sections/section-children-with-single-pages" }}
-
+          {{ .Render "sections/colored-section-summary" }}
 				{{ end }}
 			{{ end }}
 
