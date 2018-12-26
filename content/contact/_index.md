@@ -8,6 +8,10 @@ menu:
     weight: 30
 ---
 
-Als je prangende vragen hebt over relevante of volstrekt irrelevante materie: aarzel niet om me te contacteren! Dat kan heel eenvoudig via onderstaand contactformulier. Ik beloof zo snel mogelijk te antwoorden. :thumbsup:
+Als je prangende vragen hebt over relevante of volstrekt irrelevante materie:
+aarzel niet om me te contacteren! Dat kan heel eenvoudig via onderstaand
+contactformulier. Je kan ook gewoon een mailtje sturen naar
+[info@hoezithet.net](mailto:info@hoezithet.net). Ik beloof zo snel mogelijk te
+antwoorden. :thumbsup: 
 
 {{< form-contact action="http://formspree.io/floris_defeyter@hotmail.com" >}}
