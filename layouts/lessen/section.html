@@ -13,7 +13,7 @@
 			{{ range .Sections.ByTitle }}
 				{{ if gt (len .Sections) 0 }}
 					<!-- The section-children contain themselves sections -->
-            <h1> <a class="black link dim" href="{{ .URL }}"> {{ .Title }} </a> </h1>
+            <h1 class="mid-gray">{{ .Title }}</h1>
             <div class="flex-ns flex-wrap justify-left center w-100 mw8">
               {{ range .Sections.ByTitle }}
                 {{ .Render "section-pages-blocks" }}

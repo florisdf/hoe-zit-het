@@ -1,22 +1,17 @@
 <div
-  class="w-100 w-30-ns mr3"
-  style="background-image: url('{{ .Params.title_img | default "" }}');">
+  class="w-100 w-30-ns mr3">
 
-	<div class="pointer dim"
-      onclick="window.location='{{ .URL }}';"
+	<div
     style="background-color: {{ .Params.section_color | default ($.Scratch.Get "stroke") | default .Site.Params.default_stroke }};"/>
-		<h1 class="f3 pa2">
-			<a href="{{ .URL }}"
-        class="link near-white"/>
-				{{ .Title }}
-			</a>
+		<h1 class="f3 pa2 near-white">
+      {{ .Title }}
 		</h1>
 	</div>
   <ol>
     {{ range .Pages.ByDate }}
     <li
       style="color: {{ $.Params.section_color | default ($.Scratch.Get "stroke") | default $.Site.Params.default_stroke }};"
-      class="dim">
+      class="f4 dim">
       <a href="{{ .URL }}"
         style="color: inherit">
         {{ .Title }}
