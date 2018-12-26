@@ -1,6 +1,7 @@
 ---
 title: "Grafieken van functies"
 date: 2018-10-01T22:13:11+02:00
+weight: 2
 draft: true
 tags: ["Functies", "grafieken", "plot", "Analyse"]
 categories: ["wiskunde", "analyse", "3e middelbaar"]

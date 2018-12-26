@@ -1,6 +1,6 @@
 {{ $section := .Paginate (where .Data.Pages "Section" .Section) }}
 <ol style="column-count: 3">
-  {{ range  $section.Pages.ByDate }}
+  {{ range  $section.Pages.ByWeight }}
   <li
     class="f3 dim pointer mid-gray">
     <a class="color-inherit"

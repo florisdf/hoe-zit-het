@@ -1,6 +1,7 @@
 ---
 title: "Merkwaardige producten"
 date: 2018-12-03T23:21:36+01:00
+weight: 4
 draft: false
 ---
 Wat is $99^2$? Of $102^2$? Eens we de formules van **merkwaardige producten**
