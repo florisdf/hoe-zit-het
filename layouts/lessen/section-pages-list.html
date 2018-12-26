@@ -2,11 +2,9 @@
 <ol style="column-count: 3">
   {{ range  $section.Pages.ByDate }}
   <li
-    class="f3 dim pointer"
-    style="color: {{ .CurrentSection.Params.section_color | default .Site.Params.default_stroke }}; ">
-    <a 
-      href="{{ .URL }}"
-      style="color: inherit">
+    class="f3 dim pointer mid-gray">
+    <a class="color-inherit"
+      href="{{ .URL }}">
       {{ .Title }}
     </a>
   </li>
