@@ -37,8 +37,18 @@ for order in p.rglob('*/*order.txt'):
         assert idx.exists()
 
         idx_lines = idx.open().readlines()
+        in_frontmatter = False
         for j, jl in enumerate(idx_lines):
+            if re.search('^---', jl):
+                in_frontmatter = ~in_frontmatter
+            if not in_frontmatter:
+                break
             if re.search('^weight: ', jl):
                 break
-        idx_lines[j] = f'weight: {i + 1}\n'
+
+        if in_frontmatter:
+            idx_lines[j] = f'weight: {i + 1}\n'
+        else:
+            # "weight" was not yet a key in the front matter
+            idx_lines.insert(j, f'weight: {i + 1}\n')
         idx.open('w').writelines(idx_lines)
