@@ -1,0 +1,14 @@
+{{ $section := .Paginate (where .Data.Pages "Section" .Section) }}
+<ol style="column-count: 3">
+  {{ range  $section.Pages.ByWeight }}
+  <li
+    class="f3 dim pointer mid-gray">
+    <a class="color-inherit"
+      href="{{ .URL }}">
+      {{ .Title }}
+    </a>
+  </li>
+  {{ end }}
+<ol>
+{{ template "_internal/pagination.html" . }}
+

@@ -1,6 +1,7 @@
 ---
 title: "Lagen van een uitdrukking"
 date: 2018-11-19T22:00:00+02:00
+weight: 7
 draft: true
 tags: ["Rekenregels", "Volgorde van de bewerkingen", "Lagen van een uitdrukking"]
 categories: ["wiskunde", "getallen", "algemeen", "1e middelbaar"]

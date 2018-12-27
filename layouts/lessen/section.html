@@ -6,25 +6,28 @@
 		</main>
 	{{ end }}
 
-		<section class="center w-100 mw8">
+		<section class="center w-100 mw8 flex-ns flex-wrap justify-left">
 		{{ if gt (len .Sections) 0 }}
 		<!-- This section has sections as children -->
 
-			{{ range .Sections.ByTitle }}
+			{{ range .Sections.ByWeight }}
 				{{ if gt (len .Sections) 0 }}
 					<!-- The section-children contain themselves sections -->
-					{{ .Render "sections/section-children-with-sections" }}
-
+            <h1 class="mid-gray">{{ .Title }}</h1>
+            <div class="flex-ns flex-wrap justify-left center w-100 mw8">
+              {{ range .Sections.ByWeight }}
+                {{ .Render "section-pages-blocks" }}
+              {{ end }}
+            </div>
 				{{ else }}
 					<!-- The section-children contain single pages -->
-					{{ .Render "sections/section-children-with-single-pages" }}
-
+          {{ .Render "section-pages-blocks" }}
 				{{ end }}
 			{{ end }}
 
 		{{ else }}
 			<!-- This section has single pages as children -->
-			{{ .Render "sections/section-with-single-pages" }}
+			{{ .Render "section-pages-list" }}
 		{{ end }}
 		</section>
 </article>

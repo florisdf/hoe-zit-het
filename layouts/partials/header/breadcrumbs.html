@@ -40,6 +40,10 @@
 	<div class="dib gray {{ .p1.Scratch.Get "crumb_class" }}"> / </div>
 	{{ end }}
 
-	<a class="{{ .p1.Scratch.Get "crumb_class" }}" href="{{ .p1.Permalink }}" style="{{ .p1.Scratch.Get "crumb_style" }}">{{ .p1.Title | humanize | lower }}</a>
+	<a class="{{ .p1.Scratch.Get "crumb_class" }}"
+    href="{{ .p1.Permalink }}"
+    style="{{ .p1.Scratch.Get "crumb_style" }}">
+    {{ .p1.Title | humanize | lower }}
+  </a>
 
 {{ end }}
