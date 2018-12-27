@@ -5,27 +5,46 @@ weight: 1
 draft: false
 tags: ["Functies", "Analyse"]
 categories: ["wiskunde", "analyse", "3e middelbaar"]
+level: 3M
+course: wiskunde
+topic: analyse
 ---
 ## Een functie is een machientje
-Je kan een functie zien als een *machientje* waar je een getal $x$ instopt en een getal $y$ uitkomt. [^1] Jij kiest de $x$. Het machientje bepaalt de $y$ afhankelijk van jouw $x$.
+Je kan een functie zien als een *machientje* waar je *iets* instopt en waar
+*iets* uit komt. Wat we erin stoppen noemen we meestal $x$, wat eruit komt noemen
+we meestal $y$. Uit het machientje zal voor dezelfde $x$
+ook telkens dezelfde $y$ komen. **Bij één $x$ hoort dus
+maximaal één $y$**. Het is ook mogelijk dat er *niets* uit het
+machientje komt voor bepaalde keuzes van $x$.
 
 {{% img "img/conveyor_plain.svg" "" %}}
 
-Bijvoorbeeld: we hebben een blauw machientje dat altijd twee optelt bij jouw $x$. Je kan
-zeggen dat de $y$ die uit het machientje komt gelijk is aan $x+2$:
+Omdat de $y$ die uit het machientje komt afhangt van de $x$ die we erin stopten,
+noemen we $y$ ook wel de **afhankelijke variabele**. De $x$ die we erin stoppen,
+noemen we de **onafhankelijke variabele**.
 
-$$y = x + 2$$
+## Oké, maar wat zijn die $x$ en $y$?
+$x$ en $y$ kunnen **vanalles** zijn. Meestal zijn ze allebei [reële
+getallen](../../algemeen/reele_getallen). Maar $x$ mag ook bijvoorbeeld een
+naam van iemand zijn, en $y$ de lengte van die persoon. Of $x$ kan een datum
+zijn en $y$ de gemiddelde temperatuur op die dag.
 
-Als we het getal $1$ in het machientje stoppen ($x$), geeft die het getal $3$ terug ($y$), want $1 + 2 = 3$. En als $x = -1$, is $y = 1$; als $x = 8$, is $y = 10$ enzovoort.
+## En wat is het praktisch nut?
+Het gebeurt heel vaak dat *iets* afhangt van *iets anders*:
 
-{{% img "img/conveyor_voorschrift_1.svg" "" %}}
+* Hoe lang het duurt voor je ergens geraakt, hangt af van hoe snel je beweegt;
+* Hoe ver een bal vliegt nadat je ertegen schopt, hangt af van hoe hard je trapte;
+* Hoeveel winst je maakt, hangt af van hoeveel je aankoopt en verkoopt;
+* ...
+
+Met een functie kunnen we *het verband* beschrijven tussen het *ene*
+{{% mute "(hoe lang het duurt voor we ergens geraken)" %}}
+en het *andere* {{% mute "(hoe snel we bewegen)" %}}. Het beschrijven van dat
+verband tussen de $x$ en de $y$, doen we met een [functievoorschrift](../voorschrift).
 
 ## Samengevat
-Een functie kan je zien als een machientje waar je een getal kan in stoppen
-($x$) en waar vervolgens een getal uit komt ($y$). De manier waarop de $y$
-wordt berekend verschilt van functie tot functie. Alle mogelijke $x-$waarden
-noemen we het **domein** van de functie. Alle mogelijke $y-$waarden noemen we
-het **beeld** van de functie. De **nulpunten** zijn de $x-$waarden die ervoor
-zorgen dat $y=0$.
-
-[^1]: Met *getallen* bedoelen we in dit artikel altijd [*reële* getallen](https://nl.wikipedia.org/wiki/Re%C3%ABel_getal). Met *functies* bedoelen we *reële* functies.
+{{% attention "Definitie van een functie" %}}
+Een functie is een verband tussen twee variabelen $x$ en $y$ waarbij er voor
+iedere $x$ **hoogstens één** $y$ bestaat. Hierbij noemen we $x$ de **onafhankelijke
+variabele** en $y$ de **afhankelijke variabele**.
+{{% /attention %}}

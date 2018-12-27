@@ -15,9 +15,9 @@
       <article class="center cf w-two-thirds-l">
         <section class="nested-copy-line-height lh-copy f4 nested-links nested-img mid-gray">
           {{ .Content }}
+          {{ partial "main/tags.html" . }}
           {{ partial "main/to-top.html" . }}
         </section>
-        {{ partial "main/tags.html" . }}
       </article>
     </div>
   </div>

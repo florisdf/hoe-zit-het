@@ -1,5 +1,9 @@
 intro
+voorschrift
+waardentabel
 grafiek
 domein_beeld
 nulpunten
+verloop
+reele_functies
 graad_1

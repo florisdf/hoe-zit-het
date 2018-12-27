@@ -10,7 +10,7 @@
         <li class="black dib mb2 mr2">
           Gerelateerd:
         </li>
-        {{ range $tags.Pages }}
+        {{ range $tags.Pages.ByWeight }}
           {{ if ne .URL $currentPageUrl }}
             <li class="mb2 mr3">
               <a href="{{ .URL }}" class="link mid-gray dim">

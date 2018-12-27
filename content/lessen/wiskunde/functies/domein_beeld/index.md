@@ -2,7 +2,7 @@
 title: "Domein en beeld"
 date: 2018-07-01T22:13:11+02:00
 draft: false
-weight: 3
+weight: 5
 tags: ["Functies", "Analyse"]
 categories: ["wiskunde", "analyse", "3e middelbaar"]
 ---

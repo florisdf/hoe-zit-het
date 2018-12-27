@@ -1,3 +1,4 @@
 algemeen
 vergelijkingen
 functies
+goniometrie
