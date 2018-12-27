@@ -2,6 +2,7 @@
 title: "Nulpunten"
 date: 2018-07-01T22:13:11+02:00
 draft: false
+weight: 4
 tags: ["Functies", "Analyse"]
 categories: ["wiskunde", "analyse", "3e middelbaar"]
 ---
@@ -26,4 +27,3 @@ hebben.
 
 Ga even na wat de nulpunten van de groene en de oranje functies zijn. Je zou
 moeten vinden dat ze allebei een nulpunt hebben voor $x=0$.
-

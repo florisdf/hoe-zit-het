@@ -1,3 +1,5 @@
 intro
 grafiek
+domein_beeld
+nulpunten
 graad_1

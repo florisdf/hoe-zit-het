@@ -2,6 +2,7 @@
 title: "Domein en beeld"
 date: 2018-07-01T22:13:11+02:00
 draft: false
+weight: 3
 tags: ["Functies", "Analyse"]
 categories: ["wiskunde", "analyse", "3e middelbaar"]
 ---
@@ -84,4 +85,3 @@ van de oranje functie bevat dus alle *positieve* getallen.
 
 Je kan dezelfde oefening eens proberen maken voor het blauwe en het groene
 machientje. Probeer zelf na te gaan waarom het blauwe beeld alle getallen
-bevat en het groene beeld enkel alle positieve getallen.
