@@ -4,6 +4,7 @@
     var xmlhttp = new XMLHttpRequest();
     xmlhttp.onreadystatechange = function() {
       if (this.readyState == 4 && this.status == 200) {
+				document.getElementById("{{ .Get 0 }}").innerHTML = '';
         var item = JSON.parse(this.responseText);
         Bokeh.embed.embed_item(item, "{{ .Get 0 }}");
       }
@@ -11,4 +12,5 @@
     xmlhttp.open("GET", "{{ $item.RelPermalink }}", true);
     xmlhttp.send(); 
   </script>
+  Deze grafiek is niet goed geladen. Je herlaad best even.
 </div>
