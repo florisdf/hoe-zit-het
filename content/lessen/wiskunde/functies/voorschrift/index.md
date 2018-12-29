@@ -2,7 +2,7 @@
 title: "Functievoorschrift"
 date: 2018-12-27T12:18:56+01:00
 weight: 2
-draft: true
+draft: false
 tags: ["Functies", "Analyse"]
 categories: ["wiskunde", "analyse", "3e middelbaar"]
 level: 3M

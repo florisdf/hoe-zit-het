@@ -2,7 +2,7 @@
 title: "Waardentabel"
 date: 2018-12-27T15:45:44+01:00
 weight: 3
-draft: true
+draft: false
 tags: ["Functies", "Analyse"]
 categories: ["wiskunde", "analyse", "3e middelbaar"]
 level: 3M
