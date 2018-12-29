@@ -24,6 +24,8 @@ def get_plot(min_x=-10, max_x=10, min_y=-10,
                tools='hover, crosshair', tooltips=TOOLTIPS)
     p.background_fill_alpha = 0
     p.border_fill_alpha = 0
+    p.sizing_mode = "scale_width"
+
     p.xaxis[0].fixed_location = 0
     p.xaxis[0].axis_line_color = x_color
     p.xaxis[0].bounds = [min_x - x_margin / 2, max_x]
@@ -69,8 +71,8 @@ def get_plot(min_x=-10, max_x=10, min_y=-10,
                        x_start=max_x, y_start=0,
                        x_end=max_x + x_margin, y_end=0))
 
-    source = ColumnDataSource(dict(x=[max_x + 0.3, .4],
-                                   y=[.4, max_y + 0.3],
+    source = ColumnDataSource(dict(x=[max_x, .3],
+                                   y=[.5, max_y],
                                    text=['x', 'y'],
                                    text_color=[x_color, y_color]))
     glyph = Text(x='x', y='y', text='text', text_color='text_color', text_font='Quicksand', text_font_size='16pt')
