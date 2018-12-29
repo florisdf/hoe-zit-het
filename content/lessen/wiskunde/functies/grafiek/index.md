@@ -2,7 +2,7 @@
 title: "Grafieken van functies"
 date: 2018-10-01T22:13:11+02:00
 weight: 4
-draft: true
+draft: false
 tags: ["Functies", "grafieken", "plot", "Analyse"]
 categories: ["wiskunde", "analyse", "3e middelbaar"]
 level: 3M
@@ -39,10 +39,12 @@ zien als coördinaten van punten op een
 waardentabel is $\orange{x = -2}$ en $\green{y = -21}$. We kunnen dit
 voorstellen door een puntje met coördinaten $(\orange{-2}, \green{-21})$.
 
-{{% html "plt/single_x.html" %}}
+{{% bokeh "plt/single_x.json" %}}
 
 Zo kunnen we alle rijen in onze waardentabel voorstellen als puntjes in een
 assenstelsel.
+
+{{% bokeh "plt/multiple_x.json" %}}
 
 ## Veel puntjes vormen een curve
 We laten ons even gaan en we zoeken $f(\orange{x})$ voor waanzinnig veel
@@ -52,8 +54,10 @@ $\orange{-1.98}$, $\orange{-1.97}$ enzovoort tot $\orange{2}$). Wat gebeurt
 er als we die enorme hoeveelheid puntjes nu op een assenstelsel zetten? We
 krijgen deze mooie figuur:
 
+{{% bokeh "plt/loads_of_x.json" %}}
+
 We hebben nu zoveel puntjes op ons assenstelsel dat we eigenlijk niet meer zien
-dat het *aparte* puntjes zijn. We zien één **curve**. Deze curve noemen we de
+dat het *aparte* puntjes zijn. We zien **één curve**. Deze curve noemen we de
 **grafiek van de functie**.
 
 ## Hoogstens één $y$ voor elke $x$
