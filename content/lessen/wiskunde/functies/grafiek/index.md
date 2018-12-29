@@ -17,7 +17,7 @@ voor $y$ uit komt.
 
 Als we [het functievoorschrift](../voorschrift) van de functie hebben, kunnen
 we voor verschillende waarden van $\orange{x}$ de bijhorende waarde van
-$\green{y}$ zoeken. Die resultaten kunnen we proper noteren in een
+$\green{y} = f(\orange{x})$ zoeken. Die resultaten kunnen we proper noteren in een
 [waardentabel](../waardentabel).
 
 {{% img "img/conveyor_functiewaarde.svg" "" %}}
@@ -38,6 +38,8 @@ zien als coördinaten van punten op een
 [assenstelsel](../../algemeen/assenstelsel). In de eerste rij van de
 waardentabel is $\orange{x = -2}$ en $\green{y = -21}$. We kunnen dit
 voorstellen door een puntje met coördinaten $(\orange{-2}, \green{-21})$.
+
+{{% html "plt/single_x.html" %}}
 
 Zo kunnen we alle rijen in onze waardentabel voorstellen als puntjes in een
 assenstelsel.

@@ -22,7 +22,7 @@ def get_plot(min_x=-10, max_x=10, min_y=-10,
                tools='hover, crosshair', tooltips=TOOLTIPS)
     p.xaxis[0].fixed_location = 0
     p.xaxis[0].axis_line_color = x_color
-    p.xaxis[0].bounds = [min_x - x_margin / 2, max_x + x_margin / 2]
+    p.xaxis[0].bounds = [min_x - x_margin / 2, max_x]
     p.xaxis[0].axis_line_cap = 'round'
     p.xaxis[0].axis_line_width = 2
     p.xaxis[0].axis_label_text_color = x_color
@@ -36,7 +36,7 @@ def get_plot(min_x=-10, max_x=10, min_y=-10,
 
     p.yaxis[0].fixed_location = 0
     p.yaxis[0].axis_line_color = y_color
-    p.yaxis[0].bounds = [min_y - y_margin / 2, max_y + y_margin / 2]
+    p.yaxis[0].bounds = [min_y - y_margin / 2, max_y]
     p.yaxis[0].axis_line_cap = 'round'
     p.yaxis[0].axis_line_width = 2
     p.yaxis[0].axis_label_text_color = y_color
