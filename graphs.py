@@ -4,13 +4,15 @@ from bokeh.plotting import figure
 
 
 def get_plot(min_x=-10, max_x=10, min_y=-10,
-             max_y=10, x_color='#555555', y_color='#555555'):
+             max_y=10, x_color='#555555', y_color='#555555',
+			 hover_format='{0.[0]}'
+):
     TOOLTIPS = [
         ("(x,y)", "(@x, @y)")
     ]
     TOOLTIPS =  ('<div style="font-family: \'Quicksand\'; font-size: 14pt; color:#555555;">'
-                 f'(<span style="color:{x_color};">@x{{0.[0]}}</span>, '
-                 f'<span style="color:{y_color};">@y{{0.[0]}}</span>)'
+                 f'(<span style="color:{x_color};">@x{hover_format}</span>, '
+                 f'<span style="color:{y_color};">@y{hover_format}</span>)'
                  '</div>')
     x_margin = abs(max_x - min_x) // 20
     y_margin = abs(max_y - min_y) // 20
@@ -20,6 +22,8 @@ def get_plot(min_x=-10, max_x=10, min_y=-10,
                x_range=[min_x - x_margin, max_x + x_margin],
                y_range=[min_y - y_margin, max_y + y_margin],
                tools='hover, crosshair', tooltips=TOOLTIPS)
+    p.background_fill_alpha = 0
+    p.border_fill_alpha = 0
     p.xaxis[0].fixed_location = 0
     p.xaxis[0].axis_line_color = x_color
     p.xaxis[0].bounds = [min_x - x_margin / 2, max_x]
