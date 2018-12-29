@@ -24,20 +24,21 @@ $\green{y} = f(\orange{x})$ zoeken. Die resultaten kunnen we proper noteren in e
 
 Ingang $\orange{x}$    | Uitgang $\green{y} = f(\orange{x})$
 -----------------------|------------
-$\orange{-2}$          |    $\green{-21}$
-$\orange{-1}$          |    $\green{-10}$
-$\orange{0}$           |    $\green{-5}$
-$\orange{\frac{1}{3}}$ |    $\green{\frac{-14}{3}}$
-$\orange{\frac{2}{3}}$ |    $\green{-5}$
-$\orange{1}$           |    $\green{-6}$
-$\orange{2}$           |    $\green{-13}$
+$\orange{-1}$          |    $\green{-10.5}$
+$\orange{0}$           |    $\green{-6}$
+$\orange{1}$           |    $\green{-2.5}$
+$\orange{2}$           |    $\green{0}$
+$\orange{3}$           |    $\green{1.5}$
+$\orange{4}$           |    $\green{2}$
+$\orange{5}$           |    $\green{1.5}$
 
 ## $x$ en $y$ als coördinaten
 We kunnen de waarden voor $\orange{x}$ en $\green{y}$ in de bovenstaande tabel
 zien als coördinaten van punten op een
-[assenstelsel](../../algemeen/assenstelsel). In de eerste rij van de
-waardentabel is $\orange{x = -2}$ en $\green{y = -21}$. We kunnen dit
-voorstellen door een puntje met coördinaten $(\orange{-2}, \green{-21})$.
+[assenstelsel](../../algemeen/assenstelsel). Bijvoorbeeld in de laatste rij van
+de waardentabel is $\orange{x = 5}$ en $\green{y = 1.5}$. We kunnen dit
+voorstellen door een puntje met coördinaten $(\orange{5}, \green{1.5})$.
+{{% mute "(Als je met je muis over het puntje beweegt in de grafiek, zie je de coördinaten ervan)" %}}
 
 {{% bokeh "plt/single_x.json" %}}
 
@@ -48,20 +49,27 @@ assenstelsel.
 
 ## Veel puntjes vormen een curve
 We laten ons even gaan en we zoeken $f(\orange{x})$ voor waanzinnig veel
-waarden van $\orange{x}$. Bijvoorbeeld voor alle waarden tussen $\orange{-2}$
-en $\orange{2}$ in stapjes van $0.01$ (dus $\orange{-2}$, $\orange{-1.99}$,
-$\orange{-1.98}$, $\orange{-1.97}$ enzovoort tot $\orange{2}$). Wat gebeurt
+waarden van $\orange{x}$. Bijvoorbeeld voor alle waarden tussen $\orange{-1}$
+en $\orange{9}$ in stapjes van $0.01$ (dus $\orange{-1}$, $\orange{-0.99}$,
+$\orange{-0.98}$, $\orange{-0.97}$ enzovoort tot $\orange{9}$). Wat gebeurt
 er als we die enorme hoeveelheid puntjes nu op een assenstelsel zetten? We
 krijgen deze mooie figuur:
 
 {{% bokeh "plt/loads_of_x.json" %}}
 
 We hebben nu zoveel puntjes op ons assenstelsel dat we eigenlijk niet meer zien
-dat het *aparte* puntjes zijn. We zien **één curve**. Deze curve noemen we de
+dat het *aparte* puntjes zijn. Het zijn wel degelijk aparte puntjes.
+{{% mute "(Ga maar na!)" %}}
+We zien **één curve**. Deze curve noemen we de
 **grafiek van de functie**.
 
 ## Hoogstens één $y$ voor elke $x$
 We weten dat er bij een functie voor een bepaalde waarde van $x$ [hoogstens
 één](../intro#samengevat) waarde van $y$ bestaat. Grafisch betekent dit dat er op
-de curve van een functie **nooit twee punten boven elkaar liggen**. Vergelijk
-hieronder de grafieken van "wel functie" en "geen functie".
+de curve van een functie **nooit twee punten boven elkaar liggen**. De curve
+hieronder is een voorbeeld van een curve waar er voor bepaalde waarden van $x$
+**meerdere** waarden van $y$ bestaan. Met andere woorden is hier $y$ **geen
+functie van** $x$. Moest het {{% class "rode" "b dark-red" %}} stukje er niet
+geweest zijn, was $y$ *wel* een functie van $x$.
+
+{{% bokeh "plt/no_fx.json" %}}
