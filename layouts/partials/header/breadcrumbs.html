@@ -41,7 +41,7 @@
 	{{ end }}
 
 	<a class="{{ .p1.Scratch.Get "crumb_class" }}"
-    href="{{ .p1.Permalink }}"
+    href="{{ .p1.URL }}"
     style="{{ .p1.Scratch.Get "crumb_style" }}">
     {{ .p1.Title | humanize | lower }}
   </a>
