@@ -22,13 +22,12 @@ def get_plot(min_x=-10, max_x=10, min_y=-10,
                y_axis_label='y-as',
                x_range=[min_x - x_margin, max_x + x_margin],
                y_range=[min_y - y_margin, max_y + y_margin],
-               tools='hover,crosshair,wheel_zoom,reset', tooltips=TOOLTIPS)
+               tools='hover,crosshair', tooltips=TOOLTIPS)
     p.background_fill_alpha = 0
     p.border_fill_alpha = 0
     p.sizing_mode = "scale_width"
     p.tools[1].line_alpha = 0.5 # Crosshair alpha
     p.tools[1].line_width = 2 # Crosshair width
-    p.toolbar.active_scroll = p.select_one(WheelZoomTool)
 
     p.xaxis[0].fixed_location = 0
     p.xaxis[0].axis_line_color = x_color
