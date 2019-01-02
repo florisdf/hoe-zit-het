@@ -13,9 +13,11 @@ topic: analyse
 Je kan een functie zien als een *machientje* waar je *iets* instopt en waar
 *iets* uit komt. Wat we erin stoppen noemen we meestal $x$, wat eruit komt noemen
 we meestal $y$. Uit het machientje zal voor dezelfde $x$
-ook telkens dezelfde $y$ komen. **Bij één $x$ hoort dus
+ook telkens dezelfde $y$ komen. **Bij één $x$ hoort
 maximaal één $y$**. Het is ook mogelijk dat er *niets* uit het
-machientje komt voor bepaalde keuzes van $x$.
+machientje komt voor bepaalde keuzes van $x$. De $y-$waarde die uit het 
+machientje komt voor een bepaalde $x-$waarde, noemen we ook wel **de 
+functiewaarde van $x$** of kortweg $f(x)$.
 
 {{% img "img/conveyor_plain.svg" "" %}}
 
@@ -47,4 +49,9 @@ verband tussen de $x$ en de $y$, doen we met een [functievoorschrift](../voorsch
 Een functie is een verband tussen twee variabelen $x$ en $y$ waarbij er voor
 iedere $x$ **hoogstens één** $y$ bestaat. Hierbij noemen we $x$ de **onafhankelijke
 variabele** en $y$ de **afhankelijke variabele**.
+{{% /attention %}}
+
+{{% attention "Naamgeving" %}}
+* $x$: ingang, onafhankelijke variabele
+* $y$: uitgang, afhankelijke variabele, functiewaarde van $x$, beeld van $x$
 {{% /attention %}}
