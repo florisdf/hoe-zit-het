@@ -12,45 +12,29 @@ voor $y$ uit komt.
 
 {{% img "img/conveyor_plain.svg" "" %}}
 
+Voor een bepaalde $x-$waarde kan er dus **één of géén** $y-$waarde uit de
+functie komen.
+
 ## Domein van een functie
-Het domein van een functie is de [verzameling]()
-Een belangrijke eigenschap van een functie is **het domein van een functie**.
-Het blauwe machientje stelt maar een heel eenvoudige functie voor. Stel dat we een ingewikkelder,
-groen machientje hebben. Uit het groene machientje komt een $y$ die gelijk is aan de *vierkantswortel* van onze $x$.
-Dat betekent dus dat als we een $x$ in ons machientje stoppen, $\sqrt{x}$ uit
-het machientje zal komen.
+Het domein van een functie is de [verzameling](../../algemeen/verzamelingen)
+van $x-$waarden waarvoor er een $y-$waarde uit de functie komt.
 
-{{% img "img/conveyor_voorschrift_2.svg" "" %}}
+* Voor de $x-$waarden die **niet in het domein** zitten, bestaat er dus **géén
+$y-$waarde**.
+* Voor de $x-$waarden die **wel in het domein** zitten, bestaat er **één
+$y-$waarde**.
 
-Belangrijke vraag: **Kunnen we eender welke $x$ in de machientjes stoppen?**
+Een typisch voorbeeld is de [reële functie](../reele_functies) die als
+[functievoorschrift](../voorschrift) heeft
 
-In het blauwe machientje kunnen we alle getallen stoppen want het blauwe
-machientje maakte van onze $x$ simpelweg $x + 2$ en gewoon $2$ ergens bij
-optellen, lukt met ieder getal.
-Bijvoorbeeld:
+$$f(x) = \sqrt{x}$$
 
-{{% img "img/conveyor_in_domain_3.svg" "" %}}
-{{% img "img/conveyor_in_domain_4.svg" "" %}}
-
-In het groene machientje kunnen we echter **niet ieder getal**
-stoppen. Welke getallen dan niet? Bijvoorbeeld $x = -1$ gaat niet omdat $\sqrt{-1}$ niet bestaat.
-Dat is omdat je geen vierkantswortel
-van negatieve getallen kan berekenen. In het **groene machientje** mogen we dus
-alle getallen stoppen die **niet negatief** zijn, of dus alle **positieve
-getallen**. Even illustreren:
-
-{{% img "img/conveyor_in_domain_1.svg" "" %}}
-{{% img "img/conveyor_in_domain_2.svg" "" %}}
-{{% img "img/conveyor_not_in_domain.svg" "" %}}
-
-{{% attention "Definitie" %}}
-Het **domein van een functie** is de verzameling van alle mogelijke $x-$waarden (ingangen) waarvoor de functie een $y-$waarde kan berekenen.
-{{% /attention %}}
-
-Voor de $x-$waarden die niet in het domein zitten, bestaat er dus géén $y-$waarde.
-We zeggen dat **het domein** van het *blauwe* machientje alle getallen bevat,
-terwijl het domein van het *groene* machientje enkel alle *positieve* getallen
-bevat.
+Omdat de [wortel van een negatief
+getal](../../algemeen/vierkantswortel#vierkantswortel-van-een-negatief-getal)
+geen [reëel getal](../../algemeen/reele_getallen) is, bestaat er enkel een
+reële $y-$waarde voor $x-$waarden die groter of gelijk zijn aan $0$. Het domein
+van deze functie $f$ is dus alle positieve reële getallen. We schrijven:
+$$dom f = \mathbb{R}^+$$
 
 ## Beeld van een functie
 Stel dat we nu een oranje machientje hebben waar $y=x^2$ uit komt.
@@ -74,10 +58,6 @@ Eens we alle $x-$waarden van het oranje domein in het machientje hebben gestopt,
 hebben we aan de uitgang een hele hoop $y-$waarden verzameld. Die verzameling
 van $y-$waarden noemen we **het beeld** van de oranje functie.
 
-{{% attention "Definitie" %}}
-Het **beeld van een functie** is de verzameling van alle mogelijke $y-$waarden (uitgangen) die uit de functie kunnen komen.
-{{% /attention %}}
-
 Het beeld bevat dus de $y-$waarden die uit de functie komen wanneer je alle $x-$waarden van het domein één voor één in de functie stopt.
 Nu is de vraag natuurlijk: welke getallen zitten er allemaal in het oranje beeld?
 Wel als we $2$ in het oranje machientje stoppen, komt er $4$ uit. Als we
@@ -93,3 +73,17 @@ van de oranje functie bevat dus alle *positieve* getallen.
 
 Je kan dezelfde oefening eens proberen maken voor het blauwe en het groene
 machientje. Probeer zelf na te gaan waarom het blauwe beeld alle getallen
+
+## Domein en beeld op een grafiek
+
+## Samengevat
+{{% attention "Definitie domein" %}}
+Het **domein van een functie** is de verzameling van alle mogelijke $x-$waarden
+waarvoor er een $y-$waarde bestaat.
+{{% /attention %}}
+
+{{% attention "Definitie beeld" %}}
+Het **beeld van een functie** is de verzameling van alle $y-$waarden die uit de
+functie kunnen komen.
+{{% /attention %}}
+
