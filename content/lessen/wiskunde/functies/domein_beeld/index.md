@@ -6,7 +6,15 @@ weight: 5
 tags: ["Functies", "Analyse"]
 categories: ["wiskunde", "analyse", "3e middelbaar"]
 ---
+Een functie kunnen we [voorstellen als een machientje](../intro) waar we een
+waarde voor $x$ in stoppen en waar [hoogstens één](../intro#samengevat) waarde
+voor $y$ uit komt.
+
+{{% img "img/conveyor_plain.svg" "" %}}
+
 ## Domein van een functie
+Het domein van een functie is de [verzameling]()
+Een belangrijke eigenschap van een functie is **het domein van een functie**.
 Het blauwe machientje stelt maar een heel eenvoudige functie voor. Stel dat we een ingewikkelder,
 groen machientje hebben. Uit het groene machientje komt een $y$ die gelijk is aan de *vierkantswortel* van onze $x$.
 Dat betekent dus dat als we een $x$ in ons machientje stoppen, $\sqrt{x}$ uit
