@@ -12,19 +12,19 @@ voor $y$ uit komt.
 
 {{% img "img/conveyor_plain.svg" "" %}}
 
-Voor een bepaalde $x-$waarde kan er dus **één of géén** $y-$waarde uit de
+Voor een bepaalde x-waarde kan er dus **één of géén** y-waarde uit de
 functie komen.
 
 ## Domein van een functie
-Het domein van een functie is de [verzameling](../../algemeen/verzamelingen)
-van $x-$waarden waarvoor er een functiewaarde {{%mute "(een $y-$waarde)" %}} bestaat.
+Het *domein* van een functie is de [verzameling](../../algemeen/verzamelingen)
+van x-waarden waarvoor er een functiewaarde {{%mute "(een y-waarde)" %}} bestaat.
 
-* Voor de $x-$waarden die **niet in het domein** zitten, bestaat er dus **géén
-$y-$waarde**.
-* Voor de $x-$waarden die **wel in het domein** zitten, bestaat er **één
-$y-$waarde**.
+* Voor elke x-waarde die **niet in het domein** zit, bestaat er **géén
+y-waarde**.
+* Voor elke x-waarde die **wel in het domein** zit, bestaat er **één
+y-waarde**.
 
-Een typisch voorbeeld is de [reële functie](../reele_functies) die als
+Een typisch voorbeeld is het domein van de [reële functie](../reele_functies) die als
 [functievoorschrift](../voorschrift) heeft
 
 $$f(x) = \sqrt{x}$$
@@ -32,34 +32,49 @@ $$f(x) = \sqrt{x}$$
 Omdat de [wortel van een negatief
 getal](../../algemeen/vierkantswortel#vierkantswortel-van-een-negatief-getal)
 geen [reëel getal](../../algemeen/reele_getallen) is, kan $f(x)$ niet reëel zijn 
-voor negatieve $x-$waarden. Er bestaan met andere woorden géén $y-$waarden
- voor negatieve $x-$waarden. 
+voor negatieve x-waarden. Er bestaan met andere woorden géén y-waarden
+ voor negatieve x-waarden. 
 Het domein
 van deze functie $f$ is dus alle *positieve* reële getallen, want enkel voor
-positieve $x-$waarden bestaat er een functiewaarde. We schrijven:
+positieve x-waarden bestaat er een functiewaarde. We schrijven:
 $$dom f = \mathbb{R}^+$$
 
-## Beeld van een functie
-Het beeld van een functie is de [verzameling](../../algemeen/verzamelingen) 
-van alle $y-$waarden die ooit uit de functie kunnen komen.
+Dit kunnen we ook schrijven als een [interval](../../algemeen/intervallen):
+$$bld f = [0, +\infty[$$
 
-Een typisch voorbeeld is de [reële functie](../reele_functies) die als
+## Beeld van een functie
+Het *beeld* of het *bereik* van een functie is de [verzameling](../../algemeen/verzamelingen) 
+van alle y-waarden die ooit uit de functie kunnen komen.
+
+Een typisch voorbeeld is het beeld van de [reële functie](../reele_functies) die als
 [functievoorschrift](../voorschrift) heeft
 
 $$f(x) = x^2$$
 
+Omdat het kwadraat van elk [reëel getal](../../algemeen/reele_getallen) positief is, kunnen er uit deze functie $f$ enkel *positieve* getallen komen. Met andere woorden is het beeld van deze functie alle *positieve* reële getallen. We schrijven:
+$$bld f = \mathbb{R}^+$$
+
+Dit kunnen we natuurlijk ook schrijven als een [interval](../../algemeen/intervallen):
+$$bld f = [0, +\infty[$$
 
 ## Domein en beeld op een grafiek
+Het domein en beeld van een functie kan je ook aflezen van de grafiek van die functie. Daarvoor moet je de grafiek projecteren op ofwel de x-as {{% mute "(voor het domein)" %}}, ofwel de y-as {{% mute "(voor het beeld)" %}}.
 
 ## Samengevat
 {{% attention "Definitie domein" %}}
-Het **domein van een functie** is de verzameling van alle mogelijke $x-$waarden
-waarvoor er een $y-$waarde bestaat.
+Het **domein van een functie** is de verzameling van alle mogelijke **x-waarden
+waarvoor er een y-waarde bestaat**.
 {{% /attention %}}
 
 {{% attention "Definitie beeld" %}}
-Het **beeld van een functie** is de verzameling van alle $y-$waarden die uit de
-functie kunnen komen.
+Het **beeld van een functie** is de verzameling van alle **y-waarden die uit de
+functie kunnen komen**.
 {{% /attention %}}
    
-, 
+{{% attention "Domein aflezen op een grafiek" %}}
+Het **domein van een functie** lees je af op een grafiek door de grafiek te **projecteren op de x-as**.
+{{% /attention %}}
+
+{{% attention "Beeld aflezen op een grafiek" %}}
+Het **beeld van een functie** lees je af op een grafiek door de grafiek te **projecteren op de y-as**.
+{{% /attention %}}
