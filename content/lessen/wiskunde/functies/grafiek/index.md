@@ -58,10 +58,10 @@ krijgen deze mooie figuur:
 {{% bokeh "plt/loads_of_x.json" %}}
 
 We hebben nu zoveel puntjes op ons assenstelsel dat we eigenlijk niet meer zien
-dat het *aparte* puntjes zijn. Het zijn wel degelijk aparte puntjes.
-{{% mute "(Ga maar na!)" %}}
-We zien **één curve**. Deze curve noemen we de
-**grafiek van de functie**.
+dat het *aparte* puntjes zijn. Het zijn wel degelijk aparte puntjes
+{{% mute "(beweeg maar eens over de grafiek)" %}},
+maar we zien het als **één doorlopende curve**.
+Deze curve noemen we de **grafiek van de functie**.
 
 ## Hoogstens één $y$ voor elke $x$
 We weten dat er bij een functie voor een bepaalde waarde van $x$ [hoogstens

@@ -1,13 +1,18 @@
-from bokeh.models import Arrow, NormalHead, ColumnDataSource
-from bokeh.models.glyphs import Text
+from bokeh.models import Arrow, NormalHead, ColumnDataSource, Label
 from bokeh.models.tools import WheelZoomTool
 from bokeh.plotting import figure
 
+BLUE = '#357edd'
+GREEN = '#19a974'
+RED = '#e7040f'
+ORANGE = '#ff6300'
+DBLUE = '#00449e'
+PINK = '#d5008f'
+GREY = '#d3d3d3'
 
 def get_plot(min_x=-10, max_x=10, min_y=-10,
              max_y=10, x_color='#555555', y_color='#555555',
-			 hover_format='{0.[0]}'
-):
+             hover_format='{0.[0]}'):
     TOOLTIPS = [
         ("(x,y)", "(@x, @y)")
     ]
@@ -74,11 +79,11 @@ def get_plot(min_x=-10, max_x=10, min_y=-10,
                        x_start=max_x, y_start=0,
                        x_end=max_x + x_margin, y_end=0))
 
-    source = ColumnDataSource(dict(x=[max_x, .3],
-                                   y=[.5, max_y],
-                                   text=['x', 'y'],
-                                   text_color=[x_color, y_color]))
-    glyph = Text(x='x', y='y', text='text', text_color='text_color', text_font='Quicksand', text_font_size='16pt')
-    p.add_glyph(source, glyph)
+    x_label = Label(x=max_x + x_margin/10, y=.3, text='x', text_color=x_color,
+                    text_font='Quicksand', text_font_size='16pt')
+    y_label = Label(x=.3, y=max_y + y_margin/10, text='y', text_color=y_color,
+                    text_font='Quicksand', text_font_size='16pt')
+    p.add_layout(x_label)
+    p.add_layout(y_label)
     p.toolbar.logo = None
     return p

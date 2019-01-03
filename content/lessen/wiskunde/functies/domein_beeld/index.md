@@ -1,10 +1,13 @@
 ---
 title: "Domein en beeld"
 date: 2018-07-01T22:13:11+02:00
-draft: true
 weight: 5
+draft: false
 tags: ["Functies", "Analyse"]
 categories: ["wiskunde", "analyse", "3e middelbaar"]
+level: 3M
+course: wiskunde
+topic: analyse
 ---
 Een functie kunnen we [voorstellen als een machientje](../intro) waar we een
 waarde voor $x$ in stoppen en waar [hoogstens één](../intro#samengevat) waarde
@@ -21,7 +24,7 @@ van x-waarden waarvoor er een functiewaarde {{%mute "(een y-waarde)" %}} bestaat
 
 * Voor elke x-waarde die **niet in het domein** zit, bestaat er **géén
 y-waarde**.
-* Voor elke x-waarde die **wel in het domein** zit, bestaat er **één
+* Voor elke x-waarde die **wel in het domein** zit, bestaat er **juist één
 y-waarde**.
 
 Een typisch voorbeeld is het domein van de [reële functie](../reele_functies) die als
@@ -40,7 +43,7 @@ positieve x-waarden bestaat er een functiewaarde. We schrijven:
 $$dom f = \mathbb{R}^+$$
 
 Dit kunnen we ook schrijven als een [interval](../../algemeen/intervallen):
-$$bld f = [0, +\infty[$$
+$$dom f = [0, +\infty[%]$$
 
 ## Beeld van een functie
 Het *beeld* of het *bereik* van een functie is de [verzameling](../../algemeen/verzamelingen) 
@@ -55,20 +58,38 @@ Omdat het kwadraat van elk [reëel getal](../../algemeen/reele_getallen) positie
 $$bld f = \mathbb{R}^+$$
 
 Dit kunnen we natuurlijk ook schrijven als een [interval](../../algemeen/intervallen):
-$$bld f = [0, +\infty[$$
+$$bld f = [0, +\infty[%]$$
 
 ## Domein en beeld op een grafiek
-Het domein en beeld van een functie kan je ook aflezen van de grafiek van die functie. Daarvoor moet je de grafiek projecteren op ofwel de x-as {{% mute "(voor het domein)" %}}, ofwel de y-as {{% mute "(voor het beeld)" %}}.
+Het domein en beeld van een functie kan je ook aflezen van de [grafiek van die
+functie](../grafiek). Daarvoor moet je de grafiek projecteren op ofwel de x-as
+{{% mute "(voor het domein)" %}},
+ofwel de y-as {{% mute "(voor het beeld)" %}}.
+
+Op de figuur hieronder zie je hoe we het **domein** van de getekende functie kunnen
+vinden door de grafiek te **projecteren op de x-as**. Het resultaat van de projectie
+is getoond **{{% class "in het groen" "green" %}}**.
+{{% mute "We gaan ervan uit dat de grafiek oneindig blijft verder stijgen aan de rechterkant." %}}
+We zien dan dat $\green{dom f = [-5, +\infty[}$.
+{{% bokeh "plt/dom.json" %}}
+
+
+Het **beeld** {{% mute "(of het bereik)" %}} van diezelfde functie kunnen we
+vinden door de grafiek nu te **projecteren op de y-as**. Op de onderstaande
+grafiek zie je het resultaat van deze projectie
+**{{% class "in het groen" "green" %}}**.
+{{% mute "We gaan ervan uit dat de grafiek oneindig blijft verder stijgen aan de rechterkant." %}}
+Je vindt dat $\green{bld f = [-6, +\infty[}$.
+{{% bokeh "plt/bld.json" %}}
 
 ## Samengevat
 {{% attention "Definitie domein" %}}
 Het **domein van een functie** is de verzameling van alle mogelijke **x-waarden
-waarvoor er een y-waarde bestaat**.
+waarvoor er een functiewaarde bestaat**.
 {{% /attention %}}
 
 {{% attention "Definitie beeld" %}}
-Het **beeld van een functie** is de verzameling van alle **y-waarden die uit de
-functie kunnen komen**.
+Het **beeld van een functie** is de verzameling van **alle mogelijke functiewaarden**.
 {{% /attention %}}
    
 {{% attention "Domein aflezen op een grafiek" %}}
