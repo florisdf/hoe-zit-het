@@ -13,7 +13,7 @@ voor $y$ uit komt.
 {{% img "img/conveyor_plain.svg" "" %}}
 
 ## Nulwaarden van een functie
-Stel dat we een $x$ in het machientje stoppen en dat er $0$ uitkomt. Dan noemen
+Stel dat we een $x$ in het machientje stoppen en dat er $0$ uit komt. Dan noemen
 we $x$ een **nulwaarde** van de functie. Bijvoorbeeld voor de functie met als
 [functievoorschrift](../voorschrift)
 $$f(x) = x - 2$$
