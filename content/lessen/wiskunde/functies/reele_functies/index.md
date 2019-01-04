@@ -1,7 +1,7 @@
 ---
 title: "Reële functies"
 date: 2018-12-27T13:31:03+01:00
-weight: 8
+weight: 9
 draft: true
 ---
 

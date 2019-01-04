@@ -8,3 +8,4 @@ lagen_van_een_uitdrukking
 reele_getallen
 intervallen
 assenstelsel
+vierkantswortel
