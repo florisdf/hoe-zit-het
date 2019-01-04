@@ -1,14 +1,34 @@
-from bokeh.models import Arrow, NormalHead, ColumnDataSource, Label
-from bokeh.models.tools import WheelZoomTool
+from bokeh.models import Arrow, NormalHead, Label
 from bokeh.plotting import figure
 
-BLUE = '#357edd'
-GREEN = '#19a974'
-RED = '#e7040f'
+DARK_RED = '#e7040f'
+RED = '#ff4136'
+LIGHT_RED = '#ff725c'
 ORANGE = '#ff6300'
-DBLUE = '#00449e'
-PINK = '#d5008f'
+GOLD = '#ffb700'
+YELLOW = '#ffde37'
+LIGHT_YELLOW = '#fbf1a9'
+PURPLE = '#5e2ca5'
+LIGHT_PURPLE = '#a463f2'
+DARK_PINK = '#d5008f'
+HOT_PINK = '#ff41b4'
+PINK = '#ff80cc'
+LIGHT_PINK = '#ffa3d7'
+DARK_GREEN = '#137752'
+GREEN = '#19a974'
+LIGHT_GREEN = '#9eebcf'
+NAVY = '#001b44'
+DARK_BLUE = '#00449e'
+BLUE = '#357edd'
+LIGHT_BLUE = '#96ccff'
+LIGHTEST_BLUE = '#cdecff'
+WASHED_BLUE = '#f6fffe'
+WASHED_GREEN = '#e8fdf5'
+WASHED_YELLOW = '#fffceb'
+WASHED_RED = '#ffdfdf'
 GREY = '#d3d3d3'
+GRAY = '#d3d3d3'
+
 
 def get_plot(min_x=-10, max_x=10, min_y=-10,
              max_y=10, x_color='#555555', y_color='#555555',
@@ -16,10 +36,11 @@ def get_plot(min_x=-10, max_x=10, min_y=-10,
     TOOLTIPS = [
         ("(x,y)", "(@x, @y)")
     ]
-    TOOLTIPS =  ('<div style="font-family: \'Quicksand\'; font-size: 14pt; color:#555555;">'
-                 f'(<span style="color:{x_color};">@x{hover_format}</span>, '
-                 f'<span style="color:{y_color};">@y{hover_format}</span>)'
-                 '</div>')
+    TOOLTIPS = ('<div style="font-family: \'Quicksand\'; font-size: 14pt; '
+                'color:#555555;">'
+                f'(<span style="color:{x_color};">@x{hover_format}</span>, '
+                f'<span style="color:{y_color};">@y{hover_format}</span>)'
+                '</div>')
     x_margin = abs(max_x - min_x) // 20
     y_margin = abs(max_y - min_y) // 20
 
@@ -31,8 +52,8 @@ def get_plot(min_x=-10, max_x=10, min_y=-10,
     p.background_fill_alpha = 0
     p.border_fill_alpha = 0
     p.sizing_mode = "scale_width"
-    p.tools[1].line_alpha = 0.5 # Crosshair alpha
-    p.tools[1].line_width = 2 # Crosshair width
+    p.tools[1].line_alpha = 0.5  # Crosshair alpha
+    p.tools[1].line_width = 2  # Crosshair width
 
     p.xaxis[0].fixed_location = 0
     p.xaxis[0].axis_line_color = x_color
