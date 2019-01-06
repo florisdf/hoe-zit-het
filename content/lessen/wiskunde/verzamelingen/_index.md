@@ -1,7 +1,7 @@
 ---
 title: "Verzamelingen"
 date: 2019-01-05T21:27:16+01:00
-weight: 3
+weight: 1
 draft: true
 tags: []
 categories: []

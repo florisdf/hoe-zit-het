@@ -33,9 +33,6 @@ GRAY = '#d3d3d3'
 def get_plot(min_x=-10, max_x=10, min_y=-10,
              max_y=10, x_color='#555555', y_color='#555555',
              hover_format='{0.[0]}'):
-    TOOLTIPS = [
-        ("(x,y)", "(@x, @y)")
-    ]
     TOOLTIPS = ('<div style="font-family: \'Quicksand\'; font-size: 14pt; '
                 'color:#555555;">'
                 f'(<span style="color:{x_color};">@x{hover_format}</span>, '
@@ -48,12 +45,16 @@ def get_plot(min_x=-10, max_x=10, min_y=-10,
                y_axis_label='y-as',
                x_range=[min_x - x_margin, max_x + x_margin],
                y_range=[min_y - y_margin, max_y + y_margin],
-               tools='hover,crosshair', tooltips=TOOLTIPS)
+               tools='hover,crosshair,save', tooltips=TOOLTIPS)
     p.background_fill_alpha = 0
     p.border_fill_alpha = 0
     p.sizing_mode = "scale_width"
     p.tools[1].line_alpha = 0.5  # Crosshair alpha
     p.tools[1].line_width = 2  # Crosshair width
+    p.title.text_font = 'Quicksand'
+    p.title.text_font_size = '18pt'
+    p.title.text_font_style = 'normal'
+    p.title.align = 'center'
 
     p.xaxis[0].fixed_location = 0
     p.xaxis[0].axis_line_color = x_color

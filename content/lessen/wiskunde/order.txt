@@ -1,7 +1,7 @@
-functies
-veeltermen
 verzamelingen
 vergelijkingen
+functies
+veeltermen
 rekenen
 ongelijkheden
 goniometrie

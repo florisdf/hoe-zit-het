@@ -41,7 +41,8 @@ De namen *nulpunten* en *nulwaarden* worden soms door elkaar gebruikt, maar
 strikt gezien zijn ze niet hetzelfde. Nul*waarden* zijn x-*waarden*, maar
 nul*punten* zijn *punten* met een x- én y-coördinaat. De x-coördinaat van een
 nulpunt is de nul*waarde*. De y-coördinaat van een nulpunt is altijd *nul*
-{{% mute "(uiteraard)" %}}.
+{{% mute "(uiteraard)" %}}. Als de nulwaarde bijvoorbeeld $-2$ is, is het
+nulpunt $(-2, 0)$.
 
 ## Nulpunten op een grafiek
 We kunnen een functie voorstellen met een [grafiek](../grafiek) door de x- en

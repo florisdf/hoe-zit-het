@@ -1,5 +1,5 @@
 ---
 title: "Functies"
 section_color: "#19a974"
-weight: 1
+weight: 3
 ---
