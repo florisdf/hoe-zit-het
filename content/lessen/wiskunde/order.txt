@@ -1,4 +1,11 @@
-algemeen
-vergelijkingen
 functies
+veeltermen
+verzamelingen
+vergelijkingen
+rekenen
+ongelijkheden
 goniometrie
+reele_fies
+eerste_gr_fies
+veeltermen
+stelsels

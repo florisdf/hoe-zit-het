@@ -22,7 +22,7 @@ for idx in p.rglob('*/*index.md'):
 
     # Create empty order.txt if it does not exist
     if not order.exists():
-        order.write_text('\n')
+        order.touch()
 
     if not any([re.search(f'^{idx.parent.stem}\n', l)
                 for l in order.open().readlines()]):

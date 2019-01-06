@@ -19,7 +19,7 @@ Voor een bepaalde x-waarde kan er dus **één of géén** y-waarde uit de
 functie komen.
 
 ## Domein van een functie
-Het *domein* van een functie is de [verzameling](../../algemeen/verzamelingen)
+Het *domein* van een functie is de [verzameling](../../verzamelingen/verzamelingen)
 van x-waarden waarvoor er een functiewaarde {{%mute "(een y-waarde)" %}} bestaat.
 
 * Voor elke x-waarde die **niet in het domein** zit, bestaat er **géén
@@ -33,8 +33,8 @@ Een typisch voorbeeld is het domein van de [reële functie](../reele_functies) d
 $$f(x) = \sqrt{x}$$
 
 Omdat de [wortel van een negatief
-getal](../../algemeen/vierkantswortel#vierkantswortel-van-een-negatief-getal)
-geen [reëel getal](../../algemeen/reele_getallen) is, kan $f(x)$ niet reëel zijn 
+getal](../../rekenen/vierkantswortel#vierkantswortel-van-een-negatief-getal)
+geen [reëel getal](../../verzamelingen/reele_getallen) is, kan $f(x)$ niet reëel zijn 
 voor negatieve x-waarden. Er bestaan met andere woorden géén y-waarden
  voor negatieve x-waarden. 
 Het domein
@@ -42,11 +42,11 @@ van deze functie $f$ is dus alle *positieve* reële getallen, want enkel voor
 positieve x-waarden bestaat er een functiewaarde. We schrijven:
 $$dom f = \mathbb{R}^+$$
 
-Dit kunnen we ook schrijven als een [interval](../../algemeen/intervallen):
+Dit kunnen we ook schrijven als een [interval](../../verzamelingen/intervallen):
 $$dom f = [0, +\infty[%]$$
 
 ## Beeld van een functie
-Het *beeld* of het *bereik* van een functie is de [verzameling](../../algemeen/verzamelingen) 
+Het *beeld* of het *bereik* van een functie is de [verzameling](../../verzamelingen/verzamelingen) 
 van alle y-waarden die ooit uit de functie kunnen komen.
 
 Een typisch voorbeeld is het beeld van de [reële functie](../reele_functies) die als
@@ -54,10 +54,10 @@ Een typisch voorbeeld is het beeld van de [reële functie](../reele_functies) di
 
 $$f(x) = x^2$$
 
-Omdat het kwadraat van elk [reëel getal](../../algemeen/reele_getallen) positief is, kunnen er uit deze functie $f$ enkel *positieve* getallen komen. Met andere woorden is het beeld van deze functie alle *positieve* reële getallen. We schrijven:
+Omdat het kwadraat van elk [reëel getal](../../verzamelingen/reele_getallen) positief is, kunnen er uit deze functie $f$ enkel *positieve* getallen komen. Met andere woorden is het beeld van deze functie alle *positieve* reële getallen. We schrijven:
 $$bld f = \mathbb{R}^+$$
 
-Dit kunnen we natuurlijk ook schrijven als een [interval](../../algemeen/intervallen):
+Dit kunnen we natuurlijk ook schrijven als een [interval](../../verzamelingen/intervallen):
 $$bld f = [0, +\infty[%]$$
 
 ## Domein en beeld op een grafiek

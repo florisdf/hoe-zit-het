@@ -1,5 +1,6 @@
 ---
 title: "Goniometrie"
 section_color: "#d5008f"
-weight: 4
+weight: 7
+draft: true
 ---

@@ -27,7 +27,7 @@ noemen we de **onafhankelijke variabele**.
 
 ## Oké, maar wat zijn die $x$ en $y$?
 $x$ en $y$ kunnen **vanalles** zijn. Meestal zijn ze allebei [reële
-getallen](../../algemeen/reele_getallen). Maar $x$ mag ook bijvoorbeeld een
+getallen](../../verzamelingen/reele_getallen). Maar $x$ mag ook bijvoorbeeld een
 naam van iemand zijn, en $y$ de lengte van die persoon. Of $x$ kan een datum
 zijn en $y$ de gemiddelde temperatuur op die dag.
 

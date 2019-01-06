@@ -35,7 +35,7 @@ $\orange{5}$           |    $\green{1.5}$
 ## $x$ en $y$ als coördinaten
 We kunnen de waarden voor $\orange{x}$ en $\green{y}$ in de bovenstaande tabel
 zien als coördinaten van punten op een
-[assenstelsel](../../algemeen/assenstelsel). Bijvoorbeeld in de laatste rij van
+[assenstelsel](../../verzamelingen/assenstelsel). Bijvoorbeeld in de laatste rij van
 de waardentabel is $\orange{x = 5}$ en $\green{y = 1.5}$. We kunnen dit
 voorstellen door een puntje met coördinaten $(\orange{5}, \green{1.5})$.
 {{% mute "(Als je met je muis over het puntje in de grafiek beweegt - of erop tikt met je vinger - zie je de coördinaten ervan)" %}}

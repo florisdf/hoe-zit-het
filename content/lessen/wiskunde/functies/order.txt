@@ -6,5 +6,3 @@ domein_beeld
 nulpunten
 tekenschema
 verloop
-reele_functies
-graad_1
