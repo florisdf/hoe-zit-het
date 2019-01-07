@@ -45,13 +45,13 @@ Ingang $x$               | $-\infty$    |           | $-3$       |             |
 -------------------------|--------------|-----------|------------|-------------|------------|-----------|----------------
 **Uitgang** $y = f(x)$   |              | $\red{-}$ | $\blue{0}$ | $\green{+}$ | $\blue{0}$ | $\red{-}$ |
 
-Het schema toont dat
+Het schema toont:
 
-* Als de ingang ($x$) iets tussen $-\infty$ en $-3$ is, de uitgang ($y$) *{{% class "negatief" "red" %}}* is;
-* Als $x=-3$, $y$ *{{% class "nul" "blue" %}}* is;
-* Als $x$ iets tussen $-3$ en $3$ is, $y$ *{{% class "positief" "green" %}}* is;
-* Als $x=3$ is, $y$ *{{% class "nul" "blue" %}}* is;
-* Als $x$ iets tussen $3$ en $+\infty$ is, $y$ *{{% class "negatief" "red" %}}* is.
+* Als de ingang ($x$) iets tussen $-\infty$ en $-3$ is, is de uitgang ($y$) *{{% class "negatief" "red" %}}*;
+* Als $x=-3$, is $y$ *{{% class "nul" "blue" %}}*;
+* Als $x$ iets tussen $-3$ en $3$ is, is $y$ *{{% class "positief" "green" %}}*;
+* Als $x=3$ is, is $y$ *{{% class "nul" "blue" %}}*;
+* Als $x$ iets tussen $3$ en $+\infty$ is, is $y$ *{{% class "negatief" "red" %}}*.
 
 ## Tekenschema zonder grafiek
 We kunnen een tekenschema ook maken *zonder* een grafiek. Dit doen we in drie
@@ -64,7 +64,7 @@ stappen.
 We werken deze stappen uit voor de ([reële](../../reele_fies)) functie
 met [voorschrift](../voorschrift)
 $$f(x) = -x^2 + 9$$
-Dit is de functie die hoort bij de grafiek van daarnet.
+Dit is de functie die hoort bij de grafiek van daarnet. We hopen dus ook hetzelfde tekenschema te krijgen.
 
 ### Grenzen van het domein
 We kunnen van eender welk reëel getal het kwadraat berekenen, dus we kunnen
