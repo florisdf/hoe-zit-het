@@ -1,3 +1,4 @@
 intro
+andere_kant
 graad_1
 functies
