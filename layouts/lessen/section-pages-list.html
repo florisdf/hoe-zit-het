@@ -1,14 +1,12 @@
-{{ $section := .Paginate (where .Data.Pages "Section" .Section) }}
-<ol style="column-count: 3">
-  {{ range  $section.Pages.ByWeight }}
+<ol>
+  {{ range .Pages.ByWeight }}
   <li
-    class="f3 dim pointer mid-gray">
-    <a class="color-inherit"
-      href="{{ .URL }}">
+    style="color: {{ $.Params.section_color | default ($.Scratch.Get "stroke") | default $.Site.Params.default_stroke }};"
+    class="f4 dim">
+    <a href="{{ .URL }}"
+       style="color: inherit">
       {{ .Title }}
     </a>
   </li>
   {{ end }}
-<ol>
-{{ template "_internal/pagination.html" . }}
-
+</ol>
