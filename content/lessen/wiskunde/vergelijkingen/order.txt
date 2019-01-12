@@ -1,4 +1,4 @@
 intro
-andere_kant
+omvormen
 graad_1
 functies

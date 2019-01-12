@@ -1,7 +1,7 @@
 ---
-title: "Andere_kant"
-date: 2019-01-10T18:10:30+01:00
-weight: 2
+title: "Logica"
+date: 2019-01-12T22:28:15+01:00
+weight: 0
 draft: true
 tags: []
 categories: []
