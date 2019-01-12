@@ -6,11 +6,13 @@
 {{ define "main" }}
 <article class="center cf pv5 measure-wide-l">
   <h1 class="tc">Hier zit je niet goed...</h1>
-  <p>Deze bestaat (nog) niet. Stuur een mailtje naar
+  <p>De pagina die je zoekt, bestaat (nog) niet.</p>
+
+  <p>Stuur een mailtje naar
   <a href="mailto:info@hoezithet.net?subject=Ik mis een les">
     info@hoezithet.net
   </a>
-  als je deze les er graag zo snel mogelijk bij hebt.</p>
-  <div class="tc">Terug naar de <a href="{{ "/" | relURL }}">startpagina</a>!</div>
+  als je een les zocht die je er graag zo snel mogelijk bij hebt.</p>
+  <div class="tc">Terug naar de <a href="javascript:history.back()">vorige pagina</a>!</div>
 </article>
 {{ end }}
