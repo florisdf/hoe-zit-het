@@ -1,7 +1,7 @@
 ---
 title: "Logica"
 date: 2019-01-12T22:28:15+01:00
-weight: 0
+weight: 12
 draft: true
 tags: []
 categories: []

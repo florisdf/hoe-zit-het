@@ -1,7 +1,7 @@
 ---
 title: "Vergelijkingen van de eerste graad"
 date: 2018-09-12T22:34:11+02:00
-weight: 3
+weight: 6
 draft: true
 toc: true
 tags: ["Vergelijkingen", "Eerste graad", "Algebra"]

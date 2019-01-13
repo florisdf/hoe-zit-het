@@ -9,3 +9,4 @@ reele_fies
 eerste_gr_fies
 veeltermen
 stelsels
+logica

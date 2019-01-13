@@ -1,4 +1,7 @@
 intro
 omvormen
+termen_omvormen
+factoren_omvormen
+andere_omvormen
 graad_1
 functies

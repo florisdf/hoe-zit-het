@@ -1,7 +1,7 @@
 ---
-title: "Functies"
-date: 2019-01-09T18:17:33+01:00
-weight: 7
+title: "Termen_omvormen"
+date: 2019-01-13T13:33:15+01:00
+weight: 3
 draft: true
 tags: []
 categories: []
