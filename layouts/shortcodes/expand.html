@@ -11,11 +11,12 @@
     -webkit-transform: rotate(90deg);
     transform: rotate(90deg);
 }
+
 </style>
 
 <div class="expand">
     <div class="gray" style="cursor: pointer;" onclick="$h = $(this);$h.children('i').toggleClass('down');$h.next('div').slideToggle(300);">
-        <i class="fas fa-chevron-right rotate"></i>
+        <i class="fas fa-chevron-right rotate black-10"></i>
         <span>
         {{$expandMessage := T "Expand-title"}}
     	{{ if .IsNamedParams }}
