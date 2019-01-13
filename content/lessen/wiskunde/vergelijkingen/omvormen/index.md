@@ -14,33 +14,34 @@ Een [vergelijking](../intro) is de gelijkheid van een *linkerlid* en een *rechte
 Het is meestal de bedoeling om te zoeken naar die waarden voor de onbekende(n) waarvoor de gelijkheid klopt.
 
 ## Van de ene vergelijking naar de andere
-Veel vergelijkingen kunnen we oplossen door de vergelijking **om te vormen**. Een vergelijking *omvormen* betekent dat je er een nieuwe vergelijking van maakt die **even juist is als de oorspronkelijke vergelijking**.
+Veel vergelijkingen kunnen we oplossen door de vergelijking **om te vormen**. Een vergelijking omvormen betekent dat je er een nieuwe vergelijking van maakt door in het linker- en rechterlid **dezelfde bewerking** te doen. De vergelijking die je krijgt na het omvormen is **even juist als de oorspronkelijke vergelijking**.
 
 Stel dat
 \begin{equation}\label{eq:1}
 x + 2 = -3x - 1
 \end{equation}
-Aan wat is $x + 2 \orange{- 1}$
+Aan wat is $x + 2 \orange{- 6}$
 dan gelijk? Wel uit de eerste vergelijking weten we dat $x + 2 = - 3x - 1$. Dan is
-$$x + 2 \orange{- 1} = -3x - 1 \orange{- 1}$$
+$$x + 2 \orange{- 6} = -3x - 1 \orange{- 6}$$
 Uitrekenen geeft dus dat
 \begin{equation}\label{eq:2}
-x + 1 = - 3x - 2
+x \orange{- 4} = - 3x \orange{- 7}
 \end{equation}
 
 
-We zeggen dat we vergelijking \ref{eq:1} hebben *omgevormd* naar vergelijking \ref{eq:2}. Een vergelijking omvormen betekent gewoon dat je links en rechts dezelfde bewerking toevoegt, hier $\orange{- 1}$. Achter elkaar schrijven we de omvorming als volgt:
+We zeggen dat we vergelijking \ref{eq:1} hebben *omgevormd* naar vergelijking \ref{eq:2} door in het linker- en rechterlid *dezelfde bewerking* te doen (namelijk links en rechts $\orange{6}$ aftrekken).
+Achter elkaar schrijven we de omvorming als volgt:
 \begin{split}
 &x + &2 &= \quad &-3x - &1\\\\\
-\Leftrightarrow\quad &x + &2 \orange{- 1} &= &-3x - &1 \orange{- 1}\\\\\
-\Leftrightarrow\quad &x + &1 &= &-3x - &2
+\Leftrightarrow\quad &x + &2 \orange{- 6} &= &-3x - &1 \orange{- 6}\\\\\
+\Leftrightarrow\quad &x - &4 &= &-3x - &7
 \end{split}
 
 {{% expand "Uitbreiding" %}}
 Er staat niet voor niets een *dubbele pijl* ($\Leftrightarrow$) tussen de vergelijkingen in plaats van een enkele pijl ($\Rightarrow$ of $\Leftarrow$). Je kan namelijk van de laatste vergelijking ook terug naar de eerste vergelijking gaan. De omvorming is *omkeerbaar*:
 \begin{split}
-&x + &1 &= \quad &-3x - &2\\\\\
-\Leftrightarrow\quad &x + &1 \orange{+ 1} &= &-3x - &2 \orange{+ 1}\\\\\
+&x - &4 &= \quad &-3x - &7\\\\\
+\Leftrightarrow\quad &x + &1 \orange{+ 6} &= &-3x - &2 \orange{+ 6}\\\\\
 \Leftrightarrow\quad &x + &2 &= &-3x - &1
 \end{split}
 
