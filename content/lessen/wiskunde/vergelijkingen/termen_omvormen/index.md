@@ -13,7 +13,7 @@ Een [vergelijking](../intro) oplossen betekent dat we de waarden van de onbekend
 
 Door een vergelijking [om te vormen](../omvormen) naar de vorm 
 $x = \text{(een getal)}$
-kunnen we de vergelijking oplossen. In deze les zien we hoe we een vergelijking van de vorm $x + a = b$ en $x - a = b$ (waarbij $a$ en $b$ [reële getallen](../../verzamelingen/reele_getallen) zijn) kunnen omvormen naar $x = \text{(een getal)}$.
+kunnen we de vergelijking oplossen. In deze les zien we hoe we vergelijkingen van de vorm $x + a = b$ en $x - a = b$ (waarbij $a$ en $b$ [reële getallen](../../verzamelingen/reele_getallen) zijn) kunnen omvormen naar $x = \text{(een getal)}$.
 
 ## Omvormen van $x + a = b$
 Om een vergelijking van de vorm $x + a = b$ {{% mute "(met $a, b \in \mathbb{R}$)" %}} om te vormen naar $x = \text{(een getal)}$, moeten we enkel de $+ a$ weg krijgen uit het linkerlid. We willen dat er links $x + 0$ staat in plaats van $x + a$. We kunnen van de $a$ een $0$ maken door van het linker- en rechterlid $a$ af te trekken:
