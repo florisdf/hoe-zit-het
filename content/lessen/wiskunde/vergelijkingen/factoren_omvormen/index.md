@@ -2,7 +2,7 @@
 title: "Vermenigvuldigingen en delingen omvormen"
 date: 2019-01-13T13:33:28+01:00
 weight: 4
-draft: true
+draft: false
 tags: ["vergelijkingen", "algebra"]
 categories: ["wiskunde", "algebra"]
 level: "2M"
@@ -76,4 +76,22 @@ Controle:
 $$\frac{\blue{-10}}{5} = - 2$$
 Yes! :muscle:
 ## Samengevat
+{{% attention "Oplossen van $a\cdot x = b$" %}}
+Een vergelijking van de vorm
+$$a\cdot x = b$$
+met $a \in \mathbb{R}_0$ en $b \in \mathbb{R}$ los je op door het linker- en
+rechterlid te **delen door $a$**:
+$$a\cdot x = b$$
+$$\Leftrightarrow \frac{a\cdot x}{\orange{a}} = \frac{b}{\orange{a}}$$
+$$\Leftrightarrow x = \frac{b}{a}$$
+{{% /attention %}}
 
+{{% attention "Oplossen van $\frac{x}{a} = b$" %}}
+Een vergelijking van de vorm
+$$\frac{x}{a} = b$$
+met $a \in \mathbb{R}_0$ en $b \in \mathbb{R}$ los je op door het linker- en
+rechterlid te **vermenigvuldigen met $a$**:
+$$\frac{x}{a} = b$$
+$$\Leftrightarrow \frac{x}{a}\orange{\cdot a} = b\orange{\cdot a}$$
+$$\Leftrightarrow x = b \cdot a$$
+{{% /attention %}}
