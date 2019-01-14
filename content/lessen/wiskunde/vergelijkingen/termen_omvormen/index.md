@@ -22,7 +22,7 @@ $$\Leftrightarrow x + a \orange{- a} = b \orange{- a}$$
 $$\Leftrightarrow x + \orange{0} = b \orange{- a}$$
 $$\Leftrightarrow x = b - a$$
 
-## Een voorbeeld
+## Voorbeeld voor $x + a = b$
 Nu eens zonder al die letters. We zullen het eens toepassen op de vergelijking
 $$x + 3 = -8$$
 De $a$ is hier $3$ en de $b$ is hier $-8$. Om die vergelijking om te zetten naar de vorm $x = \text{(een getal)}$, moeten we van het linker- en rechterlid $3$ aftrekken:
@@ -40,7 +40,7 @@ $$\Leftrightarrow x - a \orange{+a} = b \orange{+a}$$
 $$\Leftrightarrow x \orange{+0} = b \orange{+a}$$
 $$\Leftrightarrow x = b + a$$
 
-Bijvoorbeeld
+## Voorbeeld voor $x - a = b$
 $$x - 6 = 2$$
 $$\Leftrightarrow x - 6 \orange{+6} = 2 \orange{+6}$$
 $$\Leftrightarrow x \orange{+0} = \orange{8}$$

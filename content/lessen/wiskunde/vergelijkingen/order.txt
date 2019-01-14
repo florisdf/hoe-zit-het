@@ -5,3 +5,4 @@ factoren_omvormen
 andere_omvormen
 graad_1
 functies
+aantal_oplossingen
