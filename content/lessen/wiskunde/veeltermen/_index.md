@@ -5,7 +5,7 @@ weight: 10
 draft: false
 tags: []
 categories: []
-section_color: "#ff6300"
+section_color: "#d5008f"
 level: ""
 course: ""
 topic: ""
