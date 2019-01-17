@@ -18,6 +18,7 @@ MathJax.Hub.Config({
          dblue: '\\color{#00449e}',
          pink: '\\color{#d5008f}',
          grey: '\\color{#d3d3d3}',
+         normal: '\\color{#555555}',
          black: '\\color{#000000}',
          pos: '\\color{#19a974}',
          neg: '\\color{#e7040f}',
@@ -69,18 +70,14 @@ MathJax.Hub.Config({
 <!-- Hit counter -->
 <script type="text/javascript"/>
   // Use IP address ass value
-  $.getJSON('https://api.ipify.org?format=jsonp&callback=?', function(data) {
     var newHitKey = firebase.database().ref().child('hits').push().key;
 
     var url = '{{ .URL }}'
     var currentdate = new Date();
     var updates = {};
     updates['hits/' + newHitKey] = {
-      'ip': data['ip'],
       'time': currentdate.getTime(),
       'url': url
     };
     firebase.database().ref().update(updates);
-  });
-
 </script>

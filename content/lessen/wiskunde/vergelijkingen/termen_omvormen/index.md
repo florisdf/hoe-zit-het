@@ -1,5 +1,5 @@
 ---
-title: "Optellingen en aftrekkingen omvormen"
+title: "Plus en min omvormen"
 date: 2019-01-13T13:33:15+01:00
 weight: 3
 draft: false
@@ -61,22 +61,7 @@ $$\Leftrightarrow x = b + a$$
 {{% /expand %}}
 
 ## Samengevat
-{{% attention "Oplossen van $x + a = b$" %}}
-Een vergelijking van de vorm
-$$x + a = b$$
-met $a, b \in \mathbb{R}$ los je op door van het linker- en rechterlid $a$ **af te trekken**:
-$$x + a = b$$
-$$\Leftrightarrow x + a \orange{- a} = b \orange{- a}$$
-$$\Leftrightarrow x + \orange{0} = b \orange{- a}$$
-$$\Leftrightarrow x = b - a$$
-{{% /attention %}}
-
-{{% attention "Oplossen van $x - a = b$" %}}
-Een vergelijking van de vorm
-$$x - a = b$$
-met $a, b \in \mathbb{R}$ los je op door bij het linker- en rechterlid $a$ **op te tellen**:
-$$x - a = b$$
-$$\Leftrightarrow x - a \orange{+a} = b \orange{+ a}$$
-$$\Leftrightarrow x \orange{+ 0} = b \orange{+ a}$$
-$$\Leftrightarrow x = b + a$$
-{{% /attention %}}
+| Vergelijking      | Tussenstap                                                              | Oplossing                            | {{% mute "Voorwaarden" %}}                                |
+|-------------------|-------------------------------------------------------------------------|--------------------------------------|-----------------------------------------------------------|
+| $x + a = b$       | $x + a \orange{- a} = b \orange{- a}$                                   | $x = b \orange{- a}$                 | {{% mute "$a, b \in \mathbb{R}$" %}}                      |
+| $x - a = b$       | $x - a \orange{+ a} = b \orange{+ a}$                                   | $x = b \orange{+ a}$                 | {{% mute "$a, b \in \mathbb{R}$" %}}                      |

@@ -4,6 +4,5 @@ termen_omvormen
 factoren_omvormen
 machten_omvormen
 andere_omvormen
-graad_1
+mix_van_bewerkingen
 functies
-aantal_oplossingen
