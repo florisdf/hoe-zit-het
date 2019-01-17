@@ -1,7 +1,7 @@
 ---
 title: "Mix van bewerkingen"
 date: 2019-01-17T18:50:35+01:00
-weight: 7
+weight: 6
 draft: true
 tags: ["vergelijkingen", "algebra"]
 categories: ["wiskunde", "algebra"]
@@ -16,7 +16,7 @@ onbekende, namelijk $x$.
 We kunnen een vergelijking oplossen door de vergelijking [om te
 vormen](../omvormen) naar de vorm $x = \text{(een getal)}$. We hebben in vorige
 lessen gezien hoe we bepaalde vergelijkingen kunnen omvormen. De
-oplossingsmethodes kunnen als volgt worden samengevat:
+oplossingsmethoden kunnen als volgt worden samengevat:
 
 | Vergelijking        | Tussenstap                                                                | Oplossing                              | {{% mute "Voorwaarden" %}}                                  |                                                        |
 |---------------------|---------------------------------------------------------------------------|----------------------------------------|-------------------------------------------------------------|--------------------------------------------------------|

@@ -3,6 +3,5 @@ omvormen
 termen_omvormen
 factoren_omvormen
 machten_omvormen
-andere_omvormen
 mix_van_bewerkingen
 functies
