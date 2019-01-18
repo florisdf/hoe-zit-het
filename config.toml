@@ -36,3 +36,12 @@ enableEmoji = true
   default_stroke = "#000000"
 	default_image = "/images/default.svg"
   env = "production"
+
+[outputFormats]
+  [outputFormats.Bare]
+  mediaType = "text/html"
+  path = "bare"
+  isHTML = true
+
+[outputs]
+  page = ["HTML", "Bare"]
