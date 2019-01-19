@@ -1,7 +1,7 @@
 ---
-title: "Functies"
-date: 2019-01-09T18:17:33+01:00
-weight: 8
+title: "Eerste_graad"
+date: 2019-01-19T00:23:58+01:00
+weight: 5
 draft: true
 tags: []
 categories: []

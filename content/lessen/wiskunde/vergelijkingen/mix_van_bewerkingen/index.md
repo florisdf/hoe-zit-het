@@ -1,7 +1,7 @@
 ---
 title: "Mix van bewerkingen"
 date: 2019-01-17T18:50:35+01:00
-weight: 6
+weight: 7
 draft: true
 tags: ["vergelijkingen", "algebra"]
 categories: ["wiskunde", "algebra"]
