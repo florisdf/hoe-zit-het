@@ -38,7 +38,7 @@ zien als coördinaten van punten op een
 [assenstelsel](../../verzamelingen/assenstelsel). Bijvoorbeeld in de laatste rij van
 de waardentabel is $\orange{x = 5}$ en $\green{y = 1.5}$. We kunnen dit
 voorstellen door een puntje met coördinaten $(\orange{5}, \green{1.5})$.
-{{% mute "(Als je met je muis over het puntje in de grafiek beweegt - of erop tikt met je vinger - zie je de coördinaten ervan)" %}}
+{{% mute "(Probeer eens op het puntje te klikken.)" %}}
 
 {{% bokeh "plt/single_x.json" %}}
 
