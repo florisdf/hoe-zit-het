@@ -3,13 +3,20 @@
   {{ partial "header/lessen-header.html" . }}
 {{ end }}
 
+
 {{ define "main" }}
+{{ $item := .Resources.GetMatch ("*.pdf") }}
   <div class="mw8 center ph3">
     <h1 class="f1" style="color: {{ $.Parent.Params.section_color }};">
       {{ .Title }}
     </h1>
+    <div class="tl f3" style="color: {{ $.Parent.Params.section_color }};">
+      <a href="{{ $item.Permalink }}" style="color: inherit;"><i id="_save_pdf" class="far fa-file-pdf ma1 dim pointer" title="Opslaan als PDF"></i></a>
+      <i id="_print" class="fas fa-print ma1 dim pointer" title="Afdrukken"></i>
+      <i id="_fb_share" class="fab fa-facebook-square ma1 dim pointer" title="Delen via Facebook"></i>
+    </div>
     <div class="flex-l flex-row-reverse">
-      <div class="w-third-l ph3-l">
+      <div class="w-third-l ph3-l mv2">
         {{ partial "main/toc.html" . }}
       </div>
       <article class="center cf w-two-thirds-l">
