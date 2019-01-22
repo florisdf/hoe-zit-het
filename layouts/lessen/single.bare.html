@@ -16,3 +16,13 @@
     </div>
   </div>
 {{ end }}
+{{ define "footer" }}
+<footer class="bottom-0 w-100 pv4 bg-white f4 tc"role="contentinfo">
+  <p>
+    Je vindt meer lessen op <a href="{{ .Site.BaseURL }}">{{ .Site.BaseURL }}</a>
+  </p>
+  <a href="{{ .Site.BaseURL }}" style="color: {{ $.Site.Params.default_stroke }};">
+    &copy; {{ now.Format "2006" }} {{ .Site.Title }}
+  </a>
+</footer>
+{{ end }}
