@@ -19,7 +19,7 @@ enableEmoji = true
 
 [params]
   favicon = "/images/favicon.svg"
-  description = ""
+  description = "Wiskunde zonder getreuzel."
   facebook = ""
   twitter = ""
   instagram = ""
@@ -36,6 +36,8 @@ enableEmoji = true
   default_stroke = "#000000"
 	default_image = "/images/default.svg"
   env = "production"
+  images = ["/images/logo.png"]
+
 
 [outputFormats]
   [outputFormats.Bare]
