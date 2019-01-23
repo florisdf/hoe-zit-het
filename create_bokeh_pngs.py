@@ -5,8 +5,15 @@ from bokeh.document import Document
 import bokeh.io
 from tqdm import tqdm
 import hashlib
+import argparse
 
-LAZY = True
+parser = argparse.ArgumentParser()
+parser.add_argument('-f', '--force',
+                    help='Create all pngs, even if their '
+                    'source file didn\'t change.',
+                    action='store_true')
+args = parser.parse_args()
+LAZY = ~args.force
 
 docs = {p: Document.from_json(json.load(p.open())['doc'])
         for p in Path('content/lessen/').rglob('*/plt/*.json')}
