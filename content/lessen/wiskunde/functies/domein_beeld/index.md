@@ -79,10 +79,9 @@ Het **beeld** {{% mute "(of het bereik)" %}} van diezelfde functie kunnen we
 vinden door de grafiek nu te **projecteren op de y-as**. Op de onderstaande
 grafiek zie je het resultaat van deze projectie
 **{{% class "in het groen" "green" %}}**.
+{{% bokeh "plt/bld.json" %}}
 {{% mute "We gaan ervan uit dat de grafiek oneindig blijft verder stijgen aan de rechterkant." %}}
 Je vindt dat $\green{bld f = [-6, +\infty[}$.
-
-{{% bokeh "plt/bld.json" %}}
 
 ## Samengevat
 {{% attention "Definitie domein" %}}
