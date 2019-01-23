@@ -71,6 +71,7 @@ vinden door de grafiek te **projecteren op de x-as**. Het resultaat van de proje
 is getoond **{{% class "in het groen" "green" %}}**.
 {{% mute "We gaan ervan uit dat de grafiek oneindig blijft verder stijgen aan de rechterkant." %}}
 We zien dan dat $\green{dom f = [-5, +\infty[}$.
+
 {{% bokeh "plt/dom.json" %}}
 
 
@@ -80,6 +81,7 @@ grafiek zie je het resultaat van deze projectie
 **{{% class "in het groen" "green" %}}**.
 {{% mute "We gaan ervan uit dat de grafiek oneindig blijft verder stijgen aan de rechterkant." %}}
 Je vindt dat $\green{bld f = [-6, +\infty[}$.
+
 {{% bokeh "plt/bld.json" %}}
 
 ## Samengevat
