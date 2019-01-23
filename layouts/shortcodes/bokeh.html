@@ -1,6 +1,7 @@
 {{ $item := $.Page.Resources.GetMatch (.Get 0)}}
 <p>{{ .Scratch.Get "test" }}</p>
-<div id="{{ .Get 0 }}" class="pa2">
+{{ $id := (print (replace (.Get 0) ".json" "_" ) (delimit (shuffle (seq 0 9)) "")) }}
+<div id="{{ printf  $id }}" class="pa2">
   <img src="{{ replace (.Get 0) ".json" ".png" }}">
   <script charset="utf-8" type="text/javascript">
     var xmlhttp = new XMLHttpRequest();
@@ -8,8 +9,8 @@
       if (this.readyState == 4 && this.status == 200) {
         var item = JSON.parse(this.responseText);
         if(typeof Bokeh !== 'undefined') {
-          document.getElementById("{{ .Get 0 }}").innerHTML = '';
-          Bokeh.embed.embed_item(item, "{{ .Get 0 }}");
+          document.getElementById("{{ $id }}").innerHTML = '';
+          Bokeh.embed.embed_item(item, "{{ $id }}");
         }
       }
     };
