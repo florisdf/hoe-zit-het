@@ -1,6 +1,7 @@
 ---
 title: "Hoe zit het?"
 title_img : "/images/logo.svg"
+images: ["/images/logo.png"]
 ---
 # Welkom bij **hoe zit het**!
 **Hoe zit het** is een verzameling van lessen over wiskunde. Elke les gaat over
