@@ -114,8 +114,8 @@ $$-(\clra{4 - 7})^2 \cdot 2 + \sqrt{\clra{9 \cdot 4}} \div 3 - \frac{\clra{4 \cd
 
 Merk op dat we de *teller* en *noemer* van een breuk ook als iets tussen haakjes zien. Dat
 komt omdat we een breuk zoals bijvoorbeeld $\frac{1 - 4}{3 + 2}$ ook kunnen schrijven als
-een deling $(1 - 4) \div (3 + 2)$. De teller en noemer staan dus eigenlijk tussen haakjes.
-Alle haakjes uitrekenen is snel gebeurd:
+een deling $(1 - 4) \div (3 + 2)$. De teller en noemer staan dus eigenlijk tussen haakjes. Ook alles wat *onder een wortel* staat, staat eigenlijk tussen haakjes.
+Al die haakjes uitrekenen is snel gebeurd:
 $$-(\clra{-3})^2 \cdot 2 + \sqrt{\clra{36}}\div 3 - \frac{\clra{12}}{\clra{2}}$$
 
 De uitdrukking wordt al meteen een pak eenvoudiger. Na de haakjes hebben de
