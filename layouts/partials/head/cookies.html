@@ -1,0 +1,34 @@
+<link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css" />
+<style type="text/css">
+.cc-window {
+  font-family: Quicksand, sans-serif;
+  font-size: 14pt;
+}
+</style>
+<script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js"></script>
+<script>
+window.addEventListener("load", function(){
+window.cookieconsent.initialise({
+  "palette": {
+    "popup": {
+      "background": "#333333",
+      "text": "#dddddd"
+    },
+    "button": {
+      "background": "#dddddd",
+      "text": "#333333"
+    }
+  },
+  "theme": "classic",
+  "content": {
+    "message": "Wij gebruiken volledig anonieme cookies om jou de beste ervaring te geven.",
+    "dismiss": "Begrepen!",
+    "allow": "Toestaan",
+    "link": "Lees hier meer",
+    "href": "{{ .BaseURL }}/cookies"
+  },
+  "elements": {
+    "message": '<span id="cookieconsent:desc" class="cc-message" style="font-family: \'Quicksand\';">{{"{{"}}message{{"}}"}}</span>'
+  }
+})});
+</script>

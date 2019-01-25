@@ -38,6 +38,12 @@ enableEmoji = true
   env = "production"
   images = ["/images/logo.png"]
 
+[privacy]
+  [privacy.googleAnalytics]
+    anonymizeIP = true
+    disable = false
+    respectDoNotTrack = true
+    useSessionStorage = false
 
 [outputFormats]
   [outputFormats.Bare]
