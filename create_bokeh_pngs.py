@@ -13,7 +13,7 @@ parser.add_argument('-f', '--force',
                     'source file didn\'t change.',
                     action='store_true')
 args = parser.parse_args()
-LAZY = ~args.force
+LAZY = not args.force
 
 docs = {p: Document.from_json(json.load(p.open())['doc'])
         for p in Path('content/lessen/').rglob('*/plt/*.json')}
