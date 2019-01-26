@@ -62,13 +62,15 @@ $$bld f = [0, +\infty[%]$$
 
 ## Domein en beeld op een grafiek
 Het domein en beeld van een functie kan je ook aflezen van de [grafiek van die
-functie](../grafiek). Daarvoor moet je de grafiek projecteren op ofwel de x-as
-{{% mute "(voor het domein)" %}},
-ofwel de y-as {{% mute "(voor het beeld)" %}}.
+functie](../grafiek). Neem bijvoorbeeld de grafiek van de functie 
+$$f(x) = 3\cdot \sqrt{x + 5} - 6$$
+Die grafiek ziet er zo uit:
 
-Op de figuur hieronder zie je hoe we het **domein** van de getekende functie kunnen
-vinden door de grafiek te **projecteren op de x-as**. Het resultaat van de projectie
-is getoond **{{% class "in het groen" "green" %}}**.
+{{% bokeh "plt/fx.json" %}}
+
+Om op deze grafiek het **domein** af te lezen, moet je de grafiek **projecteren
+op de x-as**.  Het resultaat van de projectie
+is aangeduid **{{% class "in het groen op de x-as" "green" %}}**.
 {{% mute "We gaan ervan uit dat de grafiek oneindig blijft verder stijgen aan de rechterkant." %}}
 We zien dan dat $\green{dom f = [-5, +\infty[}$.
 
@@ -78,7 +80,7 @@ We zien dan dat $\green{dom f = [-5, +\infty[}$.
 Het **beeld** {{% mute "(of het bereik)" %}} van diezelfde functie kunnen we
 vinden door de grafiek nu te **projecteren op de y-as**. Op de onderstaande
 grafiek zie je het resultaat van deze projectie
-**{{% class "in het groen" "green" %}}**.
+**{{% class "in het groen op de y-as" "green" %}}**.
 {{% bokeh "plt/bld.json" %}}
 {{% mute "We gaan ervan uit dat de grafiek oneindig blijft verder stijgen aan de rechterkant." %}}
 Je vindt dat $\green{bld f = [-6, +\infty[}$.

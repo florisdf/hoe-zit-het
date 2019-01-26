@@ -69,7 +69,7 @@ We weten dat er bij een functie voor een bepaalde waarde van $x$ [hoogstens
 de curve van een functie **nooit twee punten boven elkaar liggen**. De curve
 hieronder is een voorbeeld van een curve waar er voor bepaalde waarden van $x$
 **meerdere** waarden van $y$ bestaan. Met andere woorden is hier $y$ **geen
-functie van** $x$. Moest het {{% class "oranje" "b orange" %}} stukje er niet
-geweest zijn, was $y$ *wel* een functie van $x$.
+functie van** $x$. Zonder het onderste stukje dat lijkt "terug te keren" is
+$y$ *wel* een functie van $x$.
 
 {{% bokeh "plt/no_fx.json" %}}

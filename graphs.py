@@ -108,4 +108,13 @@ def get_plot(min_x=-10, max_x=10, min_y=-10,
     p.add_layout(x_label)
     p.add_layout(y_label)
     p.toolbar.logo = None
+
+    # Add reference to hoezithet.net
+    hzh_mark = Label(x=min_x + x_margin/10, y=min_y + y_margin/10,
+                     text='Bron: hoezithet.net',
+                     text_color=GRAY,
+                     text_font='Quicksand',
+                     text_font_size='12pt',
+                     text_align='left')
+    p.add_layout(hzh_mark)
     return p
