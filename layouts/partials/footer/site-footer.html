@@ -1,8 +1,37 @@
 <footer class="bottom-0 w-100 pv4" role="contentinfo">
   <div class="f4 flex justify-center">
-		<a class="" href="{{ .Site.BaseURL }}" style="color: {{ $.Site.Params.default_stroke }};">
-      &copy; {{ now.Format "2006" }} {{ .Site.Title }}
+    <a rel="license"
+      href="http://creativecommons.org/licenses/by-sa/4.0/"
+      class="gray dim ph1">
+      <i class="fab fa-creative-commons"></i>
+      <i class="fab fa-creative-commons-by"></i>
+      <i class="fab fa-creative-commons-sa"></i>
     </a>
-  {{ partial "social-follow.html" . }}
+    <span class="ph3">|</span>
+		<a class="gray dim" href="{{ .Site.BaseURL }}">
+      {{ .Site.Title }}
+    </a>
+    {{ with .Site.Params.facebook }}
+    <span class="ph3">|</span>
+    <a rel="license"
+       href="{{ . }}"
+       class="gray dim ph1">
+      <i class="fab fa-facebook"></i>
+    </a>
+    {{ end }}
+    {{ with .Site.Params.instagram }}
+    <a rel="license"
+       href="{{ . }}"
+       class="gray dim ph1">
+      <i class="fab fa-instagram"></i>
+    </a>
+    {{ end }}
+    {{ with .Site.Params.github }}
+    <a rel="license"
+       href="{{ . }}"
+       class="gray dim ph1">
+      <i class="fab fa-github"></i>
+    </a>
+    {{ end }}
   </div>
 </footer>
