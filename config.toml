@@ -20,7 +20,7 @@ enableEmoji = true
 [params]
   favicon = "/images/favicon.svg"
   description = "Wetenschappen in mensentaal"
-  facebook = "https://facebook.com"
+  facebook = "https://fb.me/hoezithet"
   instagram = "https://instagram.com"
   github = "https://github.com/florisdf/hoe-zit-het"
   background_color_class = "bg-near-white"
