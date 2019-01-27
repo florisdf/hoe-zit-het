@@ -14,7 +14,7 @@
    viewBox="0 0 193.48595 54.239937"
    version="1.1"
    id="svg5423"
-   sodipodi:docname="logo_black.svg"
+   sodipodi:docname="logo.svg"
    inkscape:version="0.92.3 (unknown)"
    inkscape:export-filename="/home/fdf/quickstart/themes/hugo-paper/static/img/logo.png"
    inkscape:export-xdpi="90"
@@ -29,15 +29,15 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.98994948"
-     inkscape:cx="330.72448"
+     inkscape:cx="290.31838"
      inkscape:cy="-1.2745494"
      inkscape:document-units="mm"
-     inkscape:current-layer="g916"
+     inkscape:current-layer="layer1"
      showgrid="false"
      inkscape:window-width="1600"
-     inkscape:window-height="827"
+     inkscape:window-height="875"
      inkscape:window-x="0"
-     inkscape:window-y="27"
+     inkscape:window-y="25"
      inkscape:window-maximized="1" />
   <metadata
      id="metadata5420">
@@ -67,7 +67,7 @@
          transform="matrix(0.79672903,0,0,0.79672903,91.035167,53.170362)"
          style="stroke-width:0.63481051">
         <g
-           transform="matrix(-0.36985591,0,0,0.36985591,477.05254,228.39605)"
+           transform="matrix(-0.36985591,0,0,0.36985591,476.71662,228.39605)"
            id="g1348-2-1-2"
            style="fill:#000000;stroke:none;stroke-width:1.71637249">
           <circle
@@ -108,37 +108,37 @@
         </g>
         <text
            xml:space="preserve"
-           style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:22.39470337px;line-height:129.99999523%;font-family:Quicksand;-inkscape-font-specification:'Quicksand, Normal';text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr;direction:ltr;baseline-shift:baseline;text-anchor:start;white-space:normal;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.45651039px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
-           x="389.61575"
+           style="color:#000000;font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:22.39470291px;line-height:129.99999523%;font-family:Quicksand;-inkscape-font-specification:'Quicksand Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;baseline-shift:baseline;text-anchor:start;white-space:normal;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.45651039px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+           x="389.52618"
            y="278.22998"
            id="text840"><tspan
              sodipodi:role="line"
              id="tspan838"
-             x="389.61575"
+             x="389.52618"
              y="278.22998"
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:22.39470337px;font-family:Quicksand;-inkscape-font-specification:'Quicksand, Normal';word-spacing:8.39801407px;stroke-width:0.45651039px;text-anchor:start;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;">hoe</tspan></text>
+             style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:22.39470291px;font-family:Quicksand;-inkscape-font-specification:'Quicksand Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;word-spacing:8.39801407px;writing-mode:lr-tb;text-anchor:start;stroke-width:0.45651039px">hoe</tspan></text>
         <text
            xml:space="preserve"
-           style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:22.39470337px;line-height:129.99999523%;font-family:Quicksand;-inkscape-font-specification:'Quicksand, Normal';text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr;direction:ltr;baseline-shift:baseline;text-anchor:start;white-space:normal;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.45651042px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
-           x="441.59698"
+           style="color:#000000;font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:22.39470291px;line-height:129.99999523%;font-family:Quicksand;-inkscape-font-specification:'Quicksand Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-indent:0;text-align:center;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;baseline-shift:baseline;text-anchor:middle;white-space:normal;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.45651042px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+           x="452.55661"
            y="278.45392"
            id="text840-7"><tspan
              sodipodi:role="line"
              id="tspan838-9"
-             x="441.59698"
+             x="452.55661"
              y="278.45392"
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:22.39470337px;font-family:Quicksand;-inkscape-font-specification:'Quicksand, Normal';word-spacing:8.39801407px;stroke-width:0.45651042px;text-anchor:start;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;">zit</tspan></text>
+             style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:22.39470291px;font-family:Quicksand;-inkscape-font-specification:'Quicksand Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;word-spacing:8.39801407px;writing-mode:lr-tb;text-anchor:middle;stroke-width:0.45651042px">zit</tspan></text>
         <text
            xml:space="preserve"
-           style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:22.39470337px;line-height:129.99999523%;font-family:Quicksand;-inkscape-font-specification:'Quicksand, Normal';text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr;direction:ltr;baseline-shift:baseline;text-anchor:start;white-space:normal;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.45651042px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
-           x="471.2623"
+           style="color:#000000;font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:22.39470291px;line-height:129.99999523%;font-family:Quicksand;-inkscape-font-specification:'Quicksand Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;baseline-shift:baseline;text-anchor:start;white-space:normal;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.45651042px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+           x="472.31729"
            y="278.22998"
            id="text840-74"><tspan
              sodipodi:role="line"
              id="tspan838-91"
-             x="471.2623"
+             x="472.31729"
              y="278.22998"
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:22.39470337px;font-family:Quicksand;-inkscape-font-specification:'Quicksand, Normal';word-spacing:8.39801407px;stroke-width:0.45651042px;text-anchor:start;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;">het?</tspan></text>
+             style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:22.39470291px;font-family:Quicksand;-inkscape-font-specification:'Quicksand Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;word-spacing:8.39801407px;writing-mode:lr-tb;text-anchor:start;stroke-width:0.45651042px">het?</tspan></text>
       </g>
     </g>
   </g>
