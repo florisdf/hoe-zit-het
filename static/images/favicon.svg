@@ -16,7 +16,7 @@
    id="svg4623"
    inkscape:version="0.92.3 (unknown)"
    sodipodi:docname="favicon.svg"
-   inkscape:export-filename="/home/fdf/quickstart/themes/hugo-paper/static/img/favicon.png"
+   inkscape:export-filename="/home/fdf/hugo/hoezithet/static/images/favicon.png"
    inkscape:export-xdpi="90"
    inkscape:export-ydpi="90">
   <defs
@@ -37,10 +37,10 @@
      units="px"
      inkscape:object-paths="true"
      inkscape:snap-smooth-nodes="true"
-     inkscape:window-width="1600"
-     inkscape:window-height="874"
-     inkscape:window-x="0"
-     inkscape:window-y="180"
+     inkscape:window-width="1920"
+     inkscape:window-height="1055"
+     inkscape:window-x="1600"
+     inkscape:window-y="25"
      inkscape:window-maximized="1"
      showguides="true"
      inkscape:guide-bbox="true"
