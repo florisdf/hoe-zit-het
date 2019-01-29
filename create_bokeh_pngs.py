@@ -26,8 +26,9 @@ for p, doc in tqdm(docs.items()):
 
     if not md5_file.exists():
         md5_file.write_bytes(cur_md5sum)
-
-    prev_md5sum = md5_file.read_bytes()
+        prev_md5sum = None
+    else:
+        prev_md5sum = md5_file.read_bytes()
 
     if prev_md5sum != cur_md5sum or not LAZY:
         md5_file.write_bytes(cur_md5sum)

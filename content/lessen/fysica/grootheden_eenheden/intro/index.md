@@ -2,11 +2,85 @@
 title: "Wat zijn grootheden en eenheden?"
 date: 2019-01-28T08:04:59+01:00
 weight: 1
-draft: true
+draft: false
 tags: []
-categories: []
-level: ""
-course: ""
-topic: ""
+categories: ["grootheden_eenheden", "SI-eenheid"]
+level: "3M"
+course: "Fysica"
+topic: "grootheden_eenheden"
 ---
+We gebruiken **eenheden** om **grootheden** te beschrijven. Zo gebruiken we
+*meter* om een lengte te beschrijven en °C om temperatuur te beschrijven. Enkele
+voorbeelden:
 
+| Grootheid            	| Mogelijke eenheden                                 	|
+|----------------------	|----------------------------------------------------	|
+| Lengte              	| meter, kilometer, inch, mijl, lichtjaar            	|
+| Tijd                 	| seconde, jaar, eeuw                                	|
+| Temperatuur          	| graden Celsius, graden Fahrenheit, kelvin          	|
+| Massa                	| kilogram, pond, gram, ounce                        	|
+| Kracht               	| newton, pound-force                                	|
+| Elektrische stroom   	| ampère                                             	|
+| Elektrische spanning 	| volt                                               	|
+| Energie              	| joule, calorie                                     	|
+| Snelheid             	| kilometer per uur, mijl per uur, meter per seconde 	|
+
+## SI-eenheden maken duidelijke afspraken
+Zoals je in de vorige tabel kan zien, zijn er veel grootheden waar meer dan één
+eenheid voor gebruikt wordt. Er zijn gelukkig officiële afspraken gemaakt over
+welke eenheden wetenschappers bij voorkeur moeten gebruiken. Die eenheden
+noemen we de **SI-eenheden**.  Hieronder de vorige tabel, maar nu enkel met
+SI-eenheden:
+
+| Grootheid              | SI-eenheid                                           |
+| ---------------------- | ---------------------------------------------------- |
+| Lengte                | meter                                                |
+| Tijd                   | seconde                                              |
+| Temperatuur            | kelvin                                               |
+| Massa                  | kilogram                                             |
+| Kracht                 | newton                                               |
+| Elektrische stroom     | ampère                                               |
+| Elektrische spanning   | volt                                                 |
+| Energie                | joule                                                |
+| Snelheid               | meter per seconde                                    |
+
+
+{{% expand "Uitbreiding: Hoe lang is een meter?" %}}
+We gebruiken een eenheid als "meter" dagelijks. Maar hoe definieer je één meter
+het best? Je zou kunnen voorstellen om een plank te maken van één meter lang om
+dan te zeggen: "**DIT**, dames en heren, is vanaf nu één meter!"
+
+Een van de problemen hiermee is dat de plank begint te zwellen vanaf het een
+beetje vochtig wordt. Dan verandert één meter dus iedere keer dat de
+luchtvochtigheid verandert. Je voelt dat het eigenlijk niet zo eenvoudig is om
+eenheden absoluut te definiëren.
+
+Dat weten onze vrienden van het [Bureau International des Poids et Mesures](https://www.bipm.org/en/measurement-units/)
+(BIPM) maar al te goed. Zij staan in voor de **officiële definities van de
+SI-eenheden**. Op hun site staan de huidige definities van de SI-eenheden. Enkele voorbeelden:
+
+| SI-eenheid         | Definitie                                           |
+| ------------------ | ---------------------------------------------------- |
+| meter              | De afstand die licht aflegt in vacuüm gedurende een tijdsinterval van $\frac{1}{299\ 792\ 458}$ seconden.                                                |
+| seconde            | De tijdsduur van $9\ 192\ 631\ 770$ perioden van de straling die overeenkomt met de overgang tussen twee hyperfijne energieniveaus van de grondtoestand van het cesium-133-atoom.                                              |
+| kelvin             | De temperatuur van $\frac{1}{273.16}$ (exact) deel van de temperatuur van het tripelpunt van water.                                               |
+| kilogram           | De massa van het internationale prototype van de kilogram, een cilinder van platina-iridium, bewaard in het Bureau International des Poids et Mesures (BIPM), te Sèvres, Parijs.                                             |
+| ampère             | De constante stroom die, indien gehandhaafd in twee rechte parallelle geleiders van oneindige lengte en verwaarloosbare doorsnede, op 1 meter afstand van elkaar in vacuüm, een kracht tussen deze twee geleiders veroorzaakt gelijk aan $2\cdot 10^{−7}$ newton per meter lengte.                                               |
+
+{{% /expand %}}
+
+## Symbolen voor grootheden en eenheden
+Omdat we niet telkens de namen van grootheden en eenheden voluit willen
+schrijven gebruiken we er *symbolen* voor. Enkele voorbeelden:
+
+| Grootheid            | Symbool grootheid | SI-eenheid          | Symbool SI-eenheid   |
+| -------------------- | --------------    | ------------------- | -------------------- |
+| Lengte               | $l$               | meter               | $m$                  |
+| Tijd                 | $t$               | seconde             | $s$                  |
+| Temperatuur          | $T$               | kelvin              | $K$                  |
+| Massa                | $m$               | kilogram            | $kg$                 |
+| Kracht               | $F$               | newton              | $N$                  |
+| Elektrische stroom   | $I$               | ampère              | $A$                  |
+| Elektrische spanning | $U$               | volt                | $V$                  |
+| Energie              | $E$               | joule               | $J$                  |
+| Snelheid             | $v$               | meter per seconde   | $m/s$                |

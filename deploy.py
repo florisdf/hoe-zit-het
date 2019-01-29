@@ -8,7 +8,7 @@ parser.add_argument('-f', '--force',
                     'source file didn\'t change.',
                     action='store_true')
 args = parser.parse_args()
-LAZY = ~args.force
+LAZY = not args.force
 
 
 subprocess.run('hugo && firebase deploy', shell=True)
