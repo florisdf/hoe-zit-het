@@ -73,14 +73,14 @@ SI-eenheden**. Op hun site staan de huidige definities van de SI-eenheden. Enkel
 Omdat we niet telkens de namen van grootheden en eenheden voluit willen
 schrijven gebruiken we er *symbolen* voor. Enkele voorbeelden:
 
-| Grootheid            | Symbool grootheid | SI-eenheid          | Symbool SI-eenheid   |
-| -------------------- | --------------    | ------------------- | -------------------- |
-| Lengte               | $l$               | meter               | $m$                  |
-| Tijd                 | $t$               | seconde             | $s$                  |
-| Temperatuur          | $T$               | kelvin              | $K$                  |
-| Massa                | $m$               | kilogram            | $kg$                 |
-| Kracht               | $F$               | newton              | $N$                  |
-| Elektrische stroom   | $I$               | ampère              | $A$                  |
-| Elektrische spanning | $U$               | volt                | $V$                  |
-| Energie              | $E$               | joule               | $J$                  |
-| Snelheid             | $v$               | meter per seconde   | $m/s$                |
+| Grootheid            | Symbool grootheid | SI-eenheid        | Symbool SI-eenheid |
+| -------------------- | --------------    | ----------        | ------------------ |
+| Lengte               | $\si{l}$          | meter             | $\si{m}$           |
+| Tijd                 | $\si{t}$          | seconde           | $\si{s}$           |
+| Temperatuur          | $\si{T}$          | kelvin            | $\si{K}$           |
+| Massa                | $\si{m}$          | kilogram          | $\si{kg}$          |
+| Kracht               | $\si{F}$          | newton            | $\si{N}$           |
+| Elektrische stroom   | $\si{I}$          | ampère            | $\si{A}$           |
+| Elektrische spanning | $\si{U}$          | volt              | $\si{V}$           |
+| Energie              | $\si{E}$          | joule             | $\si{J}$           |
+| Snelheid             | $\si{v}$          | meter per seconde | $\si{m/s}$         |
