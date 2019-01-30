@@ -16,11 +16,11 @@
       <article class="center cf w-two-thirds-l">
         <div class="tr f3" style="color: {{ $.Parent.Params.section_color }};">
           {{ with .Resources.GetMatch ("*.pdf") }}
-            <a href="{{ .Permalink }}" style="color: inherit;">
+            <a class="link" href="{{ .Permalink }}" style="color: inherit;">
               <i id="_save_pdf" class="far fa-file-pdf ma1 dim pointer"
                 title="Opslaan als PDF"></i>
             </a>
-            <a href="{{ .Permalink }}" style="color: inherit;">
+            <a class="link" href="{{ .Permalink }}" style="color: inherit;">
               <i id="_print" class="fas fa-print ma1 dim pointer"
                 title="Afdrukken"></i>
             </a>

@@ -29,7 +29,7 @@
 
 /* Don't underline links */
 a {
-  text-decoration: none;
+  text-decoration-style: dotted;
 }
 
 /* Tables */
