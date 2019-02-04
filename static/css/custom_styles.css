@@ -27,7 +27,6 @@
   color: inherit;
 }
 
-/* Don't underline links */
 a {
   text-decoration-style: dotted;
 }
