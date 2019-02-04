@@ -5,6 +5,6 @@
     {{ $title }}
   </div>
   <div class="">
-    {{ replace (replace .Inner "<p>" "") "</p>" "" | safeHTML }}
+    {{.Inner | safeHTML}}
   </div>
 </div>
