@@ -1,0 +1,6 @@
+lichtbronnen
+camera_obscura
+beeldvorming
+hoe_wij_zien
+schaduwvorming
+elektromagnetische_stralen

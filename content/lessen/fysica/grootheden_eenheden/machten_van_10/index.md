@@ -2,45 +2,41 @@
 title: "Machten van 10"
 date: 2019-01-28T08:06:49+01:00
 weight: 2
-draft: true
-tags: []
-categories: []
-level: ""
-course: ""
-topic: ""
+draft: false
+tags: ["grootheden_eenheden", "machten_van_10"]
+categories: ["grootheden_eenheden", "machten_van_10"]
+level: "3M"
+course: "Fysica"
+topic: "grootheden_eenheden"
 ---
 
-Het wordt snel lastig om heel grote of heel kleine getallen te lezen of te schrijven. De afstand tussen de aarde en de zon, bijvoorbeeld, is ongeveer $150\ 000\ 000\ 000 \si{ m}$.
+Het wordt snel lastig om heel grote of heel kleine getallen te lezen of te 
+schrijven.
 De tijd die het licht nodig
-heeft om $1 \si{ m}$ ver te reizen, bedraagt dan weer $0{,}00000000334 \si{ s}$.
-
-**Machten van 10** zorgen ervoor dat we zulke getallen korter kunnen voorstellen. Door die macht van 10 kunnen we namelijk de **komma van een getal eender waar zetten**. Zo kunnen we kiezen om de komma van $0{,}00000000334$ na de eerste 3 te zetten door nadien terug te vermenigvuldigen met $\orange{10^{-9}}$:
+heeft om $1 \si{ m}$ ver te reizen, bijvoorbeeld, bedraagt $0{,}00000000334 
+\si{ s}$. We kunnen dit getal veel korter schrijven door de komma na de eerste 
+3 te zetten en nadien terug te vermenigvuldigen met $\orange{10^{-9}}$:
 $$0{,}00000000334 = 3{,}34\cdot \orange{10^{-9}}$$
-Of je kan met een andere macht van 10 ook kiezen om de komma na de tweede 3 te zetten: 
-$$0{,}00000000334 = 33{,}4\cdot \orange{10^{-10}}$$
-Of na de 4:
-$$0{,}00000000334 = 334\cdot \orange{10^{-11}}$$
-Merk op hoe de macht van 10 telkens verandert voor een andere keuze van waar we de komma willen zetten.
 
-Hetzelfde kunnen we doen om $150\ 000\ 000\ 000$ korter te schrijven. Bijvoorbeeld de komma na de 1:
-$$150\ 000\ 000\ 000 = 1{,}500 \cdot 10^{11}$$
-Of na de 5:
-$$150\ 000\ 000\ 000 = 15{,}00 \cdot 10^{10}$$
-Of na de eerste 0:
-$$150\ 000\ 000\ 000 = 150{,}0 \cdot 10^{9}$$
+Machten van 10 zullen ons toelaten om heel kleine getallen en heel grote 
+getallen op een korte, leesbare manier te noteren.
 
-{{% expand "Uitbreiding: beduidende cijfers" %}}
-$150\ 000\ 000\ 000$ heeft 12
-[beduidende cijfers](../beduidende_cijfers/index.md), terwijl $1{,}500 \cdot 10^{11}$ en $15{,}00 \cdot 10^{10}$ en $150{,}0 \cdot 10^{9}$ elk 4 beduidende cijfers hebben. Het eindresultaat heeft dus minder beduidende cijfers. Normaal gesproken laten we beduidende cijfers niet zomaar wegvallen. Hier deed ik het omdat $1{,}50000000000\cdot 10^{11}$ nogal lang is om te schrijven.
+Het is voor deze les belangrijk dat je de volgende rekenregels kent en begrijpt 
+($a, b, c \in \mathbb{R}$):
 
-In de meeste oefeningen zullen we nooit meer dan 4 beduidende cijfers hebben. Als we dan een getal hebben dat uit meer dan 4 cijfers bestaat, is een macht van 10 de *enige* manier om dat getal te kunnen schrijven met het juiste aantal beduidende cijfers.
-{{% /expand %}}
+$$a^{-b} = \frac{1}{a^{b}} \quad \text{waarbij }a \ne 0$$
+$$a^b \cdot a^c = a^{b+c}$$
+
+Extra uitleg vind je in de les over [rekenen met 
+machten](../../../wiskunde/rekenen/machten/#producten-van-machten).
 
 ## Machten van 10 uitrekenen
-Hoe komen we bij het voorbeeld van $0{,}00000000334 = 3{,}34\cdot \orange{10^{-9}}$ aan die $\orange{10^{-9}}$? 
-Voor we tonen waar die vandaan komt, bespreken we eerst hoe we een macht van 10 terug uitrekenen. Enkele voorbeelden:
-$$2{,}621\cdot \orange{10^2} = 2{,}621 \cdot \orange{100} = 262{,}1$$
-$$75{,}0411\cdot \orange{10^3} = 75{,}0411 \cdot \orange{1000} = 75\ 041{,}1$$
+Hoe komen we aan die $\orange{10^{-9}}$ bij het voorbeeld van $0{,}00000000334 
+= 3{,}34\cdot \orange{10^{-9}}$? Voor we tonen waar die vandaan komt, bespreken 
+we eerst hoe we een macht van 10 terug uitrekenen. Enkele voorbeelden:
+
+$$2{,}6211\cdot \orange{10^2} = 2{,}6211 \cdot \orange{100} = 262{,}11$$
+$$-0{,}0075\cdot \orange{10^3} = -0{,}0075\cdot \orange{1000} = -7{,}5$$
 $$6{,}3\cdot \orange{10^{-3}} = 6{,}3 \cdot \orange{0{,}001} = 0{,}0063$$
 $$405{,}9\cdot \orange{10^{-2}} = 405{,}9 \cdot \orange{0{,}01} = 4{,}059$$
 $$51\cdot \orange{10^{3}} = 51 \cdot \orange{1000} = 51\ 000$$
@@ -53,44 +49,73 @@ Vermenigvuldigingen met $10^{\orange{2}}$, bijvoorbeeld, verschuift de komma {{%
 Vermenigvuldigingen met $10^{\orange{-3}}$, verschuift de komma {{% class "3 plaatsen naar links" "orange" %}}.
 
 ## Getallen omzetten naar een macht van 10
-Nu zullen we zien hoe we met een macht van 10 de komma van een getal op eender welke plek kunnen zetten. We willen bijvoorbeeld de komma van $1{,}530$ na de 3 krijgen. Dat betekent dat we de komma **2 plaatsen naar rechts** moeten schuiven. Dat kunnen we doen door te vermenigvuldigen met $\orange{10^2}$:
-$$1{,}530 \cdot \orange{10^2} = 153{,}0$$
+Nu zullen we zien hoe we aan die $\orange{10^{-9}}$ kwamen bij het voorbeeld 
+van $0{,}00000000334 = 3{,}34\cdot \orange{10^{-9}}$.
+We willen de komma van $0{,}00000000334$ met
+**{{% class "9 plaatsen naar rechts" "blue" %}}**
+verschuiven tot na de eerste 3. Dat zouden we kunnen doen door te
+**{{% class "vermenigvuldigen met $10^9$" "blue" %}}**.
+**Maar** we willen dat onze uitkomst
+**{{% class "nog steeds gelijk is" "orange" %}}**
+aan $0{,}00000000334$. Daarom moeten we ook terug
+**{{% class "delen door $10^9$" "orange" %}}**.
 
-Maar pas op! Nu hebben we gevonden waar $1{,}530 \cdot 10^2$ aan gelijk is, en nog niet waar $1{,}530$ *zelf* aan gelijk is. We willen zowel de **komma verschuiven** als de **gelijkheid behouden** met $1{,}530$.
-
-Om die gelijkheid te kunnen behouden, is het belangrijk in te zien dat $\orange{10^2} \cdot \blue{10^{-2}} = 1$ en dat we dus perfect mogen zeggen dat
 \begin{split}
-1{,}530 &= 1{,}530 \cdot 1\\\\\
-&= 1{,}530 \cdot \orange{10^2} \cdot \blue{10^{-2}}
+0{,}00000000334 &= 0{,}00000000334 \cdot \frac{\blue{10^9}}{\orange{10^9}} \\\\\
+&= 0{,}00000000334 \cdot \blue{10^9} \cdot \frac{1}{\orange{10^9}} \\\\\
+&= 0{,}00000000334 \cdot \blue{10^{9}} \cdot \orange{10^{-9}} \\\\\
+&= \blue{3{,}34} \cdot \orange{10^{-9}}
 \end{split}
 
-En zo kunnen we zowel de **{{% class "komma verschuiven" "orange" %}}** als de **{{% class "gelijkheid behouden" "blue" %}}**. Samengevat is onze tactiek als volgt:
+Het **{{% class "delen door $10^9$" "orange" %}}**, komt neer op
+**{{% class "vermenigvuldigen met $10^{-9}$" "orange" %}}**.
 
-1. Tel hoeveel plaatsen we de komma willen opschuiven, hier **2 plaatsen naar rechts**;
-1. Vermenigvuldig met $\orange{10^2}$ om de **komma te verschuiven** naar de plek die we wouden;
-2. Vermenigvuldig met $\blue{10^{-2}}$ om de vorige macht te compenseren en om 
-   zo de **gelijkheid te behouden**.
+{{% attention "Omzetten naar macht van 10" %}}
+* Als je de komma $N$ plaatsen **naar rechts** wilt opschuiven:
+Vermenigvuldig met {{% class "$10^{N}$ om de komma op te schuiven" "blue" %}} en met {{% class "$10^{-N}$ om het getal gelijk te houden" "orange" %}}.
+* Als je de komma $N$ plaatsen **naar links** wilt opschuiven:
+Vermenigvuldig met {{% class "$10^{-N}$ om de komma op te schuiven" "blue" %}} en met {{% class "$10^N$ om het getal gelijk te houden" "orange" %}}.
+{{% /attention %}}
 
-Concreet gaat dat dan als volgt:
+In ons voorbeeld willen we de komma 9 plaatsen **naar rechts** opschuiven. We 
+moeten dus vermenigvuldigen met
+{{% class "$10^{9}$ om de komma op te schuiven" "blue" %}} en met
+{{% class "$10^{-9}$ om het getal gelijk te houden" "orange" %}}. We krijgen:
+
 \begin{split}
-1{,}530 &= 1{,}530 \cdot 1 \\\\\
-&= 1{,}530 \cdot \orange{10^2} \cdot \blue{10^{-2}}\\\\\
-&= \orange{1{,}530 \cdot 10^{2}} \cdot \blue{10^{-2}}\\\\\
-&= \orange{153{,}0} \cdot \blue{10^{-2}}\\\\\
-&= 153{,}0 \cdot 10^{-2}
+0{,}00000000334 &= 0{,}00000000334 \cdot \blue{10^{9}} \cdot \orange{10^{-9}} \\\\\
+&= \blue{3{,}34} \cdot \orange{10^{-9}}
 \end{split}
 
+## Machten van 10 omzetten
+Soms zullen we ook machten van 10 moeten omzetten naar andere machten van 10.
+We willen onze $3{,}34 \cdot 10^{-9}$ bijvoorbeeld omzetten naar 
+$\orange{\ldots\text{iets}\ldots} \cdot \blue{10^{-11}}$. Om dat te doen, 
+zullen we de $3{,}34 \cdot 10^{-9}$ vermenigvuldigen met
+{{% class "$10^{-11}$ om de juiste macht van 10 te hebben" "blue" %}}
+en met
+{{% class "$10^{11}$ om het getal gelijk te houden" "orange" %}}.
 
-## Machten van 10 omzetten naar andere machten van 10
-Soms zullen we ook machten van 10 moeten omzetten naar andere machten van 10. We willen bijvoorbeeld $4{,}0881 \cdot 10^{5}$ omzetten naar $\ldots\text{iets}\ldots\orange{\cdot 10^{3}}$.
+{{% attention "Macht van 10 omzetten" %}}
+Als je $a \cdot 10^b$ wilt omzetten naar $\ldots\text{iets}\ldots \cdot \blue{10^c}$
+{{% mute "(met $a, b, c \in \mathbb{R}$)" %}}:
+
+Vermenigvuldig $a \cdot 10^b$ met
+{{% class "$10^{c}$ om de juiste macht van 10 te hebben" "blue" %}} en met
+{{% class "$10^{-c}$ om alles gelijk te houden" "orange" %}} aan $a \cdot 10^b$.
+
+{{% /attention %}}
+
+In ons voorbeeld willen we $3{,}34 \cdot 10^{-9}$ omzetten naar 
+$\ldots\text{iets}\ldots \cdot \blue{10^{-11}}$. Daarvoor moeten we $3{,}34 
+\cdot 10^{-9}$ vermenigvuldigen met
+{{% class "$10^{-11}$ om de juiste macht van 10 te hebben" "blue" %}} en met
+{{% class "$10^{-(-11)}$ om alles gelijk te houden" "orange" %}}.
 
 \begin{split}
-4{,}0881 \cdot 10^{5} &= 4{,}0881 \cdot 10^{5} \cdot 1\\\\\
-&= 4{,}0881 \cdot 10^{5} \cdot \orange{10^{3}} \cdot \blue{10^{-3}}\\\\\
-&= 4{,}0881 \cdot 10^{5} \cdot \blue{10^{-3}} \cdot \orange{10^{3}}\\\\\
-&= 4{,}0881 \blue{\cdot 10^{5} \cdot 10^{-3}} \cdot \orange{10^{3}}\\\\\
-&= 4{,}0881 \blue{\cdot 10^{2}} \cdot \orange{10^{3}}\\\\\
-&= \blue{4{,}0881 \cdot 10^{2}} \cdot \orange{10^{3}}\\\\\
-&= \blue{408{,}81}\cdot \orange{10^{3}}\\\\\
-&= 408{,}81\cdot 10^{3}\\\\\
+3{,}34 \cdot 10^{-9} &= 3{,}34 \cdot 10^{-9} \cdot \blue{10^{-11}} \cdot \orange{10^{-(-11)}} \\\\\
+&= 3{,}34 \cdot 10^{-9} \cdot \orange{10^{11}} \cdot \blue{10^{-11}} \\\\\
+&= 3{,}34 \cdot \orange{10^{-9 + 11}} \cdot \blue{10^{-11}} \\\\\
+&= 3{,}34 \cdot \orange{10^{2}} \cdot \blue{10^{-11}} \\\\\
+&= \orange{334} \cdot \blue{10^{-11}} \\\\\
 \end{split}
