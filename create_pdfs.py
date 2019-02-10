@@ -39,7 +39,7 @@ for p, url in tqdm(zip(articles, urls)):
             urlopen(url)
             url_elements = url.split('/')[5:]
             pdf_dir = Path('content/lessen/' + '/'.join(url_elements))
-            pdf_file = pdf_dir / (' '.join(url_elements[-2:]).title() + '.pdf')
+            pdf_file = pdf_dir / ('-'.join(url_elements[-2:]).title() + '.pdf')
             run(['wkhtmltopdf', '-T', '25mm', '-B', '25mm', '-R', '25mm', '-L',
                  '25mm', url, '--no-stop-slow-scripts',
                 '--javascript-delay', '5000', '--viewport-size', '1920x1080',
