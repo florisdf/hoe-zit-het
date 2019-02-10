@@ -2,3 +2,4 @@ vierkantswortel
 lagen_van_een_uitdrukking
 volgorde_van_de_bewerkingen
 delingen
+machten

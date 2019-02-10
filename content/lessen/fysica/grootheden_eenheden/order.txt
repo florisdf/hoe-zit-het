@@ -1,6 +1,8 @@
 intro
 machten_van_10
 prefixen
+eenheden_omzetten
+beduidende_cijfers
 wetenschappelijke_notatie
 benaderingsregels
 formules_omvormen

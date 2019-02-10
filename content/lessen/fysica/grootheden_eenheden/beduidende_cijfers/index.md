@@ -1,7 +1,7 @@
 ---
 title: "Beduidende cijfers"
 date: 2019-02-06T18:36:58+01:00
-weight: 4
+weight: 5
 draft: false
 tags: []
 categories: []
