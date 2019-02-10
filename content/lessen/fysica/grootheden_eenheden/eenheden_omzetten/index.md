@@ -61,71 +61,49 @@ Merk op: we maken gebruik van de [benaderingsregels](../benaderingsregels) in de
 | $\si{s}$   | $\si{h}$   | \begin{split}1 \si{ s} &= \frac{1}{60}\orange{\si{ min}} \\\\\ &=\frac{1}{60}\cdot \orange{\frac{1}{60}\si{ h}}\\\\\ &=\frac{1}{\orange{3600}}\si{ h} \end{split}                                                                                                                           | $1 \si{ s} = \frac{1}{3600} \si{ h}$     | \begin{split}30{,}0 \orange{\si{ s}} &= 30{,}0 \cdot \orange{\frac{1}{3600} \si{ h}}\\\\\ &= \frac{30{,}0}{3600} \orange{\si{ h}}\\\\\ &= 8{,}33\cdot 10^{-3} \orange{\si{ h}} \end{split}       |
 
 ## Snelheden omzetten
-Door het omzetten van [prefixen](#van-en-naar-prefixen) te combineren met het omzetten van [tijden](#tijden-omzetten), kunnen we $\si{km}/\si{h}$ omzetten naar $\si{m}/\si{s}$ en omgekeerd.
+Door het omzetten van [prefixen](#van-en-naar-prefixen) te combineren met het
+omzetten van [tijden](#tijden-omzetten), kunnen we $\si{km}/\si{h}$ omzetten
+naar $\si{m}/\si{s}$ en omgekeerd. Hieronder weer een samenvattende tabel.
 
-Om $\si{km}/\si{h}$ om te zetten naar $\si{m}/\si{s}$, vervangen we de $\blue{\si{k}}$ door $\blue{10^{3}}$ en de $\orange{\si{h}}$ door $\orange{3600 \si{ s}}$:
-
-\begin{split}
-1 \frac{\blue{\si{k}}\si{m}}{\orange{\si{h}}}
-&= 1 \cdot \frac{\blue{10^3}\si{ m}}{\orange{3600\si{ s}}}\\\\\
-&= \frac{1\cdot \blue{10^3}} {\orange{3600}} \frac{\si{ m}}{\si{s}}\\\\\
-&= \frac{1}{3{,}6} \frac{\si{ m}}{\si{s}}
-\end{split}
-
-Of kort gezegd:
-$$1 \si{ km}/\si{h} = \frac{1}{3{,}6} \si{ m}/\si{s}$$
-
-We kunnen deze vergelijking gebruiken om $\si{km}/\si{h}$ naar $\si{m}/\si{s}$ om te zetten. We kunnen deze vergelijkingen ook [omvormen](../../../wiskunde/vergelijkingen/factoren_omvormen#omvormen-van-frac-x-a-b) naar:
-
-$$1 \si{ m}/\si{s} = 3{,}6 \si{ km}/\si{h}$$
-
-Die gelijkheid kunnen we dan gebruiken om $\si{m}/\si{s}$ om te zetten naar $\si{km}/\si{h}$.
+| Van              | Naar            | Afleiding                                                                                                                                                                                                                                                  | Kort gezegd   | Voorbeeld   |
+| -----            | ------          | -----------                                                                                                                                                                                                                                                | ------------- | ----------- |
+| $\si{km}/\si{h}$ | $\si{m}/\si{s}$ | \begin{split} 1 \frac{\blue{\si{k}}\si{m}}{\orange{\si{h}}} &= 1 \cdot \frac{\blue{10^3}\si{ m}}{\orange{3600\si{ s}}}\\\\\ &= \frac{1\cdot \blue{10^3}} {\orange{3600}} \frac{\si{m}}{\si{s}}\\\\\ &= \frac{1}{3{,}6} \frac{\si{m}}{\si{s}} \end{split} | $1 \si{ km}/\si{h} = \frac{1}{3{,}6} \si{m}/\si{s}$ | \begin{split} 30{,}0 \orange{\si{ km}/\si{h}} &= 30{,}0 \cdot \orange{\frac{1}{3{,}6} \si{ m}/\si{s}} \\\\\ &= \frac{30{,}0}{\orange{3{,}6}} \orange{\si{ m}/\si{s}} \\\\\ &= 8{,}33 \si{ m}/\si{s}\end{split} |
+| $\si{m}/\si{s}$ | $\si{km}/\si{h}$ | \begin{split} 1 \si{ km}/\si{h} &= \frac{1}{3{,}6} \si{ m}/\si{s}\\\\\ &\Updownarrow\\\\\ \orange{3{,}6}\cdot 1 \si{ km}/\si{h} &= \orange{3{,}6}\cdot \frac{1}{3{,}6} \si{ m}/\si{s}\\\\\ &\Updownarrow\\\\\ \orange{3{,}6} \si{ km}/\si{h} &= 1 \si{ m}/\si{s}\\\\\ &\Updownarrow\\\\\ 1 \si{ m}/\si{s} &= \orange{3{,}6} \si{ km}/\si{h} \end{split} | $1 \si{ m}/\si{s} = 3{,}6 \si{ km}/\si{h}$ | \begin{split} 25{,}0 \orange{\si{ m}/\si{s}} &= 25{,}0 \cdot \orange{3{,}6 \si{ km}/\si{h}} \\\\\ &= 90{,}0 \si{ km}/\si{h} \end{split} |
 
 ## Volumes omzetten
-In het dagelijkse leven drukt men volumes meestal uit in liter ($\si{l}$) of een afgeleide hiervan (vnl. $\si{ml}$, $\si{cl}$ of $\si{dl}$). De SI-eenheid voor volume is echter de kubieke meter ($\si{m}^3$). Een omzetting tussen beiden is niet zo voor de hand liggend. Het belangrijkste dat je moet onthouden is:
+In het dagelijkse leven drukt men volumes meestal uit in liter ($\si{l}$) of
+een afgeleide hiervan (vnl. $\si{ml}$, $\si{cl}$ of $\si{dl}$). De SI-eenheid
+voor volume is echter de kubieke meter ($\si{m}^3$). Een omzetting tussen
+beiden is niet zo voor de hand liggend. Het belangrijkste dat je moet onthouden
+is:
 
 $$1 \si{ l} = 1 \si{ dm}^3$$
 
-Hiermee kan je dan aan de slag om de omzetting te doen tussen de liter en de kubieke meter:
+Dit kan je als volgt onthouden: beeld je een fles melk in van $1 \si{ l}$.
+Stel je nu 3 kubussen voor: een met zijden van $1 \si{ cm}$, een met zijden van
+$10 \si{ cm}$ en een met zijden van $1 \si{ m}$. Welke van deze kubussen heeft
+ongeveer hetzelfde volume als het melkkarton? Ter illustratie
+{{% mute "(de figuur is niet op juiste schaal, maar op juiste intuïtie)" %}}:
 
-\begin{split}
-1 \si{ l}
-&= 1 \blue{\si{ d}} \si{m}^3\\\\\
-&= 1 \cdot (\blue{10^{-1}}\si{ m})^3\\\\\
-&= 1 \cdot (\blue{10^{-1}})^3 \si{ m}^3\\\\\
-&= 10^{-3} \si{ m}^3
-\end{split}
+{{% img "img/liter_conversion.svg" %}}
 
-Of kort gezegd:
-$$1 \si{ l} = 10^{-3} \si{ m}^3$$
+Je ziet dat de kubus met een zijde van $1 \si{ dm}$
+{{% mute "($= 10 \si{ cm}$)" %}}
+ongeveer hetzelfde volume heeft als de fles melk, en inderdaad
+$1 \si{ l} = 1 \si{ dm}^3$.
 
-Dit kunnen we ook [omvormen](../../../wiskunde/vergelijkingen/factoren_omvormen#omvormen-van-a-cdot-x-b) naar:
-$$1 \si{ m}^3 = 10^{3} \si{ l}$$
+Hiermee kan je dan aan de slag om de omzetting te doen tussen liter en kubieke meter.
 
-Nu kunnen we ook $\si{dl}$ omzetten naar $\si{m}^3$:
-
-\begin{split}
-1 \blue{\si{ d}} \orange{\si{l}}
-&= 1 \cdot \blue{10^{-1}} \orange{\si{l}}\\\\\
-&= 1 \cdot \blue{10^{-1}} \cdot \orange{10^{-3} \si{ m}^3}\\\\\
-&= 10^{-4} \si{ m}^3
-\end{split}
-
-Of kort gezegd:
-$$1 \si{ dl} = 10^{-4} \si{ m}^3$$
-
-Op een gelijkaardige manier kan je vinden dat:
-$$1 \si{cl} = 10^{-5} \si{ m}^3$$
-$$1 \si{ml} = 10^{-6} \si{ m}^3$$
+| Van              | Naar            | Afleiding                                                                                                                                                                                                                                                  | Kort gezegd   | Voorbeeld   |
+| -----            | ------          | -----------                                                                                                                                                                                                                                                | ------------- | ----------- |
+| $\si{l}$         | $\si{m}^3$      | \begin{split} 1 \si{ l} &= 1 \blue{\si{ d}} \si{m}^3\\\\\ &= 1 \cdot (\blue{10^{-1}}\si{ m})^3\\\\\ &= 1 \cdot (\blue{10^{-1}})^3 \si{ m}^3\\\\\ &= 10^{-3} \si{ m}^3 \end{split} | $1 \si{ l} = 10^{-3} \si{ m}^3$ | |
+| $\si{m}^3$    | $\si{l}$  | \begin{split} 1 \si{ l} &= 10^{-3} \si{ m}^3 \\\\\ \Updownarrow \\\\\ \orange{10^3} \cdot 1 \si{ l} &= \orange{10^3} \cdot 10^{-3} \si{ m}^3 \\\\\ \Updownarrow \\\\\ \orange{10^3} \si{ l} &= 1 \si{ m}^3 \\\\\ \Updownarrow \\\\\ 1 \si{ m}^3 &= \orange{10^3} \si{ l} \end{split} | $1 \si{ m}^3 = 10^3 \si{ l}$ | |
 
 ## Massadichtheid omzetten
 Ten slotte tonen we hoe je de omzetting van $\si{g}/\si{ml}$ naar $\si{kg}/\si{m}^3$ kan doen en omgekeerd.
 
-\begin{split}
-1 \frac{\si{g}}{\blue{\si{m}}\si{l}}
-&= 1 \frac{\si{g}}{\blue{\si{dm}^3}}\\\\\
-&= 1 \frac{\si{g}}{\blue{\si{dm}^3}}\\\\\
-&= 1 \frac{\si{g}}{\blue{(10^{-1})^3\si{ m}^3}}\\\\\
-&= 1 \cdot \frac{1}{10^{-3}}\frac{\si{g}}{\si{m}^3}\\\\\
-&= 10^{3}\frac{\si{g}}{\si{m}^3}\\\\\
-\end{split}
+| Van | Naar | Afleiding | Kort gezegd | Voorbeeld |
+|-----|------|-----------|-------------|-----------|
+| $\si{g}/\si{ml}$ | $\si{kg}/\si{m}^3$ | \begin{split} 1 \frac{\si{g}}{\blue{\si{m}}\orange{\si{l}}} &= 1 \frac{\si{g}}{\blue{10^{-3}}\cdot\orange{10^{-3}\si{ m}^3}}\\\\\ &= \frac{1}{10^{(\blue{-3}) + (\orange{-3})}} \frac{\si{g}}{\si{ m}^3}\\\\\ &= \frac{1}{10^{-6}} \frac{\si{g}}{\si{ m}^3}\\\\\ &= 10^{6} \frac{\si{g}}{\si{ m}^3}\\\\\ &= 10^{6} \frac{\pink{10^{-3}}\cdot\green{10^3}\si{g}}{\si{ m}^3}\\\\\ &= 10^{6}\cdot \pink{10^{-3}}\frac{\green{\si{k}}\si{g}}{\si{ m}^3}\\\\\ &= 10^{3} \frac{\green{\si{k}}\si{g}}{\si{ m}^3}\\\\\ \end{split} | $1\si{ g}/\si{ml} = 10^3 \si{ kg}/\si{m}^3$ ||
+| $\si{kg}/\si{m}^3$ | $\si{g}/\si{ml}$ | \begin{split} 1 \frac{\si{g}}{\si{ml}} &= 10^3 \frac{\si{ kg}}{\si{m}^3}\\\\\ &\Updownarrow \\\\\ \frac{1 \si{ g}/\si{ml}}{\orange{10^3}} &= \frac{10^3 \si{ kg}/\si{m}^3}{\orange{10^3}}\\\\\ &\Updownarrow \\\\\ \frac{1}{\orange{10^3}} \frac{\si{ g}}{\si{ml}} &= 1\frac{\si{kg}}{\si{m}^3}\\\\\ &\Updownarrow \\\\\ 1\frac{\si{kg}}{\si{m}^3} &= \frac{1}{\orange{10^3}} \frac{\si{ g}}{\si{ml}} \\\\\ &\Updownarrow \\\\\ 1\frac{\si{kg}}{\si{m}^3} &= 10^{-3} \frac{\si{ g}}{\si{ml}}\end{split} | $1\si{ kg}/\si{m}^3 = 10^{-3} \si{ g}/\si{ml} $ ||
+
