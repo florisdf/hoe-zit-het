@@ -80,10 +80,10 @@ is:
 $$1 \si{ l} = 1 \si{ dm}^3$$
 
 Dit kan je als volgt onthouden: beeld je een fles melk in van $1 \si{ l}$.
-Stel je nu 3 kubussen voor: een met zijden van $1 \si{ cm}$, een met zijden van
-$10 \si{ cm}$ en een met zijden van $1 \si{ m}$. Welke van deze kubussen heeft
+Stel je nu 3 kubussen voor: een met zijden van $1 \si{ m}$, een met zijden van
+$10 \si{ cm}$ en een met zijden van $1 \si{ cm}$. Welke van deze kubussen heeft
 ongeveer hetzelfde volume als het melkkarton? Ter illustratie
-{{% mute "(de figuur is niet op juiste schaal, maar op juiste intuïtie)" %}}:
+{{% mute "(de figuur is niet op exacte schaal, maar geeft wel een idee van de groottes)" %}}:
 
 {{% img "img/liter_conversion.svg" %}}
 
