@@ -3,11 +3,11 @@ title: "Benaderingsregels"
 date: 2019-01-28T08:07:39+01:00
 weight: 7
 draft: true
-tags: []
-categories: []
-level: ""
-course: ""
-topic: ""
+tags: ["grootheden_eenheden", "benaderingsregels"]
+categories: ["grootheden_eenheden", "benaderingsregels"]
+level: "3M"
+course: "Fysica"
+topic: "grootheden_eenheden"
 ---
 Als we berekeningen doen met metingen, moeten we altijd in ons achterhoofd
 houden dat **metingen nooit exact** zijn. Stel dat we bijvoorbeeld een meetlat
@@ -60,27 +60,97 @@ Door na onze berekeningen benaderingsregels toe te passen, zorgen we dat de
 uitkomst de juiste **foutenmarge** heeft.
 
 ## Afronden na de komma
-Voor we de benaderingsregels uit de doeken doen,
-frissen we nog snel even op hoe je getallen moet afronden.
+Voor we de benaderingsregels uit de doeken doen, frissen we nog snel even op
+hoe je getallen moet afronden.
 
-* Rond af naar **boven** als het **volgende cijfer 5 of meer** is;
-* Rond of naar **beneden** als het **volgende cijfer 4 of minder** is.
+* Rond af naar **boven** als het **volgende cijfer groter of gelijk aan 5** is;
+* Rond of naar **beneden** als het **volgende cijfer kleiner dan 5** is.
 
-In de volgende voorbeelden ronden we telkens af tot op het **eerste cijfer na
-de komma**.  $$3{,}\orange{5}61 \approx 3{,}\orange{6}$$ $$12{,}\orange{9}5
-\approx 13{,}\orange{0}$$ $$0{,}\orange{0}12 \approx 0{,}\orange{0}$$
+Als voorbeeld ronden we $384{,}9503$ af tot een bepaald aantal cijfers na de
+komma.
+
+| Voor afronding                        | Soort afronding         | Na afronding             | Uitleg                                                                                          |
+| ------------------------------------- | ----------------------- | ------------------------ | ----------------------------------------------------------------------------------------------- |
+| $384{,}\orange{9}\gold{5}03$   | Op de tienden           | $385{,}\orange{0}$     | $\gold{5} \ge 5$ dus $\orange{9}$ wordt $1\orange{0}$, waardoor de $4$ een $5$ wordt   |
+| $384{,}9\orange{5}\gold{0}3$   | Op de honderdsten       | $384{,}9\orange{5}$    | $\gold{0} \lt 5$ dus $\orange{5}$ blijft $\orange{5}$                                  |
+| $384{,}95\orange{0}\gold{3}$   | Op de duizendsten       | $384{,}95\orange{0}$   | $\gold{3} \lt 5$ dus $\orange{0}$ blijft $\orange{0}$                                  |
 
 ## Afronden vóór de komma
-Maar wat als we bijvoorbeeld $5810$ moeten afronden
-tot op het **derde cijfer vóór de komma**? Dan zullen we het getal moeten
-[omzetten naar een macht van
-10](../machten_van_10#getallen-omzetten-naar-een-macht-van-10):
+Soms moeten we ook vóór de komma afronden.  Dat kunnen we met behulp van
+[machten van 10](../machten_van_10).  We zullen weer $384{,}9503$ gebruiken als
+voorbeeld.
 
-$$5\orange{8}10 \approx 5\orange{8} \cdot 10^2$$
+| Voor afronding                        | Soort afronding       | Na afronding                                          | Uitleg                                                                                                                                          |
+|---------------------------------------|-----------------------|-------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------|
+| $38\orange{4}{,}\gold{9}503$   | Op de eenheden        | $38\orange{5}\cdot 10^0$<br> of gewoon $38\orange{5}$ | $\gold{9} \ge 5$ dus $\orange{4}$ wordt $\orange{5}$<br> Vermenigvuldigen met $10^0 = 1$ omdat we afronden op de **een**heden          |
+| $3\orange{8}\gold{4}{,}9503$   | Op de tientallen      | $3\orange{8}\cdot 10^1$                             | $\gold{4} \lt 5$ dus $\orange{8}$ blijft $\orange{8}$<br> Vermenigvuldigen met $10^1 = 10$ omdat we afronden op de **tien**tallen      |
+| $\orange{3}\gold{8}4{,}9503$   | Op de honderdtallen   | $\orange{4}\cdot 10^2$                              | $\gold{8} \ge 5$ dus $\orange{3}$ wordt $\orange{4}$<br> Vermenigvuldigen met $10^2 = 100$ omdat we afronden op de **honderd**tallen   |
 
 
 ## Optellingen en aftrekkingen
-Aantal **cijfers na de komma** is van belang.
+Nadat we berekeningen hebben gedaan, zullen we bijna altijd de
+benaderingsregels moeten toepassen. Welke regels we moeten toepassen, hangt af 
+van de bewerkingen die we hebben gedaan tijdens de berekening.
+
+Voor optellingen en aftrekkingen kijken we naar het aantal cijfers na de komma. 
+We moeten de uitkomst afronden zodat die hetzelfde aantal cijfers na de komma 
+heeft als het getal in de berekening met het **minst aantal cijfers na de 
+komma**.
+
+Neem bijvoorbeeld de berekening
+$$24{,}28 + 9{,}1 - 3{,}35$$
+
+Deze berekening heeft drie termen:
+
+| Term               | Aantal cijfers na de komma   |
+| ------             | ---------------------------- |
+| $24{,}\orange{28}$ | 2                            |
+| $9{,}\orange{1}$   | 1                            |
+| $-3{,}\orange{35}$ | 2                            |
+
+Het kleinste aantal cijfers na de komma is dus 1. Dat betekent dat we de 
+**uitkomst moeten afronden tot op 1 cijfer na de komma**
+{{% mute "(afronden op de tienden dus)" %}}. De uitkomst van de berekening zelf 
+is:
+
+$$24{,}28 + 9{,}1 - 3{,}33 = 36{,}75$$
+
+Als we dit vervolgens afronden op de tienden, krijgen we:
+$$36{,}\orange{7}\gold{5} \approx 36{,}\orange{8}$$
 
 ## Vermenigvuldigingen en delingen
-Aantal **beduidende cijfers** is van belang.
+Voor vermenigvuldigingen en delingen kijken we naar het [aantal buidende 
+cijfers](../beduidende_cijfers/#aantal-beduidende-cijfers).  We moeten de 
+uitkomst afronden zodat die hetzelfde aantal beduidende cijfers heeft als het 
+getal in de berekening met het **minst aantal beduidende cijfers**.
+
+Bijvoorbeeld de berekening:
+$$0{,}000247 \cdot 34{,}2 \cdot 9{,}1$$
+
+Deze term heeft drie factoren:
+
+| Term | Aantal beduidende cijfers |
+|------|---------------------------|
+| $0{,}000\orange{247}$ | 3 |
+| $\orange{34}{,}\orange{2}$ | 3 |
+| $\orange{9}{,}\orange{1}$ | 2 |
+
+Het kleinste aantal beduidende cijfers is dus 2. Dat betekent dat we de 
+**uitkomst moeten afronden tot 2 beduidende cijfers**. De uitkomst is:
+$$0{,}000247 \cdot 34{,}2 \cdot 9{,}1 = 0{,}07687134$$
+
+Deze uitkomst moeten we afronden zodat enkel de eerste 2 beduidende cijfers 
+overblijven {{% mute "($7$ en $6$)" %}}. We moeten dus afronden op de 
+duizendsten {{% mute "(3 plaatsen na de komma)" %}}:
+
+$$0{,}07\orange{6}\gold{8}7134 \approx 0{,}07\orange{7}$$
+
+## Samengevat
+{{% attention "Benaderingsregels" %}}
+* De uitkomst van een **optelling of aftrekking** moet hetzelfde **aantal 
+  cijfers na de komma** hebben als het getal in de berekening met het kleinste 
+  aantal cijfers na de komma;
+* De uitkomst van een **vermenigvuldiging of deling** moet hetzelfde **aantal 
+  beduidende cijfers** hebben als het getal in de berekening met het kleinste 
+  aantal beduidende cijfers.
+{{% /attention %}}
