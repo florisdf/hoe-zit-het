@@ -2,7 +2,7 @@
 title: "Benaderingsregels"
 date: 2019-01-28T08:07:39+01:00
 weight: 7
-draft: false
+draft: true
 tags: ["grootheden_eenheden", "benaderingsregels"]
 categories: ["grootheden_eenheden", "benaderingsregels"]
 level: "3M"
@@ -129,7 +129,7 @@ $$0{,}000247 \cdot 34{,}2 \cdot 9{,}1$$
 
 Deze berekening heeft drie factoren:
 
-| Berekening | Aantal beduidende cijfers |
+| Factor | Aantal beduidende cijfers |
 |------|---------------------------|
 | $0{,}000\orange{247}$ | 3 |
 | $\orange{34}{,}\orange{2}$ | 3 |
