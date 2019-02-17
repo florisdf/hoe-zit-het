@@ -127,9 +127,9 @@ getal in de berekening met het **minst aantal beduidende cijfers**.
 Bijvoorbeeld de berekening:
 $$0{,}000247 \cdot 34{,}2 \cdot 9{,}1$$
 
-Deze term heeft drie factoren:
+Deze berekening heeft drie factoren:
 
-| Term | Aantal beduidende cijfers |
+| Berekening | Aantal beduidende cijfers |
 |------|---------------------------|
 | $0{,}000\orange{247}$ | 3 |
 | $\orange{34}{,}\orange{2}$ | 3 |
