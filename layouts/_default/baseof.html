@@ -26,6 +26,8 @@
       {{ partial "head/site-favicon.html" . }}
     {{ end }}
 
+    {{ block "jquery" . }}{{ partial "footer/jquery.html" . }}{{ end }}
+
     {{ block "bokeh" . }}
       {{ partial "head/bokeh.html" . }}
     {{ end }}
@@ -58,6 +60,5 @@
       {{ block "main" . }}{{ end }}
     </main>
     {{ block "footer" . }}{{ partial "footer/site-footer.html" . }}{{ end }}
-    {{ block "jquery" . }}{{ partial "footer/jquery.html" . }}{{ end }}
   </body>
 </html>
