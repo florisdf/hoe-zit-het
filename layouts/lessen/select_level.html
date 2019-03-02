@@ -1,0 +1,20 @@
+{{ $options := slice "Alle jaren" }}
+
+{{ if gt (len (index .Sections 0).Sections) 0 }}
+  {{ range .Sections.ByWeight }}
+    {{ range .Sections.ByWeight }}
+      {{ $options = $options | append .Params.level }}
+    {{ end }}
+  {{ end }}
+{{ else }}
+  {{ range .Sections.ByWeight }}
+    {{ $options = $options | append .Params.level }}
+  {{ end }}
+{{ end }}
+
+{{ $options = $options | uniq }}
+<select id="select_level">
+  {{ range $options }}
+  <option value="{{ . }}">{{ . }}</option>
+  {{ end }}
+</select>

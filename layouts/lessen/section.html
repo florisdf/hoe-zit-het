@@ -1,34 +1,19 @@
 {{ define "main" }}
 <article class="pa3 pa4-ns nested-copy-line-height nested-img">
-	{{ with .Content }}
-		<main class="cf ph3 ph5-l pv3 pv4-l f4 tc-l center measure-wide lh-copy mid-gray">
-		{{ . }}
-		</main>
-	{{ end }}
+  {{ with .Content }}
+  <main class="cf ph3 ph5-l pv3 pv4-l f4 tc-l center measure-wide lh-copy mid-gray">
+  {{ . }}
+  </main>
+  {{ end }}
 
-		<section class="center w-100 mw8 flex-ns flex-wrap justify-left">
-		{{ if gt (len .Sections) 0 }}
-		<!-- This section has sections as children -->
-
-			{{ range .Sections.ByWeight }}
-				{{ if gt (len .Sections) 0 }}
-					<!-- The section-children contain themselves sections -->
-            <h1 class="mid-gray">{{ .Title }}</h1>
-            <div class="flex-ns flex-wrap justify-left center w-100 mw8">
-              {{ range .Sections.ByWeight }}
-                {{ .Render "section-pages-blocks" }}
-              {{ end }}
-            </div>
-				{{ else }}
-					<!-- The section-children contain single pages -->
-          {{ .Render "section-pages-blocks" }}
-				{{ end }}
-			{{ end }}
-
-		{{ else }}
-			<!-- This section has single pages as children -->
-			{{ .Render "section-pages-list" }}
-		{{ end }}
-		</section>
+  {{ if gt (len .Sections) 0 }}
+    {{ if gt (len (index .Sections 0).Sections) 0 }}
+      {{ .Render "all_lessen" }}
+    {{ else }}
+      {{ .Render "course_lessen" }}
+    {{ end }}
+  {{ else }}
+    {{ .Render "topic_lessen" }}
+  {{ end }}
 </article>
 {{ end }}

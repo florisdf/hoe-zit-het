@@ -1,0 +1,15 @@
+<section class="center w-100 mw8">
+
+  {{ .Render "select_course" }}
+
+  {{ .Render "select_level" }}
+
+  {{ range .Sections.ByWeight }}
+  <a class="link" href="{{ .URL }}"><h1 class="mid-gray dim pointer">{{ .Title }}</h1></a>
+  <div class="flex-ns flex-wrap justify-left center w-100 mw8">
+    {{ range .Sections.ByWeight }}
+    {{ .Render "section-pages-blocks" }}
+    {{ end }}
+  </div>
+  {{ end }}
+</section>

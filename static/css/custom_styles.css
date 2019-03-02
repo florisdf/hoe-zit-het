@@ -59,3 +59,11 @@ table tr:nth-child(even) {
 table tr th {
   background-color: #ddd;
 }
+
+/* Dropdown */
+select {
+  margin: .5em;
+  padding: .2em;
+	font-family: 'Quicksand', sans-serif;
+  font-size: 14pt;
+}

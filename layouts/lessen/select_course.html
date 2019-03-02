@@ -1,0 +1,12 @@
+{{ $options := slice "Alle vakken" }}
+
+{{ range .Sections.ByWeight }}
+  {{ $options = $options | append .Title }}
+{{ end }}
+
+{{ $options = $options | uniq }}
+<select id="select_course">
+  {{ range $options }}
+  <option value="{{ . }}">{{ . }}</option>
+  {{ end }}
+</select>
