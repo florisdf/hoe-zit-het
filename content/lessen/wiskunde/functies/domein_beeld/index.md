@@ -19,7 +19,7 @@ Voor een bepaalde x-waarde kan er dus **één of géén** y-waarde uit de
 functie komen.
 
 ## Domein van een functie
-Het *domein* van een functie is de [verzameling](../../verzamelingen/verzamelingen)
+Het *domein* van een functie is de [verzameling](../../verzamelingen/intro)
 van x-waarden waarvoor er een functiewaarde {{%mute "(een y-waarde)" %}} bestaat.
 
 * Voor elke x-waarde die **niet in het domein** zit, bestaat er **géén
@@ -46,7 +46,7 @@ Dit kunnen we ook schrijven als een [interval](../../verzamelingen/intervallen):
 $$dom f = [0, +\infty[%]$$
 
 ## Beeld van een functie
-Het *beeld* of het *bereik* van een functie is de [verzameling](../../verzamelingen/verzamelingen) 
+Het *beeld* of het *bereik* van een functie is de [verzameling](../../verzamelingen/intro) 
 van alle y-waarden die ooit uit de functie kunnen komen.
 
 Een typisch voorbeeld is het beeld van de [reële functie](../reele_functies) die als

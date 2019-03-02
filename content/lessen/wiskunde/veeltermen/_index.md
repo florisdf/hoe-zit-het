@@ -6,7 +6,7 @@ draft: false
 tags: []
 categories: []
 section_color: "#d5008f"
-level: ""
+level: "2e middelbaar"
 course: ""
 topic: ""
 ---

@@ -1,7 +1,7 @@
 ---
-title: "Assenstelsel"
-date: 2018-12-27T22:23:32+01:00
-weight: 2
+title: "Rationale getallen"
+date: 2019-02-28T08:32:45+01:00
+weight: 4
 draft: true
 tags: []
 categories: []

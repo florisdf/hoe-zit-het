@@ -6,7 +6,7 @@ draft: false
 section_color: "#00449e"
 tags: []
 categories: []
-level: ""
+level: "3e middelbaar"
 course: ""
 topic: ""
 ---

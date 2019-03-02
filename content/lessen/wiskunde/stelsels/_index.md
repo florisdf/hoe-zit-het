@@ -5,7 +5,7 @@ weight: 11
 draft: true
 tags: []
 categories: []
-level: ""
+level: "4e middelbaar"
 section_color: "#00449e"
 course: ""
 topic: ""

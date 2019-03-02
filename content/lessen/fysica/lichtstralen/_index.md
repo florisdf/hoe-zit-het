@@ -6,7 +6,7 @@ section_color: "#ff6300"
 draft: true
 tags: ["lichtstralen"]
 categories: []
-level: ""
+level: "3e middelbaar"
 course: ""
 topic: "lichtstralen"
 ---

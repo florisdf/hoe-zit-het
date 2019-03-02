@@ -6,7 +6,7 @@ draft: true
 section_color: "#00449e"
 tags: []
 categories: []
-level: "4M"
+level: "4e middelbaar"
 course: "wiskunde"
 topic: "algebra"
 ---

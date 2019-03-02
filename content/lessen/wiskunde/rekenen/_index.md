@@ -5,7 +5,7 @@ weight: 5
 draft: false
 tags: []
 categories: []
-level: ""
+level: "1e middelbaar"
 section_color: "#ff6300"
 course: ""
 topic: ""

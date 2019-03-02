@@ -1,5 +1,7 @@
+intro
+bewerkingen
+natuurlijke_en_gehele_getallen
+rationale_getallen
 reele_getallen
-assenstelsel
-notatie
-verzamelingen
 intervallen
+complexe_getallen

@@ -5,8 +5,8 @@ weight: 12
 draft: true
 tags: []
 categories: []
-level: ""
 course: ""
 topic: ""
+level: "1e middelbaar"
 ---
 

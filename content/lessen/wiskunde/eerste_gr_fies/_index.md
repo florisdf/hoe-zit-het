@@ -9,5 +9,6 @@ section_color: "#19a974"
 level: "3M"
 course: "wiskunde"
 topic: "analyse"
+level: "3e middelbaar"
 ---
 
