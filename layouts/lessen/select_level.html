@@ -13,7 +13,7 @@
 {{ end }}
 
 {{ $options = $options | uniq }}
-<select id="select_level">
+<select id="select-level">
   {{ range $options }}
   <option value="level-{{ replace . " " "-" }}">{{ . }}</option>
   {{ end }}
@@ -21,7 +21,7 @@
 
 <script>
 function updateTopicBlocks(){
-  var idx = $( "#select_level" )[0].selectedIndex;
+  var idx = $( "#select-level" )[0].selectedIndex;
   if(idx == 0) {
     // Show all levels
     $(".topic-block").each(function() {
@@ -29,7 +29,7 @@ function updateTopicBlocks(){
     });
   } else {
     // Hide divs that aren't the selected level
-    var el = $( "#select_level :selected" );
+    var el = $( "#select-level :selected" );
     $(".topic-block").each(function() {
       $(this).show()
       if(! $(this).attr('class').includes(el.val())) {
@@ -38,6 +38,6 @@ function updateTopicBlocks(){
     });
   }
 }
-$( "#select_level" ).change(updateTopicBlocks);
+$( "#select-level" ).change(updateTopicBlocks);
 $(document).ready(updateTopicBlocks);
 </script>
