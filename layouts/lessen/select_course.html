@@ -1,6 +1,6 @@
 {{ $options := slice "Alle vakken" }}
 
-{{ range .Sections.ByWeight }}
+{{ range .Sections.ByTitle }}
   {{ $options = $options | append .Title }}
 {{ end }}
 
@@ -33,6 +33,5 @@ function updateCourses(){
   }
 }
 $( "#select-course" ).change(updateCourses);
-$( "#select-course" ).change(updateTopicBlocks);
 $(document).ready(updateCourses);
 </script>

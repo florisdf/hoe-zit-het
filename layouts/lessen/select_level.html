@@ -1,13 +1,13 @@
 {{ $options := slice "Alle jaren" }}
 
 {{ if gt (len (index .Sections 0).Sections) 0 }}
-  {{ range .Sections.ByWeight }}
-    {{ range .Sections.ByWeight }}
+  {{ range .Sections.ByTitle }}
+    {{ range .Sections.ByTitle }}
       {{ $options = $options | append .Params.level }}
     {{ end }}
   {{ end }}
 {{ else }}
-  {{ range .Sections.ByWeight }}
+  {{ range .Sections.ByTitle }}
     {{ $options = $options | append .Params.level }}
   {{ end }}
 {{ end }}
@@ -50,5 +50,6 @@ function updateTopicBlocks(){
 }
 
 $( "#select-level" ).change(updateTopicBlocks);
+$( "#select-course" ).change(updateTopicBlocks);
 $(document).ready(updateTopicBlocks);
 </script>
