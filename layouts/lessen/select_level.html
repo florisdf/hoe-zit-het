@@ -37,7 +37,18 @@ function updateTopicBlocks(){
       }
     });
   }
+  // If nothing is shown for a course,
+  // notify the user
+  $(".course-blocks").each(function() {
+    var len = $(this).find(".topic-block:visible").length;
+    if (len == 0) {
+      $(this).find(".course-empty-notice").show();
+    } else {
+      $(this).find(".course-empty-notice").hide();
+    }
+  });
 }
+
 $( "#select-level" ).change(updateTopicBlocks);
 $(document).ready(updateTopicBlocks);
 </script>

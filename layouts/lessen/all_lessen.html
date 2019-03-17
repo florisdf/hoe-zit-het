@@ -1,12 +1,17 @@
 <section class="center w-100 mw8">
 
-  {{ .Render "select_course" }}
-
-  {{ .Render "select_level" }}
+  <div>
+    <i class="fas fa-filter mid-gray"></i>
+    {{ .Render "select_course" }}
+    {{ .Render "select_level" }}
+  </div>
 
   {{ range .Sections.ByWeight }}
   <div class="course-blocks course-{{ replace (.Title | lower) " " "-" }}">
     <a class="link" href="{{ .URL }}"><h1 class="mid-gray dim pointer">{{ .Title }}</h1></a>
+    <div class="course-empty-notice" style="display:none">
+      (Geen resultaten voor de gekozen filter)
+    </div>
     <div class="flex-ns flex-wrap justify-left center w-100 mw8">
       {{ range .Sections.ByWeight }}
       {{ .Render "section-pages-blocks" }}

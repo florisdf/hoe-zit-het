@@ -30,11 +30,6 @@ function updateCourses(){
         $(this).hide();
       }
     });
-    // Make year options unclickable if necessary
-    var options = $("#select-level")[0].children;
-    for (var i=1; i < options.length; i++) {
-      console.log(options[i].value);
-    }
   }
 }
 $( "#select-course" ).change(updateCourses);
