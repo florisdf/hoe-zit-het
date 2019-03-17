@@ -5,7 +5,7 @@
 {{ end }}
 
 {{ $options = $options | uniq }}
-<select id="select-course">
+<select id="select-course" class="w-100">
   {{ range $options }}
   <option value="course-{{ replace (. | lower) " " "-" }}">
   {{ . }}

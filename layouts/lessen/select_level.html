@@ -13,7 +13,7 @@
 {{ end }}
 
 {{ $options = $options | uniq }}
-<select id="select-level">
+<select id="select-level" class="w-100">
   {{ range $options }}
   <option value="level-{{ replace . " " "-" }}">{{ . }}</option>
   {{ end }}

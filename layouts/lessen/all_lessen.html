@@ -1,9 +1,9 @@
 <section class="center w-100 mw8">
 
-  <div>
-    <i class="fas fa-filter mid-gray"></i>
-    {{ .Render "select_course" }}
-    {{ .Render "select_level" }}
+  <div class="">
+    <div class="dib f4 mid-gray"><i class="fas fa-filter"></i></div>
+    <div class="w-100 w-25-l dib">{{ .Render "select_course" }}</div>
+    <div class="w-100 w-25-l dib">{{ .Render "select_level" }}</div>
   </div>
 
   {{ range .Sections.ByWeight }}
