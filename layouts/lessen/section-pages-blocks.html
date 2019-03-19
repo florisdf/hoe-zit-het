@@ -1,14 +1,18 @@
+{{ $sect_color := .Params.section_color | default ($.Scratch.Get "stroke") | default .Site.Params.default_stroke }}
 <div
-  class="w-100 w-30-l ph2 topic-block level-{{ replace .Params.level " " "-" }}">
+  class="w-100 w-30-l ma2 topic-block level-{{ replace .Params.level " " "-" }} ba br3" style="border-color: {{ $sect_color }}; overflow: hidden;">
 
 	<div
   class="dim"
-    style="background-color: {{ .Params.section_color | default ($.Scratch.Get "stroke") | default .Site.Params.default_stroke }};"/>
+  style="background-color: {{ $sect_color }};"/>
     <a class="link" href="{{ .URL }}">
-      <h1 class="f3 pa2 near-white">
+      <div class="f3 b pa2 near-white">
       {{ .Title }}
-      </h1>
+      </div>
     </a>
 	</div>
+  <div class="bg-light-gray gray tr pa1">
+    {{ .Params.level }}
+  </div>
   {{ .Render "section-pages-list" }}
 </div>
