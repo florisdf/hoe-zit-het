@@ -1,7 +1,7 @@
 <section class="center w-100 mw8">
   <div>
     <i class="fas fa-filter mid-gray"></i>
-    {{ .Render "select_level" }}
+    <div class="w-100 w-25-l dib">{{ .Render "select_level" }}</div>
   </div>
   <div class="flex-ns flex-wrap justify-left center w-100 mw8">
     {{ range .Sections.ByWeight }}
