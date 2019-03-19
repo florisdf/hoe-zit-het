@@ -1,13 +1,13 @@
 {{ $options := slice "Alle jaren" }}
 
 {{ if gt (len (index .Sections 0).Sections) 0 }}
-  {{ range .Sections.ByTitle }}
-    {{ range .Sections.ByTitle }}
+  {{ range ( .Sections | sort) }}
+    {{ range .Sections }}
       {{ $options = $options | append .Params.level }}
     {{ end }}
   {{ end }}
 {{ else }}
-  {{ range .Sections.ByTitle }}
+  {{ range ( .Sections | sort ) }}
     {{ $options = $options | append .Params.level }}
   {{ end }}
 {{ end }}
@@ -25,15 +25,15 @@ function updateTopicBlocks(){
   if(idx == 0) {
     // Show all levels
     $(".topic-block").each(function() {
-      $(this).show()
+      $(this).show();
     });
   } else {
     // Hide divs that aren't the selected level
     var el = $( "#select-level :selected" );
     $(".topic-block").each(function() {
-      $(this).show()
+      $(this).show();
       if(! $(this).attr('class').includes(el.val())) {
-        $(this).hide()
+        $(this).hide();
       }
     });
   }
