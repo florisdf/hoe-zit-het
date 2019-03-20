@@ -11,22 +11,11 @@ function onFilter() {
     $(".course-blocks").each(function() {
       $(this).show();
       if(!course_filters.every(f => $(this).attr('class').includes(f))) {
-        $(this).hide();
-      }
-    });
+      $(this).hide();
+    }
+  });
 
-    // If nothing is shown for a course,
-    // notify the user
-    $(".course-blocks").each(function() {
-      var len = $(this).find(".subject-block:visible").length;
-      if (len == 0) {
-        $(this).find(".course-empty-notice").show();
-      } else {
-        $(this).find(".course-empty-notice").hide();
-      }
-    });
   }
-
   var level_idx = $( "#select-level" )[0].selectedIndex;
   var topic_idx = $( "#select-topic" )[0].selectedIndex;
 
@@ -46,6 +35,33 @@ function onFilter() {
     }
   });
 
+  // If nothing is shown for a course,
+  // notify the user
+  $(".course-blocks").each(function() {
+    var len = $(this).find(".subject-block:visible").length;
+    if (len == 0) {
+      $(this).find(".course-empty-notice").show();
+    } else {
+      $(this).find(".course-empty-notice").hide();
+    }
+  });
+
+  // Iterate over all visible course blocks and hide in the select if
+  var all_block_classes = $(".subject-block:visible").map(function() {
+    return $(this).attr('class')
+  });
+  all_block_classes = Object.values(all_block_classes).join(' ');
+  $("[id^=select-]").each(function() {
+    if($(this)[0].selectedIndex == 0) {
+      var len = this.options.length;
+      for (var i=1; i < len; i++) {
+        $(this.options[i]).show();
+        if(!all_block_classes.includes(this.options[i].value)) {
+          $(this.options[i]).hide();
+        }
+      }
+    }
+  });
 }
 
 $( "#select-topic" ).change(onFilter);
