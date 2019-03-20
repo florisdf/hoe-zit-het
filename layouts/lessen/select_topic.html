@@ -3,19 +3,22 @@
 {{ if gt (len (index .Sections 0).Sections) 0 }}
   {{ range ( .Sections | sort) }}
     {{ range .Sections | sort }}
-      {{ $options = $options | append .Params.level }}
+      {{ $options = $options | append ( .Params.topic | title ) }}
     {{ end }}
   {{ end }}
 {{ else }}
   {{ range ( .Sections | sort ) }}
-    {{ $options = $options | append .Params.level }}
+    {{ $options = $options | append ( .Params.topic | title ) }}
   {{ end }}
 {{ end }}
 
+
 {{ $options = $options | uniq | sort }}
-<select id="select-level" class="w-100">
-  <option value="all">Alle jaren</option>
+<select id="select-topic" class="w-100">
+  <option value="all">Alle topics</option>
   {{ range $options }}
-  <option value="level-{{ replace . " " "-" }}">{{ . }}</option>
+  <option value="topic-{{ replace (. | lower) " " "-" }}">
+  {{ . }}
+  </option>
   {{ end }}
 </select>

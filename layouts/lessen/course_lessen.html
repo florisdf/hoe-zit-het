@@ -2,10 +2,14 @@
   <div>
     <i class="fas fa-filter mid-gray"></i>
     <div class="w-100 w-25-l dib">{{ .Render "select_level" }}</div>
+    <div class="w-100 w-25-l dib">{{ .Render "select_topic" }}</div>
   </div>
+
+  {{ .Render "on_filter" }}
+
   <div class="flex-ns flex-wrap justify-left center w-100 mw8">
     {{ range .Sections.ByWeight }}
-    {{ .Render "section-pages-blocks" }}
+      {{ .Render "subject_block" }}
     {{ end }}
   </div>
 </section>

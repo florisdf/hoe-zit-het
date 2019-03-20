@@ -4,7 +4,10 @@
     <div class="dib f4 mid-gray"><i class="fas fa-filter"></i></div>
     <div class="w-100 w-25-l dib">{{ .Render "select_course" }}</div>
     <div class="w-100 w-25-l dib">{{ .Render "select_level" }}</div>
+    <div class="w-100 w-25-l dib">{{ .Render "select_topic" }}</div>
   </div>
+
+  {{ .Render "on_filter" }}
 
   {{ range .Sections.ByTitle }}
   <div class="course-blocks course-{{ replace (.Title | lower) " " "-" }}">
@@ -16,7 +19,7 @@
       {{ range ( .Sections.GroupByParam "level" ) }}
         {{ range ( .Pages.GroupByParam "topic" ) }}
           {{ range .Pages.ByWeight }}
-            {{ .Render "section-pages-blocks" }}
+            {{ .Render "subject_block" }}
           {{ end }}
         {{ end }}
       {{ end }}

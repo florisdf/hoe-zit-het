@@ -1,0 +1,55 @@
+<script>
+function onFilter() {
+  if(typeof $( "#select-course" )[0] !== 'undefined') {
+    var course_idx = $( "#select-course" )[0].selectedIndex;
+    course_filters = [];
+    if(course_idx != 0) {
+      course_filters.push($( "#select-course :selected" ).val());
+    }
+
+    // Hide courses that are not selected
+    $(".course-blocks").each(function() {
+      $(this).show();
+      if(!course_filters.every(f => $(this).attr('class').includes(f))) {
+        $(this).hide();
+      }
+    });
+
+    // If nothing is shown for a course,
+    // notify the user
+    $(".course-blocks").each(function() {
+      var len = $(this).find(".subject-block:visible").length;
+      if (len == 0) {
+        $(this).find(".course-empty-notice").show();
+      } else {
+        $(this).find(".course-empty-notice").hide();
+      }
+    });
+  }
+
+  var level_idx = $( "#select-level" )[0].selectedIndex;
+  var topic_idx = $( "#select-topic" )[0].selectedIndex;
+
+  subject_filters = [];
+  if(level_idx != 0) {
+    subject_filters.push($( "#select-level :selected" ).val());
+  }
+  if(topic_idx != 0) {
+    subject_filters.push($( "#select-topic :selected" ).val());
+  }
+
+  // Hide subject blocks that don't belong to the selected filters
+  $(".subject-block").each(function() {
+    $(this).show();
+    if(!subject_filters.every(f => $(this).attr('class').includes(f))) {
+      $(this).hide();
+    }
+  });
+
+}
+
+$( "#select-topic" ).change(onFilter);
+$( "#select-course" ).change(onFilter);
+$( "#select-level" ).change(onFilter);
+$(document).ready(onFilter);
+</script>
