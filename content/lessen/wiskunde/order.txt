@@ -1,12 +1,13 @@
+rekenen
 verzamelingen
+veeltermen
 vergelijkingen
 functies
-veeltermen
-rekenen
 ongelijkheden
 goniometrie
 reele_fies
 eerste_gr_fies
-veeltermen
 stelsels
 logica
+reele_getallen
+complexe_getallen

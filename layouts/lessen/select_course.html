@@ -1,11 +1,12 @@
-{{ $options := slice "Alle vakken" }}
+{{ $options := slice }}
 
 {{ range .Sections.ByTitle }}
   {{ $options = $options | append .Title }}
 {{ end }}
 
-{{ $options = $options | uniq }}
+{{ $options = $options | uniq | sort }}
 <select id="select-course" class="w-100">
+  <option value="all">Alle vakken</option>
   {{ range $options }}
   <option value="course-{{ replace (. | lower) " " "-" }}">
   {{ . }}

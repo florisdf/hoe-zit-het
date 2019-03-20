@@ -1,12 +1,12 @@
 ---
-title: "Verzamelingen"
+title: "Reële getallen"
 date: 2019-01-05T21:27:16+01:00
-weight: 2
+weight: 12
 draft: true
 tags: []
 categories: []
 section_color: "#ff6300"
-level: "1e middelbaar"
+level: "3e middelbaar"
 course: ""
 topic: "verzamelingen"
 ---

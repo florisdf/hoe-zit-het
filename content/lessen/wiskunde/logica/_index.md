@@ -1,12 +1,12 @@
 ---
 title: "Logica"
 date: 2019-01-12T22:28:15+01:00
-weight: 12
+weight: 11
 draft: true
 tags: []
 categories: []
 course: ""
-topic: ""
+topic: "logica"
 level: "1e middelbaar"
 ---
 

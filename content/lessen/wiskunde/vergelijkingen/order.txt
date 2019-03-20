@@ -2,7 +2,6 @@ intro
 omvormen
 termen_omvormen
 factoren_omvormen
-eerste_graad
 machten_omvormen
 mix_van_bewerkingen
 functies

@@ -1,7 +1,7 @@
 ---
 title: "Machten en wortels omvormen"
 date: 2019-01-15T11:16:02+01:00
-weight: 6
+weight: 5
 draft: false
 tags: ["vergelijkingen", "algebra"]
 categories: ["wiskunde", "algebra"]

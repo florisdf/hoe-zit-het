@@ -1,8 +1,8 @@
-{{ $options := slice "Alle jaren" }}
+{{ $options := slice }}
 
 {{ if gt (len (index .Sections 0).Sections) 0 }}
   {{ range ( .Sections | sort) }}
-    {{ range .Sections }}
+    {{ range .Sections | sort }}
       {{ $options = $options | append .Params.level }}
     {{ end }}
   {{ end }}
@@ -12,8 +12,9 @@
   {{ end }}
 {{ end }}
 
-{{ $options = $options | uniq }}
+{{ $options = $options | uniq | sort }}
 <select id="select-level" class="w-100">
+  <option value="all">Alle jaren</option>
   {{ range $options }}
   <option value="level-{{ replace . " " "-" }}">{{ . }}</option>
   {{ end }}

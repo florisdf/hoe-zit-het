@@ -1,7 +1,7 @@
 ---
-title: "Intervallen"
-date: 2018-12-27T23:43:18+01:00
-weight: 6
+title: "Complexe getallen"
+date: 2019-02-28T08:41:21+01:00
+weight: 1
 draft: true
 tags: []
 categories: []

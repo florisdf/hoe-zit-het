@@ -1,13 +1,13 @@
 ---
 title: "Rekenen"
 date: 2019-01-06T11:05:48+01:00
-weight: 5
+weight: 1
 draft: false
 tags: []
 categories: []
 level: "1e middelbaar"
-section_color: "#ff6300"
+section_color: "#00449e"
 course: ""
-topic: ""
+topic: "algebra"
 ---
 

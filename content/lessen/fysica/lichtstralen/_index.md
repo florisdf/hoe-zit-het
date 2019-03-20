@@ -8,5 +8,5 @@ tags: ["lichtstralen"]
 categories: []
 level: "3e middelbaar"
 course: ""
-topic: "lichtstralen"
+topic: "optica"
 ---

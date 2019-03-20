@@ -2,6 +2,3 @@ intro
 bewerkingen
 natuurlijke_en_gehele_getallen
 rationale_getallen
-reele_getallen
-intervallen
-complexe_getallen
