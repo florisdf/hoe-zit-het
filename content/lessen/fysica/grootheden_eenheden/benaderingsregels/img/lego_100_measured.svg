@@ -15,7 +15,7 @@
    viewBox="0 0 418.24215 146.65475"
    version="1.1"
    id="svg1610"
-   inkscape:version="0.92.3 (unknown)"
+   inkscape:version="0.92.4 (unknown)"
    sodipodi:docname="lego_100_measured.svg">
   <defs
      id="defs1604">
@@ -72,15 +72,15 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.45254834"
-     inkscape:cx="749.40792"
-     inkscape:cy="214.7303"
+     inkscape:zoom="1.28"
+     inkscape:cx="1101.2558"
+     inkscape:cy="80.125482"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
-     inkscape:window-width="1600"
-     inkscape:window-height="875"
-     inkscape:window-x="0"
+     inkscape:window-width="1920"
+     inkscape:window-height="1055"
+     inkscape:window-x="1600"
      inkscape:window-y="25"
      inkscape:window-maximized="1"
      inkscape:snap-bbox="true"
@@ -288,5 +288,16 @@
        transform="scale(0.99897869,1.0010224)"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.42236519px;line-height:1.25;font-family:Quicksand;-inkscape-font-specification:Quicksand;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
        id="text6647-7-0" />
+    <text
+       id="text2522"
+       y="288.66901"
+       x="406.85049"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.61107063px;line-height:1.25;font-family:Quicksand;-inkscape-font-specification:Quicksand;text-align:end;letter-spacing:0px;word-spacing:0px;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458329"
+       xml:space="preserve"><tspan
+         style="font-size:6.61107063px;text-align:end;text-anchor:end;fill:#d3d3d3;fill-opacity:1;stroke-width:0.26458329"
+         y="288.66901"
+         x="406.85049"
+         id="tspan2520"
+         sodipodi:role="line">Meer op https://hoezithet.nu</tspan></text>
   </g>
 </svg>

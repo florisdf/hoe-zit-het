@@ -7,6 +7,7 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="351.51785mm"
@@ -15,7 +16,7 @@
    version="1.1"
    id="svg8"
    sodipodi:docname="lego_schuifmaat.svg"
-   inkscape:version="0.92.3 (unknown)">
+   inkscape:version="0.92.4 (unknown)">
   <defs
      id="defs2">
     <style
@@ -34,15 +35,15 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.7"
-     inkscape:cx="660.70972"
+     inkscape:cx="657.85258"
      inkscape:cy="137.74337"
      inkscape:document-units="mm"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="a6232"
      showgrid="false"
      inkscape:snap-global="true"
-     inkscape:window-width="1600"
-     inkscape:window-height="875"
-     inkscape:window-x="0"
+     inkscape:window-width="1920"
+     inkscape:window-height="1055"
+     inkscape:window-x="1600"
      inkscape:window-y="25"
      inkscape:window-maximized="1"
      showguides="true"
@@ -201,5 +202,22 @@
            d="m 157.40115,134.92539 -0.40794,0.40794 -0.40794,-0.40794 v -2.34564 h 0.81588 z m 1.52976,0.40794 0.20397,0.20396 v 2.85556 q -0.10199,0.40794 -0.50992,0.50992 l -0.30595,-0.81587 v -2.14167 z m -0.81587,-2.95754 h -2.43742 l -0.81588,-0.30596 q 0.10199,-0.40793 0.50992,-0.50992 h 3.04933 z m -2.44762,0.20396 v 1.9377 l -0.61191,0.61191 -0.20397,-0.20397 v -2.65159 z m 2.65159,1.9377 v -2.14166 l 0.30595,-0.81588 q 0.40793,0.10199 0.50992,0.50992 v 2.85556 l -0.20397,0.20397 z m -2.65159,1.42778 v 2.14167 l -0.30596,0.81587 q -0.40793,-0.10198 -0.50992,-0.50992 v -2.85556 l 0.20397,-0.20396 z" />
       </g>
     </g>
+    <a
+       xlink:href="https://hoezithet.net"
+       id="a6232"
+       transform="matrix(1.5616703,0,0,1.5616703,41.977434,-6.7324022)"
+       style="stroke-width:0.64034003">
+      <text
+         id="text2522"
+         y="119.25115"
+         x="171.8459"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:1.25;font-family:Quicksand;-inkscape-font-specification:Quicksand;text-align:end;letter-spacing:0px;word-spacing:0px;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.16942328"
+         xml:space="preserve"><tspan
+           style="font-size:4.23333311px;text-align:end;text-anchor:end;fill:#d3d3d3;fill-opacity:1;stroke-width:0.16942328"
+           y="119.25115"
+           x="171.8459"
+           id="tspan2520"
+           sodipodi:role="line">Meer op https://hoezithet.nu</tspan></text>
+    </a>
   </g>
 </svg>

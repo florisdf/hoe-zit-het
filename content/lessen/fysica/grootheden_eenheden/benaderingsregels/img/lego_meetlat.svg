@@ -15,7 +15,7 @@
    version="1.1"
    id="svg8"
    sodipodi:docname="lego_meetlat.svg"
-   inkscape:version="0.92.3 (unknown)">
+   inkscape:version="0.92.4 (unknown)">
   <defs
      id="defs2">
     <style
@@ -33,16 +33,16 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.49497475"
-     inkscape:cx="725.28488"
-     inkscape:cy="14.774218"
+     inkscape:zoom="0.9899495"
+     inkscape:cx="722.20186"
+     inkscape:cy="-8.5128085"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
      inkscape:snap-global="false"
-     inkscape:window-width="1600"
-     inkscape:window-height="875"
-     inkscape:window-x="0"
+     inkscape:window-width="1920"
+     inkscape:window-height="1055"
+     inkscape:window-x="1600"
      inkscape:window-y="25"
      inkscape:window-maximized="1"
      showguides="true"
@@ -164,5 +164,16 @@
          d="M 121.35936,127.78233 V 94.102445"
          style="fill:none;stroke:#555555;stroke-width:1.05833316;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:4.23333275, 4.23333275;stroke-dashoffset:0;stroke-opacity:1" />
     </g>
+    <text
+       id="text2522"
+       y="178.34097"
+       x="242.15103"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.61107063px;line-height:1.25;font-family:Quicksand;-inkscape-font-specification:Quicksand;text-align:end;letter-spacing:0px;word-spacing:0px;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458329"
+       xml:space="preserve"><tspan
+         style="font-size:6.61107063px;text-align:end;text-anchor:end;fill:#d3d3d3;fill-opacity:1;stroke-width:0.26458329"
+         y="178.34097"
+         x="242.15103"
+         id="tspan2520"
+         sodipodi:role="line">Meer op https://hoezithet.nu</tspan></text>
   </g>
 </svg>
