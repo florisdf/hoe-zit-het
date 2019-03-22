@@ -6,6 +6,7 @@
   </main>
   {{ end }}
 
+<section class="center w-100 mw8">
   {{ if gt (len .Sections) 0 }}
     {{ if gt (len (index .Sections 0).Sections) 0 }}
       {{ .Render "all_lessen" }}
@@ -15,5 +16,6 @@
   {{ else }}
     {{ .Render "subject_lessen" }}
   {{ end }}
+</section>
 </article>
 {{ end }}
