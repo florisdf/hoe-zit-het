@@ -1,67 +1,81 @@
 <script>
-function onFilter() {
-  if(typeof $( "#select-course" )[0] !== 'undefined') {
-    var course_idx = $( "#select-course" )[0].selectedIndex;
-    course_filters = [];
-    if(course_idx != 0) {
-      course_filters.push($( "#select-course :selected" ).val());
-    }
+var filter_history = [];
 
-    // Hide courses that are not selected
-    $(".course-blocks").each(function() {
-      $(this).show();
-      if(!course_filters.every(f => $(this).attr('class').includes(f))) {
-      $(this).hide();
-    }
-  });
+function hideInapplicableOptions(sel){
+  var all_block_classes = $(".subject-block:visible").toArray().map(block => block.className);
+  all_block_classes = all_block_classes.join(' ');
 
-  }
-  var level_idx = $( "#select-level" )[0].selectedIndex;
-  var topic_idx = $( "#select-topic" )[0].selectedIndex;
-
-  subject_filters = [];
-  if(level_idx != 0) {
-    subject_filters.push($( "#select-level :selected" ).val());
-  }
-  if(topic_idx != 0) {
-    subject_filters.push($( "#select-topic :selected" ).val());
-  }
-
-  // Hide subject blocks that don't belong to the selected filters
-  $(".subject-block").each(function() {
-    $(this).show();
-    if(!subject_filters.every(f => $(this).attr('class').includes(f))) {
-      $(this).hide();
-    }
-  });
-
-  // If nothing is shown for a course,
-  // notify the user
-  $(".course-blocks").each(function() {
-    var len = $(this).find(".subject-block:visible").length;
-    if (len == 0) {
-      $(this).find(".course-empty-notice").show();
-    } else {
-      $(this).find(".course-empty-notice").hide();
-    }
-  });
-
-  // Iterate over all visible course blocks and hide in the select if
-  var all_block_classes = $(".subject-block:visible").map(function() {
-    return $(this).attr('class')
-  });
-  all_block_classes = Object.values(all_block_classes).join(' ');
-  $("[id^=select-]").each(function() {
-    if($(this)[0].selectedIndex == 0) {
-      var len = this.options.length;
-      for (var i=1; i < len; i++) {
-        $(this.options[i]).show();
-        if(!all_block_classes.includes(this.options[i].value)) {
-          $(this.options[i]).hide();
-        }
+  Object.values(sel).forEach(function(opt){
+    $(opt).show();
+    if(! all_block_classes.includes(opt.value) && opt.value !== 'all') {
+      if(opt.selected) {
+        // This selection is not compatible, reset the select to 'all'
+        opt.parentNode.value = 'all';
+        window.location.reload(false); 
       }
+      $(opt).hide();
     }
   });
+}
+
+function updateFilterHistory() {
+  $("select").each(function() {
+    var idx = $( this )[0].selectedIndex;
+    var option = this[idx];
+    if(idx !== 0) {
+      if(!filter_history.map(o => o.parentNode).includes(option.parentNode)){
+          filter_history.push(option);
+      } else {
+        filter_history = filter_history.map(o => o.parentNode == option.parentNode ? option : o);
+      }
+    } else {
+        filter_history = filter_history.filter(o => o.parentNode != option.parentNode );
+    }
+  });
+}
+
+function hideIrrelevantBlocks() {
+  $(".subject-block").each(function() {$(this).show();});
+  filter_history.forEach(function(filt, idx) {
+    // Hide irrelevant subject blocks
+    $(".subject-block").each(function() {
+      if(! this.className.includes(filt.value)
+         && filt.value !== 'all') {
+        $(this).hide();
+      }
+    });
+
+    // Hide inapplicable options in selects of later history
+    if(filter_history.length > idx + 1) {
+      filter_history
+        .map(o => o.parentNode)
+        .slice(idx + 1)
+        .forEach(hideInapplicableOptions);
+    } 
+  });
+}
+
+function updateUnfilteredSelects() {
+  $("select").toArray()
+    .filter(sel => !filter_history.map(o => o.parentNode).includes(sel))
+    .forEach(hideInapplicableOptions);
+}
+
+function hideEmptyCourses() {
+  $(".course-title").each(function() {
+    $(this).show();
+    var len = $(this.parentNode).find(".subject-block:visible").length;
+    if (len == 0) {
+      $(this).hide();
+    }
+  });
+}
+
+function onFilter() {
+  updateFilterHistory();
+  hideIrrelevantBlocks();
+  updateUnfilteredSelects();
+  hideEmptyCourses();
 }
 
 $( "#select-topic" ).change(onFilter);

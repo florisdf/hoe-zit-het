@@ -11,7 +11,7 @@
 
   {{ range .Sections.ByTitle }}
   <div class="course-blocks course-{{ replace (.Title | lower) " " "-" }}">
-    <a class="link" href="{{ .URL }}"><h1 class="mid-gray dim pointer">{{ .Title }}</h1></a>
+    <a class="link course-title" href="{{ .URL }}"><h1 class="mid-gray dim pointer">{{ .Title }}</h1></a>
     <div class="course-empty-notice" style="display:none">
       (Geen resultaten voor de gekozen filter)
     </div>
