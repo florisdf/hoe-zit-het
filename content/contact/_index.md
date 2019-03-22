@@ -10,5 +10,5 @@ menu:
 
 Als je prangende vragen hebt over relevante of volstrekt irrelevante materie:
 aarzel niet om me te contacteren! Dat kan heel eenvoudig door een mailtje sturen naar
-[info@hoezithet.net](mailto:info@hoezithet.net). Ik beloof zo snel mogelijk te
+[info@hoezithet.nu](mailto:info@hoezithet.nu). Ik beloof zo snel mogelijk te
 antwoorden. :thumbsup: 
