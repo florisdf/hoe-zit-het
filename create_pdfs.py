@@ -17,7 +17,7 @@ args = parser.parse_args()
 LAZY = not args.force
 
 articles = list(Path('content/lessen').rglob('*/index.md'))
-urls = ['https://hoezithet.net/bare/' + '/'.join(f.parts[1:-1])
+urls = ['https://hoezithet.nu/bare/' + '/'.join(f.parts[1:-1])
         for f in articles]
 
 logging.info('Checking urls...')
