@@ -3,13 +3,10 @@
   class="w-100 w-30-l ma2 subject-block level-{{ replace .Params.level " " "-" | lower }} topic-{{ replace .Params.topic " " "-" | lower }} course-{{ replace .Parent.CurrentSection.Title " " "-" | lower }} ba br3" style="border-color: {{ $sect_color }}; overflow: hidden;">
 
 	<div
-  class="dim"
   style="background-color: {{ $sect_color }};"/>
-    <a class="link" href="{{ .URL }}">
-      <div class="f3 b pa2 near-white">
+    <div class="f3 b pa2 near-white">
       {{ .Title }}
-      </div>
-    </a>
+    </div>
 	</div>
   <div class="bg-light-gray gray tr pa1">
     {{ .Params.level }}
