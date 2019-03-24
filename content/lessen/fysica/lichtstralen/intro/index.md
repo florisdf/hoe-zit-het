@@ -5,5 +5,8 @@ weight: 1
 draft: true
 tags: []
 categories: []
+level: ""
+course: ""
+topic: ""
 ---
 

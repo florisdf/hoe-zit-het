@@ -1,7 +1,6 @@
 intro
-hoe_wij_zien
 voortplanting
-wat_wij_zien
+kleuren_spiegels_vensters
 beeldvorming
 lichtbronnen
 schaduwvorming
