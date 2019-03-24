@@ -1,6 +1,8 @@
-lichtbronnen
-camera_obscura
-beeldvorming
+intro
 hoe_wij_zien
+voortplanting
+wat_wij_zien
+beeldvorming
+lichtbronnen
 schaduwvorming
-elektromagnetische_stralen
+maanfasen_en_zonsverduistering
