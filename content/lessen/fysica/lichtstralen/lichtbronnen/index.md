@@ -12,3 +12,7 @@ topic: ""
 * Puntvormige + niet-puntvormige lichtbron
 * Natuurlijke + kunstmatige lichtbron
 * Donker lichaam
+
+{{% img "img/puntvormig_vs_niet.svg" %}}
+
+{{% img "img/natuurlijk_vs_niet.svg" %}}

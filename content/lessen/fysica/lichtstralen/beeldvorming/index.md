@@ -12,3 +12,5 @@ topic: ""
 * Van *wilde* lichtstralen naar een scherp beeld
 * Het oog
 * Camera obscura
+
+{{% img "img/oog.svg" %}}

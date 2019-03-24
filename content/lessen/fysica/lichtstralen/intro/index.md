@@ -10,3 +10,8 @@ course: ""
 topic: ""
 ---
 
+{{% img "img/em_stralen.svg" %}}
+
+{{% img "img/flying_dots.svg" %}}
+
+{{% img "img/light_rays.svg" %}}

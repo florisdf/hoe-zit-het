@@ -11,3 +11,7 @@ topic: ""
 ---
 * Bij een puntvormige lichtbron
 * Bij een niet-puntvormige lichtbron
+
+{{% img "img/puntvormige_lichtbron.svg" %}}
+
+{{% img "img/niet_puntvormige_lichtbron.svg" %}}
