@@ -1,4 +1,4 @@
-<ol>
+<ol class="tc" >
   {{ range .Pages.ByWeight }}
   <li
     style="color: {{ $.Params.section_color | default ($.Scratch.Get "stroke") | default $.Site.Params.default_stroke }};"

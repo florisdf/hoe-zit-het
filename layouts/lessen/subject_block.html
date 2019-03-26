@@ -12,6 +12,19 @@
     {{ .Params.level }}
   </div>
   <section class="center w-100 mw8">
-    {{ .Render "subject_lessen" }}
+    <ol>
+  {{ range .Pages.ByWeight }}
+  <li
+    style="color: {{ $.Params.section_color | default ($.Scratch.Get "stroke") | default $.Site.Params.default_stroke }};"
+    class="f4 dim">
+    <a href="{{ .URL }}"
+       style="color: inherit"
+       class="link">
+      {{ .Title }}
+    </a>
+  </li>
+  {{ end }}
+</ol>
+
   </section>
 </div>
