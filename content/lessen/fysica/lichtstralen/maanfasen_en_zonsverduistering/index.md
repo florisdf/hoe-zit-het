@@ -14,14 +14,14 @@ topic: ""
 * Zonsverduistering
 * De aarde, de zon en de maan op schaal
 
-{{% img "img/zonsverduistering.svg" %}}
+{{% svg "img/zonsverduistering.svg" %}}
 
-{{% img "img/maansverduistering.svg" %}}
+{{% svg "img/maansverduistering.svg" %}}
 
-{{% img "img/maanfasen_zijaanzicht.svg" %}}
+{{% svg "img/maanfasen_zijaanzicht.svg" %}}
 
-{{% img "img/maanfasen_bovenaanzicht.svg" %}}
+{{% svg "img/maanfasen_bovenaanzicht.svg" %}}
 
-{{% img "img/maanfasen_vanop_aarde.svg" %}}
+{{% svg "img/maanfasen_vanop_aarde.svg" %}}
 
-{{% img "img/op_schaal.svg" %}}
+{{% svg "img/op_schaal.svg" %}}

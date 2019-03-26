@@ -15,7 +15,7 @@
    viewBox="0 0 153.7413 122.64008"
    version="1.1"
    id="svg13550"
-   inkscape:version="0.92.4 (unknown)"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
    sodipodi:docname="maanfasen_bovenaanzicht.svg">
   <defs
      id="defs13544">
@@ -6273,15 +6273,15 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.98994949"
-     inkscape:cx="311.8256"
-     inkscape:cy="113.10985"
+     inkscape:zoom="3.959798"
+     inkscape:cx="225.61745"
+     inkscape:cy="323.16935"
      inkscape:document-units="mm"
-     inkscape:current-layer="g104290"
+     inkscape:current-layer="g9641-5-8-6-2"
      showgrid="false"
-     inkscape:window-width="1920"
-     inkscape:window-height="1055"
-     inkscape:window-x="1600"
+     inkscape:window-width="1680"
+     inkscape:window-height="999"
+     inkscape:window-x="0"
      inkscape:window-y="25"
      inkscape:window-maximized="1"
      units="pt"
@@ -6301,7 +6301,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -8325,12 +8325,12 @@
            inkscape:transform-center-y="-0.7171373"
            inkscape:transform-center-x="-5.6271869"
            sodipodi:open="true"
-           d="m -371.38019,-1615.6949 a 72.072845,72.072845 0 0 1 72.07285,72.0728 72.072845,72.072845 0 0 1 -72.07285,72.0729"
+           d="m -371.38019,-1607.8204 a 72.072845,72.072845 0 0 1 72.07285,72.0728 72.072845,72.072845 0 0 1 -72.07285,72.0729"
            sodipodi:end="1.5707963"
            sodipodi:start="4.712389"
            sodipodi:ry="72.072845"
            sodipodi:rx="72.072845"
-           sodipodi:cy="-1543.6221"
+           sodipodi:cy="-1535.7476"
            sodipodi:cx="-371.38019"
            sodipodi:type="arc"
            style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#000000;fill-opacity:0.89411765;fill-rule:nonzero;stroke:none;stroke-width:10.65078735;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"

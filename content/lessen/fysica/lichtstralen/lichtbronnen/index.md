@@ -13,6 +13,6 @@ topic: ""
 * Natuurlijke + kunstmatige lichtbron
 * Donker lichaam
 
-{{% img "img/puntvormig_vs_niet.svg" %}}
+{{% svg "img/puntvormig_vs_niet.svg" %}}
 
-{{% img "img/natuurlijk_vs_niet.svg" %}}
+{{% svg "img/natuurlijk_vs_niet.svg" %}}

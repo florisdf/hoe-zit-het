@@ -15,10 +15,10 @@ topic: ""
 * Diffuse + gerichte reflectie
 * Geabsorbeerde en gereflecteerde kleuren
 
-{{% img "img/white_light.svg" %}}
+{{% svg "img/white_light.svg" %}}
 
-{{% img "img/reflectie.svg" %}}
+{{% svg "img/reflectie.svg" %}}
 
-{{% img "img/absorptie.svg" %}}
+{{% svg "img/absorptie.svg" %}}
 
-{{% img "img/licht_doorlaten.svg" %}}
+{{% svg "img/licht_doorlaten.svg" %}}

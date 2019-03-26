@@ -13,4 +13,4 @@ topic: ""
 * Het oog
 * Camera obscura
 
-{{% img "img/oog.svg" %}}
+{{% svg "img/oog.svg" %}}

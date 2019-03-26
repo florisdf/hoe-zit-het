@@ -12,8 +12,8 @@ topic: ""
 * Rechtlijnige voortplanting in een homogene middenstof
 * Soorten lichtbundels
 
-{{% img "img/rechtlijnige_voortplanting.svg" %}}
+{{% svg "img/rechtlijnige_voortplanting.svg" %}}
 
-{{% img "img/niet_homogeen.svg" %}}
+{{% svg "img/niet_homogeen.svg" %}}
 
-{{% img "img/lichtbundels.svg" %}}
+{{% svg "img/lichtbundels.svg" %}}
