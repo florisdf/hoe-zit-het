@@ -13,9 +13,12 @@
 {{ $width_pattern := "(<svg[^>]*width=\")[^\"]*(\")"  }}
 {{ $width_subst := "$1 auto $2"  }}
 
+{{ $viewbox_pattern := "(<svg[^>]*)viewbox=\"[^\"]*\""  }}
+{{ $viewbox_subst := "$1"  }}
+
 {{ $old_text := (.old_text | default "default") }}
 {{ $text_pattern := (delimit (slice "(<tspan[^>]*>)" $old_text "(</tspan>)") "") }}
 {{ $new_text := (.new_text | default "") }}
 {{ $text_subst := (delimit (slice "$1" $new_text "$2") " ") }}
 
-{{ readFile $svg_file | replaceRE $color_pattern $color_subst | replaceRE $style_pattern $style_subst | replaceRE $height_pattern $height_subst | replaceRE $width_pattern $width_subst | replaceRE $text_pattern $new_text | safeHTML }}
+{{ readFile $svg_file | replaceRE $color_pattern $color_subst | replaceRE $style_pattern $style_subst | replaceRE $height_pattern $height_subst | replaceRE $width_pattern $width_subst | replaceRE $text_pattern $new_text | replaceRE $viewbox_pattern $viewbox_subst | safeHTML }}

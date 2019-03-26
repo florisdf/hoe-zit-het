@@ -1,0 +1,15 @@
+{{ $svg := $.Page.Resources.GetMatch (.Get 0)}}
+
+{{ $style_pattern := "<svg([^>]*)>" }}
+{{ $style_subst := "<svg$1 style=\"height: inherit; width: 100%\">"  }}
+
+{{ $height_pattern := "(<svg[^>]*height=\")[^\"]*(\")"  }}
+{{ $height_subst := "$1 auto $2"  }}
+
+{{ $width_pattern := "(<svg[^>]*width=\")[^\"]*(\")"  }}
+{{ $width_subst := "$1 auto $2"  }}
+
+{{ $viewbox_pattern := "(<svg[^>]*)viewbox=\"[^\"]*\""  }}
+{{ $viewbox_subst := "$1"  }}
+
+{{ readFile $svg.RelPermalink | replaceRE $style_pattern $style_subst | replaceRE $height_pattern $height_subst | replaceRE $width_pattern $width_subst | replaceRE $viewbox_pattern $viewbox_subst | safeHTML }}
