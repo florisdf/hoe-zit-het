@@ -19,6 +19,10 @@
     </div>
     {{ partial "footer/site-footer.html" . }}
   </div>
+  <script>
+  $(".expand div i").each(function() { $(this).toggleClass('down'); });
+  $(".expand div").each(function() {$(this).show()});
+  </script>
 {{ end }}
 {{ define "footer" }}
 <div></div>
