@@ -1,7 +1,7 @@
 intro
+lichtbronnen
 voortplanting
 kleuren_spiegels_vensters
 beeldvorming
-lichtbronnen
 schaduwvorming
 maanfasen_en_zonsverduistering
