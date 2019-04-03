@@ -1,7 +1,7 @@
 ---
 title: "Kleuren, spiegels en vensters"
 date: 2019-01-28T18:36:58+01:00
-weight: 4
+weight: 6
 draft: false
 tags: []
 categories: []
@@ -72,6 +72,8 @@ kleuren worden geabsorbeerd.**
 Een sinaasappel absorbeert vooral de paarse, blauwe, groene,... kleuren van wit
 licht en reflecteert voornamelijk de oranje kleuren. Er komen dan oranje
 lichtstralen van de sinaasappel waardoor die oranje lijkt te zijn.
+
+{{% svg "img/orange.svg" %}}
 
 ## Licht doorlaten
 Tenslotte kan een voorwerp ook licht doorlaten. Het meest

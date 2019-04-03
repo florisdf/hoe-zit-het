@@ -1,7 +1,7 @@
 ---
 title: "Beeldvorming"
 date: 2019-01-29T08:59:42+01:00
-weight: 5
+weight: 7
 draft: true
 tags: []
 categories: []
