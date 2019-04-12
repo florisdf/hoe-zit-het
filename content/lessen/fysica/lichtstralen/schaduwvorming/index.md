@@ -58,3 +58,21 @@ De bijschaduw zorgt voor een **zachte overgang van licht naar schaduw**. Fotogra
 ## De schaduw tekenen van een diffuse lichtbron
 
 {{% svg "img/niet_puntvormige_lichtbron.svg" %}}
+
+{{% expand "Uitbreiding: grootte van de bijschaduw" %}}
+Bij een diffuse lichtbron is er **altijd een bijschaduw**. Hoe groot die bijschaduw is hangt van drie dingen af:
+
+1. Hoe groter de lichtbron is t.o.v. het voorwerp, des te groter de bijschaduw;
+2. Hoe kleiner de afstand is tussen de lichtbron en het voorwerp, des te groter de bijschaduw;
+3. Hoe groter afstand is tussen het belichte voorwerp en zijn schaduw, des te groter de bijschaduw.
+
+Eenzelfde diffuse lichtbron kan dus in verschillende situaties andere groottes van bijschaduwen opleveren.
+
+(illustratie)
+
+{{% /expand %}}
+
+{{% expand "Uitbreiding: hard zonlicht" %}}
+De zon is een diffuse lichtbron en zou dus *zachte* schaduwen moeten geven. Toch vermijden fotografen direct zonlicht omdat het juist *harde*, onflatterende schaduwen geeft in een gezicht. Die harde schaduwen komen er omdat de bijschaduw verkleint wanneer de afstand tussen de schaduw en het voorwerp verkleint. Wanneer de schaduw van een neus valt op de wang van het gezicht, is er amper een bijschaduw omdat de afstand tussen de neus en de wang heel klein is. De afstand tussen de maan en de aarde is echter heel groot waardoor er bij een zonsverduistering wel een grote bijschaduw is.
+(illustratie)
+{{% /expand %}}
