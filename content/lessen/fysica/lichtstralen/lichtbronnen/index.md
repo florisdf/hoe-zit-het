@@ -25,40 +25,30 @@ brandende gloeilamp en de zon.
 
 ## Puntvormige en diffuse lichtbronnen
 Qua lichtbronnen kunnen we onderscheid maken tussen een *puntvormige* en een
-*diffuse* lichtbron.
-
-Een puntvormige lichtbron zendt **lichtstralen uit die elkaar snijden in
-hetzelfde punt**, namelijk de puntvormige lichtbron zelf.
+*diffuse* lichtbron. Een puntvormige lichtbron is een **kleine lichtbron** en
+zendt **lichtstralen uit die elkaar snijden in hetzelfde punt**, namelijk de
+puntvormige lichtbron zelf.
 
 {{% svg "img/puntvormig.svg" %}}
 
-Een diffuse lichtbron is een verzameling van heel veel puntvormige
-lichtbronnen. De uitgezonden **lichtstralen snijden elkaar *niet* allemaal in
-hetzelfde punt**.
+Een **diffuse lichtbron zendt lichtstralen in willekeurige richtingen** uit en
+heeft typisch een vrij **grote vorm**. Het is
+eigenlijk een verzameling van heel veel puntvormige lichtbronnen.
 
 {{% svg "img/diffuus.svg" %}}
-
-Of we een lichtbron gaan beschouwen als puntvormig of diffuus, zal vooral
-afhangen van hoe groot de lichtbron is ten opzichte van het belichte voorwerp.
-Wanneer een lichtbron **klein** is ten opzichte van het belichte voorwerp,
-beschouwen we de lichtbron als **puntvormig**. Wanneer een lichtbron **groot**
-is ten opzichte van het belichte voorwerp, beschouwen we de lichtbron als
-**diffuus**.
 
 {{% expand "De flitsende fotograaf" %}}
 
 Fotografen moeten voortdurend nadenken over de lichtbron die ze gebruiken. Een
-puntvormige lichtbron
-{{% mute "(zoals de flitser op een fototoestel)" %}}
-zorgt namelijk voor schaduwen met heel scherpe randen, wat geen mooie
-foto oplevert.
+puntvormige lichtbron {{% mute "(zoals de flitser op een fototoestel)" %}} zorgt
+namelijk voor schaduwen met heel scherpe randen, wat geen mooie foto oplevert.
 
 (foto met kleine en grote lichtbron)
 
 Meestal willen fotografen de lichtbron dan ook **zo groot mogelijk krijgen**.
 In een fotostudio doen ze dat door hun flits door een **doorschijnende
 paraplu** te laten gaan. Een andere mogelijkheid is om een *diffuser* op de
-flits te klikken.
+flits te klikken of met behulp van een **softbox**.
 
 (foto van diffusers)
 {{% /expand %}}
