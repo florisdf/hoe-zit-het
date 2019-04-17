@@ -21,7 +21,7 @@ Wanneer een [ondoorschijnend](../kleuren_spiegels_vensters#licht-doorlaten)
 voorwerp wordt belicht, zijn er altijd plekken achter
 het voorwerp waar **weinig of geen lichtstralen geraken**. Die gebieden lijken donkerder en we noemen die gebieden de **schaduw** van het voorwerp.
 
-(illustratie)
+{{% svg "img/schaduw_intro.svg" %}}
 
 ## Puntlichtbron: harde schaduw
 Bij een [puntlichtbron](../lichtbronnen#puntvormige-en-diffuse-lichtbronnen)
@@ -29,13 +29,19 @@ snijden de uitgezonden stralen elkaar allemaal in hetzelfde punt, namelijk de pu
 dat de uitgezonden stralen verder en verder uit elkaar gaan naarmate ze verder
 van de lichtbron verwijderd zijn.
 
-(illustratie)
+{{% svg "img/puntvormig_stralen_uit_elkaar.svg" %}}
 
 Een schaduw is een plek waar weinig of geen lichtstralen geraken. Om te weten hoe de schaduw bij een puntlichtbron eruit ziet, kijken we welke lichtstralen wel en niet achter een belicht voorwerp geraken.
 
-(illustratie waarbij telkens een andere lichtstraal geaccentueerd is)
+{{% svg "img/puntbron_straal_schaduwen.svg" %}}
 
-Je ziet dat in gebied A 3 van de 10 lichtstralen geraken. In gebied B geraken ook 3 van de 10 lichtstralen. Gebieden A en B zijn dus even fel belicht. In gebied C geraken 0 van de 10 lichtstralen. Daar zal een volledig zwarte schaduw zijn.
+Je ziet dat er in {{% class "gebied A" "dark-green" %}} drie lichtstralen
+geraken. In {{% class "gebied B" "dark-green" %}} geraken
+ook drie lichtstralen. Gebieden {{% class "A en B" "dark-green" %}} zijn dus even fel belicht. In
+{{% class "gebied C" "dark-red" %}} geraken **geen lichtstralen**. Daar zal
+een volledig **zwarte schaduw** zijn.
+
+{{% svg "img/puntbron_straal_schaduwen_resultaat.svg" %}}
 
 Overal op de muur geraken evenveel lichtstralen, behalve in het schaduw-gebied (gebied C). Daar geraakt geen enkele lichtstraal. Aan de rand van de schaduw is er dus een **abrupte overgang van een gelijkmatige belichting naar helemaal geen belichting**. Daarom zie je een **scherpe rand aan de schaduw**. Fotografen noemen dit vaak een *harde* schaduw.
 
