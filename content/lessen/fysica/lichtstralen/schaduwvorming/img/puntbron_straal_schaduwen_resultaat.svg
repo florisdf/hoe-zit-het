@@ -8,6 +8,7 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="435.80212pt"
@@ -20,6 +21,18 @@
   <defs
      id="defs13544">
     <linearGradient
+       inkscape:collect="always"
+       id="linearGradient29040">
+      <stop
+         id="stop29038"
+         offset="0"
+         style="stop-color:#ffb700;stop-opacity:1" />
+      <stop
+         id="stop29036"
+         offset="1"
+         style="stop-color:#000000;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient
        osb:paint="gradient"
        id="linearGradient18201">
       <stop
@@ -31,6 +44,15 @@
          offset="1"
          style="stop-color:#cc0000;stop-opacity:0;" />
     </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient29040"
+       id="linearGradient29042"
+       x1="38.85194"
+       y1="205.62967"
+       x2="40.696087"
+       y2="205.62967"
+       gradientUnits="userSpaceOnUse" />
   </defs>
   <sodipodi:namedview
      id="base"
@@ -40,7 +62,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="2"
-     inkscape:cx="265.45406"
+     inkscape:cx="373.45406"
      inkscape:cy="190.78892"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
@@ -52,7 +74,7 @@
      inkscape:window-maximized="1"
      units="pt"
      inkscape:snap-page="true"
-     inkscape:snap-global="false"
+     inkscape:snap-global="true"
      inkscape:object-paths="true"
      inkscape:snap-bbox="true"
      inkscape:bbox-paths="true"
@@ -70,7 +92,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -79,6 +101,11 @@
      inkscape:groupmode="layer"
      id="layer1"
      transform="translate(-8.6213531,-182.93576)">
+    <path
+       style="fill:#000000;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;opacity:0.25"
+       d="m 106.35299,212.25925 9.92991,-1.66006 v 13.88929 l -9.92991,-1.66106 z"
+       id="path29046"
+       inkscape:connector-curvature="0" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:1.25;font-family:Quicksand;-inkscape-font-specification:Quicksand;text-align:end;letter-spacing:0px;word-spacing:0px;text-anchor:end;fill:#d3d3d3;fill-opacity:1;stroke:none;stroke-width:0.26458332"
@@ -942,7 +969,7 @@
          cy="205.62967"
          cx="38.732952"
          id="path41461-6"
-         style="opacity:1;fill:#555555;fill-opacity:1;stroke:none;stroke-width:0.12272278;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill" />
+         style="opacity:1;fill:url(#linearGradient29042);fill-opacity:1;stroke:none;stroke-width:0.12272278;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill" />
       <g
          id="use41489-7-9"
          inkscape:transform-center-x="-0.002762494"

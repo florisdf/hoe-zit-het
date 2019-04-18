@@ -14,55 +14,86 @@ lichtbronnen*. Dat doen ze omdat deze lichtbronnen de schaduwen *verzachten*.
 In deze les bespreken we waarom een **puntlichtbron zorgt voor een harde
 schaduw** en een **diffuse lichtbron zorgt voor een zachte schaduw**.
 
-(vb van harde en zachte schaduwen bij portretten)
-
 ## Wat is een schaduw?
 Wanneer een [ondoorschijnend](../kleuren_spiegels_vensters#licht-doorlaten)
 voorwerp wordt belicht, zijn er altijd plekken achter
-het voorwerp waar **weinig of geen lichtstralen geraken**. Die gebieden lijken donkerder en we noemen die gebieden de **schaduw** van het voorwerp.
+het voorwerp waar **weinig of geen lichtstralen geraken**. Die gebieden lijken
+donkerder en we noemen die gebieden de **schaduw** van het voorwerp.
 
 {{% svg "img/schaduw_intro.svg" %}}
 
 ## Puntlichtbron: harde schaduw
-Bij een [puntlichtbron](../lichtbronnen#puntvormige-en-diffuse-lichtbronnen)
-snijden de uitgezonden stralen elkaar allemaal in hetzelfde punt, namelijk de puntlichtbron zelf. Dat betekent
-dat de uitgezonden stralen verder en verder uit elkaar gaan naarmate ze verder
-van de lichtbron verwijderd zijn.
-
-{{% svg "img/puntvormig_stralen_uit_elkaar.svg" %}}
-
-Een schaduw is een plek waar weinig of geen lichtstralen geraken. Om te weten hoe de schaduw bij een puntlichtbron eruit ziet, kijken we welke lichtstralen wel en niet achter een belicht voorwerp geraken.
+Om te weten hoe de schaduw bij een
+[puntlichtbron](../lichtbronnen#puntvormige-en-diffuse-lichtbronnen) eruit
+ziet, kijken we op welke plekken wel en geen lichtstralen geraken.
 
 {{% svg "img/puntbron_straal_schaduwen.svg" %}}
 
 Je ziet dat er in {{% class "gebied A" "dark-green" %}} evenveel lichtstralen
 geraken als in {{% class "gebied B" "dark-green" %}}. Gebieden {{% class "A en B" "dark-green" %}} zijn dus even fel belicht. In
-{{% class "gebied C" "dark-red" %}} geraken **geen lichtstralen**. Daar zal
-een volledig **zwarte schaduw** zijn.
+{{% class "gebied C" "dark-red" %}} geraken **geen lichtstralen**.
+{{% class "Gebied C" "dark-red" %}} wordt dus minder belicht dan gebieden
+{{% class "A en B" "dark-green" %}}. {{% class "Gebied C" "dark-red" %}} zal
+daarom **donkerder** zijn dan gebieden
+{{% class "A en B" "dark-green" %}}. We zien in {{% class "gebied C" "dark-red" %}}
+een **schaduw**.
 
 {{% svg "img/puntbron_straal_schaduwen_resultaat.svg" %}}
 
-Overal op de muur geraken evenveel lichtstralen, behalve in het schaduw-gebied (gebied C). Daar geraakt geen enkele lichtstraal. Aan de rand van de schaduw is er dus een **abrupte overgang van een gelijkmatige belichting naar helemaal geen belichting**. Daarom zie je een **scherpe rand aan de schaduw**. Fotografen noemen dit vaak een *harde* schaduw.
+Net buiten gebied C geraken er evenveel lichtstralen als ver buiten gebied C.
+Net binnen gebied C geraakt *geen enkele* lichtstraal meer. Aan de rand van de
+schaduw is er dus een **abrupte overgang van een gelijkmatige belichting naar
+helemaal geen belichting**. Daarom zie je een **scherpe rand aan de schaduw**.
+Fotografen noemen dit een *harde* schaduw.
 
 ## De schaduw tekenen van een puntlichtbron
+Om de schaduw te tekenen van ondoorzichtige bol die verlicht wordt door een
+puntlichtbron, moet je maar twee lijntjes tekenen. De **eerste lijn** verbindt de
+puntbron met de **bovenkant van de bol** , de **tweede lijn** verbindt de puntbron met
+de **onderkant van de bol**. Alle lichtstralen tussen die twee lijnen botsen
+tegen de bol en kunnen het scherm erachter onmogelijk verlichten. **Het gebied
+tussen de twee lijnen is dus schaduw**.
+
 {{% svg "img/puntvormige_lichtbron.svg" %}}
 
 ## Diffuse lichtbron: zachte schaduw
-De stralen die van een diffuse lichtbron komen, gaan in allerlei richtingen en snijden elkaar **niet** in één punt. Een diffuse lichtbron bestaat eigenlijk uit allerlei kleine puntbronnen.
+Om te weten hoe de schaduw er bij een
+[diffuse lichtbron](../lichtbronnen#puntvormige-en-diffuse-lichtbronnen)
+uit ziet, kijken we op welke plekken er wel of geen lichtstralen geraken.
+Omdat een diffuse lichtbron eigenlijk bestaat uit allemaal
+kleine puntlichtbronnen, bekijken we de schaduw van enkele van die
+puntlichtbronnen apart.
+{{% mute "Om de illustratie eenvoudig te houden, beperken we ons tot een bolvormige diffuse lichtbron." %}}
 
-(illustratie)
+{{% svg "img/diffuse_bron_straal_schaduwen.svg" %}}
 
-Een schaduw is een plek waar weinig of geen lichtstralen geraken. Om te weten hoe de schaduw bij een diffuse lichtbron eruit ziet, kijken we welke lichtstralen wel en niet achter een belicht voorwerp geraken. Omdat een diffuse lichtbron eigenlijk bestaat uit allemaal kleine puntlichtbronnen, bekijken we de schaduw van enkele van die puntlichtbronnen apart.
+We zien dat alle puntlichtbronnen in gebieden 1 en 5 geraken. **Gebieden 1 en 5
+worden dus goed belicht**.
+Slechts één puntbron geraakt tot gebied 2
+en slechts één puntbron geraakt tot gebied 4.
+Gebieden 2 en 4 worden dus minder belicht. Er valt daarom in **gebieden 2 en 4
+een bijschaduw**. Er is geen enkele puntbron die tot in gebied 3 geraakt.
+**Gebied 3** blijft dus onbelicht en bevat een donkere schaduw, **de kernschaduw**.
 
-(illustratie waarbij telkens een andere puntlichtbron geaccentueerd is)
+{{% svg "img/diffuse_bron_straal_schaduwen_resultaat.svg" %}}
 
-0 van de 10 puntlichtbronnen geraken tot gebied C, daar is er dus een volledig zwarte schaduw. 10 van de 10 lichtbronnen geraken in gebied A. Dat gebied zal dus gelijkmatig belicht worden door alle lichtbronnen. 5 puntlichtbronnen geraken tot gebied B en 5 niet. Dat gebied wordt dus deels wel en deels niet belicht. Het zal dus lichter zijn dan gebied C maar donkerder dan gebied A. De lichte schaduw (gebied B) noemen we de **bijschaduw** en de donkere schaduw (gebied C) noemen we de **kernschaduw**.
-
-De bijschaduw zorgt voor een **zachte overgang van licht naar schaduw**. Fotografen verkiezen vaak deze **zachte schaduwen** omdat ze bij portretten veel flatterender zijn.
+De bijschaduw zorgt voor een **zachte overgang van licht naar schaduw**.
+Fotografen verkiezen vaak deze **zachte schaduwen** omdat ze bij portretten
+veel meer flatterend zijn.
 
 ## De schaduw tekenen van een diffuse lichtbron
+Om de kernschaduw en de bijschaduw te tekenen van een ondoorzichtige bol
+wanneer deze belicht wordt door een {{% mute "bolvormige" %}} diffuse
+lichtbron, heb je vier lijntjes nodig. De eerste twee lijnen vertrekken vanuit
+de **bovenkant van de lichtbron** {{% mute "(groen op de figuur)" %}}, de andere
+twee vanuit de **onderkant van de lichtbron** {{% mute "(blauw op de figuur)" %}}.
+Van de twee lijnen gaat er telkens één langs de bovenkant van de
+ondoorschijnende bol en één langs de onderkant.
 
 {{% svg "img/niet_puntvormige_lichtbron.svg" %}}
+
+Achter de ondoorschijnende bol krijgen we nu drie schaduwgebieden. Het **middelste
+gebied is de kernschaduw**. De twee gebieden eromheen vormen de **bijschaduw**.
 
 {{% expand "Uitbreiding: grootte van de bijschaduw" %}}
 Bij een diffuse lichtbron is er **altijd een bijschaduw**. Hoe groot die bijschaduw is hangt van drie dingen af:
@@ -71,13 +102,17 @@ Bij een diffuse lichtbron is er **altijd een bijschaduw**. Hoe groot die bijscha
 2. Hoe kleiner de afstand is tussen de lichtbron en het voorwerp, des te groter de bijschaduw;
 3. Hoe groter afstand is tussen het belichte voorwerp en zijn schaduw, des te groter de bijschaduw.
 
-Eenzelfde diffuse lichtbron kan dus in verschillende situaties andere groottes van bijschaduwen opleveren.
-
-(illustratie)
-
+Eenzelfde diffuse lichtbron kan dus in verschillende situaties andere groottes
+van bijschaduwen opleveren.
 {{% /expand %}}
 
 {{% expand "Uitbreiding: hard zonlicht" %}}
-De zon is een diffuse lichtbron en zou dus *zachte* schaduwen moeten geven. Toch vermijden fotografen direct zonlicht omdat het juist *harde*, onflatterende schaduwen geeft in een gezicht. Die harde schaduwen komen er omdat de bijschaduw verkleint wanneer de afstand tussen de schaduw en het voorwerp verkleint. Wanneer de schaduw van een neus valt op de wang van het gezicht, is er amper een bijschaduw omdat de afstand tussen de neus en de wang heel klein is. De afstand tussen de maan en de aarde is echter heel groot waardoor er bij een zonsverduistering wel een grote bijschaduw is.
-(illustratie)
+De zon is een diffuse lichtbron en zou dus *zachte* schaduwen moeten geven.
+Toch vermijden fotografen direct zonlicht omdat het juist *harde*,
+onflatterende schaduwen geeft in een gezicht. Die harde schaduwen komen er
+omdat de bijschaduw verkleint wanneer de afstand tussen de schaduw en het
+voorwerp verkleint. Wanneer de schaduw van een neus valt op de wang van het
+gezicht, is er amper een bijschaduw omdat de afstand tussen de neus en de wang
+heel klein is. De afstand tussen de maan en de aarde, daarentegen, is heel groot
+waardoor er bij een zonsverduistering wel een grote bijschaduw is.
 {{% /expand %}}
