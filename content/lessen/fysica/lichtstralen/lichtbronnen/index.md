@@ -2,7 +2,7 @@
 title: "Lichtbronnen"
 date: 2019-01-28T18:38:03+01:00
 weight: 3
-draft: true
+draft: false
 tags: []
 categories: []
 level: ""
@@ -43,12 +43,12 @@ Fotografen moeten voortdurend nadenken over de lichtbron die ze gebruiken. Een
 puntvormige lichtbron {{% mute "(zoals de flitser op een fototoestel)" %}} zorgt
 namelijk voor schaduwen met heel scherpe randen, wat geen mooie foto oplevert.
 
-(foto met kleine en grote lichtbron)
+{{% img "img/soft_vs_hard_light.png" "Harde vs zachte schaduwen" "Harde schaduwen (links) en zachte schaduwen (rechts)." %}}
 
 Meestal willen fotografen de lichtbron dan ook **zo groot mogelijk krijgen**.
 In een fotostudio doen ze dat door hun flits door een **doorschijnende
 paraplu** te laten gaan. Een andere mogelijkheid is om een *diffuser* op de
 flits te klikken of met behulp van een **softbox**.
 
-(foto van diffusers)
+{{% img "img/softbox.jpg" "softbox" "Een softbox." %}}
 {{% /expand %}}

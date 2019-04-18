@@ -1,5 +1,5 @@
 {{ $img := $.Page.Resources.GetMatch (.Get 0)}}
 <figure class="mh0 mh6-l mv4">
   <img src="{{ $img.RelPermalink }}" alt="{{.Get 1}}" />
-  <figcaption>{{.Get 2}}</figcaption>
+  <figcaption class="mid-gray f5 tc">{{.Get 2}}</figcaption>
 </figure>
