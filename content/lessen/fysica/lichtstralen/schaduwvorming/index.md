@@ -2,7 +2,7 @@
 title: "Schaduwvorming"
 date: 2019-01-28T18:38:31+01:00
 weight: 4
-draft: true
+draft: false
 tags: []
 categories: []
 level: ""
