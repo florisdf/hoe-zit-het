@@ -35,9 +35,8 @@ Een schaduw is een plek waar weinig of geen lichtstralen geraken. Om te weten ho
 
 {{% svg "img/puntbron_straal_schaduwen.svg" %}}
 
-Je ziet dat er in {{% class "gebied A" "dark-green" %}} drie lichtstralen
-geraken. In {{% class "gebied B" "dark-green" %}} geraken
-ook drie lichtstralen. Gebieden {{% class "A en B" "dark-green" %}} zijn dus even fel belicht. In
+Je ziet dat er in {{% class "gebied A" "dark-green" %}} evenveel lichtstralen
+geraken als in {{% class "gebied B" "dark-green" %}}. Gebieden {{% class "A en B" "dark-green" %}} zijn dus even fel belicht. In
 {{% class "gebied C" "dark-red" %}} geraken **geen lichtstralen**. Daar zal
 een volledig **zwarte schaduw** zijn.
 
