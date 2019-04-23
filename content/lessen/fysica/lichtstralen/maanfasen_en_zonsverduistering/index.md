@@ -2,7 +2,7 @@
 title: "Maanfasen en zonsverduistering"
 date: 2019-01-28T18:38:31+01:00
 weight: 5
-draft: true
+draft: false
 tags: []
 categories: []
 level: ""
@@ -86,27 +86,54 @@ In "bovenaanzicht" ziet de situatie er als volgt uit.
 {{% svg "img/maanfasen_bovenaanzicht.svg" %}}
 
 ## Maansverduistering
-De maan draait rond de aarde in een hellend vlak dat een hoek maakt van ongeveer 5° met het vlak waarin de aarde rond de zon draait.
+De maan draait rond de aarde in een hellend vlak dat een hoek maakt van
+ongeveer 5° met het vlak waarin de aarde rond de zon draait (het *ecliptisch
+vlak*).
 
-(illustratie)
+{{% svg "img/ecliptisch_vlak.svg" %}}
 
-Telkens de maan door het vlak gaat waarin de aarde rond de zon draait, kunnen de zon, de aarde en de maan op één lijn komen te staan.
+Enkel wanneer de maan **door het ecliptisch vlak beweegt**, kunnen de zon, de aarde
+en de maan op één lijn komen te staan. Dat gebeurt slechts twee keer per maand
+(zie figuur).
 
-(illustratie)
+{{% svg "img/lunar_node_eclipses.svg" %}}
 
-Wanneer **de maan tussen de aarde en de zon staat**, krijgen we een **zonsverduistering** (zie [hierboven](#zonsverduistering)). Wanneer **de aarde tussen de maan en de zon staat**, krijgen we een **maansverduistering**.
+Wanneer de maan door het ecliptisch vlak gaat en de zon toevallig in dezelfde
+lijn als de maan en de aarde staat, kan er een zonsverduistering of een
+maansverduistering gebeuren. Een **zonsverduistering** (zie
+[hierboven](#zonsverduistering)) gebeurt als **de maan tussen de aarde en de
+zon staat**. Een **maansverduistering**, daarentegen, krijgen we als **de aarde
+tussen de maan en de zon staat** op het moment dat de maan door het ecliptisch
+vlak beweegt.
 
 {{% svg "img/maansverduistering.svg" %}}
 
 ## De aarde, de zon en de maan op schaal
 Sterren, planeten en manen **staan enorm ver van elkaar**, zelfs binnen
-eenzelfde zonnestelsel. Ook zijn er **immense verschillen in grootte**.
+eenzelfde zonnestelsel. Ook zijn er **immense verschillen in hoe groot**
+verschillende hemellichamen zijn.
 Illustraties met meerdere hemellichamen zullen
-daarom bijna nooit op ware schaal getekend worden.
+daarom bijna nooit op ware schaal getekend {{% mute "(kunnen)" %}} worden.
 
 Dat is ook het geval bij alle bovenstaande illustraties met de zon, de aarde en
 de maan. Om je toch een idee te geven van de enorme afstanden tussen deze
-hemellichamen, heb ik hieronder de aarde, de maan en de zon eens op ware schaal
-getekend. 
+hemellichamen, heb ik hieronder de aarde en de maan eens op ware schaal
+getekend. In werkelijkheid is **de afstand van de aarde tot de maan ongeveer
+$380{\ }000\si{ km}$**. De aarde heeft een diameter van
+$12{\ }756 \si { km}$ en de maan van $3476\si{ km}$.
+
+{{% svg "img/aarde_maan_op_schaal.svg" %}}
+
+De **afstand tussen de aarde en de zon is ongeveer $149{\ }600{\ }000 \si{ km}$**
+en is dus nog veel groter dan de afstand tussen
+de aarde en de maan. Ook is het verschil in grootte enorm: de zon heeft een
+diameter van $1{\ }393{\ }000 \si{ km}$. 
 
 {{% svg "img/op_schaal.svg" %}}
+
+Om je een duidelijker idee te geven van hoe groot de
+aarde, zon en maan zijn ten opzicht van elkaar nog één laatste figuur. Hierop
+zijn de hemellichamen vlak naast elkaar gezet en zijn enkel de groottes van de
+hemellichamen op schaal getekend.
+
+{{% svg "img/op_schaal_enkel_groottes.svg" %}}
