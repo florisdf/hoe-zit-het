@@ -11,11 +11,11 @@ topic: ""
 ---
 Wanneer wit licht [invalt op een sinaasappel](../kleuren_spiegels_vensters#reflectie-absorptie) gaan de gereflecteerde lichtstralen alle kanten op. Omdat die oranje lichtstralen zo kriskras door elkaar gaan, lijkt het onmogelijk om van elke lichtstraal te weten waar ze vandaan kwam.
 
-(illustratie)
+{{% svg "img/orange.svg" %}}
 
 Gelukkig is dat wel mogelijk, anders konden onze ogen nooit werken. **Beeldvorming** is het **samenbrengen van lichtstralen die vanuit dezelfde plaats vertrokken zijn**. Als we een **scherm** plaatsen op het punt waar de lichtstralen zijn samengebracht, zien we op dat scherm een **afbeelding** van het voorwerp {{% mute "(bv. de sinaasappel)" %}}.
 
-(illustratie)
+{{% svg "img/orange_beeldvorming.svg" %}}
 
 De lens van het menselijk oog, bijvoorbeeld, zorgt ervoor dat lichtstralen die vanuit dezelfde plaats vertrokken zijn, worden samengebracht op het netvlies. Zoals je ziet, wordt het beeld omgekeerd gevormd op het netvlies, maar daar hoef je je momenteel geen zorgen over te maken.
 
