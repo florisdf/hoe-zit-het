@@ -93,17 +93,15 @@ vlak*).
 {{% svg "img/ecliptisch_vlak.svg" %}}
 
 Enkel wanneer de maan **door het ecliptisch vlak beweegt**, kunnen de zon, de aarde
-en de maan op één lijn komen te staan. Dat gebeurt slechts twee keer per maand
-(zie figuur).
+en de maan op één lijn komen te staan. Dat gebeurt slechts twee keer per maand, zoals getoond op deze figuur:
 
 {{% svg "img/lunar_node_eclipses.svg" %}}
 
 Wanneer de maan door het ecliptisch vlak gaat en de zon toevallig in dezelfde
 lijn als de maan en de aarde staat, kan er een zonsverduistering of een
-maansverduistering gebeuren. Een **zonsverduistering** (zie
-[hierboven](#zonsverduistering)) gebeurt als **de maan tussen de aarde en de
-zon staat**. Een **maansverduistering**, daarentegen, krijgen we als **de aarde
-tussen de maan en de zon staat** op het moment dat de maan door het ecliptisch
+maansverduistering gebeuren. Een **zonsverduistering** ([daarnet](#zonsverduistering) besproken) gebeurt als **de maan tussen de aarde en de
+zon staat** {{% mute "(tijdens een nieuwe maan dus)" %}}. Een **maansverduistering**, daarentegen, kan enkel als **de aarde
+tussen de maan en de zon staat** {{% mute "(volle maan)" %}} op het moment dat de maan door het ecliptisch
 vlak beweegt.
 
 {{% svg "img/maansverduistering.svg" %}}
