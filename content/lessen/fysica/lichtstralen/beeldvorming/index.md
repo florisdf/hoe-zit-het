@@ -56,20 +56,18 @@ Lichtstralen die evenwijdig blijven, tenslotte, vormen een **evenwijdige lichtbu
 {{% svg "img/evenwijdig.svg" %}}
 
 ## Camera obscura
-De camera obscura {{% mute "(Latijn voor \"donkere kamer\")" %}} is een van de
+De camera obscura {{% mute "(Latijn voor \"donkere kamer\")" %}} was een van de
 eerste apparaten waarmee beeldvorming kon worden gedaan. In haar meest
 eenvoudige vorm bestaat ze uit een donkere ruimte met in één van de
 wanden een klein gaatje naar de {{% mute "(verlichte)" %}}
 buitenwereld.
 
-(illustratie)
+{{% svg "img/camera_obscura.svg" %}}
 
 Het gaatje is zodanig klein dat de lichtstralen die vanuit dezelfde plaats
 vertrokken zijn en door het gaatje gaan, niet zo veel uit elkaar zijn gegaan
 wanneer ze op de overstaande wand botsen. Hierdoor **verschijnt er op de wand
 tegenover het gaatje een vrij scherp beeld**.
-
-(illustratie)
 
 Omdat lichtstralen zich {{% mute "door een homogene middenstof" %}}
 [rechtlijnig voortplanten](../voortplanting#lichtstralen-gaan-in-een-rechte-lijn) en
@@ -81,7 +79,7 @@ overstaande wand geraken en mee het beeld vormen. Daardoor is het beeld heel
 **flets**. We zouden dat kunnen tegengaan door het **gaatje te vergroten**,
 maar dan zal het **beeld onscherp worden**.
 
-(illustratie)
+{{% svg "img/camera_obscura_large_aperture.svg" %}}
 
 De oplossing hiervoor is om het beeld **scherp te stellen met behulp van
 lenzen**. Hoe lenzen hiervoor kunnen zorgen, zien we in de lessen over
