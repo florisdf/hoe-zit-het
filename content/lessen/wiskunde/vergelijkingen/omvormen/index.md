@@ -53,7 +53,7 @@ We zagen hierboven hoe we een vergelijking kunnen omvormen naar nieuwe vergelijk
 
 $$x= \text{(een getal)}$$
 
-Waar er in het linkerlid gewoon een $x$ staat en in het rechterlid gewoon een getal. Als we de oorspronkelijke vergelijking naar die vorm kunnen omvormen, weten we waar $x$ aan gelijk moet zijn en is de vergelijking opgelost.
+waar er in het linkerlid gewoon een $x$ staat en in het rechterlid gewoon een getal. Als we de oorspronkelijke vergelijking naar die vorm kunnen omvormen, weten we waar $x$ aan gelijk moet zijn en is de vergelijking opgelost.
 
 Stel dat we de volgende vergelijking willen oplossen.
 $$2x - 6 = 8 - x$$
@@ -90,7 +90,7 @@ Daar komt het oplossen van vergelijkingen op neer: de vergelijking stap per stap
 
 ## Samengevat
 {{% attention "Omvormen" %}}
-Door op het linker- en rechterlid van een vergelijking **dezelfde bewerking** uit te voeren, **vormen we een vergelijking om**.
+Door op het linker- en rechterlid van een vergelijking **dezelfde bewerking** uit te voeren, **vormen we een vergelijking om** naar een nieuwe vergelijking die even juist is als de oorspronkelijke vergelijking.
 {{% /attention %}}
 
 {{% attention "Oplossen door om te vormen" %}}

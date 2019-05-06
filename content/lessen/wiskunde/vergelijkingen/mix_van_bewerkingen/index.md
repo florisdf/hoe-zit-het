@@ -32,3 +32,10 @@ oplossingsmethoden kunnen als volgt worden samengevat:
 
 In deze les zullen we zien wat er gebeurt als we een combinatie hebben van
 de bovenstaande vormen.
+
+## We gaan rustig blijven
+Een combinatie van bovenstaande vormen van vergelijkingen kan al snel heel ingewikkeld worden. Zo ingewikkeld dat [onze methode van omvormen](../omvormen) niet meer zal werken.
+
+Daarom zullen we ons in deze les beperken tot de *brave* vergelijkingen die aan de volgende voorwaarden voldoen:
+
+* De exponent van $x$ is overal dezelfde
