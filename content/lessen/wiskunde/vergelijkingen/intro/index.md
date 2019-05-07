@@ -56,6 +56,29 @@ Als je de oplossing(en) in een [verzameling](../../verzamelingen) stopt, noemen 
 De oplossingsverzameling $V$ voor het voorbeeld is dus:
 $$V = \\{\orange{-1}\\}$$
 
+{{% expand "Uitbreiding: Meerdere oplossingen" %}}
+Het kan natuurlijk ook dat er meer dan één getal in de oplossingsverzameling
+zit. Voor de vergelijking $x^2 + 2x = 3$ zijn er bijvoorbeeld twee waarden
+die we kunnen invullen voor $x$ zodat de gelijkheid klopt: $\orange{1}$ en
+$\orange{-3}$. Wanneer we $\orange{1}$ invullen krijgen we:
+\begin{split}
+    (\orange{1})^2 + 2\cdot (\orange{1}) &= 3\\\\\
+    1 + 2 &= 3\\\\\
+    3 &= 3\\\\\
+\end{split}
+
+Wanneer we $\orange{-3}$ invullen, krijgen we:
+\begin{split}
+    (\orange{-3})^2 + 2\cdot (\orange{-3}) &= 3\\\\\
+    9 - 6 &= 3\\\\\
+    3 &= 3\\\\\
+\end{split}
+
+Zowel $\orange{1}$ als $\orange{-3}$ is een oplossing van de vergelijking. De
+oplossingsverzameling is dan
+$$V = \\{\orange{1}, \orange{-3}\\}$$
+{{% /expand %}}
+
 ## Samengevat
 {{% attention "Vergelijking" %}}
 Een vergelijking is iets van de vorm
