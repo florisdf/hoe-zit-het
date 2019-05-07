@@ -14,7 +14,8 @@ Een van de meest essentiële vaardigheden voor een uit-de-kluiten-gewassen wisku
 Kort gezegd zijn de belangrijkste toepassingen van vergelijkingen:
 
 1. Het vinden van de [nulpunten](../../functies/nulpunten) van een functie;
-2. Het vinden van de snijpunten van de [grafieken](../../functies/grafiek) van twee functies.
+2. Het vinden van de snijpunten van de [grafieken](../../functies/grafiek) van twee functies;
+3. Het oplossen van raadsels 🧐.
 
 We zullen in een [latere les](../functies) het verband tussen functies en vergelijkingen iets uitgebreider bespreken.
 
