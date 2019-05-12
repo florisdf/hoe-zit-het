@@ -92,4 +92,21 @@ Op de grafiek zien we dat dit punt inderdaad overeenkomt met het snijpunt van de
 (grafiek)
 
 ## Nulpunten zoeken van functies
-Als $\orange{x}$ een [nulwaarde](../../functies/nulpunten#nulwaarden-van-een-functie) van functie $f(x)$ is die op de grafiek van de functie die $0$ als functiewaarde hebben. Om deze te vinden, stellen we de 
+Als we een {{% class "nulwaarde" "orange" %}} van een functie in die functie stoppen, komt er $0$ uit de functie.
+
+(illustratie met machientje)
+
+Stel dat $\orange{x}$ een [nulwaarde](../../functies/nulpunten#nulwaarden-van-een-functie) van functie $f(x) = -x + 4$ is, dan is $f(\orange{x}) = 0$, of na invullen:
+$$-\orange{x} + 4 = 0$$
+
+En we krijgen weer een vergelijking! Wanneer we deze oplossen, vinden we de {{% class "nulwaarde" "orange" %}} van de functie.
+
+\begin{split}
+-\orange{x} + 4 &= 0\\\\\
+\Leftrightarrow -\orange{x} &= - 4\\\\\
+\Leftrightarrow \orange{x} &= 4
+\end{split}
+
+En inderdaad, $f(\orange{4}) = -\orange{4} + 4 = 0$!
+
+(grafiek)
