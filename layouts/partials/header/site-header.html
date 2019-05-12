@@ -1,21 +1,10 @@
-{{ $svg_file := (.Params.title_img | default ($.Scratch.Get "title_img") | default $.Site.Params.default_image ) }}
-{{ $svg_color := (.Params.section_color | default ($.Scratch.Get "stroke") | default $.Site.Params.default_stroke) }}
-
-{{ $title := (.Title | default .Site.Title) }}
-{{ $description := (.Params.description | default "") }} 
+{{ $img := (.Params.title_img | default ($.Scratch.Get "title_img") | default $.Site.Params.default_image ) }}
 
 <header>
 	<div class="ph3 ph4-ns">
 		{{ partial "header/site-navigation.html" .}}
 		<div class="tc-l pv2 pv4-l contain bg-top">
-			<div class="h5-l w-100 w-70-ns center">
-				{{ partial "svg/svg_substitute.html" (dict "svg_file" $svg_file "new_color" $svg_color "new_text" $title ) }}
-			</div>
-			{{ with $description }}
-			<h2 class="fw1 f5 f3-l white-80 measure-wide-l center mt3">
-				{{ . }}
-			</h2>
-			{{ end }}
+      <img src="{{ $img }}" class="h5-l w-100 w-70-ns center"/>
 		</div>
 	</div>
 </header>

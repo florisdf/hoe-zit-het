@@ -17,7 +17,11 @@
    inkscape:version="0.92.4 (unknown)"
    sodipodi:docname="default.svg">
   <defs
-     id="defs2" />
+     id="defs2">
+     <style type="text/css">
+      @import url('https://fonts.googleapis.com/css?family=Quicksand:300');
+     </style>
+  </defs>
   <sodipodi:namedview
      id="base"
      pagecolor="#ffffff"
@@ -25,16 +29,16 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="2.8"
-     inkscape:cx="121.26265"
-     inkscape:cy="37.825733"
+     inkscape:zoom="1.4"
+     inkscape:cx="89.141873"
+     inkscape:cy="-41.56318"
      inkscape:document-units="mm"
      inkscape:current-layer="text-layer"
      showgrid="false"
-     inkscape:window-width="1600"
-     inkscape:window-height="874"
-     inkscape:window-x="0"
-     inkscape:window-y="180"
+     inkscape:window-width="1920"
+     inkscape:window-height="1055"
+     inkscape:window-x="1600"
+     inkscape:window-y="25"
      inkscape:window-maximized="1" />
   <metadata
      id="metadata5">

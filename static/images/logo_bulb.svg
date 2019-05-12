@@ -20,7 +20,11 @@
    inkscape:export-xdpi="90"
    inkscape:export-ydpi="90">
   <defs
-     id="defs5417" />
+     id="defs5417">
+     <style type="text/css">
+      @import url('https://fonts.googleapis.com/css?family=Quicksand:300');
+     </style>
+  </defs>
   <sodipodi:namedview
      id="base"
      pagecolor="#ffffff"
