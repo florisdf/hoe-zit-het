@@ -18,7 +18,7 @@ enableEmoji = true
   filename = "sitemap.xml"
 
 [params]
-  favicon = "/images/favicon.svg"
+  favicon = "/images/favicon.png"
   description = "Wetenschap verlicht"
   facebook = "https://fb.me/hoezithet"
   instagram = "https://instagram.com"
