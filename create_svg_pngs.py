@@ -16,7 +16,8 @@ parser.add_argument('path',
                     '(default "./content")',
                     default='./content')
 args = parser.parse_args()
-ignore = [Path(p).absolute() for p in args.ignore]
+ignore = ([Path(p).absolute() for p in args.ignore]
+          if args.ignore is not None else [])
 path = Path(args.path).absolute()
 svgs = [p for p in path.rglob('*.svg')
         if p not in ignore] if path.is_dir() else [path]
