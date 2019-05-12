@@ -29,7 +29,7 @@ Stel dat we twee functies $\green{f}$ en $\blue{g}$ hebben waarbij
 
 De grafiek van deze functies ziet er als volgt uit:
 
-(grafiek) 
+{{% bokeh "plt/snijpunt.json" %}}
 
 Het oranje punt duidt het {{% class "snijpunt" "orange" %}} aan van de grafiek. Hoe kunnen we de coördinaten van dit snijpunt vinden?
 
