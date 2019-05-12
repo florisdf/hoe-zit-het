@@ -1,7 +1,7 @@
 ---
 title: Contact
 description: Vraag erop los!
-title_img : "/images/contact.svg"
+title_img : "/images/contact.png"
 draft: false
 menu:
   main:

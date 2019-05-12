@@ -1,7 +1,7 @@
 ---
 title: "Over ons"
 date: 2018-04-02T22:49:16+02:00
-title_img : "/images/about.svg"
+title_img : "/images/about.png"
 draft: false
 menu:
   main:

@@ -1,3 +1,12 @@
+{{ define "header" }}
+  {{ if eq (len .Sections) 0 }}
+    {{/* Subject lessen */}}
+    {{ $.Scratch.Set "stroke" ($.Params.section_color | default "#000") }}
+  {{ end }}
+
+  {{ partial "header/site-header.html" . }}
+{{ end }}
+
 {{ define "main" }}
 <article class="pa3 pa4-ns nested-copy-line-height nested-img">
   {{ with .Content }}
@@ -6,16 +15,16 @@
   </main>
   {{ end }}
 
-<section class="center w-100 mw8">
-  {{ if gt (len .Sections) 0 }}
-    {{ if gt (len (index .Sections 0).Sections) 0 }}
-      {{ .Render "all_lessen" }}
+  <section class="center w-100 mw8">
+    {{ if gt (len .Sections) 0 }}
+      {{ if gt (len (index .Sections 0).Sections) 0 }}
+        {{ .Render "all_lessen" }}
+      {{ else }}
+        {{ .Render "course_lessen" }}
+      {{ end }}
     {{ else }}
-      {{ .Render "course_lessen" }}
+      {{ .Render "subject_lessen" }}
     {{ end }}
-  {{ else }}
-    {{ .Render "subject_lessen" }}
-  {{ end }}
-</section>
+  </section>
 </article>
 {{ end }}

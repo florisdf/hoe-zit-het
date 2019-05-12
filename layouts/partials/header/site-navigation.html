@@ -1,29 +1,31 @@
-<nav class="pv3" role="navigation">
-  <div class="flex-ns justify-between items-center center">
-		{{ partial "header/breadcrumbs.html" . }}
-    <div class="flex-ns items-center">
-      {{ if .Site.Menus.main }}
-        <ul class="pl0 tc">
-          {{ $list := (.Site.Menus.main) }}
-          {{ $len := (len $list) }}
-          {{ range $index, $element := $list }}
-          <li class="list f3 fw4 dib ph1">
-            {{ $.Scratch.Set "color" "black-20" }}
-            {{ if (or (in $.Permalink .URL) ( $.IsHome )) }}
-              {{ $.Scratch.Set "color" "mid-gray" }}
+<div class="ph3 ph4-ns">
+  <nav class="pv3" role="navigation">
+    <div class="flex-ns justify-between items-center center">
+      {{ partial "header/breadcrumbs.html" . }}
+      <div class="flex-ns items-center">
+        {{ if .Site.Menus.main }}
+          <ul class="pl0 tc">
+            {{ $list := (.Site.Menus.main) }}
+            {{ $len := (len $list) }}
+            {{ range $index, $element := $list }}
+            <li class="list f3 fw4 dib ph1">
+              {{ $.Scratch.Set "color" "black-20" }}
+              {{ if (or (in $.Permalink .URL) ( $.IsHome )) }}
+                {{ $.Scratch.Set "color" "mid-gray" }}
+              {{ end }}
+              <a class="dim no-underline {{ $.Scratch.Get "color" }}"
+                href="{{ $element.URL }}"
+                title="{{ $element.Name }}">
+                {{- $element.Name | lower -}}
+              </a>
+              {{ if ne (add $index 1) $len }}
+                <span class="black-20 ph1">|</span>
+              {{ end }}
+            </li>
             {{ end }}
-            <a class="dim no-underline {{ $.Scratch.Get "color" }}"
-              href="{{ $element.URL }}"
-              title="{{ $element.Name }}">
-              {{- $element.Name | lower -}}
-            </a>
-            {{ if ne (add $index 1) $len }}
-              <span class="black-20 ph1">|</span>
-            {{ end }}
-          </li>
-          {{ end }}
-        </ul>
-      {{ end }}
+          </ul>
+        {{ end }}
+      </div>
     </div>
-  </div>
-</nav>
+  </nav>
+</div>

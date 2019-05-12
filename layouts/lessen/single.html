@@ -1,8 +1,8 @@
 {{ define "header" }}
-	{{ $.Scratch.Set "stroke" $.Parent.Params.section_color }}
-  {{ partial "header/lessen-header.html" . }}
+  <header>
+    {{ partial "header/site-navigation.html" . }}
+  </header>
 {{ end }}
-
 
 {{ define "main" }}
   <div class="mw8 center ph3">

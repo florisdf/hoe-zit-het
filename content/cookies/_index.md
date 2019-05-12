@@ -1,6 +1,6 @@
 ---
 title: Cookies
-title_img : "/images/cookies.svg"
+title_img : "/images/cookies.png"
 draft: false
 ---
 Om deze website goed te laten werken, moeten we soms kleine bestanden op je
