@@ -35,7 +35,7 @@ Het oranje punt duidt het {{% class "snijpunt" "orange" %}} aan van de grafiek. 
 
 Een snijpunt is een punt dat zowel op de grafiek van $\green{f}$ als op de grafiek van $\blue{g}$ ligt. Denkend aan onze analogie van [het machientje](../../functies/intro#een-functie-is-een-machientje), is de $x-$waarde van een snijpunt een **ingang die voor zowel $\green{f}$ als $\blue{g}$ dezelfde uitgang geeft**.
 
-(illustratie)
+{{% svg "img/conveyor_snijpunt_1.svg" %}}
 
 Als $\orange{x}$ de $x-$coördinaat van een snijpunt is, dan is dus $\green{f(\orange{x})} = \blue{g(\orange{x})}$, of
 
@@ -85,21 +85,20 @@ $\orange{\frac{7}{3}}$. We kunnen dit controleren door $\orange{\frac{7}{3}}$ in
 
 Inderdaad, $f(\orange{\frac{7}{3}}) = \orange{\frac{5}{3}}$ en $g(\orange{\frac{7}{3}}) = \orange{\frac{5}{3}}$! De coördinaten van het snijpunt zijn dan $\orange{(\frac{7}{3}, \frac{5}{3})}$.
 
-(illustratie met machientje)
+{{% svg "img/conveyor_functiewaarde.svg" %}}
 
-Op de grafiek zien we dat dit punt inderdaad overeenkomt met het snijpunt van de twee functies.
 
-(grafiek)
+Op de grafiek bovenaan zien we dat dit punt inderdaad overeenkomt met het snijpunt van de twee functies.
 
 ## Nulpunten zoeken van functies
 Als we een {{% class "nulwaarde" "orange" %}} van een functie in die functie stoppen, komt er $0$ uit de functie.
 
-(illustratie met machientje)
+{{% svg "img/conveyor_nulpunt_1.svg" %}}
 
 Stel dat $\orange{x}$ een [nulwaarde](../../functies/nulpunten#nulwaarden-van-een-functie) van functie $f(x) = -x + 4$ is, dan is $f(\orange{x}) = 0$, of na invullen:
 $$-\orange{x} + 4 = 0$$
 
-En we krijgen weer een vergelijking! Wanneer we deze oplossen, vinden we de {{% class "nulwaarde" "orange" %}} van de functie.
+En we krijgen een vergelijking! Wanneer we deze oplossen, vinden we de {{% class "nulwaarde" "orange" %}} van de functie.
 
 \begin{split}
 -\orange{x} + 4 &= 0\\\\\
@@ -107,6 +106,9 @@ En we krijgen weer een vergelijking! Wanneer we deze oplossen, vinden we de {{% 
 \Leftrightarrow \orange{x} &= 4
 \end{split}
 
-En inderdaad, $f(\orange{4}) = -\orange{4} + 4 = 0$!
+En inderdaad, $f(\orange{4}) = -\orange{4} + 4 = 0$! De nulwaarde is dus
+$\orange{4}$ en het nulpunt is $(\orange{4}, 0)$
+{{% mute "(met een x- én y-coördinaat)" %}}.
+Dit kan je ook zien op onderstaande grafiek:
 
-(grafiek)
+{{% bokeh "plt/nulpunt.json" %}}
