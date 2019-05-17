@@ -117,7 +117,7 @@ Dit kan je ook zien op onderstaande grafiek:
 {{% bokeh "plt/nulpunt.json" %}}
 
 ## Samengevat
-{{% attention "Snijpunt(en) van twee functies" %}}
+{{% attention "Snijpunten van twee functies" %}}
 De **snijpunten** van twee functies $f(x)$ en $g(x)$ vind je door eerst de twee **[functievoorschriften](../../functies/voorschrift) aan elkaar gelijk te stellen**:
 
 \begin{split}
@@ -128,7 +128,7 @@ f(x) &= g(x)\\\\\
 De oplossing van deze vergelijking geeft de $x-$coördinaat van elk snijpunt. Als je elke $x-$coördinaat in $f(x)$ of $g(x)$ invult, krijg je de bijhorende $y-$coördinaat.
 {{% /attention %}}
 
-{{% attention "Nulpunte(n) van een functie" %}}
+{{% attention "Nulpunten van een functie" %}}
 De **nulpunten** van een functie $f(x)$ vind je door het **[functievoorschrift](../../functies/voorschrift) gelijk aan nul te stellen**:
 
 \begin{split}
