@@ -27,11 +27,11 @@ Stel dat we twee functies $\green{f}$ en $\blue{g}$ hebben waarbij
 	\blue{g(x)} &= 2x - 3
 \end{split}
 
-De grafiek van deze functies ziet er als volgt uit:
+De [grafiek](../../functies/grafiek) van deze functies ziet er als volgt uit:
 
 {{% bokeh "plt/snijpunt.json" %}}
 
-Het oranje punt duidt het {{% class "snijpunt" "orange" %}} aan van de grafiek. Hoe kunnen we de coördinaten van dit snijpunt vinden?
+Het oranje punt duidt het {{% class "snijpunt" "orange" %}} aan van de twee functies. Hoe kunnen we de coördinaten van dit snijpunt vinden?
 
 Een snijpunt is een punt dat zowel op de grafiek van $\green{f}$ als op de grafiek van $\blue{g}$ ligt. Denkend aan onze analogie van [het machientje](../../functies/intro#een-functie-is-een-machientje), is de $x-$waarde van een snijpunt een **ingang die voor zowel $\green{f}$ als $\blue{g}$ dezelfde uitgang geeft**.
 
