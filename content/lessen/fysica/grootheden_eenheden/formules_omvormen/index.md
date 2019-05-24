@@ -31,7 +31,7 @@ Bijvoorbeeld: we leggen een kubusvormig blokje kurk met een zijde van $5 \si{ cm
 \end{split}
 
 ## Omvormen zoals vergelijkingen
-De technieken die we gebruiken om [vergelijkingen om te vormen](../../../wiskunde/vergelijkingen/omvormen), kunnen we ook gebruiken om formules om te vormen. Zo kunnen we de formule voor massadichtheid omvormen zodat $m$ alleen overblijft aan één kant:
+De technieken die we gebruiken om [vergelijkingen om te vormen](../../../wiskunde/1g_vgl/omvormen), kunnen we ook gebruiken om formules om te vormen. Zo kunnen we de formule voor massadichtheid omvormen zodat $m$ alleen overblijft aan één kant:
 \begin{split}
 \rho &= \frac{m}{V}\\\\\
 \Leftrightarrow \rho \cdot \orange{V} &= \frac{m}{V} \cdot \orange{V}\\\\\

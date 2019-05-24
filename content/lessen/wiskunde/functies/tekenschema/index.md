@@ -82,7 +82,7 @@ Ingang $x$               | $-\infty$    |           |            |             |
 
 ### Nulpunten zoeken
 We vinden de nulwaarden van de functie $f(x) = -x^2 + 9$ door de
-[vergelijking](../../vergelijkingen)
+vergelijking
 $$-x^2 + 9 = 0$$
 op te lossen naar $x$.
 Als je dat zou doen, vind je dat $x=-3$ en $x=3$ de nulwaarden zijn van deze functie $f$. De

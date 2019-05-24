@@ -17,7 +17,7 @@ ook
 2. De nulpunten zoeken van twee functies.
 
 In deze les bespreken we deze toepassingen in het geval van
-[eerstegraadsvergelijkingen met één onbekende](../eerste_graad).
+[eerstegraadsvergelijkingen met één onbekende](../oplossen).
 
 ## Snijpunten van functies
 Stel dat we twee functies $\green{f}$ en $\blue{g}$ hebben waarbij

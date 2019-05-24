@@ -23,7 +23,7 @@ $$f(x) = x - 2$$
 is $x=\orange{2}$ een nulwaarde want $f(\orange{2}) = \orange{2} - 2 = 0$.
 
 Je vindt de nulwaarden van een functie door **het functievoorschrift gelijk te
-stellen aan nul** en die [vergelijking](../../vergelijkingen) op te lossen. We
+stellen aan nul** en die [vergelijking op te lossen](../../1g_vgl/oplossen). We
 stellen het functievoorschrift gelijk aan *nul* omdat we op zoek zijn naar de
 x-waarden die het voorschrift {{% mute "en dus de y-waarde" %}} *nul* maken.
 Voor het bovenstaande voorbeeld:
