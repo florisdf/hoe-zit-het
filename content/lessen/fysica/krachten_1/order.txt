@@ -1,0 +1,7 @@
+intro
+krachtvector
+resulterende_kracht
+snelheidsverandering
+zwaartekracht
+normaalkracht_en_gewicht
+veerkracht

@@ -1,2 +1,3 @@
 grootheden_eenheden
 lichtstralen
+krachten
