@@ -1,7 +1,7 @@
 ---
 title: "Complexe getallen"
 date: 2019-01-05T21:27:16+01:00
-weight: 13
+weight: 12
 draft: true
 tags: []
 categories: []

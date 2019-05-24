@@ -1,7 +1,6 @@
 rekenen
 verzamelingen
 veeltermen
-vergelijkingen
 functies
 ongelijkheden
 goniometrie
@@ -11,3 +10,4 @@ stelsels
 logica
 reele_getallen
 complexe_getallen
+1g_vgl

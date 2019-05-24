@@ -1,7 +1,4 @@
 intro
 omvormen
-termen_omvormen
-factoren_omvormen
-machten_omvormen
-mix_van_bewerkingen
+oplossen
 functies

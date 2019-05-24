@@ -1,7 +1,7 @@
 ---
 title: "Eerstegraadsfuncties"
 date: 2019-01-06T17:32:19+01:00
-weight: 9
+weight: 8
 draft: true
 tags: []
 categories: []
