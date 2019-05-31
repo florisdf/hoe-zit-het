@@ -20,12 +20,12 @@ iemand heeft afgelegd, kan je niet exact weten waar die persoon is geëindigd.
 Je moet niet alleen weten hoe ver de persoon is gestapt, je moet ook weten
 **welke richting** de persoon is uit gegaan.
 
-(illustratie)
+{{% svg "img/verplaatsingsvector_1.svg" %}}
 
 **Hoe ver** de persoon stapte, noemen we de **grootte** van de verplaatsing.
 **Waarheen** de persoon stapte, noemen we de **richting** van de verplaatsing.
 
-(illustratie)
+{{% svg "img/verplaatsingsvector_2.svg" %}}
 
 Kracht is een ander voorbeeld van een vectoriële grootheid. Als je wilt weten
 wat er met een slee gebeurt als iemand eraan trekt, moet je
@@ -33,33 +33,13 @@ niet alleen weten **hoe hard** {{% mute "(= grootte)" %}},
 maar ook **in welke richting** {{% mute "(= richting)" %}} er aan de slee getrokken
 wordt.
 
-(illustratie)
+{{% svg "img/krachtvector.svg" %}}
 
 Bij een kracht hoort dus zowel een **grootte**
 {{% mute "(hoe hard je trekt of duwt)" %}} als een **richting**
 {{% mute "(waarheen je trekt of duwt)" %}}. Daarom is kracht een vectoriële
 grootheid. In symbolen noteren we een **krachtvector** als een *F* met een
 pijltje boven: $\vec{F}$.
-
-{{% expand "Uitbreiding: scalaire grootheden" %}}
-Het tegengestelde van een *vectoriële grootheid* is een **scalaire grootheid**.
-Dat is een grootheid **met enkel een grootte** en geen richting. Temperatuur en
-massa, bijvoorbeeld, zijn *scalaire* grootheden.
-{{% /expand %}}
-
-{{% expand "Uitbreiding: een pijl in de ruimte" %}}
-We weten nu dat kracht een *vectoriële grootheid* is. Maar wat is een vector
-eigenlijk? Een vector is **een pijl in de ruimte**
-{{% mute "(niet <em>de ruimte</em> als in <em>\"het heelal\"</em>, maar als in <em>\"een plaats\"</em>)" %}}.
-
-(illustratie)
-
-Waarom kunnen we een kracht voorstellen met een *pijl in de ruimte*? We weten
-dat kracht een **grootte** en een **richting** heeft. Wel, dat zijn exact ook
-de eigenschappen van een *pijl in de ruimte*.
-
-(illustratie)
-{{% /expand %}}
 
 ## Grootte, richting, zin en aangrijpingspunt
 De **grootte** van een krachtvector $\vec{F}$ zegt **hoeveel kracht** er wordt
