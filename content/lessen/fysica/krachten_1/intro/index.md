@@ -2,7 +2,7 @@
 title: "Wat is een kracht?"
 date: 2019-05-24T11:00:42+02:00
 weight: 1
-draft: true
+draft: false
 tags: []
 categories: []
 level: ""
@@ -77,7 +77,7 @@ tekenen de puntmassa **in het zwaartepunt van het voorwerp**
 De krachten die inwerken op het voorwerp, tekenen we dan ook in die
 puntmassa.
 
-(illustratie)
+{{% svg "img/puntmassa.svg" %}}
 
 ## Samengevat
 {{% attention "Kracht" %}}
