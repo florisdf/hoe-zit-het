@@ -2,7 +2,7 @@
 title: "Kracht als vector"
 date: 2019-05-24T11:03:10+02:00
 weight: 2
-draft: true
+draft: false
 tags: []
 categories: []
 level: ""
@@ -49,46 +49,21 @@ grootte van $\vec{F}$ als $\norm{\vec{F}}$ of als $F$
 vector gebruiken we de **lengte van de vector** om de grootte van de kracht aan
 te geven.
 
-(illustratie met $F = 200\si{ N}$ en $F = 150\si{ N}$)
+{{% svg "img/grootte.svg" %}}
 
 Wat we tot nu toe *richting* noemden, zullen we meestal verder opsplitsen in
 twee eigenschappen: de *richting* van $\vec{F}$ en de *zin* van $\vec{F}$.
-De **richting** van $\vec{F}$ zegt **aan welke rechte of as $\vec{F}$
-evenwijdig is**. Bijvoorbeeld: *"evenwijdig aan de x-as"*, of
-*"evenwijdig aan de rechte met rico gelijk aan 1"*.
+De **richting** van $\vec{F}$ zegt **aan welke rechte $\vec{F}$
+evenwijdig is**. Bijvoorbeeld: *"verticaal"*, of
+*"horizontaal"*, of *"onder een hoek van $15\deg$ met de grond"*.
 
-(illustratie)
-
-{{% expand "Richting beschrijven" %}}
-Er zijn meerdere manieren om dezelfde richting te beschrijven. De
-richting van onderstaande vector kan je beschrijven als:
-
-* *"horizontaal"*, of
-* *"evenwijdig aan de x-as"*, of
-* *"evenwijdig aan de rechte met rico gelijk aan 0"*.
-
-(illustratie)
-{{% /expand %}}
+{{% svg "img/richting.svg" %}}
 
 De **zin** van $\vec{F}$ zegt **naar welke kant $\vec{F}$ wijst**.
 Dat kan bijvoorbeeld *"naar de positieve kant van de x-as"* zijn, of *"naar
 beneden"*.
 
-(illustratie)
-
-{{% expand "Zin beschrijven" %}}
-Er zijn meerdere manieren om dezelfde zin te beschrijven. De
-zin van onderstaande vector kan je beschrijven als:
-
-* *"naar rechts"*, of
-* *"naar beneden"*, of
-* *"naar de positieve kant van de x-as"*, of
-* *"naar de negatieve kant van de y-as"*.
-
-(illustratie)
-
-{{% /expand %}}
-
+{{% svg "img/zin.svg" %}}
 
 Tenslotte heeft een krachtvector ook een **aangrijpingspunt**. Het is namelijk
 ook belangrijk om te zeggen **waar de kracht uitgeoefend wordt op het
@@ -96,7 +71,7 @@ voorwerp**. Wanneer je tegen de bovenkant duwt van een flesje water dat op
 tafel staat, zal het flesje sneller kantelen dan wanneer je tegen de onderkant
 van het flesje duwt.
 
-(illustratie)
+{{% svg "img/aangrijpingspunt.svg" %}}
 
 ## Samengevat
 {{% attention "Vectoriële grootheden" %}}
