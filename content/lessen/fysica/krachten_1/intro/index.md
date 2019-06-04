@@ -2,7 +2,7 @@
 title: "Wat is een kracht?"
 date: 2019-05-24T11:00:42+02:00
 weight: 1
-draft: false
+draft: true
 tags: []
 categories: []
 level: ""
@@ -14,7 +14,7 @@ Een van de meest fundamentele [grootheden](../../grootheden_eenheden/intro) in d
 fysica is **kracht**. Kracht is een maat voor op welke manier er wordt
 **geduwd** tegen of **getrokken** aan een voorwerp. Wanneer een kracht inwerkt
 op een voorwerp, kan de kracht een **verandering van de snelheid** en/of een
-**vervorming** van dat voorwerp tot gevolg hebben.
+**vervorming** van dat voorwerp tot gevolg hebben. Verandering van snelheid noemen we het **dynamisch effect** van krachten. Vervorming noemen we het **statisch effect** van krachten.
 
 {{% svg "img/kracht_effecten.svg" %}}
 
@@ -67,6 +67,17 @@ dat niet zonder de winkelkar aan te raken. We spreken dan over een
 **contactkracht**.
 
 {{% svg "img/contactkrachten.svg" %}}
+
+## Puntmassa
+We gaan voor de eenvoud alle voorwerpen voorstellen als **puntmassa**'s. Dat
+betekent dat we in gedachte elk voorwerp waar krachten op inwerken gaan
+vervangen door een klein puntje dat dezelfde massa heeft als het voorwerp. We
+tekenen de puntmassa **in het zwaartepunt van het voorwerp**
+{{% mute "(lees: het midden)" %}}.
+De krachten die inwerken op het voorwerp, tekenen we dan ook in die
+puntmassa.
+
+(illustratie)
 
 ## Samengevat
 {{% attention "Kracht" %}}
