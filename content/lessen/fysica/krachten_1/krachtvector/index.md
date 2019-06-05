@@ -39,22 +39,27 @@ Bij een kracht hoort dus zowel een **grootte**
 {{% mute "(hoe hard je trekt of duwt)" %}} als een **richting**
 {{% mute "(waarheen je trekt of duwt)" %}}. Daarom is kracht een vectoriële
 grootheid. In symbolen noteren we een **krachtvector** als een *F* met een
-pijltje boven: $\vec{F}$. Voor de duidelijkheid gaan we bij krachten meestal in de *index* {{% mute "(rechts onderaan)" %}} noteren wie of wat de kracht levert en op wie of wat de kracht aangrijpt. De zwaartekracht op een vrouw genaamd Maria, bijvoorbeeld, zouden we noteren als $\vec{F}_{zM}$.
+pijltje boven: $\vec{F}$.
+
+Voor de duidelijkheid gaan we bij krachten soms in de *index* {{% mute "(rechts onderaan)" %}} aangeven wie of wat de kracht levert en op wie of wat de kracht aangrijpt. Wanneer Dirk tegen Maria duwt, bijvoorbeeld, zouden we de kracht van Dirk op Maria noteren als $\vec{F}_{DM}$.
 
 | Schrijf | Lees |
 |---------|------|
 |$\vec{F}$| De krachtvector $\vec{F}$ |
-|$\norm{\vec{F}}$| De grootte van $\vec{F}$ |
-|$F$| De grootte van $\vec{F}$ |
 | $\vec{F}_{AB}$ | De kracht die *A* uitoefent op *B* |
-
-
 
 ## Grootte, richting, zin en aangrijpingspunt
 De **grootte** van een krachtvector $\vec{F}$ zegt **hoeveel kracht** er wordt
 uitgeoefend. De grootte van een kracht is **altijd positief**. We noteren de
 grootte van $\vec{F}$ als $\norm{\vec{F}}$ of als $F$
-{{% mute "(merk op: geen pijltje op de $F$)" %}}. Bij het tekenen van een
+{{% mute "(merk op: geen pijltje op de $F$)" %}}.
+
+| Schrijf | Lees |
+|---------|------|
+|$\norm{\vec{F}}$| De grootte van $\vec{F}$ |
+|$F$| De grootte van $\vec{F}$ |
+
+Bij het tekenen van een
 vector gebruiken we de **lengte van de vector** om de grootte van de kracht aan
 te geven.
 
@@ -64,13 +69,12 @@ Wat we tot nu toe *richting* noemden, zullen we meestal verder opsplitsen in
 twee eigenschappen: de *richting* van $\vec{F}$ en de *zin* van $\vec{F}$.
 De **richting** van $\vec{F}$ zegt **aan welke rechte $\vec{F}$
 evenwijdig is**. Bijvoorbeeld: *"verticaal"*, of
-*"horizontaal"*, of *"onder een hoek van $15\deg$ met de grond"*.
+*"horizontaal"*, of *"onder een hoek van $15\deg$"*.
 
 {{% svg "img/richting.svg" %}}
 
 De **zin** van $\vec{F}$ zegt **naar welke kant $\vec{F}$ wijst**.
-Dat kan bijvoorbeeld *"naar de positieve kant van de x-as"* zijn, of *"naar
-beneden"*.
+Dat kan bijvoorbeeld *"naar links"*, *"naar rechts"*, of *"naar beneden"* zijn.
 
 {{% svg "img/zin.svg" %}}
 
@@ -96,4 +100,13 @@ Een **krachtvector** $\vec{F}$ heeft **vier eigenschappen**:
    is?
 3. De **zin**: naar welke kant gaat de kracht?
 4. Het **aangrijpingspunt**: waar wordt de kracht uitgeoefend op het voorwerp?
+{{% /attention %}}
+
+{{% attention "Schrijfwijze voor krachten" %}}
+| Schrijf | Lees |
+|---------|------|
+|$\vec{F}$| De krachtvector $\vec{F}$ |
+|$\norm{\vec{F}}$| De grootte van $\vec{F}$ |
+|$F$| De grootte van $\vec{F}$ |
+| $\vec{F}_{AB}$ | De kracht die *A* uitoefent op *B* |
 {{% /attention %}}
