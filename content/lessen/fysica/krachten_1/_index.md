@@ -2,7 +2,7 @@
 title: "Krachten"
 date: 2019-05-24T10:46:07+02:00
 weight: 3
-draft: true
+draft: false
 tags: []
 categories: []
 level: "3e middelbaar"
