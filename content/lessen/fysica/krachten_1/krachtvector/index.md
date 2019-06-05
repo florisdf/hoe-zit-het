@@ -39,7 +39,16 @@ Bij een kracht hoort dus zowel een **grootte**
 {{% mute "(hoe hard je trekt of duwt)" %}} als een **richting**
 {{% mute "(waarheen je trekt of duwt)" %}}. Daarom is kracht een vectoriële
 grootheid. In symbolen noteren we een **krachtvector** als een *F* met een
-pijltje boven: $\vec{F}$.
+pijltje boven: $\vec{F}$. Voor de duidelijkheid gaan we bij krachten meestal in de *index* {{% mute "(rechts onderaan)" %}} noteren wie of wat de kracht levert en op wie of wat de kracht aangrijpt. De zwaartekracht op een vrouw genaamd Maria, bijvoorbeeld, zouden we noteren als $\vec{F}_{zM}$.
+
+| Schrijf | Lees |
+|---------|------|
+|$\vec{F}$| De krachtvector $\vec{F}$ |
+|$\norm{\vec{F}}$| De grootte van $\vec{F}$ |
+|$F$| De grootte van $\vec{F}$ |
+| $\vec{F}_{AB}$ | De kracht die *A* uitoefent op *B* |
+
+
 
 ## Grootte, richting, zin en aangrijpingspunt
 De **grootte** van een krachtvector $\vec{F}$ zegt **hoeveel kracht** er wordt
