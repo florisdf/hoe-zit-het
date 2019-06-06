@@ -16,7 +16,7 @@ In [een vorige les](../krachtvector) zagen we dat kracht een vectoriële groothe
 
 (illustratie)
 
-Om te weten wat er met een voorwerp gaat gebeuren wanneer krachten erop inwerken, moeten we eerst al die krachten tekenen. Let wel op dat je **enkel de krachten tekent die op het voorwerp inwerken** en niet de krachten die het voorwerp op een ander voorwerp uitoefent.
+Om te weten wat er met een voorwerp gaat gebeuren wanneer krachten erop inwerken, moeten we eerst al die krachten tekenen. Let wel op dat je **enkel de krachten tekent die op het voorwerp inwerken** en **niet de krachten die het voorwerp zelf uitoefent** op een ander voorwerp.
 
 Stel dat Maria en Dirk op een schaatsbaan staan en tegen elkaar duwen.
 
@@ -40,6 +40,8 @@ De krachten op Dirk zijn:
 * de zwaartekracht $\vec{F}_{zD}$ die de aarde uitoefent op Dirk,
 * de normaalkracht $\vec{F}_{nD}$ die de schaatsbaan uitoefent op Dirk.
 
+(illustratie)
+
 ## Resulterende kracht tekenen
 Eens we alle krachten op een voorwerp hebben getekend, kunnen we die krachten **combineren tot één resulterende kracht**. Met die resulterende kracht zullen we dan later leren voorspellen wat er met het voorwerp gaat gebeuren 🔮. 
 
@@ -58,11 +60,11 @@ Als we de wrijving met de wind en de halfpipe verwaarlozen, zijn er twee krachte
 
 We willen deze krachten nu combineren tot één resulterende kracht $\vec{F}_{rM}$. Dat doen we door de krachtvectoren **vectorieel op te tellen**. Dat kan op twee manieren:
 
-1. via de kop-staart-methode,
+1. via de kop-staartmethode,
 2. via de parallellogram-methode.
 
-{{% attention "Kop-staart-methode" %}}
-Bij de kop-staart-methode plaatsen we de *staart* van de ene vector aan de *kop* van de andere.
+{{% attention "kop-staartmethode" %}}
+Bij de kop-staartmethode plaatsen we de *staart* van de ene vector aan de *kop* van de andere.
 
 (illustratie)
 
@@ -88,4 +90,19 @@ Beide methoden geven dezelfde resulterende kracht $\vec{F}_{rM}$:
 
 (illustratie)
 
-[Later](../snelheidsverandering) zullen we leren dat deze kracht toont dat Maria zal versnellen naar rechtsbeneden. Dat komt overeen met wat we intuïtief zouden verwachten. 👍
+De resulterende kracht wijst dus naar rechtsbeneden. De grootte van de resulterende kracht {{% mute "(in newton)" %}} zullen we in een andere les leren berekenen.
+
+In [de volgende les](../snelheidsverandering) leren we dat Maria door deze resulterende kracht **een snelheidsverandering zal hebben naar rechtsbeneden**. Met andere woorden versnelt Maria naar rechtsbeneden. Dat komt overeen met wat we intuïtief zouden verwachten. 👍
+
+## Samengevat
+{{% attention "Krachten op een voorwerp tekenen" %}}
+Wanneer we *"de krachten op een voorwerp"* tekenen, tekenen we alle krachten die **door andere voorwerpen** worden uitgeoefend **op dat voorwerp**.
+
+(illustratie)
+{{% /attention %}}
+
+{{% attention "Resulterende kracht tekenen" %}}
+Wanneer er verschillende krachten inwerken op een voorwerp, kunnen we de resulterende kracht tekenen met behulp van de **kop-staartmethode** of de **parallellogram-methode**.
+
+(illustratie)
+{{% /attention %}}
