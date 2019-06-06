@@ -21,7 +21,6 @@
 			{{ partial "head/custom-fonts.html" . }}
 		{{ end }}
     <link href="/dist/main.css" rel='stylesheet' type="text/css" />
-		<link href="/css/custom_styles.css" rel="stylesheet" type="text/css" />
     {{ block "favicon" . }}
       {{ partial "head/site-favicon.html" . }}
     {{ end }}
@@ -34,6 +33,10 @@
 
     {{ block "mathjax" . }}
       {{ partial "head/mathjax.html" . }}
+    {{ end }}
+
+    {{ block "fancybox" . }}
+      {{ partial "head/fancybox.html" . }}
     {{ end }}
 
     {{ if .RSSLink }}
@@ -51,6 +54,8 @@
       {{ template "_internal/google_analytics_async.html" . }}
       {{ partial "head/cookies.html" }}
     {{ end }}
+    <!-- Load last to override all -->
+		<link href="/css/custom_styles.css" rel="stylesheet" type="text/css" />
   </head>
 
   <body class="ma0 {{ $.Param "body_classes"  | default "avenir bg-near-white"}}{{ with getenv "HUGO_ENV" }} {{ . }}{{ end }}">
