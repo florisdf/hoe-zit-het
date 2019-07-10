@@ -100,6 +100,8 @@ Een **krachtvector** $\vec{F}$ heeft **vier eigenschappen**:
    is?
 3. De **zin**: naar welke kant gaat de kracht?
 4. Het **aangrijpingspunt**: waar wordt de kracht uitgeoefend op het voorwerp?
+
+{{% svg "img/grootte_richting_zin.png" %}}
 {{% /attention %}}
 
 {{% attention "Schrijfwijze voor krachten" %}}
