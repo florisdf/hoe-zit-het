@@ -36,7 +36,9 @@
 
         </div>
         <section class="nested-copy-line-height lh-copy f4 nested-links nested-img mid-gray">
-          {{ .Content }}
+          {{ $ad := ( partial "main/article-ad.html" . ) }}
+          {{ $cont := .Content }}
+          {{ $cont }}
           {{ partial "main/tags.html" . }}
           {{ partial "main/to-top.html" . }}
         </section>

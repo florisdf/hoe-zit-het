@@ -33,6 +33,8 @@ enableEmoji = true
 	default_image = "/images/default.png"
   env = "production"
   images = ["/images/logo.png"]
+  [params.adsense]
+	pub_id = "pub-3341140218430301"
 
 [privacy]
   [privacy.googleAnalytics]
@@ -40,12 +42,21 @@ enableEmoji = true
     disable = false
     respectDoNotTrack = true
     useSessionStorage = false
-
+    
+[mediaTypes]
+  [mediaTypes."text/tex"]
+    suffixes = ["tex"]
+    
 [outputFormats]
   [outputFormats.Bare]
-  mediaType = "text/html"
-  path = "bare"
-  isHTML = true
+    mediaType = "text/html"
+    path = "bare"
+    isHTML = true
+  [outputFormats.TeX]
+    mediaType = "text/tex"
+    suffixes = ["tex"]
+    path = "tex"
+    isHTML = false
 
 [outputs]
-  page = ["HTML", "Bare"]
+  page = ["HTML", "Bare", "TeX"]

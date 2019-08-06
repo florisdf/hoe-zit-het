@@ -1,0 +1,6 @@
+{{ $item := $.Page.Resources.GetMatch (.Get 0)}}
+<p>{{ .Scratch.Get "test" }}</p>
+{{ $id := (print (replace (.Get 0) ".json" "_" ) (delimit (shuffle (seq 0 9)) "")) }}
+<div id="{{ printf  $id }}" class="pa2">
+  <img src="{{ replace (.Get 0) ".json" ".png" }}">
+</div>
