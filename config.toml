@@ -52,11 +52,6 @@ enableEmoji = true
     mediaType = "text/html"
     path = "bare"
     isHTML = true
-  [outputFormats.TeX]
-    mediaType = "text/tex"
-    suffixes = ["tex"]
-    path = "tex"
-    isHTML = false
 
 [outputs]
-  page = ["HTML", "Bare", "TeX"]
+  page = ["HTML", "Bare"]
