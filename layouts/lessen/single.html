@@ -36,7 +36,17 @@
 
         </div>
         <section class="nested-copy-line-height lh-copy f4 nested-links nested-img mid-gray">
-          {{ .Content }}
+          {{ $ad := ( partial "main/article-ad.html" . ) }}
+
+          {{ range $idx, $cont := ( split .Content "<h2" ) }}
+            {{ if eq $idx 0 }}
+              {{ $cont | safeHTML }}
+            {{ else if eq $idx 1 }}
+              {{ print "<h2" $cont $ad | safeHTML }}
+            {{ else }}
+              {{ print "<h2" $cont | safeHTML }}
+            {{ end }}
+          {{ end }}
           {{ partial "main/tags.html" . }}
           {{ partial "main/to-top.html" . }}
         </section>
