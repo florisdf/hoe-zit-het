@@ -11,6 +11,7 @@ PaginatePath = "pagina"
 googleAnalytics = "UA-133189848-1"
 enableRobotsTXT = true
 enableEmoji = true
+disableKinds = ["taxonomy", "taxonomyTerm"]
 
 [sitemap]
   changefreq = "monthly"
