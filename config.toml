@@ -43,10 +43,6 @@ enableEmoji = true
     respectDoNotTrack = true
     useSessionStorage = false
     
-[mediaTypes]
-  [mediaTypes."text/tex"]
-    suffixes = ["tex"]
-    
 [outputFormats]
   [outputFormats.Bare]
     mediaType = "text/html"
