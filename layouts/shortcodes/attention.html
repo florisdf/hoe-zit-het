@@ -5,6 +5,6 @@
     {{ $title }}
   </div>
   <div class="">
-    {{.Inner | safeHTML}}
+    {{ .Inner | markdownify | safeHTML }}
   </div>
 </div>
