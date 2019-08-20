@@ -27,6 +27,6 @@
     	</span>
     </div>
     <div class="bg-black-05 br2 ph3 pv1" style="display: none;">
-        {{.Inner | safeHTML}}
+        {{ .Inner | markdownify | safeHTML }}
     </div>
 </div>
