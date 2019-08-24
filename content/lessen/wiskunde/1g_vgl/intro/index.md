@@ -80,7 +80,6 @@ oplossingsverzameling is dan
 $$V = \\{\orange{1}, \orange{-3}\\}$$
 {{% /expand %}}
 
-## Wat is een eerstegraadsvergelijking met één onbekende?
 
 ## Samengevat
 {{% attention "Vergelijking" %}}
