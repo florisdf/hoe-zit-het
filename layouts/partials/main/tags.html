@@ -1,20 +1,18 @@
 <div class="mt5 f4 br3 gray nested-lh-copy bg-light-gray ph3 pv2 measure-wide-l">
-  <ul class="list dib ml0 pl0">
-    {{ with .NextInSection }}
-      <li class="black dib mb2 mr2">
+  <h4 class="ma0">Andere lessen over {{ .CurrentSection.Title | lower }}</h4>
+  <ul class="list dib ma0 pa0">
+    {{ with .CurrentSection }}
+      {{ $pageCount := len .Pages }}
+      {{ range $idx, $page := .Pages.ByWeight }}
+      <li class="dib">
         <a href="{{ .Permalink }}" class="link mid-gray dim">
-        👉 Volgende les:
           {{ .Title }}
         </a>
+        {{ if ne (add $idx 1) $pageCount }} 
+        |
+        {{ end }}
       </li>
-    {{end}}
-    {{ with .PrevInSection }}
-      <li class="black dib mb2 mr2">
-        <a href="{{ .Permalink }}" class="link mid-gray dim">
-        👈 Vorige les:
-          {{ .Title }}
-        </a>
-      </li>
+      {{ end }}
     {{end}}
   </ul>
 </div>

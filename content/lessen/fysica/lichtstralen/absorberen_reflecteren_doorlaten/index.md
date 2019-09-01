@@ -1,5 +1,5 @@
 ---
-title: "Kleuren, spiegels en vensters"
+title: "Licht absorberen, reflecteren en doorlaten"
 date: 2019-01-28T18:36:58+01:00
 weight: 6
 draft: false

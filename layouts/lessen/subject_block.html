@@ -1,4 +1,6 @@
 {{ $sect_color := .Params.section_color | default ($.Scratch.Get "stroke") | default .Site.Params.default_stroke }}
+
+{{ if not .Draft }}
 <div
   class="w-100 w-30-l ma2 subject-block level-{{ replace .Params.level " " "-" | lower }} topic-{{ replace .Params.topic " " "-" | lower }} course-{{ replace .Parent.CurrentSection.Title " " "-" | lower }} ba br3" style="border-color: {{ $sect_color }}; overflow: hidden;">
 
@@ -29,3 +31,4 @@
 
   </section>
 </div>
+{{ end }}
