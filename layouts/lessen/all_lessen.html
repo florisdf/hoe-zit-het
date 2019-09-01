@@ -17,7 +17,9 @@
     {{ range ( .Sections.GroupByParam "level" ) }}
       {{ range ( .Pages.GroupByParam "weight" ) }}
         {{ range .Pages.ByWeight }}
-          {{ .Render "subject_block" }}
+          {{ if not .Draft }}
+            {{ .Render "subject_block" }}
+          {{ end }}
         {{ end }}
       {{ end }}
     {{ end }}

@@ -54,13 +54,13 @@ Vermenigvuldigingen met $10^{\orange{-3}}$, verschuift de komma {{% class "3 pla
 Nu zullen we zien hoe we aan die $\orange{10^{-9}}$ kwamen bij het voorbeeld 
 van $0{,}00000000334 = 3{,}34\cdot \orange{10^{-9}}$.
 We willen de komma van $0{,}00000000334$ met
-**{{% class "9 plaatsen naar rechts" "blue" %}}**
+{{% class "**9 plaatsen naar rechts**" "blue" %}}
 verschuiven tot na de eerste 3. Dat zouden we kunnen doen door te
-**{{% class "vermenigvuldigen met $10^9$" "blue" %}}**.
+{{% class "**vermenigvuldigen met $10^9$**" "blue" %}}.
 **Maar** we willen dat onze uitkomst
-**{{% class "nog steeds gelijk is" "orange" %}}**
+{{% class "**nog steeds gelijk is**" "orange" %}}
 aan $0{,}00000000334$. Daarom moeten we ook terug
-**{{% class "delen door $10^9$" "orange" %}}**.
+{{% class "**delen door $10^9$**" "orange" %}}.
 
 \begin{split}
     0{,}00000000334 &= 0{,}00000000334 \cdot \frac{\blue{10^9}}{\orange{10^9}} \\\\\
@@ -69,24 +69,24 @@ aan $0{,}00000000334$. Daarom moeten we ook terug
                     &= \udotblue{3{,}34} \cdot \orange{10^{-9}}
 \end{split}
 
-Het **{{% class "delen door $10^9$" "orange" %}}** komt neer op
-een **{{% class "vermenigvuldigen met $10^{-9}$" "orange" %}}**. We kunnen dus ook
+Het {{% class "**delen door $10^9$**" "orange" %}} komt neer op
+een {{% class "**vermenigvuldigen met $10^{-9}$**" "orange" %}}. We kunnen dus ook
 zeggen dat we
-**{{% class "vermenigvuldigen met $10^9$" "blue" %}}** om de komma
-**{{% class "9 plaatsen naar rechts" "blue" %}}** te verschuiven en vervolgens
-**{{% class "vermenigvuldigen met $10^{-9}$" "orange" %}}** om alles
-**{{% class "gelijk te houden" "orange" %}}**.
+{{% class "**vermenigvuldigen met $10^9$**" "blue" %}} om de komma
+{{% class "**9 plaatsen naar rechts**" "blue" %}} te verschuiven en vervolgens
+{{% class "**vermenigvuldigen met $10^{-9}$**" "orange" %}} om alles
+{{% class "**gelijk te houden**" "orange" %}}.
 
 Een ander voorbeeld is dat we een heel groot getal korter willen schrijven. De
 afstand tussen de zon en de aarde, bijvoorbeeld, bedraagt ongeveer
 $149\ 600\ 000\ 000\ \si{m}$. Dit kunnen we korter schrijven door de komma 
-**{{% class "11 plaatsen naar links" "blue" %}}** te schuiven tot net na de 1.
+{{% class "**11 plaatsen naar links**" "blue" %}} te schuiven tot net na de 1.
 Dat zouden we kunnen doen door te
-**{{% class "vermenigvuldigen met $10^{-11}$" "blue" %}}**. **Maar** we willen
+{{% class "**vermenigvuldigen met $10^{-11}$**" "blue" %}}. **Maar** we willen
 natuurlijk dat onze uitkomst
-**{{% class "nog steeds gelijk is" "orange" %}}** aan $149\ 600\ 000\ 000$.
+{{% class "**nog steeds gelijk is**" "orange" %}} aan $149\ 600\ 000\ 000$.
 Daarom moeten we ook terug delen door $10^{-11}$. Dat is echter hetzelfde als
-**{{% class "vermenigvuldigen met $10^{11}$" "orange" %}}**.
+{{% class "**vermenigvuldigen met $10^{11}$**" "orange" %}}.
 
 \begin{split}
     149\ 600\ 000\ 000 &= \udotblue{149\ 600\ 000\ 000 \cdot \blue{10^{-11}}} \cdot \orange{10^{11}} \\\\\
@@ -102,9 +102,9 @@ Soms zullen we ook machten van 10 moeten omzetten naar andere machten van 10.
 We willen onze $3{,}34 \cdot 10^{-9}$ bijvoorbeeld omzetten naar 
 $\orange{\ldots\text{iets}\ldots} \cdot \blue{10^{-11}}$. Om dat te doen, 
 zullen we de $3{,}34 \cdot 10^{-9}$
-**{{% class "vermenigvuldigen met $10^{-11}$ om de juiste macht van 10 te hebben" "blue" %}}**
+{{% class "**vermenigvuldigen met $10^{-11}$ om de juiste macht van 10 te hebben**" "blue" %}}
 en vervolgens 
-**{{% class "vermenigvuldigen met $10^{11}$ om het getal gelijk te houden" "orange" %}}**.
+{{% class "**vermenigvuldigen met $10^{11}$ om het getal gelijk te houden**" "orange" %}}.
 
 \begin{split}
     3{,}34 \cdot 10^{-9} &= 3{,}34 \cdot \udotorange{10^{-9} \cdot \orange{10^{11}}} \cdot \blue{10^{-11}} \\\\\
