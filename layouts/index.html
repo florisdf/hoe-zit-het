@@ -1,15 +1,62 @@
-{{ define "main" }}
-	{{ with .Content }}
-  <article class="cf ph3 ph4-ns f4 tc center measure-wide lh-copy nested-links mid-gray">
-    {{ . }}
+{{ define "header" }}
+<header>
+  {{ partial "header/site-navigation.html" .}}
+</header>
+{{ end }}
 
-    <div class="dt center">
-    {{ with $.Site.GetPage "section" "lessen" }}
-      {{ $.Scratch.Set "link_text" "Alle " }}
-      {{ $.Scratch.Add "link_text" (.Title | lower) }}
-      {{ partial "main/button_link.html" (dict "link_url" .URL "link_text" ($.Scratch.Get "link_text") "link_color" "#DDD" "text_color" "#333") }}
-    {{ end }}
+{{ define "main" }}
+<section class="tc relative">
+  <img src="/images/landing_page/title_img.svg" class="w-75">
+  <div class="grow pointer tc center bg-gold ba br3 bw2 b--gold w-25-l w-75-m w-90 pa2 absolute"
+    style="bottom: 15%; right: 21.5%;">
+    <a class="link near-white f3 fw9" href="/lessen">Ga naar de lessen!</a>
+  </div>
+  <p>
+  Leer wetenschappen en wiskunde <span class="b">écht te begrijpen</span>.
+  Stap per stap en zonder omwegen.
+  </p>
+</section>
+<section id="why" class="">
+  <h2 class="tc fw1 f2 mh2">
+    Waarom <span class="b nowrap">hoe zit het</span>?
+  </h2>
+
+  <div style="background-color: rgba(255, 183, 0, 0.25)"
+    class="tc mid-gray cf">
+
+    <a class="block" href="#why">
+    <div style="width: 0; height: 0;
+        border-top-width: 2rem;
+        border-right-width: 3rem;
+        border-left-width: 3rem;
+        border-style: solid;
+        border-color: rgba(244, 244, 244) transparent transparent transparent;
+        animation-iteration-count: 3;"
+        class="center mb2 grow pointer animated bounce delay-2s">
     </div>
-  </article>
-	{{ end }}
+    </a>
+    <div class="cf center w-50-l">
+    {{ $title := "Doelgericht" }}
+    {{ $image := "/images/landing_page/archer.png" }}
+    {{ $text := "Elke les is gericht op één onderwerp. Zo kan je gaatjes in je kennis snel opvullen, zonder omwegen." }}
+    {{ partial "landing/block" (dict "title" $title "image" $image "text" $text) }}
+
+    {{ $title := "Gratis" }}
+    {{ $image := "/images/landing_page/free.png" }}
+    {{ $text := "Omdat iedereen recht heeft op kennis, zijn alle lessen gratis. Voor vandaag. Voor morgen. Voor altijd." }}
+    {{ partial "landing/block" (dict "title" $title "image" $image "text" $text) }}
+
+    {{ $title := "Verteerbaar" }}
+    {{ $image := "/images/landing_page/guts.png" }}
+    {{ $text := "Niemand houdt van saai. Daarom zijn de lessen kort en vol illustraties die je helpen om alles in een handomdraai te begrijpen." }}
+    {{ partial "landing/block" (dict "title" $title "image" $image "text" $text) }}
+    </div>
+
+    {{ range first 1 .Pages.ByPublishDate.Reverse }}
+    <div class="grow pointer tc center bg-near-white ba br3 bw2 b--gold w-25-l w-75-m w-90 mv4 pa2">
+      <a class="link gold f3 fw9" href="{{ .Permalink }}">Toon mij een voorbeeld!</a>
+    </div>
+    {{ end }}
+  </div>
+</section>
 {{ end }}
