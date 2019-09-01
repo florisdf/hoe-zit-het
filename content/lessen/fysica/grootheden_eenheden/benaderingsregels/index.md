@@ -38,21 +38,21 @@ Met **benaderingsregels** kunnen we de onzekerheid van een berekening
 uitdrukken. Als we de benaderingsregels toepassen die we straks zullen leren,
 krijgen we $1{,}6 \si{ m}$ voor de eerste berekening en $1{,}58 \si{ m}$ voor
 de tweede berekening. Het belangrijke hierbij is dat er $1{,}6$ staat en
-**{{% class "niet" "red" %}}**
+{{% class "**niet**" "red" %}}
 $1{,}6\red{0}$. 
 
 Met $1{,}6 \si{ m}$ bedoelen we namelijk: "Iets tussen $1{,}55 \si{ m}$ en
 $1{,}65 \si{ m}$," en inderdaad, $1{,}58 \si{ m}$
-**{{% class "ligt binnen die foutenmarge." "green" %}}**
+{{% class "**ligt binnen die foutenmarge.**" "green" %}}
 
 {{% img "img/lego_100_correct_margin.svg" %}}
 
 Als we bij de eerste berekening $1{,}6\red{0}$ hadden geschreven, zou dat
 betekenen: "Iets tussen $1{,}5\red{95} \si{ m}$ en $1{,}6\red{05} \si{ m}$,"
 maar
-**{{% class "dat is fout" "red" %}}**,
+{{% class "**dat is fout**" "red" %}},
 want $1{,}58 \si{ m}$
-**{{% class "ligt buiten die foutenmarge." "red" %}}**
+{{% class "**ligt buiten die foutenmarge.**" "red" %}}
 
 {{% img "img/lego_100_wrong_margin.svg" %}}
 
