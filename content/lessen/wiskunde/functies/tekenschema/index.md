@@ -33,11 +33,11 @@ zijn.
 
 We zien op de grafiek:
 
-* Voor x-waarden kleiner dan $-3$ zijn alle y-waarden **{{% class "negatief" "red" %}}**;
-* Voor x gelijk aan $-3$ is de y-waarde **{{% class "nul" "blue" %}}**;
-* Voor x-waarden tussen $-3$ en $3$ zijn alle y-waarden **{{% class "positief" "green" %}}**;
-* Voor x gelijk aan $3$ is de y-waarde **{{% class "nul" "blue" %}}**;
-* Voor x-waarden groter dan $3$ zijn alle y-waarden **{{% class "negatief" "red" %}}**.
+* Voor x-waarden kleiner dan $-3$ zijn alle y-waarden {{% class "**negatief**" "red" %}};
+* Voor x gelijk aan $-3$ is de y-waarde {{% class "**nul**" "blue" %}};
+* Voor x-waarden tussen $-3$ en $3$ zijn alle y-waarden {{% class "**positief**" "green" %}};
+* Voor x gelijk aan $3$ is de y-waarde {{% class "**nul**" "blue" %}};
+* Voor x-waarden groter dan $3$ zijn alle y-waarden {{% class "**negatief**" "red" %}}.
 
 Dit vatten we als volgt samen in een **tekenschema**:
 
@@ -47,11 +47,11 @@ Ingang $x$               | $-\infty$    |           | $-3$       |             |
 
 Het schema toont:
 
-* Als de ingang ($x$) iets tussen $-\infty$ en $-3$ is, is de uitgang ($y$) *{{% class "negatief" "red" %}}*;
-* Als $x=-3$, is $y$ *{{% class "nul" "blue" %}}*;
-* Als $x$ iets tussen $-3$ en $3$ is, is $y$ *{{% class "positief" "green" %}}*;
-* Als $x=3$ is, is $y$ *{{% class "nul" "blue" %}}*;
-* Als $x$ iets tussen $3$ en $+\infty$ is, is $y$ *{{% class "negatief" "red" %}}*.
+* Als de ingang ($x$) iets tussen $-\infty$ en $-3$ is, is de uitgang ($y$) {{% class "*negatief*" "red" %}};
+* Als $x=-3$, is $y$ {{% class "*nul*" "blue" %}};
+* Als $x$ iets tussen $-3$ en $3$ is, is $y$ {{% class "*positief*" "green" %}};
+* Als $x=3$ is, is $y$ {{% class "*nul*" "blue" %}};
+* Als $x$ iets tussen $3$ en $+\infty$ is, is $y$ {{% class "*negatief*" "red" %}}.
 
 ## Tekenschema zonder grafiek
 We kunnen een tekenschema ook maken *zonder* een grafiek. Dit doen we in drie
@@ -107,7 +107,7 @@ Bijvoorbeeld het teken van
 $y$ voor $x$ tussen $-3$ en $3$. Een eenvoudig getal dat ligt tussen $-3$ en $3$ is
 $0$. Die vullen we in in $f(x) = -x^2 + 9$:
 $$f(\orange{0}) = -(\orange{0})^2 + 9 = \green{9}$$
-We komen een **{{% class "positief" "green" %}}** getal uit, dus we zetten een $\green{+}$ tussen $-3$ en $3$:
+We komen een {{% class "**positief**" "green" %}} getal uit, dus we zetten een $\green{+}$ tussen $-3$ en $3$:
 
 Ingang $x$               | $-\infty$    |           | $-3$       |             | $3$        |           | $+\infty$
 -------------------------|--------------|-----------|------------|-------------|------------|-----------|----------------
@@ -115,7 +115,7 @@ Ingang $x$               | $-\infty$    |           | $-3$       |             |
 
 Voor een x-waarde tussen $-\infty$ en $-3$, kunnen we $-5$ nemen.
 $$f(\orange{-5}) = -(\orange{-5})^2 + 9 = -25 + 9 = \red{-16}$$
-Invullen geeft een **{{% class "negatief" "red" %}}** getal, dus we zetten een $\red{-}$ tussen $-\infty$ en $-3$:
+Invullen geeft een {{% class "**negatief**" "red" %}} getal, dus we zetten een $\red{-}$ tussen $-\infty$ en $-3$:
 
 Ingang $x$               | $-\infty$    |           | $-3$       |             | $3$        |           | $+\infty$
 -------------------------|--------------|-----------|------------|-------------|------------|-----------|----------------
@@ -123,7 +123,7 @@ Ingang $x$               | $-\infty$    |           | $-3$       |             |
 
 Voor een x-waarde tussen $3$ en $+\infty$, ten slotte, kunnen we
 $5$ nemen.  $$f(\orange{5}) = -(\orange{5})^2 + 9 = -25 + 9 =
-\red{-16}$$ Invullen geeft een **{{% class "negatief" "red" %}}** getal, dus we zetten een $\red{-}$ tussen $3$ en
+\red{-16}$$ Invullen geeft een {{% class "**negatief**" "red" %}} getal, dus we zetten een $\red{-}$ tussen $3$ en
 $+\infty$:
 
 Ingang $x$               | $-\infty$    |           | $-3$       |             | $3$        |           | $+\infty$

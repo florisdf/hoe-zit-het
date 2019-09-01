@@ -15,7 +15,7 @@ In deze les bespreken we waarom een **puntlichtbron zorgt voor een harde
 schaduw** en een **diffuse lichtbron zorgt voor een zachte schaduw**.
 
 ## Wat is een schaduw?
-Wanneer een [ondoorschijnend](../kleuren_spiegels_vensters#licht-doorlaten)
+Wanneer een [ondoorschijnend](../reflecteren_absorberen_doorlaten#licht-doorlaten)
 voorwerp wordt belicht, zijn er altijd plekken achter
 het voorwerp waar **weinig of geen lichtstralen geraken**. Die gebieden lijken
 donkerder en we noemen die gebieden de **schaduw** van het voorwerp.
@@ -25,34 +25,36 @@ donkerder en we noemen die gebieden de **schaduw** van het voorwerp.
 ## Puntlichtbron: harde schaduw
 Om te weten hoe de schaduw bij een
 [puntlichtbron](../lichtbronnen#puntvormige-en-diffuse-lichtbronnen) eruit
-ziet, kijken we op welke plekken wel en geen lichtstralen geraken.
+ziet, kijken we op welke plekken wel en geen lichtstralen geraken. Op de
+onderstaande figuur staat er links telkens een puntlichtbron met daarnaast een
+ondoorschijnende zwarte bol en een scherm met drie gebieden: **A**, **B**, en
+**C**.
 
 {{% svg "img/puntbron_straal_schaduwen.svg" %}}
 
-Je ziet dat er in {{% class "gebied A" "dark-green" %}} evenveel lichtstralen
-geraken als in {{% class "gebied B" "dark-green" %}}. Gebieden {{% class "A en B" "dark-green" %}} zijn dus even fel belicht. In
-{{% class "gebied C" "dark-red" %}} geraken **geen lichtstralen**.
-{{% class "Gebied C" "dark-red" %}} wordt dus minder belicht dan gebieden
-{{% class "A en B" "dark-green" %}}. {{% class "Gebied C" "dark-red" %}} zal
+Je ziet dat er in {{% class "**gebied A**" "green" %}} evenveel lichtstralen
+geraken als in {{% class "**gebied B**" "green" %}}. Gebieden {{% class "**A en B**" "green" %}} zijn dus even fel belicht. In
+{{% class "**gebied C**" "dark-red" %}} geraken **geen lichtstralen** omdat de
+ondoorschijnende bol in de weg staat.
+{{% class "**Gebied C**" "dark-red" %}} wordt dus minder belicht dan gebieden
+{{% class "**A en B**" "green" %}}. {{% class "**Gebied C**" "dark-red" %}} zal
 daarom **donkerder** zijn dan gebieden
-{{% class "A en B" "dark-green" %}}. We zien in {{% class "gebied C" "dark-red" %}}
-een **schaduw**.
+{{% class "**A en B**" "green" %}}. We zien in
+{{% class "**gebied C**" "dark-red" %}} een **schaduw**:
 
 {{% svg "img/puntbron_straal_schaduwen_resultaat.svg" %}}
 
-Net buiten gebied C geraken er evenveel lichtstralen als ver buiten gebied C.
-Net binnen gebied C geraakt *geen enkele* lichtstraal meer. Aan de rand van de
-schaduw is er dus een **abrupte overgang van een gelijkmatige belichting naar
-helemaal geen belichting**. Daarom zie je een **scherpe rand aan de schaduw**.
+Aan de rand van de schaduw is er een **abrupte overgang wel licht naar geen
+licht**. Je ziet met andere woorden een **scherpe rand aan de schaduw**.
 Fotografen noemen dit een *harde* schaduw.
 
 ## De schaduw tekenen van een puntlichtbron
-Om de schaduw te tekenen van ondoorzichtige bol die verlicht wordt door een
-puntlichtbron, moet je maar twee lijntjes tekenen. De **eerste lijn** verbindt de
-puntbron met de **bovenkant van de bol** , de **tweede lijn** verbindt de puntbron met
-de **onderkant van de bol**. Alle lichtstralen tussen die twee lijnen botsen
-tegen de bol en kunnen het scherm erachter onmogelijk verlichten. **Het gebied
-tussen de twee lijnen is dus schaduw**.
+Om de schaduw te tekenen van een ondoorzichtige bol die verlicht wordt door een
+puntlichtbron, moet je maar twee lijntjes tekenen. De **eerste lijn** verbindt
+de puntbron met de **bovenkant van de bol** , de **tweede lijn** verbindt de
+puntbron met de **onderkant van de bol**. Alle lichtstralen tussen die twee
+lijnen botsen tegen de bol en kunnen het scherm erachter onmogelijk verlichten.
+**Het gebied tussen de twee lijnen is dus schaduw**.
 
 {{% svg "img/puntvormige_lichtbron.svg" %}}
 
