@@ -3,5 +3,5 @@ voortplanting
 lichtbronnen
 schaduwvorming
 maanfasen_en_zonsverduistering
-kleuren_spiegels_vensters
+reflecteren_absorberen_doorlaten
 beeldvorming

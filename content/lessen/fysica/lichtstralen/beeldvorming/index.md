@@ -9,7 +9,7 @@ level: ""
 course: ""
 topic: ""
 ---
-Wanneer wit licht [invalt op een sinaasappel](../kleuren_spiegels_vensters#reflectie-absorptie)
+Wanneer wit licht [invalt op een sinaasappel](../reflecteren_absorberen_doorlaten#reflectie-absorptie)
 gaan de gereflecteerde lichtstralen alle kanten op. Omdat die oranje
 lichtstralen zo kriskras door elkaar gaan, lijkt het onmogelijk om van elke
 lichtstraal te weten waar ze vandaan kwam.
