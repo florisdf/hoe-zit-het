@@ -6,15 +6,9 @@
 
 {{ define "main" }}
 <section class="tc relative">
-  <img src="/images/landing_page/title_img.svg" class="w-75">
-  <div class="grow pointer tc center bg-gold ba br3 bw2 b--gold w-25-l w-75-m w-90 pa2 absolute"
-    style="bottom: 15%; right: 21.5%;">
-    <a class="link near-white f3 fw9" href="/lessen">Ga naar de lessen!</a>
+  <div class="vh-50 w-90 center">
+    {{ partial "landing/title_img.svg" . }}
   </div>
-  <p>
-  Leer wetenschappen en wiskunde <span class="b">écht te begrijpen</span>.
-  Stap per stap en zonder omwegen.
-  </p>
 </section>
 <section id="why" class="">
   <h2 class="tc fw1 f2 mh2">
@@ -35,7 +29,7 @@
         class="center mb2 grow pointer animated bounce delay-2s">
     </div>
     </a>
-    <div class="cf center w-50-l">
+    <div class="cf center w-50-l f4">
     {{ $title := "Doelgericht" }}
     {{ $image := "/images/landing_page/archer.png" }}
     {{ $text := "Elke les is gericht op één onderwerp. Zo kan je gaatjes in je kennis snel opvullen, zonder omwegen." }}
@@ -53,9 +47,11 @@
     </div>
 
     {{ range first 1 .Pages.ByPublishDate.Reverse }}
+    <a class="link gold f3 fw9" href="{{ .Permalink }}">
     <div class="grow pointer tc center bg-near-white ba br3 bw2 b--gold w-25-l w-75-m w-90 mv4 pa2">
-      <a class="link gold f3 fw9" href="{{ .Permalink }}">Toon mij een voorbeeld!</a>
+      Toon mij een voorbeeld!
     </div>
+    </a>
     {{ end }}
   </div>
 </section>
