@@ -1,17 +1,18 @@
 <div class="mt5 f4 br3 gray nested-lh-copy bg-light-gray ph3 pv2 measure-wide-l">
   <h4 class="ma0">Andere lessen over {{ .CurrentSection.Title | lower }}</h4>
   <ul class="list dib ma0 pa0">
+    {{ $title := .Title }}
     {{ with .CurrentSection }}
-      {{ $pageCount := len .Pages }}
-      {{ range $idx, $page := .Pages.ByWeight }}
-      <li class="dib">
-        <a href="{{ .Permalink }}" class="link mid-gray dim">
-          {{ .Title }}
-        </a>
-        {{ if ne (add $idx 1) $pageCount }} 
-        |
-        {{ end }}
-      </li>
+      {{ $pageCount := sub (len .Pages) 1 }}
+      {{ range $idx, $page := where .Pages.ByWeight "Title" "!=" $title }}
+        <li class="dib">
+          <a href="{{ .Permalink }}" class="link mid-gray dim">
+            {{ .Title }}
+          </a>
+          {{ if not (ge (add $idx 1) $pageCount) }} 
+          |
+          {{ end }}
+        </li>
       {{ end }}
     {{end}}
   </ul>
