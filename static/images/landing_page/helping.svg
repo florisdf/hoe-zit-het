@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="100"
+   height="100"
+   viewBox="0 0 100 100"
+   version="1.1"
+   id="svg22"
+   sodipodi:docname="helping.svg"
+   inkscape:version="0.92.4 (unknown)">
+  <metadata
+     id="metadata28">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs26">
+    <defs
+       id="defs6">
+      <style
+         id="style4"
+         type="text/css">
+   
+    .fil0 {fill:#000000;fill-rule:nonzero}
+   
+  </style>
+    </defs>
+  </defs>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1055"
+     id="namedview24"
+     showgrid="false"
+     inkscape:zoom="4.72"
+     inkscape:cx="18.393919"
+     inkscape:cy="68.502137"
+     inkscape:window-x="1600"
+     inkscape:window-y="25"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g20" />
+  <g
+     transform="translate(50 50) scale(0.69 0.69) rotate(0) translate(-50 -50)"
+     style="fill:#000000"
+     id="g20">
+    <g
+       style="clip-rule:evenodd;fill:#ffb700;fill-rule:evenodd;image-rendering:optimizeQuality;shape-rendering:geometricPrecision;text-rendering:geometricPrecision"
+       id="g16"
+       transform="matrix(0.05506871,0,0,0.05506871,-19.938713,-19.931345)">
+      <path
+         inkscape:connector-curvature="0"
+         style="fill:#ffb700;fill-rule:nonzero"
+         id="path8"
+         d="m 1078,1185 c 40,38 129,-20 84,-69 L 731,682 c -39,-35 -100,68 -13,151 z m 148,68 c -14,13 -30,23 -48,31 52,50 115,100 74,198 -44,102 -178,139 -271,48 l -29,-30 c -54,75 -177,95 -262,9 L 450,1275 C 370,1193 404,1050 477,988 463,914 507,827 581,802 555,717 585,618 667,582 624,451 752,358 868,403 V 263 c 0,-67 101,-67 101,0 v 222 l 244,250 c 72,80 44,204 -38,250 59,59 133,117 90,215 -9,20 -23,38 -39,53 z M 800,608 1074,883 c 59,55 103,-38 65,-80 L 854,513 c -53,-53 -148,1 -54,95 z M 650,908 c -59,-43 -86,55 -69,73 l 470,475 c 67,66 138,-17 101,-56 z m -118,168 c -25,33 -41,96 -8,130 l 239,233 c 50,51 140,12 99,-30 z"
+         class="fil0" />
+      <path
+         inkscape:connector-curvature="0"
+         style="fill:#ffb700;fill-rule:nonzero"
+         id="path10"
+         d="m 1008,1575 c 67,0 67,102 0,102 H 686 c -47,7 -45,92 34,91 h 364 l 253,-247 c 48,-47 119,25 71,72 l -268,262 c -9,9 -22,14 -35,14 v 0 H 795 c -65,6 -75,115 19,115 v 0 h 316 l 519,-467 c 16,-15 9,-44 -8,-61 l -286,-283 c -105,-128 19,-350 258,-205 162,100 431,234 490,422 105,333 -49,679 -328,808 -2,36 15,123 -54,119 -56,-4 -46,-62 -47,-91 -1,-35 -4,-94 37,-110 242,-94 388,-401 295,-696 -46,-148 -301,-276 -446,-365 -141,-86 -160,17 -129,52 l 293,290 c 49,61 48,147 -11,199 l -527,475 c -10,9 -22,15 -36,15 H 814 v 0 c -138,0 -201,-128 -156,-226 -79,-28 -122,-111 -98,-187 -240,-50 -48,-340 30,-246 52,62 -89,107 -35,138 23,13 39,10 59,10 z"
+         class="fil0" />
+      <path
+         inkscape:connector-curvature="0"
+         style="fill:#ffb700;fill-rule:nonzero"
+         id="path12"
+         d="m 854,2163 c 0,-67 102,-67 102,0 l -4,127 c -5,66 -106,59 -101,-8 z"
+         class="fil0" />
+      <path
+         inkscape:connector-curvature="0"
+         style="fill:#ffb700;fill-rule:nonzero"
+         id="path14"
+         d="m 1702,254 c 0,-67 101,-67 101,0 v 271 c 196,70 212,361 191,556 -8,66 -108,55 -101,-11 15,-145 11,-433 -145,-456 -26,-2 -46,-24 -46,-50 z"
+         class="fil0" />
+    </g>
+  </g>
+</svg>

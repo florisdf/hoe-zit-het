@@ -1,10 +1,10 @@
 {{ $title := (cond .IsNamedParams (.Get "title") (.Get 0) | default "") }}
 {{ $color := (cond .IsNamedParams (.Get "color") (.Get 1) | default "black-40") }}
-<div class="br3 ba bw2 b--{{ $color }} pv2 ph3 mv2">
-  <div class="b ttu {{ $color }}">
+<div class="br3 ba bw2 b--{{ $color }} mv2">
+  <div class="b ttu bg-{{ $color }} near-white pv1 ph3">
     {{ $title }}
   </div>
-  <div class="">
+  <div class="pa3">
     {{ .Inner | markdownify | safeHTML }}
   </div>
 </div>

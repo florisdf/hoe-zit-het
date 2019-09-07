@@ -1,15 +1,74 @@
-{{ define "main" }}
-	{{ with .Content }}
-  <article class="cf ph3 ph4-ns f4 tc center measure-wide lh-copy nested-links mid-gray">
-    {{ . }}
+{{ define "header" }}
+<header>
+  {{ partial "header/site-navigation.html" .}}
+</header>
+{{ end }}
 
-    <div class="dt center">
-    {{ with $.Site.GetPage "section" "lessen" }}
-      {{ $.Scratch.Set "link_text" "Alle " }}
-      {{ $.Scratch.Add "link_text" (.Title | lower) }}
-      {{ partial "main/button_link.html" (dict "link_url" .URL "link_text" ($.Scratch.Get "link_text") "link_color" "#DDD" "text_color" "#333") }}
-    {{ end }}
+{{ define "main" }}
+<section class="tc relative">
+  <div class="center vh-50" onClick="window.location('/lessen/fysica/krachten_1/krachtvector');">
+    {{ partial "landing/title_img.svg" . }}
+  </div>
+</section>
+<section id="why" class="">
+  <h2 class="tc fw1 f2 mh2">
+    Waarom <span class="b nowrap">hoe zit het</span>?
+  </h2>
+
+  <div style="background-color: rgba(255, 183, 0, 0.25)" class="tc mid-gray cf">
+
+    <a class="block" href="#why">
+      <div style="width: 0; height: 0;
+        border-top-width: 2rem;
+        border-right-width: 3rem;
+        border-left-width: 3rem;
+        border-style: solid;
+        border-color: rgba(244, 244, 244) transparent transparent transparent;
+        animation-iteration-count: 3;" class="center mb2 grow pointer animated bounce delay-2s">
+      </div>
+    </a>
+    <div class="cf center w-50-l f4">
+      {{ $title := "Doelgericht" }}
+      {{ $image := "/images/landing_page/archer.png" }}
+      {{ $text := "Elke les is gericht op één onderwerp. Zo kan je gaatjes in je kennis snel opvullen, zonder omwegen." }}
+      {{ partial "landing/why_block" (dict "title" $title "image" $image "text" $text) }}
+
+      {{ $title := "Gratis" }}
+      {{ $image := "/images/landing_page/free.png" }}
+      {{ $text := "Omdat iedereen recht heeft op kennis, zijn alle lessen gratis. Voor vandaag. Voor morgen. Voor altijd." }}
+      {{ partial "landing/why_block" (dict "title" $title "image" $image "text" $text) }}
+
+      {{ $title := "Verteerbaar" }}
+      {{ $image := "/images/landing_page/guts.png" }}
+      {{ $text := "Niemand houdt van saai. Daarom zijn de lessen kort en vol illustraties die je helpen om alles in een handomdraai te begrijpen." }}
+      {{ partial "landing/why_block" (dict "title" $title "image" $image "text" $text) }}
     </div>
-  </article>
-	{{ end }}
+
+    <a class="link gold f3 fw9" href="/lessen/fysica/krachten_1/krachtvector">
+      <div class="grow pointer tc center bg-near-white ba br3 bw2 b--gold w-25-l w-75-m w-90 mv4 pa2">
+        Toon mij een voorbeeld!
+      </div>
+    </a>
+  </div>
+</section>
+
+{{ $title_student := "Voor leerlingen" }}
+{{ $img_student := "/images/landing_page/student.svg" }}
+{{ $text_student := "Zit je ergens vast bij wiskunde of fysica? Met <span class=\"i nowrap\">Hoe Zit Het?</span> heb je de <span class=\"b\">leerstof razendsnel onder de knie</span>. Neem maar eens een kijkje naar <a href=\"/lessen\">onze lessen</a>. Ze zijn kort, krachtig, vol illustraties en bovenal helemaal gratis!" }}
+{{ $dict_student := (dict "title"  $title_student "img" $img_student "text" $text_student ) }}
+
+{{ $title_teacher := "Voor leerkrachten" }}
+{{ $img_teacher := "/images/landing_page/teacher.svg" }}
+{{ $text_teacher := "Als leerkracht wil je de leerstof graag begrijpbaar uitleggen. Duidelijke illustraties kunnen daar al goed bij helpen. Daarom mag je van ons <span class=\"b\">alle illustraties</span> op <span class=\"i nowrap\">Hoe Zit Het?</span> <span class=\"b\">helemaal gratis</span> gebruiken in je eigen lessen." }}
+{{ $dict_teacher := (dict "title"  $title_teacher "img" $img_teacher "text" $text_teacher ) }}
+
+{{ $title_help := "Meehelpen?" }}
+{{ $img_help := "/images/landing_page/helping.svg" }}
+{{ $text_help := "Heb jij ook een passie voor uitleggen? Word je wild van wiskunde en wetenschappen? Top! Wij zijn voortdurend <span class=\"b\">op zoek naar vrijwilligers</span> om te helpen bij het maken van nieuwe lessen. Geïnteresseerd? Stuur dan snel een mailtje naar <a href=\"mailto:info@hoezithet.nu\">info@hoezithet.nu</a>!" }}
+{{ $dict_help := (dict "title"  $title_help "img" $img_help "text" $text_help ) }}
+
+{{ range $idx, $kwargs := (slice $dict_student $dict_teacher $dict_help) }}
+  {{ partial "landing/target_section" ( merge $kwargs (dict "idx" $idx) ) }}
+{{ end }}
+
 {{ end }}
