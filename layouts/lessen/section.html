@@ -7,6 +7,8 @@
   {{ partial "header/site-header.html" . }}
 {{ end }}
 
+{{ define "mathjax" }} {{ partial "head/mathjax" . }} {{ end }}
+
 {{ define "main" }}
 <article class="pa3 pa4-ns nested-copy-line-height nested-img">
   {{ with .Content }}

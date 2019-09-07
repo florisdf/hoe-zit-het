@@ -28,25 +28,17 @@
 
     {{ block "jquery" . }}{{ partial "footer/jquery" . }}{{ end }}
 
-    {{ block "bokeh" . }}
-      {{ partial "head/bokeh" . }}
-    {{ end }}
+    {{ block "bokeh" . }}{{ end }}
 
-    {{ block "mathjax" . }}
-      {{ partial "head/mathjax" . }}
-    {{ end }}
+    {{ block "mathjax" . }}{{ end }}
     
     {{ block "adsense". }}
       {{ partial "head/adsense" . }}
     {{ end }}
 
-    {{ block "fancybox" . }}
-      {{ partial "head/fancybox" . }}
-    {{ end }}
+    {{ block "fancybox" . }}{{ end }}
 
-    {{ block "bounce" . }}
-      {{ partial "head/bounce" . }}
-    {{ end }}
+    {{ block "bounce" . }}{{ end }}
 
     {{ if .RSSLink }}
       <link href="{{ .RSSLink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />

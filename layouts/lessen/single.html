@@ -4,6 +4,10 @@
   </header>
 {{ end }}
 
+{{ define "mathjax" }} {{ partial "head/mathjax" . }} {{ end }}
+{{ define "bokeh" }} {{ partial "head/bokeh" . }} {{ end }}
+{{ define "fancybox" }} {{ partial "head/fancybox" . }} {{ end }}
+
 {{ define "main" }}
   <div class="mw8 center ph3">
     <h1 class="f1" style="color: {{ $.Parent.Params.section_color }};">
