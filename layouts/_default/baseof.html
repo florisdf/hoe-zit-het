@@ -17,33 +17,35 @@
     {{ end }}
 
 		{{ block "custom_fonts" . }}
-			{{ partial "head/custom-fonts.html" . }}
+			{{ partial "head/custom-fonts" . }}
+    {{ end }}
+    {{ block "tachyons" . }}
+			{{ partial "head/tachyons" . }}
 		{{ end }}
-    <link href="/dist/main.css" rel='stylesheet' type="text/css" />
     {{ block "favicon" . }}
-      {{ partial "head/site-favicon.html" . }}
+      {{ partial "head/site-favicon" . }}
     {{ end }}
 
-    {{ block "jquery" . }}{{ partial "footer/jquery.html" . }}{{ end }}
+    {{ block "jquery" . }}{{ partial "footer/jquery" . }}{{ end }}
 
     {{ block "bokeh" . }}
-      {{ partial "head/bokeh.html" . }}
+      {{ partial "head/bokeh" . }}
     {{ end }}
 
     {{ block "mathjax" . }}
-      {{ partial "head/mathjax.html" . }}
+      {{ partial "head/mathjax" . }}
     {{ end }}
     
     {{ block "adsense". }}
-      {{ partial "head/adsense.html" . }}
+      {{ partial "head/adsense" . }}
     {{ end }}
 
     {{ block "fancybox" . }}
-      {{ partial "head/fancybox.html" . }}
+      {{ partial "head/fancybox" . }}
     {{ end }}
 
     {{ block "bounce" . }}
-      {{ partial "head/bounce.html" . }}
+      {{ partial "head/bounce" . }}
     {{ end }}
 
     {{ if .RSSLink }}
@@ -59,18 +61,21 @@
 
     {{ if eq (getenv "HUGO_ENV") "production" | or (eq .Site.Params.env "production")  }}
       {{ template "_internal/google_analytics_async.html" . }}
-      {{ partial "head/cookies.html" }}
+      {{ partial "head/cookies" }}
     {{ end }}
-    <!-- Load last to override all -->
-		<link href="/css/custom_styles.css" rel="stylesheet" type="text/css" />
+
+    <!-- Load last to override all previous css -->
+    {{ block "custom_styles" . }}
+      {{ partial "head/custom_styles" . }}
+    {{ end }}
   </head>
 
   <body class="ma0 {{ $.Param "body_classes"  | default "avenir bg-near-white"}}{{ with getenv "HUGO_ENV" }} {{ . }}{{ end }}">
 
-    {{ block "header" . }}{{ partial "header/site-header.html" .}}{{ end }}
+    {{ block "header" . }}{{ partial "header/site-header" .}}{{ end }}
     <main role="main">
       {{ block "main" . }}{{ end }}
     </main>
-    {{ block "footer" . }}{{ partial "footer/site-footer.html" . }}{{ end }}
+    {{ block "footer" . }}{{ partial "footer/site-footer" . }}{{ end }}
   </body>
 </html>
