@@ -4,3 +4,4 @@ public
 __pycache__
 node_modules
 firebase-debug.log
+.vscode
