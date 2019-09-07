@@ -1,18 +1,17 @@
 {{ define "header" }}
-{{ $.Scratch.Set "title_img" "/images/404.svg" }}
-{{ partial "header/site-header.html" . }}
+{{ partial "header/site-navigation.html" . }}
 {{ end }}
 
 {{ define "main" }}
-<article class="center cf pv5 measure-wide-l">
-  <h1 class="tc">Hier zit je niet goed...</h1>
-  <p>De pagina die je zoekt, bestaat (nog) niet.</p>
-
-  <p>Stuur een mailtje naar
-  <a href="mailto:info@hoezithet.net?subject=Ik mis een les">
-    info@hoezithet.net
-  </a>
-  als je een les zocht die je er graag zo snel mogelijk bij hebt.</p>
-  <div class="tc">Terug naar de <a href="javascript:history.back()">vorige pagina</a>!</div>
+<article class="tc f4">
+  <img src="/images/404.svg" alt="404" />
+  <h1>Hier zit je niet goed...</h1>
+  <p class="">De pagina die je zoekt, bestaat (nog) niet.<br>
+    Stuur een mailtje naar
+    <a href="mailto:info@hoezithet.net?subject=Ik mis een les">
+      info@hoezithet.net
+    </a>
+    als je een les zocht die je er graag zo snel mogelijk bij hebt.</p>
+  <div>Terug naar de <a href="javascript:history.back()">vorige pagina</a>!</div>
 </article>
 {{ end }}
