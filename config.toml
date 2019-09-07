@@ -1,7 +1,6 @@
 title = "hoe zit het?"
 baseURL = "https://hoezithet.nu/"
 languageCode = "nl-be"
-theme = "gohugo-theme-ananke"
 pluralizelisttitles = "false"
 
 MetaDataFormat = "yaml"
