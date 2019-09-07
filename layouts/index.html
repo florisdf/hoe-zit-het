@@ -47,7 +47,7 @@
     </div>
 
     {{ range first 1 .Pages.ByPublishDate.Reverse }}
-    <a class="link gold f3 fw9" href="{{ .Permalink }}">
+    <a class="link gold f3 fw9" href="{{ .RelPermalink }}">
     <div class="grow pointer tc center bg-near-white ba br3 bw2 b--gold w-25-l w-75-m w-90 mv4 pa2">
       Toon mij een voorbeeld!
     </div>
@@ -60,18 +60,17 @@
   <h1>Voor leerlingen</h1>
   <img class="h4" src="/images/landing_page/student.png">
   <p class="">
-  	Een vraag over je leerstof, die heb je liefst zo snel mogelijk opgelost.
-  Je hebt geen zin om eerst een hele encyclopedie te moeten lezen en dan te
-  beseffen dat je het nog steeds niet begrijpt. Daarom zijn de lessen van 
-  <span class="b" >hoe zit het</span> kort gehouden en gaan ze steeds over één stukje van de leerstof.
-  Zo kan je enkel de stukjes eruit halen die je niet begreep.
+  	Zit je ergens vast bij wiskunde of fysica?
+      <a href="/lessen">De lessen</a> op <span class="i">Hoe Zit Het?</span>
+      helpen je om razendsnel de leerstof onder de knie te krijgen.
+      Ze zijn kort, krachtig en vol illustraties.
   </p>
 </section>
 
 <section class="mid-gray f4 tc pa3" style="background-color: rgba(255, 183, 0, 0.25)">
   <h1>Voor leerkrachten</h1>
   <p class="">
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+  	
   </p>
   <img class="h4" src="/images/landing_page/teacher.png">
 </section>
