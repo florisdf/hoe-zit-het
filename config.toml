@@ -21,7 +21,6 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
   favicon = "/images/favicon.png"
   description = "Wetenschap verlicht"
   facebook = "https://fb.me/hoezithet"
-  instagram = "https://instagram.com"
   github = "https://github.com/florisdf/hoe-zit-het"
   background_color_class = "bg-near-white"
   featured_image = "/images/logo.png"
