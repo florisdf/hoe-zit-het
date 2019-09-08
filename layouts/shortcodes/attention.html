@@ -1,6 +1,6 @@
 {{ $title := (cond .IsNamedParams (.Get "title") (.Get 0) | default "") }}
 {{ $color := (cond .IsNamedParams (.Get "color") (.Get 1) | default "black-40") }}
-<div class="br3 ba bw2 b--{{ $color }} mv2">
+<div class="br3 ba bw2 b--{{ $color }} mv2" style="overflow:hidden">
   <div class="b ttu bg-{{ $color }} near-white pv1 ph3">
     {{ $title }}
   </div>
