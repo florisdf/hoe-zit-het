@@ -23,7 +23,7 @@ heeft.
 {{% svg "img/grootte_richting_zin.svg" %}}
 
 Om te weten wat er met een voorwerp gaat gebeuren wanneer krachten erop
-inwerken, moeten we eerst al die krachten tekenen. Let wel op dat je **enkel de
+inwerken, moeten we eerst al die inwerkende krachten tekenen. Let wel op dat je **enkel de
 krachten tekent die op het voorwerp inwerken** en **niet de krachten die het
 voorwerp zelf uitoefent** op een ander voorwerp.
 
@@ -122,8 +122,8 @@ leren berekenen.
 
 In [de volgende les](../snelheidsverandering) leren we dat Maria door deze
 resulterende kracht **een snelheidsverandering zal hebben naar rechtsbeneden**.
-Met andere woorden versnelt Maria naar rechtsbeneden. Dat komt overeen met wat
-we intuïtief zouden verwachten. 👍
+Met andere woorden *versnelt* Maria naar rechtsbeneden. Dat komt overeen met wat
+we verwachten. 👍
 
 ## Samengevat
 {{% attention "Krachten op een voorwerp tekenen" %}}
