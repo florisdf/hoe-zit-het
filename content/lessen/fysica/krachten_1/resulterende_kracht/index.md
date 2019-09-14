@@ -14,6 +14,7 @@ te weten wat er met het voorwerp zal gebeuren, moeten we die **krachten
 combineren tot een resulterende kracht**.
 
 ## Krachten op een voorwerp tekenen
+
 In [een vorige les](../krachtvector) zagen we dat kracht een vectoriële
 grootheid is. We kunnen daarom een kracht voorstellen met een pijl die een
 [grootte, richting, zin en
@@ -29,7 +30,7 @@ voorwerp zelf uitoefent** op een ander voorwerp.
 
 Stel dat Maria en Dirk op een schaatsbaan staan en tegen elkaar duwen.
 
-(illustratie)
+{{% svg "img/schaatsbaan_setup.png" %}}
 
 Als we willen weten wat er met Maria gaat gebeuren, moeten we alle krachten
 tekenen die **op Maria** ingrijpen. De kracht die Maria zelf op Dirk uitoefent,
@@ -37,50 +38,50 @@ hoort daar dus niet bij.
 
 De krachten op Maria zijn:
 
-* de kracht van Dirk op Maria $\vec{F}_{DM}$,
-* [de zwaartekracht](../zwaartekracht) $\vec{F}_{zM}$  die de aarde uitoefent
+* de kracht van Dirk op Maria $\red{\vec{F}_{DM}}$,
+* [de zwaartekracht](../zwaartekracht) $\red{\vec{F}_{zM}}$  die de aarde uitoefent
 op Maria,
-* [de normaalkracht](../normaalkracht) $\vec{F}_{nM}$ die de schaatsbaan
+* [de normaalkracht](../normaalkracht) $\red{\vec{F}_{nM}}$ die de schaatsbaan
 uitoefent op Maria.
 
-(illustratie)
+{{% svg "img/krachten_maria.png" %}}
 
-We kunnen ook de krachten tekenen die op Dirk inwerken. De kracht die Dirk op
+We kunnen ook de krachten tekenen die op Dirk inwerken. De kracht die Dirk zelf op
 Maria uitoefent, hoort daar niet bij.
 
 De krachten op Dirk zijn:
 
-* de kracht van Maria op Dirk $\vec{F}_{MD}$, 
-* de zwaartekracht $\vec{F}_{zD}$ die de aarde uitoefent op Dirk,
-* de normaalkracht $\vec{F}_{nD}$ die de schaatsbaan uitoefent op Dirk.
+* de kracht van Maria op Dirk $\red{\vec{F}_{MD}}$,
+* de zwaartekracht $\red{\vec{F}_{zD}}$ die de aarde uitoefent op Dirk,
+* de normaalkracht $\red{\vec{F}_{nD}}$ die de schaatsbaan uitoefent op Dirk.
 
-(illustratie)
+{{% svg "img/krachten_dirk.png" %}}
 
 ## Resulterende kracht tekenen
+
 Eens we alle krachten op een voorwerp hebben getekend, kunnen we die krachten
 **combineren tot één resulterende kracht**. Met die resulterende kracht zullen
-we dan later leren voorspellen wat er met het voorwerp gaat gebeuren 🔮. 
-
-(illustratie)
+we dan later leren voorspellen wat er met het voorwerp gaat gebeuren 🔮.
 
 Stel dat Maria het schaatsen beu is en ze zich wilt wagen aan een potje
 skateboarden. Wij gaan de resulterende kracht zoeken die op Maria inwerkt
 tijdens haar *drop* van de *halfpipe*.
 
-(illustratie)
+{{% svg "img/maria_drop.png" %}}
 
-Als we de wrijving met de wind en de halfpipe verwaarlozen, zijn er twee
+Als we de wrijving met de wind en de halfpipe verwaarlozen, zijn er drie
 krachten die inwerken op de droppende Maria:
 
-1. [de zwaartekracht](../zwaartekracht) $\vec{F}_{zM}$ die de aarde uitoefent
+1. [de zwaartekracht](../zwaartekracht) $\red{\vec{F}_{zM}}$ die de aarde uitoefent
 op Maria,
-2. [de normaalkracht](../normaalkracht) $\vec{F}_{nM}$ die de halfpipe
-uitoefent op Maria.
+2. [een normaalkracht](../normaalkracht) op beide voeten van Maria, veroorzaakt door
+het steunen op het skateboard. We duiden de krachten aan als
+$\red{\vec{F}\_{nM,1}}$ en $\red{\vec{F}\_{nM,2}}$.
 
-(illustratie)
+{{% svg "img/maria_drop_krachten.png" %}}
 
 We willen deze krachten nu combineren tot één resulterende kracht
-$\vec{F}_{rM}$. Dat doen we door de krachtvectoren **vectorieel op te tellen**.
+$\red{\vec{F}_{rM}}$. Dat doen we door de krachtvectoren **vectorieel op te tellen**.
 Dat kan op twee manieren:
 
 1. via de kop-staartmethode,
@@ -112,7 +113,7 @@ hoek van het parallellogram te tekenen.
 
 {{% /attention %}}
 
-Beide methoden geven dezelfde resulterende kracht $\vec{F}_{rM}$:
+Beide methoden geven dezelfde resulterende kracht $\red{\vec{F}_{rM}}$:
 
 (illustratie)
 
