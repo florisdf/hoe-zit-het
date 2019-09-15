@@ -102,14 +102,15 @@ Dit is de resulterende kracht.
 
 {{% attention "Parallellogram-methode" %}}
 Bij de parallellogram-methode leggen we eerst de *staarten* van beide vectoren
-op elkaar en maken we vervolgens een parallellogram van de krachten.
+op elkaar.
 
-(illustratie)
+{{% svg "img/parallellogram_1.png" %}}
 
-We krijgen de resulterende kracht door een vector van de staarten naar de vrije
+Vervolgens maken we een parallellogram van de krachten. We krijgen de
+resulterende kracht door een vector van de staarten naar de vrije
 hoek van het parallellogram te tekenen.
 
-(illustratie)
+{{% svg "img/parallellogram_2.png" %}}
 
 {{% /attention %}}
 
