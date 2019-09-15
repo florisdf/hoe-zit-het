@@ -80,7 +80,7 @@ $\red{\vec{F}\_{nM,1}}$ en $\red{\vec{F}\_{nM,2}}$.
 
 {{% svg "img/maria_drop_krachten.png" %}}
 
-We willen deze krachten nu combineren tot één resulterende kracht
+We willen deze drie krachten nu combineren tot één resulterende kracht
 $\red{\vec{F}_{rM}}$. Dat doen we door de krachtvectoren **vectorieel op te tellen**.
 Dat kan op twee manieren:
 
@@ -88,14 +88,14 @@ Dat kan op twee manieren:
 2. via de parallellogram-methode.
 
 {{% attention "kop-staartmethode" %}}
-Bij de kop-staartmethode plaatsen we de *staart* van de ene vector aan de *kop*
-van de andere.
+Bij de kop-staartmethode plaatsen we de *staart* van de tweede vector aan de *kop*
+van de eerste.
 
-(illustratie)
+{{% svg "img/kopstaart_1.png" %}}
 
 Vervolgens verbinden we de vrije staart met de vrije kop.
 
-(illustratie)
+{{% svg "img/kopstaart_2.png" %}}
 
 Dit is de resulterende kracht.
 {{% /attention %}}
@@ -113,13 +113,23 @@ hoek van het parallellogram te tekenen.
 
 {{% /attention %}}
 
-Beide methoden geven dezelfde resulterende kracht $\red{\vec{F}_{rM}}$:
+De twee normaalkrachten $\red{\vec{F}\_{nM,1}}$ en $\red{\vec{F}\_{nM,2}}$
+kunnen we eenvoudig optellen met de kop-staartmethode. We leggen de staart van
+$\red{\vec{F}\_{nM,2}}$ aan de kop van $\red{\vec{F}\_{nM,1}}$. Zo krijgen we
+één normaalkracht die we $\red{\vec{F}\_{nM}}$ noemen.
 
 (illustratie)
 
-De resulterende kracht wijst dus naar rechtsbeneden. De grootte van de
-resulterende kracht {{% mute "(in newton)" %}} zullen we in een andere les
-leren berekenen.
+Vervolgens gaan we $\red{\vec{F}\_{nM}}$ vectorieel optellen bij
+$\red{\vec{F}\_{zM}}$ om de resulterende vector te krijgen. Dit kunnen we ook met
+de kop-staartmethode doen, maar doen we voor de volledigheid eens met de
+parallellogram-methode. De resulterende kracht noemen we $\red{\vec{F}_{rM}}$.
+
+(illustratie)
+
+We zien dat de resulterende kracht $\red{\vec{F}_{rM}}$ naar rechtsbeneden wijst.
+De grootte van de resulterende kracht {{% mute "(in newton)" %}} zullen we in een
+andere les leren berekenen.
 
 In [de volgende les](../snelheidsverandering) leren we dat Maria door deze
 resulterende kracht **een snelheidsverandering zal hebben naar rechtsbeneden**.
