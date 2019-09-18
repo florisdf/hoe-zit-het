@@ -34,7 +34,7 @@ $$f(x) = \sqrt{x}$$
 
 Omdat de [wortel van een negatief
 getal](../../rekenen/vierkantswortel#vierkantswortel-van-een-negatief-getal)
-geen [reëel getal](../../verzamelingen/reele_getallen) is, kan $f(x)$ niet reëel zijn 
+geen reëel getal is, kan $f(x)$ niet reëel zijn 
 voor negatieve x-waarden. Er bestaan met andere woorden géén y-waarden
  voor negatieve x-waarden. 
 Het domein
@@ -54,7 +54,7 @@ Een typisch voorbeeld is het beeld van de [reële functie](../reele_functies) di
 
 $$f(x) = x^2$$
 
-Omdat het kwadraat van elk [reëel getal](../../verzamelingen/reele_getallen) positief is, kunnen er uit deze functie $f$ enkel *positieve* getallen komen. Met andere woorden is het beeld van deze functie alle *positieve* reële getallen. We schrijven:
+Omdat het kwadraat van elk reëel getal positief is, kunnen er uit deze functie $f$ enkel *positieve* getallen komen. Met andere woorden is het beeld van deze functie alle *positieve* reële getallen. We schrijven:
 $$bld f = \mathbb{R}^+$$
 
 Dit kunnen we natuurlijk ook schrijven als een [interval](../../verzamelingen/intervallen):

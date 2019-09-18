@@ -45,7 +45,7 @@ Er staat niet voor niets een *dubbele pijl* ($\Leftrightarrow$) tussen de vergel
 \Leftrightarrow\quad &x + &2 &= &-3x - &1
 \end{split}
 
-Zulke pijlen zijn symbolen uit de logica. Een dubbele pijl wijst op een [equivalentie](../../logica/pijlen#dubbele_pijl), een enkele pijl op een [implicatie](../../logica/pijlen#dubbele_pijl).
+Zulke pijlen zijn symbolen uit de logica. Een dubbele pijl wijst op een equivalentie, een enkele pijl op een implicatie.
 {{% /expand %}}
 
 ## Vergelijkingen oplossen door om te vormen
