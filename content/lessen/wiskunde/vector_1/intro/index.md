@@ -5,39 +5,91 @@ weight: 1
 draft: true
 ---
 
-Over cijfers en getallen heb je al heel veel gehoord in je lessen wiskunde. Je had het misschien niet gedacht, maar wiskunde gaat niet enkel over getallen. Naast getallen, zijn er bijvoorbeeld ook **vectoren**, en die zijn *minstens* even belangrijk.
+Over cijfers en getallen heb je al heel veel gehoord in je lessen wiskunde. Je
+had het misschien niet gedacht, maar wiskunde gaat niet enkel over getallen.
+Naast getallen, zijn er bijvoorbeeld ook **vectoren**, en die zijn *minstens*
+even belangrijk.
 
-# Een vector is een pijl
-Een vector is eigenlijk gewoon een **rechte pijl**.
+## Een vector is een pijl
 
-(illustratie)
+Een vector is niet meer dan een **rechte pijl**.
 
-Vectoren kunnen, net als getallen, gelijk zijn aan elkaar. De onderstaande vectoren, zijn bijvoorbeeld **gelijk**.
+{{% svg "img/vector_is_arrow.png" %}}
 
-(illustratie)
+We geven vectoren vaak een naam, zoals vector $\vec{v}$ en vector $\vec{w}$.
+Merk op dat we een pijltje zetten boven de naam van een vector.
 
-De vectoren in de volgende figuur, daarentegen, zijn **niet gelijk**.
-
-(illustratie verschillende richting)
-
-Deze vectoren, ten slotte, zijn ook **niet gelijk**.
-
-(illustratie verschillende zin)
+| Schrijf | Lees |
+|---------|------|
+|$\vec{v}$| De vector $\vec{v}$ |
+| $\vec{w}$ | De vector $\vec{w}$ |
 
 ## Een vector heeft een grootte, een richting en een zin
 
-Je ziet dat vectoren enkel gelijk zijn wanneer ze even lang zijn en wanneer ze dezelfde richting uit wijzen.
+Vectoren hebben drie eigenschappen: een grootte, een richting en een zin. Als
+twee vectoren **dezelfde grootte, richting en zin** hebben, dan zijn die
+vectoren **gelijk**. De volgende twee vectoren, zijn bijvoorbeeld gelijk:
 
+{{% svg "img/equal_vectors.png" %}}
 
-Bij een **vectoriële grootheid** hoort altijd **een richting**. Verplaatsing,
-bijvoorbeeld, is een vectoriële grootheid. Als je alleen de afstand kent die
-iemand heeft afgelegd, kan je niet exact weten waar die persoon is geëindigd.
-Je moet niet alleen weten hoe ver de persoon is gestapt, je moet ook weten
-**welke richting** de persoon is uit gegaan.
+De **grootte** van de vector is **hoe lang** de vector is. De grootte van een
+vector is **altijd positief**. We noteren de grootte van een vector $\vec{v}$
+als $\norm{\vec{v}}$ of ook wel gewoon als $v$
+{{% mute "(geen pijltje op de $v$)" %}}.
 
-{{% svg "img/verplaatsingsvector_1.svg" %}}
+| Schrijf | Lees |
+|---------|------|
+|$\norm{\vec{v}}$| De grootte van $\vec{v}$ |
+|$v$| De grootte van $\vec{v}$ |
 
-**Hoe ver** de persoon stapte, noemen we de **grootte** van de verplaatsing.
-**Waarheen** de persoon stapte, noemen we de **richting** van de verplaatsing.
+De volgende twee vectoren, hebben een verschillende grootte, en
+zijn daarom niet gelijk aan elkaar:
 
-{{% svg "img/verplaatsingsvector_2.svg" %}}
+{{% svg "img/diff_length.png" %}}
+
+De **richting** van een vector zegt **aan welke rechte de vector evenwijdig
+is**. Bijvoorbeeld: *"verticaal"*, of *"horizontaal"*, of *"onder een hoek van
+$15\deg$"*. De vectoren in de onderstaande illustratie, hebben een verschillende
+richting, en zijn daarom niet gelijk aan elkaar.
+
+{{% svg "img/diff_richting.png" %}}
+
+De **zin** van een vector zegt **naar welke kant de vector wijst**. Dat kan
+bijvoorbeeld *"naar links"*, *"naar rechts"*, of *"naar beneden"* zijn. De
+volgende twee vectoren, hebben een verschillende zin, en zijn daarom niet gelijk
+aan elkaar:
+
+{{% svg "img/diff_zin.png" %}}
+
+Deze figuur toont de drie eigenschappen van een vector samen:
+
+{{% svg "img/vector_props.png" %}}
+
+## Waarom toch?
+
+Het is heel normaal als je je op dit moment afvraagt: **"Waarom, in godsnaam,
+zijn die pijlen zo belangrijk?"** Er zijn heel veel verschillende redenen waarom
+vectoren belangrijk zijn. Een van de meest voor de hand liggende redenen is dat
+**veel grootheden in de fysica zich gedragen als vectoren** omdat ze ook een
+grootte, een richting en een zin hebben. Positie, verplaatsing, snelheid, kracht
+en versnelling zijn bijvoorbeeld allemaal vectoriële grootheden. In de [volgende
+les](../vectoriele_grootheden) gaan we iets dieper in op vectoriële grootheden.
+
+Er zijn echter **nog vele andere toepassingsgebieden** van vectoren, maar daar
+kunnen we helaas hier niet verder op in gaan. Enkele voorbeelden: special
+effects in films, video games, stelsels van vergelijkingen oplossen, artificiële
+intelligentie,...
+
+## Samengevat
+
+{{% attention "Een vector is een pijl met een grootte, richting en zin" %}}
+
+* Een vector is een pijl en heeft een grootte, een richting en een zin;
+* Wanneer twee vectoren dezelfde grootte, richting en zin hebben, zijn die
+  vectoren gelijk;
+* We noteren de naam van een vector als een letter met een pijltje boven,
+  bijvoorbeeld $\vec{v}$.
+
+{{% svg "img/summary.png" %}}
+
+{{% /attention %}}
