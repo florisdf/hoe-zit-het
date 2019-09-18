@@ -1,5 +1,6 @@
 intro
 krachtvector
+kracht_op_lichaam
 resulterende_kracht
 snelheidsverandering
 zwaartekracht

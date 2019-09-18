@@ -11,3 +11,4 @@ logica
 reele_getallen
 complexe_getallen
 1g_vgl
+vectoren

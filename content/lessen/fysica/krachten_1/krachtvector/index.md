@@ -13,25 +13,13 @@ topic: ""
 de speciale eigenschappen van de grootheid *kracht* is dat ze een **vectoriële
 grootheid** is.
 
-## Vectoriële grootheden
-Bij een **vectoriële grootheid** hoort altijd **een richting**. Verplaatsing,
-bijvoorbeeld, is een vectoriële grootheid. Als je alleen de afstand kent die
-iemand heeft afgelegd, kan je niet exact weten waar die persoon is geëindigd.
-Je moet niet alleen weten hoe ver de persoon is gestapt, je moet ook weten
-**welke richting** de persoon is uit gegaan.
+## Kracht is een vectoriële grootheid
 
-{{% svg "img/verplaatsingsvector_1.svg" %}}
-
-**Hoe ver** de persoon stapte, noemen we de **grootte** van de verplaatsing.
-**Waarheen** de persoon stapte, noemen we de **richting** van de verplaatsing.
-
-{{% svg "img/verplaatsingsvector_2.svg" %}}
-
-Kracht is een ander voorbeeld van een vectoriële grootheid. Als je wilt weten
+Als je wilt weten
 wat er met een slee gebeurt als iemand eraan trekt, moet je
 niet alleen weten **hoe hard** {{% mute "(= grootte)" %}},
 maar ook **in welke richting** {{% mute "(= richting)" %}} er aan de slee getrokken
-wordt.
+wordt. Kracht is dus een vectoriële grootheid. 
 
 {{% svg "img/krachtvector.svg" %}}
 
