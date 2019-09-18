@@ -1,5 +1,5 @@
 ---
-title: "Vectoren optellen"
+title: "Vectoren grafisch optellen"
 date: 2019-09-18T08:04:17+02:00
 weight: 3
 draft: true
