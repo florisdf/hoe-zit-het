@@ -1,7 +1,7 @@
 ---
 title: "Vectoren optellen"
 date: 2019-09-18T08:04:17+02:00
-weight: 2
+weight: 3
 draft: true
 ---
 

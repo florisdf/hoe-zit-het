@@ -3,11 +3,6 @@ title: "Kracht als vector"
 date: 2019-05-24T11:03:10+02:00
 weight: 2
 draft: false
-tags: []
-categories: []
-level: ""
-course: ""
-topic: ""
 ---
 [Kracht](../intro) is een maat voor hoe er geduwd of getrokken wordt. Een van
 de speciale eigenschappen van de grootheid *kracht* is dat ze een **vectoriële
@@ -15,11 +10,10 @@ grootheid** is.
 
 ## Kracht is een vectoriële grootheid
 
-Als je wilt weten
-wat er met een slee gebeurt als iemand eraan trekt, moet je
-niet alleen weten **hoe hard** {{% mute "(= grootte)" %}},
-maar ook **in welke richting** {{% mute "(= richting)" %}} er aan de slee getrokken
-wordt. Kracht is dus een vectoriële grootheid. 
+Als je wilt weten wat er met een slee gebeurt als iemand eraan trekt, moet je
+niet alleen weten **hoe hard** {{% mute "(= grootte)" %}}, maar ook **in welke
+richting** {{% mute "(= richting)" %}} er aan de slee getrokken wordt. Kracht is
+dus een vectoriële grootheid.
 
 {{% svg "img/krachtvector.svg" %}}
 
@@ -37,6 +31,7 @@ Voor de duidelijkheid gaan we bij krachten soms in de *index* {{% mute "(rechts 
 | $\vec{F}_{AB}$ | De kracht die *A* uitoefent op *B* |
 
 ## Grootte, richting, zin en aangrijpingspunt
+
 De **grootte** van een krachtvector $\vec{F}$ zegt **hoeveel kracht** er wordt
 uitgeoefend. De grootte van een kracht is **altijd positief**. We noteren de
 grootte van $\vec{F}$ als $\norm{\vec{F}}$ of als $F$
