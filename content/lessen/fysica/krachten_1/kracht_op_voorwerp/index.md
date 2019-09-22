@@ -14,7 +14,11 @@ heeft.
 {{% svg "img/grootte_richting_zin.svg" %}}
 
 Om te weten wat er met een voorwerp gaat gebeuren wanneer krachten erop
-inwerken, moeten we eerst al die inwerkende krachten tekenen. Let wel op dat je **enkel de
+inwerken, moeten we eerst al die inwerkende krachten tekenen.
+
+## Enkel krachten op het voorwerp
+
+Let wel op dat je **enkel de
 krachten tekent die op het voorwerp inwerken** en **niet de krachten die het
 voorwerp zelf uitoefent** op een ander voorwerp.
 
