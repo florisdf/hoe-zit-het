@@ -71,14 +71,16 @@ Het is heel normaal als je je op dit moment afvraagt: **"Waarom, in godsnaam,
 zijn die pijlen zo belangrijk?"** Er zijn heel veel verschillende redenen waarom
 vectoren belangrijk zijn. Een van de meest voor de hand liggende redenen is dat
 **veel grootheden in de fysica zich gedragen als vectoren** omdat ze ook een
-grootte, een richting en een zin hebben. Positie, verplaatsing, snelheid, kracht
+grootte, een richting en een zin hebben.
+
+Positie, verplaatsing, snelheid, kracht
 en versnelling zijn bijvoorbeeld allemaal vectoriële grootheden. In de [volgende
 les](../vectoriele_grootheden) gaan we iets dieper in op vectoriële grootheden.
 
 Er zijn echter **nog vele andere toepassingsgebieden** van vectoren, maar daar
 kunnen we helaas hier niet verder op in gaan. Enkele voorbeelden: special
 effects in films, video games, stelsels van vergelijkingen oplossen, artificiële
-intelligentie,...
+intelligentie...
 
 ## Samengevat
 
