@@ -10,13 +10,13 @@ grootte, een richting en een zin. Na die les ben je misschien nog niet volledig
 overtuigd dat vectoren wel degelijk nuttig zijn. Daarom tonen we in deze les een
 voorbeeld van hoe vectoren kunnen voorkomen in de echte wereld.
 
-## Vectoriële grootheden hebben een richting
+## Vectoriële grootheden hebben een richting en een zin
 
-Bij een **vectoriële grootheid** hoort altijd **een richting** en **een zin**. Verplaatsing,
+**Vectoriële grootheid** hebben altijd **een richting** en **een zin**. Verplaatsing,
 bijvoorbeeld, is een vectoriële grootheid. Als je alleen de afstand kent die
 iemand heeft afgelegd, kan je niet exact weten waar die persoon is geëindigd. Je
-moet niet alleen weten hoe ver de persoon is gestapt, je moet ook weten **welke
-richting** de persoon is uit gegaan.
+moet niet alleen weten hoe ver de persoon is gestapt, je moet ook weten
+**waarheen**.
 
 {{% svg "img/verplaatsingsvector_1.svg" %}}
 
@@ -27,7 +27,7 @@ richting** de persoon is uit gegaan.
 
 Andere voorbeelden van vectoriële grootheden zijn o.a. snelheid, versnelling en kracht.
 
-(illustratie met voorbeelden van vectoriële grootheden)
+{{% svg "img/vec_examples.png" %}}
 
 
 ## Scalaire grootheden hebben géén richting
@@ -36,7 +36,7 @@ Er zijn natuurlijk ook veel grootheden die geen richting hebben. Hoeveel kilogra
 
 We noemen temperatuur en massa daarom **scalaire grootheden**. Ze hebben **enkel een getalwaarde** {{% mute "(scalar = getal)" %}}. We kunnen geen vectoren gebruiken om de grootheden te beschrijven.
 
-(illustratie met voorbeelden van scalaire grootheden)
+{{% svg "img/scal_examples.png" %}}
 
 ## Samengevat
 
