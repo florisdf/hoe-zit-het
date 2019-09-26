@@ -3,7 +3,7 @@
   <li
     style="color: {{ $.Params.section_color | default ($.Scratch.Get "stroke") | default $.Site.Params.default_stroke }};"
     class="f4 dim">
-    <a href="{{ .URL }}"
+    <a href="{{ .RelPermalink }}"
        style="color: inherit"
        class="link">
       {{ .Title }}

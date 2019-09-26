@@ -48,7 +48,7 @@ vector is de som van de twee vectoren.
 
 {{% svg "img/kopstaart_2.png" %}}
 
-Dit kunnen we veralgemenen naar het optellen van meerdere vectoren. Eerst
+Dit kunnen we veralgemenen naar het **optellen van meerdere vectoren**. Eerst
 plaatsen we alle vectoren kop-staart-gewijs achter elkaar en vervolgens tekenen
 we een vector van de vrije staart naar de vrije kop.
 
@@ -65,7 +65,7 @@ kop-staartmethode toe te passen, maar het kan ook eenvoudiger.
 
 Bij de parallellogram-methode, krijgen we de som van twee vectoren door eerst de
 **staarten** op elkaar te leggen. Vectoren liggen echter al vaak met de staarten
-op elkaar, dus deze stap is vaak niet nodig.
+op elkaar, dus deze stap is niet altijd nodig.
 
 {{% svg "img/parallellogram_1.png" %}}
 
@@ -75,13 +75,24 @@ eindigt in de vrije hoek** van het parallellogram.
 
 {{% svg "img/parallellogram_2.png" %}}
 
-Een nadeel van de parallellogram-methode is dat we meer dan twee vectoren enkel
-per twee kunnen optellen.
+Een nadeel van de parallellogram-methode is dat we enkel per twee kunnen optellen. Wanneer we meer dan twee vectoren willen optellen, moet dat stap per stap gebeuren.
 
 (illustratie)
 
-De parallellogram-methode is dus vooral handig wanneer je twee vectoren wilt
-optellen die al met de staarten bij elkaar liggen.
+De parallellogram-methode is dus vooral handig wanneer je maar **twee vectoren** wilt
+optellen die al met de **staarten bij elkaar** liggen.
+
+## De volgorde van optellen maakt niet uit
+
+Wanneer je vectoren bij elkaar optelt, maakt het niet uit in welke volgorde je die optelling doet. Bij de kop-staartmethode, bijvoorbeeld, maakt het niet uit welke kop je aan welke staart legt.
+
+(illustratie)
+
+Ook bij de parallellogram-methode zien we dat de volgorde niet uitmaakt.
+
+(illustratie)
+
+We zien dus dat het **optellen van vectoren commutatief is**.
 
 ## Samengevat
 

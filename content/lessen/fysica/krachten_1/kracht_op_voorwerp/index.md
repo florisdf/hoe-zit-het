@@ -6,15 +6,15 @@ draft: true
 ---
 
 In [een vorige les](../krachtvector) zagen we dat kracht een vectoriële
-grootheid is. We kunnen daarom een kracht voorstellen met een pijl die een
-[grootte, richting, zin en
-aangrijpingspunt](../krachtvector/#grootte-richting-zin-en-aangrijpingspunt)
+grootheid is en een aangrijpingspunt heeft. We kunnen daarom een kracht voorstellen met een pijl die een
+grootte, richting, zin en
+aangrijpingspunt
 heeft.
 
 {{% svg "img/grootte_richting_zin.svg" %}}
 
-Om te weten wat er met een voorwerp gaat gebeuren wanneer krachten erop
-inwerken, moeten we eerst al die inwerkende krachten tekenen.
+We weten ook al van een [andere les](../intro) dat krachten ervoor kunnen zorgen dat een voorwerp van snelheid verandert. Om te weten wat er nu precies met een voorwerp gaat gebeuren wanneer krachten erop
+inwerken, moeten we echter eerst al die inwerkende krachten op dat voorwerp kunnen tekenen.
 
 ## Enkel krachten op het voorwerp
 
@@ -50,6 +50,11 @@ De krachten op Dirk zijn:
 * de normaalkracht $\red{\vec{F}_{nD}}$ die de schaatsbaan uitoefent op Dirk.
 
 {{% svg "img/krachten_dirk.png" %}}
+
+
+## Waar tekenen we de kracht?
+
+
 
 ## Samengevat
 
