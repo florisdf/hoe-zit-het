@@ -2,7 +2,7 @@
 
 <figure class="mh0 mv4">
   <a data-fancybox="gallery" href="{{ $svg.RelPermalink }}">
-    <img src="{{ $svg.RelPermalink }}" alt="{{.Get 1}}" />
+    <img src="{{ $svg.RelPermalink }}" alt="{{.Get 1 | default $.Page.Title}}" />
   </a>
   <figcaption class="mid-gray f5 tc">{{.Get 2 | safeHTML }}</figcaption>
 </figure>
