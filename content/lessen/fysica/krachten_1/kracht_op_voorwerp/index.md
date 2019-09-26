@@ -56,8 +56,9 @@ De krachten op Dirk zijn:
 Waar je het aangrijpingspunt van de kracht tekent, hangt af van de soort kracht.
 Algemeen kan je de volgende vuistregels gebruiken :fist::
 
-* Een **contactkracht** teken je op de plaats **waar ze contact maakt**;
-* Een **veldkracht** teken je **in het massacentrum**.
+* Het aangrijpingspunt van een **contactkracht** teken je op de plaats **waar ze
+  contact maakt**;
+* Het aangrijpingspunt van een **veldkracht** teken je **in het massacentrum**.
 
 Het duwen van Dirk tegen Maria, is een contactkracht. Die tekenen we dus op de
 plaats van contact, m.a.w. aan het hand van Dirk.
@@ -76,8 +77,10 @@ massacentrum van Maria.
 Wanneer we *"de krachten op een voorwerp"* tekenen, tekenen we alle krachten
 die **door andere voorwerpen** worden uitgeoefend **op dat voorwerp**.
 
+* Het aangrijpingspunt van een **contactkracht** teken je op de plaats **waar ze
+  contact maakt**;
+* Het aangrijpingspunt van een **veldkracht** teken je **in het massacentrum**.
+
 (illustratie)
 
-* Een **contactkracht** teken je op de plaats **waar ze contact maakt**;
-* Een **veldkracht** teken je **in het massacentrum**.
 {{% /attention %}}
