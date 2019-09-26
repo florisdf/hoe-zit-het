@@ -10,16 +10,16 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="581.73621"
-   height="209.62985"
-   viewBox="0 0 153.91769 55.46456"
-   version="1.1"
-   id="svg4623"
-   inkscape:version="0.92.4 (unknown)"
-   sodipodi:docname="kopstaart_2.svg"
-   inkscape:export-filename="/home/fdf/hugo/hoezithet/content/lessen/fysica/krachten_1/resulterende_kracht/img/kopstaart_2.png"
+   inkscape:export-ydpi="299.95728"
    inkscape:export-xdpi="299.95728"
-   inkscape:export-ydpi="299.95728">
+   inkscape:export-filename="/home/fdf/hugo/hoezithet/content/lessen/wiskunde/vector_1/grafisch_optellen/img/kopstaart_2.png"
+   sodipodi:docname="kopstaart_2.svg"
+   inkscape:version="0.92.4 (unknown)"
+   id="svg4623"
+   version="1.1"
+   viewBox="0 0 153.91769 55.46456"
+   height="209.62985"
+   width="581.73621">
   <defs
      id="defs4617">
     <marker
@@ -358,9 +358,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.28"
-     inkscape:cx="294.38581"
-     inkscape:cy="189.95509"
+     inkscape:zoom="1.8101934"
+     inkscape:cx="244.81653"
+     inkscape:cy="205.20171"
      inkscape:document-units="px"
      inkscape:current-layer="svg4623"
      showgrid="false"
@@ -556,7 +556,7 @@
          y="23.631878"
          x="86.560959"
          id="tspan948"
-         sodipodi:role="line">3</tspan></text>
+         sodipodi:role="line">2</tspan></text>
     <circle
        r="2.9909699"
        cy="21.407791"
@@ -577,7 +577,7 @@
          y="23.631878"
          x="86.427216"
          id="tspan948-8"
-         sodipodi:role="line">4</tspan></text>
+         sodipodi:role="line">3</tspan></text>
     <circle
        r="2.9909699"
        cy="21.407791"
