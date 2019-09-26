@@ -30,7 +30,7 @@ Voor de duidelijkheid gaan we bij krachten soms in de *index* {{% mute "(rechts 
 
 Wanneer Dirk tegen Maria duwt, bijvoorbeeld, zouden we de **kracht van Dirk op Maria** noteren als $\vec{F}_{DM}$.
 
-(illustratie van Dirk die tegen Maria duwt)
+{{% svg "img/dirk_duwt_maria.png" %}}
 
 ## Grootte van een kracht
 
