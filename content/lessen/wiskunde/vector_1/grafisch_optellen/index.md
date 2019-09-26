@@ -52,7 +52,7 @@ Dit kunnen we veralgemenen naar het optellen van meerdere vectoren. Eerst
 plaatsen we alle vectoren kop-staart-gewijs achter elkaar en vervolgens tekenen
 we een vector van de vrije staart naar de vrije kop.
 
-(illustratie)
+{{% svg "img/kopstaart_multiple.png" %}}
 
 Omdat we bij deze methode altijd een kop en een staart op elkaar leggen, noemen
 we dit de **kop-staartmethode**.
