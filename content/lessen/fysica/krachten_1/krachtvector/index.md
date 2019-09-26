@@ -11,29 +11,31 @@ grootheid** is.
 ## Kracht is een vectoriële grootheid
 
 Als je wilt weten wat er met een slee gebeurt als iemand eraan trekt, moet je
-niet alleen weten **hoe hard** {{% mute "(= grootte)" %}}, maar ook **in welke
-richting** {{% mute "(= richting)" %}} er aan de slee getrokken wordt. Kracht is
-dus een vectoriële grootheid.
+niet alleen weten **hoe hard** {{% mute "(= grootte)" %}}, maar ook **waarheen** {{% mute "(= richting en zin)" %}} er aan de slee getrokken wordt.
 
 {{% svg "img/krachtvector.svg" %}}
 
 Bij een kracht hoort dus zowel een **grootte**
-{{% mute "(hoe hard je trekt of duwt)" %}} als een **richting**
-{{% mute "(waarheen je trekt of duwt)" %}}. Daarom is kracht een vectoriële
-grootheid. In symbolen noteren we een **krachtvector** als een *F* met een
+{{% mute "(hoe hard je trekt of duwt)" %}} als een **richting** en **zin**
+{{% mute "(waarheen je trekt of duwt)" %}}. Daarom is kracht een [vectoriële
+grootheid](/lessen/wiskunde/vector_1/vectoriele_grootheden). In symbolen noteren we een **krachtvector** als een *F* met een
 pijltje boven: $\vec{F}$.
 
-Voor de duidelijkheid gaan we bij krachten soms in de *index* {{% mute "(rechts onderaan)" %}} aangeven wie of wat de kracht levert en op wie of wat de kracht aangrijpt. Wanneer Dirk tegen Maria duwt, bijvoorbeeld, zouden we de kracht van Dirk op Maria noteren als $\vec{F}_{DM}$.
+Voor de duidelijkheid gaan we bij krachten soms in de *index* {{% mute "(rechts onderaan)" %}} aangeven wie of wat de kracht levert en op wie of wat de kracht aangrijpt.
 
 | Schrijf | Lees |
 |---------|------|
 |$\vec{F}$| De krachtvector $\vec{F}$ |
 | $\vec{F}_{AB}$ | De kracht die *A* uitoefent op *B* |
 
-## Grootte, richting, zin en aangrijpingspunt
+Wanneer Dirk tegen Maria duwt, bijvoorbeeld, zouden we de **kracht van Dirk op Maria** noteren als $\vec{F}_{DM}$.
+
+(illustratie van Dirk die tegen Maria duwt)
+
+## Grootte van een kracht
 
 De **grootte** van een krachtvector $\vec{F}$ zegt **hoeveel kracht** er wordt
-uitgeoefend. De grootte van een kracht is **altijd positief**. We noteren de
+uitgeoefend, dus hoeveel newton. De grootte van een kracht is **altijd positief**. We noteren de
 grootte van $\vec{F}$ als $\norm{\vec{F}}$ of als $F$
 {{% mute "(merk op: geen pijltje op de $F$)" %}}.
 
@@ -48,8 +50,8 @@ te geven.
 
 {{% svg "img/grootte.svg" %}}
 
-Wat we tot nu toe *richting* noemden, zullen we meestal verder opsplitsen in
-twee eigenschappen: de *richting* van $\vec{F}$ en de *zin* van $\vec{F}$.
+## Richting en zin van een kracht
+
 De **richting** van $\vec{F}$ zegt **aan welke rechte $\vec{F}$
 evenwijdig is**. Bijvoorbeeld: *"verticaal"*, of
 *"horizontaal"*, of *"onder een hoek van $15\deg$"*.
@@ -61,7 +63,10 @@ Dat kan bijvoorbeeld *"naar links"*, *"naar rechts"*, of *"naar beneden"* zijn.
 
 {{% svg "img/zin.svg" %}}
 
-Tenslotte heeft een krachtvector ook een **aangrijpingspunt**. Het is namelijk
+## Aangrijpingspunt van een kracht
+
+Naast een grootte, richting en zin, heeft een krachtvector ook een **aangrijpingspunt**.
+Het is namelijk
 ook belangrijk om te zeggen **waar de kracht uitgeoefend wordt op het
 voorwerp**. Wanneer je tegen de bovenkant duwt van een flesje water dat op
 tafel staat, zal het flesje sneller kantelen dan wanneer je tegen de onderkant

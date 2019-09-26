@@ -6,7 +6,7 @@
       {{ $pageCount := sub (len .Pages) 1 }}
       {{ range $idx, $page := where .Pages.ByWeight "Title" "!=" $title }}
         <li class="dib">
-          <a href="{{ .Permalink }}" class="link mid-gray dim">
+          <a href="{{ .RelPermalink }}" class="link mid-gray dim">
             {{ .Title }}
           </a>
           {{ if not (ge (add $idx 1) $pageCount) }} 
