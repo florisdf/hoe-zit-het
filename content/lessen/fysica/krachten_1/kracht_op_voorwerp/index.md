@@ -51,35 +51,26 @@ De krachten op Dirk zijn:
 
 {{% svg "img/krachten_dirk.png" %}}
 
-## Waar tekenen we de kracht?
+## Leg alle krachten samen in een massapunt
 
-Waar je het aangrijpingspunt van de kracht tekent, hangt af van de soort kracht.
-Algemeen kan je de volgende vuistregels gebruiken :fist::
+We gaan voorlopig alle krachten die inwerken op een voorwerp samen in één punt tekenen. Dat doen we vooral om onze eerste kennismaking met krachten niet onnodig ingewikkeld te maken. We tekenen de krachten in een punt dat ongeveer **in het midden van het voorwerp** ligt. Dat punt noemen we het **massapunt**.
 
-* Het aangrijpingspunt van een **contactkracht** teken je op de plaats **waar ze
-  contact maakt**;
-* Het aangrijpingspunt van een **veldkracht** teken je **in het massacentrum**.
-
-Het duwen van Dirk tegen Maria, is een contactkracht. Die tekenen we dus op de
-plaats van contact, m.a.w. aan het hand van Dirk.
-
-(illustratie)
-
-Maria wordt door de zwaartekracht naar beneden getrokken. Zwaartekracht is een
-veldkracht, dus het aangrijpingspunt van die kracht leggen we in het
-massacentrum van Maria.
+Voor de krachten die inwerken op Maria, ziet dat er als volgt uit:
 
 (illustratie)
 
 ## Samengevat
 
-{{% attention "Krachten op een voorwerp tekenen" %}}
+{{% attention "Krachten op een voorwerp" %}}
 Wanneer we *"de krachten op een voorwerp"* tekenen, tekenen we alle krachten
 die **door andere voorwerpen** worden uitgeoefend **op dat voorwerp**.
 
-* Het aangrijpingspunt van een **contactkracht** teken je op de plaats **waar ze
-  contact maakt**;
-* Het aangrijpingspunt van een **veldkracht** teken je **in het massacentrum**.
+(illustratie)
+
+{{% /attention %}}
+
+{{% attention "Krachten samenleggen in massapunt" %}}
+We leggen de krachten **samen in een massapunt**. Als massapunt kiezen we een punt dat ongeveer **in het midden van het voorwerp** ligt.
 
 (illustratie)
 
