@@ -2,7 +2,7 @@
 title: "Vectoren grafisch optellen"
 date: 2019-09-18T08:04:17+02:00
 weight: 3
-draft: true
+draft: false
 ---
 Vectoren kun je, net als getallen, bij elkaar optellen. Maar hoe gaat dat in
 zijn werk, zo [pijlen](../intro/#een-vector-is-een-pijl) bij elkaar optellen? In

@@ -2,7 +2,7 @@
 title: "Wat is een vector?"
 date: 2019-09-18T08:04:17+02:00
 weight: 1
-draft: true
+draft: false
 ---
 
 Over cijfers en getallen heb je al heel veel gehoord in je lessen wiskunde. Je
