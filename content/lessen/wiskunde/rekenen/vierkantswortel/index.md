@@ -8,6 +8,7 @@ categories: []
 level: "M1"
 course: "wiskunde"
 topic: "bewerkingen"
+images: []
 ---
 
 # Vierkantswortel van een negatief getal

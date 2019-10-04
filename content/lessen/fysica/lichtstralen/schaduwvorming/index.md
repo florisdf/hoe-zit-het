@@ -8,6 +8,7 @@ categories: []
 level: ""
 course: ""
 topic: ""
+images: ['img/schaduw_intro.png', 'img/puntbron_straal_schaduwen.png', 'img/puntbron_straal_schaduwen_resultaat.png', 'img/puntvormige_lichtbron.png', 'img/diffuse_bron_straal_schaduwen.png', 'img/diffuse_bron_straal_schaduwen_resultaat.png', 'img/niet_puntvormige_lichtbron.png']
 ---
 Om een flatterend portret te maken, kiezen fotografen meestal voor *diffuse
 lichtbronnen*. Dat doen ze omdat deze lichtbronnen de schaduwen *verzachten*.

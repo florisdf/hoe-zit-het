@@ -8,6 +8,7 @@ categories: []
 level: ""
 course: ""
 topic: ""
+images: ['img/kracht_effecten.png', 'img/krachten_voorbeelden.png', 'img/evian_kracht.png', 'img/veldkrachten.png', 'img/zwaartekrachtsveld.png', 'img/contactkrachten.png', 'img/puntmassa.png']
 ---
 
 Een van de meest fundamentele [grootheden](../../grootheden_eenheden/intro) in de

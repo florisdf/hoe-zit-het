@@ -8,6 +8,7 @@ categories: []
 level: ""
 course: ""
 topic: ""
+images: ['img/maria_drop.png', 'img/maria_drop_krachten.png']
 ---
 Er kunnen meerdere [krachten](../intro) tegelijk inwerken op een voorwerp. Om
 te weten wat er met het voorwerp zal gebeuren, moeten we die **krachten

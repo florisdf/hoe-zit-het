@@ -8,6 +8,7 @@ categories: ["wiskunde", "algebra"]
 level: "2M"
 course: "wiskunde"
 topic: "algebra"
+images: []
 ---
 Een [vergelijking](../intro) van de eerste graad in één onbekende $x$ is een vergelijking
 waar er maar één onbekende is {{% mute "(genaamd $x$)" %}} en waarbij de

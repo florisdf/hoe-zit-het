@@ -8,6 +8,7 @@ categories: []
 level: ""
 course: ""
 topic: ""
+images: ['img/white_light.png', 'img/absorptie.png', 'img/reflectie.png', 'img/absorptie_reflectie.png', 'img/orange.png', 'img/licht_doorlaten.png']
 ---
 Een [donker lichaam](../lichtbronnen#donkere-lichamen) is een voorwerp dat
 van zichzelf geen licht geeft, bijvoorbeeld een bloem. Hoe zo'n donker lichaam

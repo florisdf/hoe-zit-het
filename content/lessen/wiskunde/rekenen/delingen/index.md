@@ -8,5 +8,6 @@ categories: []
 level: ""
 course: ""
 topic: ""
+images: []
 ---
 ## Delen door nul

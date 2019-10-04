@@ -8,6 +8,7 @@ categories: []
 level: ""
 course: ""
 topic: ""
+images: []
 ---
 *Wetenschappelijke schrijfwijze* is een manier om getallen te noteren. Het houdt in dat je **de komma verschuift tot die na het eerste [beduidend cijfer](../beduidende_cijfers)** staat. Om het getal gelijk te houden, moet je samen met het verschuiven van de komma ook een [macht van 10](../machten_van_10) toevoegen.
 

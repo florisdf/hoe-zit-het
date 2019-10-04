@@ -8,6 +8,7 @@ categories: ["wiskunde", "analyse", "3e middelbaar"]
 level: 3M
 course: wiskunde
 topic: analyse
+images: []
 ---
 Een functie kunnen we [voorstellen als een machientje](../intro) waar we een
 waarde voor $x$ in stoppen en waar [hoogstens één](../intro#samengevat) waarde

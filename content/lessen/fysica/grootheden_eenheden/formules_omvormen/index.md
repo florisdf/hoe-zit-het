@@ -8,6 +8,7 @@ categories: ["grootheden_eenheden", "formules"]
 level: "3M"
 course: "Fysica"
 topic: "grootheden_eenheden"
+images: []
 ---
 Fysica levert een wiskundige beschrijving van bepaalde eigenschappen en onderdelen van de wereld en het heelal rondom ons. Die beschrijvingen schrijven we neer in **formules**. Zulke formules tonen een **wiskundig verband tussen [grootheden](../intro)**. Een eenvoudige formule is bijvoorbeeld hoe we massadichtheid kunnen berekenen:
 $$\rho = \frac{\si{m}}{\si{V}}$$
