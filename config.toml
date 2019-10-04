@@ -19,7 +19,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 
 [params]
   favicon = "/images/favicon.png"
-  description = "Gratis hulp met je leerstof wiskunde en fysica"
+  description = "Gratis hulp met wiskunde en fysica"
   facebook = "https://fb.me/hoezithet"
   github = "https://github.com/florisdf/hoe-zit-het"
   background_color_class = "bg-near-white"
