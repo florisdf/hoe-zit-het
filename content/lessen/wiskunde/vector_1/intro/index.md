@@ -3,6 +3,7 @@ title: "Wat is een vector?"
 date: 2019-09-18T08:04:17+02:00
 weight: 1
 draft: false
+images: ['img/vector_is_arrow.png', 'img/equal_vectors.png', 'img/diff_length.png', 'img/diff_richting.png', 'img/diff_zin.png', 'img/vector_props.png', 'img/summary.png']
 ---
 
 Over cijfers en getallen heb je al heel veel gehoord in je lessen wiskunde. Je

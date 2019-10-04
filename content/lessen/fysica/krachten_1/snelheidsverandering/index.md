@@ -8,6 +8,7 @@ categories: []
 level: ""
 course: ""
 topic: ""
+images: []
 ---
 We zagen in een [vorige les](../resulterende_kracht) dat we de krachten op een voorwerp kunnen combineren tot één resulterende kracht. In deze les leren we dat er een verband is tussen die resulterende kracht en de **snelheidsverandering** van het voorwerp.
 

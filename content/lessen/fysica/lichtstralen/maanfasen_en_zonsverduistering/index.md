@@ -8,6 +8,7 @@ categories: []
 level: ""
 course: ""
 topic: ""
+images: ['img/zonsverduistering.png', 'img/maanfasen_vanop_aarde.png', 'img/maanfasen_zijaanzicht.png', 'img/maanfasen_bovenaanzicht.png', 'img/ecliptisch_vlak.png', 'img/lunar_node_eclipses.png', 'img/maansverduistering.png', 'img/aarde_maan_op_schaal.png', 'img/op_schaal.png', 'img/op_schaal_enkel_groottes.png']
 ---
 Een zonsverduistering is een mooi voorbeeld van de
 [schaduw gecreëerd door een diffuse lichtbron](../schaduwvorming#de-schaduw-tekenen-van-een-diffuse-lichtbron).

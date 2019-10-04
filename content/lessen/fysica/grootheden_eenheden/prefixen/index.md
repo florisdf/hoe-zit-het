@@ -8,6 +8,7 @@ categories: []
 level: ""
 course: ""
 topic: ""
+images: []
 ---
 We kunnen grootheden zoals *lengte* beschrijven met eenheden zoals *meter*. In een vorige les zagen we dat elke [grootheid een officiële SI-eenheid heeft](../intro#si-eenheden-maken-duidelijke-afspraken). De officiële eenheid van *tijd* is bijvoorbeeld de seconde.
 

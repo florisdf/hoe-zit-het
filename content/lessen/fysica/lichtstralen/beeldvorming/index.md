@@ -8,6 +8,7 @@ categories: []
 level: ""
 course: ""
 topic: ""
+images: ['img/orange.png', 'img/orange_beeldvorming.png', 'img/oog.png', 'img/sony_a7ii.png', 'img/divergerend.png', 'img/convergerend.png', 'img/evenwijdig.png', 'img/camera_obscura.png', 'img/camera_obscura_large_aperture.png']
 ---
 Wanneer wit licht [invalt op een sinaasappel](../reflecteren_absorberen_doorlaten#reflectie-absorptie)
 gaan de gereflecteerde lichtstralen alle kanten op. Omdat die oranje

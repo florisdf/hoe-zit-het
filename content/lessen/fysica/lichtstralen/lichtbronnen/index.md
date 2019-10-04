@@ -8,6 +8,7 @@ categories: []
 level: ""
 course: ""
 topic: ""
+images: ['img/donkere_lichamen.png', 'img/puntvormig.png', 'img/diffuus.png']
 ---
 Wanneer een voorwerp van zichzelf **licht produceert**, noemen we dat voorwerp
 een **lichtbron**. Voorbeelden hiervan zijn de zon, de sterren, gloeilampen,
