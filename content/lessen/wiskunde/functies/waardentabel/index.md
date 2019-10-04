@@ -8,6 +8,7 @@ categories: ["wiskunde", "analyse", "3e middelbaar"]
 level: 3M
 course: wiskunde
 topic: analyse
+images: []
 ---
 Een functie kunnen we [voorstellen als een machientje](../intro) waar we een
 $x$ in stoppen en waar een $y$ uit komt.

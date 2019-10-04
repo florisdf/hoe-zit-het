@@ -8,6 +8,7 @@ categories: []
 level: ""
 course: ""
 topic: ""
+images: ['img/conveyor_snijpunt_1.png', 'img/conveyor_functiewaarde.png', 'img/conveyor_nulpunt_1.png']
 ---
 [Vergelijkingen](../intro) en [functies](../../functies/intro) zijn zeer nauw
 met elkaar verbonden. Twee belangrijke toepassingen van vergelijkingen zijn dan

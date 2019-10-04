@@ -8,6 +8,7 @@ categories: ["wiskunde", "analyse", "3e middelbaar"]
 level: 3M
 course: wiskunde
 topic: analyse
+images: []
 ---
 Zoals ik in een [andere les](../intro) uitlegde, kunnen we een functie zien als
 een *machientje* waar we een $x$ in stoppen en waar een $y$ uit komt.

@@ -8,6 +8,7 @@ categories: ["grootheden_eenheden", "machten_van_10"]
 level: "3M"
 course: "Fysica"
 topic: "grootheden_eenheden"
+images: []
 ---
 
 Het wordt snel lastig om heel grote of heel kleine getallen te lezen of te 

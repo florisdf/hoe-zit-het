@@ -8,6 +8,7 @@ categories: ["wiskunde", "algebra"]
 level: "2M"
 course: "wiskunde"
 topic: "algebra"
+images: []
 ---
 Een [vergelijking](../intro) is de gelijkheid van een *linkerlid* en een *rechterlid* waarbij het linkerlid en/of het rechterlid een of meerdere onbekenden bevat. Vaak is er maar één onbekende, namelijk $x$.
 

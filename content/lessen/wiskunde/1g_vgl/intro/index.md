@@ -8,6 +8,7 @@ categories: ["wiskunde", "algebra"]
 level: "2M"
 course: "wiskunde"
 topic: "algebra"
+images: []
 ---
 Een van de meest essentiële vaardigheden voor een uit-de-kluiten-gewassen wiskundige is het kunnen oplossen van **vergelijkingen**. Om te begrijpen *waarom* het oplossen van vergelijkingen zo belangrijk is, heb je best al wat kennis van [functies](../../functies/).
 

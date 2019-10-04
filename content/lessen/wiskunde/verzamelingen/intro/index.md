@@ -8,6 +8,7 @@ categories: []
 level: ""
 course: ""
 topic: ""
+images: []
 ---
 Je kan je een verzameling voorstellen als een grote, denkbeeldige zak waar bepaalde *dingen* in zitten. De *dingen* in de zak zijn de **elementen** van de verzameling. De denkbeeldige zak kan ook leeg zijn, dan bevat de verzameling geen elementen en spreken we van een *lege verzameling*. Maar het kan even goed zijn dat een verzameling oneidig veel elementen bevat. Vaak zullen de elementen in een verzameling getallen zijn, maar ze kunnen even goed kleuren of namen of zelfs andere verzamelingen zijn.
 

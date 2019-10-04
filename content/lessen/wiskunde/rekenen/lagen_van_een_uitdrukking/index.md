@@ -5,6 +5,7 @@ weight: 2
 draft: true
 tags: ["Rekenregels", "Volgorde van de bewerkingen", "Lagen van een uitdrukking"]
 categories: ["wiskunde", "getallen", "algemeen", "1e middelbaar"]
+images: []
 ---
 ## De lagen van een uitdrukking
 Ik vind het het eenvoudigst om in een wiskundige uitdrukking als $\vba$

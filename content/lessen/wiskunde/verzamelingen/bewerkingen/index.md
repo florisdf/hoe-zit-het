@@ -8,6 +8,7 @@ categories: []
 level: ""
 course: ""
 topic: ""
+images: []
 ---
 Je kan je een [verzameling](../intro)
 voorstellen als een grote, denkbeeldige zak waarin bepaalde *elementen* zitten. In deze les zullen we zien hoe verzamelingen kunnen gecombineerd worden om zo nieuwe verzamelingen te krijgen.

@@ -6,4 +6,5 @@ draft: false
 menu:
   main:
     weight: 10
+images: []
 ---

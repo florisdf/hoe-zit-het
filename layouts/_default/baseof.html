@@ -16,6 +16,9 @@
       <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
     {{ end }}
 
+    {{ partial "head/seo/organisation" . }}
+    {{ partial "head/seo/breadcrumb" . }}
+
 		{{ block "custom_fonts" . }}
 			{{ partial "head/custom-fonts" . }}
     {{ end }}

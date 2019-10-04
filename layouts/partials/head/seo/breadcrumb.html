@@ -1,0 +1,30 @@
+{{ $url := replace .Permalink ( printf "%s" .Site.BaseURL) "" }}
+  {{ $crumbs := slice ( $.GetPage "/" ) }}
+  {{ range $index, $element := split $url "/" }}
+      {{ $.Scratch.Add "path" $element }}
+      {{ if ne $element "" }}
+        {{ $crumbs = $crumbs | append ( $.GetPage ($.Scratch.Get "path") ) }}
+        {{ $.Scratch.Add "path" "/" }}
+      {{ end }}
+{{ end }}
+
+{{ $crumbs = $crumbs }}
+
+{{ if ge (len $crumbs) 2 }}
+<script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+          {{ range $idx, $crumb := $crumbs }}
+          {
+            "@type": "ListItem",
+            "position": {{ add $idx 1 }},
+            "name": "{{ $crumb.Title }}",
+            "item": {{ $crumb.Permalink }}
+          },
+          {{ end }}
+      ]
+    }
+</script>
+{{ end }}

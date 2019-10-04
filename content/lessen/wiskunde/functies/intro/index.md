@@ -8,6 +8,7 @@ categories: ["wiskunde", "analyse", "3e middelbaar"]
 level: 3M
 course: wiskunde
 topic: analyse
+images: []
 ---
 ## Een functie is een machientje
 Je kan een functie zien als een *machientje* waar je *iets* instopt en waar

@@ -9,5 +9,6 @@ section_color: "#ff6300"
 level: "1e middelbaar"
 course: ""
 topic: "verzamelingen"
+images: []
 ---
 

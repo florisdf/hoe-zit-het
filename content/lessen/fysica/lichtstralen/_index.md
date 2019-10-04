@@ -9,4 +9,5 @@ categories: []
 level: "3e middelbaar"
 course: ""
 topic: "optica"
+images: []
 ---

@@ -9,5 +9,6 @@ level: "1e middelbaar"
 section_color: "#00449e"
 course: ""
 topic: "algebra"
+images: []
 ---
 

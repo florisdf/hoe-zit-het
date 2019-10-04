@@ -8,6 +8,7 @@ categories: []
 level: ""
 course: ""
 topic: ""
+images: []
 ---
 De beduidende cijfers zijn de cijfers in een getal **vanaf het eerste cijfer dat verschillend is van nul**. Ze zijn hieronder aangeduid in het
 {{% class "oranje" "orange" %}}:
