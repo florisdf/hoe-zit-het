@@ -1,13 +1,20 @@
-<ol class="tc" >
-  {{ range .Pages.ByWeight }}
-  <li
-    style="color: {{ $.Params.section_color | default ($.Scratch.Get "stroke") | default $.Site.Params.default_stroke }};"
-    class="f4 dim">
-    <a href="{{ .RelPermalink }}"
-       style="color: inherit"
-       class="link">
-      {{ .Title }}
-    </a>
-  </li>
-  {{ end }}
-</ol>
+{{ range $idx, $page := .Pages.ByWeight }}
+ <article>
+      <!-- this <div> includes the title summary -->
+      <div>
+        <h2><a href="{{ .RelPermalink }}"
+style="color: {{ $.Params.section_color | default ($.Scratch.Get "stroke") | default $.Site.Params.default_stroke }};"
+    class="dim link">{{ add $idx 1 }}. {{ .Title }}</a></h2>
+             {{ range (findRE "<img.*?(.|\n)*?/>" .Content 1) }}
+             {{ . | safeHTML }}
+             {{ end }}
+        {{ .Summary }}
+      </div>
+      {{ if .Truncated }}
+      <!-- This <div> includes a read more link, but only if the summary is truncated... -->
+      <div class="pv2">
+        <a href="{{ .RelPermalink }}">Lees verder…</a>
+      </div>
+      {{ end }}
+    </article>
+{{ end }}

@@ -7,6 +7,7 @@ MetaDataFormat = "yaml"
 DefaultContentLanguage = "nl"
 Paginate = 10
 PaginatePath = "pagina"
+summaryLength = 30
 googleAnalytics = "UA-133189848-1"
 enableRobotsTXT = true
 enableEmoji = true
