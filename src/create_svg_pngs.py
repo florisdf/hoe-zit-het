@@ -7,14 +7,15 @@ import argparse
 parser = argparse.ArgumentParser()
 parser.add_argument('-d', '--dpi',
                     help='output DPI (dots per inch)',
-                    default=150, type=int)
+                    default=300, type=int)
 parser.add_argument('-i', '--ignore',
                     help='ignore this file',
                     action='append')
-parser.add_argument('path',
+parser.add_argument('-p', '--path',
                     help='path to SVG file or directory with SVG files '
                     '(default "./content")',
                     default='./content')
+
 args = parser.parse_args()
 ignore = ([Path(p).absolute() for p in args.ignore]
           if args.ignore is not None else [])
@@ -27,4 +28,5 @@ for svg in tqdm(svgs):
                     '-f', str(svg),
                     '-e', f'{svg.parent / svg.stem}.png',
                     '-d', str(args.dpi),
-                    '-y', '0'])
+                    '-b', '#f4f4f4',
+                    '-y', '1.0'])

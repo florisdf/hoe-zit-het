@@ -8,7 +8,7 @@ categories: ["grootheden_eenheden", "benaderingsregels"]
 level: "3M"
 course: "Fysica"
 topic: "grootheden_eenheden"
-images: ['img/lego_meetlat.png', 'img/lego_100_bricks.png', 'img/lego_schuifmaat.png', 'img/lego_100_measured.png', 'img/lego_100_correct_margin.png', 'img/lego_100_wrong_margin.png']
+images: ['lessen/fysica/grootheden_eenheden/benaderingsregels/img/lego_meetlat.png', 'lessen/fysica/grootheden_eenheden/benaderingsregels/img/lego_100_bricks.png', 'lessen/fysica/grootheden_eenheden/benaderingsregels/img/lego_schuifmaat.png', 'lessen/fysica/grootheden_eenheden/benaderingsregels/img/lego_100_measured.png', 'lessen/fysica/grootheden_eenheden/benaderingsregels/img/lego_100_correct_margin.png', 'lessen/fysica/grootheden_eenheden/benaderingsregels/img/lego_100_wrong_margin.png']
 ---
 Als we berekeningen doen met metingen, moeten we altijd in ons achterhoofd
 houden dat **metingen nooit exact** zijn. Stel dat we bijvoorbeeld een meetlat

@@ -3,7 +3,7 @@ title: "Vectoriële grootheden"
 date: 2019-09-18T21:25:10+02:00
 weight: 2
 draft: false
-images: ['img/verplaatsingsvector_1.png', 'img/verplaatsingsvector_2.png', 'img/vec_examples.png', 'img/scal_examples.png']
+images: ['lessen/wiskunde/vector_1/vectoriele_grootheden/img/verplaatsingsvector_1.png', 'lessen/wiskunde/vector_1/vectoriele_grootheden/img/verplaatsingsvector_2.png', 'lessen/wiskunde/vector_1/vectoriele_grootheden/img/vec_examples.png', 'lessen/wiskunde/vector_1/vectoriele_grootheden/img/scal_examples.png']
 ---
 
 In de [vorige les](../intro) leerden we dat vectoren pijlen zijn met een
