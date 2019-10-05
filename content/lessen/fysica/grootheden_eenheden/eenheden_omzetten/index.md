@@ -8,7 +8,7 @@ categories: []
 level: ""
 course: ""
 topic: ""
-images: ['lessen/fysica/grootheden_eenheden/eenheden_omzetten/img/liter_conversion.png']
+images: ['/lessen/fysica/grootheden_eenheden/eenheden_omzetten/img/liter_conversion.png']
 ---
 Vaak wordt er gevraagd om een eindresultaat te noteren in [SI-eenheden](../intro#si-eenheden-maken-duidelijke-afspraken), terwijl de opgave niet in SI-eenheden gegeven is. Dan is het belangrijk om die eenheden te kunnen omzetten naar de SI-eenheden.
 

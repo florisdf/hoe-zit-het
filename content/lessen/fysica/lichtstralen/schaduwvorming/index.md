@@ -8,7 +8,7 @@ categories: []
 level: ""
 course: ""
 topic: ""
-images: ['lessen/fysica/lichtstralen/schaduwvorming/img/schaduw_intro.png', 'lessen/fysica/lichtstralen/schaduwvorming/img/puntbron_straal_schaduwen.png', 'lessen/fysica/lichtstralen/schaduwvorming/img/puntbron_straal_schaduwen_resultaat.png', 'lessen/fysica/lichtstralen/schaduwvorming/img/puntvormige_lichtbron.png', 'lessen/fysica/lichtstralen/schaduwvorming/img/diffuse_bron_straal_schaduwen.png', 'lessen/fysica/lichtstralen/schaduwvorming/img/diffuse_bron_straal_schaduwen_resultaat.png', 'lessen/fysica/lichtstralen/schaduwvorming/img/niet_puntvormige_lichtbron.png']
+images: ['/lessen/fysica/lichtstralen/schaduwvorming/img/schaduw_intro.png', '/lessen/fysica/lichtstralen/schaduwvorming/img/puntbron_straal_schaduwen.png', '/lessen/fysica/lichtstralen/schaduwvorming/img/puntbron_straal_schaduwen_resultaat.png', '/lessen/fysica/lichtstralen/schaduwvorming/img/puntvormige_lichtbron.png', '/lessen/fysica/lichtstralen/schaduwvorming/img/diffuse_bron_straal_schaduwen.png', '/lessen/fysica/lichtstralen/schaduwvorming/img/diffuse_bron_straal_schaduwen_resultaat.png', '/lessen/fysica/lichtstralen/schaduwvorming/img/niet_puntvormige_lichtbron.png']
 ---
 Om een flatterend portret te maken, kiezen fotografen meestal voor *diffuse
 lichtbronnen*. Dat doen ze omdat deze lichtbronnen de schaduwen *verzachten*.

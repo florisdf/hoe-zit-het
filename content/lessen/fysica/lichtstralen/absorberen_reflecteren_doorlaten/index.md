@@ -8,7 +8,7 @@ categories: []
 level: ""
 course: ""
 topic: ""
-images: ['lessen/fysica/lichtstralen/absorberen_reflecteren_doorlaten/img/white_light.png', 'lessen/fysica/lichtstralen/absorberen_reflecteren_doorlaten/img/absorptie.png', 'lessen/fysica/lichtstralen/absorberen_reflecteren_doorlaten/img/reflectie.png', 'lessen/fysica/lichtstralen/absorberen_reflecteren_doorlaten/img/absorptie_reflectie.png', 'lessen/fysica/lichtstralen/absorberen_reflecteren_doorlaten/img/orange.png', 'lessen/fysica/lichtstralen/absorberen_reflecteren_doorlaten/img/licht_doorlaten.png']
+images: ['/lessen/fysica/lichtstralen/absorberen_reflecteren_doorlaten/img/white_light.png', '/lessen/fysica/lichtstralen/absorberen_reflecteren_doorlaten/img/absorptie.png', '/lessen/fysica/lichtstralen/absorberen_reflecteren_doorlaten/img/reflectie.png', '/lessen/fysica/lichtstralen/absorberen_reflecteren_doorlaten/img/absorptie_reflectie.png', '/lessen/fysica/lichtstralen/absorberen_reflecteren_doorlaten/img/orange.png', '/lessen/fysica/lichtstralen/absorberen_reflecteren_doorlaten/img/licht_doorlaten.png']
 ---
 Een [donker lichaam](../lichtbronnen#donkere-lichamen) is een voorwerp dat
 van zichzelf geen licht geeft, bijvoorbeeld een bloem. Hoe zo'n donker lichaam

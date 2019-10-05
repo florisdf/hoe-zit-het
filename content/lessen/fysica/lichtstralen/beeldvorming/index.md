@@ -8,7 +8,7 @@ categories: []
 level: ""
 course: ""
 topic: ""
-images: ['lessen/fysica/lichtstralen/beeldvorming/img/orange.png', 'lessen/fysica/lichtstralen/beeldvorming/img/orange_beeldvorming.png', 'lessen/fysica/lichtstralen/beeldvorming/img/oog.png', 'lessen/fysica/lichtstralen/beeldvorming/img/sony_a7ii.png', 'lessen/fysica/lichtstralen/beeldvorming/img/divergerend.png', 'lessen/fysica/lichtstralen/beeldvorming/img/convergerend.png', 'lessen/fysica/lichtstralen/beeldvorming/img/evenwijdig.png', 'lessen/fysica/lichtstralen/beeldvorming/img/camera_obscura.png', 'lessen/fysica/lichtstralen/beeldvorming/img/camera_obscura_large_aperture.png']
+images: ['/lessen/fysica/lichtstralen/beeldvorming/img/orange.png', '/lessen/fysica/lichtstralen/beeldvorming/img/orange_beeldvorming.png', '/lessen/fysica/lichtstralen/beeldvorming/img/oog.png', '/lessen/fysica/lichtstralen/beeldvorming/img/sony_a7ii.png', '/lessen/fysica/lichtstralen/beeldvorming/img/divergerend.png', '/lessen/fysica/lichtstralen/beeldvorming/img/convergerend.png', '/lessen/fysica/lichtstralen/beeldvorming/img/evenwijdig.png', '/lessen/fysica/lichtstralen/beeldvorming/img/camera_obscura.png', '/lessen/fysica/lichtstralen/beeldvorming/img/camera_obscura_large_aperture.png']
 ---
 Wanneer wit licht [invalt op een sinaasappel](../reflecteren_absorberen_doorlaten#reflectie-absorptie)
 gaan de gereflecteerde lichtstralen alle kanten op. Omdat die oranje
