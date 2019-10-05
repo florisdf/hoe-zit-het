@@ -8,7 +8,7 @@ categories: []
 level: ""
 course: ""
 topic: ""
-images: ['img/rechtlijnige_voortplanting.png', 'img/zonder_bril.png', 'img/met_bril.png', 'img/niet_homogeen.png']
+images: ['lessen/fysica/lichtstralen/voortplanting/img/rechtlijnige_voortplanting.png', 'lessen/fysica/lichtstralen/voortplanting/img/zonder_bril.png', 'lessen/fysica/lichtstralen/voortplanting/img/met_bril.png', 'lessen/fysica/lichtstralen/voortplanting/img/niet_homogeen.png']
 ---
 
 Wanneer lichtstralen onze ogen binnenvliegen en tegen ons netvlies botsen,

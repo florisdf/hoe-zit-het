@@ -8,7 +8,7 @@ categories: []
 level: ""
 course: ""
 topic: ""
-images: ['img/mosaic.png', 'img/em_stralen.png', 'img/light_router.png', 'img/sunburn.png', 'img/light_rays.png']
+images: ['lessen/fysica/lichtstralen/intro/img/mosaic.png', 'lessen/fysica/lichtstralen/intro/img/em_stralen.png', 'lessen/fysica/lichtstralen/intro/img/light_router.png', 'lessen/fysica/lichtstralen/intro/img/sunburn.png', 'lessen/fysica/lichtstralen/intro/img/light_rays.png']
 ---
 Zonder licht zouden we niets kunnen zien. Licht bestaat uit waanzinnig veel
 **lichtstralen** die tegen een duizelingwekkend hoge snelheid vooruit razen.
