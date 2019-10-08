@@ -1,5 +1,5 @@
 ---
-title: "Nulpunten"
+title: "Nulpunten en nulwaarden"
 date: 2018-07-01T22:13:11+02:00
 draft: false
 weight: 6
@@ -10,11 +10,10 @@ course: "wiskunde"
 topic: "analyse"
 images: []
 ---
-Een functie kunnen we [voorstellen als een machientje](../intro) waar we een
-waarde voor $x$ in stoppen en waar [hoogstens één](../intro#samengevat) waarde
-voor $y$ uit komt.
-
-{{% img "img/conveyor_plain.svg" "" %}}
+In veel toepassingen van functies zijn we geïnteresseerd in de waarde die we
+voor $x$ moeten kiezen zodat $f(x)$ gelijk wordt aan nul. Een $\orange{x}$ die zorgt dat
+$f(\orange{x}) = 0$, noemen we een **nulwaarde**. Het bijhorend **nulpunt** is
+dan $(\orange{x},~0)$.
 
 ## Nulwaarden van een functie
 Stel dat we een $x$ in het machientje stoppen en dat er $0$ uit komt. Dan noemen
@@ -42,8 +41,8 @@ De namen *nulpunten* en *nulwaarden* worden soms door elkaar gebruikt, maar
 strikt gezien zijn ze niet hetzelfde. Nul*waarden* zijn x-*waarden*, maar
 nul*punten* zijn *punten* met een x- én y-coördinaat. De x-coördinaat van een
 nulpunt is de nul*waarde*. De y-coördinaat van een nulpunt is altijd *nul*
-{{% mute "(uiteraard)" %}}. Als de nulwaarde bijvoorbeeld $-2$ is, is het
-nulpunt $(-2, 0)$.
+{{% mute "(uiteraard)" %}}. Als de nulwaarde bijvoorbeeld $\orange{-2}$ is, dan is het
+nulpunt $(\orange{-2},~0)$.
 
 ## Nulpunten op een grafiek
 We kunnen een functie voorstellen met een [grafiek](../grafiek) door de x- en
@@ -53,7 +52,7 @@ een nulpunt altijd 0 is**. Nulpunten zijn met andere woorden de punten waar de
 **grafiek de x-as snijdt**.
 
 Hieronder staat de grafiek getekend van de functie $f(x) = -x^2 + 9$ die de
-nul*waarden* $x=-3$ en $x=3$ heeft en dus de nul*punten* $(-3, 0)$ en $(3, 0)$.
+nul*waarden* $x=-3$ en $x=3$ heeft en dus de nul*punten* $(-3,~0)$ en $(3,~0)$.
 De twee nulpunten zijn aangeduid in het {{% class "**oranje**" "orange" %}}.
 
 {{% bokeh "plt/nulpunten.json" %}}

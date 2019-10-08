@@ -10,7 +10,6 @@ course: wiskunde
 topic: analyse
 images: []
 ---
-## Een functie is een machientje
 Je kan een functie zien als een *machientje* waar je *iets* instopt en waar
 *iets* uit komt. Wat we erin stoppen noemen we meestal $x$, wat eruit komt noemen
 we meestal $y$. Uit het machientje zal voor dezelfde $x$

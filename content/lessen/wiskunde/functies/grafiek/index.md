@@ -10,35 +10,24 @@ course: wiskunde
 topic: analyse
 images: []
 ---
-Een functie kunnen we [voorstellen als een machientje](../intro) waar we een
-waarde voor $x$ in stoppen en waar [hoogstens één](../intro#samengevat) waarde
-voor $y$ uit komt.
-
-{{% img "img/conveyor_plain.svg" "" %}}
-
-Als we [het functievoorschrift](../voorschrift) van de functie hebben, kunnen
-we voor verschillende waarden van $\orange{x}$ de bijhorende waarde van
-$\green{y} = f(\orange{x})$ zoeken. Die resultaten kunnen we proper noteren in een
-[waardentabel](../waardentabel).
-
-{{% img "img/conveyor_functiewaarde.svg" "" %}}
+We kunnen de waarden voor $\orange{x}$ en $\green{y}$ in een
+[waardentabel](../waardentabel) zien als coördinaten van punten op een
+assenstelsel. Stel bijvoorbeeld dat we een functie hebben met de volgende
+waardentabel:
 
 Ingang $\orange{x}$    | Uitgang $\green{y} = f(\orange{x})$
 -----------------------|------------
-$\orange{-1}$          |    $\green{-10.5}$
+$\orange{-1}$          |    $\green{-10{,}5}$
 $\orange{0}$           |    $\green{-6}$
-$\orange{1}$           |    $\green{-2.5}$
+$\orange{1}$           |    $\green{-2{,}5}$
 $\orange{2}$           |    $\green{0}$
-$\orange{3}$           |    $\green{1.5}$
+$\orange{3}$           |    $\green{1{,}5}$
 $\orange{4}$           |    $\green{2}$
-$\orange{5}$           |    $\green{1.5}$
+$\orange{5}$           |    $\green{1{,}5}$
 
-## $x$ en $y$ als coördinaten
-We kunnen de waarden voor $\orange{x}$ en $\green{y}$ in de bovenstaande tabel
-zien als coördinaten van punten op een
-assenstelsel. Bijvoorbeeld in de laatste rij van
-de waardentabel is $\orange{x = 5}$ en $\green{y = 1.5}$. We kunnen dit
-voorstellen door een puntje met coördinaten $(\orange{5}, \green{1.5})$.
+In de laatste rij van die waardentabel is $\orange{x = 5}$ en
+$\green{y = 1{,}5}$. We kunnen dit voorstellen door een puntje met coördinaten
+$(\orange{5};~\green{1{,}5})$.
 {{% mute "(Probeer eens op het puntje te klikken.)" %}}
 
 {{% bokeh "plt/single_x.json" %}}
@@ -51,8 +40,8 @@ assenstelsel.
 ## Veel puntjes vormen een curve
 We laten ons even gaan en we zoeken $f(\orange{x})$ voor waanzinnig veel
 waarden van $\orange{x}$. Bijvoorbeeld voor alle waarden tussen $\orange{-1}$
-en $\orange{9}$ in stapjes van $0.01$ (dus $\orange{-1}$, $\orange{-0.99}$,
-$\orange{-0.98}$, $\orange{-0.97}$ enzovoort tot $\orange{9}$). Wat gebeurt
+en $\orange{9}$ in stapjes van $0{,}01$ (dus $\orange{-1}$, $\orange{-0{,}99}$,
+$\orange{-0{,}98}$, $\orange{-0{,}97}$ enzovoort tot $\orange{9}$). Wat gebeurt
 er als we die enorme hoeveelheid puntjes nu op een assenstelsel zetten? We
 krijgen deze mooie figuur:
 
