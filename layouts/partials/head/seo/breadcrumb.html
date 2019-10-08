@@ -22,7 +22,7 @@
             "position": {{ add $idx 1 }},
             "name": "{{ $crumb.Title }}",
             "item": {{ $crumb.Permalink }}
-          },
+          }{{ if lt (add $idx 1) (len $crumbs) }}, {{ end }}
           {{ end }}
       ]
     }
