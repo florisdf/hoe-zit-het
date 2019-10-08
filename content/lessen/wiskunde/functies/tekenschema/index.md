@@ -8,7 +8,7 @@ categories: ["wiskunde", "analyse", "3e middelbaar"]
 level: "3M"
 course: "wiskunde"
 topic: "analyse"
-images: []
+images: ['/lessen/wiskunde/functies/tekenschema/plt/tekenschema.png']
 ---
 Naast het kennen van [de nulpunten](../nulpunten) van een functie, is het ook
 vaak nuttig om te weten welke waarde we moeten kiezen voor $x$ zodat $f(x)$

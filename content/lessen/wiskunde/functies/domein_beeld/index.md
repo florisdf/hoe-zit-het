@@ -8,7 +8,7 @@ categories: ["wiskunde", "analyse", "3e middelbaar"]
 level: 3M
 course: wiskunde
 topic: analyse
-images: []
+images: ['/lessen/wiskunde/functies/domein_beeld/plt/fx.png', '/lessen/wiskunde/functies/domein_beeld/plt/dom.png', '/lessen/wiskunde/functies/domein_beeld/plt/bld.png']
 ---
 We kunnen niet altijd eender welk getal als $x$ kiezen om in ons
 [functievoorschrift](../voorschrift) te stoppen. Omgekeerd is het mogelijk dat

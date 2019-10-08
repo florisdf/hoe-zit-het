@@ -8,7 +8,7 @@ categories: ["wiskunde", "analyse", "3e middelbaar"]
 level: 3M
 course: wiskunde
 topic: analyse
-images: []
+images: ['/lessen/wiskunde/functies/grafiek/plt/single_x.png', '/lessen/wiskunde/functies/grafiek/plt/multiple_x.png', '/lessen/wiskunde/functies/grafiek/plt/loads_of_x.png', '/lessen/wiskunde/functies/grafiek/plt/no_fx.png']
 ---
 We kunnen de waarden voor $\orange{x}$ en $\green{y}$ in een
 [waardentabel](../waardentabel) zien als coördinaten van punten op een

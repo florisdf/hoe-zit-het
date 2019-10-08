@@ -8,7 +8,7 @@ categories: ["wiskunde", "analyse", "3e middelbaar"]
 level: "3M"
 course: "wiskunde"
 topic: "analyse"
-images: []
+images: ['/lessen/wiskunde/functies/nulpunten/plt/nulpunten.png']
 ---
 In veel toepassingen van functies zijn we geïnteresseerd in de waarde die we
 voor $x$ moeten kiezen zodat $f(x)$ gelijk wordt aan nul. Een $\orange{x}$ die zorgt dat
