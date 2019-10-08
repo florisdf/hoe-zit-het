@@ -1,13 +1,30 @@
-<ol class="tc" >
-  {{ range .Pages.ByWeight }}
-  <li
-    style="color: {{ $.Params.section_color | default ($.Scratch.Get "stroke") | default $.Site.Params.default_stroke }};"
-    class="f4 dim">
-    <a href="{{ .RelPermalink }}"
-       style="color: inherit"
-       class="link">
-      {{ .Title }}
-    </a>
-  </li>
-  {{ end }}
-</ol>
+<article class="pa3 pa4-ns nested-copy-line-height nested-img">
+  {{ $secpage := . }}
+  {{ range $idx, $page := .Pages.ByWeight }}
+  <section class="nested-copy-line-height lh-copy f4 nested-links nested-img mid-gray">
+    <!-- this <div> includes the title summary -->
+    <h2><a href="{{ .RelPermalink }}"
+        style="color: {{ $.Params.section_color | default ($.Scratch.Get "stroke") | default $.Site.Params.default_stroke }};"
+        class="dim link">{{ add $idx 1 }}. {{ .Title }}</a></h2>
+    {{ range (first 1 .Params.images) }}
+      {{ $imfile := replace . (print "/" $page.File.Dir) "" }}
+      {{ with $page.Resources.GetMatch $imfile }}
+        {{ $img := .Resize "670x CatmullRom" }}
+        <!-- 480 960 -->
+        <figure class="w-100 w-75-m w-50-l center">
+          <a data-fancybox="gallery" href="{{ .RelPermalink }}">
+            <img src="{{ $img.RelPermalink }}" alt="{{ $.Site.Title }} | {{ $.Page.Title}} "/>
+          </a>
+        </figure>
+      {{ end }}
+    {{ end }}
+    {{ .Summary }}
+    {{ if .Truncated }}
+    <!-- This <div> includes a read more link, but only if the summary is truncated... -->
+    <div class="pv2">
+      <a href="{{ .RelPermalink }}">Lees verder…</a>
+    </div>
+    {{ end }}
+    {{ end }}
+  </section>
+</article>

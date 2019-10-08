@@ -3,7 +3,7 @@ title: "Krachten op een voorwerp tekenen"
 date: 2019-05-24T11:04:17+02:00
 weight: 3
 draft: true
-images: ['lessen/fysica/krachten_1/kracht_op_voorwerp/img/grootte_richting_zin.png', 'lessen/fysica/krachten_1/kracht_op_voorwerp/img/schaatsbaan_setup.png', 'lessen/fysica/krachten_1/kracht_op_voorwerp/img/krachten_maria.png', 'lessen/fysica/krachten_1/kracht_op_voorwerp/img/krachten_dirk.png']
+images: ['/lessen/fysica/krachten_1/kracht_op_voorwerp/img/grootte_richting_zin.png', '/lessen/fysica/krachten_1/kracht_op_voorwerp/img/schaatsbaan_setup.png', '/lessen/fysica/krachten_1/kracht_op_voorwerp/img/krachten_maria.png', '/lessen/fysica/krachten_1/kracht_op_voorwerp/img/krachten_dirk.png']
 ---
 
 In [een vorige les](../krachtvector) zagen we dat kracht een vectoriële

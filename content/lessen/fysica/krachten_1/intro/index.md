@@ -8,7 +8,7 @@ categories: []
 level: ""
 course: ""
 topic: ""
-images: ['lessen/fysica/krachten_1/intro/img/kracht_effecten.png', 'lessen/fysica/krachten_1/intro/img/krachten_voorbeelden.png', 'lessen/fysica/krachten_1/intro/img/evian_kracht.png', 'lessen/fysica/krachten_1/intro/img/veldkrachten.png', 'lessen/fysica/krachten_1/intro/img/zwaartekrachtsveld.png', 'lessen/fysica/krachten_1/intro/img/contactkrachten.png', 'lessen/fysica/krachten_1/intro/img/puntmassa.png']
+images: ['/lessen/fysica/krachten_1/intro/img/kracht_effecten.png', '/lessen/fysica/krachten_1/intro/img/krachten_voorbeelden.png', '/lessen/fysica/krachten_1/intro/img/evian_kracht.png', '/lessen/fysica/krachten_1/intro/img/veldkrachten.png', '/lessen/fysica/krachten_1/intro/img/zwaartekrachtsveld.png', '/lessen/fysica/krachten_1/intro/img/contactkrachten.png', '/lessen/fysica/krachten_1/intro/img/puntmassa.png']
 ---
 
 Een van de meest fundamentele [grootheden](../../grootheden_eenheden/intro) in de
