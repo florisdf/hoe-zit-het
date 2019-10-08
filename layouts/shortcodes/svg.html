@@ -1,5 +1,5 @@
 {{ $img_orig := $.Page.Resources.GetMatch ( .Get 0 | replaceRE ".svg" ".png" ) }}
-{{ $img_scaled := $img_orig.Resize "670x Lanczos"}}
+{{ $img_scaled := $img_orig.Resize "670x CatmullRom"}}
 
 <figure class="mh0 mv4">
   <a data-fancybox="gallery" href="{{ $img_orig.RelPermalink }}">
