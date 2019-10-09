@@ -10,7 +10,7 @@ course: ""
 topic: ""
 images: ['/lessen/fysica/lichtstralen/beeldvorming/img/orange.png', '/lessen/fysica/lichtstralen/beeldvorming/img/orange_beeldvorming.png', '/lessen/fysica/lichtstralen/beeldvorming/img/oog.png', '/lessen/fysica/lichtstralen/beeldvorming/img/sony_a7ii.png', '/lessen/fysica/lichtstralen/beeldvorming/img/divergerend.png', '/lessen/fysica/lichtstralen/beeldvorming/img/convergerend.png', '/lessen/fysica/lichtstralen/beeldvorming/img/evenwijdig.png', '/lessen/fysica/lichtstralen/beeldvorming/img/camera_obscura.png', '/lessen/fysica/lichtstralen/beeldvorming/img/camera_obscura_large_aperture.png']
 ---
-Wanneer wit licht [invalt op een sinaasappel](../reflecteren_absorberen_doorlaten#reflectie-absorptie)
+Wanneer wit licht [invalt op een sinaasappel](../absorberen_reflecteren_doorlaten#reflectie-absorptie)
 gaan de gereflecteerde lichtstralen alle kanten op. Omdat die oranje
 lichtstralen zo kriskras door elkaar gaan, lijkt het onmogelijk om van elke
 lichtstraal te weten waar ze vandaan kwam.
