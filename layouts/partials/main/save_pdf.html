@@ -1,0 +1,9 @@
+<div class="tr f4" style="color: {{ $.Parent.Params.section_color }};">
+  {{ with .Resources.GetMatch ("*.pdf") }}
+    <a class="link" href="{{ .RelPermalink }}" style="color: inherit;">
+      Les downloaden als PDF
+      <i class="far fa-file-pdf ma1 dim pointer"
+        title="Opslaan als PDF"></i>
+    </a>
+  {{ end }}
+</div>
