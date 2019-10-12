@@ -3,19 +3,24 @@ title: "Snelheidsverandering"
 date: 2019-05-24T11:01:53+02:00
 weight: 4
 draft: true
-tags: []
-categories: []
-level: ""
-course: ""
-topic: ""
 images: []
 ---
-We zagen in een [vorige les](../resulterende_kracht) dat we de krachten op een voorwerp kunnen combineren tot één resulterende kracht. In deze les leren we dat er een verband is tussen die resulterende kracht en de **snelheidsverandering** van het voorwerp.
+Als er op een voorwerp een [resulterende kracht](../resulterende_kracht)
+inwerkt, dan zal dat voorwerp **veranderen van snelheid**. Een verandering van
+snelheid betekent echter niet altijd dat een voorwerp sneller of trager gaat
+bewegen. In deze les zien we dat het nemen van een bocht, bijvoorbeeld, ook een
+snelheidsverandering is.
 
 ## Snelheid is een vector
-We leerden in een [eerdere les](../krachtvector) ook al dat kracht een vectoriële grootheid is. Dat betekent dat een kracht een **grootte, richting en zin** heeft. Net als kracht, is **snelheid ook een vectoriële grootheid**. Zo is het niet alleen belangrijk hoe snel je rijdt {{% mute "(= grootte van de vector)" %}}, maar ook waar je naartoe rijdt {{% mute "(= richting en zin van de vector)" %}}. We schrijven de snelheidsvector als $\vec{v}$.
+We leerden in een [eerdere les](../krachtvector) zagen we al dat kracht een
+vectoriële grootheid is. Dat betekent dat een kracht een **grootte, richting en
+zin** heeft. Net als kracht, is **snelheid ook een vectoriële grootheid**. Zo
+is het niet alleen belangrijk hoe snel je rijdt
+{{% mute "(= grootte van de vector)" %}}, maar ook waar je naartoe rijdt
+{{% mute "(= richting en zin van de vector)" %}}. We schrijven de
+snelheidsvector als $\vec{v}$.
 
-(illustratie)
+{{% svg "img/snelheidsvector.png" %}}
 
 ## Snelheidsverandering
 Snelheid is dus een vector. Een vector heeft een grootte en een richting. Als minstens één van deze verandert, spreken we over **snelheidsverandering**.
