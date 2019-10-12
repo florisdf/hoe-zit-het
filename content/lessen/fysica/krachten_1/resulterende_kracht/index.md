@@ -3,11 +3,6 @@ title: "Resulterende kracht"
 date: 2019-05-24T11:04:17+02:00
 weight: 3
 draft: true
-tags: []
-categories: []
-level: ""
-course: ""
-topic: ""
 images: ['/lessen/fysica/krachten_1/resulterende_kracht/img/maria_drop.png', '/lessen/fysica/krachten_1/resulterende_kracht/img/maria_drop_krachten.png']
 ---
 Er kunnen meerdere [krachten](../intro) tegelijk inwerken op een voorwerp. Om
@@ -31,34 +26,25 @@ krachten die inwerken op de droppende Maria:
 
 1. [de zwaartekracht](../zwaartekracht) $\red{\vec{F}_{zM}}$ die de aarde uitoefent
 op Maria,
-2. [een normaalkracht](../normaalkracht) op beide voeten van Maria, veroorzaakt door
-het steunen op het skateboard. We duiden de krachten aan als
-$\red{\vec{F}\_{nM,1}}$ en $\red{\vec{F}\_{nM,2}}$.
+2. [een normaalkracht](../normaalkracht) $\red{\vec{F}\_{nM}}$ op Maria, veroorzaakt door
+het steunen op het skateboard.
 
-{{% svg "img/maria_drop_krachten.png" %}}
+We tekenen de krachten samen in [een
+massapunt](../kracht_op_voorwerp/#leg-alle-krachten-samen-in-een-massapunt).
 
-We willen deze drie krachten nu combineren tot één resulterende kracht
-$\red{\vec{F}_{rM}}$. Dat doen we door de krachtvectoren **vectorieel op te tellen**.
+{{% svg "img/maria_drop_krachten.png" "Krachten tekenen in massapunt" %}}
+
+We willen deze twee krachten nu combineren tot één resulterende kracht
+$\green{\vec{F}_{rM}}$. Dat doen we door de krachtvectoren **vectorieel op te tellen**.
 Dat kan op twee manieren:
 
-1. via de kop-staartmethode,
-2. via de parallellogram-methode.
+1. via de
+[kop-staartmethode](../../../wiskunde/vector_1/grafisch_optellen/#kop-staartmethode),
+2. via de [parallellogram-methode](../../../wiskunde/vector_1/grafisch_optellen/#parallellogram-methode).
 
-De twee normaalkrachten $\red{\vec{F}\_{nM,1}}$ en $\red{\vec{F}\_{nM,2}}$
-kunnen we eenvoudig optellen met de kop-staartmethode. We leggen de staart van
-$\red{\vec{F}\_{nM,2}}$ aan de kop van $\red{\vec{F}\_{nM,1}}$. Zo krijgen we
-één normaalkracht die we $\red{\vec{F}\_{nM}}$ noemen.
+{{% svg "img/add_krachten.png" "Resulterende kracht tekenen" %}}
 
-(illustratie)
-
-Vervolgens gaan we $\red{\vec{F}\_{nM}}$ vectorieel optellen bij
-$\red{\vec{F}\_{zM}}$ om de resulterende vector te krijgen. Dit kunnen we ook met
-de kop-staartmethode doen, maar doen we voor de volledigheid eens met de
-parallellogram-methode. De resulterende kracht noemen we $\red{\vec{F}_{rM}}$.
-
-(illustratie)
-
-We zien dat de resulterende kracht $\red{\vec{F}_{rM}}$ naar rechtsbeneden wijst.
+We zien dat de resulterende kracht $\green{\vec{F}_{rM}}$ naar rechtsbeneden wijst.
 De grootte van de resulterende kracht {{% mute "(in newton)" %}} zullen we in een
 andere les leren berekenen.
 
@@ -72,6 +58,4 @@ we verwachten. 👍
 {{% attention "Resulterende kracht tekenen" %}}
 Wanneer er verschillende krachten inwerken op een voorwerp, kunnen we de
 resulterende kracht tekenen door die krachten vectorieel op te tellen.
-
-(illustratie)
 {{% /attention %}}
