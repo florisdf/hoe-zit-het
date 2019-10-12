@@ -71,8 +71,7 @@ we verwachten. 👍
 
 {{% attention "Resulterende kracht tekenen" %}}
 Wanneer er verschillende krachten inwerken op een voorwerp, kunnen we de
-resulterende kracht tekenen met behulp van de **kop-staartmethode** of de
-**parallellogram-methode**.
+resulterende kracht tekenen door die krachten vectorieel op te tellen.
 
 (illustratie)
 {{% /attention %}}

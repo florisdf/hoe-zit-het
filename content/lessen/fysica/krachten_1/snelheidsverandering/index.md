@@ -18,39 +18,67 @@ We leerden in een [eerdere les](../krachtvector) ook al dat kracht een vectorië
 (illustratie)
 
 ## Snelheidsverandering
-Snelheid is dus een vector. Een vector heeft drie eigenschappen: grootte, richting en zin. Als minstens één van deze drie verandert, spreken we over **snelheidsverandering**.
+Snelheid is dus een vector. Een vector heeft een grootte en een richting. Als minstens één van deze verandert, spreken we over **snelheidsverandering**.
+
+{{% expand "En wat met de zin?" %}}
+Wanneer de zin van een snelheidsvector verandert, is er natuurlijk ook een snelheidsverandering. De **zin kan echter niet *een beetje* veranderen**. Ofwel fiets je naar rechts, ofwel naar links. Vanaf je naar rechts fietst, kan je niet plots naar links fietsen.
+
+(illustratie)
+
+De grootte en de richting van de snelheidsvector kunnen wel *een beetje* veranderen. Vanaf je $20{,} 0~\si{km/h}$ fietst kan je wel plots $19{,}9~\si{km/h}$ fietsen.
+
+(illustratie)
+
+Omdat de zin van de snelheidsvector nooit van het ene moment op het andere kan veranderen, heeft het niet veel 🤡 zin 🤡 om die in een les over snelheidsverandering te bespreken.
+{{% /expand %}}
 
 ### Grootte van de snelheid verandert
-Wanneer de snelheid vergroot of verkleint, verandert de **grootte** van de snelheidsvector. Wanneer je bijvoorbeeld sneller begint te trappen op je fiets, vergroot $\vec{v}$ {{% mute "(je gaat sneller vooruit)" %}}. Wanneer je remt, verkleint $\vec{v}$ {{% mute "(je gaat trager vooruit)" %}}.
+Wanneer de snelheid vergroot of verkleint, verandert de **grootte** van de snelheidsvector. Wanneer je bijvoorbeeld sneller begint te trappen op je fiets, vergroot de vector $\vec{v}$ {{% mute "(je gaat sneller vooruit)" %}}. Wanneer je remt, verkleint de vector $\vec{v}$ {{% mute "(je gaat trager vooruit)" %}}.
 
 (illustratie)
 
 ### Richting van de snelheid verandert
-Wanneer je een bocht neemt met de fiets, verandert de snelheidsvector ook. **Pas wel op!** Dat betekent **niet** dat je sneller of trager gaat. In een bocht verandert de snelheidsvector omdat **de richting** van de vector verandert.
+Wanneer je een bocht neemt met de fiets, verandert de snelheidsvector $\vec{v}$ ook. **Pas wel op!** Dat betekent **niet** dat je sneller of trager gaat. In een bocht verandert de snelheidsvector omdat **de richting** van de vector verandert.
 
 (illustratie)
 
-### Zin van de snelheid verandert
-Ten slotte kan de zin van een snelheidsvector ook veranderen. Als je even de straat uitrijdt en nadien terugkeert, is je zin veranderd.
 
-{{% expand "Uitbreiding: Ogenblikkelijke verandering" %}}
-Merk wel op dat een vector niet *een klein beetje* van zin kan veranderen. Ofwel gaat de vector naar links, ofwel gaat die naar rechts.
-
-Dat is anders bij verandering van grootte en zin. Een vector kan wél *een klein beetje* van grootte veranderen, of van richting.
-
-Dat lijkt misschien een vreemde opmerking, maar voor bepaalde wiskundige technieken die we later gaan gebruiken {{% mute "(afgeleiden)" %}}, is dit van groot belang.
-{{% /expand %}}
-
-## Verband tussen resulterende kracht en snelheidsverandering
+## Resulterende kracht zorgt voor snelheidsverandering
 Nu komt een van de belangrijkste wetten van de fysica. Woorden om in te kaderen en vooral goed in je oren te knopen:
 
 {{% attention "Resulterende kracht zorgt voor snelheidsverandering" %}}
-Als de **resulterende kracht** op een voorwerp **niet nul is**, dan zal de **snelheidsvector veranderen**.
+Als er een **resulterende kracht** op een voorwerp is, dan zal de **snelheidsvector van dat voorwerp veranderen**.
 {{% /attention %}}
 
-1. Teken de resulterende kracht (zie ook [hier](../resulterende-kracht#resulterende-kracht-tekenen))
-2. Is er een resulterende kracht, dan verandert de snelheidsvector
-3. Is er geen resulterende kracht, dan verandert de snelheidsvector **niet**
+{{% expand "Hoeveel verandert de snelheidsvector?" %}}
+Je vraagt je misschien af: "Ja maar, **hoevéél** verandert die snelheidsvector?! 🤔"
+
+Dat is een heel goede vraag. Helaas gaan we ze pas later kunnen beantwoorden. Voorlopig moet je vooral goed onthouden dat **een resulterende kracht zorgt voor een snelheidsverandering**.
+{{% /expand %}}
+
+Een voorbeeldje ter illustratie. Maria is dapper en fietst graag tegen de wind in. Terwijl ze flink vooruit trapt, zorgt de wind voor een wrijving van $50{,}0~\si{N}$.
 
 (illustratie)
 
+Als Maria zelf met een kracht van minder dan $50{,}0~\si{N}$ trapt, wijst de resulterende kracht naar **achter**. De snelheidsvector $\vec{v}$ zal daarom **verkleinen**. Maria zal dus **vertragen**.
+
+(illustratie)
+
+Als Maria harder dan $50{,}0~\si{N}$ trapt, wijst de resulterende kracht naar **voren**. De snelheidsvector $\vec{v}$ zal daarom **vergroten**. Maria zal dus **versnellen**.
+
+(illustratie)
+
+Stel dat Maria trapt met een kracht die net gelijk is aan $50{,}0~\si{N}$. Wanneer we de krachten vectorieel optellen, zien we dat er **geen resulterende kracht** is. Er zal daarom ook **geen snelheidsverandering** zijn. Maria blijft dus aan **dezelfde snelheid** vooruit gaan.
+
+(illustratie)
+
+
+## Samengevat
+
+{{% attention "Resulterende kracht zorgt voor snelheidsverandering" %}}
+Als er een **resulterende kracht** op een voorwerp is, dan zal de **snelheidsvector van dat voorwerp veranderen**.
+{{% /attention %}}
+
+{{% attention "Snelheidsverandering" %}}
+Omdat snelheid een vectoriële grootheid is, kan niet alleen de **grootte** van de kracht veranderen, maar ook de **richting**.
+{{% /attention %}}
