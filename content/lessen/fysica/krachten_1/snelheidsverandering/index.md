@@ -28,11 +28,7 @@ Snelheid is dus een vector. Een vector heeft een grootte en een richting. Als mi
 {{% expand "En wat met de zin?" %}}
 Wanneer de zin van een snelheidsvector verandert, is er natuurlijk ook een snelheidsverandering. De **zin kan echter niet *een beetje* veranderen**. Ofwel fiets je naar rechts, ofwel naar links. Vanaf je naar rechts fietst, kan je niet plots naar links fietsen.
 
-(illustratie)
-
 De grootte en de richting van de snelheidsvector kunnen wel *een beetje* veranderen. Vanaf je $20{,} 0~\si{km/h}$ fietst kan je wel plots $19{,}9~\si{km/h}$ fietsen.
-
-(illustratie)
 
 Omdat de zin van de snelheidsvector nooit van het ene moment op het andere kan veranderen, heeft het niet veel 🤡 zin 🤡 om die in een les over snelheidsverandering te bespreken.
 {{% /expand %}}
@@ -40,12 +36,12 @@ Omdat de zin van de snelheidsvector nooit van het ene moment op het andere kan v
 ### Grootte van de snelheid verandert
 Wanneer de snelheid vergroot of verkleint, verandert de **grootte** van de snelheidsvector. Wanneer je bijvoorbeeld sneller begint te trappen op je fiets, vergroot de vector $\vec{v}$ {{% mute "(je gaat sneller vooruit)" %}}. Wanneer je remt, verkleint de vector $\vec{v}$ {{% mute "(je gaat trager vooruit)" %}}.
 
-(illustratie)
+{{% svg "img/snelheid_vergroot.png" %}}
 
 ### Richting van de snelheid verandert
 Wanneer je een bocht neemt met de fiets, verandert de snelheidsvector $\vec{v}$ ook. **Pas wel op!** Dat betekent **niet** dat je sneller of trager gaat. In een bocht verandert de snelheidsvector omdat **de richting** van de vector verandert.
 
-(illustratie)
+{{% svg "img/snelheid_draait.png" %}}
 
 
 ## Resulterende kracht zorgt voor snelheidsverandering
