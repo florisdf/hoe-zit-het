@@ -27,7 +27,7 @@ schaduw van de maan op de aarde valt.
 
 {{% expand "Uitbreiding: tekening niet op schaal" %}}
 Het is belangrijk te beseffen dat het bovenstaande schema **niet op schaal**
-is. Dat wilt zeggen dat de verhoudingen van de groottes van de aarde, de maan
+is. Dat wil zeggen dat de verhoudingen van de groottes van de aarde, de maan
 en de zon anders zijn op de tekening dan in werkelijkheid. Ook de afstanden
 tussen de aarde, de maan en de zon zijn niet realistisch op het schema. Als we
 het schema op schaal zouden tekenen, dan zou je de aarde en de maan gewoon niet

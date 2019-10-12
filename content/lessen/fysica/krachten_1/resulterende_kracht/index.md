@@ -20,7 +20,7 @@ Eens we alle krachten op een voorwerp hebben getekend, kunnen we die krachten
 **combineren tot één resulterende kracht**. Met die resulterende kracht zullen
 we dan later leren voorspellen wat er met het voorwerp gaat gebeuren 🔮.
 
-Stel dat Maria het schaatsen beu is en ze zich wilt wagen aan een potje
+Stel dat Maria het schaatsen beu is en ze zich wil wagen aan een potje
 skateboarden. Wij gaan de resulterende kracht zoeken die op Maria inwerkt
 tijdens haar *drop* van de *halfpipe*.
 
