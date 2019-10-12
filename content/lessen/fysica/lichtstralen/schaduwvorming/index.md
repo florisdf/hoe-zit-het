@@ -16,7 +16,7 @@ In deze les bespreken we waarom een **puntlichtbron zorgt voor een harde
 schaduw** en een **diffuse lichtbron zorgt voor een zachte schaduw**.
 
 ## Wat is een schaduw?
-Wanneer een [ondoorschijnend](../reflecteren_absorberen_doorlaten#licht-doorlaten)
+Wanneer een [ondoorschijnend](../absorberen_reflecteren_doorlaten#licht-doorlaten)
 voorwerp wordt belicht, zijn er altijd plekken achter
 het voorwerp waar **weinig of geen lichtstralen geraken**. Die gebieden lijken
 donkerder en we noemen die gebieden de **schaduw** van het voorwerp.
