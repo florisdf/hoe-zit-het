@@ -2,8 +2,8 @@
 title: "Snelheidsverandering"
 date: 2019-05-24T11:01:53+02:00
 weight: 4
-draft: true
-images: []
+draft: false
+images: ['/lessen/fysica/krachten_1/snelheidsverandering/img/snelheidsvector.png', '/lessen/fysica/krachten_1/snelheidsverandering/img/snelheid_vergroot.png', '/lessen/fysica/krachten_1/snelheidsverandering/img/snelheid_draait.png']
 ---
 Als er op een voorwerp een [resulterende kracht](../resulterende_kracht)
 inwerkt, dan zal dat voorwerp **veranderen van snelheid**. Een verandering van
@@ -57,29 +57,48 @@ Je vraagt je misschien af: "Ja maar, **hoevéél** verandert die snelheidsvector
 Dat is een heel goede vraag. Helaas gaan we ze pas later kunnen beantwoorden. Voorlopig moet je vooral goed onthouden dat **een resulterende kracht zorgt voor een snelheidsverandering**.
 {{% /expand %}}
 
-Een voorbeeldje ter illustratie. Maria is dapper en fietst graag tegen de wind in. Terwijl ze flink vooruit trapt, zorgt de wind voor een wrijving van $50{,}0~\si{N}$.
+## Maria in de wind
+Een voorbeeldje ter illustratie. Maria is dapper en fietst graag tegen de wind in.
 
-(illustratie)
+{{% svg "img/maria_tegen_wind.png" "Maria fietst tegen de wind in" %}}
 
-Als Maria zelf met een kracht van minder dan $50{,}0~\si{N}$ trapt, wijst de resulterende kracht naar **achter**. De snelheidsvector $\vec{v}$ zal daarom **verkleinen**. Maria zal dus **vertragen**.
+Terwijl ze flink vooruit trapt, zorgt de wind voor een wrijving van $50~\si{N}$.
 
-(illustratie)
+{{% svg "img/maria_tegen_wind_kracht.png" "Maria fietst tegen de wind in" %}}
 
-Als Maria harder dan $50{,}0~\si{N}$ trapt, wijst de resulterende kracht naar **voren**. De snelheidsvector $\vec{v}$ zal daarom **vergroten**. Maria zal dus **versnellen**.
+Stel dat Maria trapt met een kracht van $30~\si{N}$. We kunnen de
+[resulterende kracht dan
+tekenen](../resulterende_kracht#resulterende-kracht-tekenen) door de twee krachten
+vectorieel op te tellen met de
+[kop-staartmethode](../../../wiskunde/vector_1/grafisch_optellen/#kop-staartmethode).
+We zien dat de resulterende kracht $\green{\vec{F}\_{rM}}$ naar **achter**
+wijst. De snelheidsvector $\orange{\vec{v}}$ wijst echter naar **voor**.
+$\green{\vec{F}\_{rM}}$ en $\orange{\vec{v}}$ hebben dus een verschillende zin.
+Hierdoor zal de snelheidsvector $\orange{\vec{v}}$ verkleinen en zal Maria dus
+**vertragen**.
 
-(illustratie)
+{{% svg "img/maria_wind_vertraagt.png" "Maria vertraagt" %}}
 
-Stel dat Maria trapt met een kracht die net gelijk is aan $50{,}0~\si{N}$. Wanneer we de krachten vectorieel optellen, zien we dat er **geen resulterende kracht** is. Er zal daarom ook **geen snelheidsverandering** zijn. Maria blijft dus aan **dezelfde snelheid** vooruit gaan.
+Als Maria zelf met een kracht $70~\si{N}$ trapt, dan wijst de resulterende
+kracht naar **voren**, net als de snelheidsvector $\vec{v}$. Daarom zal
+$\vec{v}$ **vergroten**. Maria zal dus **versnellen**.
 
-(illustratie)
+{{% svg "img/maria_wind_versnelt.png" "Maria versnelt" %}}
+
+Stel dat Maria zelf trapt met een kracht die net gelijk is aan $50~\si{N}$.
+Wanneer we de krachten vectorieel optellen, zien we dat er **geen resulterende
+kracht** is. Er zal daarom ook **geen snelheidsverandering** zijn. Maria blijft
+dus aan **dezelfde snelheid** vooruit gaan.
+
+{{% svg "img/maria_wind_constante_v.png" "Maria versnelt" %}}
 
 
 ## Samengevat
 
-{{% attention "Resulterende kracht zorgt voor snelheidsverandering" %}}
-Als er een **resulterende kracht** op een voorwerp is, dan zal de **snelheidsvector van dat voorwerp veranderen**.
-{{% /attention %}}
-
 {{% attention "Snelheidsverandering" %}}
 Omdat snelheid een vectoriële grootheid is, kan niet alleen de **grootte** van de kracht veranderen, maar ook de **richting**.
+{{% /attention %}}
+
+{{% attention "Resulterende kracht zorgt voor snelheidsverandering" %}}
+Als er een **resulterende kracht** op een voorwerp is, dan zal de **snelheidsvector van dat voorwerp veranderen**.
 {{% /attention %}}
