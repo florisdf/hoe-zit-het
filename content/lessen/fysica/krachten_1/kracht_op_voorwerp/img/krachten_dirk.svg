@@ -17,7 +17,7 @@
    id="svg4623"
    inkscape:version="0.92.4 (unknown)"
    sodipodi:docname="krachten_dirk.svg"
-   inkscape:export-filename="/home/fdf/hugo/hoezithet/content/lessen/fysica/krachten_1/resulterende_kracht/img/krachten_dirk.png"
+   inkscape:export-filename="/home/fdf/hugo/hoezithet/content/lessen/fysica/krachten_1/kracht_op_voorwerp/img/krachten_dirk.png"
    inkscape:export-xdpi="299.95728"
    inkscape:export-ydpi="299.95728">
   <defs
@@ -135,7 +135,7 @@
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
      inkscape:zoom="2.0000001"
-     inkscape:cx="282.50311"
+     inkscape:cx="310.50311"
      inkscape:cy="96.59933"
      inkscape:document-units="px"
      inkscape:current-layer="svg4623"
@@ -201,7 +201,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -1161,7 +1161,7 @@
        x="146.82101"
        y="37.724407"
        style="font-size:4.23333311px;line-height:0.75;text-align:end;text-anchor:end;stroke-width:0.71912855px"
-       id="tspan10608">maakt niet uit.</tspan></text>
+       id="tspan10608">hoort daar niet bij.</tspan></text>
   <g
      id="g2154"
      transform="matrix(0.78382509,0,0,0.78382509,-16.877468,-11.684222)"
