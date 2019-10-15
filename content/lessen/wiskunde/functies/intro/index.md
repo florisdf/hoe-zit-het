@@ -40,7 +40,7 @@ Het gebeurt heel vaak dat *iets* afhangt van *iets anders*:
 * ...
 
 Met een functie kunnen we *het verband* beschrijven tussen het *ene*
-{{% mute "(hoe lang het duurt voor we ergens geraken)" %}}
+{{< mute "(hoe lang het duurt voor we ergens geraken)" >}}
 en het *andere* {{% mute "(hoe snel we bewegen)" %}}. Het beschrijven van dat
 verband tussen de $x$ en de $y$, doen we met een [functievoorschrift](../voorschrift).
 

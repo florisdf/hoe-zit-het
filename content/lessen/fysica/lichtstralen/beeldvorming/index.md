@@ -60,7 +60,7 @@ Lichtstralen die evenwijdig blijven, tenslotte, vormen een **evenwijdige lichtbu
 De camera obscura {{% mute "(Latijn voor \"donkere kamer\")" %}} was een van de
 eerste apparaten waarmee beeldvorming kon worden gedaan. In haar meest
 eenvoudige vorm bestaat ze uit een donkere ruimte met in één van de
-wanden een klein gaatje naar de {{% mute "(verlichte)" %}}
+wanden een klein gaatje naar de {{< mute "(verlichte)" >}}
 buitenwereld.
 
 {{% svg "img/camera_obscura.svg" %}}
@@ -70,7 +70,7 @@ vertrokken zijn en door het gaatje gaan, niet zo veel uit elkaar zijn gegaan
 wanneer ze op de overstaande wand botsen. Hierdoor **verschijnt er op de wand
 tegenover het gaatje een vrij scherp beeld**.
 
-Omdat lichtstralen zich {{% mute "door een homogene middenstof" %}}
+Omdat lichtstralen zich {{< mute "door een homogene middenstof" >}}
 [rechtlijnig voortplanten](../voortplanting#lichtstralen-gaan-in-een-rechte-lijn) en
 alle lichtstralen die op de overstaande wand geraken, door het gaatje
 moeten, zien we een **omgedraaid beeld**.

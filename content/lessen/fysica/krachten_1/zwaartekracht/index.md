@@ -3,7 +3,7 @@ title: "Zwaartekracht"
 date: 2019-05-24T11:08:36+02:00
 weight: 3
 draft: false
-images: []
+images: ['/lessen/fysica/krachten_1/zwaartekracht/img/zwaartekracht_bowlingbal.png', '/lessen/fysica/krachten_1/zwaartekracht/img/zwaartekracht_bowlingbal_aarde_oefening.png', '/lessen/fysica/krachten_1/zwaartekracht/img/zwaartekracht_bowlingbal_maan_oefening.png', '/lessen/fysica/krachten_1/zwaartekracht/img/zwaartekracht_voetbal_aarde_oefening.png']
 ---
 
 Wanneer je springt, duurt het niet lang voor je terug met beide voetjes op de grond staat. Dat komt door de **zwaartekracht**. De aarde trekt alles naar zich toe. In deze les leren we hoe je de zwaartekracht kan tekenen op voorwerpen en hoe je de grootte ervan kan berekenen.

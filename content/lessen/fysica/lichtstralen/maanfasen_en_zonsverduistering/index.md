@@ -77,12 +77,12 @@ iets sikkelvormig 🌛. Dit noemen we de **schijngestalten van de maan** of de
 Vanuit de ruimte wordt het duidelijk waar deze schijngestalten vandaan komen.
 Terwijl de maan rond de aarde draait, kijken we vanop aarde naar een andere
 kant van de schaduw.
-{{% mute "De nummertjes op de illustratie komen overeen met de schijngestalten op de vorige figuur." %}}
+{{< mute "De nummertjes op de illustratie komen overeen met de schijngestalten op de vorige figuur." >}}
 
 {{% svg "img/maanfasen_zijaanzicht.svg" %}}
 
 In "bovenaanzicht" ziet de situatie er als volgt uit.
-{{% mute "Ook hier komen de nummers overeen." %}}
+{{< mute "Ook hier komen de nummers overeen." >}}
 
 {{% svg "img/maanfasen_bovenaanzicht.svg" %}}
 
