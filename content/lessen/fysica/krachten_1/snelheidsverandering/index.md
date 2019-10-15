@@ -1,7 +1,7 @@
 ---
 title: "Snelheidsverandering"
 date: 2019-05-24T11:01:53+02:00
-weight: 4
+weight: 8
 draft: true
 images: ['/lessen/fysica/krachten_1/snelheidsverandering/img/snelheidsvector.png', '/lessen/fysica/krachten_1/snelheidsverandering/img/snelheid_vergroot.png', '/lessen/fysica/krachten_1/snelheidsverandering/img/snelheid_draait.png']
 ---

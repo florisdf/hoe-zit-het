@@ -1,7 +1,7 @@
 ---
 title: "Resulterende kracht"
 date: 2019-05-24T11:04:17+02:00
-weight: 3
+weight: 7
 draft: true
 images: ['/lessen/fysica/krachten_1/resulterende_kracht/img/maria_drop.png']
 ---

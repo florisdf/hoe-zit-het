@@ -1,7 +1,7 @@
 ---
 title: "Vectoriële grootheden"
 date: 2019-09-18T21:25:10+02:00
-weight: 2
+weight: 1
 draft: false
 images: ['/lessen/wiskunde/vector_1/vectoriele_grootheden/img/verplaatsingsvector_1.png', '/lessen/wiskunde/vector_1/vectoriele_grootheden/img/verplaatsingsvector_2.png', '/lessen/wiskunde/vector_1/vectoriele_grootheden/img/vec_examples.png', '/lessen/wiskunde/vector_1/vectoriele_grootheden/img/scal_examples.png']
 ---

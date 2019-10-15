@@ -1,7 +1,7 @@
 ---
 title: "Zwaartekracht"
 date: 2019-05-24T11:08:36+02:00
-weight: 5
+weight: 3
 draft: false
 images: []
 ---

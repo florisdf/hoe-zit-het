@@ -1,7 +1,7 @@
 ---
 title: "Krachten op een voorwerp tekenen"
 date: 2019-05-24T11:04:17+02:00
-weight: 3
+weight: 6
 draft: false
 images: ['/lessen/fysica/krachten_1/kracht_op_voorwerp/img/schaatsbaan_setup.png', '/lessen/fysica/krachten_1/kracht_op_voorwerp/img/krachten_maria.png', '/lessen/fysica/krachten_1/kracht_op_voorwerp/img/krachten_dirk.png', '/lessen/fysica/krachten_1/kracht_op_voorwerp/img/in_massapunt.png', '/lessen/fysica/krachten_1/kracht_op_voorwerp/img/samenvatting_krachten_op.png', '/lessen/fysica/krachten_1/kracht_op_voorwerp/img/samenvatting_in_massapunt.png']
 ---
