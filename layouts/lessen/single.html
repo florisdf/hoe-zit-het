@@ -13,11 +13,11 @@
     <h1 class="f1" style="color: {{ $.Parent.Params.section_color }};">
       {{ .Title }}
     </h1>
+    {{ partial "main/save_pdf" . }}
     <div class="flex-l flex-row-reverse">
       <div class="w-third-l ph3-l mv2">
         {{ partial "main/toc.html" . }}
       </div>
-      {{ partial "main/save_pdf" . }}
       <article class="center cf w-two-thirds-l">
         <section class="nested-copy-line-height lh-copy f4 nested-links nested-img mid-gray">
           {{ $ad := ( partial "main/article-ad.html" . ) }}
