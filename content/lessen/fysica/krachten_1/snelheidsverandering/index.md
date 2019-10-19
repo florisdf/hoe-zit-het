@@ -45,15 +45,11 @@ snelheidsverandering te bespreken.
 ### Grootte van de snelheid verandert
 Wanneer de snelheid vergroot of verkleint, verandert de **grootte** van de
 snelheidsvector. Wanneer je bijvoorbeeld sneller begint te trappen op je fiets,
-vergroot de vector $\vec{v}$ {{% mute "(je gaat sneller vooruit)" %}}. Wanneer
-je remt, verkleint de vector $\vec{v}$ {{% mute "(je gaat trager vooruit)" %}}.
+vergroot de vector $\vec{v}$ {{% mute "(je gaat sneller vooruit)" %}}.
 
 {{% svg "img/snelheid_vergroot.png" %}}
 
-De grootte van de snelheid kan alleen veranderen wanneer een deel van
-de resulterende kracht in dezelfde richting wijst als 
-De **grootte van $\vec{v}$ verandert** altijd wanneer **$\vec{F}_r$ niet
-loodrecht staat op $\vec{v}$**.
+Wanneer je remt, verkleint de vector $\vec{v}$ {{% mute "(je gaat trager vooruit)" %}}.
 
 (illustratie)
 
@@ -62,13 +58,41 @@ Wanneer je een bocht neemt met de fiets, verandert de snelheidsvector $\vec{v}$ 
 
 {{% svg "img/snelheid_draait.png" %}}
 
+## $\vec{F}_r$ bepaalt de snelheidsverandering
+De snelheidsvector kan dus op twee manieren veranderen. Als de grootte verandert, dan versnel of vertraag je. En als de richting verandert, dan neem je een bocht.
 
-De **richting van $\vec{v}$ verandert** wanneer **$\vec{v}$ en $\vec{F}_r$
-een verschillende richting** hebben.
+Maar wanneer verandert de grootte en wanneer verandert de richting? Dat hangt af van hoe de resulterende kracht $\vec{F}_r$ staat ten opzichte van de snelheidsvector $\vec{v}$.
 
-## Verandering van de grootte van \vec{v}
+### $\vec{F}_r$ in de richting van $\vec{v}$
+Wanneer de resulterende kracht $\vec{F}_r$ dezelfde richting heeft als de snelheidsvector $\vec{v}$, dan zal **de grootte van $\vec{v}$ veranderen**. Dat betekent dus dat het voorwerp zal **versnellen of vertragen**.
 
-## Verandering van de richting van \vec{v}
+Wanneer $\vec{F}_r$ **dezelfde zin** heeft als $\vec{v}$, dan zal het voorwerp **versnellen**.
+
+{{% svg "img/maria_wind_versnelt.png" "Maria versnelt" %}}
+
+Wanneer $\vec{F}_r$ een **andere zin** heeft dan $\vec{v}$, dan zal het voorwerp **vertragen**.
+
+{{% svg "img/maria_wind_vertraagt.png" "Maria vertraagt" %}}
+
+### $\vec{F}_r$ loodrecht op $\vec{v}$
+Het kan ook dat $\vec{F}_r$ loodrecht staat op $\vec{v}$. In dat geval zal **de richting van $\vec{v}$ veranderen**. Het voorwerp zal dus **een bocht nemen**.
+Daarbij wijst **$\vec{F}_r$ naar de binnenkant** van de bocht.
+
+(illustratie)
+
+Als $\vec{F}_r$ voortdurend loodrecht blijft staan op $\vec{v} $,
+dan zal het voorwerp een cirkelvormige baan volgen.
+
+(illustratie)
+
+### Andere gevallen
+Wanneer $\vec{F}_r$ niet loodrecht staat op $\vec{v}$, en ook niet dezelfde richting heeft, dan zullen **zowel de grootte als de richting van $\vec{v}$ veranderen**. Dit is een iets ingewikkeldere situatie waar we later pas verder op in zullen gaan.
+
+(illustratie)
+
+### Geen $\vec{F}_r$, dan geen snelheidsverandering
+
+Tenslotte nog even vermelden dat wanneer de resulterende kracht een grootte heeft van $0~\si{N}$, dan is er **geen snelheidsverandering**. Dus geen verandering van grootte en geen verandering van richting. De snelheidsvector blijft zoals die was.
 
 ## Maria in de wind
 Een voorbeeldje ter illustratie. Maria is dapper en fietst graag tegen de wind in.
@@ -109,10 +133,21 @@ dus aan **dezelfde snelheid** vooruit gaan.
 ## Samengevat
 
 {{% attention "Snelheidsverandering" %}}
-Omdat snelheid een vectoriële grootheid is, kan niet alleen de **grootte** van
-de snelheidsvector veranderen, maar ook de **richting**.
+Zowel de grootte als de richting van de snelheidsvector $\vec{v}$ kunnen veranderen.
+
+Wanneer de **grootte** verandert, **versnelt of vertraagt** het voorwerp. Wanneer de **richting** verandert, **neemt het voorwerp een bocht**.
 {{% /attention %}}
 
-{{% attention "Resulterende kracht zorgt voor snelheidsverandering" %}}
-Als er een **resulterende kracht** op een voorwerp is, dan zal de **snelheidsvector van dat voorwerp veranderen**.
+{{% attention "$\vec{F}_r$ bepaalt de snelheidsverandering" %}}
+Wanneer $\vec{F}_r$ **dezelfde richting** en **dezelfde zin** heeft als $\vec{v}$, dan **versnelt** het voorwerp.
+
+(illustratie)
+
+Wanneer $\vec{F}_r$ **dezelfde richting** heeft als $\vec{v}$, maar een **verschillende zin**, dan **vertraagt** het voorwerp.
+
+(illustratie)
+
+Wanneer $\vec{F}_r$ **loodrecht staat** op $\vec{v}$ dan neemt het voorwerp **een bocht**.
+
+(illustratie)
 {{% /attention %}}
