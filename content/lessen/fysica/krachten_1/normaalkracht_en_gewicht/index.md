@@ -53,14 +53,12 @@ Als je verschillende handboeken van fysica naast elkaar legt, zal je zien dat "g
 In alle definities van gewicht, is gewicht wel altijd **een kracht** met als eenheid **newton** en **nóóit kilogram**.
 {{% /expand %}}
 
-## Gewicht en normaalkracht
-Gewicht en normaalkracht komen vaak samen voor. Je hebt tenslotte enkel gewicht wanneer je ergens op steunt. En vanaf je ergens op steunt, werkt er een normaalkracht op jou.
-
-Wanneer voorwerp stilstaat op een horizontaal oppervlak en aangetrokken wordt door de aarde met een kracht $F\_{z}$, dan zal de normaalkracht $F\_{n}$ **gelijk zijn** aan die kracht $F\_{z}$, **maar met tegengestelde zin**.
+## Gewicht en normaalkracht zijn tegengesteld
+Gewicht en normaalkracht komen altijd samen voor. Daarenboven hebben ze altijd **dezelfde grootte en richting**, maar hebben ze een **tegengestelde zin**.
 
 (illustratie)
 
-Het gewicht is de kracht waarmee het voorwerp op de ondersteuning duwt, en is hier de zwaartekracht waarmee het voorwerp naar beneden wordt getrokken.
+Het belangrijkste verschil is op welk voorwerp de krachten inwerken. De **normaalkracht** teken je enkel **op het ondersteunde voorwerp**. Het **gewicht**, daarentegen, teken je enkel **op de ondersteuning**.
 
 (illustratie)
 
