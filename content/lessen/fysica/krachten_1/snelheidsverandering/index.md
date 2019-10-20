@@ -3,7 +3,7 @@ title: "Snelheidsverandering"
 date: 2019-05-24T11:01:53+02:00
 weight: 8
 draft: true
-images: ['/lessen/fysica/krachten_1/snelheidsverandering/img/snelheidsvector.png', '/lessen/fysica/krachten_1/snelheidsverandering/img/snelheid_draait.png']
+images: ['/lessen/fysica/krachten_1/snelheidsverandering/img/snelheidsvector.png', '/lessen/fysica/krachten_1/snelheidsverandering/img/snelheid_vergroot.png', '/lessen/fysica/krachten_1/snelheidsverandering/img/snelheid_verkleint.png', '/lessen/fysica/krachten_1/snelheidsverandering/img/snelheid_draait.png', '/lessen/fysica/krachten_1/snelheidsverandering/img/maria_wind_versnelt.png', '/lessen/fysica/krachten_1/snelheidsverandering/img/maria_wind_vertraagt.png', '/lessen/fysica/krachten_1/snelheidsverandering/img/Fr_loodrecht_op_v.png', '/lessen/fysica/krachten_1/snelheidsverandering/img/Fr_blijft_loodrecht_op_v.png', '/lessen/fysica/krachten_1/snelheidsverandering/img/maria_wind_constante_v.png']
 ---
 Als er een [resulterende kracht](../resulterende_kracht) op een voorwerp
 inwerkt, dan zal de **snelheidsvector van dat voorwerp veranderen**.  Merk goed

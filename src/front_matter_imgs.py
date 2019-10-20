@@ -4,7 +4,8 @@ from pathlib import Path
 lessons = [*Path('content/lessen/').rglob('*.md')]
 
 for lesson in lessons:
-    matches = re.finditer('{{% (img|svg|bokeh) "([^"]*)" %}}', lesson.read_text())
+    matches = re.finditer('{{% (img|svg|bokeh) "([^"]*)"( "([^"]*)")* %}}',
+                          lesson.read_text())
     imgs = [m.group(2).replace('.svg', '.png').replace('.json', '.png')
             for m in matches]
     imgs = ['/' + ''.join(str(lesson.parent).split('content/')[1:]) + '/' + img

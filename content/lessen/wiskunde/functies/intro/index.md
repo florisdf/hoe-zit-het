@@ -8,7 +8,7 @@ categories: ["wiskunde", "analyse", "3e middelbaar"]
 level: 3M
 course: wiskunde
 topic: analyse
-images: []
+images: ['/lessen/wiskunde/functies/intro/img/conveyor_plain.png']
 ---
 Je kan een functie zien als een *machientje* waar je *iets* instopt en waar
 *iets* uit komt. Wat we erin stoppen noemen we meestal $x$, wat eruit komt noemen

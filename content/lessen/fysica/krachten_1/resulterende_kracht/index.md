@@ -2,8 +2,8 @@
 title: "Resulterende kracht"
 date: 2019-05-24T11:04:17+02:00
 weight: 7
-draft: true
-images: ['/lessen/fysica/krachten_1/resulterende_kracht/img/maria_drop.png']
+draft: false
+images: ['/lessen/fysica/krachten_1/resulterende_kracht/img/maria_drop.png', '/lessen/fysica/krachten_1/resulterende_kracht/img/maria_drop_krachten.png', '/lessen/fysica/krachten_1/resulterende_kracht/img/add_krachten.png']
 ---
 Er kunnen meerdere [krachten](../intro) tegelijk inwerken op een voorwerp. Om
 te weten wat er met het voorwerp zal gebeuren, moeten we die **krachten
