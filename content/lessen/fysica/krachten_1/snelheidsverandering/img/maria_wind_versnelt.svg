@@ -170,6 +170,21 @@
          d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
          transform="scale(-0.6)" />
     </marker>
+    <marker
+       inkscape:stockid="Arrow2Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker1219-9"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path983-0"
+         style="fill:#555555;fill-opacity:1;fill-rule:evenodd;stroke:#555555;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="scale(-0.6)" />
+    </marker>
   </defs>
   <sodipodi:namedview
      id="base"
@@ -179,7 +194,7 @@
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
      inkscape:zoom="1.8101934"
-     inkscape:cx="283.02018"
+     inkscape:cx="278.87698"
      inkscape:cy="133.80936"
      inkscape:document-units="px"
      inkscape:current-layer="svg4623"
@@ -1301,4 +1316,26 @@
       </g>
     </g>
   </g>
+  <path
+     style="opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#555555;stroke-width:0.35299996;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:1.05899988, 1.05899988;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#marker1219-9)"
+     d="m 29.011214,25.070208 c -0.342975,1.986248 -1.890557,4.727549 -5.681839,5.037607 -2.658224,0.217396 -3.949703,-1.465247 -5.043864,-4.434672"
+     id="path954"
+     inkscape:connector-curvature="0"
+     sodipodi:nodetypes="csc" />
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777743px;line-height:0.89999998;font-family:Quicksand;-inkscape-font-specification:'Quicksand, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:center;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;shape-padding:0;opacity:1;vector-effect:none;fill:#555555;fill-opacity:1;stroke:none;stroke-width:0.71912855px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     x="23.769037"
+     y="33.371777"
+     id="text23633"><tspan
+       sodipodi:role="line"
+       id="tspan23631"
+       x="23.769037"
+       y="33.371777"
+       style="font-size:3.52777743px;line-height:0.89999998;fill:#555555;stroke-width:0.71912855px">kop-staart-</tspan><tspan
+       sodipodi:role="line"
+       x="23.769037"
+       y="36.546776"
+       style="font-size:3.52777743px;line-height:0.89999998;fill:#555555;stroke-width:0.71912855px"
+       id="tspan23635">methode</tspan></text>
 </svg>

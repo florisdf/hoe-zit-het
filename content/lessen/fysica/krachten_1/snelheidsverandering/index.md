@@ -29,9 +29,10 @@ minstens één van deze verandert, spreken we over **snelheidsverandering**.
 
 {{% expand "En wat met de zin?" %}}
 Wanneer de zin van een snelheidsvector verandert, is er natuurlijk ook een
-snelheidsverandering. De **zin kan echter niet *een beetje* veranderen**. Ofwel
-fiets je naar rechts, ofwel naar links. Vanaf je naar rechts fietst, kan je
-niet plots naar links fietsen.
+snelheidsverandering. De **zin kan echter niet plots *een beetje* veranderen**.
+Stel dat je met je fiets naar het einde van de straat fietst. Je kan dan niet
+plots veranderen van zin en naar het begin van de straat fietsen. Je moet
+daarvoor eerst afremmen, draaien en terug versnellen.
 
 De grootte en de richting van de snelheidsvector kunnen wel *een beetje*
 veranderen. Vanaf je $20{,} 0~\si{km/h}$ fietst kan je wel plots
@@ -47,91 +48,82 @@ Wanneer de snelheid vergroot of verkleint, verandert de **grootte** van de
 snelheidsvector. Wanneer je bijvoorbeeld sneller begint te trappen op je fiets,
 vergroot de vector $\vec{v}$ {{% mute "(je gaat sneller vooruit)" %}}.
 
-{{% svg "img/snelheid_vergroot.png" %}}
+{{% svg "img/snelheid_vergroot.png" "De snelheidsvector vergroot" %}}
 
 Wanneer je remt, verkleint de vector $\vec{v}$ {{% mute "(je gaat trager vooruit)" %}}.
 
-(illustratie)
+{{% svg "img/snelheid_verkleint.png" "De snelheidsvector verkleint" %}}
 
 ### Richting van de snelheid verandert
-Wanneer je een bocht neemt met de fiets, verandert de snelheidsvector $\vec{v}$ ook. **Pas wel op!** Dat betekent **niet** dat je sneller of trager gaat. In een bocht verandert de snelheidsvector omdat **de richting** van de vector verandert.
+Wanneer je een bocht neemt met de fiets, verandert de snelheidsvector $\vec{v}$
+ook. **Pas wel op!** Dat betekent **niet** dat je sneller of trager gaat. In
+een bocht verandert de snelheidsvector omdat **de richting** van de vector
+verandert.
 
 {{% svg "img/snelheid_draait.png" %}}
 
 ## $\vec{F}_r$ bepaalt de snelheidsverandering
-De snelheidsvector kan dus op twee manieren veranderen. Als de grootte verandert, dan versnel of vertraag je. En als de richting verandert, dan neem je een bocht.
 
-Maar wanneer verandert de grootte en wanneer verandert de richting? Dat hangt af van hoe de resulterende kracht $\vec{F}_r$ staat ten opzichte van de snelheidsvector $\vec{v}$.
+De snelheidsvector kan dus op twee manieren veranderen. Als de **grootte
+verandert**, dan **versnel of vertraag** je. En als de **richting verandert**,
+dan neem je een **bocht**.
+
+Maar wanneer verandert de grootte en wanneer verandert de richting? Dat hangt
+af van hoe de resulterende kracht $\vec{F}_r$ staat ten opzichte van de
+snelheidsvector $\vec{v}$.
 
 ### $\vec{F}_r$ in de richting van $\vec{v}$
-Wanneer de resulterende kracht $\vec{F}_r$ dezelfde richting heeft als de snelheidsvector $\vec{v}$, dan zal **de grootte van $\vec{v}$ veranderen**. Dat betekent dus dat het voorwerp zal **versnellen of vertragen**.
+Wanneer de resulterende kracht $\vec{F}_r$ dezelfde richting heeft als de
+snelheidsvector $\vec{v}$, dan zal **de grootte van $\vec{v}$ veranderen**. Dat
+betekent dus dat het voorwerp zal **versnellen of vertragen**.
 
-Wanneer $\vec{F}_r$ **dezelfde zin** heeft als $\vec{v}$, dan zal het voorwerp **versnellen**.
+Wanneer $\vec{F}_r$ **dezelfde zin** heeft als $\vec{v}$, dan zal het voorwerp
+**versnellen**. Stel dat door wrijving met onder andere de wind er een kracht
+van $50~\si{N}$ inwerkt op de fietsende Maria. Maria trapt zelf echter met een
+kracht van $70~\si{N}$ vooruit. Aan de hand van de
+[kop-staartmethode](../../../wiskunde/vector_1/grafisch_optellen/#kop-staartmethode)
+kunnen we dan de [resulterende
+kracht](../resulterende_kracht#resulterende-kracht-tekenen) tekenen en zien we
+dat $\vec{F}_{rM}$ dezelfde zin heeft als de snelheidsvector. Maria zal dus
+**versnellen**.
 
 {{% svg "img/maria_wind_versnelt.png" "Maria versnelt" %}}
 
-Wanneer $\vec{F}_r$ een **andere zin** heeft dan $\vec{v}$, dan zal het voorwerp **vertragen**.
-
-{{% svg "img/maria_wind_vertraagt.png" "Maria vertraagt" %}}
-
-### $\vec{F}_r$ loodrecht op $\vec{v}$
-Het kan ook dat $\vec{F}_r$ loodrecht staat op $\vec{v}$. In dat geval zal **de richting van $\vec{v}$ veranderen**. Het voorwerp zal dus **een bocht nemen**.
-Daarbij wijst **$\vec{F}_r$ naar de binnenkant** van de bocht.
-
-(illustratie)
-
-Als $\vec{F}_r$ voortdurend loodrecht blijft staan op $\vec{v} $,
-dan zal het voorwerp een cirkelvormige baan volgen.
-
-(illustratie)
-
-### Andere gevallen
-Wanneer $\vec{F}_r$ niet loodrecht staat op $\vec{v}$, en ook niet dezelfde richting heeft, dan zullen **zowel de grootte als de richting van $\vec{v}$ veranderen**. Dit is een iets ingewikkeldere situatie waar we later pas verder op in zullen gaan.
-
-(illustratie)
-
-### Geen $\vec{F}_r$, dan geen snelheidsverandering
-
-Tenslotte nog even vermelden dat wanneer de resulterende kracht een grootte heeft van $0~\si{N}$, dus $\norm{\vec{F}_r} = 0~\si{N}$, dan is er **geen snelheidsverandering**. Dus geen verandering van grootte en geen verandering van richting. De snelheidsvector blijft zoals die was.
-
-{{% svg "img/maria_wind_constante_v.png" "Maria versnelt" %}}
-
-## Maria in de wind
-Een voorbeeldje ter illustratie. Maria is dapper en fietst graag tegen de wind in.
-
-{{% svg "img/maria_tegen_wind.png" "Maria fietst tegen de wind in" %}}
-
-Terwijl ze flink vooruit trapt, zorgt de wind voor een wrijving van $50~\si{N}$.
-
-{{% svg "img/maria_tegen_wind_kracht.png" "Maria fietst tegen de wind in" %}}
-
-Stel dat Maria trapt met een kracht van $30~\si{N}$. We kunnen de
-[resulterende kracht dan
-tekenen](../resulterende_kracht#resulterende-kracht-tekenen) door de twee krachten
-vectorieel op te tellen met de
-[kop-staartmethode](../../../wiskunde/vector_1/grafisch_optellen/#kop-staartmethode).
-We zien dat de resulterende kracht $\green{\vec{F}\_{rM}}$ naar **achter**
-wijst. De snelheidsvector $\orange{\vec{v}}$ wijst echter naar **voor**.
-$\green{\vec{F}\_{rM}}$ en $\orange{\vec{v}}$ hebben dus een verschillende zin.
-Hierdoor zal de snelheidsvector $\orange{\vec{v}}$ verkleinen en zal Maria dus
+Wanneer $\vec{F}\_r$ een **andere zin** heeft dan $\vec{v}$, dan zal het
+voorwerp **vertragen**. Stel bijvoorbeeld dat Maria minder hard begint te
+trappen en nu nog slechts met een kracht trapt van $30~\si{N}$. Dan zien we dat
+$\vec{F}\_{rM}$ nu een andere zin heeft dan $\vec{v}$. Maria zal dus
 **vertragen**.
 
 {{% svg "img/maria_wind_vertraagt.png" "Maria vertraagt" %}}
 
-Als Maria zelf met een kracht $70~\si{N}$ trapt, dan wijst de resulterende
-kracht naar **voren**, net als de snelheidsvector $\vec{v}$. Daarom zal
-$\vec{v}$ **vergroten**. Maria zal dus **versnellen**.
+### $\vec{F}_r$ loodrecht op $\vec{v}$
+Het kan ook dat $\vec{F}_r$ loodrecht staat op $\vec{v}$. In dat geval zal **de
+richting van $\vec{v}$ veranderen**. Het voorwerp zal dus **een bocht nemen**.
+Daarbij wijst **$\vec{F}_r$ naar de binnenkant** van de bocht.
 
-{{% svg "img/maria_wind_versnelt.png" "Maria versnelt" %}}
+{{% svg "img/Fr_loodrecht_op_v.png" "Maria neemt een bocht" %}}
 
-Stel dat Maria zelf trapt met een kracht die net gelijk is aan $50~\si{N}$.
-Wanneer we de krachten vectorieel optellen, zien we dat er **geen resulterende
-kracht** is. Er zal daarom ook **geen snelheidsverandering** zijn. Maria blijft
-dus aan **dezelfde snelheid** vooruit gaan.
+Als $\vec{F}_r$ voortdurend loodrecht blijft staan op $\vec{v} $, zonder dat
+$\vec{F}_r$ zelf van grootte verandert, dan zal het voorwerp een cirkelvormige
+baan volgen.
+
+{{% svg "img/Fr_blijft_loodrecht_op_v.png" "Maria volgt een cirkelvormige beweging" %}}
+
+### Andere gevallen
+Wanneer $\vec{F}_r$ niet loodrecht staat op $\vec{v}$, en ook niet dezelfde
+richting heeft, dan zullen **zowel de grootte als de richting van $\vec{v}$
+veranderen**. Dit is een iets ingewikkeldere situatie waar we later pas verder
+op in zullen gaan.
+
+### Geen $\vec{F}_r$, dan geen snelheidsverandering
+
+Tenslotte nog even vermelden dat wanneer de resulterende kracht een grootte
+heeft van $0~\si{N}$, dus $\norm{\vec{F}_r} = 0~\si{N}$, dan is er **geen
+snelheidsverandering**. Dus geen verandering van grootte en geen verandering
+van richting. De snelheidsvector blijft zoals die was.
 
 {{% svg "img/maria_wind_constante_v.png" "Maria versnelt" %}}
-
-
 ## Samengevat
 
 {{% attention "Snelheidsverandering" %}}
@@ -143,13 +135,7 @@ Wanneer de **grootte** verandert, **versnelt of vertraagt** het voorwerp. Wannee
 {{% attention "$\vec{F}_r$ bepaalt de snelheidsverandering" %}}
 Wanneer $\vec{F}_r$ **dezelfde richting** en **dezelfde zin** heeft als $\vec{v}$, dan **versnelt** het voorwerp.
 
-(illustratie)
-
 Wanneer $\vec{F}_r$ **dezelfde richting** heeft als $\vec{v}$, maar een **verschillende zin**, dan **vertraagt** het voorwerp.
 
-(illustratie)
-
 Wanneer $\vec{F}_r$ **loodrecht staat** op $\vec{v}$ dan neemt het voorwerp **een bocht**.
-
-(illustratie)
 {{% /attention %}}
