@@ -89,7 +89,7 @@ ongeveer hetzelfde volume als het melkkarton? Ter illustratie
 {{% img "img/liter_conversion.svg" %}}
 
 Je ziet dat de kubus met een zijde van $1 \si{ dm}$
-{{% mute "($= 10 \si{ cm}$)" %}}
+{{< mute "($= 10 \si{ cm}$)" >}}
 ongeveer hetzelfde volume heeft als de fles melk, en inderdaad
 $1 \si{ l} = 1 \si{ dm}^3$.
 

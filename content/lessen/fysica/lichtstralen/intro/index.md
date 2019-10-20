@@ -19,7 +19,7 @@ botsen, zien we voortdurend een hele mozaïek van kleuren.
 
 {{% svg "img/mosaic.svg" %}}
 
-Er vallen lichtstralen {{% mute "(van de zon bijvoorbeeld)" %}}
+Er vallen lichtstralen {{< mute "(van de zon bijvoorbeeld)" >}}
 in op de bloem en de bloem weerkaatst die. Sommige weerkaatste
 lichtstralen komen toevallig in ons oog terecht en botsen daar
 op ons netvlies waardoor we de bloem kunnen zien.

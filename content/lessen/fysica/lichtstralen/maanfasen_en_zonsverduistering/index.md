@@ -8,7 +8,7 @@ categories: []
 level: ""
 course: ""
 topic: ""
-images: ['/lessen/fysica/lichtstralen/maanfasen_en_zonsverduistering/img/zonsverduistering.png', '/lessen/fysica/lichtstralen/maanfasen_en_zonsverduistering/img/maanfasen_vanop_aarde.png', '/lessen/fysica/lichtstralen/maanfasen_en_zonsverduistering/img/maanfasen_zijaanzicht.png', '/lessen/fysica/lichtstralen/maanfasen_en_zonsverduistering/img/maanfasen_bovenaanzicht.png', '/lessen/fysica/lichtstralen/maanfasen_en_zonsverduistering/img/ecliptisch_vlak.png', '/lessen/fysica/lichtstralen/maanfasen_en_zonsverduistering/img/lunar_node_eclipses.png', '/lessen/fysica/lichtstralen/maanfasen_en_zonsverduistering/img/maansverduistering.png', '/lessen/fysica/lichtstralen/maanfasen_en_zonsverduistering/img/aarde_maan_op_schaal.png', '/lessen/fysica/lichtstralen/maanfasen_en_zonsverduistering/img/op_schaal.png', '/lessen/fysica/lichtstralen/maanfasen_en_zonsverduistering/img/op_schaal_enkel_groottes.png']
+images: ['/lessen/fysica/lichtstralen/maanfasen_en_zonsverduistering/img/zonsverduistering.png', '/lessen/fysica/lichtstralen/maanfasen_en_zonsverduistering/img/total_eclipse.jpg', '/lessen/fysica/lichtstralen/maanfasen_en_zonsverduistering/img/partial_eclipse.png', '/lessen/fysica/lichtstralen/maanfasen_en_zonsverduistering/img/annular_eclipse.jpg', '/lessen/fysica/lichtstralen/maanfasen_en_zonsverduistering/img/maanfasen_vanop_aarde.png', '/lessen/fysica/lichtstralen/maanfasen_en_zonsverduistering/img/maanfasen_zijaanzicht.png', '/lessen/fysica/lichtstralen/maanfasen_en_zonsverduistering/img/maanfasen_bovenaanzicht.png', '/lessen/fysica/lichtstralen/maanfasen_en_zonsverduistering/img/ecliptisch_vlak.png', '/lessen/fysica/lichtstralen/maanfasen_en_zonsverduistering/img/lunar_node_eclipses.png', '/lessen/fysica/lichtstralen/maanfasen_en_zonsverduistering/img/maansverduistering.png', '/lessen/fysica/lichtstralen/maanfasen_en_zonsverduistering/img/aarde_maan_op_schaal.png', '/lessen/fysica/lichtstralen/maanfasen_en_zonsverduistering/img/op_schaal.png', '/lessen/fysica/lichtstralen/maanfasen_en_zonsverduistering/img/op_schaal_enkel_groottes.png']
 ---
 Een zonsverduistering is een mooi voorbeeld van de
 [schaduw gecreëerd door een diffuse lichtbron](../schaduwvorming#de-schaduw-tekenen-van-een-diffuse-lichtbron).
@@ -27,7 +27,7 @@ schaduw van de maan op de aarde valt.
 
 {{% expand "Uitbreiding: tekening niet op schaal" %}}
 Het is belangrijk te beseffen dat het bovenstaande schema **niet op schaal**
-is. Dat wilt zeggen dat de verhoudingen van de groottes van de aarde, de maan
+is. Dat wil zeggen dat de verhoudingen van de groottes van de aarde, de maan
 en de zon anders zijn op de tekening dan in werkelijkheid. Ook de afstanden
 tussen de aarde, de maan en de zon zijn niet realistisch op het schema. Als we
 het schema op schaal zouden tekenen, dan zou je de aarde en de maan gewoon niet
@@ -77,12 +77,12 @@ iets sikkelvormig 🌛. Dit noemen we de **schijngestalten van de maan** of de
 Vanuit de ruimte wordt het duidelijk waar deze schijngestalten vandaan komen.
 Terwijl de maan rond de aarde draait, kijken we vanop aarde naar een andere
 kant van de schaduw.
-{{% mute "De nummertjes op de illustratie komen overeen met de schijngestalten op de vorige figuur." %}}
+{{< mute "De nummertjes op de illustratie komen overeen met de schijngestalten op de vorige figuur." >}}
 
 {{% svg "img/maanfasen_zijaanzicht.svg" %}}
 
 In "bovenaanzicht" ziet de situatie er als volgt uit.
-{{% mute "Ook hier komen de nummers overeen." %}}
+{{< mute "Ook hier komen de nummers overeen." >}}
 
 {{% svg "img/maanfasen_bovenaanzicht.svg" %}}
 

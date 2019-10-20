@@ -73,7 +73,7 @@ Die grafiek ziet er zo uit:
 Om op deze grafiek het **domein** af te lezen, moet je de grafiek **projecteren
 op de x-as**.  Het resultaat van de projectie
 is aangeduid {{% class "**in het groen op de x-as**" "green" %}}.
-{{% mute "We gaan ervan uit dat de grafiek oneindig blijft verder stijgen aan de rechterkant." %}}
+{{< mute "We gaan ervan uit dat de grafiek oneindig blijft verder stijgen aan de rechterkant." >}}
 We zien dan dat $\green{dom f = [-5; +\infty[}$.
 
 {{% bokeh "plt/dom.json" %}}
@@ -84,7 +84,7 @@ vinden door de grafiek nu te **projecteren op de y-as**. Op de onderstaande
 grafiek zie je het resultaat van deze projectie
 {{% class "**in het groen op de y-as**" "green" %}}.
 {{% bokeh "plt/bld.json" %}}
-{{% mute "We gaan ervan uit dat de grafiek oneindig blijft verder stijgen aan de rechterkant." %}}
+{{< mute "We gaan ervan uit dat de grafiek oneindig blijft verder stijgen aan de rechterkant." >}}
 Je vindt dat $\green{bld f = [-6; +\infty[}$.
 
 ## Samengevat

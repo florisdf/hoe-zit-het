@@ -8,7 +8,7 @@ categories: ["wiskunde", "analyse", "3e middelbaar"]
 level: 3M
 course: wiskunde
 topic: analyse
-images: []
+images: ['/lessen/wiskunde/functies/voorschrift/img/conveyor_functiewaarde.png']
 ---
 De $y$ die uit [het machientje](../intro) komt is *afhankelijk van* de $x$ die we in het
 machientje stopten. We zeggen dat **$y$ een functie is van $x$**. In symbolen

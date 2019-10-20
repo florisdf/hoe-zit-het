@@ -28,7 +28,7 @@ $\orange{5}$           |    $\green{1{,}5}$
 In de laatste rij van die waardentabel is $\orange{x = 5}$ en
 $\green{y = 1{,}5}$. We kunnen dit voorstellen door een puntje met coördinaten
 $(\orange{5};~\green{1{,}5})$.
-{{% mute "(Probeer eens op het puntje te klikken.)" %}}
+{{< mute "(Probeer eens op het puntje te klikken.)" >}}
 
 {{% bokeh "plt/single_x.json" %}}
 

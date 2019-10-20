@@ -1,20 +1,12 @@
 ---
 title: "Krachten op een voorwerp tekenen"
 date: 2019-05-24T11:04:17+02:00
-weight: 3
-draft: true
-images: ['/lessen/fysica/krachten_1/kracht_op_voorwerp/img/grootte_richting_zin.png', '/lessen/fysica/krachten_1/kracht_op_voorwerp/img/schaatsbaan_setup.png', '/lessen/fysica/krachten_1/kracht_op_voorwerp/img/krachten_maria.png', '/lessen/fysica/krachten_1/kracht_op_voorwerp/img/krachten_dirk.png']
+weight: 6
+draft: false
+images: ['/lessen/fysica/krachten_1/kracht_op_voorwerp/img/schaatsbaan_setup.png', '/lessen/fysica/krachten_1/kracht_op_voorwerp/img/krachten_maria.png', '/lessen/fysica/krachten_1/kracht_op_voorwerp/img/krachten_dirk.png', '/lessen/fysica/krachten_1/kracht_op_voorwerp/img/in_massapunt.png', '/lessen/fysica/krachten_1/kracht_op_voorwerp/img/samenvatting_krachten_op.png', '/lessen/fysica/krachten_1/kracht_op_voorwerp/img/samenvatting_in_massapunt.png']
 ---
 
-In [een vorige les](../krachtvector) zagen we dat kracht een vectoriële
-grootheid is en een aangrijpingspunt heeft. We kunnen daarom een kracht voorstellen met een pijl die een
-grootte, richting, zin en
-aangrijpingspunt
-heeft.
-
-{{% svg "img/grootte_richting_zin.svg" %}}
-
-We weten ook al van een [andere les](../intro) dat krachten ervoor kunnen zorgen dat een voorwerp van snelheid verandert. Om te weten wat er nu precies met een voorwerp gaat gebeuren wanneer krachten erop
+Om te weten wat er nu precies met een voorwerp gaat gebeuren wanneer krachten erop
 inwerken, moeten we echter eerst al die inwerkende krachten op dat voorwerp kunnen tekenen.
 
 ## Enkel krachten op het voorwerp
@@ -41,6 +33,12 @@ uitoefent op Maria.
 
 {{% svg "img/krachten_maria.png" %}}
 
+Merk op hoe we [krachten
+noteren](../krachtvector#kracht-is-een-vectoriële-grootheid).
+$\vec{F}\_{DM}$ betekent: "de kracht van
+**D**irk op **M**aria", terwijl $\vec{F}\_{MD}$ betekent "de kracht van
+**M**aria op **D**irk".
+
 We kunnen ook de krachten tekenen die op Dirk inwerken. De kracht die Dirk zelf op
 Maria uitoefent, hoort daar niet bij.
 
@@ -58,7 +56,7 @@ We gaan voorlopig alle krachten die inwerken op een voorwerp samen in één punt
 
 Voor de krachten die inwerken op Maria, ziet dat er als volgt uit:
 
-(illustratie)
+{{% svg "img/in_massapunt.png" %}}
 
 ## Samengevat
 
@@ -66,13 +64,13 @@ Voor de krachten die inwerken op Maria, ziet dat er als volgt uit:
 Wanneer we *"de krachten op een voorwerp"* tekenen, tekenen we alle krachten
 die **door andere voorwerpen** worden uitgeoefend **op dat voorwerp**.
 
-(illustratie)
+{{% svg "img/samenvatting_krachten_op.png" %}}
 
 {{% /attention %}}
 
 {{% attention "Krachten samenleggen in massapunt" %}}
 We leggen de krachten **samen in een massapunt**. Als massapunt kiezen we een punt dat ongeveer **in het midden van het voorwerp** ligt.
 
-(illustratie)
+{{% svg "img/samenvatting_in_massapunt.png" %}}
 
 {{% /attention %}}

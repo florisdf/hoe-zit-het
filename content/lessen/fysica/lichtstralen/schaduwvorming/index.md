@@ -66,7 +66,7 @@ uit ziet, kijken we op welke plekken er wel of geen lichtstralen geraken.
 Omdat een diffuse lichtbron eigenlijk bestaat uit allemaal
 kleine puntlichtbronnen, bekijken we de schaduw van enkele van die
 puntlichtbronnen apart.
-{{% mute "Om de illustratie eenvoudig te houden, beperken we ons tot een bolvormige diffuse lichtbron." %}}
+{{< mute "Om de illustratie eenvoudig te houden, beperken we ons tot een bolvormige diffuse lichtbron." >}}
 
 {{% svg "img/diffuse_bron_straal_schaduwen.svg" %}}
 
