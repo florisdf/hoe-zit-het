@@ -92,7 +92,9 @@ Wanneer $\vec{F}_r$ niet loodrecht staat op $\vec{v}$, en ook niet dezelfde rich
 
 ### Geen $\vec{F}_r$, dan geen snelheidsverandering
 
-Tenslotte nog even vermelden dat wanneer de resulterende kracht een grootte heeft van $0~\si{N}$, dan is er **geen snelheidsverandering**. Dus geen verandering van grootte en geen verandering van richting. De snelheidsvector blijft zoals die was.
+Tenslotte nog even vermelden dat wanneer de resulterende kracht een grootte heeft van $0~\si{N}$, dus $\norm{\vec{F}_r} = 0~\si{N}$, dan is er **geen snelheidsverandering**. Dus geen verandering van grootte en geen verandering van richting. De snelheidsvector blijft zoals die was.
+
+{{% svg "img/maria_wind_constante_v.png" "Maria versnelt" %}}
 
 ## Maria in de wind
 Een voorbeeldje ter illustratie. Maria is dapper en fietst graag tegen de wind in.
