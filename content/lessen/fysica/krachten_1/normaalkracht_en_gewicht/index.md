@@ -3,7 +3,7 @@ title: "Normaalkracht en gewicht"
 date: 2019-05-24T11:13:59+02:00
 weight: 4
 draft: true
-images: []
+images: ["/lessen/fysica/krachten_1/normaalkracht_en_gewicht/img/staan_kapstok.png"]
 ---
 Wanneer je met je voeten op de grond staat, ondersteunt de grond jou. Wanneer
 je een kleedje aan een kleerhanger hangt, zorgt de kapstok ervoor dat het
