@@ -10,7 +10,7 @@ je een kleedje aan een kleerhanger hangt, zorgt de kapstok ervoor dat het
 kleedje niet op de grond valt.  De kracht die zo'n ondersteuning of ophanging
 uitoefent, noemen we een **normaalkracht**.
 
-{{% svg "img/staan_kapstok.png" %}}
+{{% svg "img/staan_kapstok.png" "Voorbeelden van normaalkrachten" %}}
 
 ## Een normaalkracht ondersteunt
 Een normaalkracht $\vec{F}\_{n}$ is een kracht die een **ondersteuning
@@ -20,26 +20,26 @@ op de plaats waar de ondersteuning contact maakt met het voorwerp.
 Stel dat Maria en Dirk zich wagen aan een bezoekje aan de lokale speeltuin.
 Maria zet zich op de glijbaan en Dirk gaat aan het klimrek hangen.
 
-{{% svg "img/speeltuin.png" %}}
+{{% svg "img/speeltuin.png" "Maria en Dirk in de speeltuin" %}}
 
 Maria wordt ondersteund door de glijbaan. De glijbaan oefent dus een
 normaalkracht $\vec{F}\_{nM}$ uit op Maria. Het aangrijpingspunt van
 $\vec{F}\_{nM}$ tekenen we aan het zitvlak van Maria.
 
-{{% svg "img/normaalkracht_schuifaf.png" %}}
+{{% svg "img/normaalkracht_schuifaf.png" "Normaalkracht uitgeoefend door glijbaan" %}}
 
 Bij een ophanging, zoals Dirk die aan het klimrek hangt, is er ook een
 normaalkracht. Omdat Dirk met beide handen aan het klimrek hangt, zijn er hier
 zelfs twee normaalkrachten. Voor ieder hand één.
 
-{{% svg "img/normaalkracht_klimrek.png" %}}
+{{% svg "img/normaalkracht_klimrek.png" "Normaalkracht uitgeoefend door klimrek" %}}
 
 ## Normaalkracht altijd loodrecht op steunoppervlak
 De normaalkracht is *"normaal"* omdat ze altijd loodrecht op het steunoppervlak
 staat {{% mute "(*normaal* is een ander woord voor *loodrecht*)" %}}. Ook
 wanneer het steunoppervlak schuin staat, staat de normaalkracht er loodrecht op.
 
-{{% svg "img/normaalkracht_loodrecht.png" %}}
+{{% svg "img/normaalkracht_loodrecht.png" "Normaalkacht is altijd loodrecht op het steunoppervlak" %}}
 
 ## Gewicht duwt op ondersteuning
 
@@ -54,8 +54,8 @@ als je weet dat Maria een massa heeft van $65{,}0~\si{kg}$?
 
 De zwaartekracht trekt Maria naar beneden. Hierdoor oefent ze een gewicht uit
 op de glijbaan. Er zijn geen andere krachten die Maria tegen de glijbaan
-trekken. Daarom is het gewicht $\vec{F}\_g$ dat ze uitoefent op de glijbaan
-gelijk aan de zwaartekracht.
+trekken. Daarom is de grootte het gewicht $\vec{F}\_g$ dat ze uitoefent op de
+glijbaan gelijk aan de grootte van de zwaartekracht op Maria.
 
 \begin{split}
     F\_g &= F\_{zM}\\\\\
@@ -65,7 +65,7 @@ gelijk aan de zwaartekracht.
          &\breq 638~\si{N}\\\\\
 \end{split}
 
-(illustratie)
+{{% svg "img/gewicht_maria.png" "Het gewicht uitgeoefend door Maria op de glijbaan" %}}
 
 In bovenstaand voorbeeld is het gewicht van Maria gelijk aan de zwaartekracht
 die inwerkt op haar. Dat is vaak zo. Wanneer een voorwerp steunt op een
@@ -88,8 +88,6 @@ eenheid **newton** en **nóóit kilogram**.
 Gewicht en normaalkracht komen altijd samen voor. Daarenboven hebben ze altijd
 **dezelfde grootte en richting**, maar hebben ze een **tegengestelde zin**.
 
-(illustratie)
-
 Het belangrijkste verschil is dat de
 **normaalkracht inwerkt op het ondersteunde voorwerp**, terwijl
 **gewicht inwerkt op de ondersteuning**. In een latere les zullen we zulke
@@ -97,7 +95,7 @@ krachten die gelijk zijn in grootte, maar tegengesteld in zin, een
 *actie-reactiepaar* noemen. Maar daar hoef je je nu nog geen zorgen over te
 maken.
 
-(illustratie)
+{{% svg "img/gewicht_vs_normaalkracht.png" "Gewicht en normaalkracht zijn gelijk maar hebben een tegengestelde zin" %}}
 
 ## Samengevat
 {{% attention "Normaalkrachten" %}}
@@ -110,7 +108,7 @@ staat **altijd loodrecht op het steunoppervlak**.
 
 {{% attention "Gewicht" %}}
 
-Het gewicht $\vec{F}_g$ van een ondersteund voorwerp is een **kracht** die
+Het gewicht $\vec{F}_g$ van een ondersteund voorwerp is de **kracht** die
 geleverd wordt **door een ondersteund voorwerp** en inwerkt **op de
 ondersteuning**.
 
