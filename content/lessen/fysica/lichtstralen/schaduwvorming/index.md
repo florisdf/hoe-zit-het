@@ -8,6 +8,7 @@ categories: []
 level: ""
 course: ""
 topic: ""
+images: ['/lessen/fysica/lichtstralen/schaduwvorming/img/schaduw_intro.png', '/lessen/fysica/lichtstralen/schaduwvorming/img/puntbron_straal_schaduwen.png', '/lessen/fysica/lichtstralen/schaduwvorming/img/puntbron_straal_schaduwen_resultaat.png', '/lessen/fysica/lichtstralen/schaduwvorming/img/puntvormige_lichtbron.png', '/lessen/fysica/lichtstralen/schaduwvorming/img/diffuse_bron_straal_schaduwen.png', '/lessen/fysica/lichtstralen/schaduwvorming/img/diffuse_bron_straal_schaduwen_resultaat.png', '/lessen/fysica/lichtstralen/schaduwvorming/img/niet_puntvormige_lichtbron.png']
 ---
 Om een flatterend portret te maken, kiezen fotografen meestal voor *diffuse
 lichtbronnen*. Dat doen ze omdat deze lichtbronnen de schaduwen *verzachten*.
@@ -15,7 +16,7 @@ In deze les bespreken we waarom een **puntlichtbron zorgt voor een harde
 schaduw** en een **diffuse lichtbron zorgt voor een zachte schaduw**.
 
 ## Wat is een schaduw?
-Wanneer een [ondoorschijnend](../reflecteren_absorberen_doorlaten#licht-doorlaten)
+Wanneer een [ondoorschijnend](../absorberen_reflecteren_doorlaten#licht-doorlaten)
 voorwerp wordt belicht, zijn er altijd plekken achter
 het voorwerp waar **weinig of geen lichtstralen geraken**. Die gebieden lijken
 donkerder en we noemen die gebieden de **schaduw** van het voorwerp.
@@ -65,7 +66,7 @@ uit ziet, kijken we op welke plekken er wel of geen lichtstralen geraken.
 Omdat een diffuse lichtbron eigenlijk bestaat uit allemaal
 kleine puntlichtbronnen, bekijken we de schaduw van enkele van die
 puntlichtbronnen apart.
-{{% mute "Om de illustratie eenvoudig te houden, beperken we ons tot een bolvormige diffuse lichtbron." %}}
+{{< mute "Om de illustratie eenvoudig te houden, beperken we ons tot een bolvormige diffuse lichtbron." >}}
 
 {{% svg "img/diffuse_bron_straal_schaduwen.svg" %}}
 

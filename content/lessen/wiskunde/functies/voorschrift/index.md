@@ -8,14 +8,9 @@ categories: ["wiskunde", "analyse", "3e middelbaar"]
 level: 3M
 course: wiskunde
 topic: analyse
+images: ['/lessen/wiskunde/functies/voorschrift/img/conveyor_functiewaarde.png']
 ---
-Zoals ik in een [andere les](../intro) uitlegde, kunnen we een functie zien als
-een *machientje* waar we een $x$ in stoppen en waar een $y$ uit komt.
-
-{{% img "img/conveyor_plain.svg" "" %}}
-
-## $f(x)$ betekent "een functie van $x$"
-De $y$ die uit het machientje komt is *afhankelijk van* de $x$ die we in het
+De $y$ die uit [het machientje](../intro) komt is *afhankelijk van* de $x$ die we in het
 machientje stopten. We zeggen dat **$y$ een functie is van $x$**. In symbolen
 schrijven we:
 $$y = f(x)$$

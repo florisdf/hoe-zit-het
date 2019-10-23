@@ -8,6 +8,7 @@ categories: []
 level: ""
 course: ""
 topic: ""
+images: []
 ---
 Je kan je een [verzameling](../intro)
 voorstellen als een grote, denkbeeldige zak waarin bepaalde *elementen* zitten. In deze les zullen we zien hoe verzamelingen kunnen gecombineerd worden om zo nieuwe verzamelingen te krijgen.
@@ -33,7 +34,7 @@ We nemen uit de eerste verzameling ($\\{-1, 7, 4, 3\\}$) de elementen die in de 
 
 
 ## Venndiagram
-Een typische manier om de vorige bewerkingen {{% mute "(unie, doorsnede en verschil)" %}}
+Een typische manier om de vorige bewerkingen {{< mute "(unie, doorsnede en verschil)" >}}
 met verzamelingen voor te stellen, is aan de hand van een **venndiagram**. In een venndiagram stellen we verzamelingen voor als **ellipsen of cirkels**.
 
 Als twee verzamelingen bepaalde elementen gemeenschappelijk hebben, laten we de ellipsen daar overlappen.

@@ -2,12 +2,5 @@ rekenen
 verzamelingen
 veeltermen
 functies
-ongelijkheden
-goniometrie
-reele_fies
-eerste_gr_fies
-stelsels
-logica
-reele_getallen
-complexe_getallen
 1g_vgl
+vector_1

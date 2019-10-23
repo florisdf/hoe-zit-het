@@ -7,6 +7,7 @@ MetaDataFormat = "yaml"
 DefaultContentLanguage = "nl"
 Paginate = 10
 PaginatePath = "pagina"
+summaryLength = 30
 googleAnalytics = "UA-133189848-1"
 enableRobotsTXT = true
 enableEmoji = true
@@ -19,7 +20,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 
 [params]
   favicon = "/images/favicon.png"
-  description = "Wetenschap verlicht"
+  description = "Gratis hulp met wiskunde en fysica"
   facebook = "https://fb.me/hoezithet"
   github = "https://github.com/florisdf/hoe-zit-het"
   background_color_class = "bg-near-white"

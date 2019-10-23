@@ -8,8 +8,8 @@ categories: ["wiskunde", "analyse", "3e middelbaar"]
 level: 3M
 course: wiskunde
 topic: analyse
+images: ['/lessen/wiskunde/functies/intro/img/conveyor_plain.png']
 ---
-## Een functie is een machientje
 Je kan een functie zien als een *machientje* waar je *iets* instopt en waar
 *iets* uit komt. Wat we erin stoppen noemen we meestal $x$, wat eruit komt noemen
 we meestal $y$. Uit het machientje zal voor dezelfde $x$
@@ -26,8 +26,8 @@ noemen we $y$ ook wel de **afhankelijke variabele**. De $x$ die we erin stoppen,
 noemen we de **onafhankelijke variabele**.
 
 ## Oké, maar wat zijn die $x$ en $y$?
-$x$ en $y$ kunnen **vanalles** zijn. Meestal zijn ze allebei [reële
-getallen](../../verzamelingen/reele_getallen). Maar $x$ mag ook bijvoorbeeld een
+$x$ en $y$ kunnen **vanalles** zijn. Meestal zijn ze allebei reële
+getallen. Maar $x$ mag ook bijvoorbeeld een
 naam van iemand zijn, en $y$ de lengte van die persoon. Of $x$ kan een datum
 zijn en $y$ de gemiddelde temperatuur op die dag.
 
@@ -40,7 +40,7 @@ Het gebeurt heel vaak dat *iets* afhangt van *iets anders*:
 * ...
 
 Met een functie kunnen we *het verband* beschrijven tussen het *ene*
-{{% mute "(hoe lang het duurt voor we ergens geraken)" %}}
+{{< mute "(hoe lang het duurt voor we ergens geraken)" >}}
 en het *andere* {{% mute "(hoe snel we bewegen)" %}}. Het beschrijven van dat
 verband tussen de $x$ en de $y$, doen we met een [functievoorschrift](../voorschrift).
 

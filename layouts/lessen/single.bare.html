@@ -1,7 +1,13 @@
 {{ define "header" }}
 	{{ $.Scratch.Set "stroke" $.Parent.Params.section_color }}
 {{ end }}
+
+{{ define "robots" }}
+      <meta name="robots" content="noindex, follow">
+{{ end }}
+
 {{ define "mathjax" }} {{ partial "head/mathjax" . }} {{ end }}
+
 {{ define "main" }}
   <div class="mw8 center ph3 bg-white">
     <div class="flex-l flex-row-reverse">

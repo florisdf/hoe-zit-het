@@ -8,6 +8,7 @@ categories: []
 level: ""
 course: ""
 topic: ""
+images: ['/lessen/fysica/lichtstralen/intro/img/mosaic.png', '/lessen/fysica/lichtstralen/intro/img/em_stralen.png', '/lessen/fysica/lichtstralen/intro/img/light_router.png', '/lessen/fysica/lichtstralen/intro/img/sunburn.png', '/lessen/fysica/lichtstralen/intro/img/light_rays.png']
 ---
 Zonder licht zouden we niets kunnen zien. Licht bestaat uit waanzinnig veel
 **lichtstralen** die tegen een duizelingwekkend hoge snelheid vooruit razen.
@@ -18,7 +19,7 @@ botsen, zien we voortdurend een hele mozaïek van kleuren.
 
 {{% svg "img/mosaic.svg" %}}
 
-Er vallen lichtstralen {{% mute "(van de zon bijvoorbeeld)" %}}
+Er vallen lichtstralen {{< mute "(van de zon bijvoorbeeld)" >}}
 in op de bloem en de bloem weerkaatst die. Sommige weerkaatste
 lichtstralen komen toevallig in ons oog terecht en botsen daar
 op ons netvlies waardoor we de bloem kunnen zien.

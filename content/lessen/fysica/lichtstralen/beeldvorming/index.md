@@ -8,8 +8,9 @@ categories: []
 level: ""
 course: ""
 topic: ""
+images: ['/lessen/fysica/lichtstralen/beeldvorming/img/orange.png', '/lessen/fysica/lichtstralen/beeldvorming/img/orange_beeldvorming.png', '/lessen/fysica/lichtstralen/beeldvorming/img/oog.png', '/lessen/fysica/lichtstralen/beeldvorming/img/sony_a7ii.png', '/lessen/fysica/lichtstralen/beeldvorming/img/divergerend.png', '/lessen/fysica/lichtstralen/beeldvorming/img/convergerend.png', '/lessen/fysica/lichtstralen/beeldvorming/img/evenwijdig.png', '/lessen/fysica/lichtstralen/beeldvorming/img/camera_obscura.png', '/lessen/fysica/lichtstralen/beeldvorming/img/camera_obscura_large_aperture.png']
 ---
-Wanneer wit licht [invalt op een sinaasappel](../reflecteren_absorberen_doorlaten#reflectie-absorptie)
+Wanneer wit licht [invalt op een sinaasappel](../absorberen_reflecteren_doorlaten#reflectie-absorptie)
 gaan de gereflecteerde lichtstralen alle kanten op. Omdat die oranje
 lichtstralen zo kriskras door elkaar gaan, lijkt het onmogelijk om van elke
 lichtstraal te weten waar ze vandaan kwam.
@@ -59,7 +60,7 @@ Lichtstralen die evenwijdig blijven, tenslotte, vormen een **evenwijdige lichtbu
 De camera obscura {{% mute "(Latijn voor \"donkere kamer\")" %}} was een van de
 eerste apparaten waarmee beeldvorming kon worden gedaan. In haar meest
 eenvoudige vorm bestaat ze uit een donkere ruimte met in één van de
-wanden een klein gaatje naar de {{% mute "(verlichte)" %}}
+wanden een klein gaatje naar de {{< mute "(verlichte)" >}}
 buitenwereld.
 
 {{% svg "img/camera_obscura.svg" %}}
@@ -69,7 +70,7 @@ vertrokken zijn en door het gaatje gaan, niet zo veel uit elkaar zijn gegaan
 wanneer ze op de overstaande wand botsen. Hierdoor **verschijnt er op de wand
 tegenover het gaatje een vrij scherp beeld**.
 
-Omdat lichtstralen zich {{% mute "door een homogene middenstof" %}}
+Omdat lichtstralen zich {{< mute "door een homogene middenstof" >}}
 [rechtlijnig voortplanten](../voortplanting#lichtstralen-gaan-in-een-rechte-lijn) en
 alle lichtstralen die op de overstaande wand geraken, door het gaatje
 moeten, zien we een **omgedraaid beeld**.

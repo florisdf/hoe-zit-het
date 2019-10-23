@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 import subprocess
 import argparse
+from pathlib import Path
 
 parser = argparse.ArgumentParser()
 parser.add_argument('-f', '--force',
@@ -11,11 +12,12 @@ args = parser.parse_args()
 LAZY = not args.force
 
 
+curdir = Path(__file__).parent
 subprocess.run('hugo && firebase deploy', shell=True)
 if LAZY:
-    subprocess.run('./create_bokeh_pngs.py')
-    subprocess.run('./create_pdfs.py')
+    subprocess.run(str(curdir / 'create_bokeh_pngs.py'))
+    subprocess.run(str(curdir / 'create_pdfs.py'))
 else:
-    subprocess.run('./create_bokeh_pngs.py -f', shell=True)
-    subprocess.run('./create_pdfs.py -f', shell=True)
+    subprocess.run(str(curdir / 'create_bokeh_pngs.py -f'), shell=True)
+    subprocess.run(str(curdir / 'create_pdfs.py -f'), shell=True)
 subprocess.run('hugo && firebase deploy', shell=True)

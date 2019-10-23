@@ -8,18 +8,12 @@ categories: ["wiskunde", "analyse", "3e middelbaar"]
 level: "3M"
 course: "wiskunde"
 topic: "analyse"
+images: ['/lessen/wiskunde/functies/tekenschema/plt/tekenschema.png']
 ---
-Een functie kunnen we [voorstellen als een machientje](../intro) waar we een
-waarde voor $x$ in stoppen en waar [hoogstens één](../intro#samengevat) waarde
-voor $y$ uit komt.
-
-{{% img "img/conveyor_plain.svg" "" %}}
-
-De [nulwaarden](../nulpunten#nulwaarden-van-een-functie) van de functie zeggen
-welke x-waarden we in de functie moeten stoppen om als functiewaarde
-{{% mute "(of y-waarde)" %}} nul te krijgen. We kunnen nu ook op zoek gaan naar
-de x-waarden die een *positieve* functiewaarde opleveren en de x-waarden die
-een *negatieve* functiewaarde opleveren.
+Naast het kennen van [de nulpunten](../nulpunten) van een functie, is het ook
+vaak nuttig om te weten welke waarde we moeten kiezen voor $x$ zodat $f(x)$
+positief of negatief is. Deze informatie vatten we overzichtelijk samen in een
+**tekenschema**.
 
 ## Tekenschema vanuit een grafiek
 Welke x-waarden welk teken {{% mute "(positief/negatief/nul)" %}} opleveren
@@ -61,20 +55,24 @@ stappen.
 2. Zoek alle [nulpunten](../nulpunten) en zet ze van klein naar groot {{% mute "(volgens x-waarde)" %}} tussen de grenzen van het domein;
 3. Vind de tekens van $y$ tussen alle x-waarden in het schema {{% mute "(tenzij die x-waarden buiten het domein liggen)" %}}.
 
-We werken deze stappen uit voor de ([reële](../../reele_fies)) functie
-met [voorschrift](../voorschrift)
-$$f(x) = -x^2 + 9$$
-Dit is de functie die hoort bij de grafiek van daarnet. We hopen dus ook hetzelfde tekenschema te krijgen.
+We werken deze stappen uit voor de {{% mute "(reële)" %}} functie met
+[voorschrift](../voorschrift) $$f(x) = -x^2 + 9$$
+Dit is de functie die hoort bij de grafiek van daarnet. We hopen dus ook
+hetzelfde tekenschema te krijgen.
 
 ### Grenzen van het domein
 We kunnen van eender welk reëel getal het kwadraat berekenen, dus we kunnen
 $f(x) = -x^2 + 9$ voor elk reëel getal $x$ berekenen. Dit betekent dat het
-domein van $f$ alle reële getallen is:
+domein van $f$ alle reële getallen bevat:
+
 $$dom f = \mathbb{R}$$
-Als [interval](../../verzamelingen/intervallen) geschreven is dit
+
+Als interval geschreven is dit
+
 $$dom f = \left] -\infty, +\infty \right[%]$$
-De grenzen van het domein zijn dus $-\infty$
-en $+\infty$. Die zetten we op de bovenste rij van het tekenschema:
+
+De grenzen van het domein zijn dus $-\infty$ en $+\infty$. Die zetten we op de
+bovenste rij van het tekenschema:
 
 Ingang $x$               | $-\infty$    |           |            |             |            |           | $+\infty$
 -------------------------|--------------|-----------|------------|-------------|------------|-----------|----------------
@@ -86,8 +84,8 @@ vergelijking
 $$-x^2 + 9 = 0$$
 op te lossen naar $x$.
 Als je dat zou doen, vind je dat $x=-3$ en $x=3$ de nulwaarden zijn van deze functie $f$. De
-[nulpunten](../nulpunten#nulpunten-van-een-functie) zijn dus $(-3, \blue{0})$ en
-$(3, \blue{0})$. We zetten deze nulpunten gerangschikt in het tekenschema:
+[nulpunten](../nulpunten#nulpunten-van-een-functie) zijn dus $(-3,~\blue{0})$ en
+$(3,~\blue{0})$. We zetten deze nulpunten gerangschikt in het tekenschema:
 
 Ingang $x$               | $-\infty$    |           | $-3$       |             | $3$        |           | $+\infty$
 -------------------------|--------------|-----------|------------|-------------|------------|-----------|----------------

@@ -8,9 +8,13 @@
   {{ partial "head/bounce" . }}
 {{ end }}
 
+{{ define "title" }}
+{{ .Site.Title | title }} {{ with .Site.Params.Description }} | {{ . }}{{ end }}
+{{ end }}
+
 {{ define "main" }}
 <section class="tc relative">
-  <div class="center vh-50" onClick="window.location('/lessen/fysica/krachten_1/krachtvector');">
+  <div class="center vh-50" onClick="">
     {{ partial "landing/title_img.svg" . }}
   </div>
 </section>
@@ -48,11 +52,11 @@
       {{ partial "landing/why_block" (dict "title" $title "image" $image "text" $text) }}
     </div>
 
-    <a class="link gold f3 fw9" href="/lessen/fysica/krachten_1/krachtvector">
-      <div class="grow pointer tc center bg-near-white ba br3 bw2 b--gold w-25-l w-75-m w-90 mv4 pa2">
+    <div class="grow pointer tc center bg-near-white ba br3 bw2 b--gold w-25-l w-75-m w-90 mv4 pa2">
+      <a id="_show_example_lesson" class="link gold f3 fw9" href="/lessen/fysica/krachten_1/zwaartekracht/">
         Toon mij een voorbeeld!
-      </div>
-    </a>
+      </a>
+    </div>
   </div>
 </section>
 
@@ -66,12 +70,17 @@
 {{ $text_teacher := "Als leerkracht wil je de leerstof graag begrijpbaar uitleggen. Duidelijke illustraties kunnen daar al goed bij helpen. Daarom mag je van ons <span class=\"b\">alle illustraties</span> op <span class=\"i nowrap\">Hoe Zit Het?</span> <span class=\"b\">helemaal gratis</span> gebruiken in je eigen lessen." }}
 {{ $dict_teacher := (dict "title"  $title_teacher "img" $img_teacher "text" $text_teacher ) }}
 
+{{ $title_like := "We like you! You like us?" }}
+{{ $img_like := "/images/landing_page/like.svg" }}
+{{ $text_like := "Heeft <span class=\"i nowrap\">Hoe Zit Het?</span> jou kunnen helpen? Geef ons ook een duwtje in de rug en <a href=\"https://fb.me/hoezithet\">like onze facebookpagina</a>! Extra voordeel: je ben als eerste op de hoogte wanneer er nieuwe lessen uitkomen!" }}
+{{ $dict_like := (dict "title"  $title_like "img" $img_like "text" $text_like ) }}
+
 {{ $title_help := "Meehelpen?" }}
 {{ $img_help := "/images/landing_page/helping.svg" }}
 {{ $text_help := "Heb jij ook een passie voor uitleggen? Word je wild van wiskunde en wetenschappen? Top! Wij zijn voortdurend <span class=\"b\">op zoek naar vrijwilligers</span> om te helpen bij het maken van nieuwe lessen. Geïnteresseerd? Stuur dan snel een mailtje naar <a href=\"mailto:info@hoezithet.nu\">info@hoezithet.nu</a>!" }}
 {{ $dict_help := (dict "title"  $title_help "img" $img_help "text" $text_help ) }}
 
-{{ range $idx, $kwargs := (slice $dict_student $dict_teacher $dict_help) }}
+{{ range $idx, $kwargs := (slice $dict_student $dict_teacher $dict_like $dict_help) }}
   {{ partial "landing/target_section" ( merge $kwargs (dict "idx" $idx) ) }}
 {{ end }}
 

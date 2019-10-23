@@ -9,5 +9,6 @@ level: "3e middelbaar"
 course: "fysica"
 topic: "dynamica"
 section_color: "#19a974"
+images: []
 ---
 

@@ -8,18 +8,19 @@ categories: []
 level: ""
 course: ""
 topic: ""
+images: []
 ---
 We kunnen grootheden zoals *lengte* beschrijven met eenheden zoals *meter*. In een vorige les zagen we dat elke [grootheid een officiële SI-eenheid heeft](../intro#si-eenheden-maken-duidelijke-afspraken). De officiële eenheid van *tijd* is bijvoorbeeld de seconde.
 
 In een [andere les](../machten_van_10) zagen we hoe we machten van 10 kunnen gebruiken om heel grote of heel kleine getallen korter en leesbaarder te schrijven.
 
 Om alles nog korter en leesbaarder te schrijven, gebruiken we vaak **prefixen**. Een prefix
-{{% mute "(of voorvoegsel)" %}}
+{{< mute "(of voorvoegsel)" >}}
 schrijf je telkens *vóór* de eenheid. Elke prefix stelt een bepaalde macht van 10 voor. Je bent ongetwijfeld al veel prefixen tegengekomen. De $\si{k}$
-{{% mute "(kilo)" %}}
+{{< mute "(kilo)" >}}
 in $\si{kg}$
 {{% mute "(kilogram)" %}}, bijvoorbeeld, is een prefix. Of de $\si{c}$
-{{% mute "(centi)" %}}
+{{< mute "(centi)" >}}
 in $\si{cm}$
 {{% mute "(centimeter)" %}}.
 

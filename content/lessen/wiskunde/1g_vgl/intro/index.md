@@ -8,6 +8,7 @@ categories: ["wiskunde", "algebra"]
 level: "2M"
 course: "wiskunde"
 topic: "algebra"
+images: []
 ---
 Een van de meest essentiële vaardigheden voor een uit-de-kluiten-gewassen wiskundige is het kunnen oplossen van **vergelijkingen**. Om te begrijpen *waarom* het oplossen van vergelijkingen zo belangrijk is, heb je best al wat kennis van [functies](../../functies/).
 
@@ -39,7 +40,7 @@ De $x$ in de vergelijking noemen we de **onbekende**. In principe kan je eender 
 
 Het kan ook zijn dat er *verschillende* onbekenden zijn in één vergelijking, bijvoorbeeld
 $$x^2 - 2y + 6 = 5 - 3x + z$$
-Waar we naast $x$ ook $y$ en $z$ als onbekende hebben. Zo'n vergelijking noemen we dan *een vergelijking in drie onbekenden*. Dit soort vergelijkingen komt later terug in het deel over [stelsels](../../stelsels).
+Waar we naast $x$ ook $y$ en $z$ als onbekende hebben. Zo'n vergelijking noemen we dan *een vergelijking in drie onbekenden*. Dit soort vergelijkingen komt later terug in het deel over stelsels.
 
 ## Oplossingsverzameling
 De bedoeling van een vergelijking is meestal om te zoeken **welk(e) getal(len)** we in plaats van de onbekende(n) {{% mute "(meestal gewoon $x$)" %}} kunnen zetten **zodat de gelijkheid klopt**. Die getallen noemen we de *oplossingen* van de vergelijking.

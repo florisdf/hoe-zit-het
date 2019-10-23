@@ -5,6 +5,7 @@ weight: 3
 draft: false
 tags: ["Rekenregels", "Volgorde van de bewerkingen"]
 categories: ["wiskunde", "getallen", "1e middelbaar"]
+images: []
 ---
 Over rekenregels gaan we vaak nogal snel over. De volledige wiskunde is echter
 uit die rekenregels ontstaan en bouwt erop verder. Als we de rekenregels dus

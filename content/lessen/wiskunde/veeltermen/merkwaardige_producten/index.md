@@ -1,8 +1,9 @@
 ---
 title: "Merkwaardige producten"
 date: 2018-12-03T23:21:36+01:00
-weight: 3
+weight: 1
 draft: false
+images: []
 ---
 Wat is $99^2$? Of $102^2$? Eens we de formules van **merkwaardige producten**
 onder de knie hebben, wordt het heel eenvoudig om zulke machten uit te rekenen.

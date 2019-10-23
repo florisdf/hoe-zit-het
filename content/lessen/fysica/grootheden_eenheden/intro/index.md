@@ -8,6 +8,7 @@ categories: ["grootheden_eenheden", "SI-eenheid"]
 level: "3M"
 course: "Fysica"
 topic: "grootheden_eenheden"
+images: []
 ---
 We gebruiken **eenheden** om **grootheden** te beschrijven. Zo gebruiken we
 *meter* om een lengte te beschrijven en °C om temperatuur te beschrijven. Enkele
