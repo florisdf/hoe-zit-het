@@ -1,6 +1,12 @@
-<script data-isso="https://isso.hoezithet.nu/"
-        data-isso-lang="nl"
-        data-isso-css="true"
-        data-isso-vote="true"
-        src="https://isso.hoezithet.nu/js/embed.min.js"></script>
-<section id="isso-thread"></section>
+<h2 id="comments">Reacties</h2>
+
+<div id="commento"></div>
+<script defer
+  src="https://commento.hoezithet.nu/js/commento.js"
+  data-no-fonts="true">
+</script>
+<script>
+  $("body").on("DOMSubtreeModified", "#commento", function() {
+    MathJax.Hub.Queue(["Typeset",MathJax.Hub,"commento"]);
+  });
+</script>
