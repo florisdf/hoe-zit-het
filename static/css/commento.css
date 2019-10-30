@@ -27,3 +27,8 @@
 .commento-root .commento-red-border {
   border: 1px solid #ff4136;
 }
+
+.commento-root .commento-markdown-button {
+  font-weight: 700;
+  color: #555;
+}
