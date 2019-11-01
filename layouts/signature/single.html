@@ -73,7 +73,7 @@
       <div id="picture">
         {{ with .Resources.GetMatch "*.jpg" }}
         {{ $img := .Fill "240x240 CatmullRom" }}
-        <img src="{{ $img.RelPermalink }}"/>
+        <img src="{{ $img.Permalink }}"/>
         {{ end }}
       </div>
       <div id="divider">
@@ -87,19 +87,19 @@
         </div>
         <div id="contact-info">
           <div>
-            <img src="/icons/mail.png"/>
+            <img src={{ "/icons/mail.png" | absURL }}/>
             <span>{{ .Params.email }}</span>
           </div>
           <div>
-            <img src="/icons/pc.png"/>
+            <img src={{ "/icons/pc.png" | absURL }}/>
             <span>{{ .Site.Params.baseURL | replaceRE "^https?://([^/]+).*"  "$1" }}</span>
           </div>
           <div>
-            <img src="/icons/phone.png"/>
+            <img src={{ "/icons/phone.png" | absURL }}/>
             <span>{{ .Params.phone }}</span>
           </div>
           <div>
-            <img src="/icons/fb.png"/>
+            <img src={{ "/icons/fb.png" | absURL }}/>
             <span>{{ .Site.Params.facebook | replaceRE "^https?://(.*)"  "$1" }}</span>
           </div>
         </div>
