@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="svg1468"
+   version="1.1"
+   viewBox="0 0 1.5874749 1.5878201"
+   height="1.5878201mm"
+   width="1.5874749mm"
+   sodipodi:docname="fb.svg"
+   inkscape:export-filename="/home/fdf/projects/hoezithet/static/icons/fb.png"
+   inkscape:export-xdpi="479.90323"
+   inkscape:export-ydpi="479.90323"
+   inkscape:version="0.92.4 (unknown)">
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1600"
+     inkscape:window-height="874"
+     id="namedview2111"
+     showgrid="false"
+     inkscape:zoom="39.325405"
+     inkscape:cx="5.034261"
+     inkscape:cy="3.0006048"
+     inkscape:window-x="0"
+     inkscape:window-y="180"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg1468" />
+  <defs
+     id="defs1462" />
+  <metadata
+     id="metadata1465">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     transform="translate(-49.187709,-131.36595)"
+     id="layer1">
+    <path
+       id="Blue_1_"
+       d="m 49.275389,131.36631 c -0.0484,0 -0.08768,0.0391 -0.08768,0.0875 v 1.41226 c 0,0.0484 0.03928,0.0877 0.08768,0.0877 h 0.760319 v -0.61485 h -0.206942 v -0.23959 h 0.206942 v -0.17659 c 0,-0.20503 0.125202,-0.3167 0.308114,-0.3167 0.08761,0 0.162925,0.006 0.184868,0.009 v 0.2143 l -0.126925,1.5e-4 c -0.09947,0 -0.118646,0.0472 -0.118646,0.1165 v 0.15299 h 0.23714 l -0.03081,0.23959 H 50.28312 v 0.61485 h 0.404534 c 0.04837,0 0.08753,-0.0393 0.08753,-0.0877 v -1.41227 c 0,-0.0485 -0.03914,-0.0875 -0.08753,-0.0875 z"
+       style="fill:#ffb700;stroke-width:0.00615968" />
+  </g>
+</svg>

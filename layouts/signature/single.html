@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+    @import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+    body {
+      font-family: 'Quicksand';
+      color: #555;
+    }
+
+    #signature {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      height: 100pt;
+      width: 400pt;
+      padding: 10pt;
+    }
+
+    #picture {
+      height: 100%;
+    }
+    #picture>img {
+      border-radius: 50%;
+      height: 100%;
+    }
+
+    #divider {
+      margin: -10pt 10pt 0 10pt;
+      height: 80%;
+      align-self: flex-start;
+    }
+    #divider img {
+      height: 100%;
+    }
+
+    #name {
+      font-size: 18pt;
+      font-weight: normal;
+      color: black;
+    }
+    #company {
+      font-size: 12pt;
+    }
+    #function {
+      margin: 0;
+      font-size: 12pt;
+      font-weight: bold;
+    }
+
+    #contact-info {
+      margin: 5pt 0;
+      display: flex;
+      flex-wrap: wrap;
+      font-size: 12pt;
+    }
+    #contact-info>div {
+      flex: 0 50%;
+      margin: 2.5pt 0;
+
+      display: flex;
+      align-items: center;
+    }
+    #contact-info img {
+      width: 12pt;
+      margin-right: 5pt;
+    }
+    </style>
+  </head>
+
+  <body>
+    <div id="signature">
+      <div id="picture">
+        {{ with .Resources.GetMatch "*.jpg" }}
+        {{ $img := .Fill "240x240 CatmullRom" }}
+        <img src="{{ $img.RelPermalink }}"/>
+        {{ end }}
+      </div>
+      <div id="divider">
+        <img src="/icons/lamp.png"/>
+      </div>
+      <div id="info">
+        <div id="main-info">
+          <div id="name">{{ .Params.name }}</div>
+          <div id="company">{{ .Site.Params.company }}</div>
+          <div id="function">{{ .Params.function | title }}</div>
+        </div>
+        <div id="contact-info">
+          <div>
+            <img src="/icons/mail.png"/>
+            <span>{{ .Params.email }}</span>
+          </div>
+          <div>
+            <img src="/icons/pc.png"/>
+            <span>{{ .Site.Params.baseURL | replaceRE "^https?://([^/]+).*"  "$1" }}</span>
+          </div>
+          <div>
+            <img src="/icons/phone.png"/>
+            <span>{{ .Params.phone }}</span>
+          </div>
+          <div>
+            <img src="/icons/fb.png"/>
+            <span>{{ .Site.Params.facebook | replaceRE "^https?://(.*)"  "$1" }}</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
