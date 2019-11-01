@@ -1,3 +1,4 @@
+baseURL = "https://hoezithet.nu/"
 title = "hoe zit het?"
 languageCode = "nl-be"
 pluralizelisttitles = "false"

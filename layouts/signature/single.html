@@ -77,7 +77,7 @@
         {{ end }}
       </div>
       <div id="divider">
-        <img src="/icons/lamp.png"/>
+        <img src="{{ "/icons/lamp.png" | absURL }}"/>
       </div>
       <div id="info">
         <div id="main-info">
@@ -87,19 +87,19 @@
         </div>
         <div id="contact-info">
           <div>
-            <img src={{ "/icons/mail.png" | absURL }}/>
+            <img src="{{ "/icons/mail.png" | absURL }}"/>
             <span>{{ .Params.email }}</span>
           </div>
           <div>
-            <img src={{ "/icons/pc.png" | absURL }}/>
+            <img src="{{ "/icons/pc.png" | absURL }}"/>
             <span>{{ .Site.Params.baseURL | replaceRE "^https?://([^/]+).*"  "$1" }}</span>
           </div>
           <div>
-            <img src={{ "/icons/phone.png" | absURL }}/>
+            <img src="{{ "/icons/phone.png" | absURL }}"/>
             <span>{{ .Params.phone }}</span>
           </div>
           <div>
-            <img src={{ "/icons/fb.png" | absURL }}/>
+            <img src="{{ "/icons/fb.png" | absURL }}"/>
             <span>{{ .Site.Params.facebook | replaceRE "^https?://(.*)"  "$1" }}</span>
           </div>
         </div>
