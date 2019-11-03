@@ -1,109 +1,78 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <style>
-    @import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
-    body {
-      font-family: 'Quicksand';
-      color: #555;
-    }
-
-    #signature {
-      display: flex;
-      justify-content: flex-start;
-      align-items: center;
-      height: 100pt;
-      width: 400pt;
-      padding: 10pt;
-    }
-
-    #picture {
-      height: 100%;
-    }
-    #picture>img {
-      border-radius: 50%;
-      height: 100%;
-    }
-
-    #divider {
-      margin: -10pt 10pt 0 10pt;
-      height: 80%;
-      align-self: flex-start;
-    }
-    #divider img {
-      height: 100%;
-    }
-
-    #name {
-      font-size: 18pt;
-      font-weight: normal;
-      color: black;
-    }
-    #company {
-      font-size: 12pt;
-    }
-    #function {
-      margin: 0;
-      font-size: 12pt;
-      font-weight: bold;
-    }
-
-    #contact-info {
-      margin: 5pt 0;
-      display: flex;
-      flex-wrap: wrap;
-      font-size: 12pt;
-    }
-    #contact-info>div {
-      flex: 0 50%;
-      margin: 2.5pt 0;
-
-      display: flex;
-      align-items: center;
-    }
-    #contact-info img {
-      width: 12pt;
-      margin-right: 5pt;
-    }
-    </style>
+    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet" type="text/css">
   </head>
-
   <body>
-    <div id="signature">
-      <div id="picture">
-        {{ with .Resources.GetMatch "*.jpg" }}
-        {{ $img := .Fill "240x240 CatmullRom" }}
-        <img src="{{ $img.Permalink }}"/>
-        {{ end }}
-      </div>
-      <div id="divider">
-        <img src="{{ "/icons/lamp.png" | absURL }}"/>
-      </div>
-      <div id="info">
-        <div id="main-info">
-          <div id="name">{{ .Params.name }}</div>
-          <div id="company">{{ .Site.Params.company }}</div>
-          <div id="function">{{ .Params.function | title }}</div>
-        </div>
-        <div id="contact-info">
-          <div>
-            <img src="{{ "/icons/mail.png" | absURL }}"/>
-            <span>{{ .Params.email }}</span>
-          </div>
-          <div>
-            <img src="{{ "/icons/pc.png" | absURL }}"/>
-            <span>{{ .Site.Params.baseURL | replaceRE "^https?://([^/]+).*"  "$1" }}</span>
-          </div>
-          <div>
-            <img src="{{ "/icons/phone.png" | absURL }}"/>
-            <span>{{ .Params.phone }}</span>
-          </div>
-          <div>
-            <img src="{{ "/icons/fb.png" | absURL }}"/>
-            <span>{{ .Site.Params.facebook | replaceRE "^https?://(.*)"  "$1" }}</span>
-          </div>
-        </div>
-      </div>
-    </div>
+    <table style="font-family:Quicksand, Helvetica, sans-serif; color: #555;" cellpadding="0" cellspacing="0">
+      <tbody>
+        <tr>
+          <td style="width:120px; text-align:center; vertical-align: middle;">
+            {{ with .Resources.GetMatch "*.jpg" }}
+            {{ $img := .Fill "240x240 CatmullRom" }}
+            <img alt="profile picture" style="width:100%; border-radius:50%;"  src="{{ $img.Permalink }}">
+            {{ end }}
+          </td>
+          <td style="height: 100px; padding: 0 10px; vertical-align: top;">
+            <img height="100%" src="{{ "/icons/lamp.png" | absURL }}"/>
+          </td>
+          <td style="vertical-align: middle;">	
+            <table cellpadding="0" cellspacing="0">
+              <tbody>
+                <tr>
+                  <td style="vertical-align: middle;">
+                    <strong><span style="font-size:18pt; color: black;">{{ .Params.name }}</span></strong><br>
+                    <span style="font-size:14pt;">{{ .Site.Params.company }}</span><br>
+                    <strong><span style="font-size:14pt;">{{ .Params.function | title }}</span></strong>
+                  </td>	    
+                </tr>	    
+                <tr>
+                  <td style="vertical-align: middle;">    
+                    <table cellpadding="0" cellspacing="5px">
+                      <tbody>
+                        <tr>
+                          <td>
+                            <a href="mailto:{{ .Params.email }}" style="color: inherit; text-decoration: none;">
+                              <img src="{{ "/icons/mail.png" | absURL }}"
+                                   style="width: 12pt; margin-right: 5px"/>
+                              <span>{{ .Params.email }}</span>
+                            </a>
+                          </td>
+                          <td>
+                            {{ $url := .Site.Params.baseURL }}
+                            {{ $short_url := ( $url | replaceRE "^https?://([^/]+).*"  "$1" ) }}
+                            <a href="{{ $url }}" style="color: inherit; text-decoration: none;">
+                              <img src="{{ "/icons/pc.png" | absURL }}"
+                                   style="width: 12pt; margin-right: 5px"/>
+                              <span>{{ $short_url }}</span>
+                            </a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <img src="{{ "/icons/phone.png" | absURL }}"
+                                 style="width: 12pt; margin-right: 5px"/>
+                            <span>{{ .Params.phone }}</span>
+                          </td>
+                          <td>
+                            {{ $url := .Site.Params.facebook }}
+                            <a href="{{ $url }}" style="color: inherit; text-decoration: none;">
+                              <img src="{{ "/icons/fb.png" | absURL }}"
+                                   style="width: 12pt; margin-right: 5px"/>
+                              <span>{{ $url | replaceRE "^https?://(.*)"  "$1" }}</span>
+                            </a>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </td>
+                </tr>
+              </tbody>
+            </table> 								
+          </td>	
+        </tr>
+      </tbody>
+    </table>
+
   </body>
 </html>
