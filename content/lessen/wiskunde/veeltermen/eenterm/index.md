@@ -42,7 +42,7 @@ eentermen telkens aangeduid.
 
 (illustratie)
 
-## Coëfficiënt, lettergedeelte en gelijksoortige eentermen
+## Coëfficiënt en lettergedeelte
 
 De factoren van een eenterm kunnen getallen of variabelen zijn.  De factoren
 die **getallen** zijn, vormen het cijfergedeelte of de **coëfficiënt** van de
@@ -50,6 +50,8 @@ eenterm. De factoren die **variabelen** zijn, vormen het **lettergedeelte** van
 de eenterm.
 
 (illustratie)
+
+## Gelijksoortige eentermen
 
 Wanneer twee eentermen **hetzelfde lettergedeelte** hebben, noemen we die
 eentermen **gelijksoortig**.

@@ -9,9 +9,9 @@ Een veelterm {{% mute "(of polynoom)" %}} is een **som van
 [eentermen](../eenterm)**. Enkele voorbeelden:
 
 * De veelterm $\orange{4a^2 b^3 + 3ab^2}$ is de som van de eentermen
-  $\orange{4a^2 b^3}$ en $\orange{3ab^2}$
-* De veelterm $\blue{-2x^2 + 3x - 5}$ is de som van de een termen $\blue{-2x^2}$, $\blue{3x}$ en $\blue{-5}$
-* De veelterm $\green{xy^2 - \frac{4}{5}y^3z + 7z}$ is de som van de een termen $\green{xy^2}$, $\green{-\frac{4}{5}y^3z}$ en $\green{7z}$
+  $\orange{4a^2 b^3}$ en $\orange{3ab^2}$;
+* De veelterm $\blue{-2x^2 + 3x - 5}$ is de som van de eentermen $\blue{-2x^2}$, $\blue{3x}$ en $\blue{-5}$;
+* De veelterm $\green{xy^2 - \frac{4}{5}y^3z + 7z}$ is de som van de eentermen $\green{xy^2}$, $\green{-\frac{4}{5}y^3z}$ en $\green{7z}$.
 
 Net als bij [eentermen](../eenterm) moeten de **exponenten** van de variabelen in de veelterm
 **natuurlijke getallen** zijn. Anders is er geen sprake van een veelterm. Er mogen ook **geen variabelen in een
