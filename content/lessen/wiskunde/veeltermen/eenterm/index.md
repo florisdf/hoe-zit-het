@@ -28,8 +28,8 @@ eenterm. De volgende voorbeelden zijn dus ook eentermen:
 * $\orange{-b^3}$
 * $\orange{\frac{1}{2}}$
 
-De **exponenten** van de variabelen in een eenterm moeten
-**natuurlijke getallen** zijn. Anders is er geen sprake van een eenterm. Er mogen ook **geen variabelen in een
+Na vereenvoudiging moeten de **exponenten van de variabelen** in een eenterm
+**natuurlijke getallen** zijn. Anders is er geen sprake van een eenterm. Er mogen na vereenvoudiging ook **geen variabelen in een
 noemer** staan en **geen variabelen onder een wortel**.
 
 (illustratie WEL eenterm - NIET eenterm)
@@ -46,10 +46,10 @@ eentermen telkens aangeduid.
 
 De factoren van een eenterm kunnen getallen of variabelen zijn.  De factoren
 die **getallen** zijn, vormen het cijfergedeelte of de **coëfficiënt** van de
-eenterm. De factoren die **variabelen** zijn, vormen het **lettergedeelte** van
+eenterm. Het **toestandsteken hoort ook bij de coëfficiënt** van de eenterm. De factoren die **variabelen** zijn, vormen het **lettergedeelte** van
 de eenterm.
 
-(illustratie)
+(illustratie + illustratie met minteken in coëfficiënt)
 
 ## Gelijksoortige eentermen
 

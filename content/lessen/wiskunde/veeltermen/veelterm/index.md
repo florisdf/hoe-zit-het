@@ -13,7 +13,7 @@ Een veelterm {{% mute "(of polynoom)" %}} is een **som van
 * De veelterm $\blue{-2x^2 + 3x - 5}$ is de som van de eentermen $\blue{-2x^2}$, $\blue{3x}$ en $\blue{-5}$;
 * De veelterm $\green{xy^2 - \frac{4}{5}y^3z + 7z}$ is de som van de eentermen $\green{xy^2}$, $\green{-\frac{4}{5}y^3z}$ en $\green{7z}$.
 
-Net als bij [eentermen](../eenterm) moeten de **exponenten** van de variabelen in de veelterm
+Net als bij [eentermen](../eenterm) moeten de **exponenten van de variabelen** in de veelterm
 **natuurlijke getallen** zijn. Anders is er geen sprake van een veelterm. Er mogen ook **geen variabelen in een
 noemer** staan en **geen variabelen onder een wortel**.
 

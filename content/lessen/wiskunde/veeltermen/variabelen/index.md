@@ -16,7 +16,7 @@ eenvoudig voorbeeld is het berekenen van de oppervlakte van een rechthoek. Stel
 dat Maria en Dirk willen berekenen hoeveel tapijt ze in hun nieuwe
 rechthoekige living moeten leggen.
 
-(illustratie)
+{{% svg "img/living_no_dims.svg" %}}
 
 Dan moeten ze eerst weten wat de lengte en de breedte is van de living. Eens ze
 die gemeten hebben, vinden ze de oppervlakte als volgt:
