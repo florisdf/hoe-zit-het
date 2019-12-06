@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1.984374mm"
+   height="1.5875mm"
+   viewBox="0 0 1.984374 1.5875"
+   version="1.1"
+   id="svg883"
+   inkscape:version="0.92.4 (unknown)"
+   sodipodi:docname="email.svg"
+   inkscape:export-filename="/home/fdf/projects/hoezithet/static/icons/mail.png"
+   inkscape:export-xdpi="384"
+   inkscape:export-ydpi="384">
+  <defs
+     id="defs877" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="31.678384"
+     inkscape:cx="5.9743116"
+     inkscape:cy="1.4540622"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1055"
+     inkscape:window-x="1600"
+     inkscape:window-y="25"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata880">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-98.037576,-128.38482)">
+    <path
+       id="path1795"
+       d="m 100.02195,128.58326 c 0,-0.10914 -0.0893,-0.19844 -0.198439,-0.19844 h -1.587498 c -0.109141,0 -0.198437,0.0893 -0.198437,0.19844 v 1.19063 c 0,0.10914 0.0893,0.19843 0.198437,0.19843 h 1.587498 c 0.10914,0 0.198439,-0.0893 0.198439,-0.19843 z m -0.198439,0 -0.79375,0.49609 -0.793748,-0.49609 z m 0,1.19063 h -1.587498 v -0.9922 l 0.793748,0.49609 0.79375,-0.49609 z"
+       inkscape:connector-curvature="0"
+       style="fill:#ffb700;stroke-width:0.09921857" />
+  </g>
+</svg>
