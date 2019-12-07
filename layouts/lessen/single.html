@@ -9,46 +9,44 @@
 {{ define "fancybox" }} {{ partial "head/fancybox" . }} {{ end }}
 
 {{ define "main" }}
-  <div class="mw8 center ph3">
-    <h1 class="f1" style="color: {{ $.Parent.Params.section_color }};">
-      {{ .Title }}
-    </h1>
-    {{ partial "main/save_pdf" . }}
-    <div class="flex-l flex-row-reverse">
-      <div class="w-third-l ph3-l mv2">
-        {{ partial "main/toc.html" . }}
-      </div>
-      <article class="center cf w-two-thirds-l">
-        <section class="nested-copy-line-height lh-copy f4 nested-links nested-img mid-gray">
-          {{ $ad := ( partial "main/article-ad.html" . ) }}
-
-          {{ range $idx, $cont := ( split .Content "<h2" ) }}
-            {{ if eq $idx 0 }}
-              {{ $cont | safeHTML }}
-            {{ else if eq $idx 1 }}
-              {{ print "<h2" $cont $ad | safeHTML }}
-            {{ else }}
-              {{ print "<h2" $cont | safeHTML }}
-            {{ end }}
-          {{ end }}
-        
-        {{ partial "main/save_pdf" . }}
-        {{ partial "main/comments" . }}
-        {{ partial "main/tags.html" . }}
-        {{ partial "main/to-top.html" . }}
-        </section>
-        <div id='discourse-comments'></div>
-		<script type="text/javascript">
-		  DiscourseEmbed = { discourseUrl: 'https://forum.hoezithet.nu/',
-		                     discourseEmbedUrl: "{{ .Permalink }}"};
-		
-		  (function() {
-		    var d = document.createElement('script'); d.type = 'text/javascript'; d.async = true;
-		    d.src = DiscourseEmbed.discourseUrl + 'javascripts/embed.js';
-		    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(d);
-		  })();
-		</script>
-      </article>
+  <h1 class="f1" style="color: {{ $.Parent.Params.section_color }};">
+    {{ .Title }}
+  </h1>
+  {{ partial "main/save_pdf" . }}
+  <div class="flex-l flex-row-reverse">
+    <div class="w-third-l ph3-l mv2">
+      {{ partial "main/toc.html" . }}
     </div>
+    <article class="center cf w-two-thirds-l">
+      <section class="nested-copy-line-height lh-copy f4 nested-links nested-img mid-gray">
+        {{ $ad := ( partial "main/article-ad.html" . ) }}
+
+        {{ range $idx, $cont := ( split .Content "<h2" ) }}
+          {{ if eq $idx 0 }}
+            {{ $cont | safeHTML }}
+          {{ else if eq $idx 1 }}
+            {{ print "<h2" $cont $ad | safeHTML }}
+          {{ else }}
+            {{ print "<h2" $cont | safeHTML }}
+          {{ end }}
+        {{ end }}
+      
+      {{ partial "main/save_pdf" . }}
+      {{ partial "main/comments" . }}
+      {{ partial "main/tags.html" . }}
+      {{ partial "main/to-top.html" . }}
+      </section>
+      <div id='discourse-comments'></div>
+  <script type="text/javascript">
+    DiscourseEmbed = { discourseUrl: 'https://forum.hoezithet.nu/',
+                        discourseEmbedUrl: "{{ .Permalink }}"};
+  
+    (function() {
+      var d = document.createElement('script'); d.type = 'text/javascript'; d.async = true;
+      d.src = DiscourseEmbed.discourseUrl + 'javascripts/embed.js';
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(d);
+    })();
+  </script>
+    </article>
   </div>
 {{ end }}

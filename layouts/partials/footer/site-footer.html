@@ -1,37 +1,42 @@
-<footer class="bottom-0 w-100 pv4" role="contentinfo">
-  <div class="f4 flex justify-center">
-    <a rel="license"
-      href="http://creativecommons.org/licenses/by-sa/4.0/"
-      class="gray dim ph1 link">
-      <i class="fab fa-creative-commons"></i>
-      <i class="fab fa-creative-commons-by"></i>
-      <i class="fab fa-creative-commons-sa"></i>
-    </a>
-    <span class="ph3 moon-gray">|</span>
-		<a class="gray dim link" href="{{ .Site.BaseURL }}">
-      {{ .Site.Title }}
-    </a>
-    {{ with .Site.Params.facebook }}
-    <span class="ph3 moon-gray">|</span>
-    <a rel="license"
-       href="{{ . }}"
-       class="gray dim ph1 link">
-      <i class="fab fa-facebook"></i>
-    </a>
-    {{ end }}
-    {{ with .Site.Params.instagram }}
-    <a rel="license"
-       href="{{ . }}"
-       class="gray dim ph1 link">
-      <i class="fab fa-instagram"></i>
-    </a>
-    {{ end }}
-    {{ with .Site.Params.github }}
-    <a rel="license"
-       href="{{ . }}"
-       class="gray dim ph1 link">
-      <i class="fab fa-github"></i>
-    </a>
-    {{ end }}
+<footer class="bottom-0 w-100 pv4 gray" role="contentinfo">
+  <div class="f4 tc">
+    <div class="ma3">
+      <a class="gray dim link" href="{{ .Site.BaseURL }}">
+        Hoe Zit Het? vzw
+      </a>
+      <p class="f6 gray ma1">ON 0736.486.356 RPR Brussel</p>
+    </div>
+    <div class="ma3">
+      {{ with .Site.Params.facebook }}
+      <a rel="license"
+        href="{{ . }}"
+        class="gray dim ph1 link">
+        <i class="fab fa-facebook"></i>
+      </a>
+      {{ end }}
+      {{ with .Site.Params.instagram }}
+      <a rel="license"
+        href="{{ . }}"
+        class="gray dim ph1 link">
+        <i class="fab fa-instagram"></i>
+      </a>
+      {{ end }}
+      {{ with .Site.Params.github }}
+      <a rel="license"
+        href="{{ . }}"
+        class="gray dim ph1 link">
+        <i class="fab fa-github"></i>
+      </a>
+      {{ end }}
+      <span class="mh2">|</span>
+      <a rel="license"
+        href="http://creativecommons.org/licenses/by-nc-sa/4.0/"
+        class="gray dim link ma2">
+        <i class="fab fa-creative-commons"></i>
+        <i class="fab fa-creative-commons-by"></i>
+        <i class="fab fa-creative-commons-nc"></i>
+        <i class="fab fa-creative-commons-sa"></i>
+      </a>
+    </div>
   </div>
 </footer>
