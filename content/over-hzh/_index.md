@@ -7,6 +7,9 @@ menu:
   main:
     weight: 40
 ---
-"Hoe zit het?" is een site met lessen over wetenschap en wiskunde. We proberen de lessen telkens op een lichte, niet al te saaie manier te schrijven. Het moet gezellig blijven, hé.
+**Hoe Zit Het? vzw** wil leerlingen helpen om hun leerstof wiskunde en
+wetenschap beter te begrijpen. Dat doen we door korte lessen te maken die over
+één onderwerp gaan en die voorzien zijn van veel illustraties.
 
-Als je vragen, opmerkingen of suggesties hebt, zijn deze [meer dan welkom](/contact)!
+Als je vragen, opmerkingen of suggesties hebt, mag je altijd een mailtje sturen
+naar [info@hoezithet.nu](mailto:info@hoezithet.nu).
