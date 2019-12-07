@@ -1,7 +1,7 @@
 {{ define "main" }}
 {{ .Content }}
 
-<div class="flex flex-wrap tc">
+<div class="flex flex-wrap tc justify-center">
 {{ partial "main/donate" (dict "amount" "€2" "url" "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=YZBJ7U5JFSQ8G&source=url") }}
 
 {{ partial "main/donate" (dict "amount" "€5" "url" "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=NHE8CFLULN9WG&source=url") }}
