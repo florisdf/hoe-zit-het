@@ -29,6 +29,8 @@ $\blue{\text{breedte}}$. De variabelen helpen ons om **het verband** tussen de
 lengte, breedte en oppervlakte van de living op te schrijven, zelfs wanneer
 Maria en Dirk nog niets gemeten hebben.
 
+{{% svg "img/living_area_formula.svg" %}}
+
 Het handige aan variabelen is dus dat je **niet hoeft te weten aan welke
 getallen ze precies gelijk zijn**. Door de verbanden tussen verschillende
 variabelen uit te drukken, kunnen we formules opstellen die ons helpen om
@@ -79,12 +81,9 @@ Maar het hoeft natuurlijk niet altijd zo saai te zijn. Niets houdt je tegen om
 Vanaf we de waarde van een variabele kennen, kunnen we die waarde gaan
 **invullen**. Dat betekent dat we de **variabele vervangen door die waarde**.
 Stel dat Maria en Dirk hun living hebben opgemeten en ze vinden een lengte van
-$\orange{5~\si{m}}$ en een breedte van $\blue{4~\si{m}}$.
-
-(illustratie)
-
-Nu kunnen ze de variabelen $\orange{l}$ en $\blue{b}$ invullen in de formule
-voor de oppervlakte:
+$\orange{5~\si{m}}$ en een breedte van $\blue{4~\si{m}}$. Dan kunnen ze de
+variabelen $\orange{l}$ en $\blue{b}$ invullen in de formule voor de
+oppervlakte:
 
 \begin{split}
     A &= \orange{l} \cdot \blue{b}\\\\\
@@ -96,4 +95,4 @@ We vinden dat wanneer de variabele $\orange{l=5~\si{m}}$ en de variabele
 $\blue{b=4~\si{m}}$, dat dan de variabele
 $A$ {{% mute "(de oppervlakte)" %}} gelijk is aan $20~\si{m}^2$.
 
-(illustratie)
+{{% svg "img/living_area_computed.svg" %}}
