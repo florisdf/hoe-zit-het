@@ -3,7 +3,7 @@ title: "Wat is een variabele?"
 date: 2019-11-08T09:01:12+01:00
 weight: 1
 draft: true
-images: []
+images: ['/lessen/wiskunde/veeltermen/variabelen/img/living_no_dims.png', '/lessen/wiskunde/veeltermen/variabelen/img/living_area_formula.png', '/lessen/wiskunde/veeltermen/variabelen/img/living_area_computed.png']
 ---
 Pas wanneer een veelterm **variabelen** bevat, kunnen we veeltermen gaan
 gebruiken in de echte wereld. Voor we veeltermen gaan bestuderen, is het dus
