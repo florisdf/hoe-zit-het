@@ -67,7 +67,7 @@
     {{ partial "body/tag-manager" . }}
 
     {{ block "header" . }}{{ partial "header/site-header" .}}{{ end }}
-    <main role="main" class="mw8 center ph3 f4 mid-gray">
+    <main role="main" class="f4 mid-gray">
     {{ block "main" . }}{{ .Content }}{{ end }}
     </main>
     {{ block "footer" . }}{{ partial "footer/site-footer" . }}{{ end }}
