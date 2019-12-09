@@ -12,7 +12,7 @@
 {{ define "fancybox" }} {{ partial "head/fancybox" . }} {{ end }}
 
 {{ define "main" }}
-<section>
+<section class="mw8 center ph3">
   {{ if gt (len .Sections) 0 }}
     {{ if gt (len (index .Sections 0).Sections) 0 }}
       {{ .Render "all_lessen" }}

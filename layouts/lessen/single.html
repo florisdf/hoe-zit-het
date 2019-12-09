@@ -9,6 +9,7 @@
 {{ define "fancybox" }} {{ partial "head/fancybox" . }} {{ end }}
 
 {{ define "main" }}
+<article class="mw8 center ph3">
   <h1 class="f1" style="color: {{ $.Parent.Params.section_color }};">
     {{ .Title }}
   </h1>
@@ -18,7 +19,7 @@
       {{ partial "main/toc.html" . }}
     </div>
     <article class="center cf w-two-thirds-l">
-      <section class="nested-copy-line-height lh-copy f4 nested-links nested-img mid-gray">
+      <section class="nested-copy-line-height lh-copy nested-links nested-img">
         {{ $ad := ( partial "main/article-ad.html" . ) }}
 
         {{ range $idx, $cont := ( split .Content "<h2" ) }}
@@ -49,4 +50,5 @@
   </script>
     </article>
   </div>
+</article>
 {{ end }}
