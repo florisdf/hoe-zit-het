@@ -9,10 +9,10 @@ De HTML-pagina's van de website worden gegenereerd door het
 zorgen we dat de *inhoud* van de site en de *weergave* ervan duidelijk van 
 elkaar gescheiden zijn. De twee belangrijkste folders bevatten dan ook 
 bestanden die instaan voor de *inhoud* (`content`) en de *weergave* 
-(`layouts`). Hieronder een overzicht van de andere directories:
+(`layouts`). Hieronder een overzicht van de directories:
 
 | Directory | Beschrijving |
-+-----------+--------------+
+|-----------|--------------|
 | `archetypes` | Het commando `hugo new` ([doc](https://gohugo.io/commands/hugo_new/)) gebruikt deze bestanden als basis voor nieuwe content files. ([docs: archetype](https://gohugo.io/content-management/archetypes/)) |
 | `content` | Bevat markdown-bestanden met de tekstuele inhoud van elke pagina. |
 | `layouts` | Op basis van deze bestanden zullen de markdown-bestanden omgezet worden naar HTML-pagina's. |
