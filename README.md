@@ -64,6 +64,7 @@ eveneens een front matter. Deze moet minstens de keys `title`, `section_color`,
 `level` en `topic` bevatten.
 
 | Key   | Beschrijving |
+|-------|--------------|
 | `title` | De titel van de lesblok. |
 | `section_color` | De primaire kleur van deze sectie. Dit bepaalt bv. de kleur van de titel van iedere les in dit lesblok. |
 | `level` | Voor welk niveau de leerstof is bedoeld. |
