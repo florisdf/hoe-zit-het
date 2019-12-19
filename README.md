@@ -144,9 +144,7 @@ Hieronder lossen we een vergelijking op:
 ## Kleur gebruiken
 
 Je kan zowel in de tekst als in formules kleur gebruiken. In de tekst gebruik
-je hiervoor de
-[shortcode](https://gohugo.io/content-management/shortcodes/)
-[`class`](layouts/shortcodes/class.html):
+je hiervoor de [`class`](layouts/shortcodes/class.html) shortcode:
 
 ```md
 Toon de volgende tekst in een {{% class "blauwe kleur" "blue" %}},
@@ -163,7 +161,9 @@ niet alleen weten **hoe hard** {{% mute "(= grootte)" %}}, maar ook
 **waarheen** {{% mute "(= richting en zin)" %}} de slee getrokken wordt.
 ```
 
-In formules kan je gelijknamige kleuren gebruiken als commando:
+In formules kan je dezelfde kleuren gebruiken als voor de
+[`class`](layouts/shortcodes/class.html) shortcode. De naam van de kleur is
+eenvoudigweg het LaTeX commando om die kleur te gebruiken:
 
 ```md
 We zijn op zoek naar een rode $\red{x}$. Gevonden!
