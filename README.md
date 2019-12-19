@@ -2,6 +2,20 @@
 
 Deze repository bevat de programmacode achter [_Hoe Zit Het?_](https://hoezithet.nu/).
 
+Inhoud
+======
+
+   * [Algemeen overzicht](#algemeen-overzicht)
+   * [Lessen schrijven](#lessen-schrijven)
+      * [Front matter van een les](#front-matter-van-een-les)
+      * [Front matter van een lesblok](#front-matter-van-een-lesblok)
+      * [Illustraties in lessen](#illustraties-in-lessen)
+      * [Wiskunde noteren](#wiskunde-noteren)
+      * [Kleur gebruiken](#kleur-gebruiken)
+      * [Kaders met uitleg of samenvattingen](#kaders-met-uitleg-of-samenvattingen)
+      * [Uitbreidingen op de leerstof](#uitbreidingen-op-de-leerstof)
+      * [Grafieken](#grafieken)
+
 # Algemeen overzicht
 
 De HTML-pagina's van de website worden gegenereerd door het 
