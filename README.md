@@ -153,6 +153,16 @@ Toon de volgende tekst in een {{% class "blauwe kleur" "blue" %}},
 {{% class "rode kleur" "red" %}} en {{% class "groene kleur" "green" %}}.
 ```
 
+Tekst die als snelle uitleg dient zonder al te veel de *flow* van de tekst
+te doorbreken, kun je lichtgrijs maken met de shortcode
+[`mute`](/layouts/shortcodes/mute.html):
+
+```md
+Als je wilt weten wat er met een slee gebeurt als iemand eraan trekt, moet je
+niet alleen weten **hoe hard** {{% mute "(= grootte)" %}}, maar ook
+**waarheen** {{% mute "(= richting en zin)" %}} de slee getrokken wordt.
+```
+
 In formules kan je gelijknamige kleuren gebruiken als commando:
 
 ```md
