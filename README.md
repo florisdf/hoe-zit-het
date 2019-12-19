@@ -25,25 +25,28 @@ bestanden die instaan voor de *inhoud* (`content`) en de *weergave*
 De lessen worden geschreven in markdown-bestanden in de `content/lessen` 
 directory. Eender welk `index.md`-bestand in 
 `content/lessen/<vak>/<lesblok>/<les>/`, zal omgezet worden naar de HTML-pagina 
-van een les.  Het bestand 
-`content/lessen/wiskunde/functies/domein_beeld/index.md`, bijvoorbeeld, zal als 
-basis dienen voor de webpagina 
+van een les.
+
+Het bestand `content/lessen/wiskunde/functies/domein_beeld/index.md`, 
+bijvoorbeeld, zal als basis dienen voor de webpagina 
 <https://hoezithet.nu/lessen/wiskunde/functies/domein_beeld>.
 
 ## Front matter van een les
 
-Elk markdown-bestand in de `content` directory heeft een *front matter*. Dat is 
-een soort header die meta-informatie bevat over die les. De front matter van 
+Elk `index.md`-bestand in de `content` directory heeft een *front matter*. Dat 
+is een soort header die meta-informatie bevat over die les. De front matter van 
 een les moet minstens de key `title` bevatten. De waarde hiervan wordt de titel 
 van de les. Meestal bevat de front matter echter nog meer informatie.  
 Bijvoorbeeld:
 
-```toml
+```yaml
+---
 title: "Wat zijn lichtstralen?"
 date: 2019-01-28T18:38:31+01:00
 weight: 1
 draft: false
 images: ['/lessen/fysica/lichtstralen/intro/img/mosaic.png', ...]
+---
 ```
 
 Een belangrijke key hierbij is **weight**. De waarde hiervan bepaalt de 
@@ -54,36 +57,181 @@ in de lijst van lessen in de lesblok over lichtstralen.
 
 ## Front matter van een lesblok
 
-TODO
+Een **lesblok** is een verzameling van lessen die in zekere zin bij elkaar 
+horen. In de directory tree zit een lesblok een niveau hoger dan een les. De 
+lesblok-directory bevat ook een markdown bestand: `_index.md`. Hierin staat 
+eveneens een front matter. Deze moet minstens de keys `title`, `section_color`,
+`level` en `topic` bevatten.
 
-## Markdown cheat sheet
+| Key   | Beschrijving |
+| `title` | De titel van de lesblok. |
+| `section_color` | De primaire kleur van deze sectie. Dit bepaalt bv. de kleur van de titel van iedere les in dit lesblok. |
+| `level` | Voor welk niveau de leerstof is bedoeld. |
+| `topic` | Bij welk vakonderdeel de leerstof hoort. |
 
-TODO
+Een voorbeeld van een front matter voor een lesblok over lichtstralen voor 
+leerlingen van het 3e middelbaar:
 
-## Illustraties
+```yaml
+---
+title: "Lichtstralen"
+section_color: "#ff6300"
+level: "3e middelbaar"
+topic: "optica"
+---
+```
 
-TODO
+Ook lesblokken kunnen de key `weight` bevatten in hun front matter. De waarde 
+hiervan zal bepalen in welke volgorde meerdere lesblokken getoond worden.
+
+## Illustraties in lessen
+
+Illustraties zet je best in een subdirectory `img` van de les waarin je de
+illustratie nodig hebt. Vervolgens gebruik je de
+[shortcode](https://gohugo.io/content-management/shortcodes/)
+[`svg`](layouts/shortcodes/svg.html) om de
+illustratie in te voegen in de les.
+
+Bijvoorbeeld:
+```md
+Zoals je ziet, wordt het beeld omgekeerd gevormd op het netvlies, maar daar
+hoef je je momenteel geen zorgen over te maken.
+
+{{% svg "img/oog.svg" %}}
+
+De lens van een fototoestel doet hetzelfde, behalve dat die de lichtstralen
+samenbrengt op een lichtgevoelige sensor. Ook hier krijgen we een omgekeerd
+beeld.
+
+{{% svg "img/sony_a7ii.svg" %}}
+```
 
 ## Wiskunde noteren
 
-TODO
+Wiskunde noteer je met behulp van LaTeX-syntax. Wanneer je de wiskunde tussen
+enkelvoudige dollartkens ($) plaatst, zal ze in de zin zelf verschijnen. Tussen
+dubbele dollartekens ($$) zal de wiskunde in een aparte lijn gezet worden.
+
+LaTeX environments als `split` kunnen handig zijn om vergelijkingen proper uit
+te lijnen. Merk wel op dat je *5* (!) backslashes nodig hebt om een nieuwe lijn
+te beginnen.
+
+```md
+Hieronder lossen we een vergelijking op:
+
+\begin{split}
+    x + 1 &= 2 \\\\\
+    \Leftrightarrow x &= 2 - 1 \\\\\
+    \Leftrightarrow x &= 1 \\\\\
+\end{split}
+```
 
 ## Kleur gebruiken
 
-TODO
+Je kan zowel in de tekst als in formules kleur gebruiken. In de tekst gebruik
+je hiervoor de
+[shortcode](https://gohugo.io/content-management/shortcodes/)
+[`class`](layouts/shortcodes/class.html):
+
+```md
+Toon de volgende tekst in een {{% class "blauwe kleur" "blue" %}},
+{{% class "rode kleur" "red" %}} en {{% class "groene kleur" "green" %}}.
+```
+
+In formules kan je gelijknamige kleuren gebruiken als commando:
+
+```md
+We zijn op zoek naar een rode $\red{x}$. Gevonden!
+```
 
 ## Kaders met uitleg of samenvattingen
 
-TODO
+Op het einde van de les maak je best een korte samenvatting in een kadertje. In
+de les zelf is het dan weer soms handig om dingen die leerlingen moeten
+onthouden even in te kaderen. Voor zulke kaders kan je de
+[shortcode](https://gohugo.io/content-management/shortcodes/)
+[`attention`](layouts/shortcodes/attention.html)
+gebruiken:
+
+```md
+{{% attention "Titel van de kader" "Kleur van de kader (optioneel)" %}}
+
+Het is belangrijk om af en toe een kader toe te voegen.
+
+{{% /attention %}}
+```
 
 ## Uitbreidingen op de leerstof
 
-TODO
+Soms wil je als auteur van een les een kleine nuance of wat extra
+informatie toevoegen. Het is echter belangrijk dat je hiermee de focus van de
+les niet verliest. Daarom kan het interessanter zijn om dit soort uitbreidingen
+op de leerstof in een uitklapbare blok te plaatsen. Hiervoor gebruiken we de
+[shortcode](https://gohugo.io/content-management/shortcodes/)
+[`expand`](layouts/shortcodes/expand.html).
+
+Bijvoorbeeld:
+
+```md
+Een resulterende kracht $\vec{F}$ op een massa $m$ zal altijd leiden tot een
+versnelling $d\vec{v}/dt$ van die massa volgens het verband
+
+$\vec{F} = m \cdot \frac{d\vec{v}}{dt}$
+
+Dit verband is beter bekend als de **derde wet van Newton**.
+
+{{% expand "UITBREIDING: Relativiteit" %}}
+
+De derde wet van Newton geldt enkel voor massa's die - ten opzicht van het
+gekozen inertiaalstelsel - met een snelheid bewegen die *veel* kleiner is
+dan de snelheid van het licht.
+
+Een juister verband is:
+
+$\vec{F} = \frac{d}{dt} \frac{m\vec{v}}{\sqrt{1 - v^2/c^2}}$
+
+{{% /expand %}}
+```
 
 ## Grafieken
 
-TODO
+De interactieve grafieken in de lessen over
+[functies](https://hoezithet.nu/lessen/wiskunde/functies/) zijn gemaakt met de
+library [Bokeh](https://docs.bokeh.org/en/latest/). Met Bokeh kan je heel
+eenvoudig grafieken maken in Python en ze vervolgens exporteren naar een
+JSON-bestand.
 
-## Schrijfstijl
+Het Python-script [`graphs.py`](src/graphs.py) helpt je om een grafiek te maken
+die past in de *Hoe Zit Het?*-stijl. De methode `get_plot()` maakt een lege
+Bokeh plot waar je meteen mee aan de slag kan.
 
-TODO
+Bijvoorbeeld:
+
+```python
+from pathlib import Path
+
+from hoezithet.src import graphs
+from bokeh.embed import json_item
+
+def f(x): return x**2
+xs = [x/10 for x in range(-100, 100)]
+ys = [f(x) for x in xs]
+
+p = graphs.get_plot()
+p.line(xs, ys, color=graphs.BLUE, line_cap='round')
+
+item = json.dumps(json_item(p))
+Path('plt/quad_fx.json').write_text(item)
+```
+
+De output van bovenstaand script is een JSON-bestand `plt/quad_fx.json`. Dit
+kan je met de shortcode [`bokeh`](layouts/shortcodes/bokeh.html) gebruiken in
+een les.
+
+Bijvoorbeeld:
+
+```md
+De kwadratische functie $f(x) = x^2$ heeft de volgende grafiek:
+
+{{% bokeh "plt/quad_fx.json" %}}
+```
