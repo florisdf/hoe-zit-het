@@ -260,3 +260,9 @@ De kwadratische functie $f(x) = x^2$ heeft de volgende grafiek:
 
 {{% bokeh "plt/quad_fx.json" %}}
 ```
+
+# Contributing
+
+Bij het schrijven van nieuwe lessen, maak je een nieuwe branch vanuit de `develop` branch. De naam van de branch begint met `cont-` (van **cont**ent), bijvoorbeeld `cont-lichtstralen`. Nadat je alle lessen geschreven hebt, merge je de branch terug in de `develop` branch.
+
+We maken gebruik van [commitizen](http://commitizen.github.io/cz-cli/) opdat de commit messages op een uniforme wijze geschreven zouden worden. Het benodigde node package zit in de `package.json`, dus een eenvoudige `npm install` in de directory moet volstaan om commitizen zelf te kunnen gaan gebruiken. Lees gerust een door [de documentatie](http://commitizen.github.io/cz-cli/) voor meer info.
