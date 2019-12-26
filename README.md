@@ -15,6 +15,7 @@ Inhoud
       * [Kaders met uitleg of samenvattingen](#kaders-met-uitleg-of-samenvattingen)
       * [Uitbreidingen op de leerstof](#uitbreidingen-op-de-leerstof)
       * [Grafieken](#grafieken)
+   * [Contributing](#contributing)
 
 # Algemeen overzicht
 
