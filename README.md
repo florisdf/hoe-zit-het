@@ -267,3 +267,11 @@ De kwadratische functie $f(x) = x^2$ heeft de volgende grafiek:
 Bij het schrijven van nieuwe lessen, maak je een nieuwe branch vanuit de `develop` branch. De naam van de branch begint met `cont-` (van **cont**ent), bijvoorbeeld `cont-lichtstralen`. Nadat je alle lessen geschreven hebt, maak je een pull request aan om terug in de `develop` branch te mergen. Wanneer de pull request is goedgekeurd, verwijder je de branch.
 
 We maken gebruik van [commitizen](http://commitizen.github.io/cz-cli/) opdat de commit messages op een uniforme wijze geschreven zouden worden. Het benodigde node package zit in de `package.json`, dus een eenvoudige `npm install` in de directory moet volstaan om commitizen zelf te kunnen gaan gebruiken. Lees gerust eens door [de documentatie](http://commitizen.github.io/cz-cli/) voor meer info.
+
+Om commitizen automatisch te activeren wanneer je `git commit` uitvoert, zet je volgende code in `.git/hooks/prepare-commit-msg`:
+
+```bash
+#!/bin/bash
+exec < /dev/tty && node_modules/.bin/git-cz --hook || true
+We maken gebruik van [commitizen](http://commitizen.github.io/cz-cli/) opdat de commit messages op een uniforme wijze geschreven zouden worden. Het benodigde node package zit in de `package.json`, dus een eenvoudige `npm install` in de directory moet volstaan om commitizen zelf te kunnen gaan gebruiken. Lees gerust eens door [de documentatie](http://commitizen.github.io/cz-cli/) voor meer info.
+```
