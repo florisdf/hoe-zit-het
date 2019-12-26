@@ -15,7 +15,7 @@ Inhoud
       * [Kaders met uitleg of samenvattingen](#kaders-met-uitleg-of-samenvattingen)
       * [Uitbreidingen op de leerstof](#uitbreidingen-op-de-leerstof)
       * [Grafieken](#grafieken)
-   * [Contributing](#contributing)
+   * [Git workflow](#git-workflow)
 
 # Algemeen overzicht
 
@@ -262,7 +262,7 @@ De kwadratische functie $f(x) = x^2$ heeft de volgende grafiek:
 {{% bokeh "plt/quad_fx.json" %}}
 ```
 
-# Contributing
+# Git workflow
 
 Bij het schrijven van nieuwe lessen, maak je een nieuwe branch vanuit de `develop` branch. De naam van de branch begint met `cont-` (van **cont**ent), bijvoorbeeld `cont-lichtstralen`. Nadat je alle lessen geschreven hebt, maak je een pull request aan om terug in de `develop` branch te mergen.
 
