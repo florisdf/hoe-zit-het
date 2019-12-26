@@ -273,5 +273,4 @@ Om commitizen automatisch te activeren wanneer je `git commit` uitvoert, zet je 
 ```bash
 #!/bin/bash
 exec < /dev/tty && node_modules/.bin/git-cz --hook || true
-We maken gebruik van [commitizen](http://commitizen.github.io/cz-cli/) opdat de commit messages op een uniforme wijze geschreven zouden worden. Het benodigde node package zit in de `package.json`, dus een eenvoudige `npm install` in de directory moet volstaan om commitizen zelf te kunnen gaan gebruiken. Lees gerust eens door [de documentatie](http://commitizen.github.io/cz-cli/) voor meer info.
 ```
