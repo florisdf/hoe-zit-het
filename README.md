@@ -46,6 +46,11 @@ Het bestand [`content/lessen/wiskunde/functies/domein_beeld/index.md`](/content/
 bijvoorbeeld, zal als basis dienen voor de webpagina 
 <https://hoezithet.nu/lessen/wiskunde/functies/domein_beeld>.
 
+Terwijl je lessen schrijft, is het handig om een voorbeeld te zien van hoe de les eruit zal zien. Daarvoor is er het commando
+`hugo server` ([docs: hugo server](https://gohugo.io/commands/hugo_server/)). Dit commando start een server op een poort van je
+`localhost` waar je heen kan surfen met je favoriete browser. Meestal zal je de flag `--buildDrafts` willen toevoegen omdat
+anders de lessen met `draft: true` in hun front matter niet naar HTML zullen worden omgezet.
+
 ## Front matter van een les
 
 Elk `index.md`-bestand in de `content` directory heeft een *front matter*. Dat 
