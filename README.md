@@ -28,10 +28,10 @@ bestanden die instaan voor de *inhoud* ([`content`](/content)) en de *weergave*
 
 | Directory | Beschrijving |
 |-----------|--------------|
-| [`archetypes`](/archetypes) | Het commando `hugo new` ([doc](https://gohugo.io/commands/hugo_new/)) gebruikt deze bestanden als basis voor nieuwe content files. ([docs: archetype](https://gohugo.io/content-management/archetypes/)) |
+| [`archetypes`](/archetypes) | Het commando `hugo new` ([docs: hugo new](https://gohugo.io/commands/hugo_new/)) gebruikt deze bestanden als basis voor nieuwe content files. ([docs: archetype](https://gohugo.io/content-management/archetypes/)) |
 | [`content`](/content) | Bevat markdown-bestanden met de tekstuele inhoud van elke pagina. |
 | [`layouts`](/layouts) | Op basis van deze bestanden zullen de markdown-bestanden omgezet worden naar HTML-pagina's. |
-| [`public`](/public) | Hierin komen de gegenereerde HTML-pagina's terecht na het uitvoeren van het commando `hugo`. |
+| `public` | Hierin komt de volledige gegenereerde website terecht na het uitvoeren van het commando [`hugo`](https://gohugo.io/commands/hugo/). Deze directory wordt genegeerd door git (zie `.gitignore`) en zit dus niet in deze repository. |
 | [`src`](/src) | Deze directory staat los van Hugo en bevat enkele handige Python scripts. |
 | [`static`](/static) | Elk bestand dat in deze directory staat, zal op dezelfde locatie terechtkomen op de site. ([docs: static files](https://gohugo.io/content-management/static-files/)) |
 
