@@ -1,7 +1,7 @@
 ---
 title: "Getalwaarde van een veelterm"
 date: 2019-11-05T07:44:36+02:00
-weight: 5
+weight: 3
 draft: true
 images: []
 ---
@@ -49,7 +49,11 @@ Stel dat je de volgende veelterm hebt:
 
 $$-2\orange{x}^2 + 3\orange{x} - 1$$
 
-Die veelterm bevat één {{% class "variabele" "orange" %}}, namelijk $\orange{x}$. Stel dat we de getalwaarde van de veelterm willen berekenen voor $\orange{x = 2}$. Dan moeten we elke $\orange{x}$ vervangen door $\orange{2}$:
+Die veelterm bevat één {{% class "variabele" "orange" %}}, namelijk $\orange{x}$. We gaan ervan uit dat $\orange{x}$ eender welk rationaal getal mag zijn, dus
+
+$$\orange{x} \in \mathbb{Q}$$
+
+Stel dat we de getalwaarde van de veelterm willen berekenen voor $\orange{x = 2}$. Dan moeten we elke $\orange{x}$ in de veelterm vervangen door $\orange{2}$:
 
 $$-2\cdot\orange{2}^2 + 3\cdot\orange{2} - 1$$
 
@@ -62,3 +66,12 @@ Vervolgens rekenen we uit:
 \end{split}
 
 We vinden dat de **getalwaarde** van de veelterm $-2x^2 + 3x - 1$ voor $x = 2$ **gelijk is aan $-3$**.
+
+## Samengevat
+
+{{% attention "Getalwaarde van een veelterm" %}}
+De **getalwaarde** van een veelterm vind je als volgt:
+
+1. Vervang iedere variabele in de veelterm door de gegeven getallen;
+2. Reken uit.
+{{% /attention %}}
