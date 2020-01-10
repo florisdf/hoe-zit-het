@@ -1,8 +1,8 @@
-Hoe <b>duidelijk</b> vond je deze les?<br>
+<h2>Hoe duidelijk vond je deze les?</h2>
 
 <div class="pa2 flex flex-row justify-center">
   {{ $imgs := slice "/images/lamp_broken.png" "/images/lamp_off.png" "/images/lamp_on.png" }}
-  {{ $texts := slice "<b>Niet</b> duidelijk" "OK" "<b>Heel</b> duidelijk" }}
+  {{ $texts := slice "<b>Niet</b> duidelijk" "<b>OK</b>" "<b>Heel</b> duidelijk" }}
   {{ $ids := slice "feedback_neg" "feedback_neutr" "feedback_pos" }}
 
   {{ range $idx, $img := $imgs }}
@@ -19,11 +19,26 @@ Hoe <b>duidelijk</b> vond je deze les?<br>
 
 <script>
   $(document).ready(function(){
-    {{ range $id := $ids }}
-    $({{ print "#" $id }}).click(function() {
-      var cont = $({{ print "#" $id "_msg" }}).contents();
-    });
-    {{ end }}
+    var all_btns = [{{ range $idx, $id := $ids }} $({{ print "#" $id }}), {{ end }}];
+
+    for (var i=0; i < all_btns.length; i++) {
+      var btn = all_btns[i];
+
+      btn.click($.proxy(function() {
+        // Remove all click listeners
+        // Make other buttons less visible
+        for (var j=0; j < all_btns.length; j++) {
+          var other = all_btns[j];
+          other.unbind("click");
+          other.removeClass("dim pointer");
+
+          var other_div = other[0];
+          if (other_div.id !== this.id) {
+            other.addClass("o-50");
+          }
+        }
+      }));
+    }
   });
 </script>
 
