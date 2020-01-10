@@ -6,8 +6,8 @@
   {{ $ids := slice "feedback_neg" "feedback_neutr" "feedback_pos" }}
 
   {{ range $idx, $img := $imgs }}
-    <div id="{{ index $ids $idx }}" class="flex flex-column items-center tc ma4 dim pointer">
-      <div class="bg-black-05 pa2 ma1 br-100">
+    <div id="{{ index $ids $idx }}" class="flex flex-column items-center tc ma4-ns dim pointer">
+      <div class="bg-black-05 w3 h3 br-100">
         <img class="w-50" src="{{ $img }}"/>
       </div>
       <div id="{{ index $ids $idx }}_msg">
