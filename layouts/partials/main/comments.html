@@ -2,7 +2,7 @@
 
 <div class="pa2 flex flex-row justify-center">
   {{ $imgs := slice "/images/lamp_broken.png" "/images/lamp_off.png" "/images/lamp_on.png" }}
-  {{ $texts := slice "<b>Niet</b> duidelijk" "<b>OK</b>" "<b>Heel</b> duidelijk" }}
+  {{ $texts := slice "Niet duidelijk" "Redelijk duidelijk" "Heel duidelijk" }}
   {{ $ids := slice "feedback_neg" "feedback_neutr" "feedback_pos" }}
 
   {{ range $idx, $img := $imgs }}
@@ -11,9 +11,9 @@
       <div class="bg-black-05 w3 h3 br-100">
         <img class="w-50" src="{{ $img }}"/>
       </div>
-      <div class="w-75" id="{{ index $ids $idx }}_msg">
+      <span class="w-75 b" id="{{ index $ids $idx }}_msg">
         {{ ( index $texts $idx ) | safeHTML }}
-      </div>
+      </span>
     </div>
   {{ end }}
 </div>
@@ -32,6 +32,7 @@
           var other = all_btns[j];
           other.unbind("click");
           other.removeClass("dim pointer");
+          other.css("pointer-events", "none"); // Make unclickable
 
           var other_div = other[0];
           if (other_div.id !== this.id) {
