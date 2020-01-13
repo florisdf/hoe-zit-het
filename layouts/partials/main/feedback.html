@@ -1,0 +1,45 @@
+<h2>Hoe duidelijk vond je deze les?</h2>
+
+<div class="pa2 flex flex-row justify-center">
+  {{ $imgs := slice "/images/lamp_broken.png" "/images/lamp_off.png" "/images/lamp_on.png" }}
+  {{ $texts := slice "Niet duidelijk" "Redelijk duidelijk" "Heel duidelijk" }}
+  {{ $ids := slice "feedback_neg" "feedback_neutr" "feedback_pos" }}
+
+  {{ range $idx, $img := $imgs }}
+    <div id="{{ index $ids $idx }}"
+      class="flex flex-column items-center tc ma4-ns ma3 dim pointer">
+      <div class="bg-black-05 w3 h3 br-100">
+        <img class="w-50" src="{{ $img }}"/>
+      </div>
+      <span class="w-75 b" id="{{ index $ids $idx }}_msg">
+        {{ ( index $texts $idx ) | safeHTML }}
+      </span>
+    </div>
+  {{ end }}
+</div>
+
+<script>
+  $(document).ready(function(){
+    var all_btns = [{{ range $idx, $id := $ids }} $({{ print "#" $id }}), {{ end }}];
+
+    for (var i=0; i < all_btns.length; i++) {
+      var btn = all_btns[i];
+
+      btn.click($.proxy(function() {
+        // Remove all click listeners
+        // Make other buttons less visible
+        for (var j=0; j < all_btns.length; j++) {
+          var other = all_btns[j];
+          other.unbind("click");
+          other.removeClass("dim pointer");
+          other.css("pointer-events", "none"); // Make unclickable
+
+          var other_div = other[0];
+          if (other_div.id !== this.id) {
+            other.addClass("o-50");
+          }
+        }
+      }));
+    }
+  });
+</script>
