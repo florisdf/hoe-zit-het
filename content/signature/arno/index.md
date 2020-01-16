@@ -1,5 +1,6 @@
 ---
 name: Arno Soontjens
 email: arno@hoezithet.nu
-function: hoofd public relations
+function: vrijwilliger
+phone: +32 479 25 85 05
 ---
