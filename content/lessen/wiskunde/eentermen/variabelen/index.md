@@ -5,8 +5,9 @@ weight: 1
 draft: true
 images: ['/lessen/wiskunde/veeltermen/variabelen/img/living_no_dims.png', '/lessen/wiskunde/veeltermen/variabelen/img/living_area_formula.png', '/lessen/wiskunde/veeltermen/variabelen/img/living_area_computed.png']
 ---
-Pas wanneer een veelterm **variabelen** bevat, kunnen we veeltermen gaan
-gebruiken in de echte wereld. Voor we veeltermen gaan bestuderen, is het dus
+
+Pas wanneer een eenterm **variabelen** bevat, kunnen we eentermen gaan
+gebruiken in de echte wereld. Voor we eentermen zelf gaan bestuderen, is het dus
 belangrijk om te begrijpen wat variabelen juist zijn.
 
 ## Waarom hebben we variabelen nodig?
