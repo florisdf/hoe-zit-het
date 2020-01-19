@@ -55,7 +55,7 @@ Of korter:
 $$\text{oppervlakte},~\orange{\text{lengte}},~\blue{\text{breedte}} \in \mathbb{Q}^+$$
 
 Het kan bijvoorbeeld niet dat de lengte van de living een negatief getal zou
-zijn, zoals $-5~\si{m}$.
+zijn, zoals $-5{,}2~\si{m}$.
 
 ## Gebruik symbolen voor variabelen
 
@@ -69,13 +69,17 @@ $$A = \orange{l} \cdot \blue{b}$$
 
 Een variabele stellen we zoals hierboven vaak voor met **een letter**. Soms
 gebruiken we ook **Griekse letters** zoals $\alpha$, $\beta$ of $\gamma$.
-Griekse letters gebruiken we meestal om hoeken aan te duiden, of voor bepaalde
-grootheden in de fysica zoals
-[massadichtheid](/lessen/fysica/grootheden_eenheden/formules_omvormen).
+Griekse letters gebruiken we voor bepaalde grootheden in de fysica zoals
+[massadichtheid](/lessen/fysica/grootheden_eenheden/formules_omvormen) of in de
+meetkunde om hoeken aan te duiden.
+
+{{% svg "img/greek_angle.png" %}}
 
 Maar het hoeft natuurlijk niet altijd zo saai te zijn. Niets houdt je tegen om
 **emoji's** te gebruiken als variabele, zoals :dog:, :elephant: of
-:straight_ruler:.
+:straight_ruler::
+
+{{% svg "img/emoji_formula.png" %}}
 
 ## Een variabele invullen
 
