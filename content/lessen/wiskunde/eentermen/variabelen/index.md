@@ -32,8 +32,8 @@ Maria en Dirk nog niets gemeten hebben.
 
 {{% svg "img/living_area_formula.svg" %}}
 
-Het handige aan variabelen is dus dat je **niet hoeft te weten aan welke
-getallen ze precies gelijk zijn**. Door de verbanden tussen verschillende
+Het handige aan variabelen is dus dat je op voorhand **niet hoeft te weten waar
+ze precies gelijk aan zijn**. Door de verbanden tussen verschillende
 variabelen uit te drukken, kunnen we formules opstellen die ons helpen om
 problemen op te lossen.
 
@@ -42,17 +42,17 @@ problemen op te lossen.
 Een variabele stelt altijd *iets* voor, zoals een afmeting in het geval van
 Maria en Dirk. Dat *iets* is altijd een **element van een bepaalde
 verzameling**. De afmetingen van een living zijn bijvoorbeeld altijd positieve
-reële getallen. We zeggen dat
+rationale getallen. We zeggen dat
 
 \begin{split}
-    \text{oppervlakte} &\in \mathbb{R}^+\\\\\
-    \orange{\text{lengte}} &\in \mathbb{R}^+\\\\\
-    \blue{\text{breedte}} &\in \mathbb{R}^+\\\\\
+    \text{oppervlakte} &\in \mathbb{Q}^+\\\\\
+    \orange{\text{lengte}} &\in \mathbb{Q}^+\\\\\
+    \blue{\text{breedte}} &\in \mathbb{Q}^+\\\\\
 \end{split}
 
 Of korter:
 
-$$\text{oppervlakte},~\orange{\text{lengte}},~\blue{\text{breedte}} \in \mathbb{R}^+$$
+$$\text{oppervlakte},~\orange{\text{lengte}},~\blue{\text{breedte}} \in \mathbb{Q}^+$$
 
 Het kan bijvoorbeeld niet dat de lengte van de living een negatief getal zou
 zijn, zoals $-5~\si{m}$.
