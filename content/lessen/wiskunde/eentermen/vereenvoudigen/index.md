@@ -6,7 +6,7 @@ draft: true
 images: []
 ---
 
-Om veeltermen te kunnen vereenvoudigen, moeten we eerst **eentermen kunnen vereenvoudigen**. Het vereenvoudigen van een eenterm gaat als volgt:
+Het vereenvoudigen van een eenterm gaat als volgt:
 
 1. Werk de haakjes uit
 1. Reken de [coëfficiënt](../eenterm/#coëfficiënt-en-lettergedeelte) uit
