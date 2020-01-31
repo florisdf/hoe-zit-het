@@ -6,11 +6,6 @@ draft: true
 images: []
 ---
 
-Eentermen zijn de bouwstenen van veeltermen. Daarom moeten we nog even een
-tussenstop maken om te leren wat een eenterm is.
-
-## Een eenterm is een product
-
 Een eenterm is een **product van getallen en/of [variabelen](../variabelen)**.
 Enkele voorbeelden:
 
@@ -36,7 +31,7 @@ noemer** staan en **geen variabelen onder een wortel**.
 
 ## De factoren van een eenterm
 
-De **onderdelen van de vermenigvuldiging** in de eenterm, noemen we de
+De **onderdelen van de vermenigvuldiging** in een eenterm, noemen we de
 **factoren** van de eenterm. In de onderstaande figuur staan de factoren van de
 eentermen telkens aangeduid.
 
@@ -44,7 +39,7 @@ eentermen telkens aangeduid.
 
 ## Coëfficiënt en lettergedeelte
 
-De factoren van een eenterm kunnen getallen of variabelen zijn.  De factoren
+De factoren van een eenterm kunnen {{% mute "(machten van)" %}} getallen of variabelen zijn.  De factoren
 die **getallen** zijn, vormen het cijfergedeelte of de **coëfficiënt** van de
 eenterm. Het **toestandsteken hoort ook bij de coëfficiënt** van de eenterm. De factoren die **variabelen** zijn, vormen het **lettergedeelte** van
 de eenterm.
@@ -72,3 +67,26 @@ $-4x^\orange{2}y^\blue{3}$, bijvoorbeeld, is van de
 {{% class "**derde graad in $y$**" "blue" %}}.
 
 (illustratie)
+
+## Samengevat
+
+{{% attention "Een eenterm is een product van getallen en variabelen" %}}
+
+Een **eenterm** is een product van getallen en variabelen.
+
+(illustratie)
+
+De **getallen en het toestandsteken vormen de coëfficiënt** van de eenterm. De **variabelen vormen het lettergedeelte**.
+
+(illustratie)
+
+De **exponenten van de variabelen moeten natuurlijke getallen** zijn en er mogen **geen variabelen in een noemer** staan.
+
+(illustratie)
+{{% /attention %}}
+
+{{% attention "Gelijksoortige eentermen" %}}
+Twee eentermen zijn **gelijksoortig** als en slechts als ze **hetzelfde lettergedeelte** hebben.
+
+(illustratie)
+{{% /attention %}}
