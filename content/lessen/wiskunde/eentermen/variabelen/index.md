@@ -32,37 +32,41 @@ Maria en Dirk nog niets gemeten hebben.
 
 {{% svg "img/living_area_formula.svg" %}}
 
-Het handige aan variabelen is dus dat je op voorhand **niet hoeft te weten waar
-ze precies gelijk aan zijn**. Door de verbanden tussen verschillende
-variabelen uit te drukken, kunnen we formules opstellen die ons helpen om
-problemen op te lossen.
+Het handige aan variabelen is dus dat je ze kan **vervangen door verschillende mogelijke waarden**. 
+
+Wanneer Maria en Dirk ook tapijt in hun rechthoekige slaapkamer willen leggen, zullen ze met dezelfde formule opnieuw de oppervlakte kunnen berekenen. Voor de variabelen maakt het niet uit dat hun slaapkamer andere afmetingen heeft dan hun living.
+
+(illustratie slaapkamer)
 
 ## Altijd een element van een verzameling
 
-Een variabele stelt altijd *iets* voor, zoals een afmeting in het geval van
-Maria en Dirk. Dat *iets* is altijd een **element van een bepaalde
-verzameling**. De afmetingen van een living zijn bijvoorbeeld altijd positieve
-rationale getallen. We zeggen dat
+Een variabele is dus iets wat je kan vervangen door van alles. Je kan een variabele echter niet door eender wat vervangen. Een variabele stelt altijd een **element van een bepaalde verzameling** voor.
+
+De variabelen $\orange{\text{lengte}}$ en
+$\blue{\text{breedte}}$, bijvoorbeeld, stellen afmetingen voor. Een afmeting is altijd een positief rationaal getal. Het kan bijvoorbeeld niet dat de lengte van de living een negatief getal zou
+zijn, zoals $-5{,}2~\si{m}$.
+We zeggen dus dat de variabelen $\orange{\text{lengte}}$ en
+$\blue{\text{breedte}}$ elementen zijn van $\mathbb{Q}^+$. Dat noteren we als volgt:
 
 \begin{split}
-    \text{oppervlakte} &\in \mathbb{Q}^+\\\\\
     \orange{\text{lengte}} &\in \mathbb{Q}^+\\\\\
     \blue{\text{breedte}} &\in \mathbb{Q}^+\\\\\
 \end{split}
 
-Of korter:
+Hetzelfde geldt voor de oppervlakte, die ook een positief rationaal getal moet zijn:
+
+$$\text{oppervlakte} \in \mathbb{Q}^+$$
+
+Dat alles kunnen we korter schrijven als:
 
 $$\text{oppervlakte},~\orange{\text{lengte}},~\blue{\text{breedte}} \in \mathbb{Q}^+$$
-
-Het kan bijvoorbeeld niet dat de lengte van de living een negatief getal zou
-zijn, zoals $-5{,}2~\si{m}$.
 
 ## Gebruik symbolen voor variabelen
 
 Het wordt lastig om altijd "$\text{oppervlakte}$" , "$\orange{\text{lengte}}$" en
 "$\blue{\text{breedte}}$" te schrijven. Daarom gaan we onze variabelen **afkorten**.
 Dat kunnen we bijvoorbeeld doen met **een letter**, zoals $A$ voor de
-oppervlakte, $\orange{l}$ voor de lengte en $\blue{b}$ voor de breedte. Onze
+oppervlakte {{% mute "(van het Engelse \"**A**rea\")" %}}, $\orange{l}$ voor de lengte en $\blue{b}$ voor de breedte. Onze
 formule wordt dan ook veel eenvoudiger om te schrijven:
 
 $$A = \orange{l} \cdot \blue{b}$$
@@ -86,18 +90,34 @@ Maar het hoeft natuurlijk niet altijd zo saai te zijn. Niets houdt je tegen om
 Vanaf we de waarde van een variabele kennen, kunnen we die waarde gaan
 **invullen**. Dat betekent dat we de **variabele vervangen door die waarde**.
 Stel dat Maria en Dirk hun living hebben opgemeten en ze vinden een lengte van
-$\orange{5~\si{m}}$ en een breedte van $\blue{4~\si{m}}$. Dan kunnen ze de
+$\orange{5{,}0~\si{m}}$ en een breedte van $\blue{4{,}0~\si{m}}$. Dan kunnen ze de
 variabelen $\orange{l}$ en $\blue{b}$ invullen in de formule voor de
 oppervlakte:
 
 \begin{split}
     A &= \orange{l} \cdot \blue{b}\\\\\
-    \Leftrightarrow A &= \orange{5~\si{m}} \cdot \blue{4~\si{m}}\\\\\
+    \Leftrightarrow A &= \orange{5{,}0~\si{m}} \cdot \blue{4{,}0~\si{m}}\\\\\
     \Leftrightarrow A &= 20~\si{m}^2
 \end{split}
 
-We vinden dat wanneer de variabele $\orange{l=5~\si{m}}$ en de variabele
-$\blue{b=4~\si{m}}$, dat dan de variabele
+We vinden dat wanneer de variabele $\orange{l=5{,}0~\si{m}}$ en de variabele
+$\blue{b=4{,}0~\si{m}}$, dat dan de variabele
 $A$ {{% mute "(de oppervlakte)" %}} gelijk is aan $20~\si{m}^2$.
 
 {{% svg "img/living_area_computed.svg" %}}
+
+## Samengevat
+
+{{% attention "Een variabele stelt een element van een verzameling voor" %}}
+
+Een variabele is een **symbool** dat een willekeurig **element van een bepaalde verzameling** voorstelt, zoals de natuurlijke of rationale getallen. Meestal gebruiken we letters zoals $a$, $b$ en $c$ of $x$, $y$ en $z$ als variabele.
+
+(illustratie: variabelen en verzameling tonen met elementen die waarde zouden kunnen zijn van de variabele)
+
+{{% /attention %}}
+
+{{% attention "Variabelen invullen" %}}
+Een variabele **invullen** betekent dat je de variabele vervangt door een bepaalde waarde.
+
+(illustratie)
+{{% /attention %}}
