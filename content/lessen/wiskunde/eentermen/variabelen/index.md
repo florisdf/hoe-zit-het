@@ -36,7 +36,7 @@ Het handige aan variabelen is dus dat je ze kan **vervangen door verschillende m
 
 Wanneer Maria en Dirk ook tapijt in hun rechthoekige slaapkamer willen leggen, zullen ze met dezelfde formule opnieuw de oppervlakte kunnen berekenen. Voor de variabelen maakt het niet uit dat hun slaapkamer andere afmetingen heeft dan hun living.
 
-(illustratie slaapkamer)
+{{% svg "img/bedroom_area_formula.svg" %}}
 
 ## Altijd een element van een verzameling
 
