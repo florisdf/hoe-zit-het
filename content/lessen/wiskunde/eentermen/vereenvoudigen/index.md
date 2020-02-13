@@ -16,11 +16,12 @@ angstaanjagend mogelijk te laten uitzien, moeten we de eenterm
 
 Het vereenvoudigen van een eenterm gaat als volgt:
 
-1. Werk de haakjes uit
-1. Reken de [coëfficiënt](../eenterm/#coëfficiënt-en-lettergedeelte) uit
-2. Reken het [lettergedeelte](../eenterm/#coëfficiënt-en-lettergedeelte) uit
+1. Werk de haakjes weg;
+2. Reken de [coëfficiënt](../eenterm/#coëfficiënt-en-lettergedeelte) uit;
+3. Reken het [lettergedeelte](../eenterm/#coëfficiënt-en-lettergedeelte) uit;
+4. Rangschik de factoren.
 
-## Haakjes uitwerken
+## Haakjes wegwerken
 
 Wanneer een eenterm haakjes bevat, zullen we die eerst wegwerken. Er zijn
 verschillende manieren waarop haakjes kunnen voorkomen in een eenterm:
@@ -41,12 +42,12 @@ haakjes** tot die macht.
 (illustratie)
 
 Als er binnen de haakjes een minteken staat, moet je die ook tot de macht
-verheffen. Dat doe je door in gedachten het **minteken te vervangen door een
-factor $-1$** en die te verheffen tot de macht.
+verheffen. Dat doe je door in gedachten het **minteken te vervangen door
+$(-1)$** en die te verheffen tot de macht.
 
 (illustratie)
 
-{{% expand "Waarom mogen we een minteken vervangen door $-1$?" %}}
+{{% expand "Waarom mogen we een minteken vervangen door $(-1)$?" %}}
 We mogen een minteken altijd vervangen door $(-1)$ omdat een minteken voor een
 factor hetzelfde betekent als "*vermenigvuldig met $-1$*".
 
@@ -57,7 +58,7 @@ of $(-1)\cdot 2$, dat is allemaal hetzelfde. Eén pot nat. 🍯
 ### Haakjes met een minteken uitwerken
 
 Wanneer er haakjes rond een **factor met een minteken** staan, kan je weer in
-gedachte **ieder minteken vervangen door een $(-1)$**. Alle $(-1)-$en kan je
+gedachte **ieder minteken vervangen door $(-1)$**. Alle $(-1)-$en kan je
 vervolgens voorop zetten en met elkaar vermenigvuldigen.
 
 (illustratie)
@@ -83,11 +84,11 @@ zeiden we dat we in een vermenigvuldiging de factoren altijd van plaats mogen
 veranderen, dus we mogen gerust alle $(-1)-$en voorop zetten.
 
 \begin{split}
-    &-5&\cdot (-2) &\cdot (-3) &= - 30\\\\\
-    &-2&\cdot (-3) &\cdot (-5) &= - 30\\\\\
-    &-2&\cdot (-5) &\cdot (-3) &= - 30\\\\\
-    (-1) &\cdot 2\cdot (-1) & \cdot 5 &\cdot (-1) \cdot 3 &= - 30\\\\\
-    (-1) \cdot (-1) \cdot (-1) &\cdot 2&\cdot 5 &\cdot 3 &= - 30\\\\\
+    \orange{-}5\cdot (\orange{-}2) \cdot (\orange{-}3) &= - 30\\\\\
+    \orange{-}2\cdot (\orange{-}3) \cdot (\orange{-}5) &= - 30\\\\\
+    \orange{-}2\cdot (\orange{-}5) \cdot (\orange{-}3) &= - 30\\\\\
+    \orange{(-1)} \cdot 2 \cdot \orange{(-1)} \cdot 5 \cdot \orange{(-1)} \cdot 3 &= - 30\\\\\
+    \orange{(-1)} \cdot \orange{(-1)} \cdot \orange{(-1)} \cdot 2\cdot 5 \cdot 3 &= - 30\\\\\
 \end{split}
 
 {{% /expand %}}
@@ -115,8 +116,8 @@ volgorde waarin je een vermenigvuldiging uitrekent, niet uitmaakt:
 
 Je mag in een vermenigvuldiging van rationale getallen de **factoren dus altijd
 van plaats veranderen**. Omdat zowel de variabelen als de getallen in onze
-eenterm *rationaal* zijn {{% mute "(of reëel)" %}}, mogen we ze van plaats
-veranderen.
+eenterm *rationaal* zijn {{% mute "(reëel mag ook)" %}}, mogen we ze dus van
+plaats veranderen.
 
 \begin{split}
     4 \cdot a \cdot b \cdot 3 \\\\\
@@ -124,7 +125,7 @@ veranderen.
     = b \cdot 3 \cdot a \cdot 4\\\\\
 \end{split}
 
-We kunnen er dus ook voor kiezen om het volledige
+We kiezen ervoor om het volledige
 [cijfergedeelte](../eenterm/#coëfficiënt-en-lettergedeelte) vooraan te zetten
 en al eerste uit te rekenen.
 
@@ -133,6 +134,8 @@ en al eerste uit te rekenen.
     = \orange{4 \cdot 3} \cdot a \cdot b \\\\\
     = \orange{12} \cdot a \cdot b \\\\\
 \end{split}
+
+Dat geeft ons de {{% class "coëfficiënt" "orange" %}}.
 
 {{% /expand %}}
 
@@ -153,27 +156,29 @@ exponent voor die variabele.
 {{% expand "Waarom tellen we de exponenten bij elkaar op?" %}}
 Stel dat we de volgende eenterm hebben:
 
-$$\orange{a^4} \cdot \blue{a^2}$$
+$$\orange{a^4} \cdot \blue{a^2} \cdot b^3$$
 
 Dan kunnen we die eenterm languit schrijven als
 
-$$\orange{a \cdot a \cdot a \cdot a} \cdot \blue{a \cdot a}$$
+$$\orange{a \cdot a \cdot a \cdot a} \cdot \blue{a \cdot a} \cdot b \cdot b \cdot b$$
 
-We vermenigvuldigen $a$ dus 6 keer met zichzelf. Dat is hetzelfde als
+We vermenigvuldigen $a$ dus 6 keer met zichzelf en vervolgens vermenigvuldigen
+we $b$ 3 keer met zichzelf. Dat is hetzelfde als
 
-$$a^6$$
+$$a^6\cdot b^3$$
 
-Vanwaar komt die $6$ nu? Wel de $\orange{a^4}$ gaf ons 4 $a$'s en de
+Vanwaar komt die $6$ van $a^6$ nu? Wel de $\orange{a^4}$ gaf ons 4 $a$'s en de
 $\blue{a^2}$ gaf er ons nog eens 2. In totaal kregen we dus $\orange{4} +
 \blue{2} = 6$ $a$'s. We kunnen bijgevolg zeggen dat:
 
-$$\orange{a^4} \cdot \blue{a^2} = a^{\orange{4} + \blue{2}}$$
+$$\orange{a^4} \cdot \blue{a^2} \cdot b^3 = a^{\orange{4} + \blue{2}}\cdot b^3$$
 
-Of in het algemeen:
+In het algemeen is de regel dat je in een vermenigvuldiging **exponenten bij
+elkaar mag optellen** wanneer ze **hetzelfde grondtal hebben**:
 
 $$\orange{a^n} \cdot \blue{a^m} = a^{\orange{n} + \blue{m}}$$
 
-Waarbij $a, \orange{n}, \blue{m} \in \mathbb{Q}$.
+Waarbij $a, \orange{n}, \blue{m} \in \mathbb{Q}$. {{% mute "(of $\mathbb{R}$ mag ook)" %}}
 {{% /expand %}}
 
 ## Factoren rangschikken
@@ -189,9 +194,13 @@ Enkele voorbeelden:
 
 (illustratie)
 
-## Factoren met letterexponenten
-Tenslotte nog iets vertellen over factoren met **letterexponenten**. Het kan
-namelijk dat de exponent van een variabele of een getal letters bevat.
-Bijvoorbeeld:
+## Samengevat
 
-* $2^n b^2 ab^m$
+{{% attention "Eentermen vereenvoudigen" %}}
+Het vereenvoudigen van eentermen doe je als volgt:
+
+1. Werk de **haakjes weg** door machten en mintekens uit te werken;
+2. Vermenigvuldig alle **factoren in het cijfergedeelte** met elkaar;
+3. Combineer de **factoren in het lettergedeelte** per soort en reken hun nieuwe macht uit;
+4. Zet het **toestandsteken en de coëfficiënt voorop** en rangschik de **variabelen alfabetisch**.
+{{% /attention %}}
