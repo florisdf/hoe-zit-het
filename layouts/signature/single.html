@@ -9,7 +9,7 @@
         <tr>
           <td style="width:100px; text-align:center; vertical-align: middle;">
             {{ with .Resources.GetMatch "*.jpg" }}
-            {{ $img := .Fill "240x240 CatmullRom" }}
+            {{ $img := .Fill "240x240" }}
             <img alt="profile picture" style="width:100%; border-radius:50%;"  src="{{ $img.Permalink }}">
             {{ end }}
           </td>
