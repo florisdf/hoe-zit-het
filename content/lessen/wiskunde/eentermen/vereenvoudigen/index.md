@@ -223,7 +223,7 @@ elkaar mag optellen** wanneer ze **hetzelfde grondtal hebben**:
 
 $$\orange{a^n} \cdot \blue{a^m} = a^{\orange{n} + \blue{m}}$$
 
-Waarbij $a, \orange{n}, \blue{m} \in \mathbb{Q}$. {{% mute "(of $\mathbb{R}$ mag ook)" %}}
+Waarbij $a, \orange{n}, \blue{m} \in \mathbb{Q}$ {{% mute "(of $\mathbb{R}$ mag ook)" %}}.
 {{% /expand %}}
 
 ## Factoren rangschikken
