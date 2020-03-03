@@ -110,14 +110,13 @@ $A$ {{% mute "(de oppervlakte)" %}} gelijk is aan $20~\si{m}^2$.
 
 {{% attention "Een variabele stelt een element van een verzameling voor" %}}
 
-Een variabele is een **symbool** dat een willekeurig **element van een bepaalde verzameling** voorstelt, zoals de natuurlijke of rationale getallen. Meestal gebruiken we letters zoals $a$, $b$ en $c$ of $x$, $y$ en $z$ als variabele.
-
-(illustratie: variabelen en verzameling tonen met elementen die waarde zouden kunnen zijn van de variabele)
+Een variabele is een **symbool** dat een willekeurig **element van een bepaalde
+verzameling** voorstelt, zoals de natuurlijke of rationale getallen. Meestal
+gebruiken we letters zoals $a$, $b$ en $c$ of $x$, $y$ en $z$ als variabele.
 
 {{% /attention %}}
 
 {{% attention "Variabelen invullen" %}}
-Een variabele **invullen** betekent dat je de variabele vervangt door een bepaalde waarde.
-
-(illustratie)
+Een variabele **invullen** betekent dat je de variabele vervangt door een
+bepaalde waarde.
 {{% /attention %}}
