@@ -6,3 +6,4 @@ node_modules
 firebase-debug.log
 .vscode
 package-lock.json
+resources/*
