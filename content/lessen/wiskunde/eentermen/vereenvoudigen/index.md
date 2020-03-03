@@ -2,7 +2,7 @@
 title: "Eentermen vereenvoudigen"
 date: 2019-12-04T08:20:36+02:00
 weight: 3
-draft: true
+draft: false
 images: []
 ---
 
