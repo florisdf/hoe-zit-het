@@ -12,14 +12,16 @@ eenterm er soms wat ingewikkeld uitzien. Om een eenterm er zo minst
 angstaanjagend mogelijk te laten uitzien, moeten we de eenterm
 **vereenvoudigen**.
 
-(illustratie met angstaanjagende eenterm en zijn vereenvoudigd equivalent)
-
 Het vereenvoudigen van een eenterm gaat als volgt:
 
 1. Werk de haakjes weg;
 2. Reken de [coëfficiënt](../eenterm/#coëfficiënt-en-lettergedeelte) uit;
 3. Reken het [lettergedeelte](../eenterm/#coëfficiënt-en-lettergedeelte) uit;
 4. Rangschik de factoren.
+
+Als voorbeeld zullen we volgende eenterm vereenvoudigen:
+
+$$-3y\cdot (2xz)^3 \cdot(-y)^2\cdot (-2)\cdot (-5)$$
 
 ## Haakjes wegwerken
 
@@ -29,23 +31,38 @@ verschillende manieren waarop haakjes kunnen voorkomen in een eenterm:
 1. Haakjes die factoren tot een bepaalde macht verheffen
 2. Haakjes rond factoren met een minteken
 
-(illustratie)
+In ons voorbeeld staan er haakjes in de factoren $\orange{(2xz)^3}$,
+$\orange{(-y)^2}$, $\orange{(-2)}$ en $\orange{(-5)}$:
 
-In de twee gevallen werk je de haakjes anders uit.
-
+$$-3y\cdot \orange{(2xz)^3}\cdot\orange{(-y)^2}\cdot \orange{(-2)} \cdot \orange{(-5)}$$
 
 ### Haakjes met een macht uitwerken
 
 Als er een **macht bij de haakjes** staat, **verhef je elke factor binnen de
-haakjes** tot die macht.
+haakjes** tot die macht. Voor de factor $\orange{(2xz)^3}$ geeft dit:
 
-(illustratie)
+$$(2xz)^3 = 2^3x^3z^3$$
 
-Als er binnen de haakjes een minteken staat, moet je die ook tot de macht
-verheffen. Dat doe je door in gedachten het **minteken te vervangen door
-$(-1)$** en die te verheffen tot de macht.
+Dit invullen in het voorbeeld geeft:
 
-(illustratie)
+$$-3y\cdot \orange{(2xz)^3}\cdot(-y)^2\cdot (-2) \cdot (-5) = -3y\cdot \orange{2^3x^3z^3}\cdot(-y)^2\cdot (-2) \cdot (-5)$$
+
+Ziezo, die haakjes zijn al weg! :muscle:
+
+De andere factor die haakjes met een macht bevat, is $\orange{(-y)^2}$. Het
+minteken binnen de haakjes moet je ook tot de macht verheffen. Dat doe je door
+in gedachten het **minteken te vervangen door $(-1)$** en die mee te verheffen
+tot de macht:
+
+\begin{split}
+    (\orange{-}y)^2 &= (\orange{(-1)}\cdot y)^2\\\\\
+                    &= \orange{(-1)}^2\cdot y^2\\\\\
+                    &= y^2
+\end{split}
+
+Terug invullen in het voorbeeld geeft:
+
+$$-3y\cdot 2^3x^3z^3\cdot\orange{(-y)^2}\cdot (-2) \cdot (-5) = -3y\cdot 2^3x^3z^3\cdot\orange{y^2}\cdot (-2) \cdot (-5)$$
 
 {{% expand "Waarom mogen we een minteken vervangen door $(-1)$?" %}}
 We mogen een minteken altijd vervangen door $(-1)$ omdat een minteken voor een
@@ -57,12 +74,21 @@ of $(-1)\cdot 2$, dat is allemaal hetzelfde. Eén pot nat. 🍯
 
 ### Haakjes met een minteken uitwerken
 
-Wanneer er haakjes rond een **factor met een minteken** staan, kan je weer in
-gedachte **ieder minteken vervangen door $(-1)$**. Alle $(-1)-$en kan je
-vervolgens voorop zetten en met elkaar vermenigvuldigen.
+De laatste haakjes in ons voorbeeld staan rond de factoren $\orange{(-2)}$ en $\orange{(-5)}$:
 
-(illustratie)
+$$-3y\cdot 2^3x^3z^3\cdot y^2\cdot \orange{(-2)} \cdot \orange{(-5)}$$
 
+Ze staan er om de **mintekens af te schermen** van de maaltekens die ervoor
+staat. In dat geval gaan we weer in gedachte de **mintekens vervangen door
+$(-1)$**. Dit doen we ook voor het minteken van de coëfficiënt. Vervolgens
+zetten we alle $(-1)-$en voorop en bepalen we het uiteindelijke teken van de
+coëfficiënt.
+
+\begin{split}
+    \orange{-}3y\cdot 2^3x^3z^3\cdot y^2\cdot \blue{(-2)} \cdot \green{(-5)} &= \orange{(-1)}\cdot 3y\cdot 2^3x^3z^3\cdot y^2\cdot \blue{(-1)\cdot 2} \cdot \green{(-1)\cdot 5}\\\\\
+                                                   &= \orange{(-1)}\cdot\blue{(-1)}\cdot\green{(-1)}\cdot 3\cdot y\cdot 2^3x^3z^3\cdot y^2\cdot \blue{2} \cdot \green{5}\\\\\
+                                                   &= \orange{-}3\cdot y\cdot 2^3x^3z^3\cdot y^2\cdot \blue{2} \cdot \green{5}
+\end{split}
 
 {{% expand "Waarom mag je alle $(-1)-$en voorop zetten?" %}}
 De vermenigvuldiging van rationale getallen is **commutatief**.
@@ -95,13 +121,28 @@ veranderen, dus we mogen gerust alle $(-1)-$en voorop zetten.
 
 ## Coëfficiënt uitrekenen
 
-Om de [coëfficiënt](../eenterm/#coëfficiënt-en-lettergedeelte), of het
-*cijfergedeelte*, van een eenterm uit te rekenen, kan je in gedachte alle
+Onze veelterm bevat nu geen haakjes meer:
+
+$$-3\cdot y\cdot 2^3x^3z^3\cdot y^2\cdot 2 \cdot 5$$
+
+De volgende stap is om de [coëfficiënt](../eenterm/#coëfficiënt-en-lettergedeelte), of het
+*cijfergedeelte*, van de eenterm uit te rekenen. Daarvoor mag je in gedachte alle
 [variabelen](../variabele) even weglaten. Vervolgens reken je de bewerking die
-er staat gewoon uit.
+er staat gewoon uit:
 
-(illustratie)
+$$-3\gray{\cdot y}\cdot 2^3\gray{x^3z^3\cdot y^2}\cdot 2 \cdot 5$$
 
+Dit uitrekenen geeft:
+
+\begin{split}
+-3\cdot 2^3 \cdot 2 \cdot 5 &= -3 \cdot 8 \cdot 10\\\\\
+                            &= -24 \cdot 10 \\\\\
+                            &= -240
+\end{split}
+
+Dit resultaat terug invullen geeft:
+
+$$\orange{-240}\cdot y\cdot x^3z^3\cdot y^2$$
 
 {{% expand "Waarom mag je de coëfficiënt apart uitrekenen?" %}}
 De vermenigvuldiging van rationale getallen is **commutatief**.
@@ -127,30 +168,34 @@ plaats veranderen.
 
 We kiezen ervoor om het volledige
 [cijfergedeelte](../eenterm/#coëfficiënt-en-lettergedeelte) vooraan te zetten
-en al eerste uit te rekenen.
+en als eerste uit te rekenen.
 
 \begin{split}
     \orange{4} \cdot a \cdot b \cdot \orange{3} \\\\\
     = \orange{4 \cdot 3} \cdot a \cdot b \\\\\
     = \orange{12} \cdot a \cdot b \\\\\
 \end{split}
-
-Dat geeft ons de {{% class "coëfficiënt" "orange" %}}.
-
 {{% /expand %}}
 
 ## Lettergedeelte uitrekenen
 
 Eens het cijfergedeelte van de eenterm is opgekuist, pakken we het
 lettergedeelte aan. Om het lettergedeelte te vereenvoudigen, ga je op zoek naar
-de factoren met **dezelfde variabele** in hun grondtal.
+factoren met **dezelfde variabele** in hun grondtal. Voor elk zo'n variabele
+tel je de exponenten bij elkaar op. Zo krijg je de nieuwe exponent van die
+variabele.
 
-(illustratie die grondtal en exponent toont van verschillende factoren)
+In ons voorbeeld komen drie variabelen voor: $x$, $y$ en $z$. Enkel de
+variabele $y$ komt meerdere keren voor:
 
-Voor elke variabele tel je de exponenten bij elkaar op. Zo krijg je de nieuwe
-exponent voor die variabele.
+$$-240\cdot \orange{y}\cdot x^3z^3 \cdot \orange{y^2}$$
 
-(illustratie)
+Het optellen van de exponenten van $\orange{y}$ geeft:
+
+\begin{split}
+    -240\cdot \orange{y^1}\cdot x^3z^3 \cdot \orange{y^2} &= -240\cdot \orange{y^{1 + 2}}\cdot x^3z^3\\\\\
+                                                          &= -240\cdot \orange{y^{3}}\cdot x^3z^3\\\\\
+\end{split}
 
 
 {{% expand "Waarom tellen we de exponenten bij elkaar op?" %}}
@@ -190,31 +235,20 @@ van rangschikken is:
 1. Zet de coëfficiënt en het toestandsteken voorop;
 2. Rangschik de variabelen alfabetisch.
 
-Enkele voorbeelden:
+We hebben ons voorbeeld al tot deze vorm kunnen vereenvoudigen:
 
-(illustratie)
+$$-240\cdot y^{3}\cdot x^3z^3$$
 
-## Een voorbeeld
-Als voorbeeld zullen we de eenterm $-3y\cdot x\cdot(-y)^2\cdot (-2)$ vereenvoudigen.
-De eerste stap om eentermen te vereenvoudigen is om alle [haakjes weg te werken](../vereenvoudigen/#haakjes-wegwerken). Er staan haakjes in de factor $\orange{(-y)^2}$ en in de factor $\blue{(-2)}$:
+De coëfficiënt en het toestandsteken (de $-240$) staan al voorop :+1:. Nu
+moeten we enkel nog de variabelen **alfabetisch** rangschikken:
 
-$-3y\cdot x\cdot\orange{(-y)^2}\cdot \blue{(-2)}$
+$$-240\cdot x^3\cdot y^{3}\cdot z^3$$
 
-Voor $\orange{(-y)^2}$ zien we dat er een **macht bij de haakjes** staat, dus we moeten [haakjes met een macht uitwerken](../vereenvoudigen/#haakjes-met-een-macht-uitwerken). Er staat ook nog eens een **minteken** binnen de haakjes. Dat minteken zetten we in gedachten om naar **$(-1)\cdot$**:
+Tenslotte laten we de maaltekens weg waar het kan:
 
-$-3y\cdot x\cdot(\orange{-}y)^2\cdot (-2) = -3y\cdot x\cdot(\orange{(-1)\cdot}y)^2\cdot (-2)$
+$$-240 x^3 y^{3}z^3$$
 
-Vervolgens verheffen we de factoren binnen de haakjes tot de macht:
-
-\begin{split}
--3y\cdot x\cdot(\orange{(-1)}\cdot\orange{y})^\orange{2}\cdot (-2)
-&= -3y\cdot x\cdot\orange{(-1)^2}\cdot\orange{y^2}\cdot (-2)\\\\\
-&= -3y\cdot x\cdot\orange{1}\cdot y^2\cdot (-2)\\\\\
-&= -3y\cdot x\cdot y^2\cdot (-2)
-\end{split}
-
-De factor $\blue{(-2)}$ bevat [haakjes met een minteken](../vereenvoudigen/#haakjes-met-een-minteken-uitwerken).
-
+Wat. Een. Prachtige. Eenterm. :relieved:
 
 ## Samengevat
 
