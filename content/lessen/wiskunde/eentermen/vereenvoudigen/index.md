@@ -194,6 +194,28 @@ Enkele voorbeelden:
 
 (illustratie)
 
+## Een voorbeeld
+Als voorbeeld zullen we de eenterm $-3y\cdot x\cdot(-y)^2\cdot (-2)$ vereenvoudigen.
+De eerste stap om eentermen te vereenvoudigen is om alle [haakjes weg te werken](../vereenvoudigen/#haakjes-wegwerken). Er staan haakjes in de factor $\orange{(-y)^2}$ en in de factor $\blue{(-2)}$:
+
+$-3y\cdot x\cdot\orange{(-y)^2}\cdot \blue{(-2)}$
+
+Voor $\orange{(-y)^2}$ zien we dat er een **macht bij de haakjes** staat, dus we moeten [haakjes met een macht uitwerken](../vereenvoudigen/#haakjes-met-een-macht-uitwerken). Er staat ook nog eens een **minteken** binnen de haakjes. Dat minteken zetten we in gedachten om naar **$(-1)\cdot$**:
+
+$-3y\cdot x\cdot(\orange{-}y)^2\cdot (-2) = -3y\cdot x\cdot(\orange{(-1)\cdot}y)^2\cdot (-2)$
+
+Vervolgens verheffen we de factoren binnen de haakjes tot de macht:
+
+\begin{split}
+-3y\cdot x\cdot(\orange{(-1)}\cdot\orange{y})^\orange{2}\cdot (-2)
+&= -3y\cdot x\cdot\orange{(-1)^2}\cdot\orange{y^2}\cdot (-2)\\\\\
+&= -3y\cdot x\cdot\orange{1}\cdot y^2\cdot (-2)\\\\\
+&= -3y\cdot x\cdot y^2\cdot (-2)
+\end{split}
+
+De factor $\blue{(-2)}$ bevat [haakjes met een minteken](../vereenvoudigen/#haakjes-met-een-minteken-uitwerken).
+
+
 ## Samengevat
 
 {{% attention "Eentermen vereenvoudigen" %}}
