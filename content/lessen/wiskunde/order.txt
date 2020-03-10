@@ -5,3 +5,4 @@ functies
 1g_vgl
 vector_1
 eentermen
+afgeleiden
