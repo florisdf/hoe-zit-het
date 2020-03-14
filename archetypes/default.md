@@ -3,10 +3,9 @@ title: "{{ .Name | humanize }}"
 date: {{ .Date }}
 weight: 0
 draft: true
-tags: []
-categories: []
 level: ""
 course: ""
 topic: ""
+images: []
 ---
 
