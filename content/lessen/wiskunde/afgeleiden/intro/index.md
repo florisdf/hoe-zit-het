@@ -1,26 +1,36 @@
 ---
 title: "Wat is een afgeleide?"
 date: 2020-03-10T16:35:11+02:00
-weight: 5
-draft: false
+weight: 1
+draft: true
 images: []
 ---
 
-Dirk en Maria houden een **loopwedstrijd** op de lokale atletiekpiste. Ze willen voor eens en voor altijd uitmaken wie van hen de snelste is.
+Dirk en Maria houden een **loopwedstrijd** op de lokale atletiekpiste. Ze
+willen voor eens en voor altijd uitmaken wie van hen de snelste is.
 
 (illustratie)
 
-Na een intense 100 m sprint, is Dirk eerst aan de finish. Fier feliciteert hij Maria met haar vergeefse poging. Maar Maria beweert dat zij de snelste was omdat zij de **hoogste snelheid** gehaald heeft. Hieronder zie je enkele luchtbeelden van hun sprint.
-
+Na een intense 100 m sprint, is Dirk eerst aan de finish. Maria beweert dat
+*zij* de snelste was omdat zij de **hoogste snelheid** gehaald heeft. Hieronder
+zie je enkele luchtbeelden van hun sprint.
+di
 (illustraties met klokken erbij)
 
-Door het verschil van de eindtijd en de begintijd te nemen, kunnen we voor Dirk en Maria berekenen **hoe lang** ze beiden hebben gelopen:
+
+## Gemiddelde snelheid
+
+Door het verschil van de eindtijd en de begintijd te nemen, kunnen we voor
+Dirk en Maria berekenen **hoe lang** ze beiden hebben gelopen:
 
 (illustratie)
 
-We noteren dat als volgt:
+We noteren dit voor Dirk als:
 
 $$t\_{eind,D} - t\_{begin,D} = 45~\si{s} - 20~\si{s} = 25~\si{s}$$
+
+
+En voor Maria als:
 $$t\_{eind,M} - t\_{begin,M} = 48~\si{s} - 20~\si{s} = 28~\si{s}$$
 
 Of korter:
@@ -28,7 +38,25 @@ Of korter:
 $$\Delta t\_D = 45~\si{s} - 20~\si{s} = 25~\si{s}$$
 $$\Delta t\_{M} = 48~\si{s} - 20~\si{s} = 28~\si{s}$$
 
-Dirk liep dus $100~\si{m}$ in $25~\si{s}$ en Maria liep $100~\si{m}$ in $28~\si{s}$. Hun **gemiddelde snelheid** vinden we door hun **afgelegde afstand te delen door de tijd** die ze nodig hadden:
+
+{{< expand "Wat is die $\Delta$?" >}}
+
+Het symbool "$\Delta$" (een Griekse *delta*), gebruiken we om een *verschil*
+korter te schrijven. Het betekent gewoon "het verschil van het einde en het
+begin".
+
+In plaats van $t\_{eind} - t\_{begin}$ kunnen we dus veel korter schrijven $\Delta t$:
+
+
+$t\_{eind} - t\_{begin} = \Delta t$
+
+{{< /expand >}}
+
+Dirk liep dus $100~\si{m}$ in $25~\si{s}$ en Maria liep $100~\si{m}$ in
+$28~\si{s}$.
+
+Hun **gemiddelde snelheid** vinden we door hun **afgelegde
+afstand te delen door de tijd** die ze nodig hadden:
 
 $$v\_{gem} = \frac{x\_{einde} - x\_{begin}}{t\_{einde} - t\_{begin}}$$
 
