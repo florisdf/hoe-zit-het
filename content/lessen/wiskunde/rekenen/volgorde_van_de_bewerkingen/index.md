@@ -3,6 +3,7 @@ title: "Volgorde van de bewerkingen"
 date: 2018-10-19T22:00:00+02:00
 weight: 3
 draft: false
+wiski: "http://wiski.be/oefenen/volgorde-van-bewerkingen-0/take"
 tags: ["Rekenregels", "Volgorde van de bewerkingen"]
 categories: ["wiskunde", "getallen", "1e middelbaar"]
 images: []
@@ -10,7 +11,7 @@ images: []
 Over rekenregels gaan we vaak nogal snel over. De volledige wiskunde is echter
 uit die rekenregels ontstaan en bouwt erop verder. Als we de rekenregels dus
 niet grondig begrijpen, staat onze wiskunde op losse schroeven. Misschien
-daarom toch nog eens best alles proper opsommen (ba dum tss :drum: :trollface:).
+daarom toch nog eens best alles proper opsommen (ba dum tss :drum:).
 
 ## De verkeersregels van het rekenen
 Hoe moet je een wiskundige uitdrukking als
