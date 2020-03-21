@@ -1,6 +1,6 @@
 {{ $even := eq (mod .idx 2) 0 }}
 <section class="mid-gray f4 tc pa3" {{ if not $even }}style="background-color: rgba(255, 183, 0, 0.25)"{{ end }}>
-    <h1>{{ .title }}</h1>
+    <h1>{{ .title | safeHTML }}</h1>
     <div class="flex flex-wrap justify-center items-center {{ if not $even }}flex-row-reverse{{ end }}">
         <img class="w-20-l w-30-m w-75 mh2 pa2" src="{{ .img }}">
         <p class="w-100 w-30-l mh2 tl-l">
