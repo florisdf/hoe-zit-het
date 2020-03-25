@@ -60,6 +60,11 @@
   </div>
 </section>
 
+{{ $title_wiski := "<span class=\"gold\">NIEUW!</span> Oefeningen via wiski.be" }}
+{{ $img_wiski := "/images/landing_page/wiski.svg" }}
+{{ $text_wiski := "Om je de leerstof <span class=\"b\">nog beter te laten begrijpen</span>, werken we nu samen met <a href=\"http://wiski.be\">wiski.be</a>! Op allerlei lessen kan je nu <span class=\"b\">doorklikken naar een oefeningenreeks</span> die jou de geleerde theorie meteen laat inoefenen! 🤯" }}
+{{ $dict_wiski := (dict "title"  $title_wiski "img" $img_wiski "text" $text_wiski ) }}
+
 {{ $title_student := "Voor leerlingen" }}
 {{ $img_student := "/images/landing_page/student.svg" }}
 {{ $text_student := "Zit je ergens vast bij wiskunde of fysica? Met <span class=\"i nowrap\">Hoe Zit Het?</span> heb je de <span class=\"b\">leerstof razendsnel onder de knie</span>. Neem maar eens een kijkje naar <a href=\"/lessen\">onze lessen</a>. Ze zijn kort, krachtig, vol illustraties en bovenal helemaal gratis!" }}
@@ -80,7 +85,7 @@
 {{ $text_help := "Heb jij ook een passie voor uitleggen? Word je wild van wiskunde en wetenschappen? Top! Wij zijn voortdurend <span class=\"b\">op zoek naar vrijwilligers</span> om te helpen bij het maken van nieuwe lessen. Geïnteresseerd? Stuur dan snel een mailtje naar <a href=\"mailto:info@hoezithet.nu\">info@hoezithet.nu</a>!" }}
 {{ $dict_help := (dict "title"  $title_help "img" $img_help "text" $text_help ) }}
 
-{{ range $idx, $kwargs := (slice $dict_student $dict_teacher $dict_like $dict_help) }}
+{{ range $idx, $kwargs := (slice $dict_wiski $dict_student $dict_teacher $dict_like $dict_help) }}
   {{ partial "landing/target_section" ( merge $kwargs (dict "idx" $idx) ) }}
 {{ end }}
 

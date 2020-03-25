@@ -3,6 +3,7 @@ title: "Wat is een vergelijking?"
 date: 2019-01-07T23:20:25+01:00
 weight: 1
 draft: false
+wiski: "http://wiski.be/oefenen/eerstegraadsvergelijkingen/take"
 tags: ["vergelijkingen", "algebra"]
 categories: ["wiskunde", "algebra"]
 level: "2M"

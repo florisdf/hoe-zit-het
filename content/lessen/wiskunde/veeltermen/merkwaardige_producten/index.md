@@ -2,6 +2,7 @@
 title: "Merkwaardige producten"
 date: 2018-12-03T23:21:36+01:00
 weight: 6
+wiski: "http://wiski.be/oefenen/merkwaardige-producten/take"
 draft: false
 images: []
 ---

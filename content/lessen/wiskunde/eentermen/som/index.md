@@ -2,6 +2,7 @@
 title: "Optellen en aftrekken van eentermen"
 date: 2020-01-09T07:02:25+01:00
 weight: 4
+wiski: "http://wiski.be/oefenen/rekenen-met-lettervormen/take"
 draft: false
 images: []
 ---
