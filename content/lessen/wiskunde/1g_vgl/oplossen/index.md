@@ -3,6 +3,7 @@ title: "Hoe oplossen?"
 date: 2019-01-10T18:10:30+01:00
 weight: 3
 draft: false
+wiski: "http://wiski.be/oefenen/eerstegraadsvergelijkingen/take"
 tags: ["vergelijkingen", "algebra"]
 categories: ["wiskunde", "algebra"]
 level: "2M"

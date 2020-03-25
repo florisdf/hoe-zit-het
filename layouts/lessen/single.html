@@ -19,7 +19,9 @@
   <h1 class="f1" style="color: {{ $.Parent.Params.section_color }};">
     {{ .Title }}
   </h1>
-  {{ partial "main/save_pdf" . }}
+
+  {{ partial "main/lessen_icon_links" . }}
+
   <div class="flex-l flex-row-reverse">
     <div class="w-third-l ph3-l mv2">
       {{ partial "main/toc.html" . }}
@@ -27,7 +29,7 @@
     <article class="center cf w-two-thirds-l">
       <section class="nested-copy-line-height lh-copy nested-links">
         {{ .Content }}
-        {{ partial "main/save_pdf" . }}
+        {{ partial "main/lessen_icon_links" . }}
         {{ partial "main/feedback" . }}
         {{ partial "main/comments" . }}
         {{ partial "main/tags.html" . }}
