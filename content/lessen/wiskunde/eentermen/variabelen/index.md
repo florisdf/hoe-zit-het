@@ -67,7 +67,8 @@ $$\text{oppervlakte},~\orange{\text{lengte}},~\blue{\text{breedte}} \in \mathbb{
 Het wordt lastig om altijd "$\text{oppervlakte}$" , "$\orange{\text{lengte}}$" en
 "$\blue{\text{breedte}}$" te schrijven. Daarom gaan we onze variabelen **afkorten**.
 Dat kunnen we bijvoorbeeld doen met **een letter**, zoals $A$ voor de
-oppervlakte {{< mute "(van het Engelse \"**A**rea\")" >}}, $\orange{l}$ voor de lengte en $\blue{b}$ voor de breedte. Onze
+oppervlakte {{< mute "(van het Engelse \"Area\")" >}}, $\orange{l}$ voor de 
+lengte en $\blue{b}$ voor de breedte. Onze
 formule wordt dan ook veel eenvoudiger om te schrijven:
 
 $$A = \orange{l} \cdot \blue{b}$$
