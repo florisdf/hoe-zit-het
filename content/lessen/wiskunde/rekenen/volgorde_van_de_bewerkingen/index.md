@@ -56,19 +56,19 @@ Welke van die manieren is juist: methode \ref{eq:sumfirst}, \ref{eq:multfirst} o
 \ref{eq:expfirst}? De **volgorde van de bewerkingen** geeft ons enkele
 voorrangsregels voor berekeningen zoals $\vba$.
 
-{{% attention "Afspraak" %}}
+{{< attention "Afspraak" >}}
 Bij bewerkingen spreken we de volgende **voorrangsregels** af (A.K.A. *de
 volgorde van de bewerkingen*):
 
 1. **Haakjes** hebben voorrang op **alles**;\\
-2. **Machten** {{% mute "(en wortels)" %}} hebben voorrang op
-**vermenigvuldigingen** {{% mute "(en delingen)" %}};\\
-3. **Vermenigvuldingen** {{% mute "(en delingen)" %}} hebben voorrang op
-   **optellingen** {{% mute "(en aftrekkingen)"%}};
-4. **Optellingen** {{% mute "(en aftrekkingen)"%}} hebben voorrang op **niets**.
-{{% /attention %}}
+2. **Machten** {{< mute "(en wortels)" >}} hebben voorrang op
+**vermenigvuldigingen** {{< mute "(en delingen)" >}};\\
+3. **Vermenigvuldingen** {{< mute "(en delingen)" >}} hebben voorrang op
+   **optellingen** {{< mute "(en aftrekkingen)">}};
+4. **Optellingen** {{< mute "(en aftrekkingen)">}} hebben voorrang op **niets**.
+{{< /attention >}}
 
-De {{% mute "lichtgrijze" %}} bewerkingen hebben dezelfde voorrang als de
+De {{< mute "lichtgrijze" >}} bewerkingen hebben dezelfde voorrang als de
 bewerking waar ze bij staan. Een vermenigvuldiging en een deling hebben dus
 allebei voorrang op een som en een aftrekking. Wanneer twee zulke bewerkingen
 na elkaar geschreven staan (dus bv. een deling en dan een vermenigvuldiging),
@@ -92,7 +92,7 @@ $$ 4 - 5 \cdot \clra{8 ^ 2} = 4 - 5 \cdot \clra{64}$$
 
 Nu hebben we de uitdrukking $4 - 5 \cdot 64$ met nog twee bewerkingen:
 min en maal. Eerst $\clra{4 - 5}$ of eerst $\clra{5 \cdot 64}$?
-*"Vermenigvuldingen hebben voorrang op optellingen {{% mute "(en aftrekkingen)" %}}"*, dus:
+*"Vermenigvuldingen hebben voorrang op optellingen {{< mute "(en aftrekkingen)" >}}"*, dus:
 
 $$ 4 - \clra{5 \cdot 64} = 4 - \clra{320} $$
 

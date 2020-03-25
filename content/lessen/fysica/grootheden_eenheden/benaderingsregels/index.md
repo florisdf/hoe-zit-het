@@ -15,12 +15,12 @@ houden dat **metingen nooit exact** zijn. Stel dat we bijvoorbeeld een meetlat
 naast een LEGO-blokje leggen, en we meten dat de zijde
 $1{,}6 \si{ cm}$ is.
 
-{{% img "img/lego_meetlat.svg" %}}
+{{< img "img/lego_meetlat.svg" >}}
 
 Als we 100 zulke blokjes naast elkaar leggen,
 hoe lang zal die rij blokjes dan zijn?
 
-{{% img "img/lego_100_bricks.svg" %}}
+{{< img "img/lego_100_bricks.svg" >}}
 
 Dat lijkt heel eenvoudig, gewoon $100 \cdot 1{,}6 \si{ cm} = 160 \si{ cm}$. We
 hebben het blokje echter gemeten met een meetlat die maar tot op $0{,}1 \si{
@@ -28,34 +28,33 @@ cm}$ nauwkeurig kan meten. Stel dat we het blokje nu meten met een schuifmaat
 die tot op $0{,}01 \si{ cm}$ nauwkeurig kan meten. Nu vinden we dat het blokje
 $1{,}58 \si{ cm}$ is.
 
-{{% img "img/lego_schuifmaat.svg" %}}
+{{< img "img/lego_schuifmaat.svg" >}}
 
 Als we 100 blokjes naast elkaar zouden leggen, zullen we dus een rij van $158
 \si{ cm}$ krijgen, niet $160 \si{ cm}$.
 
-{{% img "img/lego_100_measured.svg" %}}
+{{< img "img/lego_100_measured.svg" >}}
 
 Met **benaderingsregels** kunnen we de onzekerheid van een berekening
 uitdrukken. Als we de benaderingsregels toepassen die we straks zullen leren,
 krijgen we $1{,}6 \si{ m}$ voor de eerste berekening en $1{,}58 \si{ m}$ voor
 de tweede berekening. Het belangrijke hierbij is dat er $1{,}6$ staat en
-{{% class "**niet**" "red" %}}
-$1{,}6\red{0}$. 
+**{{< class "niet" "red" >}}** $1{,}6\red{0}$. 
 
 Met $1{,}6 \si{ m}$ bedoelen we namelijk: "Iets tussen $1{,}55 \si{ m}$ en
 $1{,}65 \si{ m}$," en inderdaad, $1{,}58 \si{ m}$
-{{% class "**ligt binnen die foutenmarge.**" "green" %}}
+**{{< class "ligt binnen die foutenmarge" "green" >}}**.
 
-{{% img "img/lego_100_correct_margin.svg" %}}
+{{< img "img/lego_100_correct_margin.svg" >}}
 
 Als we bij de eerste berekening $1{,}6\red{0}$ hadden geschreven, zou dat
 betekenen: "Iets tussen $1{,}5\red{95} \si{ m}$ en $1{,}6\red{05} \si{ m}$,"
 maar
-{{% class "**dat is fout**" "red" %}},
+**{{< class "dat is fout" "red" >}}**,
 want $1{,}58 \si{ m}$
-{{% class "**ligt buiten die foutenmarge.**" "red" %}}
+**{{< class "ligt buiten die foutenmarge" "red" >}}**.
 
-{{% img "img/lego_100_wrong_margin.svg" %}}
+{{< img "img/lego_100_wrong_margin.svg" >}}
 
 Door na onze berekeningen benaderingsregels toe te passen, zorgen we dat de
 uitkomst de juiste **foutenmarge** heeft.
@@ -111,7 +110,7 @@ Deze berekening heeft drie termen:
 
 Het kleinste aantal cijfers na de komma is dus 1. Dat betekent dat we de 
 **uitkomst moeten afronden tot op 1 cijfer na de komma**
-{{% mute "(afronden op de tienden dus)" %}}. De uitkomst van de berekening zelf 
+{{< mute "(afronden op de tienden dus)" >}}. De uitkomst van de berekening zelf 
 is:
 
 $$24{,}28 + 9{,}1 - 3{,}33 = 36{,}75$$
@@ -141,17 +140,17 @@ Het kleinste aantal beduidende cijfers is dus 2. Dat betekent dat we de
 $$0{,}000247 \cdot 34{,}2 \cdot 9{,}1 = 0{,}07687134$$
 
 Deze uitkomst moeten we afronden zodat enkel de eerste 2 beduidende cijfers 
-overblijven {{% mute "($7$ en $6$)" %}}. We moeten dus afronden op de 
-duizendsten {{% mute "(3 plaatsen na de komma)" %}}:
+overblijven {{< mute "($7$ en $6$)" >}}. We moeten dus afronden op de 
+duizendsten {{< mute "(3 plaatsen na de komma)" >}}:
 
 $$0{,}07\orange{6}\gold{8}7134 \approx 0{,}07\orange{7}$$
 
 ## Samengevat
-{{% attention "Benaderingsregels" %}}
+{{< attention "Benaderingsregels" >}}
 * De uitkomst van een **optelling of aftrekking** moet hetzelfde **aantal 
   cijfers na de komma** hebben als het getal in de berekening met het kleinste 
   aantal cijfers na de komma;
 * De uitkomst van een **vermenigvuldiging of deling** moet hetzelfde **aantal 
   beduidende cijfers** hebben als het getal in de berekening met het kleinste 
   aantal beduidende cijfers.
-{{% /attention %}}
+{{< /attention >}}

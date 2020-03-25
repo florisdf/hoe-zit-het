@@ -19,10 +19,10 @@ Om alles nog korter en leesbaarder te schrijven, gebruiken we vaak **prefixen**.
 schrijf je telkens *vóór* de eenheid. Elke prefix stelt een bepaalde macht van 10 voor. Je bent ongetwijfeld al veel prefixen tegengekomen. De $\si{k}$
 {{< mute "(kilo)" >}}
 in $\si{kg}$
-{{% mute "(kilogram)" %}}, bijvoorbeeld, is een prefix. Of de $\si{c}$
+{{< mute "(kilogram)" >}}, bijvoorbeeld, is een prefix. Of de $\si{c}$
 {{< mute "(centi)" >}}
 in $\si{cm}$
-{{% mute "(centimeter)" %}}.
+{{< mute "(centimeter)" >}}.
 
 ## De belangrijkste prefixen
 Elke prefix komt overeen met een macht van 10. Hieronder vind je een tabel met de belangrijkste prefixen.
@@ -88,7 +88,7 @@ $$5{,}2\cdot 10^4 \cdot \blue{\si{d}}\si{m}$$
 
 ## Kubieke- en vierkante-
 De eenheid van volume is $\si{m}^3$
-{{% mute "(kubieke meter)" %}}. 
+{{< mute "(kubieke meter)" >}}. 
 Als er een prefix voor zo'n eenheid staat, bijvoorbeeld $\orange{\si{c}} \si{m}^3$, wordt die prefix ook tot de derde macht verheven. Er staat dus eigenlijk
 
 \begin{split}

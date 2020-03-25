@@ -20,20 +20,20 @@ Stel dat we ons eerst verplaatsen naar de bakker en vervolgens naar de
 fruitboer. De eerste verplaatsing stellen we voor met vector $\vec{s}_1$ en de
 tweede met vector $\vec{s}_2$.
 
-{{% svg "img/verpl_1_2.png" %}}
+{{< svg "img/verpl_1_2.png" >}}
 
 Aan welke vector is $\vec{s}\_1 + \vec{s}\_2$ dan gelijk? Wel, we kijken **waar
 we vertrokken zijn en tekenen een vector naar waar we geëindigd zijn**. Dat is
 de som van de eerste verplaatsing en de tweede verplaatsing.
 
-{{% svg "img/verpl_1_2_som.png" %}}
+{{< svg "img/verpl_1_2_som.png" >}}
 
 We hoeven ons natuurlijk niet te beperken tot twee verplaatsingen. De som van
 vier verplaatsingen $\vec{s}_1 + \vec{s}_2 + \vec{s}_3 + \vec{s}_4$, kunnen we
 op dezelfde manier doen. We kijken waar we begonnen zijn en tekenen een vector
 naar waar we eindigden.
 
-{{% svg "img/verpl_1234_som.png" %}}
+{{< svg "img/verpl_1234_som.png" >}}
 
 ## Kop-staartmethode
 
@@ -43,18 +43,18 @@ nu **veralgemenen naar alle soorten vectoren**, niet enkel verplaatsingen.
 Als we twee vectoren willen optellen, plaatsen we de *staart* van de tweede
 vector aan de *kop* van de eerste.
 
-{{% svg "img/kopstaart_1.png" "Kop-staart methode stap 1" %}}
+{{< svg "img/kopstaart_1.png" "Kop-staart methode stap 1" >}}
 
 Vervolgens tekenen we een vector van de vrije staart naar de vrije kop. Die
 vector is de som van de twee vectoren.
 
-{{% svg "img/kopstaart_2.png" "Kop-staart methode stap 2" %}}
+{{< svg "img/kopstaart_2.png" "Kop-staart methode stap 2" >}}
 
 Dit kunnen we veralgemenen naar het **optellen van meerdere vectoren**. Eerst
 plaatsen we alle vectoren kop-staart-gewijs achter elkaar en vervolgens tekenen
 we een vector van de vrije staart naar de vrije kop.
 
-{{% svg "img/kopstaart_multiple.png" %}}
+{{< svg "img/kopstaart_multiple.png" >}}
 
 Omdat we bij deze methode altijd een kop en een staart op elkaar leggen, noemen
 we dit de **kop-staartmethode**.
@@ -69,13 +69,13 @@ Bij de parallellogram-methode, krijgen we de som van twee vectoren door eerst de
 **staarten** op elkaar te leggen. Vectoren liggen echter al vaak met de staarten
 op elkaar, dus deze stap is niet altijd nodig.
 
-{{% svg "img/parallellogram_1.png" "Parallellogram-methode stap 1" %}}
+{{< svg "img/parallellogram_1.png" "Parallellogram-methode stap 1" >}}
 
 Vervolgens **maken we een parallellogram van de vectoren**. We krijgen de som
 van de vectoren door een vector te tekenen die **vertrekt vanuit de staarten en
 eindigt in de vrije hoek** van het parallellogram.
 
-{{% svg "img/parallellogram_2.png" "Parallellogram-methode stap 2" %}}
+{{< svg "img/parallellogram_2.png" "Parallellogram-methode stap 2" >}}
 
 Wanneer we meer dan twee vectoren willen optellen met de parallellogram-methode,
 moeten we eerst de eerste twee vectoren optellen, vervolgens de uitkomst met de
@@ -89,29 +89,29 @@ Wanneer je vectoren bij elkaar optelt, **maakt het niet uit in welke volgorde je
 die optelling doet**. Dit kan het eenvoudigste geïllustreerd worden met de
 kop-staartmethode.
 
-{{% svg "img/kopstaart_commut.png" "Kop-staart methode samenvatting" %}}
+{{< svg "img/kopstaart_commut.png" "Kop-staart methode samenvatting" >}}
 
 Mat andere woorden is het **optellen van vectoren commutatief**.
 
 ## Samengevat
 
-{{% attention "Kop-staartmethode" %}}
+{{< attention "Kop-staartmethode" >}}
 
 Bij de kop-staartmethode tekenen we de som van twee vectoren door de **staart
 van de ene vector aan de kop van de andere** te leggen. Vervolgens tekenen we
 een vector **van de vrije staart naar de vrije kop**.
 
-{{% svg "img/kopstaart_summary.png" "Kop-staart methode samengevat" %}}
+{{< svg "img/kopstaart_summary.png" "Kop-staart methode samengevat" >}}
 
-{{% /attention %}}
+{{< /attention >}}
 
-{{% attention "Parallellogram-methode" %}}
+{{< attention "Parallellogram-methode" >}}
 
 Bij de parallellogram-methode tekenen we de som van twee vectoren door de
 **staarten van de vectoren op elkaar te leggen**. Vervolgens maken we een
 **parallellogram van de vectoren** en tekenen we een vector **van de staarten
 naar de vrije hoek** van het parallellogram.
 
-{{% svg "img/parallel_summary.png" "Parallellogram-methode samengevat" %}}
+{{< svg "img/parallel_summary.png" "Parallellogram-methode samengevat" >}}
 
-{{% /attention %}}
+{{< /attention >}}

@@ -78,7 +78,7 @@ Voor de eentermen met $x$ als lettergedeelte krijgen we:
 &= \blue{-3}x
 \end{split}
 
-{{% expand "Waarom moeten we per soort optellen?" %}}
+{{< expand "Waarom moeten we per soort optellen?" >}}
 Waarom mogen we enkel de coëfficiënten van **gelijksoortige** eentermen bij
 elkaar zetten? Waarom mogen we in ons voorbeeld
 
@@ -88,7 +88,7 @@ de $6$ en de $2$ bij elkaar optellen, maar niet de $6$ en de $5$?
 
 Wanneer we de coëfficiënten van gelijksoortige eentermen bij elkaar optellen,
 maken we eigenlijk gebruik van de **distributiviteit** van de vermenigvuldiging
-over de optelling in $\mathbb{Q}$ {{% mute "(geldt ook voor $\mathbb{R}$)" %}}:
+over de optelling in $\mathbb{Q}$ {{< mute "(geldt ook voor $\mathbb{R}$)" >}}:
 
 $$
 \newcommand{\gewoon}{
@@ -115,7 +115,7 @@ We pasten de distributiviteit toe in deze lijn:
 $$(6 + 3)\cdot \orange{2} = 6\cdot\orange{2} + 3\cdot\orange{2}$$
 
 Als we die lijn omdraaien, krijgen we een soort **omgekeerde
-distributiviteit** {{% mute "(dit noemen we ook wel \"afzonderen\")" %}}:
+distributiviteit** {{< mute "(dit noemen we ook wel \"afzonderen\")" >}}:
 
 $$6\cdot\orange{2} + 3\cdot\orange{2} = (6 + 3)\cdot \orange{2}$$
 
@@ -132,7 +132,7 @@ coëfficiënten** bij elkaar mogen optellen.
 Wanneer twee eentermen **niet hetzelfde lettergedeelte** hebben, kunnen we die
 omgekeerde distributiviteit niet toepassen en mogen we de coëfficiënten dus
 **niet bij elkaar optellen**.
-{{% /expand %}}
+{{< /expand >}}
 
 Als we nu alles terug samenzitten, krijgen we dus:
 
@@ -142,10 +142,10 @@ Klaar! :tada:
 
 ## Samengevat
 
-{{% attention "Eentermen optellen en aftrekken" %}}
+{{< attention "Eentermen optellen en aftrekken" >}}
 Eentermen bij elkaar optellen doe je zo:
 
 1. Vereenvoudig alle eentermen;
 2. Duid de gelijksoortige eentermen aan;
 3. Tel per soort de coëfficiënten op, of trek ze van elkaar af.
-{{% /attention %}}
+{{< /attention >}}

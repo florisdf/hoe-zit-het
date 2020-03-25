@@ -30,13 +30,13 @@ Stel dat we twee functies $\green{f}$ en $\blue{g}$ hebben waarbij
 
 De [grafiek](../../functies/grafiek) van deze functies ziet er als volgt uit:
 
-{{% bokeh "plt/snijpunt.json" %}}
+{{< bokeh "plt/snijpunt.json" >}}
 
-Het oranje punt duidt het {{% class "snijpunt" "orange" %}} aan van de twee functies. Hoe kunnen we de coördinaten van dit snijpunt vinden?
+Het oranje punt duidt het {{< class "snijpunt" "orange" >}} aan van de twee functies. Hoe kunnen we de coördinaten van dit snijpunt vinden?
 
 Een snijpunt is een punt dat zowel op de grafiek van $\green{f}$ als op de grafiek van $\blue{g}$ ligt. Denkend aan onze analogie van [het machientje](../../functies/intro#een-functie-is-een-machientje), is de $x-$waarde van een snijpunt een **ingang die voor zowel $\green{f}$ als $\blue{g}$ dezelfde uitgang geeft**.
 
-{{% svg "img/conveyor_snijpunt_1.svg" %}}
+{{< svg "img/conveyor_snijpunt_1.svg" >}}
 
 Als $\orange{x}$ de $x-$coördinaat van een snijpunt is, dan is dus $\green{f(\orange{x})} = \blue{g(\orange{x})}$, of wanneer we $\orange{x}$ invullen in het voorschrift van $\green{f}$ en $\blue{g}$:
 
@@ -56,7 +56,7 @@ $\green{f}$ en $\blue{g}$:
 	\Leftrightarrow \orange{x} &= \frac{7}{3}\\\\\
 \end{split}
 
-{{% expand "Toon met meer tussenstappen" %}}
+{{< expand "Toon met meer tussenstappen" >}}
 \begin{split}
 	-x + 4 &= 2x - 3\\\\\
 	\Leftrightarrow -x + 4 \pink{- 2x} &= 2x - 3 \pink{- 2x}\\\\\
@@ -69,7 +69,7 @@ $\green{f}$ en $\blue{g}$:
 	\Leftrightarrow \cancelto{1}{\frac{-3}{\pink{-3}}}\cdot x &= \frac{- 7}{\pink{-3}}\\\\\
 	\Leftrightarrow x &= \frac{7}{3}\\\\\
 \end{split}
-{{% /expand %}}
+{{< /expand >}}
 
 De $x-$coördinaat van het snijpunt van $\green{f}$ en $\blue{g}$ is dus
 $\orange{\frac{7}{3}}$. We kunnen dit controleren door $\orange{\frac{7}{3}}$ in te vullen in $\green{f}$ en $\blue{g}$:
@@ -89,20 +89,20 @@ $\orange{\frac{7}{3}}$. We kunnen dit controleren door $\orange{\frac{7}{3}}$ in
 
 Inderdaad, $\green{f(}\orange{\frac{7}{3}}\green{)} = \bbox[1pt,border: 2px dotted #ff6300]{\frac{5}{3}}$ en $\blue{g(}\orange{\frac{7}{3}}\blue{)} = \bbox[1pt,border: 2px dotted #ff6300]{\frac{5}{3}}$! De coördinaten van het snijpunt zijn dan $(\orange{\frac{7}{3}}, \bbox[1pt,border: 2px dotted #ff6300]{\frac{5}{3}})$.
 
-{{% svg "img/conveyor_functiewaarde.svg" %}}
+{{< svg "img/conveyor_functiewaarde.svg" >}}
 
 
 Op de grafiek bovenaan zien we dat dit punt inderdaad overeenkomt met het snijpunt van de twee functies.
 
 ## Nulpunten zoeken van functies
-Als we een {{% class "nulwaarde" "orange" %}} van een functie in die functie stoppen, komt er $0$ uit de functie.
+Als we een {{< class "nulwaarde" "orange" >}} van een functie in die functie stoppen, komt er $0$ uit de functie.
 
-{{% svg "img/conveyor_nulpunt_1.svg" %}}
+{{< svg "img/conveyor_nulpunt_1.svg" >}}
 
 Stel dat $\orange{x}$ een [nulwaarde](../../functies/nulpunten#nulwaarden-van-een-functie) van functie $f(x) = -x + 4$ is, dan is $f(\orange{x}) = 0$, of na invullen:
 $$-\orange{x} + 4 = 0$$
 
-En we krijgen een vergelijking! Wanneer we deze oplossen, vinden we de {{% class "nulwaarde" "orange" %}} van de functie.
+En we krijgen een vergelijking! Wanneer we deze oplossen, vinden we de {{< class "nulwaarde" "orange" >}} van de functie.
 
 \begin{split}
 -\orange{x} + 4 &= 0\\\\\
@@ -112,13 +112,13 @@ En we krijgen een vergelijking! Wanneer we deze oplossen, vinden we de {{% class
 
 En inderdaad, $f(\orange{4}) = -\orange{4} + 4 = 0$! De nulwaarde is dus
 $\orange{4}$ en het nulpunt is $(\orange{4}, 0)$
-{{% mute "(met een x- én y-coördinaat)" %}}.
+{{< mute "(met een x- én y-coördinaat)" >}}.
 Dit kan je ook zien op onderstaande grafiek:
 
-{{% bokeh "plt/nulpunt.json" %}}
+{{< bokeh "plt/nulpunt.json" >}}
 
 ## Samengevat
-{{% attention "Snijpunten van twee functies" %}}
+{{< attention "Snijpunten van twee functies" >}}
 De **snijpunten** van twee functies $f(x)$ en $g(x)$ vind je door eerst de twee **[functievoorschriften](../../functies/voorschrift) aan elkaar gelijk te stellen**:
 
 \begin{split}
@@ -127,9 +127,9 @@ f(x) &= g(x)\\\\\
 \end{split}
 
 De oplossing van deze vergelijking geeft de $x-$coördinaat van elk snijpunt. Als je elke $x-$coördinaat in $f(x)$ of $g(x)$ invult, krijg je de bijhorende $y-$coördinaat.
-{{% /attention %}}
+{{< /attention >}}
 
-{{% attention "Nulpunten van een functie" %}}
+{{< attention "Nulpunten van een functie" >}}
 De **nulpunten** van een functie $f(x)$ vind je door het **[functievoorschrift](../../functies/voorschrift) gelijk aan nul te stellen**:
 
 \begin{split}
@@ -138,4 +138,4 @@ f(x) &= 0\\\\\
 \end{split}
 
 De oplossing van deze vergelijking geeft de $x-$coördinaat van elk nulpunt (de nulwaarde). De $y-$coördinaat van een **nul**punt is uiteraard altijd $0$.
-{{% /attention %}}
+{{< /attention >}}

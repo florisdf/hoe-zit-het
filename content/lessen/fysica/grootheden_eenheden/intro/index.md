@@ -46,7 +46,7 @@ SI-eenheden:
 | Snelheid               | meter per seconde                                    |
 
 
-{{% expand "Uitbreiding: Hoe lang is een meter?" %}}
+{{< expand "Uitbreiding: Hoe lang is een meter?" >}}
 We gebruiken een eenheid als "meter" dagelijks. Maar hoe definieer je één meter
 het best? Je zou kunnen voorstellen om een plank te maken van één meter lang om
 dan te zeggen: "**DIT**, dames en heren, is vanaf nu één meter!"
@@ -68,7 +68,7 @@ SI-eenheden**. Op hun site staan de huidige definities van de SI-eenheden. Enkel
 | kilogram           | De massa van het internationale prototype van de kilogram, een cilinder van platina-iridium, bewaard in het Bureau International des Poids et Mesures (BIPM), te Sèvres, Parijs.                                             |
 | ampère             | De constante stroom die, indien gehandhaafd in twee rechte parallelle geleiders van oneindige lengte en verwaarloosbare doorsnede, op 1 meter afstand van elkaar in vacuüm, een kracht tussen deze twee geleiders veroorzaakt gelijk aan $2\cdot 10^{−7}$ newton per meter lengte.                                               |
 
-{{% /expand %}}
+{{< /expand >}}
 
 ## Symbolen voor grootheden en eenheden
 Omdat we niet telkens de namen van grootheden en eenheden voluit willen
