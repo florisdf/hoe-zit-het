@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "url": "https://hoezithet.nu",
+  "logo": {
+    "@type": "ImageObject",
+    "url": "https://hoezithet.nu/images/favicon.png"
+  },
+  "name": "Hoe Zit Het?",
+  "legalName": "Hoe Zit Het? vzw",
+  "foundingDate": "2019",
+  "founders": [
+    {
+      "@type": "Person",
+      "name": "Floris De Feyter"
+    }],
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "email": "info@hoezithet.nu"
+    },
+    "sameAs": [
+      "https://www.facebook.com/hoezithet",
+      "https://github.com/hoezithet"
+    ]
+}

@@ -14,8 +14,10 @@
       <meta name="robots" content="index, follow">
     {{ end }}
 
-    {{ partial "head/seo/organisation" . }}
-    {{ partial "head/seo/breadcrumb" . }}
+    {{ block "json_ld" . }}
+      {{ partial "head/seo/organisation" . }}
+      {{ partial "head/seo/breadcrumb" . }}
+    {{ end }}
 
 		{{ block "custom_fonts" . }}
 			{{ partial "head/custom-fonts" . }}

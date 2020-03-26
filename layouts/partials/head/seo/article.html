@@ -1,0 +1,17 @@
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "author": {{ partial "head/seo/organisation.json" | safeJS }},
+    "publisher": {{ partial "head/seo/organisation.json" | safeJS }},
+    "datePublished": {{ .PublishDate }},
+    "dateModified": {{ .Lastmod }},
+    "mainEntityOfPage": {{ .Permalink }},
+    "headline": "{{ .Title }}",
+    "articleBody": {{ .Plain | safeJS | print }},
+    "articleSection": "{{ .Parent.Title }}",
+    "wordCount": {{ .WordCount }},
+    "abstract": "{{ .Summary }}",
+    "image": {{ apply .Params.images "absURL" "." }}
+  }
+</script>

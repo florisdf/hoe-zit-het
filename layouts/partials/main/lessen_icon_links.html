@@ -1,0 +1,8 @@
+<!-- Download PDF & maak oefening -->
+<div class="flex justify-left align-center" style="color: {{ $.Parent.Params.section_color }};">
+    {{ range  (slice "main/save_pdf" "main/wiski") }}
+      <div class="flex items-center mh2 mv1 dim pointer">
+        {{ partial . $ }}
+      </div>
+    {{ end }}
+</div>
