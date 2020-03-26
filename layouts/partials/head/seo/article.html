@@ -8,10 +8,10 @@
     "dateModified": {{ .Lastmod }},
     "mainEntityOfPage": {{ .Permalink }},
     "headline": "{{ .Title }}",
-    "articleBody": {{ .Plain | safeJS | print }},
+    "articleBody": {{ .Plain | htmlUnescape }},
     "articleSection": "{{ .Parent.Title }}",
     "wordCount": {{ .WordCount }},
-    "abstract": "{{ .Summary }}",
+    "abstract": {{ .Summary | htmlUnescape }},
     "image": {{ apply .Params.images "absURL" "." }}
   }
 </script>
