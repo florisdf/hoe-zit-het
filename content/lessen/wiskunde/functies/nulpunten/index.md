@@ -25,7 +25,7 @@ is $x=\orange{2}$ een nulwaarde want $f(\orange{2}) = \orange{2} - 2 = 0$.
 Je vindt de nulwaarden van een functie door **het functievoorschrift gelijk te
 stellen aan nul** en die [vergelijking op te lossen](../../1g_vgl/oplossen). We
 stellen het functievoorschrift gelijk aan *nul* omdat we op zoek zijn naar de
-x-waarden die het voorschrift {{% mute "en dus de y-waarde" %}} *nul* maken.
+x-waarden die het voorschrift {{< mute "en dus de y-waarde" >}} *nul* maken.
 Voor het bovenstaande voorbeeld:
 
 \begin{split}
@@ -41,7 +41,7 @@ De namen *nulpunten* en *nulwaarden* worden soms door elkaar gebruikt, maar
 strikt gezien zijn ze niet hetzelfde. Nul*waarden* zijn x-*waarden*, maar
 nul*punten* zijn *punten* met een x- én y-coördinaat. De x-coördinaat van een
 nulpunt is de nul*waarde*. De y-coördinaat van een nulpunt is altijd *nul*
-{{% mute "(uiteraard)" %}}. Als de nulwaarde bijvoorbeeld $\orange{-2}$ is, dan is het
+{{< mute "(uiteraard)" >}}. Als de nulwaarde bijvoorbeeld $\orange{-2}$ is, dan is het
 nulpunt $(\orange{-2},~0)$.
 
 ## Nulpunten op een grafiek
@@ -53,17 +53,17 @@ een nulpunt altijd 0 is**. Nulpunten zijn met andere woorden de punten waar de
 
 Hieronder staat de grafiek getekend van de functie $f(x) = -x^2 + 9$ die de
 nul*waarden* $x=-3$ en $x=3$ heeft en dus de nul*punten* $(-3,~0)$ en $(3,~0)$.
-De twee nulpunten zijn aangeduid in het {{% class "**oranje**" "orange" %}}.
+De twee nulpunten zijn aangeduid in het **{{< class "oranje" "orange" >}}**.
 
-{{% bokeh "plt/nulpunten.json" %}}
+{{< bokeh "plt/nulpunten.json" >}}
 
 ## Samengevat
-{{% attention "Definitie nulwaarden" %}}
+{{< attention "Definitie nulwaarden" >}}
 De **nulwaarden van een functie** zijn de **x-waarden waarvoor de
 functiewaarde gelijk is aan 0**.
-{{% /attention %}}
+{{< /attention >}}
 
-{{% attention "Definitie nulpunten" %}}
+{{< attention "Definitie nulpunten" >}}
 De **nulpunten van een functie** zijn de punten op de grafiek van die functie
 die als **y-waarde 0 hebben**. Ze zijn de **snijpunten met de x-as**.
-{{% /attention %}}
+{{< /attention >}}

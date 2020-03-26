@@ -16,22 +16,22 @@ positief of negatief is. Deze informatie vatten we overzichtelijk samen in een
 **tekenschema**.
 
 ## Tekenschema vanuit een grafiek
-Welke x-waarden welk teken {{% mute "(positief/negatief/nul)" %}} opleveren
+Welke x-waarden welk teken {{< mute "(positief/negatief/nul)" >}} opleveren
 voor de y-waarden, vatten we samen in een **tekenschema**
-{{% mute "(ook wel \"tekentabel\" of \"tekenverloop\" genoemd)" %}}.
+{{< mute "(ook wel \"tekentabel\" of \"tekenverloop\" genoemd)" >}}.
 Als de [grafiek van een functie](../grafiek) is gegeven, kunnen we zien waar de
-functiewaarden {{% mute "(of de y-waarden)" %}} *positief*, *negatief* of *nul*
+functiewaarden {{< mute "(of de y-waarden)" >}} *positief*, *negatief* of *nul*
 zijn.
 
-{{% bokeh "plt/tekenschema.json" %}}
+{{< bokeh "plt/tekenschema.json" >}}
 
 We zien op de grafiek:
 
-* Voor x-waarden kleiner dan $-3$ zijn alle y-waarden {{% class "**negatief**" "red" %}};
-* Voor x gelijk aan $-3$ is de y-waarde {{% class "**nul**" "blue" %}};
-* Voor x-waarden tussen $-3$ en $3$ zijn alle y-waarden {{% class "**positief**" "green" %}};
-* Voor x gelijk aan $3$ is de y-waarde {{% class "**nul**" "blue" %}};
-* Voor x-waarden groter dan $3$ zijn alle y-waarden {{% class "**negatief**" "red" %}}.
+* Voor x-waarden kleiner dan $-3$ zijn alle y-waarden **{{< class "negatief" "red" >}}**;
+* Voor x gelijk aan $-3$ is de y-waarde **{{< class "nul" "blue" >}}**;
+* Voor x-waarden tussen $-3$ en $3$ zijn alle y-waarden **{{< class "positief" "green" >}}**;
+* Voor x gelijk aan $3$ is de y-waarde **{{< class "nul" "blue" >}}**;
+* Voor x-waarden groter dan $3$ zijn alle y-waarden **{{< class "negatief" "red" >}}**.
 
 Dit vatten we als volgt samen in een **tekenschema**:
 
@@ -41,21 +41,21 @@ Ingang $x$               | $-\infty$    |           | $-3$       |             |
 
 Het schema toont:
 
-* Als de ingang ($x$) iets tussen $-\infty$ en $-3$ is, is de uitgang ($y$) {{% class "*negatief*" "red" %}};
-* Als $x=-3$, is $y$ {{% class "*nul*" "blue" %}};
-* Als $x$ iets tussen $-3$ en $3$ is, is $y$ {{% class "*positief*" "green" %}};
-* Als $x=3$ is, is $y$ {{% class "*nul*" "blue" %}};
-* Als $x$ iets tussen $3$ en $+\infty$ is, is $y$ {{% class "*negatief*" "red" %}}.
+* Als de ingang ($x$) iets tussen $-\infty$ en $-3$ is, is de uitgang ($y$) *{{< class "negatief" "red" >}}*;
+* Als $x=-3$, is $y$ *{{< class "nul" "blue" >}}*;
+* Als $x$ iets tussen $-3$ en $3$ is, is $y$ *{{< class "positief" "green" >}}*;
+* Als $x=3$ is, is $y$ *{{< class "nul" "blue" >}}*;
+* Als $x$ iets tussen $3$ en $+\infty$ is, is $y$ *{{< class "negatief" "red" >}}*.
 
 ## Tekenschema zonder grafiek
 We kunnen een tekenschema ook maken *zonder* een grafiek. Dit doen we in drie
 stappen.
 
 1. Zet de grenzen van het [domein](../domein_beeld#domein-van-een-functie) in de bovenste rij van het tekenschema;
-2. Zoek alle [nulpunten](../nulpunten) en zet ze van klein naar groot {{% mute "(volgens x-waarde)" %}} tussen de grenzen van het domein;
-3. Vind de tekens van $y$ tussen alle x-waarden in het schema {{% mute "(tenzij die x-waarden buiten het domein liggen)" %}}.
+2. Zoek alle [nulpunten](../nulpunten) en zet ze van klein naar groot {{< mute "(volgens x-waarde)" >}} tussen de grenzen van het domein;
+3. Vind de tekens van $y$ tussen alle x-waarden in het schema {{< mute "(tenzij die x-waarden buiten het domein liggen)" >}}.
 
-We werken deze stappen uit voor de {{% mute "(reële)" %}} functie met
+We werken deze stappen uit voor de {{< mute "(reële)" >}} functie met
 [voorschrift](../voorschrift) $$f(x) = -x^2 + 9$$
 Dit is de functie die hoort bij de grafiek van daarnet. We hopen dus ook
 hetzelfde tekenschema te krijgen.
@@ -105,7 +105,7 @@ Bijvoorbeeld het teken van
 $y$ voor $x$ tussen $-3$ en $3$. Een eenvoudig getal dat ligt tussen $-3$ en $3$ is
 $0$. Die vullen we in in $f(x) = -x^2 + 9$:
 $$f(\orange{0}) = -(\orange{0})^2 + 9 = \green{9}$$
-We komen een {{% class "**positief**" "green" %}} getal uit, dus we zetten een $\green{+}$ tussen $-3$ en $3$:
+We komen een **{{< class "positief" "green" >}}** getal uit, dus we zetten een $\green{+}$ tussen $-3$ en $3$:
 
 Ingang $x$               | $-\infty$    |           | $-3$       |             | $3$        |           | $+\infty$
 -------------------------|--------------|-----------|------------|-------------|------------|-----------|----------------
@@ -113,7 +113,7 @@ Ingang $x$               | $-\infty$    |           | $-3$       |             |
 
 Voor een x-waarde tussen $-\infty$ en $-3$, kunnen we $-5$ nemen.
 $$f(\orange{-5}) = -(\orange{-5})^2 + 9 = -25 + 9 = \red{-16}$$
-Invullen geeft een {{% class "**negatief**" "red" %}} getal, dus we zetten een $\red{-}$ tussen $-\infty$ en $-3$:
+Invullen geeft een **{{< class "negatief" "red" >}}** getal, dus we zetten een $\red{-}$ tussen $-\infty$ en $-3$:
 
 Ingang $x$               | $-\infty$    |           | $-3$       |             | $3$        |           | $+\infty$
 -------------------------|--------------|-----------|------------|-------------|------------|-----------|----------------
@@ -121,7 +121,7 @@ Ingang $x$               | $-\infty$    |           | $-3$       |             |
 
 Voor een x-waarde tussen $3$ en $+\infty$, ten slotte, kunnen we
 $5$ nemen.  $$f(\orange{5}) = -(\orange{5})^2 + 9 = -25 + 9 =
-\red{-16}$$ Invullen geeft een {{% class "**negatief**" "red" %}} getal, dus we zetten een $\red{-}$ tussen $3$ en
+\red{-16}$$ Invullen geeft een **{{< class "negatief" "red" >}}** getal, dus we zetten een $\red{-}$ tussen $3$ en
 $+\infty$:
 
 Ingang $x$               | $-\infty$    |           | $-3$       |             | $3$        |           | $+\infty$
@@ -131,7 +131,7 @@ Ingang $x$               | $-\infty$    |           | $-3$       |             |
 Et voilà! :muscle: We krijgen hetzelfde tekenschema als daarnet.
 
 ## Enkel nulpunten en grenzen van domein
-De x-waarden die in een tekenschema staan {{% mute "(de bovenste rij)" %}}, zijn *ofwel nulwaarden* {{% mute
+De x-waarden die in een tekenschema staan {{< mute "(de bovenste rij)" >}}, zijn *ofwel nulwaarden* {{% mute
 "($-3$ en $3$ in het vorige voorbeeld)" %}} *ofwel grenzen van het domein* {{%
 mute "($-\infty$ en $+\infty$ in het voorbeeld)" %}} . Er zijn geen andere
 x-waarden nodig. Dat is omdat **het teken van $y$ enkel kan veranderen na een
@@ -143,13 +143,13 @@ vaak tegenkomen, dus is het niet de moeite om er nu verder op in te gaan.
 Zorgen voor later! :wave:
 
 ## Samengevat
-{{% attention "Tekenschema" %}}
+{{< attention "Tekenschema" >}}
 Het **tekenschema van een functie $f$** toont schematisch **het teken van $y$
 voor alle x-waarden** die in het domein van $f$ zitten.
-{{% /attention %}}
+{{< /attention >}}
 
-{{% attention "Tekenschema opstellen" %}}
+{{< attention "Tekenschema opstellen" >}}
 1. Zet de **grenzen van het domein** in het tekenschema;
 2. Zoek alle **nulpunten** en zet ze tussen de grenzen van het domein;
 3. Vind de **tekens van $y$** tussen alle x-waarden in het schema.
-{{% /attention %}}
+{{< /attention >}}

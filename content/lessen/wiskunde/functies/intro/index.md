@@ -19,7 +19,7 @@ machientje komt voor bepaalde keuzes van $x$. De $y-$waarde die uit het
 machientje komt voor een bepaalde $x-$waarde, noemen we ook wel **de 
 functiewaarde van $x$** of kortweg $f(x)$.
 
-{{% img "img/conveyor_plain.svg" "" %}}
+{{< img "img/conveyor_plain.svg" "" >}}
 
 Omdat de $y$ die uit het machientje komt afhangt van de $x$ die we erin stopten,
 noemen we $y$ ook wel de **afhankelijke variabele**. De $x$ die we erin stoppen,
@@ -41,17 +41,17 @@ Het gebeurt heel vaak dat *iets* afhangt van *iets anders*:
 
 Met een functie kunnen we *het verband* beschrijven tussen het *ene*
 {{< mute "(hoe lang het duurt voor we ergens geraken)" >}}
-en het *andere* {{% mute "(hoe snel we bewegen)" %}}. Het beschrijven van dat
+en het *andere* {{< mute "(hoe snel we bewegen)" >}}. Het beschrijven van dat
 verband tussen de $x$ en de $y$, doen we met een [functievoorschrift](../voorschrift).
 
 ## Samengevat
-{{% attention "Definitie van een functie" %}}
+{{< attention "Definitie van een functie" >}}
 Een functie is een verband tussen twee variabelen $x$ en $y$ waarbij er voor
 iedere $x$ **hoogstens één** $y$ bestaat. Hierbij noemen we $x$ de **onafhankelijke
 variabele** en $y$ de **afhankelijke variabele**.
-{{% /attention %}}
+{{< /attention >}}
 
-{{% attention "Naamgeving" %}}
+{{< attention "Naamgeving" >}}
 * $x$: ingang, onafhankelijke variabele
 * $y$: uitgang, afhankelijke variabele, functiewaarde van $x$, beeld van $x$
-{{% /attention %}}
+{{< /attention >}}

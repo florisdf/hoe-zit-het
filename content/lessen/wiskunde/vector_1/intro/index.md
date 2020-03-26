@@ -15,7 +15,7 @@ even belangrijk.
 
 Een vector is niet meer dan een **rechte pijl**.
 
-{{% svg "img/vector_is_arrow.png" %}}
+{{< svg "img/vector_is_arrow.png" >}}
 
 We geven vectoren vaak een naam, zoals vector $\vec{v}$ en vector $\vec{w}$.
 Merk op dat we een pijltje zetten boven de naam van een vector.
@@ -31,12 +31,12 @@ Vectoren hebben drie eigenschappen: een grootte, een richting en een zin. Als
 twee vectoren **dezelfde grootte, richting en zin** hebben, dan zijn die
 vectoren **gelijk**. De volgende twee vectoren, zijn bijvoorbeeld gelijk:
 
-{{% svg "img/equal_vectors.png" %}}
+{{< svg "img/equal_vectors.png" >}}
 
 De **grootte** van de vector is **hoe lang** de vector is. De grootte van een
 vector is **altijd positief**. We noteren de grootte van een vector $\vec{v}$
 als $\norm{\vec{v}}$ of ook wel gewoon als $v$
-{{% mute "(geen pijltje op de $v$)" %}}.
+{{< mute "(geen pijltje op de $v$)" >}}.
 
 | Schrijf | Lees |
 |---------|------|
@@ -46,25 +46,25 @@ als $\norm{\vec{v}}$ of ook wel gewoon als $v$
 De volgende twee vectoren, hebben een verschillende grootte, en
 zijn daarom niet gelijk aan elkaar:
 
-{{% svg "img/diff_length.png" %}}
+{{< svg "img/diff_length.png" >}}
 
 De **richting** van een vector zegt **aan welke rechte de vector evenwijdig
 is**. Bijvoorbeeld: *"verticaal"*, of *"horizontaal"*, of *"onder een hoek van
 $15\deg$"*. De vectoren in de onderstaande illustratie, hebben een verschillende
 richting, en zijn daarom niet gelijk aan elkaar.
 
-{{% svg "img/diff_richting.png" %}}
+{{< svg "img/diff_richting.png" >}}
 
 De **zin** van een vector zegt **naar welke kant de vector wijst**. Dat kan
 bijvoorbeeld *"naar links"*, *"naar rechts"*, of *"naar beneden"* zijn. De
 volgende twee vectoren, hebben een verschillende zin, en zijn daarom niet gelijk
 aan elkaar:
 
-{{% svg "img/diff_zin.png" %}}
+{{< svg "img/diff_zin.png" >}}
 
 Deze figuur toont de drie eigenschappen van een vector samen:
 
-{{% svg "img/vector_props.png" %}}
+{{< svg "img/vector_props.png" >}}
 
 ## Waarom toch?
 
@@ -85,7 +85,7 @@ intelligentie...
 
 ## Samengevat
 
-{{% attention "Een vector is een pijl met een grootte, richting en zin" %}}
+{{< attention "Een vector is een pijl met een grootte, richting en zin" >}}
 
 * Een vector is een pijl en heeft een grootte, een richting en een zin;
 * Wanneer twee vectoren dezelfde grootte, richting en zin hebben, zijn die
@@ -93,6 +93,6 @@ intelligentie...
 * We noteren de naam van een vector als een letter met een pijltje boven,
   bijvoorbeeld $\vec{v}$.
 
-{{% svg "img/summary.png" %}}
+{{< svg "img/summary.png" >}}
 
-{{% /attention %}}
+{{< /attention >}}

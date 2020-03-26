@@ -11,7 +11,7 @@ topic: ""
 images: []
 ---
 De beduidende cijfers zijn de cijfers in een getal **vanaf het eerste cijfer dat verschillend is van nul**. Ze zijn hieronder aangeduid in het
-{{% class "oranje" "orange" %}}:
+{{< class "oranje" "orange" >}}:
 
 $$-0{,}000\orange{50846}$$
 $$0{,}\orange{950}\cdot{10^3}$$
