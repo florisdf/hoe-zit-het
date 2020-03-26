@@ -58,4 +58,4 @@ $f(\orange{-1}) = \green{-10}$ lezen we als: "de **functiewaarde** van
 $\orange{-1}$ is $\green{-10}$". Het betekent dat als we $x = \orange{-1}$ in het
 machientje stoppen, er $y = \green{-10}$ uit het machientje zal komen.
 
-{{% img "img/conveyor_functiewaarde.svg" "" %}}
+{{< img "img/conveyor_functiewaarde.svg" "" >}}

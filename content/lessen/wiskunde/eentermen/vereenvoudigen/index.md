@@ -65,13 +65,13 @@ Terug invullen in het voorbeeld geeft:
 
 $$-3y\cdot 2^3x^3z^3\cdot\orange{(-y)^2}\cdot (-2) \cdot (-5) = -3y\cdot 2^3x^3z^3\cdot\orange{y^2}\cdot (-2) \cdot (-5)$$
 
-{{% expand "Waarom mogen we een minteken vervangen door $(-1)$?" %}}
+{{< expand "Waarom mogen we een minteken vervangen door $(-1)$?" >}}
 We mogen een minteken altijd vervangen door $(-1)$ omdat een minteken voor een
 factor hetzelfde betekent als "*vermenigvuldig met $-1$*".
 
 Bijvoorbeeld, $-1 \cdot 2 = - 2$. Dus of we nu $-2$ schrijven, of $-1 \cdot 2$
 of $(-1)\cdot 2$, dat is allemaal hetzelfde. Eén pot nat. 🍯
-{{% /expand %}}
+{{< /expand >}}
 
 ### Haakjes met een minteken uitwerken
 
@@ -91,9 +91,9 @@ coëfficiënt.
                                                    &= \orange{-}3\cdot y\cdot 2^3x^3z^3\cdot y^2\cdot \blue{2} \cdot \green{5}
 \end{split}
 
-{{% expand "Waarom mag je alle $(-1)-$en voorop zetten?" %}}
+{{< expand "Waarom mag je alle $(-1)-$en voorop zetten?" >}}
 De vermenigvuldiging van rationale getallen is **commutatief**.
-{{% mute "(Hetzelfde geldt voor reële getallen.)" %}} Dat betekent dat de
+{{< mute "(Hetzelfde geldt voor reële getallen.)" >}} Dat betekent dat de
 volgorde waarin je een vermenigvuldiging uitrekent, niet uitmaakt:
 
 \begin{split}
@@ -118,7 +118,7 @@ veranderen, dus we mogen gerust alle $(-1)-$en voorop zetten.
     \orange{(-1)} \cdot \orange{(-1)} \cdot \orange{(-1)} \cdot 2\cdot 5 \cdot 3 &= - 30\\\\\
 \end{split}
 
-{{% /expand %}}
+{{< /expand >}}
 
 ## Coëfficiënt uitrekenen
 
@@ -145,9 +145,9 @@ Dit resultaat terug invullen geeft:
 
 $$\orange{-240}\cdot y\cdot x^3z^3\cdot y^2$$
 
-{{% expand "Waarom mag je de coëfficiënt apart uitrekenen?" %}}
+{{< expand "Waarom mag je de coëfficiënt apart uitrekenen?" >}}
 De vermenigvuldiging van rationale getallen is **commutatief**.
-{{% mute "(Dat is ook zo voor reële getallen.)" %}} Dat betekent dat de
+{{< mute "(Dat is ook zo voor reële getallen.)" >}} Dat betekent dat de
 volgorde waarin je een vermenigvuldiging uitrekent, niet uitmaakt:
 
 \begin{split}
@@ -158,7 +158,7 @@ volgorde waarin je een vermenigvuldiging uitrekent, niet uitmaakt:
 
 Je mag in een vermenigvuldiging van rationale getallen de **factoren dus altijd
 van plaats veranderen**. Omdat zowel de variabelen als de getallen in onze
-eenterm *rationaal* zijn {{% mute "(reëel mag ook)" %}}, mogen we ze dus van
+eenterm *rationaal* zijn {{< mute "(reëel mag ook)" >}}, mogen we ze dus van
 plaats veranderen.
 
 \begin{split}
@@ -176,7 +176,7 @@ en als eerste uit te rekenen.
     = \orange{4 \cdot 3} \cdot a \cdot b \\\\\
     = \orange{12} \cdot a \cdot b \\\\\
 \end{split}
-{{% /expand %}}
+{{< /expand >}}
 
 ## Lettergedeelte uitrekenen
 
@@ -199,7 +199,7 @@ Het optellen van de exponenten van $\orange{y}$ geeft:
 \end{split}
 
 
-{{% expand "Waarom tellen we de exponenten bij elkaar op?" %}}
+{{< expand "Waarom tellen we de exponenten bij elkaar op?" >}}
 Stel dat we de volgende eenterm hebben:
 
 $$\orange{a^4} \cdot \blue{a^2} \cdot b^3$$
@@ -224,8 +224,8 @@ elkaar mag optellen** wanneer ze **hetzelfde grondtal hebben**:
 
 $$\orange{a^n} \cdot \blue{a^m} = a^{\orange{n} + \blue{m}}$$
 
-Waarbij $a, \orange{n}, \blue{m} \in \mathbb{Q}$ {{% mute "(of $\mathbb{R}$ mag ook)" %}}.
-{{% /expand %}}
+Waarbij $a, \orange{n}, \blue{m} \in \mathbb{Q}$ {{< mute "(of $\mathbb{R}$ mag ook)" >}}.
+{{< /expand >}}
 
 ## Factoren rangschikken
 Vanaf we de coëfficiënt en het lettergedeelte hebben vereenvoudigd, zijn alle
@@ -253,11 +253,11 @@ Wat. Een. Prachtige. Eenterm. :relieved:
 
 ## Samengevat
 
-{{% attention "Eentermen vereenvoudigen" %}}
+{{< attention "Eentermen vereenvoudigen" >}}
 Het vereenvoudigen van eentermen doe je als volgt:
 
 1. Werk de **haakjes weg** door machten en mintekens uit te werken;
 2. Vermenigvuldig alle **factoren in het cijfergedeelte** met elkaar;
 3. Combineer de **factoren in het lettergedeelte** per soort en reken hun nieuwe macht uit;
 4. Zet het **toestandsteken en de coëfficiënt voorop** en rangschik de **variabelen alfabetisch**.
-{{% /attention %}}
+{{< /attention >}}

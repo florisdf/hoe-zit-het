@@ -49,7 +49,7 @@ Stel dat je de volgende veelterm hebt:
 
 $$-2\orange{x}^2 + 3\orange{x} - 1$$
 
-Die veelterm bevat één {{% class "variabele" "orange" %}}, namelijk $\orange{x}$. We gaan ervan uit dat $\orange{x}$ eender welk rationaal getal mag zijn, dus
+Die veelterm bevat één {{< class "variabele" "orange" >}}, namelijk $\orange{x}$. We gaan ervan uit dat $\orange{x}$ eender welk rationaal getal mag zijn, dus
 
 $$\orange{x} \in \mathbb{Q}$$
 
@@ -69,9 +69,9 @@ We vinden dat de **getalwaarde** van de veelterm $-2x^2 + 3x - 1$ voor $x = 2$ *
 
 ## Samengevat
 
-{{% attention "Getalwaarde van een veelterm" %}}
+{{< attention "Getalwaarde van een veelterm" >}}
 De **getalwaarde** van een veelterm vind je als volgt:
 
 1. Vervang iedere variabele in de veelterm door de gegeven getallen;
 2. Reken uit.
-{{% /attention %}}
+{{< /attention >}}

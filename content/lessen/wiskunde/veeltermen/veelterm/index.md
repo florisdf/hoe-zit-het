@@ -5,7 +5,7 @@ weight: 1
 draft: true
 images: []
 ---
-Een veelterm {{% mute "(of polynoom)" %}} is een **som van
+Een veelterm {{< mute "(of polynoom)" >}} is een **som van
 [eentermen](../eenterm)**. Enkele voorbeelden:
 
 * De veelterm $\orange{4a^2 b^3 + 3ab^2}$ is de som van de eentermen
@@ -23,11 +23,11 @@ noemer** staan en **geen variabelen onder een wortel**.
 
 De onderdelen van een veelterm noemen we de **termen** van de veelterm. Vandaar
 komt ook de naam *veelterm*: er zijn letterlijk meerdere (veel) termen.
-{{% mute "Een ander woord voor veelterm is *polynoom*. Dat komt van het Griekse *poly*, wat \"veel\" betekent, en het Latijnse *nomen*, wat \"naam\" of \"term\" betekent." %}}
+{{< mute "Een ander woord voor veelterm is \"polynoom\". Dat komt van het Griekse \"poly\", wat \"veel\" betekent, en het Latijnse \"nomen\", wat \"naam\" of \"term\" betekent." >}}
 
-Bij een *eenterm* {{% mute "(monomium)" %}}, daarentegen, is er slechts één
+Bij een *eenterm* {{< mute "(monomium)" >}}, daarentegen, is er slechts één
 term. Een veelterm kan dan weer bijvoorbeeld een tweeterm {{% mute "(binomium)"
-%}} of een drieterm {{% mute "(trinomium)" %}} zijn.
+%}} of een drieterm {{< mute "(trinomium)" >}} zijn.
 
 (illustratie)
 

@@ -20,7 +20,7 @@ De uitdrukking die tussen haakjes staat kan zelf een eenterm of een veelterm zij
 
 (illustratie)
 
-Wanneer de **uitdrukking tussen haakjes een eenterm** is, mag je de **haakjes gewoon weglaten**. Dat mag omdat de vermenigvuldiging in $\mathbb{R}$ associatief is en we ervan uitgaan dat alle variabelen reële {{% mute "($\in \mathbb{R}$)" %}} of rationale {{% mute "($\in \mathbb{Q}$)" %}} getallen zijn.
+Wanneer de **uitdrukking tussen haakjes een eenterm** is, mag je de **haakjes gewoon weglaten**. Dat mag omdat de vermenigvuldiging in $\mathbb{R}$ associatief is en we ervan uitgaan dat alle variabelen reële {{< mute "($\in \mathbb{R}$)" >}} of rationale {{< mute "($\in \mathbb{Q}$)" >}} getallen zijn.
 
 (illustratie)
 
@@ -63,7 +63,7 @@ We kunnen ook kiezen om enkel naar de graad van een bepaalde variabele te kijken
 ## Veeltermen met letterexponenten
 
 ## Samengevat
-{{% attention "Veeltermen vereenvoudigen" %}}
+{{< attention "Veeltermen vereenvoudigen" >}}
 Een veelterm kan je als volgt vereenvoudigen:
 
 1. Werk alle haakjes uit
@@ -71,4 +71,4 @@ Een veelterm kan je als volgt vereenvoudigen:
 3. Tel de gelijksoortige eentermen op
 
 Ten slotte zullen we vaak de termen op een bepaalde manier rangschikken, bijvoorbeeld volgens dalende graad van de eentermen.
-{{% /attention %}}
+{{< /attention >}}

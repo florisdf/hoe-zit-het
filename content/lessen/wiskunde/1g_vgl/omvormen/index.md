@@ -39,7 +39,7 @@ Achter elkaar schrijven we de omvorming als volgt:
 \Leftrightarrow\quad &x - &4 &= &-3x - &7
 \end{split}
 
-{{% expand "Uitbreiding: dubbele pijlen" %}}
+{{< expand "Uitbreiding: dubbele pijlen" >}}
 Er staat niet voor niets een *dubbele pijl* ($\Leftrightarrow$) tussen de vergelijkingen in plaats van een enkele pijl ($\Rightarrow$ of $\Leftarrow$). Je kan namelijk van de laatste vergelijking ook terug naar de eerste vergelijking gaan. De omvorming is *omkeerbaar*:
 \begin{split}
 &x - &4 &= \quad &-3x - &7\\\\\
@@ -48,7 +48,7 @@ Er staat niet voor niets een *dubbele pijl* ($\Leftrightarrow$) tussen de vergel
 \end{split}
 
 Zulke pijlen zijn symbolen uit de logica. Een dubbele pijl wijst op een equivalentie, een enkele pijl op een implicatie.
-{{% /expand %}}
+{{< /expand >}}
 
 ## Vergelijkingen oplossen door om te vormen
 We zagen hierboven hoe we een vergelijking kunnen omvormen naar nieuwe vergelijkingen door links en rechts dezelfde bewerking toe te voegen. Het trucje is nu om de vergelijking om te vormen naar een vergelijking van de vorm
@@ -59,7 +59,7 @@ waar er in het linkerlid gewoon een $x$ staat en in het rechterlid gewoon een ge
 
 Stel dat we de volgende vergelijking willen oplossen.
 $$2x - 6 = 8 - x$$
-Om die om te zetten naar de vorm die we willen {{% mute "(namelijk $x= \text{(een getal)}$)" %}}, mag er in het rechterlid geen $x$ staan. De eenvoudigste manier om die weg te krijgen is door een vergelijking te maken met $8 - x \orange{+ x}$ in het rechterlid:
+Om die om te zetten naar de vorm die we willen {{< mute "(namelijk $x= \text{(een getal)}$)" >}}, mag er in het rechterlid geen $x$ staan. De eenvoudigste manier om die weg te krijgen is door een vergelijking te maken met $8 - x \orange{+ x}$ in het rechterlid:
 
 \begin{split}
     2x - 6 &= 8 - x\\\\\
@@ -88,7 +88,7 @@ Vervolgens moeten we enkel nog de $3$ weg krijgen. Dat kan als volgt:
 \end{split}
 **En we hebben $x$ gevonden!!!** :tada::dancer::muscle:
 
-{{% expand "Uitbreiding: via een andere weg" %}}
+{{< expand "Uitbreiding: via een andere weg" >}}
 Als we in de stap met de keuze tussen $\orange{3}$ en $-6$, kiezen om eerst de $\orange{3}$ weg te werken in plaats van de $6$, vinden we natuurlijk hetzelfde:
 
 \begin{split}
@@ -102,16 +102,16 @@ Als we in de stap met de keuze tussen $\orange{3}$ en $-6$, kiezen om eerst de $
 \end{split}
 
 Maar zoals je ziet, maken we het ons zo onnodig moeilijk.
-{{% /expand %}}
+{{< /expand >}}
 
 ## En wat nu?
 Daar komt het oplossen van vergelijkingen op neer: de vergelijking stap per stap omvormen naar $x=\text{(een getal)}$. De volgende lessen geven enkele tips van hoe je het snelst naar $x=\text{(een getal)}$ kan omvormen.
 
 ## Samengevat
-{{% attention "Omvormen" %}}
+{{< attention "Omvormen" >}}
 Door op het linker- en rechterlid van een vergelijking **dezelfde bewerking** uit te voeren, **vormen we een vergelijking om** naar een nieuwe vergelijking die even juist is als de oorspronkelijke vergelijking.
-{{% /attention %}}
+{{< /attention >}}
 
-{{% attention "Oplossen door om te vormen" %}}
+{{< attention "Oplossen door om te vormen" >}}
 We kunnen een vergelijking met onbekende $x$ oplossen door die vergelijking **om te vormen naar $x = \text{(een getal)} $.**
-{{% /attention %}}
+{{< /attention >}}

@@ -84,9 +84,9 @@ Dit kan je als volgt onthouden: beeld je een fles melk in van $1 \si{ l}$.
 Stel je nu 3 kubussen voor: een met zijden van $1 \si{ m}$, een met zijden van
 $10 \si{ cm}$ en een met zijden van $1 \si{ cm}$. Welke van deze kubussen heeft
 ongeveer hetzelfde volume als het melkkarton? Ter illustratie
-{{% mute "(de figuur is niet op exacte schaal, maar geeft wel een idee van de groottes)" %}}:
+{{< mute "(de figuur is niet op exacte schaal, maar geeft wel een idee van de groottes)" >}}:
 
-{{% img "img/liter_conversion.svg" %}}
+{{< img "img/liter_conversion.svg" >}}
 
 Je ziet dat de kubus met een zijde van $1 \si{ dm}$
 {{< mute "($= 10 \si{ cm}$)" >}}

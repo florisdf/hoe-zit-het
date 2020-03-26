@@ -44,7 +44,7 @@ $$x^2 - 2y + 6 = 5 - 3x + z$$
 Waar we naast $x$ ook $y$ en $z$ als onbekende hebben. Zo'n vergelijking noemen we dan *een vergelijking in drie onbekenden*. Dit soort vergelijkingen komt later terug in het deel over stelsels.
 
 ## Oplossingsverzameling
-De bedoeling van een vergelijking is meestal om te zoeken **welk(e) getal(len)** we in plaats van de onbekende(n) {{% mute "(meestal gewoon $x$)" %}} kunnen zetten **zodat de gelijkheid klopt**. Die getallen noemen we de *oplossingen* van de vergelijking.
+De bedoeling van een vergelijking is meestal om te zoeken **welk(e) getal(len)** we in plaats van de onbekende(n) {{< mute "(meestal gewoon $x$)" >}} kunnen zetten **zodat de gelijkheid klopt**. Die getallen noemen we de *oplossingen* van de vergelijking.
 
 Voor het eerste voorbeeld $\orange{x} + 6 = 2 - 3\orange{x}$, is er maar één getal waarvoor de 
 gelijkheid klopt: $\orange{-1}$:
@@ -59,7 +59,7 @@ Als je de oplossing(en) in een [verzameling](../../verzamelingen) stopt, noemen 
 De oplossingsverzameling $V$ voor het voorbeeld is dus:
 $$V = \\{\orange{-1}\\}$$
 
-{{% expand "Uitbreiding: Meerdere oplossingen" %}}
+{{< expand "Uitbreiding: Meerdere oplossingen" >}}
 Het kan natuurlijk ook dat er meer dan één getal in de oplossingsverzameling
 zit. Voor de vergelijking $x^2 + 2x = 3$ zijn er bijvoorbeeld twee waarden
 die we kunnen invullen voor $x$ zodat de gelijkheid klopt: $\orange{1}$ en
@@ -80,16 +80,16 @@ Wanneer we $\orange{-3}$ invullen, krijgen we:
 Zowel $\orange{1}$ als $\orange{-3}$ is een oplossing van de vergelijking. De
 oplossingsverzameling is dan
 $$V = \\{\orange{1}, \orange{-3}\\}$$
-{{% /expand %}}
+{{< /expand >}}
 
 
 ## Samengevat
-{{% attention "Vergelijking" %}}
+{{< attention "Vergelijking" >}}
 Een vergelijking is iets van de vorm
 $$\text{linkerlid} = \text{rechterlid}$$
 Waarbij $\text{linkerlid}$ en $\text{rechterlid}$ een of meerdere **onbekenden** bevatten. Vaak is er maar één onbekende, namelijk $x$.
-{{% /attention %}}
+{{< /attention >}}
 
-{{% attention "Oplossingsverzameling" %}}
+{{< attention "Oplossingsverzameling" >}}
 Een vergelijking is *opgelost* als je de waarden van de onbekenden vindt waarvoor de gelijkheid klopt. De *oplossingsverzameling* is de verzameling van die waarden.
-{{% /attention %}}
+{{< /attention >}}

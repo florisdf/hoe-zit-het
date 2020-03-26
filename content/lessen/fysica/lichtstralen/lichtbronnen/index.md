@@ -22,7 +22,7 @@ De meeste voorwerpen zijn donkere lichamen, bijvoorbeeld een bloem, een
 LEGO-mannetje of een sinaasappel. Wat zeker géén donkere lichamen zijn: een
 brandende gloeilamp en de zon.
 
-{{% svg "img/donkere_lichamen.svg" %}}
+{{< svg "img/donkere_lichamen.svg" >}}
 
 ## Puntvormige en diffuse lichtbronnen
 Qua lichtbronnen kunnen we onderscheid maken tussen een *puntvormige* en een
@@ -30,26 +30,26 @@ Qua lichtbronnen kunnen we onderscheid maken tussen een *puntvormige* en een
 zendt **lichtstralen uit die elkaar snijden in hetzelfde punt**, namelijk de
 puntvormige lichtbron zelf.
 
-{{% svg "img/puntvormig.svg" %}}
+{{< svg "img/puntvormig.svg" >}}
 
 Een **diffuse lichtbron zendt lichtstralen in willekeurige richtingen** uit en
 heeft typisch een vrij **grote vorm**. Het is
 eigenlijk een verzameling van heel veel puntvormige lichtbronnen.
 
-{{% svg "img/diffuus.svg" %}}
+{{< svg "img/diffuus.svg" >}}
 
-{{% expand "De flitsende fotograaf" %}}
+{{< expand "De flitsende fotograaf" >}}
 
 Fotografen moeten voortdurend nadenken over de lichtbron die ze gebruiken. Een
-puntvormige lichtbron {{% mute "(zoals de flitser op een fototoestel)" %}} zorgt
+puntvormige lichtbron {{< mute "(zoals de flitser op een fototoestel)" >}} zorgt
 namelijk voor schaduwen met heel scherpe randen, wat geen mooie foto oplevert.
 
-{{% img "img/soft_vs_hard_light.png" "Harde vs zachte schaduwen" "Harde schaduwen (links) en zachte schaduwen (rechts)." %}}
+{{< img "img/soft_vs_hard_light.png" "Harde vs zachte schaduwen" "Harde schaduwen (links) en zachte schaduwen (rechts)." >}}
 
 Meestal willen fotografen de lichtbron dan ook **zo groot mogelijk krijgen**.
 In een fotostudio doen ze dat door hun flits door een **doorschijnende
 paraplu** te laten gaan. Een andere mogelijkheid is om een *diffuser* op de
 flits te klikken of met behulp van een **softbox**.
 
-{{% img "img/softbox.jpg" "softbox" "Een softbox." %}}
-{{% /expand %}}
+{{< img "img/softbox.jpg" "softbox" "Een softbox." >}}
+{{< /expand >}}
