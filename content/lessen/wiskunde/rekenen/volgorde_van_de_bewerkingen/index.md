@@ -60,9 +60,9 @@ voorrangsregels voor berekeningen zoals $\vba$.
 Bij bewerkingen spreken we de volgende **voorrangsregels** af (A.K.A. *de
 volgorde van de bewerkingen*):
 
-1. **Haakjes** hebben voorrang op **alles**;\\
+1. **Haakjes** hebben voorrang op **alles**;
 2. **Machten** {{< mute "(en wortels)" >}} hebben voorrang op
-**vermenigvuldigingen** {{< mute "(en delingen)" >}};\\
+**vermenigvuldigingen** {{< mute "(en delingen)" >}};
 3. **Vermenigvuldingen** {{< mute "(en delingen)" >}} hebben voorrang op
    **optellingen** {{< mute "(en aftrekkingen)">}};
 4. **Optellingen** {{< mute "(en aftrekkingen)">}} hebben voorrang op **niets**.
@@ -168,13 +168,13 @@ stoppen we dan in de oorspronkelijke uitdrukking.
         &= \sqrt{\clra{-6 + 50}} \\\\\
         &= \sqrt{\clra{44}} \\\\\
         &= \clra{\sqrt{44}} \\\\\
-        &\approx \clra{6.63\ldots}
+        &\approx \clra{6{,}63\ldots}
     \end{split}
 \end{equation}
 
 De oorspronkelijke uitdrukking wordt dus:
-$$-5^3 + \frac{\clra{6.63\ldots}}{2}$$
+$$-5^3 + \frac{\clra{6{,}63\ldots}}{2}$$
 
 Hier kan je weer de volgorde van de bewerkingen op toepassen. Je zult vinden
-dat de uitdrukking gelijk is aan $\clra{-121.6}$ (afgerond op 1 cijfer na de
+dat de uitdrukking gelijk is aan $\clra{-121{,}6}$ (afgerond op 1 cijfer na de
 komma).
