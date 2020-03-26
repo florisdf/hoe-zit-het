@@ -1,24 +1,25 @@
 ---
-title: "De afgeleide van een veelterm"
+title: "De afgeleide van een veeltermfunctie"
 date: 2020-03-18T19:42:11+02:00
 weight: 2
 draft: true
 images: []
 ---
 
-In de vorige les zagen we wat afgeleiden zijn en wat hun nut is. Maar hoe berekenen we nu zo'n afgeleide?
-Een van de makkelijkste familie van functies om dit te doen zijn de **[veeltermen](../../veeltermen)**.
+In de vorige les zagen we wat afgeleiden zijn en wat hun nut is. Maar hoe
+berekenen we nu zo'n afgeleide? In deze les leren we hoe je de afgeleide van
+een **veeltermfunctie** kan berekenen.
 
-Stel dat we de afgeleide van de functie $f(x) = x^2$ willen berekenen. Wat we zouden kunnen doen is 
-met de definitie van de [vorige les](../intro) de afgeleiden proberen te vinden. We schrijven hieronder nog eens de definitie:
-
-$$ f'(x) = \lim\_{\Delta x \rightarrow 0} \frac{\Delta f(x)}{\Delta x} $$
-
-Herinner je dat $\Delta$ de verandering van iets betekend. We kunnen deze definitie dus ook anders schrijven:
+We leerden al de definitie van de afgeleide van een functie:
 
 $$ f'(x) = \lim\_{\Delta x \rightarrow 0} \frac{ f(x + \Delta x) - f(x) }{\Delta x} $$
 
-In de teller staat nu het verschil tussen de functie waarde in $x$ en de functie waarde een klein beetje verder, in $x + \Delta x$. Dit verschil wordt gedeeld door het verschil in deze $x-$waarden: $x - (x + \Delta x) = \Delta x$. 
+Lees zeker de [vorige les](../intro) eens na als je die formule niet zo goed begrijpt.
+
+In de teller staat nu het verschil tussen de
+[functiewaarde](../../functies/intro) in $x$ en de
+functie waarde een klein beetje verder, in $x + \Delta x$. Dit verschil wordt
+gedeeld door het verschil in deze $x-$waarden: $x - (x + \Delta x) = \Delta x$. 
 
 (illustratie)
 
