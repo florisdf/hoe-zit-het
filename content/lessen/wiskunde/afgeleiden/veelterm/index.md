@@ -6,9 +6,9 @@ draft: true
 images: []
 ---
 
-In de vorige les zagen we wat afgeleiden zijn en wat hun nut is. Maar hoe
-berekenen we nu zo'n afgeleide? In deze les leren we hoe je de afgeleide van
-een **veeltermfunctie** kan berekenen.
+In de vorige les zagen we [wat afgeleiden zijn](../intro) en wat hun nut is.
+Maar hoe berekenen we nu zo'n afgeleide? In deze les leren we hoe je de
+afgeleide van een **veeltermfunctie** kan berekenen.
 
 We leerden al de definitie van de afgeleide van een functie:
 
@@ -16,17 +16,27 @@ $$ f'(x) = \lim\_{\Delta x \rightarrow 0} \frac{ f(x + \Delta x) - f(x) }{\Delta
 
 Lees zeker de [vorige les](../intro) eens na als je die formule niet zo goed begrijpt.
 
-In de teller staat nu het verschil tussen de
-[functiewaarde](../../functies/intro) in $x$ en de
-functie waarde een klein beetje verder, in $x + \Delta x$. Dit verschil wordt
-gedeeld door het verschil in deze $x-$waarden: $x - (x + \Delta x) = \Delta x$. 
+## De afgeleide van een tweedegraadsfunctie
 
-(illustratie)
+Stel dat we de afgeleide willen berekening van de volgende functie:
 
-Laten we deze limiet nu uitwerken!
+$$ f(x) = -3x^2 + 4x - 1 $$
+
+Als we naar de definitie van een afgeleide kijken, zien we dat er op twee
+plaatsen iets met "$f(x)$" staat:
+
+{{< svg "img/fx_in_afgeleide.svg" >}}
+
+Om de definitie van een afgeleide hierop toe te passen, moeten we op twee
+plaatsen de $f(x)$ in de formule vervangen door ons
+[functievoorschrift](../../functies/voorschrift):
+
+
+Voor de 
 
 \begin{split}
-f'(x) &=  \lim\_{\Delta x \rightarrow 0} \frac { (x + \Delta x)^2 - x^2 } {\Delta x} \\\\\ 
+    f'(x) &= \lim\_{\Delta x \rightarrow 0} \frac{ \orange{f(x + \Delta x)} - \orange{f(x)} }{\Delta x} \\\\\
+          &= \lim\_{\Delta x \rightarrow 0} \frac{ \orange{f(x + \Delta x)} - \orange{f(x)} }{\Delta x} \\\\\
       &=  \lim\_{\Delta x \rightarrow 0} \frac { x^2 + 2x \Delta x + \Delta x^2 - x^2 } {\Delta x} \\\\\ 
       &=  \lim\_{\Delta x \rightarrow 0} \frac { 2x \Delta x  + \Delta x^2} {\Delta x} \\\\\ 
       &=  2x
