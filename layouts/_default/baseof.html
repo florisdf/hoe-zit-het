@@ -14,11 +14,6 @@
       <meta name="robots" content="index, follow">
     {{ end }}
 
-    {{ block "meta-tags"}}
-      <meta name="description" content="{{ $.Summary | default "Zit je ergens vast bij wiskunde of fysica? Met Hoe Zit Het? heb je de leerstof razendsnel onder de knie. Neem maar eens een kijkje naar onze lessen. Ze zijn kort, krachtig, vol illustraties en bovenal helemaal gratis!"}}"/> 
-      <meta name="keywords" content="{{ $.Keywords | default "wiskunde oefeningen, wiskunde, fysica oefeningen, fysica, lessen, afgeleiden, integralen, krachten" }}"/> 
-    {{ end }}
-
     {{ block "json_ld" . }}
       {{ partial "head/seo/organisation" . }}
       {{ partial "head/seo/breadcrumb" . }}

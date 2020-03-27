@@ -1,9 +1,7 @@
 {{ define "header" }}
 <header>
-  {{ partial "header/site-navigation.html" . }} {{ block "meta-tags"}}
-  <meta name="description" content="{{ $.Params.description | $.Summary }}" />
-  <meta name="keywords" content="{{ $.Params.keywords | $.Keywords }}" />
-  {{ end }}
+  {{ partial "header/site-navigation.html" . }}
+
 </header>
 {{ end }}
 
