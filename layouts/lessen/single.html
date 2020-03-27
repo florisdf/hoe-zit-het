@@ -5,11 +5,27 @@
   <meta name="keywords" content="{{ $.Params.keywords | $.Keywords }}" />
   {{ end }}
 </header>
-{{ end }} {{ define "mathjax" }} {{ partial "head/mathjax" . }} {{ end }} {{
-define "bokeh" }} {{ partial "head/bokeh" . }} {{ end }} {{ define "fancybox" }}
-{{ partial "head/fancybox" . }} {{ end }} {{ define "json_ld" }} {{ partial
-"head/seo/organisation" . }} {{ partial "head/seo/breadcrumb" . }} {{ partial
-"head/seo/article" . }} {{ end }} {{ define "main" }}
+{{ end }}
+
+{{ define "mathjax" }}
+  {{ partial "head/mathjax" . }}
+{{ end }}
+
+{{ define "bokeh" }}
+  {{ partial "head/bokeh" . }}
+{{ end }}
+
+{{ define "fancybox" }}
+{{ partial "head/fancybox" . }}
+{{ end }}
+
+{{ define "json_ld" }}
+  {{ partial "head/seo/organisation" . }}
+  {{ partial "head/seo/breadcrumb" . }}
+  {{ partial "head/seo/article" . }}
+{{ end }}
+
+{{ define "main" }}
 <article class="mw8 center ph3">
   <h1 class="f1" style="color: {{ $.Parent.Params.section_color }};">
     {{ .Title }}
@@ -23,9 +39,12 @@ define "bokeh" }} {{ partial "head/bokeh" . }} {{ end }} {{ define "fancybox" }}
     </div>
     <article class="center cf w-two-thirds-l">
       <section class="nested-copy-line-height lh-copy nested-links">
-        {{ .Content }} {{ partial "main/lessen_icon_links" . }} {{ partial
-        "main/feedback" . }} {{ partial "main/comments" . }} {{ partial
-        "main/tags.html" . }} {{ partial "main/to-top.html" . }}
+        {{ .Content }}
+        {{ partial "main/lessen_icon_links" . }}
+        {{ partial "main/feedback" . }}
+        {{ partial "main/comments" . }}
+        {{ partial "main/tags.html" . }}
+        {{ partial "main/to-top.html" . }}
       </section>
     </article>
   </div>
