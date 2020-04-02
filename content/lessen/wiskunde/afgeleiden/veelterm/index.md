@@ -3,31 +3,31 @@ title: "De afgeleide van een veeltermfunctie"
 date: 2020-03-18T19:42:11+02:00
 weight: 5
 draft: true
+tags: []
+description: ""
 images: []
-tags: ["afgeleide", "veelterm", "functie", "afgeleide functie"]
-description: "De afgeleide in een punt kunnen we snel berekenen met behulp van
-de afgeleide functie. In deze les tonen we hoe aan de hand van de afgeleide van
-veeltermfuncties."
 ---
-We gaan ons voorschrift $f(x) = -3x^2 + 4x - 1$ gebruiken om de
-$f(\blue{x})$ en de $f(\blue{x + \Delta x})$ in de bovenstaande
-definitie te vervangen.
 
-* De $f(\blue{x})$ vervangen, is eenvoudig omdat we in ons voorschrift letterlijk
-kunnen lezen waaraan het gelijk is: $$f(\blue{x}) = -3\blue{x}^2 + 4\blue{x} - 1$$
-* Om de $f(x + \Delta x)$ vervangen doen we
+In de vorige les zagen we wat afgeleiden zijn en wat hun nut is. Maar hoe berekenen we nu zo'n afgeleide?
+Een van de makkelijkste familie van functies om dit te doen zijn de **[veeltermen](../../veeltermen)**.
 
+Stel dat we de afgeleide van de functie $f(x) = x^2$ willen berekenen. Wat we zouden kunnen doen is 
+met de definitie van de [vorige les](../intro) de afgeleiden proberen te vinden. We schrijven hieronder nog eens de definitie:
 
-Om de definitie van een afgeleide hierop toe te passen, moeten we op twee
-plaatsen de $f(x)$ in de formule vervangen door ons
-[functievoorschrift](../../functies/voorschrift):
+$$ f'(x) = \lim\_{\Delta x \rightarrow 0} \frac{\Delta f(x)}{\Delta x} $$
 
+Herinner je dat $\Delta$ de verandering van iets betekend. We kunnen deze definitie dus ook anders schrijven:
 
-Voor de 
+$$ f'(x) = \lim\_{\Delta x \rightarrow 0} \frac{ f(x + \Delta x) - f(x) }{\Delta x} $$
+
+In de teller staat nu het verschil tussen de functie waarde in $x$ en de functie waarde een klein beetje verder, in $x + \Delta x$. Dit verschil wordt gedeeld door het verschil in deze $x-$waarden: $x - (x + \Delta x) = \Delta x$. 
+
+(illustratie)
+
+Laten we deze limiet nu uitwerken!
 
 \begin{split}
-    f'(x) &= \lim\_{\Delta x \rightarrow 0} \frac{ \orange{f(x + \Delta x)} - \orange{f(x)} }{\Delta x} \\\\\
-          &= \lim\_{\Delta x \rightarrow 0} \frac{ \orange{f(x + \Delta x)} - \orange{f(x)} }{\Delta x} \\\\\
+f'(x) &=  \lim\_{\Delta x \rightarrow 0} \frac { (x + \Delta x)^2 - x^2 } {\Delta x} \\\\\ 
       &=  \lim\_{\Delta x \rightarrow 0} \frac { x^2 + 2x \Delta x + \Delta x^2 - x^2 } {\Delta x} \\\\\ 
       &=  \lim\_{\Delta x \rightarrow 0} \frac { 2x \Delta x  + \Delta x^2} {\Delta x} \\\\\ 
       &=  2x

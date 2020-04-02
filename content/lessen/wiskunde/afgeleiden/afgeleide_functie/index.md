@@ -1,11 +1,13 @@
 ---
-title: "Afgeleide functie"
+title: "De afgeleide functie van een functie"
 date: 2020-04-02T16:13:59+02:00
 weight: 4
 draft: true
-tags: []
 images: ['/lessen/wiskunde/afgeleiden/afgeleide_functie/img/zonder_met_afgeleide_fx.png', '/lessen/wiskunde/afgeleiden/afgeleide_functie/img/fx_ingevuld_in_afgeleide.png', '/lessen/wiskunde/afgeleiden/afgeleide_functie/img/f_delta_x_ingevuld.png', '/lessen/wiskunde/afgeleiden/afgeleide_functie/img/f_delta_x_uitwerking.png', '/lessen/wiskunde/afgeleiden/afgeleide_functie/img/afgeleide_teller_uitwerking.png']
-description: ""
+tags: ["afgeleide", "veelterm", "functie", "afgeleide functie"]
+description: "De afgeleide in een punt kunnen we snel berekenen met behulp van
+de afgeleide functie. In deze les tonen we hoe aan de hand van de afgeleide van
+tweedegraadsfunctie."
 ---
 
 In de vorige les zagen we hoe je de [afgeleide voor een bepaalde
@@ -17,31 +19,31 @@ berekenen.
 
 Gelukkig kunnen we ook de **afgeleide van een volledige functie** berekenen.
 Dat betekent dat we van **alle x-waarden tegelijk** de afgeleide berekenen!
-:open_mouth: Dat noemen we een **afgeleide functie**.
+:open_mouth: Dat noemen we de **afgeleide functie** van een functie.
 
 {{< svg "img/zonder_met_afgeleide_fx.svg" "Met de afgeleide functie kunnen we sneller afgeleiden berekenen" >}}
 
 ## De afgeleide functie $f'(x)$
 
-Met de **afgeleide functie** kunnen we heel snel de afgeleide vinden voor
-eender welke x-waarde in het domein van een functie. De afgeleide functie
-duiden we aan door een accent naast de $f$ van onze functie te zetten: 
+Met de **afgeleide functie** van een functie kunnen we heel snel de afgeleide
+vinden voor eender welke x-waarde in het domein van een functie. De afgeleide
+functie duiden we aan door een accent naast de $f$ van onze functie te zetten: 
 
 | Je schrijft | Je leest het als               |
 |-------------|--------------------------------|
-| $f'(x)$     | De afgeleide functie van $f$   |
+| $f'(x)$     | De afgeleide (functie) van $f$ |
 
-De afgeleide functie geeft ons een **nieuw functievoorschrift $f'(x)$**. In
-dat voorschrift kunnen we dan weer x-waarden invullen, net zoals we in $f(x)$
+De afgeleide functie geeft ons een **nieuw functievoorschrift $f'(x)$**. In dat
+voorschrift kunnen we dan weer x-waarden invullen, net zoals we in $f(x)$
 x-waarden kunnen invullen. Als we in $f'(x)$ een x-waarde invullen, berekenen
-we meteen de **afgeleide voor die x-waarde**. Zo moeten we niet telkens al het
-werk herhalen van de [vorige les](../in_een_punt).
+we meteen de **afgeleide van $f$ in die x-waarde**. Zo moeten we niet telkens
+al het werk herhalen van de [vorige les](../in_een_punt).
 
 ## De afgeleide van een tweedegraadsfunctie
 
 We hebben al geleerd dat een afgeleide functie $f'(x)$ ons veel werk kan
 besparen. Eens we $f'(x)$ gevonden hebben, kunnen we er namelijk eender welke
-x-waarde in invullen en vinden we meteen de afgeleide voor die x-waarde. Maar
+x-waarde in invullen en vinden we meteen de afgeleide in die x-waarde. Maar
 **hoe vinden we die afgeleide functie**? Als voorbeeld zoeken we in deze
 paragraaf de afgeleide functie van de volgende tweedegraadsfunctie:
 

@@ -1,0 +1,5 @@
+intro
+rico_raaklijn
+in_een_punt
+afgeleide_functie
+veelterm

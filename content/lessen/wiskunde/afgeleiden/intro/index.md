@@ -3,8 +3,21 @@ title: "Wat is een afgeleide?"
 date: 2020-03-10T16:35:11+02:00
 weight: 1
 draft: true
+tags: ["afgeleide", "differentiequotiënt", "gemiddelde verandering",
+"ogenblikkelijke verandering", "snelheid"]
+description: "Met afgeleiden berekenen we ogenblikkelijke veranderingen. In
+deze les leren we de formule om zo'n afgeleide te berekenen. We bouwen stap per
+stap op naar deze definitie en gaan van gemiddelde snelheid naar
+differentiequotiënt om ten slotte bij afgeleiden te eindigen. Zodat begrijp je
+aan het einde van de les helemaal waar de definitie van afgeleiden vandaan
+komt."
 images: []
 ---
+
+Gemiddelde verandering bespreken en duidelijk het verschil tonen met
+ogenblikkelijke verandering. Tonen hoe we een gemiddelde verandering kunnen
+berekenen met het differentiequotiënt en hoe de limiet hiervan een
+maat voor de ogenblikkelijke verandering zal geven.
 
 Dirk en Maria houden een **loopwedstrijd** op de lokale atletiekpiste. Ze
 willen voor eens en voor altijd uitmaken wie van hen de snelste is.
