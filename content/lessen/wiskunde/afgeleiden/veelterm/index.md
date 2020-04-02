@@ -1,31 +1,22 @@
 ---
 title: "De afgeleide van een veeltermfunctie"
 date: 2020-03-18T19:42:11+02:00
-weight: 2
+weight: 5
 draft: true
 images: []
+tags: ["afgeleide", "veelterm", "functie", "afgeleide functie"]
+description: "De afgeleide in een punt kunnen we snel berekenen met behulp van
+de afgeleide functie. In deze les tonen we hoe aan de hand van de afgeleide van
+veeltermfuncties."
 ---
+We gaan ons voorschrift $f(x) = -3x^2 + 4x - 1$ gebruiken om de
+$f(\blue{x})$ en de $f(\blue{x + \Delta x})$ in de bovenstaande
+definitie te vervangen.
 
-In de vorige les zagen we [wat afgeleiden zijn](../intro) en wat hun nut is.
-Maar hoe berekenen we nu zo'n afgeleide? In deze les leren we hoe je de
-afgeleide van een **veeltermfunctie** kan berekenen.
+* De $f(\blue{x})$ vervangen, is eenvoudig omdat we in ons voorschrift letterlijk
+kunnen lezen waaraan het gelijk is: $$f(\blue{x}) = -3\blue{x}^2 + 4\blue{x} - 1$$
+* Om de $f(x + \Delta x)$ vervangen doen we
 
-We leerden al de definitie van de afgeleide van een functie:
-
-$$ f'(x) = \lim\_{\Delta x \rightarrow 0} \frac{ f(x + \Delta x) - f(x) }{\Delta x} $$
-
-Lees zeker de [vorige les](../intro) eens na als je die formule niet zo goed begrijpt.
-
-## De afgeleide van een tweedegraadsfunctie
-
-Stel dat we de afgeleide willen berekening van de volgende functie:
-
-$$ f(x) = -3x^2 + 4x - 1 $$
-
-Als we naar de definitie van een afgeleide kijken, zien we dat er op twee
-plaatsen iets met "$f(x)$" staat:
-
-{{< svg "img/fx_in_afgeleide.svg" >}}
 
 Om de definitie van een afgeleide hierop toe te passen, moeten we op twee
 plaatsen de $f(x)$ in de formule vervangen door ons
