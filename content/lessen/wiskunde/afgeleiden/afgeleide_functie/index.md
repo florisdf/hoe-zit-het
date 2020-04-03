@@ -18,7 +18,8 @@ te berekenen. Zeker als we voor meerdere x-waarden die afgeleide zouden willen
 berekenen.
 
 Gelukkig kunnen we ook de **afgeleide van een volledige functie** berekenen.
-Dat betekent dat we van **alle x-waarden tegelijk** de afgeleide berekenen!
+Dat betekent dat we in één keer in **alle x-waarden**
+{{< mute "(waarin $f(x)$ afleidbaar is)" >}} de afgeleide berekenen!
 :open_mouth: Dat noemen we de **afgeleide functie** van een functie.
 
 {{< svg "img/zonder_met_afgeleide_fx.svg" "Met de afgeleide functie kunnen we sneller afgeleiden berekenen" >}}
@@ -26,7 +27,7 @@ Dat betekent dat we van **alle x-waarden tegelijk** de afgeleide berekenen!
 ## De afgeleide functie $f'(x)$
 
 Met de **afgeleide functie** van een functie kunnen we heel snel de afgeleide
-vinden voor eender welke x-waarde in het domein van een functie. De afgeleide
+vinden voor eender welke x-waarde waarin onze functie afleidbaar is. De afgeleide
 functie duiden we aan door een accent naast de $f$ van onze functie te zetten: 
 
 | Je schrijft | Je leest het als               |
@@ -43,18 +44,19 @@ al het werk herhalen van de [vorige les](../in_een_punt).
 
 We hebben al geleerd dat een afgeleide functie $f'(x)$ ons veel werk kan
 besparen. Eens we $f'(x)$ gevonden hebben, kunnen we er namelijk eender welke
-x-waarde in invullen en vinden we meteen de afgeleide in die x-waarde. Maar
-**hoe vinden we die afgeleide functie**? Als voorbeeld zoeken we in deze
-paragraaf de afgeleide functie van de volgende tweedegraadsfunctie:
+x-waarde {{< mute "(waarin $f(x)$ afleidbaar is)" >}} in invullen en vinden we
+meteen de afgeleide in die x-waarde. Maar **hoe vinden we die afgeleide
+functie**? Als voorbeeld zoeken we in deze paragraaf de afgeleide functie van
+de volgende tweedegraadsfunctie:
 
 $$f(x) = -3x^2 + 4x - 1$$
 
-We leerden in de vorige les hoe je voor een [bepaalde x-waarde de
+We leerden in de vorige les hoe je in een [bepaalde x-waarde de
 afgeleide](../in_een_punt) kan berekenen. Daarvoor vulden we de x-waarde in in
 de definitie van een afgeleide. Nu doen we hetzelfde, maar in plaats van een
 bepaald getal in te vullen, **vullen we nu $x$ in**.
 
-Herinner je dat de definitie van de afgeleide van $f(x)$ in $a$ als volgt gaat:
+Herinner je de definitie van de afgeleide van $f(x)$ in $a$:
 
 $$ f'(a) = \lim\_{\Delta x \rightarrow 0} \frac{ f(a + \Delta x) - f(a) }{\Delta x} $$
 
@@ -131,4 +133,39 @@ de limiet heel eenvoudig en komt de afgeleide functie van $f(x) = -3x^2 + 4x -
 
 {{< svg "img/limiet_uitrekenen.svg" "Uitwerking van de limiet om de afgeleide functie te berekenen." >}}
 
-Ziezo! We hebben de afgeleide functie gevonden! :muscle:
+Ziezo! We hebben de afgeleide functie $f'(x)$ gevonden! :muscle:
+
+## Hoe helpt een afgeleide functie ons nu?
+
+Eens we $f'(x)$ gevonden hebben, kunnen we de afgeleiden van $f(x)$ in eender
+welke x-waarde {{< mute "(waarin $f(x)$ afleidbaar is)" >}} berekenen! In de
+[vorige les](../in_een_punt) hebben we bijvoorbeeld de afgeleide van de functie
+$f(x) = -3x^2 + 4x -1$ in $x=2$ berekend. Dat vergde toen heel wat werk om te
+vinden dat $f'(2)=-8$. Nu kunnen we dezelfde afgeleide veel sneller berekenen
+omdat we nu weten dat $f'(x) = -6x + 4$:
+
+$$f'(\blue{2}) = -6\cdot\blue{2} + 4 = -8$$
+
+We kunnen nu heel snel ook andere afgeleiden berekenen:
+
+$$f'(\blue{3}) = -6\cdot \blue{3} + 4 = -14$$
+$$f'(\blue{-1}) = -6\cdot \blue{(-1)} + 4 = 10$$
+
+## Sneller de afgeleide functie vinden
+
+Eens we de afgeleide functie hebben gevonden, kunnen we snel afgeleiden
+vinden in verschillende x-waarden. Maar we moeten toegeven dat **het vinden van
+de afgeleide functie** zelf wel nog steeds **flink wat werk** was. Gelukkig
+bestaan er voor heel wat functies **binnenwegen om in één oogopslag de
+afgeleide te vinden**. Hier leren we later meer over!
+
+## Samengevat
+
+{{< attention "De afgeleide functie van een functie" >}}
+
+De afgeleide functie $f'(x)$ is de functie die voor elke x-waarde (waarin
+$f(x)$ afleidbaar is) de afgeleide van $f(x)$ in die x-waarde geeft.
+
+$$ f'(x) = \lim\_{\Delta x \rightarrow 0} \frac{ f(x + \Delta x) - f(x) }{\Delta x} $$
+
+{{< /attention >}}
