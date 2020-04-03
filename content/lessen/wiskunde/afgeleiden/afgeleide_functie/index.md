@@ -1,7 +1,7 @@
 ---
 title: "De afgeleide functie van een functie"
 date: 2020-04-02T16:13:59+02:00
-weight: 4
+weight: 5
 draft: true
 images: ['/lessen/wiskunde/afgeleiden/afgeleide_functie/img/zonder_met_afgeleide_fx.png', '/lessen/wiskunde/afgeleiden/afgeleide_functie/img/fx_ingevuld_in_afgeleide.png', '/lessen/wiskunde/afgeleiden/afgeleide_functie/img/f_delta_x_ingevuld.png', '/lessen/wiskunde/afgeleiden/afgeleide_functie/img/f_delta_x_uitwerking.png', '/lessen/wiskunde/afgeleiden/afgeleide_functie/img/afgeleide_teller_uitwerking.png']
 tags: ["afgeleide", "veelterm", "functie", "afgeleide functie"]

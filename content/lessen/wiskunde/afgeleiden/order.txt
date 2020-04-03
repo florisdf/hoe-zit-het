@@ -1,5 +1,6 @@
 intro
 rico_raaklijn
 in_een_punt
+afleidbaarheid
 afgeleide_functie
-veelterm
+grafiek

@@ -1,12 +1,14 @@
 ---
 title: "De afgeleide van een veeltermfunctie"
 date: 2020-03-18T19:42:11+02:00
-weight: 5
+weight: 8
 draft: true
 tags: []
 description: ""
 images: []
 ---
+Deze les herschrijven vertrekkend van de les over $x^n$ en over de afgeleide
+van de som van twee functies.
 
 In de vorige les zagen we wat afgeleiden zijn en wat hun nut is. Maar hoe berekenen we nu zo'n afgeleide?
 Een van de makkelijkste familie van functies om dit te doen zijn de **[veeltermen](../../veeltermen)**.
