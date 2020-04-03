@@ -52,23 +52,29 @@ $$f(x) = -3x^2 + 4x - 1$$
 We leerden in de vorige les hoe je voor een [bepaalde x-waarde de
 afgeleide](../in_een_punt) kan berekenen. Daarvoor vulden we de x-waarde in in
 de definitie van een afgeleide. Nu doen we hetzelfde, maar in plaats van een
-bepaald getal in te vullen, laten we **alle symbolen in de definitie staan**.
+bepaald getal in te vullen, **vullen we nu $x$ in**.
 
-Herinner je dat de definitie van een afgeleide als volgt ging:
+Herinner je dat de definitie van de afgeleide van $f(x)$ in $a$ als volgt gaat:
 
-$$ f'(x) = \lim\_{\Delta x \rightarrow 0} \frac{ f(x + \Delta x) - f(x) }{\Delta x} $$
+$$ f'(a) = \lim\_{\Delta x \rightarrow 0} \frac{ f(a + \Delta x) - f(a) }{\Delta x} $$
 
 Lees zeker [onze introductie tot afgeleiden](../intro) eens na als je die
-formule niet zo goed begrijpt. Als we naar die definitie kijken, zien we dat er
-twee keer iets met $f(\ldots)$ staat. De eerste keer staat er $f(x + \Delta x)$
-en de tweede keer staat er $f(x)$:
+formule niet zo goed begrijpt. Wij zijn nu op zoek naar **de afgeleide functie
+van een functie**, en dat is niet $f'(\blue{a})$, maar wel $f'(\blue{x})$. We
+moeten in onze definitie van $f'(a)$ de $a$ dus gewoon vervangen door een $x$:
+
+$$ f'(\blue{x}) = \lim\_{\Delta x \rightarrow 0} \frac{ f(\blue{x} + \Delta x) - f(\blue{x}) }{\Delta x} $$
+
+En zo hebben we de **definitie van de afgeleide functie van $f(x)$**!
+:raised_hands: Als we naar die definitie kijken, zien we dat er twee keer iets
+met $f(\ldots)$ staat. De eerste keer staat er $f(x + \Delta x)$ en de tweede
+keer staat er $f(x)$:
 
 {{< svg "img/fx_in_afgeleide.svg"  "Definitie van een afgeleide" >}}
 
-Die $f(x + \Delta x)$ en $f(x)$ moeten we bepalen voor de functie waar
-we de afgeleide van willen vinden. Wij zoeken de afgeleide van
-$f(x) = -3x^2 + 4x - 1$, dus de $f(x)$ kunnen we al meteen vervangen in de
-definitie:
+Die $f(x + \Delta x)$ en $f(x)$ moeten we bepalen voor de functie waar we de
+afgeleide van willen vinden. Wij zoeken de afgeleide van $f(x) = -3x^2 + 4x -
+1$, dus die $f(x)$ in de definitie kunnen we al meteen vervangen:
 
 {{< svg "img/fx_ingevuld_in_afgeleide.svg" "Functievoorschrift ingevuld in de definitie van een afgeleide." >}}
 
@@ -91,5 +97,38 @@ teller van de breuk "$f(x + \Delta x) - f(x)$" staan. We moeten van onze $f(x +
 \Delta x)$ dus nog $f(x)$ aftrekken. Gelukkig vallen er dan een hele hoop
 dingen weg:
 
-{{< svg "img/afgeleide_teller_uitwerking.svg" "Uitwerking van de teller van de breuk voor onze $f(x)$ in de definitie van de afgeleide." >}}
+{{< svg "img/afgeleide_teller_uitwerking.svg" "Uitwerking van de teller van de definitie van een afgeleide functie voor onze tweedegraadsfunctie." >}}
 
+We hebben nu dus de teller gevonden van onze limiet:
+
+{{< svg "img/teller_afgeleide_invullen.svg" "De teller van de afgeleide ingevuld in de definitie." >}}
+
+Nu zou het je moeten opvallen dat er heel vaak in de breuk een $\Delta x$
+staat. Het is zelfs zo dat **elke term in de breuk** een factor $\Delta x$
+bevat. Dat betekent dat we de **breuk kunnen vereenvoudigen** door teller en
+noemer te delen door $\Delta x$.
+
+{{< svg "img/delta_x_wegdelen.svg" "$\Delta x$ wegdelen uit teller en noemer van de afgeleide." >}}
+
+{{< expand "Mogen we de teller en noemer zomaar delen door $\Delta x$?" >}}
+
+Wanneer je deelt, moet je altijd goed opletten dat je **niet aan het delen bent
+door nul**. Als $\Delta x$ gelijk zou zijn aan nul, zouden we de teller en
+noemer dus niet mogen delen door $\Delta x$ om de breuk te vereenvoudigen.
+
+We weten echter dat $\Delta x$ **niet gelijk is aan nul** omdat we de **limiet
+naar nul** berekenen. Dat betekent dat $\Delta x$ héél dicht bij nul komt, maar
+**nooit gelijk wordt aan nul**. We mogen de teller en noemer dus zonder
+probleem delen door $\Delta x$.
+
+{{< /expand >}}
+
+Dat ziet er al een heel stuk properder uit! :grinning: Het enige wat ons nu nog
+rest is de **limiet zelf berekenen**. De limiet zegt enkel iets over $\Delta
+x$, dus elke term zonder $\Delta x$ mogen we buiten de limiet zetten. Dan wordt
+de limiet heel eenvoudig en komt de afgeleide functie van $f(x) = -3x^2 + 4x -
+1$ tevoorschijn!
+
+{{< svg "img/limiet_uitrekenen.svg" "Uitwerking van de limiet om de afgeleide functie te berekenen." >}}
+
+Ziezo! We hebben de afgeleide functie gevonden! :muscle:
