@@ -14,21 +14,35 @@ komt."
 images: []
 ---
 
-Gemiddelde verandering bespreken en duidelijk het verschil tonen met
-ogenblikkelijke verandering. Tonen hoe we een gemiddelde verandering kunnen
-berekenen met het differentiequotiënt en hoe de limiet hiervan een
-maat voor de ogenblikkelijke verandering zal geven.
+Je kan waarschijnlijk al een gemiddelde snelheid berekenen. Een wagen rijdt
+bijvoorbeeld $100~\si{km}$ in $2~\si{h}$, dan reed hij gemiddeld
+$50~\si{km/h}$. Dat betekent echter **niet dat de wagen voortdurend
+$50~\si{km/h}$ reed**. Soms reed hij waarschijnlijk iets sneller, soms iets
+trager, soms stond de wagen misschien even stil voor een rood licht... Die
+gemiddelde snelheid leert ons niets over hoe snel de wagen bijvoorbeeld reed om
+16u30. Soms zijn we echter wel geïnteresseerd in de **snelheid op een bepaald
+tijdstip**. In deze les leren we voor het eerst over **afgeleiden**. Een
+afgeleide is eigenlijk een veralgemening van die **ogenblikkelijke snelheid**.
+Met behulp van een afgeleide zullen we vragen als "Hoe snel reed de wagen om
+16u30?" wél kunnen beantwoorden.
 
-Dirk en Maria houden een **loopwedstrijd** op de lokale atletiekpiste. Ze
-willen voor eens en voor altijd uitmaken wie van hen de snelste is.
 
-(illustratie)
+# Dragracen met Maria en Dirk
 
-Na een intense 100 m sprint, is Dirk eerst aan de finish. Maria beweert dat
-*zij* de snelste was omdat zij de **hoogste snelheid** gehaald heeft. Hieronder
-zie je enkele luchtbeelden van hun sprint.
-di
-(illustraties met klokken erbij)
+Als voorbeeld voor deze les, gaan we een van de favoriete hobby's van Maria en
+Dirk gebruiken: dragracen.  Bij dragracen vertrekken twee wagens vanuit
+stilstand en racen ze $300~\si{m}$ in een rechte lijn. De eerste aan de finish
+wint.
+
+{{< svg "img/drag_racing.svg" "Maria en Dirk die tegen elkaar dragracen en bijna aan de finish zijn." >}}
+
+De wagens halen enorme snelheden tot meer dan $500~\si{km/h}$. Hieronder zie je
+enkele luchtfoto's van Maria in haar *Top Fuel dragster* tijdens het dragracen.
+
+(functie $f(x) = 20x^2$ met x in seconden en y in meter)
+
+In deze les gaan we twee vragen proberen beantwoorden: wat was de **gemiddelde
+snelheid** van Maria en **met welke snelheid reed ze over de eindmeet**?
 
 
 ## Gemiddelde snelheid
