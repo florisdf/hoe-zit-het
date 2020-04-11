@@ -22,7 +22,7 @@ bowlingbal naar beneden trekt, duiden we dan aan als $\vec{F}_{zb}$. De
 **zwaartekracht wijst altijd recht naar beneden**, meer bepaald naar het
 centrum van de aarde.
 
-{{% svg "img/zwaartekracht_bowlingbal.png" %}}
+{{< svg "img/zwaartekracht_bowlingbal.png" >}}
 
 ## Hoe groter de massa, hoe groter de zwaartekracht
 Hoe hard de aarde aan een voorwerp trekt, hangt enerzijds af van de **massa**
@@ -30,21 +30,21 @@ van dat voorwerp. Als je een bowlingbal vasthoudt, voel je dat die harder naar
 beneden getrokken wordt dan wanneer je een voetbal vasthoudt. Dat komt omdat de
 massa van een bowlingbal groter is dan de massa van een voetbal.
 
-{{% svg "img/zwaartekracht_bowlingbal_vs_voetbal.png" "De aarde trekt minder hard aan de bowlingbal dan aan de voetbal" %}}
+{{< svg "img/zwaartekracht_bowlingbal_vs_voetbal.png" "De aarde trekt minder hard aan de bowlingbal dan aan de voetbal" >}}
 
 ## Zwaarteveldsterkte
 De massa van het voorwerp is niet het enige wat de zwaartekracht bepaalt. Het
 hangt er ook van af op welk hemellichaam je staat. Op aarde worden voorwerpen
 feller aangetrokken dan op de maan, bijvoorbeeld.
 
-{{% svg "img/zwaartekracht_maan_aarde.png" "De maan trekt minder hard aan de bowlingbal dan de aarde" %}}
+{{< svg "img/zwaartekracht_maan_aarde.png" "De maan trekt minder hard aan de bowlingbal dan de aarde" >}}
 
 We zeggen dat het zwaarteveld van de aarde sterker is dan het zwaarteveld van
 de maan. De **zwaartveldsterkte** zegt hoe hard er aan
 voorwerpen met een bepaalde massa wordt getrokken door de zwaartekracht. Het
 symbool voor de zwaarteveldsterkte is $g$ en de eenheid van $g$ is
 $\si{N/kg}$. Dat kan je interpreteren als met hoeveel kracht
-{{% mute "(newton)" %}} een hemellichaam {{% mute "(bv. de aarde)" %}} trekt
+{{< mute "(newton)" >}} een hemellichaam {{< mute "(bv. de aarde)" >}} trekt
 aan een massa van één kilogram.
 
 Grootheid | Symbool | Eenheid | Interpretatie
@@ -73,7 +73,7 @@ $g_{aarde}=9{,}81~\si{N/kg}$.
             &= 49{,}1~\si{N}
 \end{split}
 
-{{% svg "img/zwaartekracht_bowlingbal_aarde_oefening.png" %}}
+{{< svg "img/zwaartekracht_bowlingbal_aarde_oefening.png" >}}
 
 Dirk gaat nu naar de maan en houdt daar dezelfde bowlingbal vast. Welke kracht
 voelt Dirk nu? Neem $g_{maan}=1{,}62~\si{N/kg}$.
@@ -84,7 +84,7 @@ voelt Dirk nu? Neem $g_{maan}=1{,}62~\si{N/kg}$.
             &= 8{,}10~\si{N}
 \end{split}
 
-{{% svg "img/zwaartekracht_bowlingbal_maan_oefening.png" %}}
+{{< svg "img/zwaartekracht_bowlingbal_maan_oefening.png" >}}
 
 De voetbal heeft een massa van $410~\si{g}$. Welke kracht voelt Dirk als hij de
 bal vasthoudt op aarde?
@@ -95,18 +95,18 @@ bal vasthoudt op aarde?
             &= 4{,}02~\si{N}
 \end{split}
 
-{{% svg "img/zwaartekracht_voetbal_aarde_oefening.png" %}}
+{{< svg "img/zwaartekracht_voetbal_aarde_oefening.png" >}}
 
 Vergelijk nu eens de zwaartekracht van de voetbal op aarde met de zwaartekracht
 van de bowlingbal op de maan. Je ziet dat een bowlingbal op de maan ongeveer
 hetzelfde aanvoelt qua gewicht als twee voetballen op aarde.
 
 ## Samengevat
-{{% attention "Grootte van de zwaartekracht berekenen" %}}
+{{< attention "Grootte van de zwaartekracht berekenen" >}}
 De grootte van de zwaartekracht op een voorwerp vind je door de massa van dat
 voorwerp te vermenigvuldigen met de zwaarteveldsterkte $g$.
 
 $$F_{z} = m \cdot g$$
 
 Voor situaties op aarde mag je ervan uitgaan dat $g = 9{,}81~\si{N/kg}$.
-{{% /attention %}}
+{{< /attention >}}

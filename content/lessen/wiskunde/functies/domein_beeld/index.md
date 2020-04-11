@@ -18,7 +18,7 @@ functie.
 
 ## Domein van een functie
 Het *domein* van een functie is de verzameling
-van x-waarden waarvoor er een functiewaarde {{%mute "(een y-waarde)" %}} bestaat.
+van x-waarden waarvoor er een functiewaarde {{<mute "(een y-waarde)" >}} bestaat.
 
 * Voor elke x-waarde die **niet in het domein** zit, bestaat er **géén
 y-waarde**.
@@ -68,39 +68,39 @@ functie](../grafiek). Neem bijvoorbeeld de grafiek van de functie
 $$f(x) = 3\cdot \sqrt{x + 5} - 6$$
 Die grafiek ziet er zo uit:
 
-{{% bokeh "plt/fx.json" %}}
+{{< bokeh "plt/fx.json" >}}
 
 Om op deze grafiek het **domein** af te lezen, moet je de grafiek **projecteren
 op de x-as**.  Het resultaat van de projectie
-is aangeduid {{% class "**in het groen op de x-as**" "green" %}}.
+is aangeduid **{{< class "in het groen op de x-as" "green" >}}**.
 {{< mute "We gaan ervan uit dat de grafiek oneindig blijft verder stijgen aan de rechterkant." >}}
 We zien dan dat $\green{dom f = [-5; +\infty[}$.
 
-{{% bokeh "plt/dom.json" %}}
+{{< bokeh "plt/dom.json" >}}
 
 
-Het **beeld** {{% mute "(of het bereik)" %}} van diezelfde functie kunnen we
+Het **beeld** {{< mute "(of het bereik)" >}} van diezelfde functie kunnen we
 vinden door de grafiek nu te **projecteren op de y-as**. Op de onderstaande
 grafiek zie je het resultaat van deze projectie
-{{% class "**in het groen op de y-as**" "green" %}}.
-{{% bokeh "plt/bld.json" %}}
+**{{< class "in het groen op de y-as" "green" >}}**.
+{{< bokeh "plt/bld.json" >}}
 {{< mute "We gaan ervan uit dat de grafiek oneindig blijft verder stijgen aan de rechterkant." >}}
 Je vindt dat $\green{bld f = [-6; +\infty[}$.
 
 ## Samengevat
-{{% attention "Definitie domein" %}}
+{{< attention "Definitie domein" >}}
 Het **domein van een functie** is de verzameling van alle mogelijke **x-waarden
 waarvoor er een functiewaarde bestaat**.
-{{% /attention %}}
+{{< /attention >}}
 
-{{% attention "Definitie beeld" %}}
+{{< attention "Definitie beeld" >}}
 Het **beeld van een functie** is de verzameling van **alle mogelijke functiewaarden**.
-{{% /attention %}}
+{{< /attention >}}
    
-{{% attention "Domein aflezen op een grafiek" %}}
+{{< attention "Domein aflezen op een grafiek" >}}
 Het **domein van een functie** lees je af op een grafiek door de grafiek te **projecteren op de x-as**.
-{{% /attention %}}
+{{< /attention >}}
 
-{{% attention "Beeld aflezen op een grafiek" %}}
+{{< attention "Beeld aflezen op een grafiek" >}}
 Het **beeld van een functie** lees je af op een grafiek door de grafiek te **projecteren op de y-as**.
-{{% /attention %}}
+{{< /attention >}}

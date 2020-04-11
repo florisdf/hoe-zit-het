@@ -2,6 +2,7 @@
 title: "Merkwaardige producten"
 date: 2018-12-03T23:21:36+01:00
 weight: 6
+wiski: "http://wiski.be/oefenen/merkwaardige-producten/take"
 draft: false
 images: []
 ---
@@ -83,7 +84,7 @@ omdat het gelijk is aan $0$.
 
 De uitkomsten zijn samengevat in de onderstaande tabel.
 
-{{% attention "Te onthouden" %}}
+{{< attention "Te onthouden" >}}
 De drie **merkwaardige producten** zijn:
 \begin{equation}
     (a + b )^2 = a^2 + 2ab + b^2
@@ -94,7 +95,7 @@ De drie **merkwaardige producten** zijn:
 \begin{equation}
     (a + b ) \cdot (a - b) = a^2 - b^2
 \end{equation}
-{{% /attention %}}
+{{< /attention >}}
 
 ## **BLACK OUT**
 Stel dat je de bovenstaande formules ooit zou vergeten, niet panikeren. Je kan

@@ -3,6 +3,7 @@ title: "Volgorde van de bewerkingen"
 date: 2018-10-19T22:00:00+02:00
 weight: 3
 draft: false
+wiski: "http://wiski.be/oefenen/volgorde-van-bewerkingen-0/take"
 tags: ["Rekenregels", "Volgorde van de bewerkingen"]
 categories: ["wiskunde", "getallen", "1e middelbaar"]
 images: []
@@ -10,7 +11,7 @@ images: []
 Over rekenregels gaan we vaak nogal snel over. De volledige wiskunde is echter
 uit die rekenregels ontstaan en bouwt erop verder. Als we de rekenregels dus
 niet grondig begrijpen, staat onze wiskunde op losse schroeven. Misschien
-daarom toch nog eens best alles proper opsommen (ba dum tss :drum: :trollface:).
+daarom toch nog eens best alles proper opsommen (ba dum tss :drum:).
 
 ## De verkeersregels van het rekenen
 Hoe moet je een wiskundige uitdrukking als
@@ -55,19 +56,19 @@ Welke van die manieren is juist: methode \ref{eq:sumfirst}, \ref{eq:multfirst} o
 \ref{eq:expfirst}? De **volgorde van de bewerkingen** geeft ons enkele
 voorrangsregels voor berekeningen zoals $\vba$.
 
-{{% attention "Afspraak" %}}
+{{< attention "Afspraak" >}}
 Bij bewerkingen spreken we de volgende **voorrangsregels** af (A.K.A. *de
 volgorde van de bewerkingen*):
 
-1. **Haakjes** hebben voorrang op **alles**;\\
-2. **Machten** {{% mute "(en wortels)" %}} hebben voorrang op
-**vermenigvuldigingen** {{% mute "(en delingen)" %}};\\
-3. **Vermenigvuldingen** {{% mute "(en delingen)" %}} hebben voorrang op
-   **optellingen** {{% mute "(en aftrekkingen)"%}};
-4. **Optellingen** {{% mute "(en aftrekkingen)"%}} hebben voorrang op **niets**.
-{{% /attention %}}
+1. **Haakjes** hebben voorrang op **alles**;
+2. **Machten** {{< mute "(en wortels)" >}} hebben voorrang op
+**vermenigvuldigingen** {{< mute "(en delingen)" >}};
+3. **Vermenigvuldingen** {{< mute "(en delingen)" >}} hebben voorrang op
+   **optellingen** {{< mute "(en aftrekkingen)">}};
+4. **Optellingen** {{< mute "(en aftrekkingen)">}} hebben voorrang op **niets**.
+{{< /attention >}}
 
-De {{% mute "lichtgrijze" %}} bewerkingen hebben dezelfde voorrang als de
+De {{< mute "lichtgrijze" >}} bewerkingen hebben dezelfde voorrang als de
 bewerking waar ze bij staan. Een vermenigvuldiging en een deling hebben dus
 allebei voorrang op een som en een aftrekking. Wanneer twee zulke bewerkingen
 na elkaar geschreven staan (dus bv. een deling en dan een vermenigvuldiging),
@@ -91,7 +92,7 @@ $$ 4 - 5 \cdot \clra{8 ^ 2} = 4 - 5 \cdot \clra{64}$$
 
 Nu hebben we de uitdrukking $4 - 5 \cdot 64$ met nog twee bewerkingen:
 min en maal. Eerst $\clra{4 - 5}$ of eerst $\clra{5 \cdot 64}$?
-*"Vermenigvuldingen hebben voorrang op optellingen {{% mute "(en aftrekkingen)" %}}"*, dus:
+*"Vermenigvuldingen hebben voorrang op optellingen {{< mute "(en aftrekkingen)" >}}"*, dus:
 
 $$ 4 - \clra{5 \cdot 64} = 4 - \clra{320} $$
 
@@ -167,13 +168,13 @@ stoppen we dan in de oorspronkelijke uitdrukking.
         &= \sqrt{\clra{-6 + 50}} \\\\\
         &= \sqrt{\clra{44}} \\\\\
         &= \clra{\sqrt{44}} \\\\\
-        &\approx \clra{6.63\ldots}
+        &\approx \clra{6{,}63\ldots}
     \end{split}
 \end{equation}
 
 De oorspronkelijke uitdrukking wordt dus:
-$$-5^3 + \frac{\clra{6.63\ldots}}{2}$$
+$$-5^3 + \frac{\clra{6{,}63\ldots}}{2}$$
 
 Hier kan je weer de volgorde van de bewerkingen op toepassen. Je zult vinden
-dat de uitdrukking gelijk is aan $\clra{-121.6}$ (afgerond op 1 cijfer na de
+dat de uitdrukking gelijk is aan $\clra{-121{,}6}$ (afgerond op 1 cijfer na de
 komma).

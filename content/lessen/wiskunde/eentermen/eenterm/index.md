@@ -2,6 +2,7 @@
 title: "Wat is een eenterm?"
 date: 2019-11-05T07:44:36+02:00
 weight: 2
+wiski: "http://wiski.be/oefenen/rekenen-met-lettervormen/take"
 draft: false
 images: []
 ---
@@ -17,13 +18,13 @@ Enkele voorbeelden:
 * De eenterm $\orange{-\frac{2}{3}x^2z^2}$ is een product van
   $\orange{-\frac{2}{3}}$, $\orange{x^2}$ en $\orange{z^2}$
 
-{{% expand "Waar is het maalteken naartoe?" %}}
+{{< expand "Waar is het maalteken naartoe?" >}}
 We hoeven het maalteken ($\cdot$) niet te schrijven wanneer we variabelen met
 elkaar vermenigvuldigen. $a\cdot b^2$ mogen we dus korter schrijven als $ab^2$.
 
 Ook wanneer we een getal met een variabele vermenigvuldigen, mogen we het
 maalteken achterwege laten. $2\cdot x^3$ zullen we korter schrijven als $2x^3$.
-{{% /expand %}}
+{{< /expand >}}
 
 Ook wanneer een getal of variabele **alleen** staat, spreken we van een
 eenterm. De volgende voorbeelden zijn dus ook eentermen:
@@ -62,7 +63,7 @@ Merk op de het **minteken** altijd deel uitmaakt van een van de factoren.
 
 ## Coëfficiënt en lettergedeelte
 
-De factoren van een eenterm kunnen {{% mute "(machten van)" %}} getallen of
+De factoren van een eenterm kunnen {{< mute "(machten van)" >}} getallen of
 variabelen zijn.  De factoren die **getallen** zijn, vormen het cijfergedeelte
 of de **coëfficiënt** van de eenterm. Het **toestandsteken hoort ook bij de
 coëfficiënt** van de eenterm. De factoren die **variabelen** zijn, vormen het
@@ -99,7 +100,7 @@ andere voorbeelden:
 De graad van een eenterm is de **som van de exponenten** van alle variabelen.
 De eenterm $-4xy^\blue{3}$, bijvoorbeeld, is van de **vierde graad** omdat er
 bij $x$ een macht van $\orange{1}$ staat
-{{% mute "(die schrijven we niet)" %}} en bij $y$ een macht van $\blue{3}$:
+{{< mute "(die schrijven we niet)" >}} en bij $y$ een macht van $\blue{3}$:
 $-4x^\orange{1}y^\blue{3}$ en $\orange{1} + \blue{3} = 4$.
 
 |                Eenterm               |                                                       Graad                                                       |
@@ -112,8 +113,8 @@ $-4x^\orange{1}y^\blue{3}$ en $\orange{1} + \blue{3} = 4$.
 
 We kunnen ook de graad opdelen **per variabele**. De eenterm
 $-4x^\orange{2}y^\blue{3}$, bijvoorbeeld, is van de
-{{% class "**tweede graad in $x$**" "orange" %}} en van de
-{{% class "**derde graad in $y$**" "blue" %}}.
+**{{< class "tweede graad in $x$" "orange" >}}** en van de
+**{{< class "derde graad in $y$" "blue" >}}**.
 
 |                Eenterm               |                    Graad per variabele                   |
 |               ---------              |                        ----------                        |
@@ -124,7 +125,7 @@ $-4x^\orange{2}y^\blue{3}$, bijvoorbeeld, is van de
 
 ## Samengevat
 
-{{% attention "Wat is een eenterm?" %}}
+{{< attention "Wat is een eenterm?" >}}
 
 * Een **eenterm** is een product van getallen en variabelen.
 * De **getallen en het toestandsteken** vormen de **coëfficiënt** van de eenterm.
@@ -132,9 +133,9 @@ $-4x^\orange{2}y^\blue{3}$, bijvoorbeeld, is van de
 * De **exponenten van de variabelen** moeten **natuurlijke getallen** zijn en er
   mogen **geen variabelen in een noemer** staan.
 
-{{% /attention %}}
+{{< /attention >}}
 
-{{% attention "Gelijksoortige eentermen" %}}
+{{< attention "Gelijksoortige eentermen" >}}
 Twee eentermen zijn **gelijksoortig** als en slechts als ze **hetzelfde
 lettergedeelte** hebben.
-{{% /attention %}}
+{{< /attention >}}

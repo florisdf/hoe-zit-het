@@ -1,0 +1,8 @@
+{{ with .Params.wiski }}
+    <span class="h2">
+        {{ partial "svg/svg_substitute" (dict  "svg_file" "/icons/pencil.svg" "new_color" $.Parent.Params.section_color ) }}
+    </span>
+    <a class="link" href="{{ . }}" style="color: inherit;">
+        Oefeningen maken
+    </a>
+{{ end }}

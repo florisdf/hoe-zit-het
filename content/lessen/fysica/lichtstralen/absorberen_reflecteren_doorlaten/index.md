@@ -36,7 +36,7 @@ wit licht. Het bijzondere aan wit licht is dat het **alle kleuren bevat**. Ook
 oranje. Als wit licht invalt op een sinaasappel, zal die er dus wel oranje
 uitzien.
 
-{{% svg "img/white_light.svg" %}}
+{{< svg "img/white_light.svg" >}}
 
 ## Absorberen
 Voorwerpen die er donker uitzien, absorberen veel van het
@@ -45,7 +45,7 @@ invallende licht. Dat betekent dat invallende lichtstralen lijken te
 voorwerp, spreken we over **volledige absorptie** en is het voorwerp
 **pikzwart**.
 
-{{% svg "img/absorptie.svg" %}}
+{{< svg "img/absorptie.svg" >}}
 
 ## Reflecteren
 We spreken over reflectie wanneer invallend licht weggekaatst
@@ -55,10 +55,10 @@ lichtstralen behouden** en zie je het gespiegeld voorwerp quasi even duidelijk
 als wanneer je er rechtstreeks naar zou kijken. Dit noemen we **gerichte
 reflectie**.
 
-{{% svg "img/reflectie.svg" %}}
+{{< svg "img/reflectie.svg" >}}
 
 De meeste voorwerpen zijn echter **niet spiegelend**. Een wit voorwerp dat niet
-spiegelt {{% mute "(bijvoorbeeld een wit geverfde muur)" %}}, weerkaatst alle
+spiegelt {{< mute "(bijvoorbeeld een wit geverfde muur)" >}}, weerkaatst alle
 invallende stralen maar **verandert de volgorde van de invallende stralen** op
 een willekeurige manier. Hierdoor kan je jezelf niet spiegelen in een witte
 muur. We spreken dan van **diffuse reflectie**.
@@ -68,13 +68,13 @@ Reflectie gaat ook vaak gepaard met absorptie.
 **Sommige kleuren van het invallend licht worden gereflecteerd, terwijl andere
 kleuren worden geabsorbeerd.**
 
-{{% svg "img/absorptie_reflectie.svg" %}}
+{{< svg "img/absorptie_reflectie.svg" >}}
 
 Een sinaasappel absorbeert vooral de paarse, blauwe, groene,... kleuren van wit
 licht en reflecteert voornamelijk de oranje kleuren. Er komen dan oranje
 lichtstralen van de sinaasappel waardoor die oranje lijkt te zijn.
 
-{{% svg "img/orange.svg" %}}
+{{< svg "img/orange.svg" >}}
 
 ## Licht doorlaten
 Tenslotte kan een voorwerp ook licht doorlaten. Het meest
@@ -83,7 +83,7 @@ alledaagse voorbeeld hiervan is **glas**. **Doorzichtig** glas is glas dat de
 voorwerp dat achter doorzichtig glas staat quasi even duidelijk als wanneer je
 er rechtstreeks naar zou kijken.
 
-{{% svg "img/licht_doorlaten.svg" %}}
+{{< svg "img/licht_doorlaten.svg" >}}
 
 We noemen een voorwerp **doorschijnend** als het lichtstralen
 doorlaat, maar de **volgorde van de invallende

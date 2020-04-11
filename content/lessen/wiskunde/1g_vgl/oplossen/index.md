@@ -3,6 +3,7 @@ title: "Hoe oplossen?"
 date: 2019-01-10T18:10:30+01:00
 weight: 3
 draft: false
+wiski: "http://wiski.be/oefenen/eerstegraadsvergelijkingen/take"
 tags: ["vergelijkingen", "algebra"]
 categories: ["wiskunde", "algebra"]
 level: "2M"
@@ -11,7 +12,7 @@ topic: "algebra"
 images: []
 ---
 Een [vergelijking](../intro) van de eerste graad in één onbekende $x$ is een vergelijking
-waar er maar één onbekende is {{% mute "(genaamd $x$)" %}} en waarbij de
+waar er maar één onbekende is {{< mute "(genaamd $x$)" >}} en waarbij de
 **hoogste macht van die $x$ gelijk is aan $1$**. Bijvoorbeeld de
 vergelijking
 
@@ -35,7 +36,7 @@ De drie stappen zijn:
 
 1. **Schoonmaakwerk**: vereenvoudig het linker- en rechterlid zodat er langs
 beide kanten iets staat van de vorm $a x + b$
-{{% mute "(met $a, b \in \mathbb{R}$)" %}};
+{{< mute "(met $a, b \in \mathbb{R}$)" >}};
 2. **Alle $x$-en naar links**: vorm de vergelijking om zodat enkel het
 linkerlid nog $x$-en bevat;
 3. **Alle getallen naar rechts**: vorm de vergelijking om zodat alle getallen in
@@ -106,7 +107,7 @@ naar het rechterlid. Dat doen we ook in twee stappen.
 2. Deel het linker- en rechterlid door de $a$ zodat $a$ verdwijnt uit het
    linkerlid.
 
-In de eerste stap trekken we $b\_{links}$ {{% mute "($= -2$)" %}} af van het linker- en rechterlid:
+In de eerste stap trekken we $b\_{links}$ {{< mute "($= -2$)" >}} af van het linker- en rechterlid:
 \begin{split}
     \Leftrightarrow -5x - 2 &= 12\\\\\
     \Leftrightarrow -5x - 2 \orange{- (-2)} &= 12 \orange{- (-2)}\\\\\
@@ -126,7 +127,7 @@ met nog maar één getal in het rechterlid. Hierbij is
 \end{split}
 
 Nu moeten we enkel nog de $a$ links weg krijgen. Dat kunnen we doen door het
-linker- en rechterlid te delen door $a$ {{% mute "($= -5$)" %}}.
+linker- en rechterlid te delen door $a$ {{< mute "($= -5$)" >}}.
 
 \begin{split}
     \Leftrightarrow -5x &= 14\\\\\
@@ -139,7 +140,7 @@ Et voilà! We hebben $x$ gevonden! De [oplossingsverzameling](../intro#oplossing
 is $V = \\{-\frac{14}{5}\\}$.
 
 ## Samengevat
-{{% attention "Oplossen van een vergelijking in de eerste graad met één onbekende" %}}
+{{< attention "Oplossen van een vergelijking in de eerste graad met één onbekende" >}}
 Om een vergelijking op te lossen van de eerste graad met één onbekende, volgen we drie stappen:
 
 1. Kuis de vergelijking op tot iets van de vorm $$a\_{links}\cdot x + b\_{links} = a\_{rechts}\cdot x + b\_{rechts}$$
@@ -152,4 +153,4 @@ Om een vergelijking op te lossen van de eerste graad met één onbekende, volgen
    De oplossing is
    $$x = \frac{b}{a}$$
    met $a \in \mathbb{R}_0$, $b \in \mathbb{R}$.
-{{% /attention %}}
+{{< /attention >}}

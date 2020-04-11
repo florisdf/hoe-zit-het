@@ -2,6 +2,7 @@
 title: "Grafieken van functies"
 date: 2018-10-01T22:13:11+02:00
 weight: 4
+wiski: "https://hoezithet.nu/lessen/wiskunde/functies/grafiek/"
 draft: false
 tags: ["Functies", "grafieken", "plot", "Analyse"]
 categories: ["wiskunde", "analyse", "3e middelbaar"]
@@ -30,12 +31,12 @@ $\green{y = 1{,}5}$. We kunnen dit voorstellen door een puntje met coördinaten
 $(\orange{5};~\green{1{,}5})$.
 {{< mute "(Probeer eens op het puntje te klikken.)" >}}
 
-{{% bokeh "plt/single_x.json" %}}
+{{< bokeh "plt/single_x.json" >}}
 
 Zo kunnen we alle rijen in onze waardentabel voorstellen als puntjes in een
 assenstelsel.
 
-{{% bokeh "plt/multiple_x.json" %}}
+{{< bokeh "plt/multiple_x.json" >}}
 
 ## Veel puntjes vormen een curve
 We laten ons even gaan en we zoeken $f(\orange{x})$ voor waanzinnig veel
@@ -45,11 +46,11 @@ $\orange{-0{,}98}$, $\orange{-0{,}97}$ enzovoort tot $\orange{9}$). Wat gebeurt
 er als we die enorme hoeveelheid puntjes nu op een assenstelsel zetten? We
 krijgen deze mooie figuur:
 
-{{% bokeh "plt/loads_of_x.json" %}}
+{{< bokeh "plt/loads_of_x.json" >}}
 
 We hebben nu zoveel puntjes op ons assenstelsel dat we eigenlijk niet meer zien
 dat het *aparte* puntjes zijn. Het zijn wel degelijk aparte puntjes
-{{% mute "(beweeg maar eens over de grafiek)" %}},
+{{< mute "(beweeg maar eens over de grafiek)" >}},
 maar we zien het als **één doorlopende curve**.
 Deze curve noemen we de **grafiek van de functie**.
 
@@ -62,4 +63,4 @@ hieronder is een voorbeeld van een curve waar er voor bepaalde waarden van $x$
 functie van** $x$. Zonder het onderste stukje dat lijkt "terug te keren" is
 $y$ *wel* een functie van $x$.
 
-{{% bokeh "plt/no_fx.json" %}}
+{{< bokeh "plt/no_fx.json" >}}
