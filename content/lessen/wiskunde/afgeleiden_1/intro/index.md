@@ -39,61 +39,36 @@ wint.
 De wagens halen enorme snelheden tot meer dan $500~\si{km/h}$. Hieronder zie je
 enkele luchtfoto's van Maria in haar *Top Fuel dragster* tijdens het dragracen.
 
-(functie $f(x) = 20x^2$ met x in seconden en y in meter)
+{{< svg "img/maria_race_top.svg" "" >}}
 
-In deze les gaan we twee vragen proberen beantwoorden: wat was de **gemiddelde
-snelheid** van Maria en **met welke snelheid reed ze over de eindmeet**?
+We gaan in deze les twee vragen proberen beantwoorden over de dragrace die je
+hierboven op de luchtfoto's ziet:
+
+1. Wat was de **gemiddelde snelheid** van Maria?
+2. Met welke snelheid reed Maria **over de eindmeet**?
 
 
 ## Gemiddelde snelheid
 
-Door het verschil van de eindtijd en de begintijd te nemen, kunnen we voor
-Dirk en Maria berekenen **hoe lang** ze beiden hebben gelopen:
+Om de gemiddelde snelheid van Maria te berekenen, moeten we weten **hoeveel
+afstand** ze heeft afgelegd in **welke tijd**. We weten dat een dragrace altijd
+over een afstand van $300~\si{m}$ gaat. Op de luchtfoto net voor Maria over de
+finish ging, kunnen we zien wat haar tijd tot de finish was:
 
 (illustratie)
 
-We noteren dit voor Dirk als:
+Haar gemiddelde snelheid is dus gelijk aan:
 
-$$t\_{eind,D} - t\_{begin,D} = 45~\si{s} - 20~\si{s} = 25~\si{s}$$
+$$\frac{\text{afstand}}{\text{tijd}} = \frac{300~\si{m}}{3{,}87~\si{s}} = 77{,}5~\si{m/s}$$
 
+Uit onze [lessen fysica](../../../fysica/grootheden_eenheden/eenheden_omzetten) weten we dat
+$1~\si{m/s} = 3{,}6~\si{km/h}$. Maria had dus een gemiddelde snelheid van
 
-En voor Maria als:
-$$t\_{eind,M} - t\_{begin,M} = 48~\si{s} - 20~\si{s} = 28~\si{s}$$
+$$77{,}5\cdot3{,}6~\si{km/h} = 279~\si{km/h}$$
 
-Of korter:
+Lekker snel! :rocket:
 
-$$\Delta t\_D = 45~\si{s} - 20~\si{s} = 25~\si{s}$$
-$$\Delta t\_{M} = 48~\si{s} - 20~\si{s} = 28~\si{s}$$
-
-
-{{< expand "Wat is die $\Delta$?" >}}
-
-Het symbool "$\Delta$" (een Griekse *delta*), gebruiken we om een *verschil*
-korter te schrijven. Het betekent gewoon "het verschil van het einde en het
-begin".
-
-In plaats van $t\_{eind} - t\_{begin}$ kunnen we dus veel korter schrijven $\Delta t$:
-
-
-$t\_{eind} - t\_{begin} = \Delta t$
-
-{{< /expand >}}
-
-Dirk liep dus $100~\si{m}$ in $25~\si{s}$ en Maria liep $100~\si{m}$ in
-$28~\si{s}$.
-
-Hun **gemiddelde snelheid** vinden we door hun **afgelegde
-afstand te delen door de tijd** die ze nodig hadden:
-
-$$v\_{gem} = \frac{x\_{einde} - x\_{begin}}{t\_{einde} - t\_{begin}}$$
-
-Voor Dirk wordt dit:
-
-$$v_{gem, D} = \frac{100~\si{m} - 0~\si{m}}{25~\si{s}}$$
-
-Als Dirk zijn gemiddelde snelheid berekent doet hij dit over een tijdsinterval, bijvoorbeeld tussen de starttijd en de eindtijd. Maar met de formule kan je over elk tijdsinterval de gemiddelde snelheid berekenen.
-
-Als we nu dit tijdsinterval heel klein maken spreken we niet meer van een gemiddelde snelheid, maar van een **ogenblikkelijke snelheid**. De snelheid die onze lopers op een bepaald tijdstip hadden.
+## Differentiequotiënt
 
 ## Gemiddeld vs. ogenblikkelijk
 
