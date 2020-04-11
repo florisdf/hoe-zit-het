@@ -19,27 +19,28 @@ bijvoorbeeld $100~\si{km}$ in $2~\si{h}$, dan reed hij gemiddeld
 $50~\si{km/h}$. Dat betekent echter **niet dat de wagen voortdurend
 $50~\si{km/h}$ reed**. Soms reed hij waarschijnlijk iets sneller, soms iets
 trager, soms stond de wagen misschien even stil voor een rood licht... Die
-gemiddelde snelheid leert ons niets over hoe snel de wagen bijvoorbeeld reed om
-16u30. Soms zijn we echter wel geïnteresseerd in de **snelheid op een bepaald
-tijdstip**. In deze les leren we voor het eerst over **afgeleiden**. Een
-afgeleide is eigenlijk een veralgemening van die **ogenblikkelijke snelheid**.
-Met behulp van een afgeleide zullen we vragen als "Hoe snel reed de wagen om
-16u30?" wél kunnen beantwoorden.
+gemiddelde snelheid leert ons niets over hoe snel de wagen bijvoorbeeld reed
+wanneer hij voorbij een flitspaal reed. Soms zijn we echter wel geïnteresseerd
+in de **snelheid op een bepaald tijdstip**. In deze les leren we voor het eerst
+over **afgeleiden**. Een afgeleide is eigenlijk een veralgemening van die
+**ogenblikkelijke snelheid**.  Met behulp van een afgeleide zullen we vragen
+als "Met welke snelheid reed de wagen voorbij de flitspaal?" wél kunnen
+beantwoorden.
 
 
-# Dragracen met Maria en Dirk
+## Dragracen met Maria en Dirk
 
 Als voorbeeld voor deze les, gaan we een van de favoriete hobby's van Maria en
 Dirk gebruiken: dragracen.  Bij dragracen vertrekken twee wagens vanuit
 stilstand en racen ze $300~\si{m}$ in een rechte lijn. De eerste aan de finish
 wint.
 
-{{< svg "img/drag_racing.svg" "Maria en Dirk die tegen elkaar dragracen en bijna aan de finish zijn." >}}
+{{< svg "img/drag_racing.svg" "Maria racet en is bijna aan de finish." >}}
 
 De wagens halen enorme snelheden tot meer dan $500~\si{km/h}$. Hieronder zie je
 enkele luchtfoto's van Maria in haar *Top Fuel dragster* tijdens het dragracen.
 
-{{< svg "img/maria_race_top.svg" "" >}}
+{{< svg "img/maria_race_top.svg" "Luchtfoto's van Maria tijdens haar race." >}}
 
 We gaan in deze les twee vragen proberen beantwoorden over de dragrace die je
 hierboven op de luchtfoto's ziet:
@@ -55,7 +56,7 @@ afstand** ze heeft afgelegd in **welke tijd**. We weten dat een dragrace altijd
 over een afstand van $300~\si{m}$ gaat. Op de luchtfoto net voor Maria over de
 finish ging, kunnen we zien wat haar tijd tot de finish was:
 
-(illustratie)
+{{< svg "img/maria_avg_speed.svg" "Maria aan het begin en einde van haar race." >}}
 
 Haar gemiddelde snelheid is dus gelijk aan:
 
