@@ -3,11 +3,8 @@ title: "Voortplanting van lichtstralen"
 date: 2019-01-28T18:38:31+01:00
 weight: 2
 draft: false
-tags: []
-categories: []
-level: ""
-course: ""
-topic: ""
+tags: ["homogene middenstof", "lichtbreking", "lichtstraal", "niet-homogene middenstof", "voortplanting van lichtstralen"]
+description: "Hoe bewegen lichtstralen? Hoe planten lichtstralen zich voort? Deze les legt illustratief uit hoe lichtstralen zich voortplanten in homogene en niet-homogene middenstoffen."
 images: ['/lessen/fysica/lichtstralen/voortplanting/img/rechtlijnige_voortplanting.png', '/lessen/fysica/lichtstralen/voortplanting/img/zonder_bril.png', '/lessen/fysica/lichtstralen/voortplanting/img/met_bril.png', '/lessen/fysica/lichtstralen/voortplanting/img/niet_homogeen.png']
 ---
 

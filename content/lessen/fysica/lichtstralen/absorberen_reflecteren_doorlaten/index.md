@@ -3,11 +3,8 @@ title: "Licht absorberen, reflecteren en doorlaten"
 date: 2019-01-28T18:36:58+01:00
 weight: 6
 draft: false
-tags: []
-categories: []
-level: ""
-course: ""
-topic: ""
+tags: ["absorptie", "diffuse reflectie", "directe reflectie", "doorschijnend", "doorzichtig", "doorzichtigheid", "gerichte reflectie", "kleur","lichtstraal", "licht", "licht absorberen", "licht doorlaten", "licht reflecteren", "ondoorschijnend", "ondoorzichtig", "optica", "reflectie", "wit licht"]
+description: "Wat is absorptie en reflectie van licht? Wat betekent het om licht door te laten? We leggen het in deze les uit op een illustratieve manier. Naast de gerichte reflectie van spiegels en de absorptie van zwarte voorwerpen, leggen we uit hoe een combinatie van diffuse reflectie en absorptie ervoor kan zorgen dat voorwerpen een bepaalde kleur krijgen. Ook geeft de les een duidelijke illustratie van doorzichtige, doorschijnende en ondoorschijnende voorwerpen."
 images: ['/lessen/fysica/lichtstralen/absorberen_reflecteren_doorlaten/img/white_light.png', '/lessen/fysica/lichtstralen/absorberen_reflecteren_doorlaten/img/absorptie.png', '/lessen/fysica/lichtstralen/absorberen_reflecteren_doorlaten/img/reflectie.png', '/lessen/fysica/lichtstralen/absorberen_reflecteren_doorlaten/img/absorptie_reflectie.png', '/lessen/fysica/lichtstralen/absorberen_reflecteren_doorlaten/img/orange.png', '/lessen/fysica/lichtstralen/absorberen_reflecteren_doorlaten/img/licht_doorlaten.png']
 ---
 Een [donker lichaam](../lichtbronnen#donkere-lichamen) is een voorwerp dat

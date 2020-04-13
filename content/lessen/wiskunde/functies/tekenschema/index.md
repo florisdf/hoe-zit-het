@@ -3,11 +3,8 @@ title: "Tekenschema"
 date: 2019-01-04T18:56:13+01:00
 weight: 7
 draft: false
-tags: ["Functies", "Analyse"]
-categories: ["wiskunde", "analyse", "3e middelbaar"]
-level: "3M"
-course: "wiskunde"
-topic: "analyse"
+tags: ["tekenschema", "tekenschema van een functie", "tekenschema opstellen", "tekenverloop van een functie", "tekentabel van een functie"]
+description: "Wat is het tekenschema van een functie? Hoe kan je het tekenschema van een functie opstellen? We tonen in deze les hoe je een tekenschema kan opstellen met behulp van vergelijkingen en met behulp van een grafiek."
 images: ['/lessen/wiskunde/functies/tekenschema/plt/tekenschema.png']
 ---
 Naast het kennen van [de nulpunten](../nulpunten) van een functie, is het ook

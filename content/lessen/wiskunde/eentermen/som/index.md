@@ -4,6 +4,8 @@ date: 2020-01-09T07:02:25+01:00
 weight: 4
 wiski: "http://wiski.be/oefenen/rekenen-met-lettervormen/take"
 draft: false
+tags: ["algebra", "eenterm", "eentermen aftrekken", "eentermen optellen", "gelijksoortige eenterm", "getallenleer", "veelterm"]
+description: "Hoe kan je eentermen optellen en aftrekken? In deze les leggen we het aan de hand van een voorbeeld uit. We doen dit door eerst alle eentermen te vereenvoudigen, vervolgens de gelijksoortige eentermen aan te duiden om ten slotte de coëfficiënten per soort op te tellen. "
 images: []
 ---
 

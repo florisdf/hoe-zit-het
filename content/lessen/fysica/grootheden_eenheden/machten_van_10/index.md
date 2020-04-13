@@ -3,11 +3,8 @@ title: "Machten van 10"
 date: 2019-01-28T08:06:49+01:00
 weight: 2
 draft: false
-tags: ["grootheden_eenheden", "machten_van_10"]
-categories: ["grootheden_eenheden", "machten_van_10"]
-level: "3M"
-course: "Fysica"
-topic: "grootheden_eenheden"
+tags: ["macht van 10", "machtsverheffing"]
+description: "Warvoor gebruiken we machten van 10? Deze les legt uit waarom we machten van 10 nodig hebben en hoe je ermee kan rekenen. De concepten worden heel visueel uitgelegd aan de hand van kleurtjes etc."
 images: []
 ---
 

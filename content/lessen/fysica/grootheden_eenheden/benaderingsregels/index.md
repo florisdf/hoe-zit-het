@@ -3,11 +3,8 @@ title: "Benaderingsregels"
 date: 2019-01-28T08:07:39+01:00
 weight: 7
 draft: false
-tags: ["grootheden_eenheden", "benaderingsregels"]
-categories: ["grootheden_eenheden", "benaderingsregels"]
-level: "3M"
-course: "Fysica"
-topic: "grootheden_eenheden"
+tags: ["afronden", "benaderingsregels", "benaderingsregels voor optelling", "benaderingsregels voor vermenigvuldiging", "bewerking", "meting"]
+description: "Wat zijn de benaderingsregels? En waarom is het belangrijk dat we benaderingsregels gebruiken? In deze les leggen we dat uit en tonen we hoe je moet afronden bij het toepassen van de benaderingsregels en welke benaderingsregels er zijn voor optellen/aftrekken en vermenigvuldigen/delen."
 images: ['/lessen/fysica/grootheden_eenheden/benaderingsregels/img/lego_meetlat.png', '/lessen/fysica/grootheden_eenheden/benaderingsregels/img/lego_100_bricks.png', '/lessen/fysica/grootheden_eenheden/benaderingsregels/img/lego_schuifmaat.png', '/lessen/fysica/grootheden_eenheden/benaderingsregels/img/lego_100_measured.png', '/lessen/fysica/grootheden_eenheden/benaderingsregels/img/lego_100_correct_margin.png', '/lessen/fysica/grootheden_eenheden/benaderingsregels/img/lego_100_wrong_margin.png']
 ---
 Als we berekeningen doen met metingen, moeten we altijd in ons achterhoofd

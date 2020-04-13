@@ -3,6 +3,8 @@ title: "Kracht als vector"
 date: 2019-05-24T11:03:10+02:00
 weight: 2
 draft: false
+description: "Waarom is kracht een vectoriële grootheid? En wat wil dat zeggen? In deze les leggen we met veel illustraties uit hoe het komt dat een kracht vectorieel is, en wat dat precies wilt zeggen."
+tags: ["aangrijpingspunt", "grootte", "kracht", "krachtvector", "Newton", "vector", "vectoriële grootheid"]
 images: ['/lessen/fysica/krachten_1/krachtvector/img/krachtvector.png', '/lessen/fysica/krachten_1/krachtvector/img/dirk_duwt_maria.png', '/lessen/fysica/krachten_1/krachtvector/img/grootte.png', '/lessen/fysica/krachten_1/krachtvector/img/richting.png', '/lessen/fysica/krachten_1/krachtvector/img/zin.png', '/lessen/fysica/krachten_1/krachtvector/img/aangrijpingspunt.png', '/lessen/fysica/krachten_1/krachtvector/img/grootte_richting_zin.png']
 ---
 [Kracht](../intro) is een maat voor hoe er geduwd of getrokken wordt. Een van

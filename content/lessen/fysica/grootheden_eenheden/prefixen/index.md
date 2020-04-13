@@ -3,11 +3,8 @@ title: "Prefixen"
 date: 2019-01-28T08:05:35+01:00
 weight: 3
 draft: false
-tags: []
-categories: []
-level: ""
-course: ""
-topic: ""
+tags: ["eenheid", "grootheid", "prefix", "SI-prefix", "SI-voorvoegsel", "voorvoegsel"]
+description: "Wat zijn voorzetsels of prefixen en waarom we ze nodig hebben? Deze les legt het uit en toont hoe je voorvoegsels kan wegwerken, toevoegen en omzetten. We vertellen ook wat er gebeurt met eenheden die een exponent hebben (kubieke en vierkante)."
 images: []
 ---
 We kunnen grootheden zoals *lengte* beschrijven met eenheden zoals *meter*. In een vorige les zagen we dat elke [grootheid een officiële SI-eenheid heeft](../intro#si-eenheden-maken-duidelijke-afspraken). De officiële eenheid van *tijd* is bijvoorbeeld de seconde.

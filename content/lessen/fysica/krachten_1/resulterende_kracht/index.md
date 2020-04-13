@@ -3,6 +3,8 @@ title: "Resulterende kracht"
 date: 2019-05-24T11:04:17+02:00
 weight: 7
 draft: false
+tags: ["kop-staartmethode", "kracht", "krachtvector", "Newton", "parallellogram-methode", "puntmassa", "resulterende kracht", "resulterende kracht tekenen", "Zwaartekracht"]
+description: "Hoe teken je de resulterende kracht? Deze les legt uit hoe je dat doet eens je alle krachten kent die op een voorwerp inwerken. Er kunnen namelijk meerdere krachten tegelijk inwerken op een voorwerp. Om te weten wat er met het voorwerp zal gebeuren, moeten we die krachten combineren tot een resulterende kracht."
 images: ['/lessen/fysica/krachten_1/resulterende_kracht/img/maria_drop.png', '/lessen/fysica/krachten_1/resulterende_kracht/img/maria_drop_krachten.png', '/lessen/fysica/krachten_1/resulterende_kracht/img/add_krachten.png']
 ---
 Er kunnen meerdere [krachten](../intro) tegelijk inwerken op een voorwerp. Om

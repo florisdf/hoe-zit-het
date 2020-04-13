@@ -3,11 +3,8 @@ title: "Maanfasen en zonsverduistering"
 date: 2019-01-28T18:38:31+01:00
 weight: 5
 draft: false
-tags: []
-categories: []
-level: ""
-course: ""
-topic: ""
+tags: ["aarde", "bijschaduw", "diffuse lichtbron", "kernschaduw", "maan", "maanfasen", "maansverduistering", "schijngestalten van de maan", "zon", "zonsverduistering", "eclips"]
+description: "Wat zijn maanfasen of de schijngestalten van de maan? Hoe ontstaat een zonsverduistering? In deze les leggen we het je uit. Aan het einde van de les geven we enkele boeiende illustraties die de werkelijke schaal van de aarde, de maan en de zon tonen."
 images: ['/lessen/fysica/lichtstralen/maanfasen_en_zonsverduistering/img/zonsverduistering.png', '/lessen/fysica/lichtstralen/maanfasen_en_zonsverduistering/img/total_eclipse.jpg', '/lessen/fysica/lichtstralen/maanfasen_en_zonsverduistering/img/partial_eclipse.png', '/lessen/fysica/lichtstralen/maanfasen_en_zonsverduistering/img/annular_eclipse.jpg', '/lessen/fysica/lichtstralen/maanfasen_en_zonsverduistering/img/maanfasen_vanop_aarde.png', '/lessen/fysica/lichtstralen/maanfasen_en_zonsverduistering/img/maanfasen_zijaanzicht.png', '/lessen/fysica/lichtstralen/maanfasen_en_zonsverduistering/img/maanfasen_bovenaanzicht.png', '/lessen/fysica/lichtstralen/maanfasen_en_zonsverduistering/img/ecliptisch_vlak.png', '/lessen/fysica/lichtstralen/maanfasen_en_zonsverduistering/img/lunar_node_eclipses.png', '/lessen/fysica/lichtstralen/maanfasen_en_zonsverduistering/img/maansverduistering.png', '/lessen/fysica/lichtstralen/maanfasen_en_zonsverduistering/img/aarde_maan_op_schaal.png', '/lessen/fysica/lichtstralen/maanfasen_en_zonsverduistering/img/op_schaal.png', '/lessen/fysica/lichtstralen/maanfasen_en_zonsverduistering/img/op_schaal_enkel_groottes.png']
 ---
 Een zonsverduistering is een mooi voorbeeld van de

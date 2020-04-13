@@ -3,12 +3,11 @@ title: "Grafieken van functies"
 date: 2018-10-01T22:13:11+02:00
 weight: 4
 wiski: "https://hoezithet.nu/lessen/wiskunde/functies/grafiek/"
+description: "Hoe teken je de grafiek van een functie? In deze les to ene we hoe je de grafiek van een functie kan tekenen
+door gebruik te maken van de waardentabel. Ten slotte
+illustreren we hoe je grafisch een functie kan onderscheiden van een verband dat
+geen functie is."
 draft: false
-tags: ["Functies", "grafieken", "plot", "Analyse"]
-categories: ["wiskunde", "analyse", "3e middelbaar"]
-level: 3M
-course: wiskunde
-topic: analyse
 images: ['/lessen/wiskunde/functies/grafiek/plt/single_x.png', '/lessen/wiskunde/functies/grafiek/plt/multiple_x.png', '/lessen/wiskunde/functies/grafiek/plt/loads_of_x.png', '/lessen/wiskunde/functies/grafiek/plt/no_fx.png']
 ---
 We kunnen de waarden voor $\orange{x}$ en $\green{y}$ in een

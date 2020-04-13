@@ -3,11 +3,8 @@ title: "Eenheden omzetten"
 date: 2019-02-08T07:53:47+01:00
 weight: 4
 draft: false
-tags: []
-categories: []
-level: ""
-course: ""
-topic: ""
+tags: ["eenheden omzetten", "eenheid", "grootheid", "prefix", "SI-eenheid", "SI-prefix", "van kilometer per uur naar meter per seconde", "van meter per seconde naar kilometer per uur", "van kubieke meter naar liter", "van liter naar kubieke meter", "van kilogram per kubieke meter naar gram per milliliter", "van gram per milliliter naar kilogram per kubieke meter"]
+description: "Hoe kan je eenheden omzetten? Hoe zet je kilometer per uur om naar meter per seconde? Hoe zet je liter om naar kubieke meter? Deze les toont hoe we allerhande eenheden kunnen omzetten en waarom we zulke omzettingen zo nodig willen doen. De les bevat methoden om binnen dezelfde eenheid de prefix of SI-voorvoegsel te veranderen en om de eenheid van tijd, snelheid, volume en massadichtheid om te vormen."
 images: ['/lessen/fysica/grootheden_eenheden/eenheden_omzetten/img/liter_conversion.png']
 ---
 Vaak wordt er gevraagd om een eindresultaat te noteren in [SI-eenheden](../intro#si-eenheden-maken-duidelijke-afspraken), terwijl de opgave niet in SI-eenheden gegeven is. Dan is het belangrijk om die eenheden te kunnen omzetten naar de SI-eenheden.

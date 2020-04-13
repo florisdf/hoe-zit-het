@@ -4,6 +4,8 @@ date: 2019-12-04T08:20:36+02:00
 weight: 3
 wiski: "http://wiski.be/oefenen/rekenen-met-lettervormen/take"
 draft: false
+tags: ["algebra", "algebraïsche expressie", "eenterm", "eenterm vereenvoudigen", "variabele", "veelterm", "verband", "vereenvoudigen"]
+description: "Hoe kan je eentermen vereenvoudigen? In deze les leggen we het aan de hand van een voorbeeld uit. Eerst zien we hoe je haakjes kan wegwerken, vervolgens hoe je het lettergedeelte en cijfergedeelte kan uitrekenen om ten slotte de factoren proper te rangschikken."
 images: []
 ---
 

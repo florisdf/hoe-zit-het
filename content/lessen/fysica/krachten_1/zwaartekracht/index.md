@@ -3,6 +3,8 @@ title: "Zwaartekracht"
 date: 2019-05-24T11:08:36+02:00
 weight: 3
 draft: false
+description: "Wat is zwaartekracht en hoe kan je het berekenen? In deze les leggen we op een geïllustreerde manier uit welke factoren de zwaartekracht beïnvloeden en hoe je de grootte van de zwaartekracht kan berekenen."
+tags: ["kracht", "massa", "zwaartekracht", "zwaartveldsterkte", "zwaartekracht berekenen"]
 images: ['/lessen/fysica/krachten_1/zwaartekracht/img/zwaartekracht_bowlingbal.png', '/lessen/fysica/krachten_1/zwaartekracht/img/zwaartekracht_bowlingbal_vs_voetbal.png', '/lessen/fysica/krachten_1/zwaartekracht/img/zwaartekracht_maan_aarde.png', '/lessen/fysica/krachten_1/zwaartekracht/img/zwaartekracht_bowlingbal_aarde_oefening.png', '/lessen/fysica/krachten_1/zwaartekracht/img/zwaartekracht_bowlingbal_maan_oefening.png', '/lessen/fysica/krachten_1/zwaartekracht/img/zwaartekracht_voetbal_aarde_oefening.png']
 ---
 

@@ -3,6 +3,8 @@ title: "Wat is een vector?"
 date: 2019-09-18T08:04:17+02:00
 weight: 3
 draft: false
+tags: ["aangrijpingspunt van een vector", "grootte van een vector", "richting van een vector", "vector", "vectoriële grootheid", "zin van een vector"]
+description: "Wat is een vector? In deze les leggen we het uit en bespreken we de eigenschappen grootte, richting en zin van een vector. We geven voor elk van deze eigenschappen een duidelijke illustratie."
 images: ['/lessen/wiskunde/vector_1/intro/img/vector_is_arrow.png', '/lessen/wiskunde/vector_1/intro/img/equal_vectors.png', '/lessen/wiskunde/vector_1/intro/img/diff_length.png', '/lessen/wiskunde/vector_1/intro/img/diff_richting.png', '/lessen/wiskunde/vector_1/intro/img/diff_zin.png', '/lessen/wiskunde/vector_1/intro/img/vector_props.png', '/lessen/wiskunde/vector_1/intro/img/summary.png']
 ---
 

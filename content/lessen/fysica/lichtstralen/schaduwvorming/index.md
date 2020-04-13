@@ -3,11 +3,8 @@ title: "Schaduwvorming"
 date: 2019-01-28T18:38:31+01:00
 weight: 4
 draft: false
-tags: []
-categories: []
-level: ""
-course: ""
-topic: ""
+tags: ["bij schaduw", "diffuse lichtbron", "kernschaduw", "lichtstraal", "ondoorschijnende bol", "puntvormige lichtbron", "schaduw", "schaduwvorming"]
+description: "Waar komt een schaduw vandaan? Hoe kan je zelf de schaduw van een ondoorschijnend voorwerp tekenen? Deze les legt het aan de hand van vele illustraties uit."
 images: ['/lessen/fysica/lichtstralen/schaduwvorming/img/schaduw_intro.png', '/lessen/fysica/lichtstralen/schaduwvorming/img/puntbron_straal_schaduwen.png', '/lessen/fysica/lichtstralen/schaduwvorming/img/puntbron_straal_schaduwen_resultaat.png', '/lessen/fysica/lichtstralen/schaduwvorming/img/puntvormige_lichtbron.png', '/lessen/fysica/lichtstralen/schaduwvorming/img/diffuse_bron_straal_schaduwen.png', '/lessen/fysica/lichtstralen/schaduwvorming/img/diffuse_bron_straal_schaduwen_resultaat.png', '/lessen/fysica/lichtstralen/schaduwvorming/img/niet_puntvormige_lichtbron.png']
 ---
 Om een flatterend portret te maken, kiezen fotografen meestal voor *diffuse

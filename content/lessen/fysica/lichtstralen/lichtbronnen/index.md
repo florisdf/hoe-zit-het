@@ -3,11 +3,8 @@ title: "Lichtbronnen"
 date: 2019-01-28T18:38:03+01:00
 weight: 3
 draft: false
-tags: []
-categories: []
-level: ""
-course: ""
-topic: ""
+tags: ["diffuse lichtbron", "donker lichaam", "lichtbron", "lichtstraal", "niet-puntvormige lichtbron", "optica", "puntvormige lichtbron", "softbox", "tl-lamp", "zon"]
+description: "Wat is een lichtbron? Wat is een donker lichaam? Deze les legt het uit op een illustratieve manier uit. Daarnaast vertellen we wat een donker lichaam is en wat het verschil is tussen een puntvormige en diffuse lichtbron. Als uitbreiding bevat de les ook een stukje over hoe fotografen diffuse lichtbronnen gebruiken om betere foto's te trekken."
 images: ['/lessen/fysica/lichtstralen/lichtbronnen/img/donkere_lichamen.png', '/lessen/fysica/lichtstralen/lichtbronnen/img/puntvormig.png', '/lessen/fysica/lichtstralen/lichtbronnen/img/diffuus.png', '/lessen/fysica/lichtstralen/lichtbronnen/img/soft_vs_hard_light.png', '/lessen/fysica/lichtstralen/lichtbronnen/img/softbox.jpg']
 ---
 Wanneer een voorwerp van zichzelf **licht produceert**, noemen we dat voorwerp

@@ -4,6 +4,8 @@ date: 2019-11-05T07:44:36+02:00
 weight: 2
 wiski: "http://wiski.be/oefenen/rekenen-met-lettervormen/take"
 draft: false
+tags: ["algebra", "coëfficiënt", "eenterm", "gelijksoortige eenterm", "getallenleer", "graad van een eenterm", "lettergedeelte"]
+description: "Wat zijn eentermen? In deze les leggen we het aan de hand van verschillende voorbeelden uit. Daarnaast lichten we de begrippen graad, coëfficiënt, lettergedeelte en gelijksoortige eentermen toe."
 images: []
 ---
 
