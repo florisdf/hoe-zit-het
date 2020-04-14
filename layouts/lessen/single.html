@@ -1,12 +1,21 @@
 {{ define "header" }}
-  <header>
-    {{ partial "header/site-navigation.html" . }}
-  </header>
+<header>
+  {{ partial "header/site-navigation.html" . }}
+
+</header>
 {{ end }}
 
-{{ define "mathjax" }} {{ partial "head/mathjax" . }} {{ end }}
-{{ define "bokeh" }} {{ partial "head/bokeh" . }} {{ end }}
-{{ define "fancybox" }} {{ partial "head/fancybox" . }} {{ end }}
+{{ define "mathjax" }}
+  {{ partial "head/mathjax" . }}
+{{ end }}
+
+{{ define "bokeh" }}
+  {{ partial "head/bokeh" . }}
+{{ end }}
+
+{{ define "fancybox" }}
+{{ partial "head/fancybox" . }}
+{{ end }}
 
 {{ define "json_ld" }}
   {{ partial "head/seo/organisation" . }}

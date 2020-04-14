@@ -20,7 +20,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 
 [params]
   favicon = "/images/favicon.png"
-  description = "Gratis hulp met wiskunde en fysica"
+  description = "Zit je ergens vast bij wiskunde of fysica? Met Hoe Zit Het? heb je de leerstof razendsnel onder de knie. Neem maar eens een kijkje naar onze lessen. Ze zijn kort, krachtig, vol illustraties en bovenal helemaal gratis!"
   facebook = "https://fb.me/hoezithet"
   baseURL = "https://hoezithet.nu/"
   company = "Hoe Zit Het? vzw"
