@@ -16,3 +16,7 @@ $$ f'(a) = \lim\_{\Delta x \rightarrow 0} \frac{ f(a + \Delta x) - f(a) }{\Delta
 Eventueel voor dezelfde functie als in de les over de afgeleide functie: 
 
 $$f(x) = -3x^2 + 4x - 1$$
+
+Eerst tonen hoe je met een tabel de limiet kan uitrekenen.
+
+Vervolgens hoe je de definitie rechtstreeks kan toepassen om de limiet uit te rekenen.
