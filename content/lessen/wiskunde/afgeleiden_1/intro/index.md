@@ -62,7 +62,8 @@ Haar gemiddelde snelheid is dus gelijk aan:
 
 $$\frac{\text{afstand}}{\text{tijd}} = \frac{300~\si{m}}{3{,}87~\si{s}} = 77{,}5~\si{m/s}$$
 
-Uit onze [lessen fysica](../../../fysica/grootheden_eenheden/eenheden_omzetten) weten we dat
+Uit onze [les fysica over het omzetten van
+eenheden](../../../fysica/grootheden_eenheden/eenheden_omzetten) weten we dat
 $1~\si{m/s} = 3{,}6~\si{km/h}$. Maria had dus een gemiddelde snelheid van
 
 $$77{,}5\cdot3{,}6~\si{km/h} = 279~\si{km/h}$$
@@ -70,6 +71,10 @@ $$77{,}5\cdot3{,}6~\si{km/h} = 279~\si{km/h}$$
 Lekker snel! :rocket:
 
 ## Differentiequotiënt
+
+Hierboven berekenden we Maria haar gemiddelde snelheid over haar volledige
+race van start tot finish. Kunnen we ook haar gemiddelde snelheid berekenen
+voor de **laatste $150~\si{m}$**?
 
 ## Gemiddeld vs. ogenblikkelijk
 
