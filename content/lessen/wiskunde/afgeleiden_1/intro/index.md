@@ -56,7 +56,7 @@ afstand** ze heeft afgelegd in **welke tijd**. We weten dat een dragrace altijd
 over een afstand van $300~\si{m}$ gaat. Op de luchtfoto net voor Maria over de
 finish ging, kunnen we zien wat haar tijd tot de finish was:
 
-{{< svg "img/maria_avg_speed.svg" "Maria aan het begin en einde van haar race." >}}
+{{< svg "img/maria_avg_speed.svg" "Gemiddelde snelheid van Maria voor de volledige race berekenen." >}}
 
 Haar gemiddelde snelheid is dus gelijk aan:
 
@@ -74,7 +74,37 @@ Lekker snel! :rocket:
 
 Hierboven berekenden we Maria haar gemiddelde snelheid over haar volledige
 race van start tot finish. Kunnen we ook haar gemiddelde snelheid berekenen
-voor de **laatste $150~\si{m}$**?
+voor de **laatste $100~\si{m}$**? Daarvoor moeten we ook weer haar **afgelegde
+afstand delen door de tijd** die ze nodig had om die afstand af te leggen.
+
+{{< svg "img/maria_avg_speed_last_100.svg" "Gemiddelde snelheid van Maria voor de laatste 100 m berekenen" >}}
+
+Ze rijdt van $\orange{200~\si{m}}$ naar $\orange{300~\si{m}}$, dat betekent dat
+ze inderdaad $\orange{100~\si{m}}$ heeft afgelegd:
+
+\begin{split}
+    \orange{\text{afstand}} &= \orange{300~\si{m}} - \orange{200~\si{m}}\\\\\
+                            &= \orange{100~\si{m}}
+\end{split}
+
+Bij $\orange{200~\si{m}}$ stond de chronometer op $\blue{3{,}16~\si{s}}$ en bij
+$\orange{300~\si{m}}$ stond de chronometer op $\blue{3{,}87~\si{s}}$. Ze had
+dus $\blue{0{,}71~\si{s}}$ nodig:
+
+\begin{split}
+    \blue{\text{tijd}} &= \blue{3{,}87~\si{s}} - \blue{3{,}16~\si{s}}\\\\\
+                       &= \blue{0{,}71~\si{s}}
+\end{split}
+
+Haar gemiddelde snelheid voor de laatste $100~\si{m}$ is dus:
+
+\begin{split}
+    \text{gem. snelheid} &= \frac{\orange{300~\si{m}} - \orange{200~\si{m}}}{\blue{3{,}87~\si{s}} - \blue{3{,}16~\si{s}}}\\\\\
+                         &= \frac{\orange{100~\si{m}}}{\blue{0{,}71~\si{s}}}\\\\\
+                         &= 141~\si{m/s}\\\\\
+                         &= 507~\si{km/h}
+\end{split}
+
 
 ## Gemiddeld vs. ogenblikkelijk
 
