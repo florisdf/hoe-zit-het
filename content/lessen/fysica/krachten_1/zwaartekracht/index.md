@@ -11,11 +11,11 @@ Wanneer je springt, duurt het niet lang voor je terug met beide voetjes op de gr
 ## De zwaartekrachtsvector $\vec{F}_z$
 Zwaartekracht is een kracht en is dus [vectorieel](../krachtvector). De zwaartekracht die inwerkt op een bepaald voorwerp $A$, duiden we aan als $\vec{F}_{zA}$.
 
-Schrijf | Lees
---------|------
-$\vec{F}\_{zA}$ | De zwaartekracht op $A$
+Schrijf                | Lees
+--------               | ------
+$\vec{F}\_{zA}$        | De zwaartekracht op $A$
 $\norm{\vec{F}\_{zA}}$ | De grootte van de zwaartekracht op $A$
-$F\_{zA}$ | De grootte van de zwaartekracht op $A$
+$F\_{zA}$              | De grootte van de zwaartekracht op $A$
 
 Stel dat Dirk een bowlingbal vasthoudt. De zwaartekracht waarmee de aarde de
 bowlingbal naar beneden trekt, duiden we dan aan als $\vec{F}_{zb}$. De
@@ -40,7 +40,7 @@ feller aangetrokken dan op de maan, bijvoorbeeld.
 {{< svg "img/zwaartekracht_maan_aarde.png" "De maan trekt minder hard aan de bowlingbal dan de aarde" >}}
 
 We zeggen dat het zwaarteveld van de aarde sterker is dan het zwaarteveld van
-de maan. De **zwaartveldsterkte** zegt hoe hard er aan
+de maan. De **zwaarteveldsterkte** zegt hoe hard er aan
 voorwerpen met een bepaalde massa wordt getrokken door de zwaartekracht. Het
 symbool voor de zwaarteveldsterkte is $g$ en de eenheid van $g$ is
 $\si{N/kg}$. Dat kan je interpreteren als met hoeveel kracht
