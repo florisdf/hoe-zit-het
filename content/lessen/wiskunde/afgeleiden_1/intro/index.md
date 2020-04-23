@@ -49,7 +49,26 @@ hierboven op de luchtfoto's ziet:
 2. Met welke snelheid reed Maria **over de eindmeet**?
 
 
-## Gemiddelde snelheid
+## Gemiddelde snelheid berekenen
+
+In deze paragraaf gaan we samen op zoek naar een goede formule om de 
+gemiddelde snelheid te berekenen. We weten al dat we voor de gemiddelde 
+snelheid de **afgelegde afstand**
+{{< mute "(hoeveel (kilo)meter?)" >}} moeten delen door de **tijd die nodig 
+was** {{< mute "(hoeveel uur of seconden?)" >}} om die afstand af te leggen:
+
+\begin{split}
+    \text{gem. snelheid} &= \frac{\orange{\text{afgelegde afstand} }}{\blue{\text{tijd die nodig was}}}\\\\\
+\end{split}
+
+Je zou kunnen zeggen dat we zo onze formule voor gemiddelde snelheid al 
+hebben gevonden.
+We gaan ze echter op een iets wiskundigere manier leren schrijven zodat de 
+formule toepasbaar wordt voor nog andere problemen dan enkel het berekenen 
+van gemiddelde snelheid. Zo zullen we dan een naadloze overgang kunnen maken 
+naar afgeleiden! 🏄‍♀️
+
+### Gemiddelde snelheid berekenen van start tot finish
 
 Om de gemiddelde snelheid van Maria te berekenen, moeten we weten **hoeveel
 afstand** ze heeft afgelegd in **welke tijd**. We weten dat een dragrace altijd
@@ -58,9 +77,15 @@ finish ging, kunnen we zien wat haar tijd tot de finish was:
 
 {{< svg "img/maria_avg_speed.svg" "Gemiddelde snelheid van Maria voor de volledige race berekenen." >}}
 
-Haar gemiddelde snelheid is dus gelijk aan:
+Wanneer Maria over de finish rijdt ($\orange{300~\si{m}}$), zien we dat de
+chronometer $\blue{3{,}87~\si{s}}$ aangeeft. Haar 
+**gemiddelde snelheid voor de volledige race** is dus:
 
-$$\frac{\text{afstand}}{\text{tijd}} = \frac{300~\si{m}}{3{,}87~\si{s}} = 77{,}5~\si{m/s}$$
+\begin{split}
+    \text{gem. snelheid} &= \frac{\orange{afstand}}{\blue{tijd}}\\\\\
+                         &= \frac{\orange{300~\si{m}}}{\blue{3{,}87~\si{s}}}\\\\\
+                         &= 77{,}5~\si{m/s}
+\end{split}
 
 Uit onze [les fysica over het omzetten van
 eenheden](../../../fysica/grootheden_eenheden/eenheden_omzetten) weten we dat
@@ -70,16 +95,13 @@ $$77{,}5\cdot3{,}6~\si{km/h} = 279~\si{km/h}$$
 
 Lekker snel! :rocket:
 
-## Differentiequotiënt
-
-Hierboven berekenden we Maria haar gemiddelde snelheid over haar volledige
-race van start tot finish. Kunnen we ook haar gemiddelde snelheid berekenen
+Kunnen we ook haar gemiddelde snelheid berekenen
 voor de **laatste $100~\si{m}$**? Daarvoor moeten we ook weer haar **afgelegde
 afstand delen door de tijd** die ze nodig had om die afstand af te leggen.
 
 {{< svg "img/maria_avg_speed_last_100.svg" "Gemiddelde snelheid van Maria voor de laatste 100 m berekenen" >}}
 
-Ze rijdt van $\orange{200~\si{m}}$ naar $\orange{300~\si{m}}$, dat betekent dat
+Ze rijdt van $\orange{200~\si{m}}$ naar $\orange{300~\si{m}}$. Dat betekent dat
 ze inderdaad $\orange{100~\si{m}}$ heeft afgelegd:
 
 \begin{split}
@@ -96,15 +118,21 @@ dus $\blue{0{,}71~\si{s}}$ nodig:
                        &= \blue{0{,}71~\si{s}}
 \end{split}
 
-Haar gemiddelde snelheid voor de laatste $100~\si{m}$ is dus:
+Haar **gemiddelde snelheid voor de laatste $100~\si{m}$** is dus:
 
 \begin{split}
-    \text{gem. snelheid} &= \frac{\orange{300~\si{m}} - \orange{200~\si{m}}}{\blue{3{,}87~\si{s}} - \blue{3{,}16~\si{s}}}\\\\\
+    \text{gem. snelheid}  &= \frac{\orange{afstand}}{\blue{tijd}}\\\\\
+                          &= \frac{\orange{300~\si{m}} - \orange{200~\si{m}}}{\blue{3{,}87~\si{s}} - \blue{3{,}16~\si{s}}}\\\\\
                          &= \frac{\orange{100~\si{m}}}{\blue{0{,}71~\si{s}}}\\\\\
                          &= 141~\si{m/s}\\\\\
                          &= 507~\si{km/h}
 \end{split}
 
+Merk op dat haar gemiddelde snelheid voor de laatste $100~\si{m}$
+(507~\si{km/h}) **niet gelijk is** aan haar gemiddelde snelheid voor de 
+volledige race (279~\si{km/h}). Dat komt omdat ze op het 
+
+## Differentiequotiënt
 
 ## Gemiddeld vs. ogenblikkelijk
 
