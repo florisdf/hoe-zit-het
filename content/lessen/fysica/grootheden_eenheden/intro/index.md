@@ -21,7 +21,7 @@ voorbeelden:
 | Temperatuur          	| graden Celsius, graden Fahrenheit, kelvin          	|
 | Massa                	| kilogram, pond, gram, ounce                        	|
 | Kracht               	| newton, pound-force                                	|
-| Elektrische stroom   	| ampère                                             	|
+| Elektrische stroomsterkte   	| ampère                                             	|
 | Elektrische spanning 	| volt                                               	|
 | Energie              	| joule, calorie                                     	|
 | Snelheid             	| kilometer per uur, mijl per uur, meter per seconde 	|
@@ -40,7 +40,7 @@ SI-eenheden:
 | Temperatuur            | kelvin                                               |
 | Massa                  | kilogram                                             |
 | Kracht                 | newton                                               |
-| Elektrische stroom     | ampère                                               |
+| Elektrische stroomsterkte     | ampère                                               |
 | Elektrische spanning   | volt                                                 |
 | Energie                | joule                                                |
 | Snelheid               | meter per seconde                                    |
