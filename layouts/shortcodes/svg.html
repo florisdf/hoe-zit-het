@@ -2,8 +2,9 @@
 {{ $img_scaled := $img_orig.Resize "670x CatmullRom"}}
 
 <figure class="mh0 mv4">
-  <a data-fancybox="gallery" href="{{ $img_orig.RelPermalink }}">
-    <img src="{{ $img_scaled.RelPermalink }}" alt="{{ $.Site.Title }} {{.Get 1 | default $.Page.Title}}" />
+  <a data-fancybox="gallery" href={{ $img_orig.RelPermalink }}>
+    <img src={{ $img_scaled.RelPermalink }} alt="{{ $.Site.Title }} {{.Get 1 | default $.Page.Title}}" />
   </a>
   <figcaption class="mid-gray f5 tc">{{.Get 2 | safeHTML }}</figcaption>
+  <a class="o-0 absolute" style="left:-9999px"rel="license" about={{ $img_scaled.RelPermalink }} href="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International</a>
 </figure>
