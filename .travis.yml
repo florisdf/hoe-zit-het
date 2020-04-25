@@ -8,12 +8,12 @@ python:
 
 install:
   - wget "https://github.com/gohugoio/hugo/releases/download/v${HUGO_RELEASE}/hugo_extended_${HUGO_RELEASE}_Linux-64bit.deb"
-  - dpkg -i hugo*.deb
-  - apt-get update
-  - apt-get install xvfb libfontconfig wkhtmltopdf
-  - printf '#!/bin/bash\nxvfb-run -a --server-args="-screen 0, 1024x768x24" /usr/bin/wkhtmltopdf -q $*' > /usr/bin/wkhtmltopdf.sh
-  - chmod a+x /usr/bin/wkhtmltopdf.sh
-  - ln -s /usr/bin/wkhtmltopdf.sh /usr/local/bin/wkhtmltopdf
+  - sudo dpkg -i hugo*.deb
+  - sudo apt-get update
+  - sudo apt-get install xvfb libfontconfig wkhtmltopdf
+  - sudo printf '#!/bin/bash\nxvfb-run -a --server-args="-screen 0, 1024x768x24" /usr/bin/wkhtmltopdf -q $*' > /usr/bin/wkhtmltopdf.sh
+  - sudo chmod a+x /usr/bin/wkhtmltopdf.sh
+  - sudo ln -s /usr/bin/wkhtmltopdf.sh /usr/local/bin/wkhtmltopdf
   - pip install -r requirements.txt
 
 script:
