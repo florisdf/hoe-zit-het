@@ -51,22 +51,30 @@ hierboven op de luchtfoto's ziet:
 
 ## Gemiddelde snelheid berekenen
 
-In deze paragraaf gaan we samen op zoek naar een goede formule om de 
-gemiddelde snelheid te berekenen. We weten al dat we voor de gemiddelde 
-snelheid de **afgelegde afstand**
-{{< mute "(hoeveel (kilo)meter?)" >}} moeten delen door de **tijd die nodig 
+We weten al dat we een gemiddelde 
+snelheid kunnen berekenen door de **afgelegde afstand**
+{{< mute "(hoeveel (kilo)meter?)" >}} te delen door de **tijd die nodig 
 was** {{< mute "(hoeveel uur of seconden?)" >}} om die afstand af te leggen:
 
 \begin{split}
     \text{gem. snelheid} &= \frac{\orange{\text{afgelegde afstand} }}{\blue{\text{tijd die nodig was}}}\\\\\
 \end{split}
 
-Je zou kunnen zeggen dat we zo onze formule voor gemiddelde snelheid al 
-hebben gevonden.
-We gaan ze echter op een iets wiskundigere manier leren schrijven zodat de 
-formule toepasbaar wordt voor nog andere problemen dan enkel het berekenen 
-van gemiddelde snelheid. Zo zullen we dan een naadloze overgang kunnen maken 
-naar afgeleiden! 🏄‍♀️
+In deze paragraaf gaan we deze formule op een iets wiskundigere manier leren 
+schrijven zodat de formule niet enkel toepasbaar is voor het berekenen van 
+*gemiddelde snelheid*, maar ook voor het berekenen van **gemiddelde 
+verandering** in het algemeen. Gemiddelde snelheid is namelijk een soort van
+gemiddelde verandering. Die formule voor gemiddelde verandering ziet er zo 
+uit:
+
+$$\text{gem. verandering} = \frac{\orange{\Delta y}}{\blue{\Delta x}}$$
+
+We zullen de formule ook wel als volgt schrijven:
+
+$$\text{gem. verandering} = \frac{\orange{\Delta f(x)}}{\blue{\Delta x}}$$
+
+Eens we die formule goed begrijpen, zullen we een naadloze overgang kunnen 
+maken naar afgeleiden! 🏄‍♀️
 
 ### Gemiddelde snelheid berekenen van start tot finish
 
@@ -109,6 +117,11 @@ ze inderdaad $\orange{100~\si{m}}$ heeft afgelegd:
                             &= \orange{100~\si{m}}
 \end{split}
 
+Je ziet dat we de afgelegde afstand berekenen door het **verschil te nemen
+tussen de eind- en beginpositie**. Haar eindpositie was $\orange{300~\si{m}}$ 
+en haar beginpositie was $\orange{200~\si{m}}$.
+
+
 Bij $\orange{200~\si{m}}$ stond de chronometer op $\blue{3{,}16~\si{s}}$ en bij
 $\orange{300~\si{m}}$ stond de chronometer op $\blue{3{,}87~\si{s}}$. Ze had
 dus $\blue{0{,}71~\si{s}}$ nodig:
@@ -128,9 +141,10 @@ Haar **gemiddelde snelheid voor de laatste $100~\si{m}$** is dus:
                          &= 507~\si{km/h}
 \end{split}
 
-Merk op dat haar gemiddelde snelheid voor de laatste $100~\si{m}$
-(507~\si{km/h}) **niet gelijk is** aan haar gemiddelde snelheid voor de 
-volledige race (279~\si{km/h}). Dat komt omdat ze op het 
+In onderstaande applet kan je de gemiddelde snelheden laten berekenen voor 
+andere begin- en eindposities. 
+
+(applet)
 
 ## Differentiequotiënt
 
