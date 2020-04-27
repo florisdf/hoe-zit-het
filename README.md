@@ -2,6 +2,8 @@
 
 Deze repository bevat de programmacode achter [_Hoe Zit Het?_](https://hoezithet.nu/).
 
+[![Build Status](https://travis-ci.org/hoezithet/hoezithet.svg?branch=master)](https://travis-ci.org/hoezithet/hoezithet)
+
 Inhoud
 ======
 
