@@ -1,0 +1,23 @@
+{{ define "main" }}
+<section class="mw8 center ph3">
+  {{ .Content }}
+
+  <h1>Ons team</h1>
+  <div class="flex flex-wrap">
+  {{ $team := .GetPage "/team" }}
+  {{ range $team.Pages.ByWeight }}
+    <div class="w-third-l w-100 pa2 tc">
+      {{ with .Resources.GetMatch "*.jpg" }}
+        {{ $img := .Fill "200x200" }}
+        <img class="br-100" alt="profile picture" src="{{ $img.RelPermalink }}">
+      {{ end }}
+      <h2 class="mv0">{{ .Params.name }}</h2>
+      <h3 class="mv1 gold">{{ .Params.function | title }}</h3>
+      <div class="ph3 gray">
+      <p>{{ .Content }}</p>
+      </div>
+    </div>
+  {{ end }}
+  </div>
+</section>
+{{ end }}

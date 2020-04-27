@@ -1,0 +1,3 @@
+{{ $img := $.Page.Resources.GetMatch (.Get 0)}}
+{{ $img := $img.Fill "200x200" }}
+<img alt="{{.Get 1}}" class="br-100 dib pa3 center"  src="{{ $img.RelPermalink }}">
