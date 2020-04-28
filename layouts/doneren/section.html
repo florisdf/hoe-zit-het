@@ -1,14 +1,15 @@
 {{ define "main" }}
-{{ .Content }}
+<section class="mw8 center ph3">
+  {{ .Content }}
 
-<div class="flex flex-wrap tc justify-center">
-{{ partial "main/donate" (dict "amount" "€2" "url" "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=YZBJ7U5JFSQ8G&source=url") }}
+  <div class="flex flex-wrap tc justify-center">
+    {{ partial "main/donate" (dict "amount" "€2" "url" "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=YZBJ7U5JFSQ8G&source=url") }}
 
-{{ partial "main/donate" (dict "amount" "€5" "url" "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=NHE8CFLULN9WG&source=url") }}
+    {{ partial "main/donate" (dict "amount" "€5" "url" "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=NHE8CFLULN9WG&source=url") }}
 
-{{ partial "main/donate" (dict "amount" "€10" "url" "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=TCLFUBNZ3QUGN&source=url") }}
+    {{ partial "main/donate" (dict "amount" "€10" "url" "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=TCLFUBNZ3QUGN&source=url") }}
 
-{{ partial "main/donate" (dict "amount" "Eigen bedrag" "url" "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=X8BH56ZVUG2BQ&source=url") }}
-</div>
-
+    {{ partial "main/donate" (dict "amount" "Eigen bedrag" "url" "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=X8BH56ZVUG2BQ&source=url") }}
+  </div>
+</section>
 {{ end }}
