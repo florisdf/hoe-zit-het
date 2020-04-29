@@ -81,8 +81,6 @@ kunnen maken naar afgeleiden! 🏄‍♀️
 Stel dat we Maria haar gemiddelde snelheid willen berekenen
 tussen $1{,}00~\si{s}$ en $3{,}00\si{s}$.
 
-!!! Illustratie aanpassen
-
 {{< svg "img/maria_avg_speed_last_100.svg" "Gemiddelde snelheid van Maria voor de laatste 100 m berekenen" >}}
 
 Wanneer de chronometer op $\blue{1{,}00~\si{s}}$ stond, was Maria
