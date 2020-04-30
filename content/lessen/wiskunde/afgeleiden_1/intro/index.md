@@ -21,11 +21,11 @@ $50~\si{km/h}$ reed**. Soms reed hij waarschijnlijk iets sneller, soms iets
 trager, soms stond de wagen misschien even stil voor een rood licht... Die
 gemiddelde snelheid leert ons niets over hoe snel de wagen bijvoorbeeld reed
 wanneer hij voorbij een flitspaal reed. Soms zijn we echter wel geïnteresseerd
-in de **snelheid op een bepaald tijdstip**. In deze les leren we voor het eerst
-over **afgeleiden**. Een afgeleide is eigenlijk een veralgemening van die
-**ogenblikkelijke snelheid**.  Met behulp van een afgeleide zullen we vragen
-als "Met welke snelheid reed de wagen voorbij de flitspaal?" wél kunnen
-beantwoorden.
+in de **snelheid op een bepaald tijdstip** of de **ogenblikkelijke snelheid**.
+In deze les leren we voor het eerst over **afgeleiden**. Een afgeleide is
+eigenlijk een veralgemening van die *ogenblikkelijke snelheid*.  Met behulp
+van een afgeleide zullen we vragen als "Met welke snelheid reed de wagen
+voorbij de flitspaal?" wél kunnen beantwoorden.
 
 
 ## Dragracen met Maria en Dirk
