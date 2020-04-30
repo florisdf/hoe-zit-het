@@ -4,7 +4,7 @@ date: 2020-03-10T16:35:11+02:00
 weight: 1
 draft: true
 tags: ["afgeleide", "differentiequotiënt", "gemiddelde verandering",
-"ogenblikkelijke verandering", "snelheid"]
+"ogenblikkelijke verandering", "snelheid", "wat betekent delta"]
 description: "Met afgeleiden berekenen we ogenblikkelijke veranderingen. In
 deze les leren we de formule om zo'n afgeleide te berekenen. We bouwen stap per
 stap op naar deze definitie en gaan van gemiddelde snelheid naar
@@ -60,97 +60,93 @@ was** {{< mute "(hoeveel uur of seconden?)" >}} om die afstand af te leggen:
     \text{gem. snelheid} &= \frac{\orange{\text{afgelegde afstand} }}{\blue{\text{tijd die nodig was}}}\\\\\
 \end{split}
 
-In deze paragraaf gaan we deze formule op een iets wiskundigere manier leren 
+In de volgende paragrafen gaan we deze formule op een iets wiskundigere 
+manier leren 
 schrijven zodat de formule niet enkel toepasbaar is voor het berekenen van 
 *gemiddelde snelheid*, maar ook voor het berekenen van **gemiddelde 
-verandering** in het algemeen. Gemiddelde snelheid is namelijk een soort van
-gemiddelde verandering. Die formule voor gemiddelde verandering ziet er zo 
-uit:
+verandering van een functie** in het algemeen. Gemiddelde snelheid is 
+namelijk een soort van gemiddelde verandering. We zullen leren dat die formule voor gemiddelde verandering van een functie er zo uitziet:
 
-$$\text{gem. verandering} = \frac{\orange{\Delta y}}{\blue{\Delta x}}$$
+$$\text{gem. verandering v.e. functie} = \frac{\orange{\Delta y}}{\blue{\Delta x}}$$
 
-We zullen de formule ook wel als volgt schrijven:
+Die formule zullen we nadien ook schrijven als:
 
-$$\text{gem. verandering} = \frac{\orange{\Delta f(x)}}{\blue{\Delta x}}$$
+$$\text{gem. verandering v.e. functie} = \frac{\orange{\Delta f(x)}}{\blue{\Delta x}}$$
 
-Eens we die formule goed begrijpen, zullen we een naadloze overgang kunnen 
-maken naar afgeleiden! 🏄‍♀️
+Eens we die laatste formule goed begrijpen, gaan we een naadloze overgang 
+kunnen maken naar afgeleiden! 🏄‍♀️
 
-### Gemiddelde snelheid berekenen van start tot finish
+## Gemiddelde snelheid als een breuk van twee verschillen
 
-Om de gemiddelde snelheid van Maria te berekenen, moeten we weten **hoeveel
-afstand** ze heeft afgelegd in **welke tijd**. We weten dat een dragrace altijd
-over een afstand van $300~\si{m}$ gaat. Op de luchtfoto net voor Maria over de
-finish ging, kunnen we zien wat haar tijd tot de finish was:
-
-{{< svg "img/maria_avg_speed.svg" "Gemiddelde snelheid van Maria voor de volledige race berekenen." >}}
-
-Wanneer Maria over de finish rijdt ($\orange{300~\si{m}}$), zien we dat de
-chronometer $\blue{3{,}87~\si{s}}$ aangeeft. Haar 
-**gemiddelde snelheid voor de volledige race** is dus:
-
-\begin{split}
-    \text{gem. snelheid} &= \frac{\orange{afstand}}{\blue{tijd}}\\\\\
-                         &= \frac{\orange{300~\si{m}}}{\blue{3{,}87~\si{s}}}\\\\\
-                         &= 77{,}5~\si{m/s}
-\end{split}
-
-Uit onze [les fysica over het omzetten van
-eenheden](../../../fysica/grootheden_eenheden/eenheden_omzetten) weten we dat
-$1~\si{m/s} = 3{,}6~\si{km/h}$. Maria had dus een gemiddelde snelheid van
-
-$$77{,}5\cdot3{,}6~\si{km/h} = 279~\si{km/h}$$
-
-Lekker snel! :rocket:
-
-Kunnen we ook haar gemiddelde snelheid berekenen
-voor de **laatste $100~\si{m}$**? Daarvoor moeten we ook weer haar **afgelegde
-afstand delen door de tijd** die ze nodig had om die afstand af te leggen.
+Stel dat we Maria haar gemiddelde snelheid willen berekenen
+tussen $1{,}00~\si{s}$ en $3{,}00\si{s}$.
 
 {{< svg "img/maria_avg_speed_last_100.svg" "Gemiddelde snelheid van Maria voor de laatste 100 m berekenen" >}}
 
-Ze rijdt van $\orange{200~\si{m}}$ naar $\orange{300~\si{m}}$. Dat betekent dat
-ze inderdaad $\orange{100~\si{m}}$ heeft afgelegd:
+Wanneer de chronometer op $\blue{1{,}00~\si{s}}$ stond, was Maria
+$\orange{20~\si{m}}$ ver. Bij $\blue{3{,}00~\si{s}}$, was ze
+$\orange{180~\si{m}}$ ver. De gemiddelde snelheid tussen $\blue{1{,}00~\si{s}}$ en
+$\blue{3{,}00~\si{s}}$ is dus:
 
 \begin{split}
-    \orange{\text{afstand}} &= \orange{300~\si{m}} - \orange{200~\si{m}}\\\\\
-                            &= \orange{100~\si{m}}
+    \text{gem. snelheid} &= \frac{\orange{\text{afgelegde afstand} }}{\blue{\text{tijd die nodig was}}}\\\\\
+                         &= \frac{\orange{180~\si{m}} - \orange{20~\si{m}}}{\blue{3{,}00~\si{s}} - \blue{1{,}00~\si{s}}}\\\\\
+                         &= \frac{\orange{160~\si{m}}}{\blue{2{,}00~\si{s}}}\\\\\
+                         &= 80{,}0~\si{m/s}\\\\\
+                         &= 288~\si{km/h}
 \end{split}
 
-Je ziet dat we de afgelegde afstand berekenen door het **verschil te nemen
-tussen de eind- en beginpositie**. Haar eindpositie was $\orange{300~\si{m}}$ 
-en haar beginpositie was $\orange{200~\si{m}}$.
+Lekker snel! 🚀
 
+Je ziet dat we voor de afgelegde afstand en de tijd die nodig was telkens
+een **verschil** berekenen. Voor de afstand is dat het **verschil
+tussen de tweede positie** ($\orange{180~\si{m}}$) **en de eerste positie**
+($\orange{20~\si{m}}$). Voor de tijd is dat het **verschil tussen de 
+tweede tijd** ($\blue{3{,}00~\si{s}}$) **en de eerste tijd**
+($\blue{1{,}00~\si{s}}$).
 
-Bij $\orange{200~\si{m}}$ stond de chronometer op $\blue{3{,}16~\si{s}}$ en bij
-$\orange{300~\si{m}}$ stond de chronometer op $\blue{3{,}87~\si{s}}$. Ze had
-dus $\blue{0{,}71~\si{s}}$ nodig:
+We kunnen onze formule voor gemiddelde snelheid dus ook schrijven als:
 
-\begin{split}
-    \blue{\text{tijd}} &= \blue{3{,}87~\si{s}} - \blue{3{,}16~\si{s}}\\\\\
-                       &= \blue{0{,}71~\si{s}}
-\end{split}
+$$\text{gem. snelheid} = \frac{\orange{\text{positie}\_2} - \orange{\text{positie}\_1}}{\blue{\text{tijd}\_2} - \blue{\text{tijd}\_1}}$$
 
-Haar **gemiddelde snelheid voor de laatste $100~\si{m}$** is dus:
+Dit noemen we een **differentiequotiënt**. Wat een *monster* van een woord! 
+🐉 Het woord bestaat uit twee stukken:
 
-\begin{split}
-    \text{gem. snelheid}  &= \frac{\orange{afstand}}{\blue{tijd}}\\\\\
-                          &= \frac{\orange{300~\si{m}} - \orange{200~\si{m}}}{\blue{3{,}87~\si{s}} - \blue{3{,}16~\si{s}}}\\\\\
-                         &= \frac{\orange{100~\si{m}}}{\blue{0{,}71~\si{s}}}\\\\\
-                         &= 141~\si{m/s}\\\\\
-                         &= 507~\si{km/h}
-\end{split}
+1. *differentie-*: iets met een *aftrekking* of *verschil*, denk maar aan het Engelse woord *difference*
+2. *-quotiënt*: moeilijk woord voor een *deling* of een *breuk*
 
-In onderstaande applet kan je de gemiddelde snelheden laten berekenen voor 
-andere begin- en eindposities. 
+Letterlijk "vertaald" is een *differentiequotiënt* dus een *verschilbreuk* of
+met andere woorden een **breuk met in de teller en de noemer een verschil**.
+Bij gemiddelde snelheid staat er in de teller een verschil van posities en in
+de noemer een verschil van tijden. In de volgende paragraaf gaan we dieper in
+op *differentiequotiënten*.
 
-(applet)
+## Differentiequotiënt en gemiddelde verandering van een functie
 
-## Differentiequotiënt
+In de vorige paragraaf leerden we dat gemiddelde snelheid een 
+**differentiequotiënt** van positie en tijd is en dat we gemiddelde snelheid
+als volgt kunnen berekenen:
+
+$$\text{gem. snelheid} = \frac{\orange{\text{positie}\_2} - \orange{\text{positie}\_1}}{\blue{\text{tijd}\_2} - \blue{\text{tijd}\_1}}$$
+
+In deze paragraaf leren we de algemene formule van een differentiequotiënt en
+dat we daarmee de **gemiddelde verandering van een functie** kunnen berekenen.
+Eerst gaan we even terug naar de dragrace van Maria. Daar berekenden we de
+gemiddelde snelheid tussen $\blue{1{,}00\si{s}}$ en $\blue{3{,}00\si{s}}$ als
+volgt:
+
+$$\frac{\orange{180~\si{m}} - \orange{20~\si{m}}}{\blue{3{,}00~\si{s}} - \blue{1{,}00~\si{s}}}$$
+
+We kunnen de race van Maria eigenlijk ook zien als een **functie** waarbij $x$
+de **tijd** is die de chronometer aangeeft en $y$ de **positie** van Maria op
+het tijdstip $x$. Op de luchtfoto's kunnen we inderdaad zien dat ze een mooie
+functie vormen:
+
+(illustratie)
 
 ## Gemiddeld vs. ogenblikkelijk
 
-De **gemiddelde verandering** van een functie is zoals de gemiddelde snelheid. Je wilt te weten komen hoeveel een functie veranderd is over een interval. Dit kan je zelf kiezen: bijvoorbeeld $a = 2$ tot $b = 5$. De gemiddelde verandering vind je dan door ook de functie waarden op deze positie te gebruiken:
+De **gemiddelde verandering** van een functie is zoals de gemiddelde snelheid. Je wilt te weten komen hoeveel een functie veranderd is over een interval. Dit kan je zelf kiezen: bijvoorbeeld $a = 2$ tot $b = 5$. De gemiddelde verandering vind je dan door ook de functie waarden op deze positie te gebruiken
 
 $$ \frac{\Delta f(x)}{\Delta x} = \frac {f(b) - f(a)}{b - a} $$
 
