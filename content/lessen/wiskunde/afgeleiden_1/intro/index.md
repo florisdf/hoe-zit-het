@@ -28,12 +28,11 @@ als "Met welke snelheid reed de wagen voorbij de flitspaal?" wél kunnen
 beantwoorden.
 
 
-## Dragracen met Maria en Dirk
+## Dragracen met Maria
 
-Als voorbeeld voor deze les, gaan we een van de favoriete hobby's van Maria en
-Dirk gebruiken: dragracen.  Bij dragracen vertrekken twee wagens vanuit
-stilstand en racen ze $300~\si{m}$ in een rechte lijn. De eerste aan de finish
-wint.
+Als voorbeeld voor deze les, gaan we een van de favoriete hobby's van Maria 
+gebruiken: dragracen.  Bij dragracen vertrekken twee wagens vanuit stilstand 
+en racen ze $300~\si{m}$ in een rechte lijn. De eerste aan de finish wint.
 
 {{< svg "img/drag_racing.svg" "Maria racet en is bijna aan de finish." >}}
 
@@ -64,22 +63,20 @@ In de volgende paragrafen gaan we deze formule op een iets wiskundigere
 manier leren 
 schrijven zodat de formule niet enkel toepasbaar is voor het berekenen van 
 *gemiddelde snelheid*, maar ook voor het berekenen van **gemiddelde 
-verandering van een functie** in het algemeen. Gemiddelde snelheid is 
-namelijk een soort van gemiddelde verandering. We zullen leren dat die formule voor gemiddelde verandering van een functie er zo uitziet:
-
-$$\text{gem. verandering v.e. functie} = \frac{\orange{\Delta y}}{\blue{\Delta x}}$$
-
-Die formule zullen we nadien ook schrijven als:
+verandering van een functie**. We zullen leren dat die formule voor 
+gemiddelde verandering van een functie er zo uitziet:
 
 $$\text{gem. verandering v.e. functie} = \frac{\orange{\Delta f(x)}}{\blue{\Delta x}}$$
 
-Eens we die laatste formule goed begrijpen, gaan we een naadloze overgang 
-kunnen maken naar afgeleiden! 🏄‍♀️
+Die breuk zullen we het **differentiequotiënt** noemen. Moeilijk woord, maar 
+geen paniek! We gaan het je stap voor stap uitleggen. Eens we dat 
+differentiequotiënt goed begrijpen, zullen we een naadloze overgang kunnen 
+maken naar afgeleiden! 🏄‍♀️
 
 ## Gemiddelde snelheid als een breuk van twee verschillen
 
 Stel dat we Maria haar gemiddelde snelheid willen berekenen
-tussen $1{,}00~\si{s}$ en $3{,}00\si{s}$.
+tussen $\blue{1{,}00~\si{s}}$ en $\blue{3{,}00~\si{s}}$.
 
 {{< svg "img/maria_avg_speed_last_100.svg" "Gemiddelde snelheid van Maria voor de laatste 100 m berekenen" >}}
 
@@ -103,46 +100,93 @@ een **verschil** berekenen. Voor de afstand is dat het **verschil
 tussen de tweede positie** ($\orange{180~\si{m}}$) **en de eerste positie**
 ($\orange{20~\si{m}}$). Voor de tijd is dat het **verschil tussen de 
 tweede tijd** ($\blue{3{,}00~\si{s}}$) **en de eerste tijd**
-($\blue{1{,}00~\si{s}}$).
+($\blue{1{,}00~\si{s}}$). Die twee verschillen zetten we vervolgens in een 
+**breuk** met in de teller het verschil van posities en in de noemer het 
+verschil van tijden.
 
-We kunnen onze formule voor gemiddelde snelheid dus ook schrijven als:
 
-$$\text{gem. snelheid} = \frac{\orange{\text{positie}\_2} - \orange{\text{positie}\_1}}{\blue{\text{tijd}\_2} - \blue{\text{tijd}\_1}}$$
+## Gemiddelde snelheid veralgemenen naar gemiddelde verandering
 
-Dit noemen we een **differentiequotiënt**. Wat een *monster* van een woord! 
-🐉 Het woord bestaat uit twee stukken:
-
-1. *differentie-*: iets met een *aftrekking* of *verschil*, denk maar aan het Engelse woord *difference*
-2. *-quotiënt*: moeilijk woord voor een *deling* of een *breuk*
-
-Letterlijk "vertaald" is een *differentiequotiënt* dus een *verschilbreuk* of
-met andere woorden een **breuk met in de teller en de noemer een verschil**.
-Bij gemiddelde snelheid staat er in de teller een verschil van posities en in
-de noemer een verschil van tijden. In de volgende paragraaf gaan we dieper in
-op *differentiequotiënten*.
-
-## Differentiequotiënt en gemiddelde verandering van een functie
-
-In de vorige paragraaf leerden we dat gemiddelde snelheid een 
-**differentiequotiënt** van positie en tijd is en dat we gemiddelde snelheid
-als volgt kunnen berekenen:
-
-$$\text{gem. snelheid} = \frac{\orange{\text{positie}\_2} - \orange{\text{positie}\_1}}{\blue{\text{tijd}\_2} - \blue{\text{tijd}\_1}}$$
-
-In deze paragraaf leren we de algemene formule van een differentiequotiënt en
-dat we daarmee de **gemiddelde verandering van een functie** kunnen berekenen.
-Eerst gaan we even terug naar de dragrace van Maria. Daar berekenden we de
-gemiddelde snelheid tussen $\blue{1{,}00\si{s}}$ en $\blue{3{,}00\si{s}}$ als
-volgt:
-
-$$\frac{\orange{180~\si{m}} - \orange{20~\si{m}}}{\blue{3{,}00~\si{s}} - \blue{1{,}00~\si{s}}}$$
-
-We kunnen de race van Maria eigenlijk ook zien als een **functie** waarbij $x$
-de **tijd** is die de chronometer aangeeft en $y$ de **positie** van Maria op
-het tijdstip $x$. Op de luchtfoto's kunnen we inderdaad zien dat ze een mooie
-functie vormen:
+We kunnen de race van Maria zien als een **functie** waarbij
+$\blue{x}$ de **tijd** is die de chronometer aangeeft en $\orange{f(x)}$ de 
+**positie** van Maria op het tijdstip $\blue{x}$. Op de luchtfoto's kunnen we 
+inderdaad zien dat de foto's een mooie [grafiek van een functie](../../functies/grafiek) vormen:
 
 (illustratie)
+
+In onze berekening voor gemiddelde snelheid zijn $\blue{1{,}00~\si{s}}$ en 
+$\blue{3{,}00~\si{s}}$ dus allebei $x-$waarden. We zullen ze $\blue{x\_1}$ en $\blue{x\_2}$ noemen waarbij
+
+\begin{split}
+    \blue{x\_1} &= \blue{1{,}00~\si{s}}\\\\\
+    \blue{x\_2} &= \blue{3{,}00~\si{s}}
+\end{split}
+
+In de teller van onze berekening voor gemiddelde snelheid staan de posities 
+$\orange{20~\si{m}}$ en $\orange{180~\si{m}}$. Dat zijn de posities waar
+Maria was toen de chronometer op $\blue{x\_1} = \blue{1{,}00~\si{s}}$ en
+$\blue{x\_2} = \blue{3{,}00~\si{s}}$ stond. Op de grafiek van de functie, 
+zien we inderdaad dat de **posities de functiewaarden zijn van de tijden op 
+de chronometer**:
+
+(illustratie)
+
+We kunnen dus zeggen dat:
+
+\begin{split}
+    \orange{f(x\_1)} &= \orange{20~\si{m}}\\\\\
+    \orange{f(x\_2)}  &= \orange{180~\si{m}}
+\end{split}
+
+Als we onze berekening voor gemiddelde snelheid met deze 
+$\blue{x\_1}$, $\blue{x\_2}$, $\orange{f(x\_1)}$ en $\orange{f(x\_2)}$  
+schrijven, krijgen we:
+
+$$\text{gem. snelheid} = \frac{\orange{f(x\_2)} - \orange{f(x\_1)}}{\blue{x\_2} - \blue{x\_1}}$$
+
+Met deze formule kunnen we nog steeds de gemiddelde snelheid berekenen, maar
+**nog veel meer dan enkel dat**! Deze breuk geeft ons de 
+**gemiddelde verandering van een functie**. Het zegt hoeveel 
+[de functiewaarde](../../functies/functiewaarde) gemiddeld verandert wanneer 
+de $x-$waarde verandert van $\blue{x\_1}$ naar $\blue{x\_2}$.
+
+(illustratie met enkel grafiek van functie, zonder racewagen)
+
+## Het differentiequotiënt
+
+We zagen in de vorige paragraaf dat we de gemiddelde verandering van een functie tussen twee $x-$waarden kunnen berekenen met de volgende breuk:
+
+$$\text{gem. verandering v.e. functie} = \frac{\orange{f(x\_2)} - \orange{f(x\_1)}}{\blue{x\_2} - \blue{x\_1}}$$
+
+Zo'n breuk noemen we een **differentiequotiënt**. In de noemer van het 
+differentiequotiënt staat het verschil van twee $x-$waarden en in de teller 
+het verschil van de bijhorende functiewaarden.
+
+Nu denk je misschien: "Een differ-**watte**?! 🤨" Waar komt die 
+naam vandaan? Het woord bestaat uit twee stukken:
+
+1. **differentie-**: moeilijk woord voor een *aftrekking* of *verschil*, denk 
+   maar aan het Engelse woord *difference*. Dit wijst erop dat er een 
+   **verschil wordt berekend** in de teller en noemer.
+2. **-quotiënt**: moeilijk woord voor een *deling* of een *breuk*. Dit wijst
+   op het feit dat **het ene verschil wordt gedeeld door het andere**.
+
+## Het verschil afkorten met $\Delta$
+
+Om niet elke keer "$\orange{f(x\_2)} - \orange{f(x\_1)}$" en "$\blue{x\_2} - 
+\blue{x\_1}$" languit te moeten schrijven in het differentiequotiënt, 
+gebruiken we een afkorting met de Griekse hoofdletter $\Delta$ (de delta):
+
+\begin{split}
+    \blue{\Delta x} &= \blue{x\_2} - \blue{x\_1}\\\\\
+    \orange{\Delta f(x)} &= \orange{f(x\_2)} - \orange{f(x\_1)}
+\end{split}
+
+Die "$\Delta$" is niets meer dan een afkorting om niet telkens die aftrekking
+voluit te moeten schrijven. Met behulp van deze $\Delta$, kunnen we het 
+differentiequotiënt veel korter schrijven:
+
+$$\text{gem. verandering v.e. functie} = \frac{\orange{\Delta f(x)}}{\blue{\Delta x}}$$
 
 ## Gemiddeld vs. ogenblikkelijk
 
