@@ -56,7 +56,7 @@ snelheid kunnen berekenen door de **afgelegde afstand**
 was** {{< mute "(hoeveel uur of seconden?)" >}} om die afstand af te leggen:
 
 \begin{split}
-    \text{gem. snelheid} &= \frac{\orange{\text{afgelegde afstand} }}{\blue{\text{tijd die nodig was}}}\\\\\
+    \text{gem. snelheid} &= \frac{\green{\text{afgelegde afstand} }}{\orange{\text{tijd die nodig was}}}\\\\\
 \end{split}
 
 In de volgende paragrafen gaan we deze formule op een iets wiskundigere 
@@ -66,7 +66,7 @@ schrijven zodat de formule niet enkel toepasbaar is voor het berekenen van
 verandering van een functie**. We zullen leren dat die formule voor 
 gemiddelde verandering van een functie er zo uitziet:
 
-$$\text{gem. verandering v.e. functie} = \frac{\orange{\Delta f(x)}}{\blue{\Delta x}}$$
+$$\text{gem. verandering v.e. functie} = \frac{\green{\Delta f(x)}}{\orange{\Delta x}}$$
 
 Die breuk zullen we het **differentiequotiënt** noemen. Moeilijk woord, maar 
 geen paniek! We gaan het je stap voor stap uitleggen. Eens we dat 
@@ -76,19 +76,19 @@ maken naar afgeleiden! 🏄‍♀️
 ## Gemiddelde snelheid als een breuk van twee verschillen
 
 Stel dat we Maria haar gemiddelde snelheid willen berekenen
-tussen $\blue{1{,}00~\si{s}}$ en $\blue{3{,}00~\si{s}}$.
+tussen $\orange{1{,}00~\si{s}}$ en $\orange{3{,}00~\si{s}}$.
 
-{{< svg "img/maria_avg_speed_last_100.svg" "Gemiddelde snelheid van Maria voor de laatste 100 m berekenen" >}}
+{{< svg "img/maria_avg_speed_1s_3s.svg" "Gemiddelde snelheid van Maria tussen 1 s en 3 s berekenen" >}}
 
-Wanneer de chronometer op $\blue{1{,}00~\si{s}}$ stond, was Maria
-$\orange{20~\si{m}}$ ver. Bij $\blue{3{,}00~\si{s}}$, was ze
-$\orange{180~\si{m}}$ ver. De gemiddelde snelheid tussen $\blue{1{,}00~\si{s}}$ en
-$\blue{3{,}00~\si{s}}$ is dus:
+Wanneer de chronometer op $\orange{1{,}00~\si{s}}$ stond, was Maria
+$\green{20~\si{m}}$ ver. Bij $\orange{3{,}00~\si{s}}$, was ze
+$\green{180~\si{m}}$ ver. De gemiddelde snelheid tussen $\orange{1{,}00~\si{s}}$ en
+$\orange{3{,}00~\si{s}}$ is dus:
 
 \begin{split}
-    \text{gem. snelheid} &= \frac{\orange{\text{afgelegde afstand} }}{\blue{\text{tijd die nodig was}}}\\\\\
-                         &= \frac{\orange{180~\si{m}} - \orange{20~\si{m}}}{\blue{3{,}00~\si{s}} - \blue{1{,}00~\si{s}}}\\\\\
-                         &= \frac{\orange{160~\si{m}}}{\blue{2{,}00~\si{s}}}\\\\\
+    \text{gem. snelheid} &= \frac{\green{\text{afgelegde afstand} }}{\orange{\text{tijd die nodig was}}}\\\\\
+                         &= \frac{\green{180~\si{m}} - \green{20~\si{m}}}{\orange{3{,}00~\si{s}} - \orange{1{,}00~\si{s}}}\\\\\
+                         &= \frac{\green{160~\si{m}}}{\orange{2{,}00~\si{s}}}\\\\\
                          &= 80{,}0~\si{m/s}\\\\\
                          &= 288~\si{km/h}
 \end{split}
@@ -97,10 +97,10 @@ Lekker snel! 🚀
 
 Je ziet dat we voor de afgelegde afstand en de tijd die nodig was telkens
 een **verschil** berekenen. Voor de afstand is dat het **verschil
-tussen de tweede positie** ($\orange{180~\si{m}}$) **en de eerste positie**
-($\orange{20~\si{m}}$). Voor de tijd is dat het **verschil tussen de 
-tweede tijd** ($\blue{3{,}00~\si{s}}$) **en de eerste tijd**
-($\blue{1{,}00~\si{s}}$). Die twee verschillen zetten we vervolgens in een 
+tussen de tweede positie** ($\green{180~\si{m}}$) **en de eerste positie**
+($\green{20~\si{m}}$). Voor de tijd is dat het **verschil tussen de 
+tweede tijd** ($\orange{3{,}00~\si{s}}$) **en de eerste tijd**
+($\orange{1{,}00~\si{s}}$). Die twee verschillen zetten we vervolgens in een 
 **breuk** met in de teller het verschil van posities en in de noemer het 
 verschil van tijden.
 
@@ -108,59 +108,66 @@ verschil van tijden.
 ## Gemiddelde snelheid veralgemenen naar gemiddelde verandering
 
 We kunnen de race van Maria zien als een **functie** waarbij
-$\blue{x}$ de **tijd** is die de chronometer aangeeft en $\orange{f(x)}$ de 
-**positie** van Maria op het tijdstip $\blue{x}$. Op de luchtfoto's kunnen we 
+$\orange{x}$ de **tijd** is die de chronometer aangeeft en $\green{f(x)}$ de 
+**positie** van Maria op het tijdstip $\orange{x}$. Op de luchtfoto's kunnen we 
 inderdaad zien dat de foto's een mooie [grafiek van een functie](../../functies/grafiek) vormen:
 
-(illustratie)
+{{< svg "img/maria_race_function.svg" "De positie van Maria als functie van de tijd" >}}
 
-In onze berekening voor gemiddelde snelheid zijn $\blue{1{,}00~\si{s}}$ en 
-$\blue{3{,}00~\si{s}}$ dus allebei $x-$waarden. We zullen ze $\blue{x\_1}$ en $\blue{x\_2}$ noemen waarbij
+In onze berekening voor gemiddelde snelheid zijn $\orange{1{,}00~\si{s}}$ en 
+$\orange{3{,}00~\si{s}}$ dus allebei $x-$waarden. We zullen ze $\orange{x\_1}$ en $\orange{x\_2}$ noemen waarbij
 
 \begin{split}
-    \blue{x\_1} &= \blue{1{,}00~\si{s}}\\\\\
-    \blue{x\_2} &= \blue{3{,}00~\si{s}}
+    \orange{x\_1} &= \orange{1{,}00~\si{s}}\\\\\
+    \orange{x\_2} &= \orange{3{,}00~\si{s}}
 \end{split}
 
 In de teller van onze berekening voor gemiddelde snelheid staan de posities 
-$\orange{20~\si{m}}$ en $\orange{180~\si{m}}$. Dat zijn de posities waar
-Maria was toen de chronometer op $\blue{x\_1} = \blue{1{,}00~\si{s}}$ en
-$\blue{x\_2} = \blue{3{,}00~\si{s}}$ stond. Op de grafiek van de functie, 
+$\green{20~\si{m}}$ en $\green{180~\si{m}}$. Dat zijn de posities waar
+Maria was toen de chronometer op $\orange{x\_1} = \orange{1{,}00~\si{s}}$ en
+$\orange{x\_2} = \orange{3{,}00~\si{s}}$ stond. Op de grafiek van de functie, 
 zien we inderdaad dat de **posities de functiewaarden zijn van de tijden op 
 de chronometer**:
 
-(illustratie)
+{{< svg "img/race_positie_fx_waarde.svg" "De posities zijn functiewaarden van de tijd." >}}
 
 We kunnen dus zeggen dat:
 
 \begin{split}
-    \orange{f(x\_1)} &= \orange{20~\si{m}}\\\\\
-    \orange{f(x\_2)}  &= \orange{180~\si{m}}
+    \green{f(x\_1)} &= \green{20~\si{m}}\\\\\
+    \green{f(x\_2)}  &= \green{180~\si{m}}
 \end{split}
 
 Als we onze berekening voor gemiddelde snelheid met deze 
-$\blue{x\_1}$, $\blue{x\_2}$, $\orange{f(x\_1)}$ en $\orange{f(x\_2)}$  
+$\orange{x\_1}$, $\orange{x\_2}$, $\green{f(x\_1)}$ en $\green{f(x\_2)}$
 schrijven, krijgen we:
 
-$$\text{gem. snelheid} = \frac{\orange{f(x\_2)} - \orange{f(x\_1)}}{\blue{x\_2} - \blue{x\_1}}$$
+$$\frac{\green{f(x\_2)} - \green{f(x\_1)}}{\orange{x\_2} - \orange{x\_1}}$$
 
-Met deze formule kunnen we nog steeds de gemiddelde snelheid berekenen, maar
-**nog veel meer dan enkel dat**! Deze breuk geeft ons de 
-**gemiddelde verandering van een functie**. Het zegt hoeveel 
-[de functiewaarde](../../functies/functiewaarde) gemiddeld verandert wanneer 
-de $x-$waarde verandert van $\blue{x\_1}$ naar $\blue{x\_2}$.
-
-(illustratie met enkel grafiek van functie, zonder racewagen)
+Dit is de formule van het **differentiequotiënt**. Hier gaan we in de volgende
+paragraaf verder op in.
 
 ## Het differentiequotiënt
 
-We zagen in de vorige paragraaf dat we de gemiddelde verandering van een functie tussen twee $x-$waarden kunnen berekenen met de volgende breuk:
+In de vorige paragraaf schreven we onze berekening voor de gemiddelde snelheid
+als het **differentiequotiënt**:
 
-$$\text{gem. verandering v.e. functie} = \frac{\orange{f(x\_2)} - \orange{f(x\_1)}}{\blue{x\_2} - \blue{x\_1}}$$
+{{< svg "img/diff_quot_intuitie.svg" "Intuïtie achter formule van differentiequotiënt" >}}
 
-Zo'n breuk noemen we een **differentiequotiënt**. In de noemer van het 
-differentiequotiënt staat het verschil van twee $x-$waarden en in de teller 
-het verschil van de bijhorende functiewaarden.
+Vertaald naar woorden zegt deze formule:
+
+* Hoeveel verandert de $\green{\text{functiewaarde}}$ gemiddeld
+  $\orange{\text{per x-eenheid}}$ tussen $\orange{x\_1}$ en $\orange{x\_2}$?
+* Of: Wat is de **gemiddelde functieverandering** tussen $\orange{x\_1}$ en
+  $\orange{x\_2}$?
+
+Voor de race van Maria kunnen we dat vertalen als:
+
+* Hoeveel verandert de $\green{\text{positie van Maria}}$ gemiddeld
+  $\orange{\text{per seconde}}$ tussen tijd $\orange{x\_1}$ en tijd
+  $\orange{x\_2}$?
+* Of: Wat is de **gemiddelde snelheid** tussen tijd $\orange{x\_1}$ en tijd
+  $\orange{x\_2}$?
 
 Nu denk je misschien: "Een differ-**watte**?! 🤨" Waar komt die 
 naam vandaan? Het woord bestaat uit twee stukken:
@@ -173,20 +180,20 @@ naam vandaan? Het woord bestaat uit twee stukken:
 
 ## Het verschil afkorten met $\Delta$
 
-Om niet elke keer "$\orange{f(x\_2)} - \orange{f(x\_1)}$" en "$\blue{x\_2} - 
-\blue{x\_1}$" languit te moeten schrijven in het differentiequotiënt, 
+Om niet elke keer "$\green{f(x\_2)} - \green{f(x\_1)}$" en "$\orange{x\_2} - 
+\orange{x\_1}$" languit te moeten schrijven in het differentiequotiënt, 
 gebruiken we een afkorting met de Griekse hoofdletter $\Delta$ (de delta):
 
 \begin{split}
-    \blue{\Delta x} &= \blue{x\_2} - \blue{x\_1}\\\\\
-    \orange{\Delta f(x)} &= \orange{f(x\_2)} - \orange{f(x\_1)}
+    \orange{\Delta x} &= \orange{x\_2} - \orange{x\_1}\\\\\
+    \green{\Delta f(x)} &= \green{f(x\_2)} - \green{f(x\_1)}
 \end{split}
 
 Die "$\Delta$" is niets meer dan een afkorting om niet telkens die aftrekking
 voluit te moeten schrijven. Met behulp van deze $\Delta$, kunnen we het 
 differentiequotiënt veel korter schrijven:
 
-$$\text{gem. verandering v.e. functie} = \frac{\orange{\Delta f(x)}}{\blue{\Delta x}}$$
+$$\text{gem. verandering v.e. functie} = \frac{\green{\Delta f(x)}}{\orange{\Delta x}}$$
 
 ## Gemiddeld vs. ogenblikkelijk
 
