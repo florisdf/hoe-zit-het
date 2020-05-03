@@ -1,5 +1,5 @@
 ---
-title: "Wat is een afgeleide?"
+title: "Wat is het differentiequotiënt?"
 date: 2020-03-10T16:35:11+02:00
 weight: 1
 draft: true
@@ -90,7 +90,7 @@ Merk op dat in de teller telkens de *functiewaarde* staat van de $x-$waarden in 
 
 {{< svg "img/race_positie_fx_waarde.svg" "De posities zijn functiewaarden van de tijd." >}}
 
-De formule $\frac{\green{f(x\_2)} - \green{f(x\_1)}}{\orange{x\_2} - \orange{x\_1}}$, noemen we het **differentiequotiënt**. Hier gaan we in de volgende paragraaf verder op in.
+De formule $\frac{\green{f(x\_2)} - \green{f(x\_1)}}{\orange{x\_2} - \orange{x\_1}}$ noemen we het **differentiequotiënt**. Hier gaan we in de volgende paragraaf verder op in.
 
 ## Het differentiequotiënt
 
@@ -111,11 +111,11 @@ Het kan echter helpen om de analogie met de dragrace van Maria in ons achterhoof
 
 Wanneer het **differentiequotiënt groot** is, betekent het dat de functie veel verandert per x-eenheid tussen $\orange{x\_1}$ en $\orange{x\_2}$. Bij de dragrace gebeurt dit wanneer Maria heel **snel rijdt**. Je ziet dat de functiewaarde {{< mute "(de positie dus)" >}} dan inderdaad veel verandert per x-eenheid {{< mute "(per seconde dus)" >}}:
 
-(illustratie met groot differentiequotiënt)
+{{< svg "img/race_groot_difquot.svg" "x-waarden die een groot differentiequotiënt geven" >}}
 
 Nadat ze over de finish is, **remt Maria haar wagen af** met behulp van een parachute. We zien dat de functiewaarde {{< mute "(de positie dus)" >}} dan veel minder verandert per x-eenheid {{< mute "(per seconde dus)" >}}. Het **differentiequotiënt is in dit geval klein**:
 
-(illustratie met klein differentiequotiënt)
+{{< svg "img/race_klein_difquot.svg" "x-waarden die een klein differentiequotiënt geven" >}}
 
 {{< expand "Waar komt de naam differentiequotiënt vandaan?" >}}
 Nu denk je misschien: "Een differ-**watte**?! 🤨" Waar komt die 
