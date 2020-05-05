@@ -1,5 +1,5 @@
 ---
-title: "Wat is het differentiequotiënt?"
+title: "Wat is een differentiequotiënt?"
 date: 2020-03-10T16:35:11+02:00
 weight: 1
 draft: true
@@ -132,7 +132,7 @@ achterhoofd te houden. In dat geval kunnen we de formule lezen als:
   $\orange{\text{per seconde}}$ tussen tijd $\orange{x\_1}$ en tijd
   $\orange{x\_2}$?
 
-Wanneer het **differentiequotiënt groot** is, betekent het dat de functie veel
+Wanneer een **differentiequotiënt groot** is, betekent het dat de functie veel
 verandert per x-eenheid tussen $\orange{x\_1}$ en $\orange{x\_2}$. Bij de
 dragrace gebeurt dit wanneer Maria heel **snel rijdt**. Je ziet dat de
 functiewaarde {{< mute "(de positie dus)" >}} dan inderdaad veel verandert per
@@ -174,13 +174,21 @@ afkorten. Hiervoor gebruiken we de Griekse hoofdletter $\Delta$ (de delta):
 
 Die "$\Delta$" lijkt wat overweldigend, maar is eigenlijk niets meer dan een
 verkorte schrijfwijze. Met behulp van deze $\Delta$, kunnen we het
-differentiequotiënt als volgt schrijven:
+differentiequotiënt als volgt afkorten:
 
 $$\frac{\green{f(x\_2)} - \green{f(x\_1)}}{\orange{x\_2} - \orange{x\_1}} = \frac{\green{\Delta f(x)}}{\orange{\Delta x}}$$
+
+Op een grafiek kan je $\green{\Delta f(x)}$ en $\orange{\Delta x}$ ook aanduiden:
+
+(illustratie)
 
 Een andere vaakgebruikte manier om het differentiequotiënt verkort te schrijven gaat zo:
 
 $$\frac{\green{f(x\_2)} - \green{f(x\_1)}}{\orange{x\_2} - \orange{x\_1}} = \frac{\green{f(x\_1 + \Delta x)} - \green{f(x\_1)}}{\orange{\Delta x}}$$
+
+Grafisch zie je dat de formule inderdaad hetzelfde zegt als voordien:
+
+(illustratie)
 
 In de noemer doen we hetzelfde als voordien, namelijk $\orange{x\_2} -
 \orange{x\_1}$ vervangen door $\orange{\Delta x}$. In de teller doen we iets
@@ -195,26 +203,30 @@ Dat mag omdat $x\_2 = x\_1 + \Delta x$:
 
 Meestal gaat $\frac{\green{f(x\_1 + \Delta x)} -
 \green{f(x\_1)}}{\orange{\Delta x}}$ echter nog korter geschreven worden door
-in plaats van $x\_1$ gewoon $x$ te schrijven:
+in plaats van $x\_1$ gewoon $a$ te schrijven:
 
-$$\frac{\green{f(x + \Delta x)} - \green{f(x)}}{\orange{\Delta x}}$$
+$$\frac{\green{f(a + \Delta x)} - \green{f(a)}}{\orange{\Delta x}}$$
+
+Dat ziet er grafisch zo uit:
+
+(illustratie)
 
 ## Samengevat
 
-{{< attention "Wat is het differentiequotiënt?" >}}
+{{< attention "Wat is een differentiequotiënt?" >}}
 Het differentiequotiënt is gedefinieerd als
 
 $$\frac{\green{f(x\_2)} - \green{f(x\_1)}}{\orange{x\_2} - \orange{x\_1}}$$
 
 Dit kunnen we korter schrijven als:
 
-$$\frac{\green{f(x + \Delta x)} - \green{f(x)}}{\orange{\Delta x}}$$
+$$\frac{\green{f(a + \Delta x)} - \green{f(a)}}{\orange{\Delta x}}$$
 
-Of:
+Waarbij $a=x\_1$. Je kan het differentiequotiënt nog korter schrijven als:
 
 $$\frac{\green{\Delta f(x)}}{\orange{\Delta x}}$$
 
-Het differentiequotiënt zegt hoeveel de $\green{\text{functiewaarde}}$
-gemiddeld $\orange{\text{per x-eenheid}}$ verandert tussen een bepaalde
+Een differentiequotiënt zegt hoeveel de $\green{\text{functiewaarde}}$
+gemiddeld $\orange{\text{per x-eenheid}}$ verandert tussen de gekozen
 $\orange{x\_1}$ en $\orange{x\_2}$.
 {{< /attention >}}

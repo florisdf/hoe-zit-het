@@ -1,7 +1,7 @@
 ---
 title: "De afgeleide in een punt berekenen"
 date: 2020-03-18T20:46:11+02:00
-weight: 3
+weight: 4
 draft: true
 tags: ["afgeleide", "afgeleide in een punt"]
 description: ""

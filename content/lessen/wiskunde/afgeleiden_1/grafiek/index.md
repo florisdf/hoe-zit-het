@@ -1,7 +1,7 @@
 ---
 title: "De grafiek van een afgeleide functie"
 date: 2020-04-03T15:09:56+02:00
-weight: 6
+weight: 7
 draft: true
 tags: []
 images: []
