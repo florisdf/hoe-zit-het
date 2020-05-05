@@ -180,7 +180,7 @@ $$\frac{\green{f(x\_2)} - \green{f(x\_1)}}{\orange{x\_2} - \orange{x\_1}} = \fra
 
 Op een grafiek kan je $\green{\Delta f(x)}$ en $\orange{\Delta x}$ ook aanduiden:
 
-(illustratie)
+{{< svg "img/graph_delta_fx_delta_x.svg" "Delta f(x) en Delta x aangeduid op een grafiek." >}}
 
 Een andere vaakgebruikte manier om het differentiequotiënt verkort te schrijven gaat zo:
 
@@ -188,7 +188,7 @@ $$\frac{\green{f(x\_2)} - \green{f(x\_1)}}{\orange{x\_2} - \orange{x\_1}} = \fra
 
 Grafisch zie je dat de formule inderdaad hetzelfde zegt als voordien:
 
-(illustratie)
+{{< svg "img/graph_delta_fx1+delta_x_delta_x.svg" "Delta f(x1 + Delta x) en Delta x aangeduid op een grafiek." >}}
 
 In de noemer doen we hetzelfde als voordien, namelijk $\orange{x\_2} -
 \orange{x\_1}$ vervangen door $\orange{\Delta x}$. In de teller doen we iets
@@ -209,7 +209,7 @@ $$\frac{\green{f(a + \Delta x)} - \green{f(a)}}{\orange{\Delta x}}$$
 
 Dat ziet er grafisch zo uit:
 
-(illustratie)
+{{< svg "img/graph_delta_fa+delta_x_delta_x.svg" "Delta f(a + Delta x) en Delta x aangeduid op een grafiek." >}}
 
 ## Samengevat
 
