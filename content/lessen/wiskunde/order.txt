@@ -5,5 +5,5 @@ functies
 1g_vgl
 vector_1
 eentermen
-afgeleiden_2
 afgeleiden_1
+afgeleiden_2
