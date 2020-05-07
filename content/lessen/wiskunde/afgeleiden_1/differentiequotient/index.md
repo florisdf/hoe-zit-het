@@ -80,14 +80,14 @@ plaats tegelijk zijn. Met elke tijd $\orange{x}$ op de chronometer komt dus
 *hooguit één* $\green{\text{positie}}$ overeen. Daarom mogen we zeggen dat
 Maria haar **positie een functie is van de tijd**. We kunnen de positie die
 overeenkomt met tijdstip $\orange{x}$ dus $\green{f(x)}$ noemen. Op de
-luchtfoto's zien we inderdaad dat de posities een mooie [grafiek van een
-functie](../../functies/grafiek) vormen:
+luchtfoto's zien we inderdaad dat de posities mooi de [grafiek van de
+functie](../../functies/grafiek) $\green{f(x) = 20x^2}$ volgen:
 
 {{< svg "img/maria_race_function.svg" "De positie van Maria als functie van de tijd" >}}
 
 > Als je niet meer goed weet vanaf wanneer een verband tussen twee variabelen
 {{< mute "(zoals positie en tijd)" >}} een functie is, kan je altijd onze
-[intro over functies](../../functies/intro) eens nalezen.
+[les over functies](../../functies/intro) eens nalezen.
 
 We kunnen nu onze formule voor gemiddelde snelheid korter schrijven waarbij we
 
@@ -101,10 +101,25 @@ Zo krijgen we:
 $$\frac{\green{f(x\_2)} - \green{f(x\_1)}}{\orange{x\_2} - \orange{x\_1}}$$
 
 Merk op dat in de teller telkens de *functiewaarde* staat van de $x-$waarden in
-de noemer. Stel dat $\orange{x\_1} = \orange{2{,}00~\si{s}}$ en $\orange{x\_2}
-= \orange{2{,}50~\si{s}}$, dan zal $\green{f(x\_1)} = \green{80~\si{m}}$ en
-$\green{f(x\_2)} = \green{125~\si{m}}$, zoals je kan zien in onderstaande
-figuur:
+de noemer. We moeten in de teller dus de $x-$waarden van de noemer invullen. Stel dat we $\orange{x\_1} = \orange{2{,}00~\si{s}}$ en $\orange{x\_2}
+= \orange{2{,}50~\si{s}}$ kiezen, dan moeten we $\orange{2{,}00}$ en $\orange{2{,}50}$ invullen in $\green{f(x) = 20x^2}$:
+
+\begin{split}
+    \green{f(x\_1)} &= \green{20\cdot (\orange{2{,}00})^2~\si{m}} = \green{80~\si{m}}\\\\\
+    \green{f(x\_2)} &= \green{20\cdot (\orange{2{,}50})^2~\si{m}} = \green{125~\si{m}}
+\end{split}
+
+Voor $\orange{x\_1} = \orange{2{,}00~\si{s}}$ en $\orange{x\_2}
+= \orange{2{,}50~\si{s}}$ geldt dus dat
+
+\begin{split}
+    \frac{\green{f(x\_2)} - \green{f(x\_1)}}{\orange{x\_2} - \orange{x\_1}} &= \frac{\green{20\cdot (\orange{2{,}50})^2~\si{m}} - \green{20\cdot (\orange{2{,}00})^2~\si{m}}}{\orange{2{,}50~\si{s}} - \orange{2{,}00~\si{s}}}\\\\\
+    &= \frac{\green{125~\si{m}} - \green{80~\si{m}}}{\orange{2{,}50~\si{s}} - \orange{2{,}00~\si{s}}}\\\\\
+    &= \frac{\green{45~\si{m}}}{\orange{0{,}50~\si{s}}}\\\\\
+    &= 90~\si{m/s}
+\end{split}
+
+Dit kan je ook zien op onderstaande figuur:
 
 {{< svg "img/race_positie_fx_waarde.svg" "De posities zijn functiewaarden van de tijd." >}}
 
@@ -186,10 +201,6 @@ Een andere vaakgebruikte manier om het differentiequotiënt verkort te schrijven
 
 $$\frac{\green{f(x\_2)} - \green{f(x\_1)}}{\orange{x\_2} - \orange{x\_1}} = \frac{\green{f(x\_1 + \Delta x)} - \green{f(x\_1)}}{\orange{\Delta x}}$$
 
-Grafisch zie je dat de formule inderdaad hetzelfde zegt als voordien:
-
-{{< svg "img/graph_delta_fx1+delta_x_delta_x.svg" "Delta f(x1 + Delta x) en Delta x aangeduid op een grafiek." >}}
-
 In de noemer doen we hetzelfde als voordien, namelijk $\orange{x\_2} -
 \orange{x\_1}$ vervangen door $\orange{\Delta x}$. In de teller doen we iets
 anders nu. We vervangen $\green{f(x\_2)}$ door $\green{f(x\_1 + \Delta x)}$.
@@ -201,6 +212,10 @@ Dat mag omdat $x\_2 = x\_1 + \Delta x$:
     \Leftrightarrow x\_2 &= x\_1 + \Delta x
 \end{split}
 
+Grafisch zie je dat de formule inderdaad gewoon een andere schrijfwijze is voor dezelfde berekening:
+
+{{< svg "img/graph_delta_fx1+delta_x_delta_x.svg" "Delta f(x1 + Delta x) en Delta x aangeduid op een grafiek." >}}
+
 Meestal gaat $\frac{\green{f(x\_1 + \Delta x)} -
 \green{f(x\_1)}}{\orange{\Delta x}}$ echter nog korter geschreven worden door
 in plaats van $x\_1$ gewoon $a$ te schrijven:
@@ -211,22 +226,26 @@ Dat ziet er grafisch zo uit:
 
 {{< svg "img/graph_delta_fa+delta_x_delta_x.svg" "Delta f(a + Delta x) en Delta x aangeduid op een grafiek." >}}
 
+Het is belangrijk om in te zien dat deze drie manieren om het differentiequotiënt te schrijven **identiek dezelfde berekening** maken. De berekening wordt enkel anders *verwoord*. Kijk dus nog eens extra naar de drie formules voor het differentiequotiënt, bekijk de bijhorende grafieken nogmaals en zorg dat je de gelijkenis begrijpt.
+
 ## Samengevat
 
 {{< attention "Wat is een differentiequotiënt?" >}}
-Het differentiequotiënt is gedefinieerd als
+Een differentiequotiënt zegt hoeveel de $\green{\text{functiewaarde}}$
+gemiddeld $\orange{\text{per x-eenheid}}$ verandert tussen een gekozen
+$\orange{x\_1}$ en $\orange{x\_2}$.
+
+Het differentiequotiënt is gedefinieerd als:
 
 $$\frac{\green{f(x\_2)} - \green{f(x\_1)}}{\orange{x\_2} - \orange{x\_1}}$$
 
-Dit kunnen we korter schrijven als:
+Dit kunnen we ook schrijven als:
 
 $$\frac{\green{f(a + \Delta x)} - \green{f(a)}}{\orange{\Delta x}}$$
 
-Waarbij $a=x\_1$. Je kan het differentiequotiënt nog korter schrijven als:
+Waarbij $a=x\_1$ en $\Delta x = x\_2 - x\_1$. Je kan het differentiequotiënt nog korter schrijven als:
 
 $$\frac{\green{\Delta f(x)}}{\orange{\Delta x}}$$
 
-Een differentiequotiënt zegt hoeveel de $\green{\text{functiewaarde}}$
-gemiddeld $\orange{\text{per x-eenheid}}$ verandert tussen de gekozen
-$\orange{x\_1}$ en $\orange{x\_2}$.
+Daar is $\Delta f(x) = f(x\_2) - f(x\_1)$.
 {{< /attention >}}
