@@ -42,7 +42,7 @@ variabelen onder een wortel**.
 
 |      Voorbeeld      |  Eenterm?  |                                              Uitleg                                             |
 |     -----------     | ---------- |                                             --------                                            |
-| $-\frac{3y^2}{x^3}$ |  **NEEN**  |                           Er staan een variabele ($x^3$) in de noemer                           |
+| $-\frac{3y^2}{x^3}$ |  **NEEN**  |                           Er staat een variabele ($x^3$) in de noemer                           |
 |     $2\sqrt{y}$     |  **NEEN**  |                           Er staat een variabele ($y$) onder de wortel                          |
 |      $a^2 - b$      |  **NEEN**  |                             Dit is geen product maar een aftrekking                             |
 |  $\frac{-5}{2}a^2b$ |   **JA**   | Alle exponenten zijn natuurlijke getallen, er zijn geen wortels en geen variabelen in de noemer |
