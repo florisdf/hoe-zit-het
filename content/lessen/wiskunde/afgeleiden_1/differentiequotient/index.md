@@ -32,7 +32,7 @@ enkele luchtfoto's van Maria in haar *Top Fuel dragster* tijdens het dragracen.
 
 {{< svg "img/maria_race_top.svg" "Luchtfoto's van Maria tijdens haar race." >}}
 
-Stel dat we Maria haar gemiddelde snelheid willen berekenen
+Stel dat we Maria's gemiddelde snelheid willen berekenen
 tussen $\orange{1{,}00~\si{s}}$ en $\orange{3{,}00~\si{s}}$.
 
 {{< svg "img/maria_avg_speed_1s_3s.svg" "Gemiddelde snelheid van Maria tussen 1 s en 3 s berekenen" >}}
@@ -66,101 +66,57 @@ positie** ($\green{180~\si{m}}$) **en de eerste positie**
 ($\green{20~\si{m}}$). Voor de tijd is dat het **verschil tussen de tweede
 tijd** ($\orange{3{,}00~\si{s}}$) **en de eerste tijd**
 ($\orange{1{,}00~\si{s}}$). Die twee verschillen zetten we vervolgens in een
-**breuk** met in de teller het verschil van posities en in de noemer het
+**breuk** met in de teller {{% mute "(boven)" %}} het verschil van posities en in de noemer {{% mute "(onder)" %}} het
 verschil van tijden. We kunnen de formule voor gemiddelde snelheid dus ook als
 volgt schrijven:
 
 $$\text{gem. snelheid} = \frac{\green{\text{positie}\_2} - \green{\text{positie}\_1}}{\orange{\text{tijd}\_2} - \orange{\text{tijd}\_1}}$$
  
-## Gemiddelde snelheid veralgemenen naar gemiddelde verandering
+## Gemiddelde snelheid veralgemenen naar het differentiequotiënt
 
 Stel nu dat we de $\orange{\text{tijd}}$ op de chronometer "$\orange{x}$"
 noemen. Maria kan op een bepaald tijdstip $\orange{x}$ natuurlijk maar op één
 plaats tegelijk zijn. Met elke tijd $\orange{x}$ op de chronometer komt dus
 *hooguit één* $\green{\text{positie}}$ overeen. Daarom mogen we zeggen dat
-Maria haar **positie een functie is van de tijd**. We kunnen de positie die
-overeenkomt met tijdstip $\orange{x}$ dus $\green{f(x)}$ noemen. Op de
-luchtfoto's zien we inderdaad dat de posities mooi de [grafiek van de
-functie](../../functies/grafiek) $\green{f(x) = 20x^2}$ volgen:
-
-{{< svg "img/maria_race_function.svg" "De positie van Maria als functie van de tijd" >}}
+Maria's **positie een functie is van de tijd**.
 
 > Als je niet meer goed weet vanaf wanneer een verband tussen twee variabelen
 {{< mute "(zoals positie en tijd)" >}} een functie is, kan je altijd onze
-[les over functies](../../functies/intro) eens nalezen.
+[les over functies](../../functies/intro) eens nalezen. 
+
+We kunnen de positie die
+overeenkomt met tijdstip $\orange{x}$ dus $\green{f(x)}$ noemen. Op de
+luchtfoto's zien we inderdaad dat de posities mooi de [grafiek van een
+functie](../../functies/grafiek) volgen:
+
+{{< svg "img/maria_race_function.svg" "De positie van Maria als functie van de tijd" >}}
 
 We kunnen nu onze formule voor gemiddelde snelheid korter schrijven waarbij we
 
-* $\orange{\text{tijd}\_1}$ en $\orange{\text{tijd}\_2}$ vervangen door
-  $\orange{x\_1}$ en $\orange{x\_2}$
-* $\green{\text{positie}\_1}$ en $\green{\text{positie}\_2}$ vervangen door
-  $\green{f(x\_1)}$ en $\green{f(x\_2)}$
+* $\green{\text{positie}\_2}$ en $\green{\text{positie}\_1}$ vervangen door
+  $\green{f(x\_2)}$ en $\green{f(x\_1)}$
+* $\orange{\text{tijd}\_2}$ en $\orange{\text{tijd}\_1}$ vervangen door
+  $\orange{x\_2}$ en $\orange{x\_1}$ 
 
 Zo krijgen we:
 
 $$\frac{\green{f(x\_2)} - \green{f(x\_1)}}{\orange{x\_2} - \orange{x\_1}}$$
 
-Merk op dat in de teller telkens de *functiewaarde* staat van de $x-$waarden in
-de noemer. We moeten in de teller dus de $x-$waarden van de noemer invullen. Stel dat we $\orange{x\_1} = \orange{2{,}00~\si{s}}$ en $\orange{x\_2}
-= \orange{2{,}50~\si{s}}$ kiezen, dan moeten we $\orange{2{,}00}$ en $\orange{2{,}50}$ invullen in $\green{f(x) = 20x^2}$:
-
-\begin{split}
-    \green{f(x\_1)} &= \green{20\cdot (\orange{2{,}00})^2~\si{m}} = \green{80~\si{m}}\\\\\
-    \green{f(x\_2)} &= \green{20\cdot (\orange{2{,}50})^2~\si{m}} = \green{125~\si{m}}
-\end{split}
-
-Voor $\orange{x\_1} = \orange{2{,}00~\si{s}}$ en $\orange{x\_2}
-= \orange{2{,}50~\si{s}}$ geldt dus dat
-
-\begin{split}
-    \frac{\green{f(x\_2)} - \green{f(x\_1)}}{\orange{x\_2} - \orange{x\_1}} &= \frac{\green{20\cdot (\orange{2{,}50})^2~\si{m}} - \green{20\cdot (\orange{2{,}00})^2~\si{m}}}{\orange{2{,}50~\si{s}} - \orange{2{,}00~\si{s}}}\\\\\
-    &= \frac{\green{125~\si{m}} - \green{80~\si{m}}}{\orange{2{,}50~\si{s}} - \orange{2{,}00~\si{s}}}\\\\\
-    &= \frac{\green{45~\si{m}}}{\orange{0{,}50~\si{s}}}\\\\\
-    &= 90~\si{m/s}
-\end{split}
-
-Dit kan je ook zien op onderstaande figuur:
-
-{{< svg "img/race_positie_fx_waarde.svg" "De posities zijn functiewaarden van de tijd." >}}
-
-De formule $\frac{\green{f(x\_2)} - \green{f(x\_1)}}{\orange{x\_2} -
-\orange{x\_1}}$ noemen we het **differentiequotiënt**. Hier gaan we in de
-volgende paragraaf verder op in.
-
-## Het differentiequotiënt
-
-In de vorige paragraaf leerden we dat we de formule voor het berekenen van
-gemiddelde snelheid konden schrijven als het **differentiequotiënt**:
-
-{{< svg "img/diff_quot_intuitie.svg" "Intuïtie achter formule van differentiequotiënt" >}}
-
-Het is belangrijk dat we niet uit het oog verliezen wat deze formule **in
-mensentaal wilt zeggen**. Wiskundig gezien zegt deze formule het volgende:
+Wiskundig gezien zegt die formule:
 
 * Hoeveel verandert de $\green{\text{functiewaarde}}$ gemiddeld
   $\orange{\text{per x-eenheid}}$ tussen $\orange{x\_1}$ en $\orange{x\_2}$?
 
-Het kan echter helpen om de analogie met de dragrace van Maria in ons
-achterhoofd te houden. In dat geval kunnen we de formule lezen als:
+Je zou dus kunnen zeggen dat het een formule is die de **gemiddelde verandering van de functiewaarde** berekent per $x-$eenheid tussen $\orange{x\_1}$ en $\orange{x\_2}$.
+Als je die formulering nogal ingewikkeld vindt, kan je altijd terugdenken aan 
+de analogie met de dragrace van Maria:
 
 * Hoeveel verandert de $\green{\text{positie van Maria}}$ gemiddeld
   $\orange{\text{per seconde}}$ tussen tijd $\orange{x\_1}$ en tijd
   $\orange{x\_2}$?
 
-Wanneer een **differentiequotiënt groot** is, betekent het dat de functie veel
-verandert per x-eenheid tussen $\orange{x\_1}$ en $\orange{x\_2}$. Bij de
-dragrace gebeurt dit wanneer Maria heel **snel rijdt**. Je ziet dat de
-functiewaarde {{< mute "(de positie dus)" >}} dan inderdaad veel verandert per
-x-eenheid {{< mute "(per seconde dus)" >}}:
-
-{{< svg "img/race_groot_difquot.svg" "x-waarden die een groot differentiequotiënt geven" >}}
-
-Nadat ze over de finish is, **remt Maria haar wagen af** met behulp van een
-parachute. We zien dat de functiewaarde {{< mute "(de positie dus)" >}} dan
-veel minder verandert per x-eenheid {{< mute "(per seconde dus)" >}}. Het
-**differentiequotiënt is in dit geval klein**:
-
-{{< svg "img/race_klein_difquot.svg" "x-waarden die een klein differentiequotiënt geven" >}}
+Het is belangrijk om te weten dat we die formule niet enkel kunnen gebruiken om gemiddelde snelheid te berekenen, maar voor nog veel andere soorten van *gemiddelde verandering*.
+De formule wordt zelfs zo vaak gebruikt, dat ze een eigen naam heeft gekregen: het **differentiequotiënt**.
 
 {{< expand "Waar komt de naam differentiequotiënt vandaan?" >}}
 Nu denk je misschien: "Een differ-**watte**?! 🤨" Waar komt die 
@@ -174,6 +130,32 @@ naam vandaan? Het woord bestaat uit twee stukken:
    
 {{< /expand >}}
 
+## Voorbeelden met het differentiequotiënt
+
+In deze paragraaf geven we verschillende voorbeelden waar het berekenen van de *gemiddelde verandering* interessant kan zijn en het **differentiequotiënt dus handig van pas komt**. Omdat we met de gemiddelde snelheid al vertrouwd zijn, gaan we met dat voorbeeld beginnen. Zo zal je duidelijker de analogie kunnen zien met de andere voorbeelden.
+
+
+### Gemiddelde snelheid tijdens een dragrace
+
+* Wat betekent de functiewaarde?
+* Wat betekent de verandering van de functiewaarde?
+* Wat betekent de x-eenheid?
+* Wat betekent de verandering van de functiewaarde per x-eenheid?
+
+### Gemiddelde winst per dag
+
+Ronny, bijvoorbeeld, heeft een overzicht van hoeveel geld er elke dag op de rekening stond van zijn winkel Ronny's Candy Paradise. In dat geval is $\green{f(x)}$ het bedrag dat op dag $\orange{x}$ op de rekening van Ronny's Candy Paradise stond. 
+
+(illustratie)
+
+Als we als $\orange{x\_1}$ 1 mei en als $\orange{x\_2}$ 31 mei kiezen, dan berekenen we met de formule voor gemiddelde verandering hoeveel het kapitaal van Ronny's Candy Paradise gemiddeld per dag veranderde in de maand mei.
+
+(illustratie)
+ 
+
+### Gemiddelde helling van een berg
+
+
 ## Het verschil afkorten met $\Delta$
 
 Tot slot gaan we het differentiequotiënt nog een tikkeltje korter leren
@@ -183,8 +165,8 @@ die telkens voluit te moeten schrijven. Daarom gaan we zulke verschillen
 afkorten. Hiervoor gebruiken we de Griekse hoofdletter $\Delta$ (de delta):
 
 \begin{split}
-    \orange{\Delta x} &= \orange{x\_2} - \orange{x\_1}\\\\\
-    \green{\Delta f(x)} &= \green{f(x\_2)} - \green{f(x\_1)}
+    \green{\Delta f(x)} &= \green{f(x\_2)} - \green{f(x\_1)}\\\\\
+        \orange{\Delta x} &= \orange{x\_2} - \orange{x\_1}
 \end{split}
 
 Die "$\Delta$" lijkt wat overweldigend, maar is eigenlijk niets meer dan een
@@ -201,8 +183,8 @@ Een andere vaakgebruikte manier om het differentiequotiënt verkort te schrijven
 
 $$\frac{\green{f(x\_2)} - \green{f(x\_1)}}{\orange{x\_2} - \orange{x\_1}} = \frac{\green{f(x\_1 + \Delta x)} - \green{f(x\_1)}}{\orange{\Delta x}}$$
 
-In de noemer doen we hetzelfde als voordien, namelijk $\orange{x\_2} -
-\orange{x\_1}$ vervangen door $\orange{\Delta x}$. In de teller doen we iets
+In de noemer {{% mute "(onder)" %}} doen we hetzelfde als voordien, namelijk $\orange{x\_2} -
+\orange{x\_1}$ vervangen door $\orange{\Delta x}$. In de teller {{% mute "(boven)" %}} doen we iets
 anders nu. We vervangen $\green{f(x\_2)}$ door $\green{f(x\_1 + \Delta x)}$.
 Dat mag omdat $x\_2 = x\_1 + \Delta x$:
 
