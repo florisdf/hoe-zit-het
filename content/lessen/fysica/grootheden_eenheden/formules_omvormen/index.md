@@ -10,13 +10,26 @@ course: "Fysica"
 topic: "grootheden_eenheden"
 images: []
 ---
-Fysica levert een wiskundige beschrijving van bepaalde eigenschappen en onderdelen van de wereld en het heelal rondom ons. Die beschrijvingen schrijven we neer in **formules**. Zulke formules tonen een **wiskundig verband tussen [grootheden](../intro)**. Een eenvoudige formule is bijvoorbeeld hoe we massadichtheid kunnen berekenen:
+
+De fysica zit tjokvol formules. Ondanks die formules er soms op het eerste
+zicht behoorlijk angstaanjagend kunnen uitzien, helpen de formules ons om
+de uitkomst van ontelbare **situaties te voorspellen**.
+
+Een formule bevat altijd meerdere **[grootheden](../intro)**.
+
+Een eenvoudige formule is bijvoorbeeld hoe we
+massadichtheid kunnen berekenen:
+
 $$\rho = \frac{\si{m}}{\si{V}}$$
 
 Dit lees je als:
+
 $$\text{massadichtheid} = \frac{\text{massa}}{\text{volume}}$$
 
-De massadichtheid van een stof zegt hoeveel $\si{kg}$ een bepaald volume van die stof is. Eén liter water, bijvoorbeeld, heeft een massa van ongeveer $1 \si{ kg}$. Water heeft dus een massadichtheid van $1 \si{ kg/l}$, [wat gelijk is aan](../eenheden_omzetten#volumes-omzetten) $10^3 \si{ kg/m}^3$.
+De massadichtheid van een stof zegt hoeveel $\si{kg}$ een bepaald volume van
+die stof is. Eén liter water, bijvoorbeeld, heeft een massa van ongeveer $1
+\si{ kg}$. Water heeft dus een massadichtheid van $1 \si{ kg/l}$, [wat gelijk
+is aan](../eenheden_omzetten#volumes-omzetten) $10^3 \si{ kg/m}^3$.
 
 
 ## Grootheden invullen
@@ -54,3 +67,68 @@ m &= \rho \cdot V \\\\\
 \end{split}
 
 Met die formule kunnen we dan $V$ berekenen wanneer $m$ en $\rho$ gegeven zijn.
+
+
+## Formules optica omvormen
+
+$\frac{\sin{\hat{i}}}{\sin{\hat{r}}} = \frac{v\_a}{v\_b}$
+
+$\frac{v\_a}{v\_b} = n\_{a \to b}$
+
+$f = \frac{r}{2}$
+
+$\hat{i} = \hat{t}$
+
+$\frac{1}{f} = \frac{1}{v} + \frac{1}{b}$
+
+$G = \frac{-b}{v}$
+
+## Formules snelheid omvormen
+
+$v_x = \frac{\Delta x}{\Delta t}$
+
+## Formules kracht omvormen
+
+$F_{z} = m \cdot g$
+
+$F_{v} = k \cdot \Delta l$
+
+## Formules materie omvormen
+
+$\rho = \frac{m}{V}$
+
+## Formules arbeid en energie omvormen
+
+$W = F \cdot \Delta x$
+
+$W = - F \cdot \Delta x$
+
+$W = F \cdot \Delta x \cdot \cos{\theta}$
+
+$E\_{kin} = \frac{1}{2} m \cdot v^2$
+
+$E\_{pot, g} = m \cdot g \cdot h$
+
+$E\_{pot, v} = \frac{1}{2} k \cdot (\Delta l)^2$
+
+$E\_{mech} = E\_{pot} +  E\_{kin}$
+
+$E\_{mech, 1} = E\_{mech, 2}$
+
+## Formules rendement en vermogen omvormen
+
+$P = \frac{W}{\Delta t}$
+
+$\eta = \frac{E\_{nuttig}}{E\_{verbruikt}}$
+
+## Formules druk omvormen
+
+$p = \frac{F}{A}$
+
+$p\_{hydr} = \rho\_{vl} \cdot g \cdot h$
+
+$F\_a = \rho\_{vl} \cdot V_{onder} \cdot g$
+
+## Formules gas omvormen
+
+$p\_1 \cdot V\_1 = p\_2 \cdot V\_2$
