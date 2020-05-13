@@ -27,23 +27,28 @@ in $\si{cm}$
 ## De belangrijkste prefixen
 Elke prefix komt overeen met een macht van 10. Hieronder vind je een tabel met de belangrijkste prefixen.
 
-| Symbool 	| Naam  	| Macht van 10 	|
-|---------	|-------	|--------------	|
-| $\si{T}$       	| Terra 	| $10^{12}   $    	|
-| $\si{G}$       	| Giga  	| $10^9    $    	|
-| $\si{M}$       	| Mega  	| $10^6    $    	|
-| $\si{k}$       	| kilo  	| $10^3    $    	|
-| $\si{h}$       	| hecto 	| $10^2    $    	|
-| $\si{da}$      	| deca  	| $10^1    $    	|
-|              	|       	| $        $    	|
-| $\si{d}$       	| deci  	| $10^{-1} $    	|
-| $\si{c}$       	| centi 	| $10^{-2} $    	|
-| $\si{m}$       	| milli 	| $10^{-3} $    	|
-| $\mu$   	| micro 	| $10^{-6} $    	|
-| $\si{n}$       	| nano  	| $10^{-9} $    	|
-| $\si{p}$       	| pico  	| $10^{-12}$    	|
+| Symbool   | Naam    | Macht van 10   |
+| --------- | ------- | -------------- |
+| $\si{T}$  | Terra   | $10^{12}   $   |
+| $\si{G}$  | Giga    | $10^9    $     |
+| $\si{M}$  | Mega    | $10^6    $     |
+| $\si{k}$  | kilo    | $10^3    $     |
+| $\si{h}$  | hecto   | $10^2    $     |
+| $\si{da}$ | deca    | $10^1    $     |
+|           |         | $        $     |
+| $\si{d}$  | deci    | $10^{-1} $     |
+| $\si{c}$  | centi   | $10^{-2} $     |
+| $\si{m}$  | milli   | $10^{-3} $     |
+| $\mu$     | micro   | $10^{-6} $     |
+| $\si{n}$  | nano    | $10^{-9} $     |
+| $\si{p}$  | pico    | $10^{-12}$     |
 
-Deze tabel **moet je uit je hoofd kennen**... Je moet voor elke prefix weten welke macht van 10 ermee overeenkomt en voor elke macht van 10 moet je weten welke prefix ermee overeenkomt. Je moet dus bijvoorbeeld weten dat je $-0.53 \orange{\si{ h}} \si{N}$ ook kan schrijven als $-0.53 \cdot \orange{10^2} \si{ N}$. En dat je $184 \cdot \orange{10^{-12}} \si{ m}$ kan schrijven als $184 \orange{\si{ p}} \si{m}$.
+Deze tabel **moet je uit je hoofd kennen**... Je moet voor elke prefix weten
+welke macht van 10 ermee overeenkomt en voor elke macht van 10 moet je weten
+welke prefix ermee overeenkomt. Je moet dus bijvoorbeeld weten dat je $-0{,}53
+\orange{\si{ h}} \si{N}$ ook kan schrijven als $-0{,}53 \cdot \orange{10^2}
+\si{ N}$. En dat je $184 \cdot \orange{10^{-12}} \si{ m}$ kan schrijven als
+$184 \orange{\si{ p}} \si{m}$.
 
 ## Prefixen wegwerken
 Voor grote afstanden maken we vaak gebruik van de kilometer ($\si{km}$). De [SI-eenheid](../intro#si-eenheden-maken-duidelijke-afspraken) van afstand is echter de meter ($\si{m}$). We moeten daarom vaak $\si{km}$ omzetten naar $\si{m}$. In de tabel hierboven zien we dat die $\si{k}$ hetzelfde is als $10^{3}$. Voor het omzetten van $\si{km}$ naar $\si{m}$ moet je dan gewoon de $\si{k}$ vervangen door $10^{3}$.

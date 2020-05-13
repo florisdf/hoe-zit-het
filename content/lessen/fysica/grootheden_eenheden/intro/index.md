@@ -21,7 +21,7 @@ voorbeelden:
 | Temperatuur          	| graden Celsius, graden Fahrenheit, kelvin          	|
 | Massa                	| kilogram, pond, gram, ounce                        	|
 | Kracht               	| newton, pound-force                                	|
-| Elektrische stroom   	| ampère                                             	|
+| Elektrische stroomsterkte   	| ampère                                             	|
 | Elektrische spanning 	| volt                                               	|
 | Energie              	| joule, calorie                                     	|
 | Snelheid             	| kilometer per uur, mijl per uur, meter per seconde 	|
@@ -40,7 +40,7 @@ SI-eenheden:
 | Temperatuur            | kelvin                                               |
 | Massa                  | kilogram                                             |
 | Kracht                 | newton                                               |
-| Elektrische stroom     | ampère                                               |
+| Elektrische stroomsterkte     | ampère                                               |
 | Elektrische spanning   | volt                                                 |
 | Energie                | joule                                                |
 | Snelheid               | meter per seconde                                    |
@@ -64,7 +64,7 @@ SI-eenheden**. Op hun site staan de huidige definities van de SI-eenheden. Enkel
 | ------------------ | ---------------------------------------------------- |
 | meter              | De afstand die licht aflegt in vacuüm gedurende een tijdsinterval van $\frac{1}{299\ 792\ 458}$ seconden.                                                |
 | seconde            | De tijdsduur van $9\ 192\ 631\ 770$ perioden van de straling die overeenkomt met de overgang tussen twee hyperfijne energieniveaus van de grondtoestand van het cesium-133-atoom.                                              |
-| kelvin             | De temperatuur van $\frac{1}{273.16}$ (exact) deel van de temperatuur van het tripelpunt van water.                                               |
+| kelvin             | De temperatuur van $\frac{1}{273,16}$ (exact) deel van de temperatuur van het tripelpunt van water.                                               |
 | kilogram           | De massa van het internationale prototype van de kilogram, een cilinder van platina-iridium, bewaard in het Bureau International des Poids et Mesures (BIPM), te Sèvres, Parijs.                                             |
 | ampère             | De constante stroom die, indien gehandhaafd in twee rechte parallelle geleiders van oneindige lengte en verwaarloosbare doorsnede, op 1 meter afstand van elkaar in vacuüm, een kracht tussen deze twee geleiders veroorzaakt gelijk aan $2\cdot 10^{−7}$ newton per meter lengte.                                               |
 
@@ -74,14 +74,14 @@ SI-eenheden**. Op hun site staan de huidige definities van de SI-eenheden. Enkel
 Omdat we niet telkens de namen van grootheden en eenheden voluit willen
 schrijven gebruiken we er *symbolen* voor. Enkele voorbeelden:
 
-| Grootheid            | Symbool grootheid | SI-eenheid        | Symbool SI-eenheid |
-| -------------------- | --------------    | ----------        | ------------------ |
-| Lengte               | $\si{l}$          | meter             | $\si{m}$           |
-| Tijd                 | $\si{t}$          | seconde           | $\si{s}$           |
-| Temperatuur          | $\si{T}$          | kelvin            | $\si{K}$           |
-| Massa                | $\si{m}$          | kilogram          | $\si{kg}$          |
-| Kracht               | $\si{F}$          | newton            | $\si{N}$           |
-| Elektrische stroom   | $\si{I}$          | ampère            | $\si{A}$           |
-| Elektrische spanning | $\si{U}$          | volt              | $\si{V}$           |
-| Energie              | $\si{E}$          | joule             | $\si{J}$           |
-| Snelheid             | $\si{v}$          | meter per seconde | $\si{m/s}$         |
+| Grootheid                 | Symbool grootheid | SI-eenheid        | Symbool SI-eenheid |
+| --------------------      | --------------    | ----------        | ------------------ |
+| Lengte                    | $\si{l}$          | meter             | $\si{m}$           |
+| Tijd                      | $\si{t}$          | seconde           | $\si{s}$           |
+| Temperatuur               | $\si{T}$          | kelvin            | $\si{K}$           |
+| Massa                     | $\si{m}$          | kilogram          | $\si{kg}$          |
+| Kracht                    | $\si{F}$          | newton            | $\si{N}$           |
+| Elektrische stroomsterkte | $\si{I}$          | ampère            | $\si{A}$           |
+| Elektrische spanning      | $\si{U}$          | volt              | $\si{V}$           |
+| Energie                   | $\si{E}$          | joule             | $\si{J}$           |
+| Snelheid                  | $\si{v}$          | meter per seconde | $\si{m/s}$         |

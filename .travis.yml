@@ -1,0 +1,34 @@
+os: linux
+dist: xenial
+sudo: required
+
+language: python
+python:
+  - "3.8"
+
+install:
+  - wget "https://github.com/gohugoio/hugo/releases/download/v${HUGO_RELEASE}/hugo_extended_${HUGO_RELEASE}_Linux-64bit.deb"
+  - sudo dpkg -i hugo*.deb
+  - sudo apt-get update
+  - sudo apt-get install xvfb libfontconfig wkhtmltopdf
+  - printf '#!/bin/bash\nxvfb-run -a --server-args="-screen 0, 1024x768x24" /usr/bin/wkhtmltopdf -q $*' | sudo tee /usr/bin/wkhtmltopdf.sh
+  - sudo chmod a+x /usr/bin/wkhtmltopdf.sh
+  - sudo ln -s /usr/bin/wkhtmltopdf.sh /usr/local/bin/wkhtmltopdf
+  - pip install -r requirements.txt
+
+script:
+  - hugo version # prints the Hugo version, just in case.
+  - hugo # build the website
+  - python src/create_pdfs.py
+  - hugo # build the website
+
+deploy:
+  provider: firebase
+  skip_cleanup: true
+  token:
+    secure: CytpvWcbHwufsuM4PnE3EpReSMSrSrlfyoYGrC1x/1RVKKID23Q+8kug/r3fGTFc+sxHJQSkg1j2EfswwkspsyXZ0m5inc/PopXo7BYqkvQscn8CEAM3W6OSbor1guDFOXWJ6Zr5PJCETnFeG0oqhea43x7nvpL6gonqk8VsVSCw2c9wHrk/tfvHrw8B12U5Nk3dNii3c6FZjQyNI+jPyVK3POCBsd3EUi1nivODbwxr8Nzis+yC5fixCZvWn2iAeDd7IzQw/XHLkDDwhA1PJyFm/tqwWWabtgi+mbkDnhzCnS2HRBqkscsgp2tqIgXAgoYfm6OHOIWzeHpTkcZtqgsF9h+goWmIjspvaGbu/sZ6kPfrLq259gu2DvxrTnb/ylxJj49VfLlhuu24LnakgPVCCOXPgMu5+WxtWTO3c1FJZ0y82V4lE4YRvq/ChELZX5R9jbvV+ETn/IQOJYqtb6a/fOUV7XbDI6RCgRwXGQqLP3tNoJMexGtExAIvySNymBTWJ3yBstWsYWduDeBSMr8oqqSAIcqJtuTHVcWlLkVuJchGKC3/KjQJ/Y9R3UZ8a1M544v9b/U2BI4ES8TAAWTdUNJNLaGm7UFqNGbsKPKjVF1yhiXFdCjz0L7MhbVsYo6cgtIOUCCY4iKY/q8yg1aWfy6k+gHphs0GomQ6yOk=
+
+env:
+  global:
+    - PRODUCTION=true
+    - HUGO_RELEASE=0.67.1
