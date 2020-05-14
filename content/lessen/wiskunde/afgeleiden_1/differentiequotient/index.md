@@ -66,7 +66,7 @@ positie** ($\green{180~\si{m}}$) **en de eerste positie**
 ($\green{20~\si{m}}$). Voor de tijd is dat het **verschil tussen de tweede
 tijd** ($\orange{3{,}00~\si{s}}$) **en de eerste tijd**
 ($\orange{1{,}00~\si{s}}$). Die twee verschillen zetten we vervolgens in een
-**breuk** met in de teller {{% mute "(boven)" %}} het verschil van posities en in de noemer {{% mute "(onder)" %}} het
+**breuk** met in de teller {{< mute "(boven)" >}} het verschil van posities en in de noemer {{< mute "(onder)" >}} het
 verschil van tijden. We kunnen de formule voor gemiddelde snelheid dus ook als
 volgt schrijven:
 
@@ -84,8 +84,8 @@ Maria's **positie een functie is van de tijd**.
 {{< mute "(zoals positie en tijd)" >}} een functie is, kan je altijd onze
 [les over functies](../../functies/intro) eens nalezen. 
 
-We kunnen de positie die
-overeenkomt met tijdstip $\orange{x}$ dus $\green{f(x)}$ noemen. Op de
+We kunnen de **positie** die
+overeenkomt met tijdstip $\orange{x}$ dus **de functiewaarde van $\orange{x}$** noemen en afkorten als $\green{f(x)}$. Op de
 luchtfoto's zien we inderdaad dat de posities mooi de [grafiek van een
 functie](../../functies/grafiek) volgen:
 
@@ -102,18 +102,18 @@ Zo krijgen we:
 
 $$\frac{\green{f(x\_2)} - \green{f(x\_1)}}{\orange{x\_2} - \orange{x\_1}}$$
 
-Wiskundig gezien zegt die formule:
+* In de teller {{< mute "(boven)" >}} staat $\green{f(x\_2)} - \green{f(x\_1)}$. Daarmee berekenen we het verschil van de functiewaarden van $x\_2$ en $x\_1$. **De teller zegt zo hoeveel de functiewaarde is veranderd** tussen $x\_1$ en $x\_2$. Bij de dragrace stond daar het verschil in posities. 
+* In de noemer {{< mute "(onder)" >}} staat dan weer het verschil van die $x\_2$ en $x\_1$ zélf. Door te delen door $\orange{x\_2} - \orange{x\_1}$ berekenen we de "**gemiddelde** verandering van  de functiewaarde **per $x-$eenheid** {{< mute "(bv. per seconde)" >}} tussen $x\_1$ en $x\_2$" in plaats van gewoon de "verandering van  de functiewaarde tussen $x\_1$ en $x\_2$".
 
-* Hoeveel verandert de $\green{\text{functiewaarde}}$ gemiddeld
-  $\orange{\text{per x-eenheid}}$ tussen $\orange{x\_1}$ en $\orange{x\_2}$?
+{{< expand "Waarom zorgt die deling door $\orange{x_2} - \orange{x_1}$ voor een gemiddelde?" >}}
+Stel dat je de **gemiddelde** score wilt berekenen die de leerlingen van een bepaalde klas haalden op een test. Dan ga je alle punten optellen en **delen door het totaal aantal testen**. Door te delen door het totaal aantal testen, krijg je de gemiddelde score **per test**.
 
-Je zou dus kunnen zeggen dat het een formule is die de **gemiddelde verandering van de functiewaarde** berekent per $x-$eenheid tussen $\orange{x\_1}$ en $\orange{x\_2}$.
-Als je die formulering nogal ingewikkeld vindt, kan je altijd terugdenken aan 
-de analogie met de dragrace van Maria:
+Op dezelfde manier krijgen we de **gemiddelde** verandering van  de functiewaarde **per $x-$eenheid** door te delen door $\orange{x_2} - \orange{x_1}$.
+{{< /expand >}}
 
-* Hoeveel verandert de $\green{\text{positie van Maria}}$ gemiddeld
-  $\orange{\text{per seconde}}$ tussen tijd $\orange{x\_1}$ en tijd
-  $\orange{x\_2}$?
+We zeggen dat deze formule de **gemiddelde verandering van de functiewaarde** berekent per $x-$eenheid tussen $\orange{x\_1}$ en $\orange{x\_2}$.
+
+{{< svg "img/diff_quot_intuitie.svg" >}}
 
 Het is belangrijk om te weten dat we die formule niet enkel kunnen gebruiken om gemiddelde snelheid te berekenen, maar voor nog veel andere soorten van *gemiddelde verandering*.
 De formule wordt zelfs zo vaak gebruikt, dat ze een eigen naam heeft gekregen: het **differentiequotiënt**.
@@ -132,10 +132,24 @@ naam vandaan? Het woord bestaat uit twee stukken:
 
 ## Voorbeelden met het differentiequotiënt
 
-In deze paragraaf geven we verschillende voorbeelden waar het berekenen van de *gemiddelde verandering* interessant kan zijn en het **differentiequotiënt dus handig van pas komt**. Omdat we met de gemiddelde snelheid al vertrouwd zijn, gaan we met dat voorbeeld beginnen. Zo zal je duidelijker de analogie kunnen zien met de andere voorbeelden.
-
+Wanneer kan het berekenen van de *gemiddelde verandering* van een functie en dus het **differentiequotiënt** van pas komen? In deze paragraaf geven we enkele voorbeelden.
 
 ### Gemiddelde snelheid tijdens een dragrace
+
+Met dit voorbeeld zijn we de les begonnen.
+
+Samengevat zegt onze formule:
+
+* Hoeveel verandert de $\green{\text{functiewaarde}}$ gemiddeld
+  $\orange{\text{per x-eenheid}}$ tussen $\orange{x\_1}$ en $\orange{x\_2}$?
+
+
+Als je die formulering nogal ingewikkeld vindt, kan je altijd terugdenken aan 
+de analogie met de dragrace van Maria:
+
+* Hoeveel verandert de $\green{\text{positie van Maria}}$ gemiddeld
+  $\orange{\text{per seconde}}$ tussen tijd $\orange{x\_1}$ en tijd
+  $\orange{x\_2}$?
 
 * Wat betekent de functiewaarde?
 * Wat betekent de verandering van de functiewaarde?
@@ -183,8 +197,8 @@ Een andere vaakgebruikte manier om het differentiequotiënt verkort te schrijven
 
 $$\frac{\green{f(x\_2)} - \green{f(x\_1)}}{\orange{x\_2} - \orange{x\_1}} = \frac{\green{f(x\_1 + \Delta x)} - \green{f(x\_1)}}{\orange{\Delta x}}$$
 
-In de noemer {{% mute "(onder)" %}} doen we hetzelfde als voordien, namelijk $\orange{x\_2} -
-\orange{x\_1}$ vervangen door $\orange{\Delta x}$. In de teller {{% mute "(boven)" %}} doen we iets
+In de noemer {{< mute "(onder)" >}} doen we hetzelfde als voordien, namelijk $\orange{x\_2} -
+\orange{x\_1}$ vervangen door $\orange{\Delta x}$. In de teller {{< mute "(boven)" >}} doen we iets
 anders nu. We vervangen $\green{f(x\_2)}$ door $\green{f(x\_1 + \Delta x)}$.
 Dat mag omdat $x\_2 = x\_1 + \Delta x$:
 
