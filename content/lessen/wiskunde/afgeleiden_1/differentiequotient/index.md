@@ -84,10 +84,12 @@ Maria's **positie een functie is van de tijd**.
 {{< mute "(zoals positie en tijd)" >}} een functie is, kan je altijd onze
 [les over functies](../../functies/intro) eens nalezen. 
 
-We kunnen de **positie** die
-overeenkomt met tijdstip $\orange{x}$ dus **de functiewaarde van $\orange{x}$** noemen en afkorten als $\green{f(x)}$. Op de
-luchtfoto's zien we inderdaad dat de posities mooi de [grafiek van een
-functie](../../functies/grafiek) volgen:
+We kunnen de **positie** die overeenkomt met tijdstip $\orange{x}$ dus **de
+functiewaarde van $\orange{x}$** noemen en afkorten als $\green{f(x)}$. Wanneer
+we op de luchtfoto's de racewagens met elkaar verbinden, zien we inderdaad dat
+de posities mooi de [grafiek van een functie](../../functies/grafiek) volgen
+waarbij de **tijd op de x-as** {{< mute "(horizontale as)" >}} staat en de
+**positie op de y-as** {{< mute "(verticale as)" >}}:
 
 {{< svg "img/maria_race_function.svg" "De positie van Maria als functie van de tijd" >}}
 
@@ -102,8 +104,16 @@ Zo krijgen we:
 
 $$\frac{\green{f(x\_2)} - \green{f(x\_1)}}{\orange{x\_2} - \orange{x\_1}}$$
 
-* In de teller {{< mute "(boven)" >}} staat $\green{f(x\_2)} - \green{f(x\_1)}$. Daarmee berekenen we het verschil van de functiewaarden van $x\_2$ en $x\_1$. **De teller zegt zo hoeveel de functiewaarde is veranderd** tussen $x\_1$ en $x\_2$. Bij de dragrace stond daar het verschil in posities. 
-* In de noemer {{< mute "(onder)" >}} staat dan weer het verschil van die $x\_2$ en $x\_1$ zélf. Door te delen door $\orange{x\_2} - \orange{x\_1}$ berekenen we de "**gemiddelde** verandering van  de functiewaarde **per $x-$eenheid** {{< mute "(bv. per seconde)" >}} tussen $x\_1$ en $x\_2$" in plaats van gewoon de "verandering van  de functiewaarde tussen $x\_1$ en $x\_2$".
+* In de teller {{< mute "(boven)" >}} staat $\green{f(x\_2)} -
+  \green{f(x\_1)}$. Daarmee berekenen we het verschil van de functiewaarden van
+  $x\_2$ en $x\_1$. **De teller zegt zo hoeveel de functiewaarde is veranderd**
+  tussen $x\_1$ en $x\_2$.
+* In de noemer {{< mute "(onder)" >}} staat dan weer het verschil van die
+  $x\_2$ en $x\_1$ zélf. Door te delen door $\orange{x\_2} - \orange{x\_1}$
+  berekenen we de "**gemiddelde** verandering van  de functiewaarde **per
+  $x-$eenheid** {{< mute "(bv. per seconde)" >}} tussen $x\_1$ en $x\_2$" in
+  plaats van gewoon de "verandering van  de functiewaarde tussen $x\_1$ en
+  $x\_2$".
 
 {{< expand "Waarom zorgt die deling door $\orange{x_2} - \orange{x_1}$ voor een gemiddelde?" >}}
 Stel dat je de **gemiddelde** score wilt berekenen die de leerlingen van een bepaalde klas haalden op een test. Dan ga je alle punten optellen en **delen door het totaal aantal testen**. Door te delen door het totaal aantal testen, krijg je de gemiddelde score **per test**.
@@ -132,11 +142,51 @@ naam vandaan? Het woord bestaat uit twee stukken:
 
 ## Voorbeelden met het differentiequotiënt
 
-Wanneer kan het berekenen van de *gemiddelde verandering* van een functie en dus het **differentiequotiënt** van pas komen? In deze paragraaf geven we enkele voorbeelden.
+Wanneer kan het berekenen van de *gemiddelde verandering* van een functie en
+dus het **differentiequotiënt** nu van pas komen? In deze paragraaf geven we
+enkele concrete voorbeelden.
 
-### Gemiddelde snelheid tijdens een dragrace
+### Gemiddelde winst per dag
 
-Met dit voorbeeld zijn we de les begonnen.
+Ronny baat een online snoepwinkel uit.
+
+(illustratie)
+
+Voor de maand april heeft hij een overzicht van het saldo dat elke dag op de
+rekening van zijn webwinkel stond. Met andere woorden kennen we het **saldo in
+functie van de tijd**. Voor een bepaalde dag $\orange{x}$ kunnen we het saldo
+$\green{f(x)}$ vinden dat op die dag op de rekening van Ronny's snoepwinkel
+stond.
+
+(illustratie)
+
+Wat betekent het wanneer we nu het differentiequotiënt zouden berekenen?
+We kiezen bijvoorbeeld als $\orange{x\_1} = \orange{5~\text{april}}$ en als
+$\orange{x\_2} = \orange{12~\text{april}}$.
+
+(illustratie)
+
+In de teller {{< mute "(boven)" >}} berekenen we het verschil van het saldo op 12 april en het saldo
+op 5 april. In de noemer berekenen we hoeveel dagen er zaten tussen 5 en 12
+april. Met het differentiequotiënt berekenen we in dit geval dus **hoeveel het
+saldo gemiddeld is veranderd tussen 5 en 12 april**.
+
+Positief differentiequotiënt: winst. Negatief differentiequotiënt: verlies.
+
+### Gemiddelde helling
+van een berg wanneer de hoogte in functie van de positie is gegeven
+
+### Gemiddelde snelheid
+
+Met dit voorbeeld zijn we de les begonnen. We gaan het hier even herhalen, maar
+nu vertrekkend van een functievoorschrift. Stel dat Maria's positie in functie
+van de tijd het volgende voorschrift volgt:
+
+$$\green{f(x)} = \green{20\cdot x^2}$$
+
+Wanneer $\green{f(x)}$ de positie in functie van de tijd is, berekenen we met
+het differentiequotiënt de **gemiddelde snelheid** tussen tijdstippen
+$\orange{x\_1}$ en $\orange{x\_2}$.
 
 Samengevat zegt onze formule:
 
@@ -155,19 +205,6 @@ de analogie met de dragrace van Maria:
 * Wat betekent de verandering van de functiewaarde?
 * Wat betekent de x-eenheid?
 * Wat betekent de verandering van de functiewaarde per x-eenheid?
-
-### Gemiddelde winst per dag
-
-Ronny, bijvoorbeeld, heeft een overzicht van hoeveel geld er elke dag op de rekening stond van zijn winkel Ronny's Candy Paradise. In dat geval is $\green{f(x)}$ het bedrag dat op dag $\orange{x}$ op de rekening van Ronny's Candy Paradise stond. 
-
-(illustratie)
-
-Als we als $\orange{x\_1}$ 1 mei en als $\orange{x\_2}$ 31 mei kiezen, dan berekenen we met de formule voor gemiddelde verandering hoeveel het kapitaal van Ronny's Candy Paradise gemiddeld per dag veranderde in de maand mei.
-
-(illustratie)
- 
-
-### Gemiddelde helling van een berg
 
 
 ## Het verschil afkorten met $\Delta$
