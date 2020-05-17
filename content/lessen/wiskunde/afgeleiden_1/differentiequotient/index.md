@@ -179,8 +179,8 @@ die telkens voluit te moeten schrijven. Daarom gaan we zulke verschillen
 afkorten. Hiervoor gebruiken we de Griekse hoofdletter $\Delta$ (de delta):
 
 \begin{split}
-    \green{\Delta f(x)} &= \green{f(x\_2)} - \green{f(x\_1)}\\\\\
-        \orange{\Delta x} &= \orange{x\_2} - \orange{x\_1}
+    \green{f(x\_2)} - \green{f(x\_1)} &= \green{\Delta f(x)}\\\\\
+    \orange{x\_2} - \orange{x\_1} &= \orange{\Delta x}
 \end{split}
 
 Die "$\Delta$" lijkt wat overweldigend, maar is eigenlijk niets meer dan een
@@ -193,36 +193,24 @@ Op een grafiek kan je $\green{\Delta f(x)}$ en $\orange{\Delta x}$ ook aanduiden
 
 {{< svg "img/graph_delta_fx_delta_x.svg" "Delta f(x) en Delta x aangeduid op een grafiek." >}}
 
-Een andere vaakgebruikte manier om het differentiequotiënt verkort te schrijven gaat zo:
+Je zult het waarschijnlijk niet graag horen, maar er is nog een derde en laatste manier om het differentiequotiënt te schrijven. Daarbij gaan we drie dingen veranderen aan de oorspronkelijke formule van het differentiequotiënt:
 
-$$\frac{\green{f(x\_2)} - \green{f(x\_1)}}{\orange{x\_2} - \orange{x\_1}} = \frac{\green{f(x\_1 + \Delta x)} - \green{f(x\_1)}}{\orange{\Delta x}}$$
-
-In de noemer {{< mute "(onder)" >}} doen we hetzelfde als voordien, namelijk $\orange{x\_2} -
-\orange{x\_1}$ vervangen door $\orange{\Delta x}$. In de teller {{< mute "(boven)" >}} doen we iets
-anders nu. We vervangen $\green{f(x\_2)}$ door $\green{f(x\_1 + \Delta x)}$.
-Dat mag omdat $x\_2 = x\_1 + \Delta x$:
-
-\begin{split}
-    \Delta x &= x\_2 - x\_1\\\\\
-    \Leftrightarrow \Delta x + x\_1 &= x\_2\\\\\
-    \Leftrightarrow x\_2 &= x\_1 + \Delta x
-\end{split}
-
-Grafisch zie je dat de formule inderdaad gewoon een andere schrijfwijze is voor dezelfde berekening:
-
-{{< svg "img/graph_delta_fx1+delta_x_delta_x.svg" "Delta f(x1 + Delta x) en Delta x aangeduid op een grafiek." >}}
-
-Meestal gaat $\frac{\green{f(x\_1 + \Delta x)} -
-\green{f(x\_1)}}{\orange{\Delta x}}$ echter nog korter geschreven worden door
-in plaats van $x\_1$ gewoon $a$ te schrijven:
-
-$$\frac{\green{f(a + \Delta x)} - \green{f(a)}}{\orange{\Delta x}}$$
+1. Vervang $\orange{x\_2} - \orange{x\_1}$ door $\orange{\Delta x}$: $$\frac{\green{f(x\_2)} - \green{f(x\_1)}}{\orange{\Delta x}}$$
+2. Vervang $x\_2$ door $x\_1 + \Delta x$: $$\frac{\green{f(x\_1 + \Delta x)} - \green{f(x\_1)}}{\orange{\Delta x}}$$
+3. Vervang $x\_1$ overal door $a$: $$\frac{\green{f(a + \Delta x)} - \green{f(a)}}{\orange{\Delta x}}$$
 
 Dat ziet er grafisch zo uit:
 
 {{< svg "img/graph_delta_fa+delta_x_delta_x.svg" "Delta f(a + Delta x) en Delta x aangeduid op een grafiek." >}}
 
-Het is belangrijk om in te zien dat deze drie manieren om het differentiequotiënt te schrijven **identiek dezelfde berekening** maken. De berekening wordt enkel anders *verwoord*. Kijk dus nog eens extra naar de drie formules voor het differentiequotiënt, bekijk de bijhorende grafieken nogmaals en zorg dat je de gelijkenis begrijpt.
+We hebben nu drie verschillende manieren gezien om het differentiequotiënt te schrijven:
+
+1. $$\frac{\green{f(x\_2)} - \green{f(x\_1)}}{\orange{x\_2} - \orange{x\_1}}$$
+2. $$\frac{\green{\Delta f(x)}}{\orange{\Delta x}}$$
+3. $$\frac{\green{f(a + \Delta x)} - \green{f(a)}}{\orange{\Delta x}}$$
+
+
+Het is belangrijk om in te zien dat deze alle drie **identiek dezelfde berekening** maken. De berekening wordt enkel anders *verwoord*. Kijk dus nog eens extra naar de drie formules voor het differentiequotiënt, bekijk de bijhorende grafieken nogmaals en zorg dat je de gelijkenis begrijpt.
 
 ## Samengevat
 
@@ -235,13 +223,11 @@ Het differentiequotiënt is gedefinieerd als:
 
 $$\frac{\green{f(x\_2)} - \green{f(x\_1)}}{\orange{x\_2} - \orange{x\_1}}$$
 
-Dit kunnen we ook schrijven als:
-
-$$\frac{\green{f(a + \Delta x)} - \green{f(a)}}{\orange{\Delta x}}$$
-
-Waarbij $a=x\_1$ en $\Delta x = x\_2 - x\_1$. Je kan het differentiequotiënt nog korter schrijven als:
+Door $\green{f(x\_2) - f(x\_1)}$ te vervangen door $\green{\Delta f(x)}$ en $\orange{x\_2 - x\_1}$ door $\orange{\Delta x}$, kunnen we het differentiequotiënt ook schrijven als:
 
 $$\frac{\green{\Delta f(x)}}{\orange{\Delta x}}$$
 
-Daar is $\Delta f(x) = f(x\_2) - f(x\_1)$.
+Een andere schrijfwijze vervangt $\orange{x\_2} - \orange{x\_1}$ door $\orange{\Delta x}$, $\green{f(x\_2)}$ door $\green{f(x\_1 + \Delta x)}$ en vervangt ten slotte $\green{x\_1}$ overal door $\green{a}$:
+
+$$\frac{\green{f(a + \Delta x)} - \green{f(a)}}{\orange{\Delta x}}$$
 {{< /attention >}}
