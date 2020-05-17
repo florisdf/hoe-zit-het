@@ -176,6 +176,8 @@ Positief differentiequotiënt: winst. Negatief differentiequotiënt: verlies.
 ### Gemiddelde helling
 van een berg wanneer de hoogte in functie van de positie is gegeven
 
+Positief differentiequotiënt: winst. Negatief differentiequotiënt: verlies.
+
 ### Gemiddelde snelheid
 
 Met dit voorbeeld zijn we de les begonnen. We gaan het hier even herhalen, maar
