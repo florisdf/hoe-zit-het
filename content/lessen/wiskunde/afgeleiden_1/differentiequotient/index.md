@@ -152,24 +152,37 @@ Ronny baat een online snoepwinkel uit.
 
 (illustratie)
 
-Voor de maand april heeft hij een overzicht van het saldo dat elke dag op de
-rekening van zijn webwinkel stond. Met andere woorden kennen we het **saldo in
-functie van de tijd**. Voor een bepaalde dag $\orange{x}$ kunnen we het saldo
-$\green{f(x)}$ vinden dat op die dag op de rekening van Ronny's snoepwinkel
-stond.
+Voor de maand april heeft hij een overzicht van het saldo dat op het einde van
+elke dag op de rekening van zijn webwinkel stond. Op onderstaand overzicht zie
+je dat er op het einde van de eerste dag $€10~000$ op de rekening stond, de dag
+nadien $€10~300$ enzovoort.
 
 (illustratie)
 
-Wat betekent het wanneer we nu het differentiequotiënt zouden berekenen?
-We kiezen bijvoorbeeld als $\orange{x\_1} = \orange{5~\text{april}}$ en als
-$\orange{x\_2} = \orange{12~\text{april}}$.
+Op het einde van een bepaalde dag $\orange{x}$ kan er natuurlijk maar één saldo
+op de rekening van de webwinkel staan. Met elke $\orange{x}$ komt dus **hooguit
+één** $\green{\text{saldo}}$ overeen. Daarom mogen we zeggen dat **het saldo
+een functie is van de dag $\orange{x}$** die we kiezen. We kunnen het
+$\green{\text{saldo}}$ dat overeenkomt met dag $\orange{x}$ **de functiewaarde
+van $\orange{x}$** noemen en afkorten als $\green{f(x)}$.
 
-(illustratie)
+(illustratie van overzicht met x en f(x) aangeduid)
 
-In de teller {{< mute "(boven)" >}} berekenen we het verschil van het saldo op 12 april en het saldo
-op 5 april. In de noemer berekenen we hoeveel dagen er zaten tussen 5 en 12
-april. Met het differentiequotiënt berekenen we in dit geval dus **hoeveel het
-saldo gemiddeld is veranderd tussen 5 en 12 april**.
+We weten dat het differentiequotiënt gedefinieerd is als:
+
+$$\frac{\green{f(x\_2)} - \green{f(x\_1)}}{\orange{x\_2} - \orange{x\_1}}$$
+
+Maar wat betekent dat differentiequotiënt voor het saldo van Ronny's
+snoepwinkel?
+
+* In de teller {{< mute "(boven)" >}} berekenen we het **verschil tussen de
+saldo's** op dag $x\_2$ en dag $x\_1$. De teller zegt dus **hoeveel het saldo is
+veranderd** van dag $x\_1$ naar dag $x\_2$.
+* In de noemer {{< mute "(onder)" >}} berekenen we het **verschil tussen dag
+$x\_2$ en dag $x\_1$**. De noemer zegt dus **hoeveel dagen er tussen dag $x\_1$
+en dag $x\_2$ zitten**.
+
+(illustratie met difquot en vertaling naast elkaar)
 
 Positief differentiequotiënt: winst. Negatief differentiequotiënt: verlies.
 
