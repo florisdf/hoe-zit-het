@@ -11,6 +11,33 @@ topic: "grootheden_eenheden"
 images: []
 ---
 
+In een oefening fysica zijn er altijd een of meerdere dingen **gegeven** en
+zijn er een of meerdere dingen **gevraagd**. We lossen de oefening op door een
+**verband te vinden tussen de gegevens en het gevraagde**.
+
+Maar hoe kunnen we dat **verband** vinden? Wel, natuurkundigen voeren al
+honderden jaren **experimenten** uit en hebben bij die experimenten al heel veel
+van zulke verbanden ontdekt. Die verbanden zijn neergeschreven in **formules**.
+
+Een eenvoudig voorbeeld van zo'n formule is het verband tussen de invalshoek
+{{< mute "(korten we af met $\theta_i$)" >}} en de terugkaatsingshoek
+{{< mute "(korten we af met $\theta_t$)" >}} bij een vlakke spiegel:
+
+$$\theta\_i = \theta\_t$$
+
+Stel dat we de volgende opgave hebben:
+
+
+{{< expand "Een formule is meer dan enkel symbolen!" >}}
+Een formule in de fysica is veel meer dan wat wiskundige symbolen met een
+gelijkteken tussen. Pas wanneer je je bij een formule kan *inbeelden* wat ze
+wil zeggen, zal je de formule echt kunnen begrijpen en gebruiken.
+
+In deze les beperken we ons echter tot het "droge" werk van het invullen en
+omvormen van formules. Voor een duidelijk beeld bij de formules verwijzen we je
+graag door naar de bijhorende lessen!
+{{< /expand >}}
+
 De fysica zit tjokvol formules. Ondanks die formules er soms op het eerste
 zicht behoorlijk angstaanjagend kunnen uitzien, helpen de formules ons om
 de uitkomst van ontelbare **situaties te voorspellen**.
