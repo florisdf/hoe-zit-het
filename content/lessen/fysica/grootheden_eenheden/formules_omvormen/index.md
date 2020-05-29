@@ -20,23 +20,55 @@ honderden jaren **experimenten** uit en hebben bij die experimenten al heel veel
 van zulke verbanden ontdekt. Die verbanden zijn neergeschreven in **formules**.
 
 Een eenvoudig voorbeeld van zo'n formule is het verband tussen de invalshoek
-{{< mute "(korten we af met $\theta_i$)" >}} en de terugkaatsingshoek
-{{< mute "(korten we af met $\theta_t$)" >}} bij een vlakke spiegel:
+{{< mute "(korten we af met $\hat{i}$)" >}} en de terugkaatsingshoek
+{{< mute "(korten we af met $\hat{t}$)" >}} bij een vlakke spiegel:
 
-$$\theta\_i = \theta\_t$$
+$$\orange{\hat{i}} = \green{\hat{t}}$$
 
-Stel dat we de volgende opgave hebben:
+{{< svg "img/terugkaatsingswet.svg" "Illustratie van de terugkaatsingswet" >}}
+
+We gaan eens kijken hoe we deze formule kunnen gebruiken bij het oplossen van
+een oefening. Stel dat we de volgende opgave hebben:
+
+> *Een lichstraal valt in op een vlakke spiegel en kaatst met een
+> terugkaatsingshoek van $30\deg$ terug. Met welke hoek viel de lichtstraal
+> in?*
+
+Dan is
+
+- **Gegeven**: de **terugkaatsingshoek** is $30\deg$
+- **Gevraagd**: met welke hoek viel de lichtstraal in? Of met andere woorden,
+wat was de **invalshoek**?
+
+De formule $\orange{\hat{i}} = \green{\hat{t}}$ zegt ons dat de invalshoek
+altijd gelijk is aan de terugkaatsingshoek. Deze oefening is dus heel snel
+opgelost:
+
+{{< svg "img/oplossing_terugkaatsing.svg" "Oplossing vraag invalshoek" >}}
+
+De formule $\orange{\hat{i}} = \green{\hat{t}}$ gaf ons het verband tussen wat
+gegeven was in de opgave {{< mute "(de terugkaatsingshoek $\hat{t}$)" >}} en
+wat gevraagd was {{< mute "(de invalshoek $\hat{i}$)" >}}. Door in de formule
+het gegeven in te vullen, vonden we de gevraagde invalshoek.
+
+## Een gelijkheid omdraaien
+
+Bij het vorige voorbeeld hadden we geluk dat $\orange{\hat{i}}$ gevraagd was en
+er in onze formule letterlijk "$\orange{\hat{i}} = " stond. Wat als
+
+## Een formule met een berekening
 
 
-{{< expand "Een formule is meer dan enkel symbolen!" >}}
-Een formule in de fysica is veel meer dan wat wiskundige symbolen met een
-gelijkteken tussen. Pas wanneer je je bij een formule kan *inbeelden* wat ze
-wil zeggen, zal je de formule echt kunnen begrijpen en gebruiken.
+## Een formule met een vermenigvuldiging omvormen
 
-In deze les beperken we ons echter tot het "droge" werk van het invullen en
-omvormen van formules. Voor een duidelijk beeld bij de formules verwijzen we je
-graag door naar de bijhorende lessen!
-{{< /expand >}}
+## Een formule met een breuk omvormen
+
+## Een formule met een kwadraat omvormen
+
+$E\_{kin} = \frac{1}{2} m \cdot v^2$
+
+Kunnen we een formule ook
+De formule $\orange{\hat{i}} = \green{\hat{t}}$ is zeer eenvo
 
 De fysica zit tjokvol formules. Ondanks die formules er soms op het eerste
 zicht behoorlijk angstaanjagend kunnen uitzien, helpen de formules ons om
