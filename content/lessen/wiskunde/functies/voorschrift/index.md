@@ -24,28 +24,28 @@ bijvoorbeeld "$-3\cdot \orange{x} + 8$".
 We kunnen nu verschillende waarden kiezen voor $\orange{x}$
 {{< mute "(die noemen we x-waarden)" >}} en voor elke x-waarde
 berekenen wat de bijhorende waarde van $\green{y}$ is
-{{< mute "(die noemen we de y-waarden)" >}} .
+{{< mute "(die noemen we de y-waarden of de functiewaarden)" >}} .
 
 Stel dat we het volgende functievoorschrift hebben:
 
 $$\green{y} = 2\cdot \orange{x} - 5$$
 
-Om nu de y-waarde voor $\orange{x} = \orange{4}$ te vinden, moeten we de
-$\orange{x}$ in ons voorschrift vervangen door $\orange{4}$. Zo krijgen we een
+Om nu de functiewaarde {{< mute "(of y-waarde)" >}} voor $\orange{x} = \orange{4}$ te vinden, moeten we de
+$\orange{x}$ in ons functievoorschrift vervangen door $\orange{4}$. Zo krijgen we een
 berekening met enkel getallen. De uitkomst van die berekening is dan de
-y-waarde die hoort bij de x-waarde $\orange{x} = \orange{4}$:
+functiewaarde  die hoort bij de x-waarde $\orange{x} = \orange{4}$:
 
 {{< svg "img/voorschrift_vb_4_invullen.svg" "4 invullen in het functievoorschrift" >}}
 
-We zeggen dat de **y-waarde van $\orange{4}$ gelijk is aan $\green{3}$**.
+We zeggen dat de **functiewaarde van $\orange{4}$ gelijk is aan $\green{3}$**.
 
 We kunnen ook eens proberen om een **negatief getal** te kiezen als $\orange{x}$.
 Stel bijvoorbeeld dat we $\orange{x} = \orange{-3}$ kiezen. Dan kunnen we op
-dezelfde manier weer de y-waarde berekenen:
+dezelfde manier weer de functiewaarde {{< mute "(of y-waarde)" >}} berekenen:
 
 {{< svg "img/voorschrift_vb_-3_invullen.svg" "-3 invullen in het functievoorschrift" >}}
 
-We vinden dat de **y-waarde van $\orange{-3}$ gelijk is aan $\green{-11}$**.
+We vinden dat de **functiewaarde van $\orange{-3}$ gelijk is aan $\green{-11}$**.
 
 {{< attention "Haakjes rond negatief getal niet vergeten" >}}
 
@@ -59,11 +59,7 @@ naast een minteken staat... 🤨
 ## $f(x)$ gebruiken in plaats van $y$
 
 We hebben al gezien dat we een functievoorschrift kunnen gebruiken om de
-y-waarde van een bepaalde x-waarde te berekenen. Soms gebruiken we nog een
-andere benaming en schrijfwijze:
-
-* De **y-waarde** noemen we ook wel de **functiewaarde**
-* De $\green{y}$ in ons voorschrift schrijven we ook wel als $\green{f(x)}$
+functiewaarde {{< mute "(of y-waarde)" >}} van een bepaalde x-waarde te berekenen. Soms schrijven we "$\green{f(x)}=$" in ons voorschrift in plaats van "$\green{y} =$".
 
 Stel dat we het volgende voorschrift hebben:
 
@@ -87,9 +83,9 @@ $$\green{f(-2)} = \green{13}$$
 
 Dit kunnen we letterlijk lezen als: *"de functiewaarde van $\orange{-2}$ is
 $\green{13}$"*. We zien dus nog steeds welke x-waarde we oorspronkelijk hadden
-ingevuld, namelijk $\orange{-2}$. In de laatste lijn rechts staat gewoon
-$\green{y} = \green{13}$. Als we enkel die lijn zouden krijgen, kunnen we dus
-niet meteen zien welke $\orange{x}$ we juist hadden ingevuld.
+ingevuld, namelijk $\orange{-2}$. In de laatste lijn links staat gewoon
+$\green{y} = \green{13}$. Daar kunnen we niet meteen zien welke $\orange{x}$ 
+we juist hadden ingevuld.
 
 ## Samengevat
 
