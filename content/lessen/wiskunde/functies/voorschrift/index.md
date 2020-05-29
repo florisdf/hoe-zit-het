@@ -110,7 +110,7 @@ Je kan de **functiewaarde** (of y-waarde) van een bepaalde x-waarde $\orange{x}
 2. Je krijgt een berekening met enkel getallen; **Reken deze berekening uit**;
 3. De uitkomst van de berekening is de **functiewaarde van $\orange{a}$**.
 
-⚠️Let op wanneer je de functiewaarden van een **negatief getal** berekent dat je
+⚠️Let op wanneer je de functiewaarde van een **negatief getal** berekent dat je
 het getal steeds **tussen haakjes** zet wanneer je $\orange{x}$ vervangt door
 dat getal.
 {{< /attention >}}
