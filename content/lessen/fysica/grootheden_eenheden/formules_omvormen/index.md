@@ -11,15 +11,26 @@ topic: "grootheden_eenheden"
 images: []
 ---
 
-In een oefening fysica zijn er altijd een of meerdere dingen **gegeven** en
-zijn er een of meerdere dingen **gevraagd**. We lossen de oefening op door een
-**verband te vinden tussen de gegevens en het gevraagde**.
+In de meeste oefeningen fysica moeten we *iets* uitrekenen. Er zijn dan een 
+of meerdere dingen **gegeven** en een of meerdere dingen **gevraagd**. Wij 
+moeten proberen om een *"route"* uit te stippelen die vertrekt bij de 
+gegevens en eindigt bij het gevraagde.
 
-Maar hoe kunnen we dat **verband** vinden? Wel, natuurkundigen voeren al
-honderden jaren **experimenten** uit en hebben bij die experimenten al heel veel
-van zulke verbanden ontdekt. Die verbanden zijn neergeschreven in **formules**.
+(illustratie route)
 
-Een eenvoudig voorbeeld van zo'n formule is het verband tussen de invalshoek
+Die *route* bestaat uit een of meerdere stappen. In elke stap zijn er drie mogelijkheden:
+
+1. Een formule **toepassen**
+2. Een formule **omvormen**
+3. Een formule **invullen**
+
+(icoontje voor elke stap)
+
+Je ziet dat formules essentieel zijn om fysica-oefeningen op te lossen. In deze les leren we enkele technieken die handig van pas zullen komen.
+
+## Een formule toepassen en invullen
+
+De meest eenvoudige oefeningen bestaan uit twee stappen: toepassen en invullen. Stel bijvoorbeeld dat we net de terugkaatsingswet hebben geleerd. Die geeft het verband tussen de invalshoek
 {{< mute "(korten we af met $\hat{i}$)" >}} en de terugkaatsingshoek
 {{< mute "(korten we af met $\hat{t}$)" >}} bij een vlakke spiegel:
 
@@ -27,8 +38,8 @@ $$\orange{\hat{i}} = \green{\hat{t}}$$
 
 {{< svg "img/terugkaatsingswet.svg" "Illustratie van de terugkaatsingswet" >}}
 
-We gaan eens kijken hoe we deze formule kunnen gebruiken bij het oplossen van
-een oefening. Stel dat we de volgende opgave hebben:
+
+We krijgen de volgende oefening voorgeschoteld:
 
 > *Een lichstraal valt in op een vlakke spiegel en kaatst met een
 > terugkaatsingshoek van $30\deg$ terug. Met welke hoek viel de lichtstraal
@@ -37,8 +48,9 @@ een oefening. Stel dat we de volgende opgave hebben:
 Dan is
 
 - **Gegeven**: de **terugkaatsingshoek** is $30\deg$
-- **Gevraagd**: met welke hoek viel de lichtstraal in? Of met andere woorden,
-wat was de **invalshoek**?
+- **Gevraagd**: met welke hoek viel de lichtstraal in? Met andere woorden, wat was die invalshoek?
+
+Nu we het gegeven en gevraagde hebben, moeten we de *"route"* proberen uitstippelen die ons van het gegeven naar het gevraagde brengt.
 
 De formule $\orange{\hat{i}} = \green{\hat{t}}$ zegt ons dat de invalshoek
 altijd gelijk is aan de terugkaatsingshoek. Deze oefening is dus heel snel
@@ -51,82 +63,74 @@ gegeven was in de opgave {{< mute "(de terugkaatsingshoek $\hat{t}$)" >}} en
 wat gevraagd was {{< mute "(de invalshoek $\hat{i}$)" >}}. Door in de formule
 het gegeven in te vullen, vonden we de gevraagde invalshoek.
 
-## Een gelijkheid omdraaien
+## Een formule omvormen
 
-Bij het vorige voorbeeld hadden we geluk dat $\orange{\hat{i}}$ gevraagd was en
-er in onze formule letterlijk "$\orange{\hat{i}} = " stond. Wat als
+## Meerdere formules 
 
-## Een formule met een berekening
+## Een formule met een optelling omvormen
 
+$E\_{mech} = E\_{pot} +  E\_{kin}$
 
 ## Een formule met een vermenigvuldiging omvormen
 
+$F_{z} = m \cdot g$
+
+$p\_{hydr} = \rho\_{vl} \cdot g \cdot h$
+
+$F\_a = \rho\_{vl} \cdot V_{onder} \cdot g$
+
+$F_{v} = k \cdot \Delta l$
+
+$W = F \cdot \Delta x$
+
+$W = - F \cdot \Delta x$
+
 ## Een formule met een breuk omvormen
+
+$\rho = \frac{m}{V}$
+
+$p = \frac{F}{A}$
+
+$G = \frac{-b}{v}$
+
+$\frac{v\_a}{v\_b} = n\_{a \to b}$
+
+$P = \frac{W}{\Delta t}$
+
+$v_x = \frac{\Delta x}{\Delta t}$
 
 ## Een formule met een kwadraat omvormen
 
 $E\_{kin} = \frac{1}{2} m \cdot v^2$
 
-Kunnen we een formule ook
-De formule $\orange{\hat{i}} = \green{\hat{t}}$ is zeer eenvo
+$E\_{pot, v} = \frac{1}{2} k \cdot (\Delta l)^2$
 
-De fysica zit tjokvol formules. Ondanks die formules er soms op het eerste
-zicht behoorlijk angstaanjagend kunnen uitzien, helpen de formules ons om
-de uitkomst van ontelbare **situaties te voorspellen**.
+## Een formule met een goniometrisch getal omvormen
 
-Een formule bevat altijd meerdere **[grootheden](../intro)**.
+$W = F \cdot \Delta x \cdot \cos{\theta}$
 
-Een eenvoudige formule is bijvoorbeeld hoe we
-massadichtheid kunnen berekenen:
+## Ingewikkeldere formules omvormen
 
-$$\rho = \frac{\si{m}}{\si{V}}$$
+$\frac{\sin{\hat{i}}}{\sin{\hat{r}}} = \frac{v\_a}{v\_b}$
 
-Dit lees je als:
+$\frac{1}{f} = \frac{1}{v} + \frac{1}{b}$
 
-$$\text{massadichtheid} = \frac{\text{massa}}{\text{volume}}$$
-
-De massadichtheid van een stof zegt hoeveel $\si{kg}$ een bepaald volume van
-die stof is. Eén liter water, bijvoorbeeld, heeft een massa van ongeveer $1
-\si{ kg}$. Water heeft dus een massadichtheid van $1 \si{ kg/l}$, [wat gelijk
-is aan](../eenheden_omzetten#volumes-omzetten) $10^3 \si{ kg/m}^3$.
+## Formules met een $\Delta$ verder omvormen
 
 
-## Grootheden invullen
-Als we de massadichtheid willen berekenen wanneer we van een stof de massa $\orange{\si{m}}$ voor een bepaald volume $\orange{\si{V}}$ kennen, kunnen we de formule $\rho = \frac{\orange{\si{m}}}{\orange{\si{V}}}$ rechtstreeks gebruiken.
+{{< expand "Wat is het verschil tussen een definitie en een natuurwet?" >}}
 
-Bijvoorbeeld: we leggen een kubusvormig blokje kurk met een zijde van $5 \si{ cm}$ op een weegschaal en lezen af dat het blokje een massa heeft van $26 \si{ g}$. Dan is de massadichtheid van kurk:
-\begin{split}
-\rho &= \frac{\si{m}}{\si{V}} \\\\\
-&= \frac{26 \si{ g}}{5 \si{ cm} \cdot 5 \si{ cm} \cdot 5 \si{ cm}}\\\\\
-&= \frac{26 \si{ g}}{125 \si{ cm}^3}\\\\\
-&= 0{,}208 \frac{\si{g}}{\si{cm}^3}\\\\\
-&\approx 0{,}21 \frac{\si{g}}{\si{cm}^3}
-\end{split}
+Een **natuurwet beschrijft een eigenschap** waar bepaalde verschijnsels aan voldoen. Die eigenschap hebben fysici ontdekt na **vele experimenten** te hebben gedaan. Een voorbeeld is de terugkaatsingswet. Die zegt dat de invalshoek en de terugkaatsingshoek bij een vlakke spiegel altijd aan elkaar gelijk zijn.
 
-## Omvormen zoals vergelijkingen
-De technieken die we gebruiken om [vergelijkingen om te vormen](../../../wiskunde/1g_vgl/omvormen), kunnen we ook gebruiken om formules om te vormen. Zo kunnen we de formule voor massadichtheid omvormen zodat $m$ alleen overblijft aan één kant:
-\begin{split}
-\rho &= \frac{m}{V}\\\\\
-\Leftrightarrow \rho \cdot \orange{V} &= \frac{m}{V} \cdot \orange{V}\\\\\
-\Leftrightarrow \rho \cdot \orange{V} &= m \cdot \frac{\orange{V}}{V} \\\\\
-\Leftrightarrow \rho \cdot \orange{V} &= m \cdot 1 \\\\\
-\Leftrightarrow \rho \cdot \orange{V} &= m \\\\\
-\Leftrightarrow m &= \rho \cdot V \\\\\
-\end{split}
+Een **definitie beschrijft een begrip** dat we bv. gebruiken om natuurwetten in uit te drukken. We gebruiken het voornamelijk om natuurwetten eenvoudiger en duidelijker te kunnen formuleren. Een voorbeeld is massadichtheid. Dat is *gedefinieerd als* de massa van een voorwerp gedeeld door het volume:
 
-Zo kunnen we $m$ berekenen wanneer we $\rho$ en $V$ kennen. We kunnen deze formule dan weer verder omvormen zodat $V$ alleen overblijft aan één kant:
+$$\rho = \frac{m}{V}$$
 
-\begin{split}
-m &= \rho \cdot V \\\\\
-\Leftrightarrow \frac{m}{\orange{\rho}} &= \frac{\rho \cdot V}{\orange{\rho}} \\\\\
-\Leftrightarrow \frac{m}{\orange{\rho}} &= \frac{\rho}{\orange{\rho}} \cdot V \\\\\
-\Leftrightarrow \frac{m}{\orange{\rho}} &= 1 \cdot V \\\\\
-\Leftrightarrow \frac{m}{\orange{\rho}} &= V \\\\\
-\Leftrightarrow V &= \frac{m}{\rho}
-\end{split}
+Met behulp van de massadichtheid kunnen we bijvoorbeeld de *wet* van Pascal beschrijven:
 
-Met die formule kunnen we dan $V$ berekenen wanneer $m$ en $\rho$ gegeven zijn.
+$$p = p_0 + \rho\_{vl} \cdot g \cdot h$$
 
+{{< /expand >}} 
 
 ## Formules optica omvormen
 
