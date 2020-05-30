@@ -29,7 +29,7 @@ Elke prefix komt overeen met een macht van 10. Hieronder vind je een tabel met d
 
 | Symbool   | Naam    | Macht van 10   |
 | --------- | ------- | -------------- |
-| $\si{T}$  | Terra   | $10^{12}   $   |
+| $\si{T}$  | Tera   | $10^{12}   $   |
 | $\si{G}$  | Giga    | $10^9    $     |
 | $\si{M}$  | Mega    | $10^6    $     |
 | $\si{k}$  | kilo    | $10^3    $     |
