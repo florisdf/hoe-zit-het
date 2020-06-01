@@ -17,11 +17,7 @@ berekenen voor een bepaalde $\orange{x}$.
 
 Wanneer je bijvoorbeeld een bal laat vallen op de grond, kan je aan de hand van
 **de hoogte** van waar je de bal laat vallen berekenen **hoe lang het duurt**
-voor de bal op de grond is.
-
-(illustratie)
-
-Je mag van ons aannemen dat je de tijdsduur van de val (de valtijd) als volgt
+voor de bal op de grond is. Je mag van ons aannemen dat je de tijdsduur van de val (de valtijd) als volgt
 kan berekenen:
 
 $$\text{valtijd in seconden} = 0{,}45 \cdot \sqrt{\text{hoogte in meter}}$$
@@ -31,8 +27,6 @@ De valtijd is dus *afhankelijk van* de hoogte. Daarom kunnen we zeggen dat de
 altijd aan met $\green{y}$. De variabele waarvan $\green{y}$ afhangt
 {{< mute "(de hoogte in dit geval)" >}} noemen we de **onafhankelijke
 variabele**. Die duiden we altijd aan met $\orange{x}$.
-
-(illustratie)
 
 We kunnen in ons voorbeeld de **valtijd** dus vervangen door $\green{y}$ en
 de **hoogte** door $\orange{x}$. Onze formule ziet er dan zo uit:
@@ -67,7 +61,7 @@ functievoorschrift is. Er staat namelijk geen $\orange{x}$ aan de rechterkant!
 gezegd dat we de vergelijking moeten kunnen *herschrijven* zodat er rechts een
 berekening met enkel $\orange{x}$ staat. Dat kunnen we:
 
-(illustratie $y = 5\cdot x^0$)
+$\green{y} = 5\cdot \cdot{x}^0$
 
 ## x-waarden invullen in een functievoorschrift
 
@@ -81,7 +75,7 @@ bovenaan een deurgat wordt losgelaten. Een deur is ongeveer $2~\si{m}$ hoog,
 dus dat betekent dat we $\orange{x} = \orange{2}$ moeten invullen in ons
 functievoorschrift:
 
-(illustratie, met deur en formules)
+$\green{y} = 0{,}45 \cdot \sqrt{\orange{2}} = \green{0{,}64}$
 
 We komen uit dat $\green{y} = \green{0{,}64}$. Dat betekent dat de bal na
 ongeveer $0{,}64~\si{s}$ op de grond zal zijn. {{< mute "(Probeer dit thuis gerust ook eens uit door een balletje van die hoogte te laten vallen en de valtijd te meten met een chronometer.)" >}}
@@ -90,7 +84,7 @@ dus dat wanneer $\orange{x} = \orange{2}$, dan is $\green{y} = \green{0{,}64}$.
 Wiskundig zeggen we: **de functiewaarde van $\orange{2}$ is $\green{0{,}64}$**.
 
 Andere functievoorschriften kunnen andere functiewaarden hebben voor dezelfde
-x-waarde. 
+x-waarde. Hieronder berekenen we de functiewaarde van $\orange{2}$ voor verschillende functievoorschriften. Je ziet dat we heel verschillende getallen kunnen uitkomen.
 
 | Functievoorschrift                                               | Functiewaarde van $\orange{2}$                                                 |
 | --------------------                                             | --------------------------------                                               |
@@ -121,15 +115,18 @@ ingevuld. Het is met andere woorden de *functiewaarde* van
 $\orange{x} = \orange{3}$.
 
 Om een duidelijker verschil te maken tussen die verschillende $\green{y}$'s,
-zetten we na de $\green{y}$ **tussen haakjes welke $x$ we hebben ingevuld**:
+zetten we na de $\green{y}$ **tussen haakjes welke $x$ we hebben ingevuld**. We zeggen dat:
 
-(illustratie)
+* $\green{y(2)} = \green{0{,}64}$
+* $\green{y(3)} = \green{0{,}78}$
 
 Een andere veelgebruikte notatie is om "$f(\ldots)$" te schrijven in plaats van
 "$y(\ldots)$". We gebruiken een "$f$" om te benadrukken dat het om een
 **f**unctie gaat.
 
-(illustratie)
+* $\green{f(2)} = \green{0{,}64}$
+* $\green{f(3)} = \green{0{,}78}$
+
 
 Wat doen we met het functievoorschrift? Die begint namelijk ook met "$\green{y}
 = $". Wel, die schrijven we zelf als $\green{y(x)}$ of $\green{f(x)}$. Zo geven
@@ -154,14 +151,12 @@ te lezen als **"de functiewaarde van $2$"**.
 
 ## Negatieve x-waarden invullen
 
-{{< attention "Haakjes rond negatief getal niet vergeten" >}}
+Een laatste valkuil is het invullen van negatieve x-waarden. Let daarbij op dat je die telkens **tussen haakjes** vervangt. Zo voorkom je vreemde fouten. Stel bv. dat we $\orange{x} = \orange{-3}$ invullen in het voorschrift $\green{y} = 2\cdot \orange{x} - 5$:
 
-Bij het invullen van een negatief getal moet je goed opletten dat je het getal
-steeds **tussen haakjes** zet wanneer je $\orange{x}$ erdoor vervangt. Als je
-dat niet doet, dan kan je vreemde dingen krijgen zoals een maalteken dat vlak
+{{< svg "img/voorschrift_vb_-3_invullen.svg" "Negatief getal invullen in functievoorschrift" >}}
+
+Je ziet dat als je het negatieve getal niet tussen haakjes zet, je vreemde dingen kan krijgen zoals een maalteken dat vlak
 naast een minteken staat... 🤨
-
-{{< /attention >}}
 
 
 ## Samengevat
