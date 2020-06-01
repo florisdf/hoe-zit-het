@@ -10,7 +10,9 @@ course: wiskunde
 topic: analyse
 images: ['/lessen/wiskunde/functies/voorschrift/img/conveyor_functiewaarde.png']
 ---
-Een **functievoorschrift** zegt ons hoe we $\green{y}$ moeten berekenen voor
+Een [functie](../intro) is een verband tussen een $\orange{x}$ en een $\green{y}$ waarbij met elke $\orange{x}$ hoogstens één $\green{y}$ overeenkomt. Een voorbeeld van zo'n verband is hoe lang het duurt
+
+**functievoorschrift** zegt ons hoe we $\green{y}$ moeten berekenen voor
 een bepaalde $\orange{x}$. Een eenvoudig voorbeeld van een functievoorschrift is:
 
 {{< svg "img/voorschrift_vb.svg" "Voorbeeld van een functievoorschrift" >}}
