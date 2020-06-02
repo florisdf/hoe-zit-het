@@ -61,7 +61,7 @@ functievoorschrift is. Er staat namelijk geen $\orange{x}$ aan de rechterkant!
 gezegd dat we de vergelijking moeten kunnen *herschrijven* zodat er rechts een
 berekening met enkel $\orange{x}$ staat. Dat kunnen we:
 
-$\green{y} = 5\cdot \cdot{x}^0$
+$$\green{y} = 5\cdot {x}^0$%
 
 ## x-waarden invullen in een functievoorschrift
 
@@ -75,7 +75,7 @@ bovenaan een deurgat wordt losgelaten. Een deur is ongeveer $2~\si{m}$ hoog,
 dus dat betekent dat we $\orange{x} = \orange{2}$ moeten invullen in ons
 functievoorschrift:
 
-$\green{y} = 0{,}45 \cdot \sqrt{\orange{2}} = \green{0{,}64}$
+$$\green{y} = 0{,}45 \cdot \sqrt{\orange{2}} = \green{0{,}64}$$
 
 We komen uit dat $\green{y} = \green{0{,}64}$. Dat betekent dat de bal na
 ongeveer $0{,}64~\si{s}$ op de grond zal zijn. {{< mute "(Probeer dit thuis gerust ook eens uit door een balletje van die hoogte te laten vallen en de valtijd te meten met een chronometer.)" >}}
