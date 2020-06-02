@@ -1,7 +1,7 @@
 ---
 title: "De grafiek van een afgeleide functie"
 date: 2020-04-03T15:09:56+02:00
-weight: 7
+weight: 6
 draft: true
 tags: ["grafiek afgeleide functie", "grafiek van een afgeleide", "afgeleide
 functie", "afgeleide van een functie", "f'(x)", "grafiek van f'(x)"]

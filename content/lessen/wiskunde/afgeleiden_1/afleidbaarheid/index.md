@@ -1,7 +1,7 @@
 ---
 title: "Afleidbaarheid van een functie"
 date: 2020-04-03T15:14:20+02:00
-weight: 5
+weight: 4
 draft: true
 tags: ["afleidbaarheid van een functie", "afgeleide", "afgeleide in een punt",
 "linkerafgeleide", "rechterafgeleide", "linkerlimiet", "rechterlimiet",

@@ -6,4 +6,3 @@ functies
 vector_1
 eentermen
 afgeleiden_1
-afgeleiden_2

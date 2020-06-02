@@ -1,7 +1,6 @@
 differentiequotient
 afgeleide
 rico_raaklijn
-in_een_punt
 afleidbaarheid
 afgeleide_functie
 grafiek

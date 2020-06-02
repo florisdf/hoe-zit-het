@@ -5,4 +5,3 @@ grafiek
 domein_beeld
 nulpunten
 tekenschema
-verloop
