@@ -4,13 +4,11 @@ date: 2020-03-10T16:35:11+02:00
 weight: 1
 draft: true
 tags: ["afgeleide", "differentiequotiënt", "gemiddelde verandering",
-"ogenblikkelijke verandering", "snelheid", "wat betekent delta"]
-description: "Met afgeleiden berekenen we ogenblikkelijke veranderingen. In
-deze les leren we de formule om zo'n afgeleide te berekenen. We bouwen stap per
-stap op naar deze definitie en gaan van gemiddelde snelheid naar
-differentiequotiënt om ten slotte bij afgeleiden te eindigen. Zodat begrijp je
-aan het einde van de les helemaal waar de definitie van afgeleiden vandaan
-komt."
+"snelheid", "wat betekent delta"]
+description: "In deze les leggen we het differentiequotiënt uit aan de hand van
+de snelheid van een racewagen. We beginnen met het intuïtief opbouwen van een
+algemene formule om snelheid te berekenen en maken zo een intuïtieve overstap
+naar de formule voor het differentiequotiënt."
 images: ['/lessen/wiskunde/afgeleiden_1/differentiequotient/img/drag_racing.png', '/lessen/wiskunde/afgeleiden_1/differentiequotient/img/maria_race_top.png', '/lessen/wiskunde/afgeleiden_1/differentiequotient/img/maria_avg_speed_1s_3s.png', '/lessen/wiskunde/afgeleiden_1/differentiequotient/img/maria_race_function.png', '/lessen/wiskunde/afgeleiden_1/differentiequotient/img/diff_quot_intuitie.png', '/lessen/wiskunde/afgeleiden_1/differentiequotient/img/graph_delta_fx_delta_x.png', '/lessen/wiskunde/afgeleiden_1/differentiequotient/img/graph_delta_fa+delta_x_delta_x.png']
 ---
 
