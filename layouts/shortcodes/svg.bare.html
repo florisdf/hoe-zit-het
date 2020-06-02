@@ -1,0 +1,7 @@
+{{ $img := $.Page.Resources.GetMatch ( .Get 0 | replaceRE ".svg" ".png" ) }}
+
+<figure class="mh0 mv4">
+<img src="{{ $img.RelPermalink }}" alt="{{ $.Site.Title }} {{.Get 1 | default $.Page.Title}}" />
+  <figcaption class="mid-gray f5 tc">{{.Get 2 | safeHTML }}</figcaption>
+</figure>
+
