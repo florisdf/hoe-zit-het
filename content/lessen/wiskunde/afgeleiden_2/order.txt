@@ -1,8 +1,0 @@
-x_n
-wortelvormen
-sin_cos
-som
-product
-quotiënt
-kettingregel
-veelterm
