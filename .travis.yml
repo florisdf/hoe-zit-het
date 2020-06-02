@@ -18,9 +18,8 @@ install:
 
 script:
   - hugo version # prints the Hugo version, just in case.
-  - hugo # build the website
   - python src/create_pdfs.py
-  - hugo # build the website
+  - hugo -D # build the website (including drafts)
 
 deploy:
   provider: firebase
@@ -32,3 +31,7 @@ env:
   global:
     - PRODUCTION=true
     - HUGO_RELEASE=0.67.1
+
+branches:
+  only:
+    - master

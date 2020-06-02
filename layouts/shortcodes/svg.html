@@ -1,10 +1,50 @@
-{{ $img_orig := $.Page.Resources.GetMatch ( .Get 0 | replaceRE ".svg" ".png" ) }}
-{{ $img_scaled := $img_orig.Resize "670x CatmullRom"}}
+{{ $img_full := $.Page.Resources.GetMatch ( .Get 0 | replaceRE ".svg" ".png" ) }}
+
+{{/* Save an image with a "_stripped" suffix when to give the user the */}}
+{{/* possibility to show/hide explanations and annotations on the image */}}
+{{ $img_stripped := $.Page.Resources.GetMatch ( print ( .Get 0 | replaceRE ".svg" "")  "_stripped.png" ) }}
+
+{{ $img := $img_full }} 
+{{ with $img_stripped }}
+  {{/* show the stripped by default, if it exists */}}
+  {{ $img = . }} 
+{{ end }}
+
+{{ $img_scaled := $img.Resize "670x CatmullRom"}}
 
 <figure class="mh0 mv4">
-  <a data-fancybox="gallery" href={{ $img_orig.RelPermalink }}>
-    <img src={{ $img_scaled.RelPermalink }} alt="{{ $.Site.Title }} {{.Get 1 | default $.Page.Title}}" />
+  <a data-fancybox="gallery" href="{{ $img.RelPermalink }}">
+    <img src="{{ $img_scaled.RelPermalink }}" alt="{{ $.Site.Title }} {{.Get 1 | default $.Page.Title}}" />
   </a>
+  {{ with $img_stripped }}
+    {{ $img_stripped_scaled := .Resize "670x CatmullRom" }}
+    {{ $img_full_scaled := $img_full.Resize "670x CatmullRom"}}
+    <div class="flex items-center justify-end">
+      <span class="switch-text gray">Toon uitleg</span>
+      <label class="switch ma2">
+        <input type="checkbox"
+               onclick="toggleExplanation(this, {{ $img_full.RelPermalink }}, {{ $img_full_scaled.RelPermalink }}, {{ $img_stripped.RelPermalink }}, {{ $img_stripped_scaled.RelPermalink }})"
+               autocomplete="off">
+        <span class="slider round"></span>
+      </label>
+    </div>
+
+    <script>
+      function toggleExplanation(el, fullImg, fullScaled, strippedImg, strippedScaled) {
+        if ($(el).is(":checked")) {
+          var newHref = fullImg;
+          var newSrc = fullScaled;
+        } else {
+          var newHref = strippedImg;
+          var newSrc = strippedScaled;
+        }
+        var figure = $(el).parent().parent().parent();
+        figure.children("a").attr("href", newHref);
+        figure.children("a").children("img").attr("src", newSrc);
+      }
+    </script>
+  {{ end }}
   <figcaption class="mid-gray f5 tc">{{.Get 2 | safeHTML }}</figcaption>
   <a class="o-0 absolute" style="left:-9999px"rel="license" about={{ $img_scaled.RelPermalink }} href="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International</a>
 </figure>
+

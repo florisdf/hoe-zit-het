@@ -1,7 +1,7 @@
 ---
 title: "Volgorde van de bewerkingen"
 date: 2018-10-19T22:00:00+02:00
-weight: 3
+weight: 1
 draft: false
 wiski: "http://wiski.be/oefenen/volgorde-van-bewerkingen-0/take"
 tags: ["Rekenregels", "Volgorde van de bewerkingen"]
