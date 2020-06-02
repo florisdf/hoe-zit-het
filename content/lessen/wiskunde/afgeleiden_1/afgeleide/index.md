@@ -40,7 +40,7 @@ berekenen voor $\Delta x$ naar $0$**:
 
 $$\lim\_{\Delta x \to 0} \frac{\green{f(a + \Delta x)} - \green{f(a)}}{\orange{\Delta x}}$$
 
-Dit is de **formule om een afgeleide te berekenen in $x = a**, afgekort
+Zo krijgen we meteen de **formule om een afgeleide te berekenen in $x = a$**, afgekort
 schrijven we "$f'(a)$" {{< mute "(let op het accentje na de $f$)" >}}:
 
 $$f'(a) = \lim\_{\Delta x \to 0} \frac{\green{f(a + \Delta x)} - \green{f(a)}}{\orange{\Delta x}}$$
@@ -103,7 +103,7 @@ berekenen van ons differentiequotiënt:
 Wanneer we $\Delta x = 0{,}1$ kiezen, is ons differentiequotiënt voor de
 functie $f(x) = - 3\cdot x^2 + 5$ in $x = 4$ dus gelijk aan $-24{,}3$. We gaan
 nu op dezelfde manier het differentiequotiënt berekenen en $\Delta x$ telkens
-dichter en dichter bij $0$ kiezen. Hieronder een tabel met de uitkomsten.
+dichter en dichter bij $0$ kiezen. Hieronder zie je een tabel met de uitkomsten.
 Reken zelf ook even na of je dezelfde uitkomsten vindt:
 
 | $\Delta x$   | $$\frac{\green{f(4 + \Delta x)} - \green{f(4)}}{\orange{\Delta x}}$$                          |
@@ -132,9 +132,8 @@ dichter naar $0$ brengen?**
 ## De afgeleide in een punt sneller leren berekenen
 
 Het is natuurlijk lastig om voor elke afgeleide zo'n hele tabel te moeten
-maken. Gelukkig kunnen we iets doordachter te werk gaan en de rekenregels van
-limieten gebruiken om de afgeleide in een punt sneller te berekenen. We gaan
-terug naar ons voorbeeld waarbij we de afgeleide in $x = 4$ willen berekenen
+maken. Gelukkig kunnen we iets doordachter te werk gaan. We gaan
+terug naar ons voorbeeld waarbij we de afgeleide in $x = 4$ wilden berekenen
 van de volgende functie:
 
 $$f(x) = - 3\cdot x^2 + 5$$
@@ -206,7 +205,7 @@ $\green{-24}$ over:
 
 $$\lim\_{\Delta x \to 0} (\green{- 24 - 3\Delta x}) = \green{-24}$$
 
-:tadaa: We krijgen dus dezelfde uitkomst als wanneer we de limiet met onze
+:tada: We krijgen dus dezelfde uitkomst als wanneer we de limiet met onze
 blote handen uitrekenden!
 
 
