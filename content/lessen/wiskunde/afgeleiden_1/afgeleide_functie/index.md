@@ -3,7 +3,7 @@ title: "De afgeleide functie van een functie"
 date: 2020-04-02T16:13:59+02:00
 weight: 6
 draft: true
-images: ['/lessen/wiskunde/afgeleiden/afgeleide_functie/img/zonder_met_afgeleide_fx.png', '/lessen/wiskunde/afgeleiden/afgeleide_functie/img/fx_ingevuld_in_afgeleide.png', '/lessen/wiskunde/afgeleiden/afgeleide_functie/img/f_delta_x_ingevuld.png', '/lessen/wiskunde/afgeleiden/afgeleide_functie/img/f_delta_x_uitwerking.png', '/lessen/wiskunde/afgeleiden/afgeleide_functie/img/afgeleide_teller_uitwerking.png']
+images: ['/lessen/wiskunde/afgeleiden_1/afgeleide_functie/img/zonder_met_afgeleide_fx.png', '/lessen/wiskunde/afgeleiden_1/afgeleide_functie/img/fx_ingevuld_in_afgeleide.png', '/lessen/wiskunde/afgeleiden_1/afgeleide_functie/img/f_delta_x_ingevuld.png', '/lessen/wiskunde/afgeleiden_1/afgeleide_functie/img/f_delta_x_uitwerking.png', '/lessen/wiskunde/afgeleiden_1/afgeleide_functie/img/afgeleide_teller_uitwerking.png', '/lessen/wiskunde/afgeleiden_1/afgeleide_functie/img/teller_afgeleide_invullen.png', '/lessen/wiskunde/afgeleiden_1/afgeleide_functie/img/delta_x_wegdelen.png', '/lessen/wiskunde/afgeleiden_1/afgeleide_functie/img/limiet_uitrekenen.png']
 tags: ["afgeleide", "veelterm", "functie", "afgeleide functie"]
 description: "De afgeleide in een punt kunnen we snel berekenen met behulp van
 de afgeleide functie. In deze les tonen we hoe aan de hand van de afgeleide van

@@ -11,7 +11,7 @@ stap op naar deze definitie en gaan van gemiddelde snelheid naar
 differentiequotiënt om ten slotte bij afgeleiden te eindigen. Zodat begrijp je
 aan het einde van de les helemaal waar de definitie van afgeleiden vandaan
 komt."
-images: []
+images: ['/lessen/wiskunde/afgeleiden_1/differentiequotient/img/drag_racing.png', '/lessen/wiskunde/afgeleiden_1/differentiequotient/img/maria_race_top.png', '/lessen/wiskunde/afgeleiden_1/differentiequotient/img/maria_avg_speed_1s_3s.png', '/lessen/wiskunde/afgeleiden_1/differentiequotient/img/maria_race_function.png', '/lessen/wiskunde/afgeleiden_1/differentiequotient/img/diff_quot_intuitie.png', '/lessen/wiskunde/afgeleiden_1/differentiequotient/img/graph_delta_fx_delta_x.png', '/lessen/wiskunde/afgeleiden_1/differentiequotient/img/graph_delta_fa+delta_x_delta_x.png']
 ---
 
 Vooraleer we aan afgeleiden kunnen beginnen, moeten we het

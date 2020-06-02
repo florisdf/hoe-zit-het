@@ -6,7 +6,7 @@ draft: true
 tags: ["afleidbaarheid van een functie", "afgeleide", "afgeleide in een punt",
 "linkerafgeleide", "rechterafgeleide", "linkerlimiet", "rechterlimiet",
 "continuïteit", "niet-afleidbaar", "rechts afleidbaar", "links afleidbaar"]
-images: []
+images: ['/lessen/wiskunde/afgeleiden_1/afleidbaarheid/img/afleidbaarheid_discontinu.png', '/lessen/wiskunde/afgeleiden_1/afleidbaarheid/img/afleidbaarheid_knik.png', '/lessen/wiskunde/afgeleiden_1/afleidbaarheid/img/afleidbaarheid_VA.png']
 description: "Een functie is niet altijd in ieder punt afleidbaar. In deze les
 leren we wat de voorwaarden zijn waar een functie aan moet voldoen opdat de
 functie afleidbaar zou zijn in een bepaald punt x = a."
@@ -92,22 +92,22 @@ bepaalt de **afleidbaarheid** van de functie in $x = a$. Er zijn drie gevallen:
 Een typisch voorbeeld van een functie die niet overal afleidbaar is, is een
 functie waar **gaten** in zitten. Zo'n functie noemen we een **discontinue**
 functie. We zien in onderstaande functie dat er een gat zit tussen $x = 2$ en
-$x = 3$. Dat gat zorgt ervoor dat we in $x = 2$ **geen rechterlimiet** kunnen
+$x = 5$. Dat gat zorgt ervoor dat we in $x = 2$ **geen rechterlimiet** kunnen
 berekenen, omdat wanneer $\Delta x$ *iets* groter is dan $0$, dan moeten we de
 functiewaarde berekenen van een x-waarde die *iets* groter is dan $2$. Maar alle
 x-waarden die *iets* groter zijn dan $2$
 {{< mute "(bv. $2{,}1$; $2{,}01$; $2{,}001$;...)" >}} liggen in die opening en
 hebben dus **geen functiewaarden**.
 
-(illustratie)
+{{< svg "img/afleidbaarheid_discontinu.svg" "Discontinue functie tusse x = 2 en x = 5" >}}
 
 De functie is dus enkel **links afleidbaar** en **niet rechts afleidbaar** in $x
 = 2$. Op dezelfde manier kan je erachter komen dat diezelfde functie enkel
-**rechts afleidbaar** is in $x = 3$ en **niet links afleidbaar**. In $x = 4$ is
+**rechts afleidbaar** is in $x = 5$ en **niet links afleidbaar**. In $x = 6$ is
 de functie dan weer zowel **rechts** als **links afleidbaar** én zijn deze
-afgeleiden aan elkaar gelijk. In $x = 4$ is de functie dus **afleidbaar**.
+afgeleiden aan elkaar gelijk. In $x = 6$ is de functie dus **afleidbaar**.
 
-Alle punten die tussen $x = 2$ en $x = 3$ liggen hebben geen functiewaarde.
+Alle punten die tussen $x = 2$ en $x = 5$ liggen hebben geen functiewaarde.
 Daarvoor kunnen we dus noch de linker- noch de rechterafgeleide berekenen. In
 die punten is de functie uiteraard ook niet afleidbaar.
 
@@ -133,12 +133,20 @@ verschillende richtingscoëfficiënt hebben. De **linker- en rechterafgeleide**
 in het knikpunt zijn dus **niet gelijk aan elkaar** en daarom is de functie in
 dat punt **niet afleidbaar**.
 
-## Functies met verticale asymptoten zijn niet afleidbaar in de asymptoot
+{{< svg "img/afleidbaarheid_knik.svg" "Een functie met een knik is niet afleidbaar in het knikpunt." >}} 
 
-Ten slotte zorgen verticale asymptoten ook voor niet-afleidbare punten van een
-functie. Dat komt omdat de raaklijn van een verticale asymptoot een oneindig
-grote rico heeft. De linker- en rechterafgeleiden zijn dus gelijk aan $+\infty$
-of $-\infty$ en zijn daarom geen elementen van $\mathbb{R}$.
+## Functies met verticale raaklijnen zijn niet afleidbaar bij die raaklijn
+
+Ten slotte zorgen verticale raaklijnen ook voor niet-afleidbare punten van een
+functie. Dat komt omdat een verticale raaklijn een oneindig grote rico heeft.
+De linker- en rechterafgeleiden zijn dus gelijk aan $+\infty$ of $-\infty$ en
+zijn daarom geen elementen van $\mathbb{R}$.
+
+{{< svg "img/afleidbaarheid_VA.svg" "Een functie met een verticale raaklijn is niet afleidbaar in de x-waarde waar de verticale raaklijn zich bevindt." >}}
+
+Merk op dat een **verticale asymptoot** ook zorgt voor een **verticale
+raaklijn** aan de grafiek van de functie. Een functie met een verticale
+asymptoot is dus niet afleidbaar op de x-waarde waar de asymptoot zich bevindt.
 
 ## Samengevat
 
@@ -161,6 +169,6 @@ Volgende punten van een functie zijn nooit afleidbaar:
 * De grenspunten van een opening in de grafiek van een functie
 * De punten die in de opening van de grafiek van een functie liggen
 * Knikpunten van de functie
-* Punten waarvoor de functie een verticale asymptoot heeft
+* Punten waar de functie een verticale raaklijn heeft
 
 {{< /attention >}}

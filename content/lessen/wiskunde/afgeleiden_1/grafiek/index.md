@@ -5,7 +5,7 @@ weight: 7
 draft: true
 tags: ["grafiek afgeleide functie", "grafiek van een afgeleide", "afgeleide
 functie", "afgeleide van een functie", "f'(x)", "grafiek van f'(x)"]
-images: []
+images: ['/lessen/wiskunde/afgeleiden_1/grafiek/img/grafiek_ricos.png']
 description: "De afgeleide van een functie is zelf ook een functie en heeft dus
 een grafiek. In deze les leren we hoe je het verband kan zien tussen de grafiek
 van de afgeleide van een functie en de grafiek van de functie zelf."
@@ -22,13 +22,17 @@ In deze les leren we hoe je het verband kan zien tussen de grafiek van de
 ## Een grafiek vol met rico's
 
 In de [les over de afgeleide als rico van een raaklijn](../rico_raaklijn),
-hebben we gezien dat de afgeleide van een functie $f(x)$ in $x = a$ gelijk is aan de
-**richtingscoëfficiënt van de raaklijn** aan de grafiek van $f(x)$. Wanneer we
-dus voor een bepaalde x-waarde $x = a$ op de grafiek van $f'(x)$ gaan kijken
-naar de functiewaarde, is die functiewaarde de **rico van de raaklijn** aan de
-oorspronkelijke grafiek van $f(x)$ in $x = a$:
+hebben we gezien dat de afgeleide van een functie $f(x)$ in $x = a$ gelijk is
+aan de **richtingscoëfficiënt van de raaklijn** aan de grafiek van $f(x)$.
+Wanneer we dus voor een bepaalde x-waarde $x = a$ op de grafiek van $f'(x)$
+gaan kijken naar de functiewaarde, is die functiewaarde de **rico van de
+raaklijn** aan de oorspronkelijke grafiek van $f(x)$ in $x = a$. Wanneer $f(x)$
+**stijgt**, hebben de raaklijnen aan $f(x)$ een **positieve rico** en zal
+$f'(x)$ dus ook **positief zijn**. Wanneer $f(x)$ **daalt**, hebben de
+raaklijnen aan $f(x)$ een **negatieve rico** en zal $f'(x)$ dus ook **negatief
+zijn**.
 
-(illustratie)
+{{< svg "img/grafiek_ricos.svg" "Wanneer f(x) stijgt, is f'(x) positief. Wanneer f(x) daalt, is f'(x) negatief" >}}
 
 Je kan de grafiek van $f'(x)$ dus zien als een verzameling van de rico's van
-alle raaklijnen aan de grafiek van $f(x)$ voor elke mogelijke x-waarde.
+alle raaklijnen aan de grafiek van $f(x)$ voor elke mogelijke x-waarde. 
