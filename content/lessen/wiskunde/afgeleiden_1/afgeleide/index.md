@@ -1,5 +1,5 @@
 ---
-title: "Wat is een afgeleide?"
+title: "De afgeleide in een punt berekenen"
 date: 2020-05-05T06:48:10+02:00
 weight: 2
 draft: true
@@ -16,39 +16,218 @@ images: []
 
 Met de afgeleide berekenen we de **ogenblikkelijke verandering** van een
 functie. In deze les gaan we leren hoe je zo'n afgeleide in een bepaald punt
-kan berekenen. We gaan de formule aan de hand van een tastbaar voorbeeld
-opbouwen, namelijk het berekenen van de snelheid op een bepaald tijdstip.
-
+kan berekenen.
 
 ## Van gemiddelde naar ogenblikkelijke verandering
-
-Op een luie zondagnamiddag, gaat Dirk al eens graag dragracen. Bij een dragrace
-vertrekken twee wagens vanuit stilstand en racen ze $300~\si{m}$ in een rechte
-lijn. De eerste aan de finish wint.
-
-{{< svg "img/drag_racing_dirk.svg" "Dirk is aan het dragracen en is bijna aan de finish." >}}
-
-De wagens halen enorme snelheden tot meer dan $500~\si{km/h}$. Op onderstaande
-figuur kan je zien dat de $\green{\text{positie}}$ van Dirk duidelijk een
-**functie** is van de $\orange{\text{tijd}}$. 
-
-(illustratie)
 
 We weten al dat we de *gemiddelde verandering* van een functie kunnen berekenen
 met het differentiequotiënt:
 
-$$\frac{\green{f(x\_2)} - \green{f(x\_1)}}{\orange{x\_2} - \orange{x\_1}}$$
+$$\frac{\green{f(a + \Delta x)} - \green{f(a)}}{\orange{\Delta x}}$$
 
-> Als je de formule voor het differentiequotiënt nog wat beangstigend vindt, lees je best de [les over differentiequotiënt](../differentiequotient) nog eens na.
+> Als je de formule voor het differentiequotiënt nog wat beangstigend vindt,
+> lees je best de [les over differentiequotiënt](../differentiequotient) nog
+> eens na.
 
-Maar hoe kunnen we nu een *ogenblikkelijke verandering* berekenen? Daarvoor
-gaan we een doordacht trucje toepassen. We gaan de **ogenblikkelijke
-verandering** zien als een gemiddelde verandering waarbij we $\orange{x\_2}$
-héél dicht bij $\orange{x\_1}$ kiezen. Als $\orange{x\_1}$ en $\orange{x\_2}$
-tijden zijn, dan gaan we onze tweede tijd eigenlijk zo dicht bij onze eerste
-tijd kiezen dat we over één ogenblik kunnen praten.
+Met die formule kunnen we bijvoorbeeld de *gemiddelde snelheid* van een wagen
+berekenen wanneer we de positie van de wagen in functie van de tijd kennen.
+Door een slim trucje toe te passen, kunnen we de formule echter ook gebruiken
+om de *ogenblikkelijke verandering* van een functie te berekenen. Dan kunnen we
+bijvoorbeeld ook berekenen hoe snel een wagen *op een bepaald tijdstip reed*.
 
-(illustratie waar gemiddelde verandering ogenblikkelijk wordt)
+Het trucje is om in de formule van het differentiequotiënt **de limiet te
+berekenen voor $\Delta x$ naar $0$**:
 
-Met welke snelheid rijdt Maria over de finish?
+$$\lim\_{\Delta x \to 0} \frac{\green{f(a + \Delta x)} - \green{f(a)}}{\orange{\Delta x}}$$
 
+Dit is de **formule om een afgeleide te berekenen in $x = a**, afgekort
+schrijven we "$f'(a)$" {{< mute "(let op het accentje na de $f$)" >}}:
+
+$$f'(a) = \lim\_{\Delta x \to 0} \frac{\green{f(a + \Delta x)} - \green{f(a)}}{\orange{\Delta x}}$$
+
+Door die limiet te berekenen, weten we waar de gemiddelde verandering aan
+gelijk is wanneer $a + \Delta x$ **heel dicht bij** $a$ zou liggen. Maar
+wanneer $a + \Delta x$ héél dicht bij $a$ ligt, zijn ze **bijna hetzelfde**. We
+berekenen zo waaraan de verandering op het ogenblik $a$ zou gelijk zijn. We
+berekenen dus de **ogenblikkelijke verandering in $a$**.
+
+## De afgeleide met je blote hand schatten
+
+Stel dat we de volgende functie hebben:
+
+$$f(x) = - 3\cdot x^2 + 5$$
+
+En we willen de **afgeleide berekenen in $x = 4$**, of in symbolen $f'(4)$. Dan
+moeten we in onze definitie van de afgeleide in $x = a$ de $a$ vervangen door
+$4$. We moeten dus de uitkomst van de volgende limiet vinden:
+
+$$f'(4) = \lim\_{\Delta x \to 0} \frac{\green{f(4 + \Delta x)} - \green{f(4)}}{\orange{\Delta x}}$$
+
+Geen paniek als je nog niet veel ervaring hebt met limieten. Je kan die limiet
+namelijk ook met je *blote handen* berekenen. Dat doe je door het
+differentiequotiënt verschillende keren uit te rekenen waarbij je **$\Delta x$
+telkens dichter bij $0$ kiest**.
+
+We beginnen bijvoorbeeld met $\Delta x = 0{,}1$:
+
+\begin{split}
+    \frac{\green{f(4 + 0{,}1)} - \green{f(4)}}{\orange{0{,}1}}  &= \frac{\green{f(4{,}1)} - \green{f(4)}}{\orange{0{,}1}}
+\end{split}
+
+Je ziet dat we eerst nog $\green{f(4{,}1)}$ en $\green{f(4)}$ moeten berekenen.
+Dat is snel gefikst:
+
+\begin{split}
+    \green{f(4{,}1)} &= -3 \cdot \green{4{,}1}^2 + 5\\\\\
+                     &= -3 \cdot 16{,}81 + 5\\\\\
+                     &= -50{,}43 + 5\\\\\
+                     &= \green{-45{,}43}
+\end{split}
+
+\begin{split}
+    \green{f(4)} &= -3 \cdot \green{4}^2 + 5\\\\\
+                     &= -3 \cdot 16 + 5\\\\\
+                     &= -48 + 5\\\\\
+                     &= \green{-43}
+\end{split}
+
+Nu we $\green{f(4{,}1)}$ en $\green{f(4)}$ kennen, kunnen we verder met het
+berekenen van ons differentiequotiënt:
+
+\begin{split}
+    \frac{\green{f(4{,}1)} - \green{f(4)}}{\orange{0{,}1}} &= \frac{\green{-45{,}43} - (\green{-43})}{\orange{0{,}1}}\\\\\
+        &= \frac{\green{-2{,}43}}{\orange{0{,}1}}\\\\\
+        &= -24{,}3
+\end{split}
+
+Wanneer we $\Delta x = 0{,}1$ kiezen, is ons differentiequotiënt voor de
+functie $f(x) = - 3\cdot x^2 + 5$ in $x = 4$ dus gelijk aan $-24{,}3$. We gaan
+nu op dezelfde manier het differentiequotiënt berekenen en $\Delta x$ telkens
+dichter en dichter bij $0$ kiezen. Hieronder een tabel met de uitkomsten.
+Reken zelf ook even na of je dezelfde uitkomsten vindt:
+
+| $\Delta x$   | $$\frac{\green{f(4 + \Delta x)} - \green{f(4)}}{\orange{\Delta x}}$$                          |
+| ------------ | ------------------------------------------------------------------------------------------- |
+| $0{,}1$      | $$\frac{\green{f(4 + 0{,}1)} - \green{f(4)}}{\orange{0{,}1}}  = \frac{\green{-2{,}43}}{\orange{0{,}1}} = -24{,}3$$                          |
+| $0{,}01$     | $$\frac{\green{f(4 + 0{,}01)} - \green{f(4)}}{\orange{0{,}01}}  = \frac{\green{-0{,}2403}}{\orange{0{,}01}} = -24{,}03$$                          |
+| $0{,}001$    | $$\frac{\green{f(4 + 0{,}001)} - \green{f(4)}}{\orange{0{,}001}}  = \frac{\green{-0{,}024003}}{\orange{0{,}001}} = -24{,}003$$                          |
+| $0{,}0001$   | $$\frac{\green{f(4 + 0{,}0001)} - \green{f(4)}}{\orange{0{,}0001}}  = \frac{\green{-0{,}00240003}}{\orange{0{,}0001}} = -24{,}0003$$                          |
+| $0{,}00001$  | $$\frac{\green{f(4 + 0{,}00001)} - \green{f(4)}}{\orange{0{,}00001}}  = \frac{\green{-0{,}0002400003}}{\orange{0{,}00001}} = -24{,}00003$$                          |
+| $0{,}000001$ | $$\frac{\green{f(4 + 0{,}000001)} - \green{f(4)}}{\orange{0{,}000001}}  = \frac{\green{-0{,}000024000003}}{\orange{0{,}000001}} = -24{,}000003$$                          |
+
+We zouden nog een tijdje kunnen doorgaan, maar het zou je moeten opvallen dat
+die $3$ stilaan wegdrijft naar een plek waar ze zo klein is dat ze eigenlijk
+verwaarloosbaar is. Hoe dichter we $\Delta x$ naar $0$ brengen, hoe dichter de
+uitkomst van het differentiequotiënt gaat naar $-24$. We kunnen dus zeggen dat:
+
+\begin{split}
+    f'(4) &= \lim\_{\Delta x \to 0} \frac{\green{f(4 + \Delta x)} - \green{f(4)}}{\orange{\Delta x}}\\\\\
+        &= -24
+\end{split}
+
+Dat is eigenlijk wat we bedoelen met die limiet: **naar welk getal gaat de
+uitkomst van het differentiequotiënt wanneer we $\Delta x$ steeds dichter en
+dichter naar $0$ brengen?**
+
+## De afgeleide in een punt sneller leren berekenen
+
+Het is natuurlijk lastig om voor elke afgeleide zo'n hele tabel te moeten
+maken. Gelukkig kunnen we iets doordachter te werk gaan en de rekenregels van
+limieten gebruiken om de afgeleide in een punt sneller te berekenen. We gaan
+terug naar ons voorbeeld waarbij we de afgeleide in $x = 4$ willen berekenen
+van de volgende functie:
+
+$$f(x) = - 3\cdot x^2 + 5$$
+
+Om de afgeleide in $x = 4$ te vinden, moeten we de volgende limiet uitrekenen:
+
+$$f'(4) = \lim\_{\Delta x \to 0} \frac{\green{f(4 + \Delta x)} - \green{f(4)}}{\orange{\Delta x}}$$
+
+Vorige keer berekenden we deze limiet door *met onze blote handen*
+verschillende waarden voor $\Delta x$ te kiezen die steeds dichter en dichter
+bij $0$ kwamen. Nu gaan we het iets doordachter aanpakken. We gaan de $\Delta
+x$ even laten voor wat het is en $\green{f(4 + \Delta x)}$ uitrekenen door
+letterlijk $\green{4 + \Delta x}$ in te vullen in ons functievoorschrift:
+
+\begin{split}
+    \green{f(4 + \Delta x)} &= -3 \cdot (\green{4 + \Delta x})^2 + 5\\\\\
+    &= -3 \cdot (16 + 2\cdot 4 \cdot \Delta x + (\Delta x)^2) + 5\\\\\
+    &= -3 \cdot (16 + 8\Delta x + (\Delta x)^2) + 5\\\\\
+    &= -48 - 24\Delta x -3(\Delta x)^2 + 5\\\\\
+    &= \green{-43 -24\Delta x -3(\Delta x)^2}
+\end{split}
+
+> ⚠️ Let op!  $(\green{4 + \Delta x})^2$ is een **merkwaardig product**! Het is
+> van de vorm $(a + b)^2 = a^2 + 2ab + b^2$.
+
+Als we nu ook nog $\green{f(4)}$ uitrekenen, kennen we de twee termen in de
+teller {{< mute "(bovenaan)" >}} van de breuk:
+
+\begin{split}
+    \green{f(4)} &= -3 \cdot \green{4}^2 + 5\\\\\
+    &= -3 \cdot 16 + 5\\\\\
+    &= -48 + 5\\\\\
+    &= \green{-43}
+\end{split}
+
+Nu we $\green{f(4 + \Delta x)}$ en $\green{f(4)}$ kennen, kunnen we de teller
+van ons differentiequotiënt al voor een stuk uitrekenen. Van de limiet trekken
+we ons voorlopig niets aan, die schrijven we gewoon over.
+
+\begin{split}
+    f'(4) &= \lim\_{\Delta x \to 0} \frac{\green{f(4 + \Delta x)} - \green{f(4)}}{\orange{\Delta x}}\\\\\
+    &= \lim\_{\Delta x \to 0} \frac{\green{-43 - 24\Delta x - 3(\Delta x)^2} - (\green{-43})}{\orange{\Delta x}}\\\\\
+    &= \lim\_{\Delta x \to 0} \frac{\green{-43 - 24\Delta x - 3(\Delta x)^2} + 43}{\orange{\Delta x}}\\\\\
+    &= \lim\_{\Delta x \to 0} \frac{\green{- 24\Delta x - 3(\Delta x)^2}}{\orange{\Delta x}}\\\\\
+\end{split}
+
+Nu krijgen we een breuk die we kunnen **vereenvoudigen**, want zowel teller als
+noemer zijn **deelbaar door $\Delta x$**:
+
+\begin{split}
+    \lim\_{\Delta x \to 0} \frac{\green{- 24\Delta x - 3(\Delta x)^2}}{\orange{\Delta x}}
+    &= \lim\_{\Delta x \to 0} \frac{\green{- 24 - 3\Delta x}}{\orange{1}} \\\\\
+\end{split}
+
+Zo krijgen we een heel eenvoudige limiet:
+
+$$\lim\_{\Delta x \to 0} (\green{- 24 - 3\Delta x})$$
+
+Hier zie je duidelijk waar die *wegdrijvende* $3$ vandaan komt. Wanneer we
+$\Delta x$ kleiner en kleiner kiezen
+{{< mute "(bv. $0{,}1$; $0{,}01$; $0{,}001$;...)" >}} gaan we de $\green{-3}$
+steeds vermenigvuldigen met kleiner en kleiner getal en gaan we van de
+$\green{-24}$ steeds een kleiner en kleiner getal aftrekken 
+{{< mute "($0{,}3$; $0{,}03$; $0{,}003$;...)" >}}.
+
+De limiet uitrekenen is heel eenvoudig, want als $\Delta x$ heel dicht naar $0$
+gaat, dan zal $\green{-3 \Delta x}$ ook naar $0$ gaan en blijft dus enkel
+$\green{-24}$ over:
+
+$$\lim\_{\Delta x \to 0} (\green{- 24 - 3\Delta x}) = \green{-24}$$
+
+:tadaa: We krijgen dus dezelfde uitkomst als wanneer we de limiet met onze
+blote handen uitrekenden!
+
+
+## Samengevat
+
+{{< attention "De afgeleide in $x = a$ berekenen" >}}
+
+De afgeleide in $x = a$ van een functie $f(x)$ is gedefinieerd als:
+
+$$f'(a) = \lim\_{\Delta x \to 0} \frac{\green{f(a + \Delta x)} - \green{f(a)}}{\orange{\Delta x}}$$
+
+Voor een bepaalde $a$ kan je deze limiet kan je als volgt uitrekenen:
+
+1. Bereken $\green{f(a + \Delta x)}$ door letterlijk "$\green{a + \Delta x}$"
+   in te vullen in het voorschrift van $f(x)$
+2. Bereken $\green{f(a)}$ door $a$ in te vullen in het het voorschrift van
+   $f(x)$
+3. Bereken $\green{f(a + \Delta x)} - \green{f(a)}$ door je uitkomsten van de
+   vorige stappen van elkaar af te trekken
+4. Vul de uitkomst van $\green{f(a + \Delta x)} - \green{f(a)}$ in in de teller
+   (boven) van het differentiequotiënt
+5. Vereenvoudig de breuk door $\Delta x$ te schrappen waar dat kan
+6. Bereken de limiet door $\Delta x$ te vervangen door $0$
+{{< /attention >}}
