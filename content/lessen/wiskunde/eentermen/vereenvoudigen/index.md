@@ -2,7 +2,7 @@
 title: "Eentermen vereenvoudigen"
 date: 2019-12-04T08:20:36+02:00
 weight: 3
-draft: true
+draft: false
 images: []
 ---
 
@@ -223,7 +223,7 @@ elkaar mag optellen** wanneer ze **hetzelfde grondtal hebben**:
 
 $$\orange{a^n} \cdot \blue{a^m} = a^{\orange{n} + \blue{m}}$$
 
-Waarbij $a, \orange{n}, \blue{m} \in \mathbb{Q}$. {{% mute "(of $\mathbb{R}$ mag ook)" %}}
+Waarbij $a, \orange{n}, \blue{m} \in \mathbb{Q}$ {{% mute "(of $\mathbb{R}$ mag ook)" %}}.
 {{% /expand %}}
 
 ## Factoren rangschikken

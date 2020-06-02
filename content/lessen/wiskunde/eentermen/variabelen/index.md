@@ -2,8 +2,8 @@
 title: "Wat is een variabele?"
 date: 2019-11-08T09:01:12+01:00
 weight: 1
-draft: true
-images: ['/lessen/wiskunde/veeltermen/variabelen/img/living_no_dims.png', '/lessen/wiskunde/veeltermen/variabelen/img/living_area_formula.png', '/lessen/wiskunde/veeltermen/variabelen/img/living_area_computed.png']
+draft: false
+images: ['/lessen/wiskunde/eentermen/variabelen/img/living_no_dims.png', '/lessen/wiskunde/eentermen/variabelen/img/living_area_formula.png', '/lessen/wiskunde/eentermen/variabelen/img/bedroom_area_formula.png', '/lessen/wiskunde/eentermen/variabelen/img/greek_angle.png', '/lessen/wiskunde/eentermen/variabelen/img/emoji_formula.png', '/lessen/wiskunde/eentermen/variabelen/img/living_area_computed.png']
 ---
 
 Pas wanneer een eenterm **variabelen** bevat, kunnen we eentermen gaan
