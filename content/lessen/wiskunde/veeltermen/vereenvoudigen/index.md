@@ -138,8 +138,6 @@ graad in $x$. Bijvoorbeeld:
 * Rangschikken volgens **dalende graad in $q$**:
   $$-\orange{q} + \sqrt{3}p^4 - 3\orange{q^3} + p^3\orange{q^2} = -3\orange{q^3} + p^3\orange{q^2} - \orange{q} + \sqrt{3}p^4$$
 
-## Veeltermen met letterexponenten
-
 ## Samengevat
 {{% attention "Veeltermen vereenvoudigen" %}}
 Een veelterm kan je als volgt vereenvoudigen:
