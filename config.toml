@@ -20,7 +20,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 
 [params]
   favicon = "/images/favicon.png"
-  description = "Gratis hulp met wiskunde en fysica"
+  description = "Gratis uitleg wiskunde en fysica"
   facebook = "https://fb.me/hoezithet"
   baseURL = "https://hoezithet.nu/"
   company = "Hoe Zit Het? vzw"
