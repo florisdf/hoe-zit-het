@@ -5,55 +5,32 @@ weight: 3
 draft: true
 images: []
 ---
-Wanneer een veelterm [variabelen](../variabelen) bevat, geeft de veelterm enkel een **beschrijving van een berekening**. De veelterm zegt enkel **hoe** je een uitkomst kan berekenen. Wanneer we echter de **variabelen vervangen** door getallen, kunnen we de veelterm uitrekenen. Zo krijgen we een **getalwaarde** van de veelterm.
 
-## Een veelterm als een plan
+Wanneer een veelterm [variabelen](../variabelen) bevat, geeft de veelterm enkel een **beschrijving van een berekening**. De veelterm zegt enkel **hoe** je een uitkomst kan berekenen. Wanneer we echter de **variabelen vervangen** door getallen, kan de veelterm ook gelijk worden aan een getal. In deze les leren we hoe we zo een **getalwaarde van een veelterm** kunnen berekenen.
 
-Je kan een veelterm zien als een plan om een huisje te bouwen met LEGO:
-
-(illustratie: huisje bouwen met legoblokjes a en b)
-
-Het plannetje zelf zegt enkel hoe je de blokken moet leggen. Het toont de *structuur* van het huis, het is zelf geen huis. Stel dat we de volgende soorten blokjes in onze LEGO-verzameling hebben:
-
-(illustratie met 4 blokjes)
-
-Die 4 soorten noemen we de *verzameling* waaruit we mogen kiezen. Met wiskundige symbolen kunnen we dat als volgt noteren:
-
-(illustratie met 4 blokjes als verzameling)
-
-Omdat we $a$ en $b$ moeten kiezen uit die verzameling, zeggen we dat
-
-(illustratie met $a \in $ en $b \in $ verzameling)
-
-Stel dat we als $a$ een rood blokje kiezen en als $b$ een groen blokje. Dan ziet ons huisje er zo uit:
-
-(illustratie)
-
-We zouden ook een andere keuze kunnen maken voor $a$ en $b$ en zo een huis krijgen dat er iets anders uitziet:
-
-(illustratie)
-
-Zo zouden we nog even kunnen doorgaan en alle mogelijke huizen bouwen die we met onze blokken kunnen maken:
-
-(illustratie met alle mogelijke huizen)
-
-We zien dat alle huizen verschillend zijn, maar dat ze toch ook gelijkaardig zijn. De **structuur** van de huizen is namelijk identiek omdat ze met hetzelfde plannetje gemaakt zijn.
 
 ## De getalwaarde berekenen
 
-We hebben ons plannetje gebruikt om een echt huis te maken. Een veelterm kan je vergelijken met zo'n plannetje. Door in een veelterm de **variabelen te vervangen** door getallen, krijgen we een **getalwaarde** van de veelterm. Net zoals we een echt huis kregen wanneer we de LEGO-blokken op de juiste plaatsen legden.
+Om een getalwaarde van een veelterm te berekenen, nemen we de volgende stappen:
 
-(illustratie met analogie tussen huisje en veelterm)
+1. Vervangen elke variabele door een getal
+2. Je krijgt een bewerking met enkel getallen. **Reken die bewerking uit**.
 
-Stel dat je de volgende veelterm hebt:
+Je berekent altijd de Getalwaarde van een veelterm **voor bepaalde waarden van de variabelen** in de veelterm. Stel bijvoorbeeld dat we de volgende veelterm hebben:
+
+$$-5ab^2 + 3a$$
+
+Als we hier een getalwaarde van willen berekenen, moeten we eerst zeggen **voor welke waarden van $a$ en $b$** we dat willen doen. We kunnen bijvoorbeeld de **getalwaarde voor $\orange{a=2}$ en $\geen{b=-1}$ bepalen**:
+
+$$-5\orange{a}\green{b}^2 + 3\orange{a} = -5\cdot\orange{2}\green{(-1)}^2 + 3\cdot \orange{2} $$
+
+> ⚠️ Merk op dat we de $\green{-1}$ **tussen haakjes** hebben gezet wanneer we $\green{b}$ erdoor vervingen
+
+Door in een veelterm de **variabelen te vervangen** door getallen, krijgen we een **getalwaarde** van die veelterm. Stel dat je de volgende veelterm hebt:
 
 $$-2\orange{x}^2 + 3\orange{x} - 1$$
 
-Die veelterm bevat één {{% class "variabele" "orange" %}}, namelijk $\orange{x}$. We gaan ervan uit dat $\orange{x}$ eender welk rationaal getal mag zijn, dus
-
-$$\orange{x} \in \mathbb{Q}$$
-
-Stel dat we de getalwaarde van de veelterm willen berekenen voor $\orange{x = 2}$. Dan moeten we elke $\orange{x}$ in de veelterm vervangen door $\orange{2}$:
+Die veelterm bevat één {{% class "variabele" "orange" %}}, namelijk $\orange{x}$. Stel dat we de getalwaarde van de veelterm willen berekenen voor $\orange{x = 2}$. Dan moeten we elke $\orange{x}$ in de veelterm vervangen door $\orange{2}$:
 
 $$-2\cdot\orange{2}^2 + 3\cdot\orange{2} - 1$$
 
@@ -66,6 +43,8 @@ Vervolgens rekenen we uit:
 \end{split}
 
 We vinden dat de **getalwaarde** van de veelterm $-2x^2 + 3x - 1$ voor $x = 2$ **gelijk is aan $-3$**.
+
+## 
 
 ## Samengevat
 
