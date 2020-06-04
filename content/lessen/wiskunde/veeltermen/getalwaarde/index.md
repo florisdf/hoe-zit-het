@@ -1,6 +1,6 @@
 ---
 title: "Getalwaarde van een veelterm"
-date: 2019-11-05T07:44:36+02:00
+date: 2020-06-04T09:26:36+02:00
 weight: 3
 draft: true
 images: []
@@ -72,6 +72,7 @@ $q = -\sqrt{2}$:
     &= -20\sqrt{2} - 75\sqrt{2} - \orange{5} - 2\sqrt{2}\\\\\
     &= - \orange{5} - 97\sqrt{2}
 \end{split}
+
 ## Samengevat
 
 {{< attention "Getalwaarde van een veelterm" >}}

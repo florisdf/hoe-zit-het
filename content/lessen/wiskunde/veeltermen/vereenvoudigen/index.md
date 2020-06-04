@@ -1,6 +1,6 @@
 ---
 title: "Veeltermen vereenvoudigen"
-date: 2019-11-05T07:44:36+02:00
+date: 2020-06-04T09:26:36+02:00
 weight: 2
 draft: true
 tags: ["veelterm", "bewerkingen met veeltermen", "Veeltermen vereenvoudigen", "gelijksoortige eentermen optellen"]

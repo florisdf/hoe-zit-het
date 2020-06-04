@@ -1,6 +1,6 @@
 ---
 title: "Wat is een veelterm?"
-date: 2019-11-05T07:44:36+02:00
+date: 2020-06-04T09:26:36+02:00
 weight: 1
 draft: true
 tags: ["veelterm", "graad van een veelterm", "eenterm", "term"]
