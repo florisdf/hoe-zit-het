@@ -1,20 +1,33 @@
 ---
-title: "Veeltermen vereenvoudigen"
+title: "Veeltermen vereenvoudigen en herleiden"
 date: 2020-06-04T09:26:36+02:00
 weight: 2
 draft: true
-tags: ["veelterm", "bewerkingen met veeltermen", "Veeltermen vereenvoudigen", "gelijksoortige eentermen optellen"]
+tags: ["veelterm", "veelterm herleiden", "bewerkingen met veeltermen",
+"Veeltermen vereenvoudigen", "gelijksoortige eentermen optellen"]
 description: "Hoe kan je een veelterm vereenvoudigen? Om eenvoudiger veeltermen met elkaar te kunnen vergelijken en bewerkingen met veeltermen te kunnen doen, is het belangrijk dat we leren om een veelterm te vereenvoudigen. In deze les leggen we stap voor stap uit hoe dat moet."
 images: []
 ---
 
-Voor we een veelterm beginnen gebruiken, zorgen we er best voor dat we hem zo kort mogelijk schrijven. Dat bespaart ons schrijfwerk achteraf en zorgt ervoor dat we eenvoudiger gelijkenissen tussen veeltermen kunnen ontdekken. Het vereenvoudigen van een veelterm doe je zo:
+Voor we een veelterm beginnen gebruiken, zorgen we er best voor dat we hem zo
+kort mogelijk schrijven. Dat bespaart ons schrijfwerk achteraf en zorgt ervoor
+dat we eenvoudiger gelijkenissen tussen veeltermen kunnen ontdekken. Het
+vereenvoudigen van een veelterm doe je zo:
 
 1. Werk de haakjes uit in elke eenterm;
 2. Vereenvoudig alle eentermen;
-3. Tel de gelijksoortige eentermen bij elkaar op.
+3. Herleid door de gelijksoortige eentermen bij elkaar op te tellen.
 
 In deze les leggen we elk van die stappen wat verder uit.
+
+{{< expand "Alle variabelen in deze zijn $\in \mathbb{R}$ (of $\in\mathbb{Q}$)" >}}
+
+We gaan ervan uit dat alle variabelen in deze les een element zijn van de reële
+getallen.  Als je nog niet weet wat reële getallen zijn, mag je ook aannemen
+dat de variabelen een element zijn van de rationale, gehele of zelfs natuurlijk
+getallen. Voor al die verzamelingen gelden dezelfde rekenregels wat
+betreft het vereenvoudigen van veeltermen.
+{{< /expand >}}
 
 ## Haakjes uitwerken
 
@@ -69,19 +82,32 @@ Vanaf er geen haakjes meer zijn in de termen van de veelterm, gaan we **alle een
 * $$\orange{zyx} \blue{- 2 \frac{xy^3}{3} x} \green{+ 3z^3z} = \orange{xyz} \blue{- \frac{2}{3} x^2y^3} \green{+ 3z^4}$$
 
 
-## Gelijksoortige eentermen optellen
+## Herleid door de gelijksoortige eentermen op te tellen
 
-Wanneer alle eentermen in een veelterm vereenvoudigd zijn, moeten we eerst op zoek naar de gelijksoortige eentermen. In de vorige stap {{< mute "(eentermen vereenvoudigen)" >}} hebben we de factoren van de eentermen al gerangschikt. Daarom zal het nu eenvoudiger zijn om de gelijksoortige eentermen te vinden.
+Wanneer alle eentermen in een veelterm vereenvoudigd zijn, gaan we alle
+**gelijksoortige eentermen bij elkaar optellen**. Dit noemen we ook wel het
+**herleiden van de veelterm**. Om de gelijksoortige eentermen bij elkaar te
+kunnen optellen, moeten we natuurlijk eerst op zoek naar waar er allemaal
+gelijksoortige eentermen zijn in de veelterm. In de vorige stap
+{{< mute "(eentermen vereenvoudigen)" >}} hebben we de factoren van de
+eentermen al gerangschikt. Daardoor zal het nu eenvoudiger zijn om de
+gelijksoortige eentermen te vinden.
 
-> Als je niet meer goed weet wat we bedoelen met *"gelijksoortige eentermen"* lees dan zeker onze [introductieles over eentermen](../eenterm/#gelijksoortige-eentermen) eens na. 
+> Als je niet meer goed weet wat we bedoelen met *"gelijksoortige eentermen"*
+> lees dan zeker onze [introductieles over
+> eentermen](../eenterm/#gelijksoortige-eentermen) eens na. 
 
-Hieronder hebben we per veelterm de gelijksoortige eentermen aangeduid in dezelfde kleur:
+Hieronder hebben we per veelterm de gelijksoortige eentermen aangeduid in
+dezelfde kleur:
 
 * $$\orange{-3xy^2} + 5x^3 \orange{+ 9 xy^2}$$
 * $$\orange{-2qr} + p^2qr^3 \green{- 6p} \orange{+ 5qr} \green{+ 3 p}$$
 * $$\orange{\frac{4}{5}a^2b} \green{- 2b} + \frac{4}{5}a^2 \green{+ \frac{4}{5}b} \orange{- a^2b}$$
 
-Het is een goeie gewoonte om bij het aanduiden van gelijksoortige eentermen  ook altijd het **plus- of minteken mee aan te duiden**. Zo voorkomen we dat we bv. plots een optelling gaan doen waar we eigenlijk een aftrekking hadden moeten doen.
+> Het is een goeie gewoonte om bij het aanduiden van gelijksoortige eentermen
+> ook altijd het **plus- of minteken mee aan te duiden**. Zo voorkomen we dat
+> we bv. plots een optelling gaan doen waar we eigenlijk een aftrekking hadden
+> moeten doen.
 
 Eens je de gelijksoortige eentermen hebt aangeduid, moet je de **gelijksoortige
 eentermen optellen** bij elkaar. Dat doe je door de **coëfficiënten op te
@@ -107,7 +133,9 @@ We werken de voorbeelden van hierboven verder uit:
   \end{split}
 
 
-We maken hier eigenlijk gebruik van de distributieve eigenschap in $\mathbb{R}$ die zegt dat de vermenigvuldiging distributief is over de optelling in $\mathbb{R}$.
+We maken hier eigenlijk gebruik van de distributieve eigenschap in $\mathbb{R}$
+die zegt dat de vermenigvuldiging distributief is over de optelling in
+$\mathbb{R}$.
 
 | Distributieve eigenschap | Gelijksoortige eentermen optellen  |
 | ------------------       | ------                             |

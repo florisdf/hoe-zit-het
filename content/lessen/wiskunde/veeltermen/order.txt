@@ -1,7 +1,5 @@
 veelterm
 vereenvoudigen
 getalwaarde
-som
-product
+bewerkingen
 merkwaardige_producten
-grafisch
