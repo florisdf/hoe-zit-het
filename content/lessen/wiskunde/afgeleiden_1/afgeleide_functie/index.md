@@ -1,12 +1,11 @@
 ---
-title: "De afgeleide functie van een functie"
+title: "De afgeleide van een functie"
 date: 2020-04-02T16:13:59+02:00
 weight: 5
 draft: true
 images: ['/lessen/wiskunde/afgeleiden_1/afgeleide_functie/img/zonder_met_afgeleide_fx.png', '/lessen/wiskunde/afgeleiden_1/afgeleide_functie/img/fx_ingevuld_in_afgeleide.png', '/lessen/wiskunde/afgeleiden_1/afgeleide_functie/img/f_delta_x_ingevuld.png', '/lessen/wiskunde/afgeleiden_1/afgeleide_functie/img/f_delta_x_uitwerking.png', '/lessen/wiskunde/afgeleiden_1/afgeleide_functie/img/afgeleide_teller_uitwerking.png', '/lessen/wiskunde/afgeleiden_1/afgeleide_functie/img/teller_afgeleide_invullen.png', '/lessen/wiskunde/afgeleiden_1/afgeleide_functie/img/delta_x_wegdelen.png', '/lessen/wiskunde/afgeleiden_1/afgeleide_functie/img/limiet_uitrekenen.png']
-tags: ["afgeleide", "veelterm", "functie", "afgeleide functie"]
-description: "De afgeleide in een punt kunnen we snel berekenen met behulp van
-de afgeleide functie. In deze les tonen we hoe aan de hand van de afgeleide van
+tags: ["afgeleide", "afgeleide van een functie", "afgeleide functie van een functie", "afgeleide van een tweedegraadsfunctie" ]
+description: "In deze les leren we hoe we de afgeleide van een functie kunnen vberekenen. De afgeleide van een functie is een functievoorschrift warmee we de afgeleide voor alle mogelijke x-waarden van de functie kunnen vinden. We leggen dit uit aan de hand van de afgeleide van een
 tweedegraadsfunctie."
 ---
 
@@ -20,7 +19,7 @@ berekenen.
 Gelukkig kunnen we ook de **afgeleide van een volledige functie** berekenen.
 Dat betekent dat we in één keer in **alle x-waarden**
 {{< mute "(waarin $f(x)$ afleidbaar is)" >}} de afgeleide berekenen!
-:open_mouth: Dat noemen we de **afgeleide functie** van een functie.
+:open_mouth: Dat noemen we de **afgeleide functie** van een functie of kortweg **de afgeleide van een functie**.
 
 {{< svg "img/zonder_met_afgeleide_fx.svg" "Met de afgeleide functie kunnen we sneller afgeleiden berekenen" >}}
 
