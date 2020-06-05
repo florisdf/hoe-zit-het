@@ -3,6 +3,12 @@ title: "Optellen en aftrekken van eentermen"
 date: 2020-01-09T07:02:25+01:00
 weight: 4
 draft: false
+description: "In deze les leggen we aan de hand van voldoende voorbeelden uit
+hoe je eentermen bij elkaar kan optellen of van elkaar kan aftrekken. Omdat het
+optellen en aftrekken van eentermen gebaseerd is op de distributieve
+eigenschap, leggen we die ook nog eens extra uit in deze les."
+tags: ["eenterm", "eentermen optellen", "eentermen aftrekken", "verschil van
+eentermen", "som van eentermen", "bewerkingen met eentermen", "distributiviteit"]
 images: []
 ---
 
