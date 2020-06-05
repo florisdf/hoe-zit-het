@@ -104,7 +104,7 @@ bij het optellen van veeltermen:
     &= \orange{4\cdot x^3} -\green{7\cdot x^2y} + \blue{3}\\\\\
 \end{split}
 
-## Een eenterm vermenigvuldigen met een veelterm
+## Een veelterm vermenigvuldigen met een eenterm
 
 Het vermenigvuldigen van een eenterm met een veelterm gaat als volgt:
 
@@ -207,6 +207,70 @@ $$-3uv + 2u - 4v$$
 
 ## Veeltermen met elkaar vermenigvuldigen
 
+Om twee veeltermen met elkaar te vermenigvuldigen, moeten we eigenlijk meerdere
+keren een [veelterm vermenigvuldigen met een
+eenterm](#een-veelterm-vermenigvuldigen-met-een-eenterm). Het stappenplan gaat
+als volgt:
+
+1. **Vermenigvuldig elke term van de ene veelterm met elke term van de
+   andere veelterm**.
+2. Je krijgt één lange veelterm. **Vereenvoudig en herleid** die veelterm.
+
+Zoals je in de eerste stap ziet, moeten we élke term van de ene met élke term
+van de andere veelterm vermenigvuldigen. Het vermenigvuldigen van veeltermen
+kan daarom al snel een warboel worden. Het is belangrijk dat je er stap per
+stap doorgaat. Stel dat we de volgende vermenigvuldiging moeten oplossen:
+
+$$(-4a^2b + 3 ab^2 + ab) \cdot (a - 2ab)$$
+
+Nu komt het erop aan om op een *gestructureerde manier* alle termen van de ene
+veelterm met elke term van de andere veelterm te vermenigvuldigen. We beginnen
+met de *eerste term van de eerste veelterm* te vermenigvuldigen met de tweede
+veelterm. Dit doen we op precies dezelfde manier als hoe we een [eenterm
+vermenigvuldigen met een
+veelterm](##een-veelterm-vermenigvuldigen-met-een-eenterm) Zo kunnen we al het
+eerste stuk van onze uitkomst beginnen schrijven:
+
+$$(-4a^2b \gray{+ 3 ab^2 + ab}) \cdot (a - 2ab) = -4a^3b + 8a^3b^2
+\gray{+ \ldots}$$
+
+Vervolgens vermenigvuldigen we de *tweede term van de eerste veelterm* met de
+tweede veelterm. Zo krijgen we het tweede stuk van de uitkomst:
+
+$$(\gray{-4a^2b} + 3 ab^2 \gray{+ ab}) \cdot (a - 2ab) = \gray{-4a^3b +
+8a^3b^2} + 3a^2b^2 - 6a^2b^3 \gray{+ \ldots}$$
+
+Tenslotte vermenigvuldigen we de *derde term van de eerste veelterm* met de
+tweede veelterm.
+
+$$(\gray{-4a^2b + 3 ab^2} + ab) \cdot (a - 2ab) = \gray{-4a^3b +
+8a^3b^2 + 3a^2b^2 - 6a^2b^3} + a^2b - 2a^2b^2$$
+
+De volledige uitkomst van onze vermenigvuldiging is dus:
+
+$$-4a^3b + 8a^3b^2 + 3a^2b^2 - 6a^2b^3 + a^2b - 2a^2b^2$$
+
+Als laatste stap moeten we eens kijken of we deze lange veelterm nog kunnen
+vereenvoudigen of herleiden.
+
+> Als je niet meer goed weet wat het juist betekent om een veelterm te
+> *"herleiden"*, lees dan zeker onze les over het [vereenvoudigen en herleiden
+> van een veelterm](../vereenvoudigen) eens na.
+
+We zoeken naar termen met **hetzelfde lettergedeelten** en tellen de
+coëfficiënten van deze termen bij elkaar op:
+
+\begin{split}
+    -4a^3b + 8a^3b^2 \orange{+ 3a^2b^2} - 6a^2b^3 + a^2b \orange{- 2a^2b^2}
+    &= -4a^3b + 8a^3b^2 \orange{+ (3 - 2)a^2b^2} - 6a^2b^3 + a^2b\\\\\
+    &= -4a^3b + 8a^3b^2 \orange{+ a^2b^2} - 6a^2b^3 + a^2b\\\\\
+\end{split}
+
+Tenslotte **rangschikken** we de veelterm volgens dalende graad van de
+eentermen:
+
+$$8a^3b^2 - 6a^2b^3 -4a^3b + a^2b^2 + a^2b$$
+
 ## Veeltermen met letterexponenten vermenigvuldigen
 
 ## Samengevat
@@ -227,3 +291,28 @@ Het **aftrekken** van twee veeltermen gaat zo:
 2. Je krijgt nu één lange veelterm. **Vereenvoudig en herleid** die veelterm.
 {{< /attention >}}
 
+{{< attention "Een veelterm vermenigvuldigen met een eenterm" >}}
+Het **vermenigvuldigen** van een **veelterm met een eenterm** gaat als volgt:
+
+1. **Vermenigvuldig de coëfficiënt** van elke term in de veelterm met de
+   coëfficiënt van de eenterm
+2. **Vermenigvuldig het lettergedeelte** van elke term in de veelterm met elke
+   factor in het lettergedeelte van de eenterm
+{{< /attention >}}
+
+{{< attention "Een veelterm delen door een eenterm" >}}
+Het **delen van een veelterm door een eenterm** doen we als volgt:
+
+1. **Deel de coëfficiënt** van elke term in de veelterm door de
+   coëfficiënt van de eenterm
+2. **Deel het lettergedeelte** van elke term in de veelterm door elke
+   factor in het lettergedeelte van de eenterm
+{{< /attention >}}
+
+{{< attention "Een veelterm vermenigvuldigen met een andere veelterm" >}}
+Twee veeltermen met elkaar te vermenigvuldigen, doen we zo:
+
+1. **Vermenigvuldig elke term van de ene veelterm met elke term van de
+   andere veelterm**.
+2. Je krijgt één lange veelterm. **Vereenvoudig en herleid** die veelterm.
+{{< /attention >}}
