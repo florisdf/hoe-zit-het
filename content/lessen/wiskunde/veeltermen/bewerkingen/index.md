@@ -28,7 +28,7 @@ voorlopig echter tot vier basisbewerkingen beperken:
 
 We bespreken deze bewerkingen hieronder apart.
 
-{{< expand "Alle variabelen in deze zijn $\in \mathbb{R}$ (of $\in\mathbb{Q}$)" >}}
+{{< expand "Alle variabelen in deze les zijn $\in \mathbb{R}$ (of $\in\mathbb{Q}$)" >}}
 
 We gaan ervan uit dat alle variabelen in deze les een element zijn van de reële
 getallen.  Als je nog niet weet wat reële getallen zijn, mag je ook aannemen
