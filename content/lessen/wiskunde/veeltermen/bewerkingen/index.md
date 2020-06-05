@@ -271,7 +271,45 @@ eentermen:
 
 $$8a^3b^2 - 6a^2b^3 -4a^3b + a^2b^2 + a^2b$$
 
-## Veeltermen met letterexponenten vermenigvuldigen
+## Veeltermen en eentermen met letterexponenten vermenigvuldigen
+
+Het kan soms voorkomen dat een eenterm of een veelterm **letterexponenten**
+bevat. Stel bijvoorbeeld dat we de volgende vermenigvuldiging hebben van een
+eenterm en een veelterm:
+
+$$x^{(m + 1)}y^n\cdot (-3x + x^2y^n)$$
+
+Dan moeten we goed de **rekenregel voor het vermenigvuldigen van machten met
+hetzelfde grondtal** in ons achterhoofd houden. Die zegt dat we bij zo een
+vermenigvuldiging de **exponenten moeten optellen**. We zullen eens tonen hoe
+dat gaat wanneer we die $x^{(m + 1)}$ binnen de haakjes brengen:
+
+\begin{split}
+    \orange{x^{(m + 1)}}y^n\cdot (-3x + x^2y^n) &= y^n\cdot (-3x\cdot\orange{x^{(m + 1)}} + x^2\cdot\orange{x^{(m + 1)}}y^n)\\\\\
+    &= y^n\cdot (-3x^{1 + \orange{(m + 1)}} + x^{2 + \orange{(m + 1)}}y^n)\\\\\
+    &= y^n\cdot (-3x^{1 + \orange{m + 1}} + x^{2 + \orange{m + 1}}y^n)\\\\\
+    &= y^n\cdot (-3x^{(m + 2)} + x^{(m + 3)}y^n)\\\\\
+\end{split}
+
+Je ziet dat we ook hier weer niets meer doen dan de exponenten bij elkaar op te
+tellen. We brengen nu op dezelfde manier de $y^n$ naar binnen:
+
+\begin{split}
+    \orange{y^n}\cdot (-3x^{(m + 2)} + x^{(m + 3)}y^n)
+    &= (-3x^{(m + 2)}\cdot\orange{y^n} + x^{(m + 3)}y^n\cdot\orange{y^n})\\\\\
+    &= (-3x^{(m + 2)}y^n + x^{(m + 3)}y^{n + \orange{n}})\\\\\
+    &= (-3x^{(m + 2)}y^n + x^{(m + 3)}y^{2n})\\\\\
+\end{split}
+
+De haakjes rond onze uitkomst kunnen we gerust weglaten. We krijgen dus het
+volgende resultaat:
+
+$$-3x^{(m + 2)}y^n + x^{(m + 3)}y^{2n}$$
+
+Voor het vermenigvuldigen van twee veeltermen die letterexponenten bevatten,
+werken we uiteraard op een gelijkaardige manier. Het verschil is dat je moet
+het in dat geval enkele keren vaker moet doen om elke term van de ene veelterm
+te vermenigvuldigen met elke term van de andere veelterm.
 
 ## Samengevat
 
