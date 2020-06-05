@@ -4,14 +4,20 @@ date: 2020-01-09T07:02:25+01:00
 weight: 4
 wiski: "http://wiski.be/oefenen/rekenen-met-lettervormen/take"
 draft: false
+description: "In deze les leggen we aan de hand van voldoende voorbeelden uit
+hoe je eentermen bij elkaar kan optellen of van elkaar kan aftrekken. Omdat het
+optellen en aftrekken van eentermen gebaseerd is op de distributieve
+eigenschap, leggen we die ook nog eens extra uit in deze les."
+tags: ["eenterm", "eentermen optellen", "eentermen aftrekken", "verschil van
+eentermen", "som van eentermen", "bewerkingen met eentermen", "distributiviteit"]
 images: []
 ---
 
 Het optellen en aftrekken van eentermen zullen we later gebruiken bij het
 vereenvoudigen van [veeltermen](../../veeltermen). Het gaat als volgt:
 
-1. [Vereenvoudig](../vereenvoudigen) alle eentermen;
-2. Duid de [gelijksoortige](../eenterm#gelijksoortige-eentermen) eentermen aan;
+1. [Vereenvoudig](../vereenvoudigen) alle eentermen.
+2. Duid de [gelijksoortige](../eenterm#gelijksoortige-eentermen) eentermen aan.
 3. Tel per soort de [coëfficiënten](../eenterm#coëfficiënt-en-lettergedeelte)
    op, of trek ze van elkaar af.
 
@@ -134,7 +140,7 @@ omgekeerde distributiviteit niet toepassen en mogen we de coëfficiënten dus
 **niet bij elkaar optellen**.
 {{< /expand >}}
 
-Als we nu alles terug samenzitten, krijgen we dus:
+Als we nu alles terug samen zetten, krijgen we dus:
 
 $$6xy^3 + 5x + 2xy^3 - 8x = \orange{8}xy^3 \blue{-3}x$$
 
