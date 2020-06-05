@@ -113,7 +113,7 @@ Het vermenigvuldigen van een eenterm met een veelterm gaat als volgt:
 2. **Vermenigvuldig het lettergedeelte** van elke term in de veelterm met elke
    factor in het lettergedeelte van de eenterm
 
-> Ben je even vergeten wat nu wee de *"coëfficiënt"* en het *"lettergedeelte"*
+> Ben je even vergeten wat nu weer de *"coëfficiënt"* en het *"lettergedeelte"*
 > was van een eenterm? Lees dan zeker onze [les over
 > eentermen](../../eentermen/eenterm) even na.
 

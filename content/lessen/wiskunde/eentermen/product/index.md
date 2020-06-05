@@ -161,7 +161,8 @@ $$-3uv^{2}$$
 ## Eentermen met letterexponenten vermenigvuldigen of delen
 
 Het kan soms voorkomen dat een eenterm **letterexponenten** bevat. Stel
-bijvoorbeeld dat we de volgende vermenigvuldiging hebben:
+bijvoorbeeld dat we de volgende vermenigvuldiging hebben
+{{< mute "($m, n \in \mathbb{Z}$)" >}}:
 
 $$x^{(m + 1)}y^n\cdot x^2y^n$$
 
