@@ -174,7 +174,36 @@ $$(\orange{21}u^2v^3 \orange{- 14}u^2v^2 \orange{+ 28}uv^3):(\orange{-7}uv^2) = 
 Vervolgens gaan we de factoren van de eentermen één per één weghalen. We
 beginnen met de $u$:
 
-$$(-3u^2v^3 + 2u^2v^2 - 4uv^3):(orange{u}v^2) = (-3\orange{u}v^3 + 2\orange{u}v^2 - 4v^3):(v^2)$$
+$$(-2u^2v^3 + 2u^2v^2 - 4uv^3):(\orange{u}v^2) = (-3\orange{u}v^3 + 2\orange{u}v^2 - 4v^3):v^2$$
+
+> Merk op dat we de rekenregel van het **delen van machten met hetzelfde
+> grondtal** toepassen. Wanneer we delen door $u$ moeten we daarom in elke
+> term van de veelterm $1$ aftrekken van de exponent van $u$. Bij $-2u^2v^3$,
+> bijvoorbeeld, krijgen we na een deling door $u$ $-2\orange{u}v^3$ omdat
+> \begin{split}
+    -2\orange{u^2}v^3:\orange{u} &= -2\orange{u^{2 - 1}}v^3\\\\\
+    &= -2\orange{u}v^3
+  \end{split}
+> Bij de deling van $-4uv^3$ door $u$ **valt de $u$ in de term weg** omdat
+> \begin{split}
+    -4\orange{u}v^3:\orange{u} &= -4\orange{u^{1-1}}v^3\\\\\
+    &= -4\orange{u^0}v^3\\\\\
+    &= -4\cdot \orange{1} \cdot v^3\\\\\
+    &= -4v^3
+  \end{split}
+
+Nu we de $u$ uit de deler hebben gehaald, blijven we enkel nog over met een
+deling door $v^2$. We gebruiken dezelfde rekenregels om ook die deling uit te
+voeren:
+
+$$(-3uv^3 + 2uv^2 - 4v^3):\orange{v^2} = (-3u\orange{v} + 2u - 4\orange{v})$$
+
+> Merk op dat ook hier iets wegvalt door de deling: $2uv^2:v^2 = 2u$.
+
+De haakjes rond onze uitkomst kunnen gewoon weggelaten worden. De uitkomst van
+onze deling is dus:
+
+$$-3uv + 2u - 4v$$
 
 ## Veeltermen met elkaar vermenigvuldigen
 
