@@ -15,7 +15,7 @@ images: []
 ---
 
 Om eentermen met elkaar te vermenigvuldigen of te delen door elkaar, is het
-belangrijk dat we ons de **rekenregels voor het vermenigvuldigen en delen van
+belangrijk dat we de **rekenregels voor het vermenigvuldigen en delen van
 machten met hetzelfde grondtal** in ons achterhoofd houden. Stel bijvoorbeeld
 dat we de volgende vermenigvuldiging hebben
 {{< mute "(waarbij $a \in \mathbb{R}$)" >}}:
@@ -31,7 +31,7 @@ grondtal zegt dat we in dat geval de **exponenten bij elkaar moeten optellen**:
     &= a^5
 \end{split}
 
-De rekenregel voor het delen van machten met eenzelfde grondtal is heel
+De rekenregel voor het *delen* van machten met hetzelfde grondtal is heel
 gelijkaardig. Stel dat we de volgende deling moeten uitrekenen
 {{< mute "(waarbij $x \in \mathbb{R}_0$)" >}}:
 
@@ -41,10 +41,13 @@ We zien dat het deeltal $x^5$ hetzelfde grondtal heeft als de deler $x^2$. De
 rekenregel voor het delen van machten met hetzelfde grondtal zegt dat we in dat
 geval de **exponenten van elkaar moeten aftrekken**:
 
-$$x^5:x^2 = x^{5 - 2} = x^3$$
+\begin{split}
+    x^5:x^2 &= x^{5 - 2}\\\\\
+    &= x^3
+\end{split}
 
-Als deze rekenregels goed kunnen toepassen, zal het vermenigvuldigen en delen
-van eentermen veel eenvoudiger worden.
+Als we deze rekenregels goed kunnen toepassen, zal het vermenigvuldigen en
+delen van eentermen veel eenvoudiger worden.
 
 {{< expand "Alle variabelen in deze les zijn $\in \mathbb{R}$ (of $\in\mathbb{Q}$) en voor delingen $\in \mathbb{R}_0$ (of $\in\mathbb{Q}_0$)" >}}
 
@@ -54,8 +57,8 @@ dat de variabelen een element zijn van de rationale, gehele of zelfs natuurlijk
 getallen. Voor al die verzamelingen gelden dezelfde rekenregels wat
 betreft bewerkingen met eentermen.
 
-Voor delingen zeggen we daarenboven dat de variabelen niet $0$ mogen zijn om
-delingen door $0$ te voorkomen.
+Voor delingen leggen we de beperking op dat de variabelen niet $0$ mogen zijn
+om delingen door $0$ te voorkomen.
 {{< /expand >}}
 
 ## Eentermen met elkaar vermenigvuldigen
@@ -65,8 +68,8 @@ Het vermenigvuldigen van eentermen gaat als volgt:
 1. Vermenigvuldig de **coëfficiënt** van de ene eenterm met de coëfficiënt van
    de andere eenterm.
 2. Vermenigvuldig het **lettergedeelte** van de ene eenterm met het
-   lettergedeelte van de andere eenterm. Vergeet hier zeker niet de rekenregels
-   toe te passen voor het vermenigvuldigen van machten met hetzelfde grondtal.
+   lettergedeelte van de andere eenterm door **exponenten van machten met
+   hetzelfde grondtal bij elkaar op te tellen**.
 
 > Ben je even vergeten wat nu weer de *"coëfficiënt"* en het *"lettergedeelte"*
 > was van een eenterm? Lees dan zeker onze [les over
@@ -117,8 +120,8 @@ Het delen van eentermen gaat als volgt:
 1. Deel de **coëfficiënt** van de ene eenterm door de coëfficiënt van de andere
    eenterm.
 2. Deel het **lettergedeelte** van de ene eenterm door het lettergedeelte van
-   de andere eenterm. Vergeet hier zeker niet de rekenregels toe te passen voor
-   het *delen* van machten met hetzelfde grondtal.
+   de andere eenterm door **exponenten van machten met hetzelfde grondtal van
+   elkaar af te trekken**.
 
 Stel dat we de volgende deling moeten uitvoeren:
 
@@ -174,9 +177,9 @@ vermenigvuldigen:
 
 \begin{split}
     \orange{x^{(m + 1)}}y^n\cdot x^2y^n
-    &= y^n\cdot x^2\cdot\orange{x^{(m + 1)}}y^n\\\\\
-    &= y^n\cdot x^{2 + \orange{(m + 1)}}y^n\\\\\
-    &= y^n\cdot x^{2 + \orange{m + 1}}y^n\\\\\
+    &= y^n\cdot \orange{x^{(m + 1)}}x^2\cdot y^n\\\\\
+    &= y^n\cdot x^{\orange{(m + 1)} + 2}y^n\\\\\
+    &= y^n\cdot x^{\orange{m + 1} + 2}y^n\\\\\
     &= y^n\cdot x^{(m + 3)}y^n\\\\\
 \end{split}
 
@@ -186,8 +189,8 @@ als grondtal:
 
 \begin{split}
     \orange{y^n}\cdot x^{(m + 3)}y^n
-    &= x^{(m + 3)}y^n\cdot\orange{y^n}\\\\\
-    &= x^{(m + 3)}y^{n + \orange{n}}\\\\\
+    &= x^{(m + 3)}\cdot\orange{y^n}y^n\\\\\
+    &= x^{(m + 3)}y^{\orange{n} + n}\\\\\
     &= x^{(m + 3)}y^{2n}\\\\\
 \end{split}
 
@@ -219,9 +222,8 @@ Het vermenigvuldigen van eentermen gaat als volgt:
 1. Vermenigvuldig de **coëfficiënt** van de ene eenterm met de coëfficiënt van
    de andere eenterm.
 2. Vermenigvuldig het **lettergedeelte** van de ene eenterm met het
-   lettergedeelte van de andere eenterm. Vergeet hier zeker niet de rekenregels
-   toe te passen voor het vermenigvuldigen van machten met hetzelfde grondtal.
-
+   lettergedeelte van de andere eenterm door **exponenten van machten met
+   hetzelfde grondtal bij elkaar op te tellen**.
 {{< /attention >}}
 
 {{< attention "Eentermen delen" >}}
@@ -230,6 +232,6 @@ Het delen van eentermen doe je ze:
 1. Deel de **coëfficiënt** van de ene eenterm door de coëfficiënt van de andere
    eenterm.
 2. Deel het **lettergedeelte** van de ene eenterm door het lettergedeelte van
-   de andere eenterm. Vergeet hier zeker niet de rekenregels toe te passen voor
-   het *delen* van machten met hetzelfde grondtal.
+   de andere eenterm door **exponenten van machten met hetzelfde grondtal van
+   elkaar af te trekken**.
 {{< /attention >}}

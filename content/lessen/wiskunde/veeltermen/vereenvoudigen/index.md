@@ -5,7 +5,10 @@ weight: 2
 draft: true
 tags: ["veelterm", "veelterm herleiden", "bewerkingen met veeltermen",
 "Veeltermen vereenvoudigen", "gelijksoortige eentermen optellen"]
-description: "Hoe kan je een veelterm vereenvoudigen? Om eenvoudiger veeltermen met elkaar te kunnen vergelijken en bewerkingen met veeltermen te kunnen doen, is het belangrijk dat we leren om een veelterm te vereenvoudigen. In deze les leggen we stap voor stap uit hoe dat moet."
+description: "Hoe kan je een veelterm vereenvoudigen? Om eenvoudiger veeltermen
+met elkaar te kunnen vergelijken en bewerkingen met veeltermen te kunnen doen,
+is het belangrijk dat we leren om een veelterm te vereenvoudigen. In deze les
+leggen we stap voor stap uit hoe dat moet."
 images: []
 ---
 
@@ -14,9 +17,9 @@ kort mogelijk schrijven. Dat bespaart ons schrijfwerk achteraf en zorgt ervoor
 dat we eenvoudiger gelijkenissen tussen veeltermen kunnen ontdekken. Het
 vereenvoudigen van een veelterm doe je zo:
 
-1. Werk de haakjes uit in elke eenterm;
-2. Vereenvoudig alle eentermen;
-3. Herleid door de gelijksoortige eentermen bij elkaar op te tellen.
+1. **Werk de haakjes** uit in elke eenterm;
+2. **Vereenvoudig alle eentermen**;
+3. **Herleid** door de gelijksoortige eentermen bij elkaar op te tellen.
 
 In deze les leggen we elk van die stappen wat verder uit.
 
@@ -31,9 +34,11 @@ betreft het vereenvoudigen van veeltermen.
 
 ## Haakjes uitwerken
 
-Soms staat een factor van een term in een veelterm tussen haakjes. Voor we een veelterm gaan vereenvoudigen, werken we eerst alle haakjes uit.
+Soms staat een factor van een term in een veelterm tussen haakjes. Voor we een
+veelterm gaan vereenvoudigen, werken we eerst alle haakjes uit.
 
-De uitdrukking die tussen haakjes staat kan zelf een eenterm of een veelterm zijn. Bijvoorbeeld:
+De uitdrukking die tussen haakjes staat, kan zelf een eenterm of een veelterm
+zijn. Bijvoorbeeld:
 
 * In de veelterm $$-ab^2 + 3(b^3c^2)$$ staat er een **eenterm tussen haakjes**
 * In de veelterm $$- 5(x^3 + 2x^2) + 3x^2$$ staat er een **veelterm tussen haakjes**
@@ -73,9 +78,16 @@ pas je de **distributieve eigenschap** toe.
 
 ## Eentermen vereenvoudigen
 
-Vanaf er geen haakjes meer zijn in de termen van de veelterm, gaan we **alle eentermen vereenvoudigen**. Vergeet daarbij niet om de **factoren van de eenterm te rangschikken**. De coëfficiënt zetten we voorop en de variabelen rangschikken we **alfabetisch**. Door in deze stap de factoren van de eentermen al meteen te rangschikken, zullen we in de volgende stap heel eenvoudig de gelijksoortige eentermen kunnen vinden.
+Vanaf er geen haakjes meer zijn in de termen van de veelterm, gaan we **alle
+eentermen vereenvoudigen**. Vergeet daarbij niet om de **factoren van de
+eenterm te rangschikken**. De coëfficiënt zetten we voorop en de variabelen
+rangschikken we **alfabetisch**. Door in deze stap de factoren van de eentermen
+al meteen te rangschikken, zullen we in de volgende stap heel eenvoudig de
+gelijksoortige eentermen kunnen vinden.
 
-> Als je niet meer goed weet hoe je een eenterm vereenvoudigt, lees je best onze les over het [vereenvoudigen van eentermen](../vereenvoudig_eenterm) eens na. Enkele voorbeelden:
+> Als je niet meer goed weet hoe je een eenterm vereenvoudigt, lees je best
+> onze les over het [vereenvoudigen van eentermen](../vereenvoudig_eenterm)
+> eens na. Enkele voorbeelden:
 
 * $$\orange{-2yx^2\cdot 3x} + 4y^2 = \orange{- 6x^3 y} + 4y^2$$
 * $$\orange{2\cdot 5 q^3} \blue{- p \cdot p^2} + 4 = \orange{10 q^3} \blue{- p^3} + 4$$
@@ -95,7 +107,7 @@ gelijksoortige eentermen te vinden.
 
 > Als je niet meer goed weet wat we bedoelen met *"gelijksoortige eentermen"*
 > lees dan zeker onze [introductieles over
-> eentermen](../eenterm/#gelijksoortige-eentermen) eens na. 
+> eentermen](../../eentermen/eenterm/#gelijksoortige-eentermen) eens na. 
 
 Hieronder hebben we per veelterm de gelijksoortige eentermen aangeduid in
 dezelfde kleur:
@@ -115,7 +127,7 @@ tellen** en het **lettergedeelte te laten staan**.
 
 > Als je niet meer goed weet wat we bedoelen met *"coëfficiënten"* en
 > *"lettergedeelte"*, lees dan zeker onze [introductieles over
-> eentermen](../eenterm/#gelijksoortige-eentermen) eens na.
+> eentermen](../../eentermen/eenterm/#gelijksoortige-eentermen) eens na.
 
 We werken de voorbeelden van hierboven verder uit:
 
@@ -143,11 +155,19 @@ $\mathbb{R}$.
 
 ## Termen rangschikken
 
-Eens je de eentermen hebt vereenvoudigd en de gelijksoortige eentermen hebt opgeteld, is de veelterm vereenvoudigd. 🙌 Om de veelterm mooi voor te stellen, zullen we echter vaak als laatste stap de **termen in de veelterm rangschikken**.
+Eens je de eentermen hebt vereenvoudigd en de gelijksoortige eentermen hebt
+opgeteld, is de veelterm vereenvoudigd. 🙌 Om de veelterm mooi voor te stellen,
+zullen we echter vaak als laatste stap de **termen in de veelterm
+rangschikken**.
 
-Dat kan je op verschillende manieren doen. De meest gebruikelijke manier is om de termen volgens **dalende graad van de eentermen** te rangschikken. Wanneer twee eentermen dezelfde graad hebben, rangschik je die termen alfabetisch volgens graad zodat bv. de term $x^2y$ vóór $xy^2$ komt te staan en de term $x^3$ vóór $y^3$.
+Dat kan je op verschillende manieren doen. De meest gebruikelijke manier is om
+de termen volgens **dalende graad van de eentermen** te rangschikken. Wanneer
+twee eentermen dezelfde graad hebben, rangschik je die termen alfabetisch
+volgens graad zodat bv. de term $x^2y$ vóór $xy^2$ komt te staan en de term
+$x^3$ vóór $y^3$.
 
-> Als je bent vergeten hoe je de graad van een eenterm vindt, lees dan zeker onze [introductieles over eentermen](../eenterm) eens na.
+> Als je bent vergeten hoe je de graad van een eenterm vindt, lees dan zeker
+> onze [introductieles over eentermen](../../eentermen/eenterm) eens na.
 
 Enkele voorbeelden van het rangschikken volgens dalende graad van de eentermen:
 
@@ -167,12 +187,13 @@ graad in $x$. Bijvoorbeeld:
   $$-\orange{q} + \sqrt{3}p^4 - 3\orange{q^3} + p^3\orange{q^2} = -3\orange{q^3} + p^3\orange{q^2} - \orange{q} + \sqrt{3}p^4$$
 
 ## Samengevat
-{{% attention "Veeltermen vereenvoudigen" %}}
+{{< attention "Veeltermen vereenvoudigen" >}}
 Een veelterm kan je als volgt vereenvoudigen:
 
 1. Werk alle haakjes uit
 2. Vereenvoudig alle eentermen
-3. Tel de gelijksoortige eentermen op
+3. Herleid de veelterm (tel de gelijksoortige eentermen op)
 
-Ten slotte zullen we vaak de termen op een bepaalde manier rangschikken, bijvoorbeeld volgens dalende graad van de eentermen.
-{{% /attention %}}
+Ten slotte zullen we vaak de termen op een bepaalde manier rangschikken,
+bijvoorbeeld volgens dalende graad van de eentermen.
+{{< /attention >}}

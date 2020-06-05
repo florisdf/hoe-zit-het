@@ -15,8 +15,8 @@ images: []
 Het optellen en aftrekken van eentermen zullen we later gebruiken bij het
 vereenvoudigen van [veeltermen](../../veeltermen). Het gaat als volgt:
 
-1. [Vereenvoudig](../vereenvoudigen) alle eentermen;
-2. Duid de [gelijksoortige](../eenterm#gelijksoortige-eentermen) eentermen aan;
+1. [Vereenvoudig](../vereenvoudigen) alle eentermen.
+2. Duid de [gelijksoortige](../eenterm#gelijksoortige-eentermen) eentermen aan.
 3. Tel per soort de [coëfficiënten](../eenterm#coëfficiënt-en-lettergedeelte)
    op, of trek ze van elkaar af.
 

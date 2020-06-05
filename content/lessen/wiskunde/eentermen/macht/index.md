@@ -28,7 +28,7 @@ De rekenregel voor het berekenen van de macht van een macht zegt dat we de
     &= a^6
 \end{split}
 
-De rekenregel voor het berekenen van de wortel van een zegt dat we de
+De rekenregel voor het berekenen van de wortel van een macht zegt dat we de
 **exponent moeten delen door de graad van de wortel**. Als we bijvoorbeeld de
 vierkantswortel van een eenterm berekenen, moeten we de exponent van de
 eenterm delen door $2$. Voor een derdemachtswortel, moeten we de exponent delen
@@ -44,13 +44,13 @@ Dan werken we dat als volgt uit:
     &= a^4
 \end{split}
 
-{{< expand "Alle variabelen in deze les zijn $\in \mathbb{R}$" >}}
+{{< expand "Alle variabelen in deze les zijn $\in \mathbb{R}$ (of $\in \mathbb{Q}$)" >}}
 
 We gaan ervan uit dat alle variabelen in deze les een element zijn van de reële
 getallen. Als je nog niet weet wat reële getallen zijn, mag je ook aannemen
 dat de variabelen een element zijn van de rationale, gehele of zelfs natuurlijk
 getallen. Voor al die verzamelingen gelden dezelfde rekenregels wat
-betreft het berekenen van de macht van een eenterm.
+betreft het berekenen van de macht en wortel van een eenterm.
 
 Bij het berekenen van even wortels, gaan we ervan uit dat de variabelen niet
 negatief zijn.
@@ -92,7 +92,7 @@ macht van de $x$ berekenen:
     &= 25\orange{x^{6}}\cdot(y^2)^2\\\\\
 \end{split}
 
-Het berekenen van de macht van de $y$ gaat ten slotte als volgt:
+Het berekenen van de macht van de $y$ doen we op dezelfde manier:
 
 \begin{split}
     25x^{6}\cdot(\orange{y^2})^2
@@ -139,7 +139,7 @@ met het berekenen van de exponent van $a$:
     &=7\orange{a^3}\cdot \sqrt{b^4} \\\\\
 \end{split}
 
-Tenslotte doen we hetzelfde voor $b$:
+Ten slotte doen we hetzelfde voor $b$:
 
 \begin{split}
     7a^3\cdot \sqrt{\orange{b^4}}
@@ -192,8 +192,8 @@ een kort voorbeeld van:
     &= x^{4m + 2}y^{n}\\\\\
 \end{split}
 
-Je ziet dat het weer voornamelijk kwestie is van het correct toepassen van de
-rekenregels, in dit geval de rekenregel voor het berekenen van de wortel van
+Je ziet dat het weer voornamelijk een kwestie is van het correct toepassen van
+de rekenregels, in dit geval de rekenregel voor het berekenen van de wortel van
 een macht.
 
 ## Samengevat

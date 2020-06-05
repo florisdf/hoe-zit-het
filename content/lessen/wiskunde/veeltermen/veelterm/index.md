@@ -4,38 +4,45 @@ date: 2020-06-04T09:26:36+02:00
 weight: 1
 draft: true
 tags: ["veelterm", "graad van een veelterm", "eenterm", "term"]
-description: "In deze les leren we wat een veelterm is en hoe je de graad van eeveelterm eenvoudig kan vinden. We leren ook hoe je de graad per variabele kan vinden."
+description: "In deze les leren we wat een veelterm is en hoe je de graad van
+een veelterm eenvoudig kan vinden. We leren ook hoe je de graad per variabele
+kan vinden."
 images: []
 ---
+
 Een veelterm {{% mute "(of polynoom)" %}} is een **som van
-[eentermen](../eenterm)**. De eentermen waaruit een veelterm bestaat, noemen we kortweg de **termen** van de veelterm.  Enkele voorbeelden:
+[eentermen](../../eentermen/eenterm)**. De eentermen waaruit een veelterm
+bestaat, noemen we kortweg de **termen** van de veelterm.  Enkele voorbeelden:
 
 * De veelterm $\orange{4a^2 b^3 + 3ab^2}$ bestaat uit de termen
   $\orange{4a^2 b^3}$ en $\orange{3ab^2}$;
 * De veelterm $\blue{-2x^2 + 3x - 5}$ bestaat uit de termen $\blue{-2x^2}$, $\blue{3x}$ en $\blue{-5}$;
 * De veelterm $\green{xy^2 - \frac{4}{5}y^3z + 7z}$ bestaat uit de termen $\green{xy^2}$, $\green{-\frac{4}{5}y^3z}$ en $\green{7z}$.
 
-Net als bij [eentermen](../eenterm) moeten de **exponenten van de variabelen** in de veelterm
-**natuurlijke getallen** zijn. Anders is er geen sprake van een veelterm. Er mogen ook **geen variabelen in een
-noemer** staan en **geen variabelen onder een wortel**.
+Net als bij [eentermen](../../eentermen/eenterm) moeten de **exponenten van de
+variabelen** in de veelterm **natuurlijke getallen** zijn. Anders is er geen
+sprake van een veelterm. Er mogen ook **geen variabelen in een noemer** staan
+en **geen variabelen onder een wortel**.
 
 * $3\sqrt{a} - 2b$ is **geen veelterm** omdat de $a$ onder een wortel staat
-* $\frac{2x + \frac{7}{y}$ is **geen veelterm** omdat de $y$ in de noemer staat
-* $\frac{-5r^{-3} + 2t^4$ is **geen veelterm** omdat de macht van $r$ geen natuurlijk getal is
+* $\frac{2x + 7}{y}$ is **geen veelterm** omdat de $y$ in de noemer staat
+* $\frac{-5}{2}r^{-3} + 2t^4$ is **geen veelterm** omdat de macht van $r$ geen
+  natuurlijk getal is
 
 ## Graad van een veelterm
 
-Net als eentermen, hebben veeltermen een
-graad. De graad van een veelterm is gelijk aan de **[graad van de
-eenterm](../eenterm/#graad-van-een-eenterm) met hoogste graad**.
-
+Net als eentermen, hebben veeltermen een graad. De graad van een veelterm is
+gelijk aan de **[graad van de
+eenterm](../../eentermen/eenterm/#graad-van-een-eenterm) met hoogste graad**.
 Stel bijvoorbeeld dat we de graad willen bepalen van de volgende veelterm:
 
 $$4a^2 b^3 + 3ab^2 - 6b^4$$
 
 Dan moeten we eerst de graad van elke term apart bepalen.
 
-> Als je niet meer goed weet hoe je de graad van een eenterm kan bepalen, lees dan zeker [onze introductieles over eentermen](../eenterm/) nog eens na.
+> Als je niet meer goed weet hoe je de graad van een eenterm kan bepalen, lees
+> dan zeker [onze introductieles over eentermen](../../eentermen/eenterm/) nog
+> eens na.
 
 * De graad van $4a^2 b^3$ is $5$
 * De graad van $3ab^2$ is $3$

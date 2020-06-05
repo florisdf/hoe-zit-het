@@ -22,8 +22,8 @@ de variabelen van de veelterm reële of rationale getallen zijn. We gaan ons
 voorlopig echter tot vier basisbewerkingen beperken:
 
 * Veeltermen optellen (en aftrekken)
-* Een eenterm vermenigvuldigen met een veelterm
-* Veeltermen vermenigvuldigen
+* Een veelterm vermenigvuldigen met een eenterm
+* Een veelterm vermenigvuldigen met een veelterm
 * Een veelterm delen door een eenterm
 
 We bespreken deze bewerkingen hieronder apart.
@@ -47,7 +47,7 @@ Het **optellen** van twee veeltermen doe je zo:
 Twee veeltermen die bij elkaar moeten opgeteld worden, dat ziet er bijvoorbeeld
 zo uit:
 
-$(2a^2b - 4ab^3) + (2ab^3 - 3a^2b)$
+$$(2a^2b - 4ab^3) + (2ab^3 - 3a^2b)$$
 
 We gaan ervan uit dat de variabelen {{< mute "($a$ en $b$)" >}} reële getallen
 zijn {{< mute "(of rationale getallen, maakt niet uit)" >}}. We mogen dus de
