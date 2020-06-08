@@ -5,7 +5,10 @@ weight: 5
 draft: true
 images: ['/lessen/wiskunde/afgeleiden_1/afgeleide_functie/img/zonder_met_afgeleide_fx.png', '/lessen/wiskunde/afgeleiden_1/afgeleide_functie/img/fx_ingevuld_in_afgeleide.png', '/lessen/wiskunde/afgeleiden_1/afgeleide_functie/img/f_delta_x_ingevuld.png', '/lessen/wiskunde/afgeleiden_1/afgeleide_functie/img/f_delta_x_uitwerking.png', '/lessen/wiskunde/afgeleiden_1/afgeleide_functie/img/afgeleide_teller_uitwerking.png', '/lessen/wiskunde/afgeleiden_1/afgeleide_functie/img/teller_afgeleide_invullen.png', '/lessen/wiskunde/afgeleiden_1/afgeleide_functie/img/delta_x_wegdelen.png', '/lessen/wiskunde/afgeleiden_1/afgeleide_functie/img/limiet_uitrekenen.png']
 tags: ["afgeleide", "afgeleide van een functie", "afgeleide functie van een functie", "afgeleide van een tweedegraadsfunctie" ]
-description: "In deze les leren we hoe we de afgeleide van een functie kunnen vberekenen. De afgeleide van een functie is een functievoorschrift warmee we de afgeleide voor alle mogelijke x-waarden van de functie kunnen vinden. We leggen dit uit aan de hand van de afgeleide van een
+description: "In deze les leren we hoe we de afgeleide van een functie kunnen
+berekenen. De afgeleide van een functie is een functievoorschrift waarmee we de
+afgeleide voor alle mogelijke x-waarden van de functie kunnen vinden. We leggen
+dit uit aan de hand van de afgeleide van een
 tweedegraadsfunctie."
 ---
 
