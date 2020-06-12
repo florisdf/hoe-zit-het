@@ -61,7 +61,7 @@ functievoorschrift is. Er staat namelijk geen $\orange{x}$ aan de rechterkant!
 gezegd dat we de vergelijking moeten kunnen *herschrijven* zodat er rechts een
 berekening met enkel $\orange{x}$ staat. Dat kunnen we:
 
-$$\green{y} = 5\cdot {x}^0$%
+$$\green{y} = 5\cdot {x}^0$$
 
 ## x-waarden invullen in een functievoorschrift
 
