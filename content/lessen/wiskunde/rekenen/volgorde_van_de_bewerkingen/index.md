@@ -1,12 +1,15 @@
 ---
 title: "Volgorde van de bewerkingen"
 date: 2018-10-19T22:00:00+02:00
-weight: 1
+weight: 5
 draft: false
 wiski: "http://wiski.be/oefenen/volgorde-van-bewerkingen-0/take"
 tags: ["Rekenregels", "Volgorde van de bewerkingen"]
 categories: ["wiskunde", "getallen", "1e middelbaar"]
 images: []
+tags: ["Volgorde van bewerkingen", "Rekenen", "Bewerkingen"]
+description: "In deze les leren we over de verkeersregels in de wiskunde. We leren
+de volgorde van bewerkingen en bekijken wat we eerst moeten uitrekenen."
 ---
 Over rekenregels gaan we vaak nogal snel over. De volledige wiskunde is echter
 uit die rekenregels ontstaan en bouwt erop verder. Als we de rekenregels dus
