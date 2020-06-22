@@ -1,7 +1,7 @@
 ---
 title: "Wat is een macht?"
 date: 2020-06-20T12:00:00+02:00
-weight: 3
+weight: 2
 draft: true
 wiski: ""
 categories: ["wiskunde", "getallen", "1e middelbaar"]

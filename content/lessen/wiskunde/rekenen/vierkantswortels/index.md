@@ -1,7 +1,7 @@
 ---
 title: "Wat is een vierkantswortel?"
 date: 2020-06-20T12:00:00+02:00
-weight: 4
+weight: 3
 draft: true
 wiski: ""
 categories: ["wiskunde", "getallen", "1e middelbaar"]
