@@ -1,5 +1,4 @@
 basisbewerkingen
-distributiviteit
 machten
 vierkantswortels
 volgorde_van_de_bewerkingen
