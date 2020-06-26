@@ -61,9 +61,8 @@ $$ \green{(-2)}\orange{^4}= 16$$
 
 Probeer nu zelf eens de uitkomst van $(-2)^3$ te bepalen. Is dit $8$ of $-8$?
 
-Algemeen geldt dat als het **grondtal positief** is, de uitkomst ook **positief** is. Als het **grondtal negatief** is,
-dan moet je naar de exponent kijken. Is de exponent **even**, dan is de uitkomst **positief**. Is de exponent **oneven**, dan
-is de uitkomst **negatief**.
+Om te bepalen of een uitkomst positief of negatief is, tel je het *aantal mintekens* dat je hebt als je de macht zou uitschrijven. 
+Is het aantal **even**, dan is de uitkomst **positief**. Is het aantal **oneven**, dan is de uitkomst **negatief**.
 
 ## Samengevat
 {{< attention "Machten" >}}
