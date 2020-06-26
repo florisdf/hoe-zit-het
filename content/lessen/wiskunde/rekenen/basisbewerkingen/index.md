@@ -12,7 +12,7 @@ snel hoe dit precies werkt."
 ---
 Om moeilijke berekeningen succesvol op te lossen, is het belangrijk dat je de **basisbewerkingen**
 goed onder de knie hebt. Moeilijkere concepten, zoals machten en vierkantswortels, bouwen namelijk
-voort op deze basisbewerkingen. Daarom dat deze hier nog eens snel opfrissen.
+voort op deze basisbewerkingen. Daarom dat we deze hier nog eens snel opfrissen.
 
 ## Optellen
 $$\green{10} + \green{2} = \orange{12}$$
