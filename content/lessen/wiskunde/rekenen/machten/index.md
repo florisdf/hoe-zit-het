@@ -21,7 +21,8 @@ $$ \green{5}\orange{^3} $$
 
 Dit noemen we **een macht** met **{{< class "grondtal" "green" >}}** $ \green{5} $ en 
 **{{< class "exponent" "orange" >}}** $ \orange{3} $. We zeggen: "$ \green{5} $ tot 
-de {{< class "derde" "orange" >}} macht". Om een macht correct op te schrijven, schrijf je
+de {{< class "derde" "orange" >}} macht". Een getal **tot de tweede macht** wordt ook het **kwadraat**
+van dat getal genoemd. Om een macht correct op te schrijven, schrijf je
 eerst het grondtal $\green{a}$. Vervolgens schrijf je de exponent $\orange{n}$ iets kleiner
 en rechtsboven het grondtal.
 
