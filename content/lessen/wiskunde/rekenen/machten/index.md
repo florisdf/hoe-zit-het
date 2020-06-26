@@ -27,7 +27,7 @@ en rechtsboven het grondtal.
 
 $$ \green{a}\orange{^n} $$
 
-## Een macht uitrekenen
+## Hoe reken ik een macht uit?
 Nu we weten hoe een macht eruitziet, willen we ook weten hoe we deze kunnen berekenen. We nemen hiervoor nog
 even het voorbeeld uit de inleiding {{< mute "($5 \cdot 5 \cdot 5$)" >}}, waarvan we weten dat het gelijk is aan
 $5^3$. Hieruit kunnen we het volgende opmaken:
