@@ -17,7 +17,7 @@ We noemen $\green{25}$ het **{{<class "grondtal" "green" >}}** en $\sqrt{\}$ het
 schrijf je zoals een *V*, maar dan met een streepje links aan het begin en een grote streep boven de bewerking waarvan
 je de vierkantswortel neemt.
 
-## Een vierkantswortel uitrekenen
+## Hoe reken ik een vierkantswortel uit?
 Zoals reeds gezegd in de inleiding, is een vierkantswortel {{< mute "of tweedemachtswortel" >}} **het omgekeerde van een macht**.
 Dit wil zeggen dat het kwadraat {{< mute "(de tweede macht)" >}} van het resultaat gelijk moet zijn aan het grondtal. Een voorbeeld:
 
