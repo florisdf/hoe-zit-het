@@ -1,13 +1,13 @@
 ---
-title: "Wat is een vierkantswortel?"
+title: "Vierkantswortels van breuken en kommagetallen"
 date: 2020-06-20T12:00:00+02:00
-weight: 3
+weight: 6
 draft: true
 wiski: ""
 categories: ["wiskunde", "getallen", "1e middelbaar"]
 images: []
-tags: ["Vierkantswortel", "Rekenen", "Bewerkingen"]
-description: "In deze les leren we wat een vierkantswortel is en hoe we deze kunnen berekenen."
+tags: ["Vierkantswortels", "Rekenen", "Bewerkingen", "Breuken", "Kommagetallen", "Rationale getallen"]
+description: "In deze les herhalen we wat een vierkantswortel precies is en leren we de vierkantswortel te nemen van breuken en kommagetallen."
 ---
 Net zoals de deling het omgekeerde is van de vermenigvuldiging, zijn **vierkantswortels of tweedemachtswortels** het omgekeerde van [machten](../machten). 
 ## Terminolgie

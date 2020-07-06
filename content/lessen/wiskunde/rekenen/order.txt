@@ -1,4 +1,0 @@
-basisbewerkingen
-machten
-vierkantswortels
-volgorde_van_de_bewerkingen

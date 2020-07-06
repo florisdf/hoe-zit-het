@@ -1,13 +1,13 @@
 ---
-title: "Wat is een macht?"
+title: "Machten van breuken en kommagetallen"
 date: 2020-06-20T12:00:00+02:00
-weight: 2
+weight: 5
 draft: true
 wiski: ""
 categories: ["wiskunde", "getallen", "1e middelbaar"]
 images: []
-tags: ["Machten", "Rekenen", "Bewerkingen"]
-description: "In deze les leren we wat een macht is en hoe we deze kunnen berekenen."
+tags: ["Machten", "Rekenen", "Bewerkingen", "Breuken", "Kommagetallen", "Rationale getallen"]
+description: "In deze les herhalen we wat een macht precies is en leren we de macht te nemen van breuken en kommagetallen."
 ---
 Wij mensen hebben graag dat alles kort en netjes genoteerd wordt. Ook in
 de wiskunde proberen we alles zo kort mogelijk te noteren. Zo leerde je vroeger al
