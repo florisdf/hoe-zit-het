@@ -14,7 +14,7 @@ de wiskunde proberen we alles zo kort mogelijk te noteren. Zo leerde je vroeger 
 dat je de som $5 + 5 + 5$ ook kan schrijven als $3 \cdot 5$. In deze les gaan we bekijken 
 hoe we producten zoals $5 \cdot 5 \cdot 5$ korter kunnen schrijven.
 
-## Terminologie
+## Wat is een grondtal en een exponent?
 De uitdrukking uit de inleiding kunnen we herschrijven als: 
 
 $$ \green{5}\orange{^3} $$
@@ -48,7 +48,7 @@ Er zijn enkele 'speciale machten' die je best onthoudt:
    een product met $1$ factor is die factor zelf.
 {{< /attention >}}
 
-## Negatieve grondtallen
+## Machten met negatieve grondtallen
 $$ \green{2}\orange{^4}= \underbrace{\green{2} \cdot \green{2} \cdot \green{2} \cdot \green{2}}_{\orange{4}\ factoren} = 16$$
 
 $$ \green{(-2)}\orange{^4}= \underbrace{\green{(-2)} \cdot \green{(-2)} \cdot \green{(-2)} \cdot \green{(-2)}}_{\orange{4}\ factoren} = 16$$

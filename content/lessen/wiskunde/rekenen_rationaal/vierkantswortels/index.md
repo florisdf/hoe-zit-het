@@ -10,7 +10,7 @@ tags: ["Vierkantswortels", "Rekenen", "Bewerkingen", "Breuken", "Kommagetallen",
 description: "In deze les herhalen we wat een vierkantswortel precies is en leren we de vierkantswortel te nemen van breuken en kommagetallen."
 ---
 Net zoals de deling het omgekeerde is van de vermenigvuldiging, zijn **vierkantswortels of tweedemachtswortels** het omgekeerde van [machten](../machten). 
-## Terminolgie
+## Wat is een vierkantswortel?
 $$\sqrt{\green{25}} = \orange{5}$$
 
 We noemen $\green{25}$ het **{{<class "grondtal" "green" >}}** en $\sqrt{\}$ het **wortelteken**. Een wortelteken
@@ -27,7 +27,7 @@ In het algemeen geldt dus:
 
 $\sqrt{\green{a}} = \orange{b}$ als, en slechts als $\orange{b}^2 =  \green{a}$.
 
-## Negatieve grondtallen
+## Een vierkantswortel met een negatieve grondtal
 Als we proberen om de vierkantswortel van $-25$ te berekenen met ons rekentoestel, krijgen we een foutmelding. Waarom?
 Probeer zelf eens een waarde te vinden waarvoor geldt dat $\green{a}^2 = -25$. Lukt dit?
 

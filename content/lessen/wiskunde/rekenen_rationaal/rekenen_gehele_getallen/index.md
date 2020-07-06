@@ -14,7 +14,7 @@ Om moeilijke berekeningen succesvol op te lossen, is het belangrijk dat je de **
 goed onder de knie hebt. Moeilijkere concepten, zoals machten en vierkantswortels, bouwen namelijk
 voort op deze basisbewerkingen. Daarom dat we deze hier nog eens snel opfrissen.
 
-## Optellen
+## Gehele getallen bij elkaar optellen
 $$\green{10} + \green{2} = \orange{12}$$
 
 $\green{10}$ en $\green{2}$ zijn de **{{< class "termen" "green" >}}** van de optelling. Het resultaat $\orange{12}$ noemt men
@@ -25,7 +25,7 @@ Als je dan $\blue{3}$ verdiepen stijgt, bevind je je op niveau $\orange{2}$. Je 
 
 $$\green{(-1)} + \blue{3} = \orange{2}$$
 
-## Aftrekken
+## Gehele getallen van elkaar aftrekken
 $$\green{10} - \green{2} = \orange{8}$$
 
 Ook hier noemen we $\green{10}$ en $\green{2}$ de **{{< class "termen" "green" >}}**. Het resultaat $\orange{8}$ noemt men
@@ -50,7 +50,7 @@ Twee **verschillende tekens** geeft **'-'**, terwijl twee **dezelfde tekens** al
 
 {{< /attention >}}
 
-## Vermenigvuldigen
+## Gehele getallen vermenigvuldigen
 $$\green{10} \cdot \green{2} = \orange{20}$$
 
 $\green{10}$ en $\green{2}$ zijn de **{{< class "factoren" "green" >}}**. Het resultaat $\orange{20}$ noemt men
@@ -66,7 +66,7 @@ dan is de uitkomst **positief**. Als er een **oneven aantal mintekens** staat, d
 
 {{< /attention >}}
 
-## Delen
+## Gehele getallen delen
 $$\green{10} : \orange{2} = \frac{\green{10}}{\orange{2}} = 5$$
 
 We noemen $\green{10}$ het **{{< class "deeltal" "green" >}}** en $\orange{2}$ de **{{< class "deler" "orange" >}}** van de deling. Het resultaat $5$ noemt men
