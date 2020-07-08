@@ -15,10 +15,7 @@ goed onder de knie hebt. Moeilijkere concepten, zoals machten en vierkantswortel
 voort op deze basisbewerkingen. Daarom dat we deze hier nog eens snel opfrissen.
 
 ## Gehele getallen bij elkaar optellen
-$$\green{10} + \green{2} = \orange{12}$$
-
-$\green{10}$ en $\green{2}$ zijn de **{{< class "termen" "green" >}}** van de optelling. Het resultaat $\orange{12}$ noemt men
-de **{{< class "som" "orange" >}}** van de optelling. De '$+$' is het **plusteken**.
+{{< img "img/optelling.svg" "Een optelling bestaat uit termen die als resultaat een som geven. We gebruiken het plusteken." >}}
 
 We kunnen ook negatieve getallen optellen. Stel dat je in de kelder van een gebouw staat. Dan ben je op niveau $\green{-1}$.
 Als je dan $\blue{3}$ verdiepen stijgt, bevind je je op niveau $\orange{2}$. Je kan dit als een optelling schrijven:
@@ -26,10 +23,7 @@ Als je dan $\blue{3}$ verdiepen stijgt, bevind je je op niveau $\orange{2}$. Je 
 $$\green{(-1)} + \blue{3} = \orange{2}$$
 
 ## Gehele getallen van elkaar aftrekken
-$$\green{10} - \green{2} = \orange{8}$$
-
-Ook hier noemen we $\green{10}$ en $\green{2}$ de **{{< class "termen" "green" >}}**. Het resultaat $\orange{8}$ noemt men
-het **{{< class "verschil" "orange" >}}** van de aftrekking. De '$-$' is het **minteken**.
+{{< img "img/aftrekking.svg" "Een aftrekking bestaat uit termen die als resultaat een verschil geven. We gebruiken het minteken." >}}
 
 Een geheel getal aftrekken van een ander geheel getal betekent hetzelfde als zijn tegengestelde erbij optellen. Dus we kunnen
 het voorbeeld herschrijven als:
@@ -51,14 +45,11 @@ Twee **verschillende tekens** geeft **'-'**, terwijl twee **dezelfde tekens** al
 {{< /attention >}}
 
 ## Gehele getallen vermenigvuldigen
-$$\green{10} \cdot \green{2} = \orange{20}$$
-
-$\green{10}$ en $\green{2}$ zijn de **{{< class "factoren" "green" >}}**. Het resultaat $\orange{20}$ noemt men
-het **{{< class "product" "orange" >}}** van de optelling. De '$\cdot$' is het **maalteken**.
+{{< img "img/vermenigvuldiging.svg" "Een vermenigvuldiging bestaat uit factoren die als resultaat een product geven. We gebruiken het maalteken." >}}
 
 Een vermenigvuldiging is eigenlijk een manier om een optelling van dezelfde getallen korter te schrijven.
 
-$$\green{10} \cdot \orange{2} = \underbrace{\green{10} + \green{10}}_{\orange{2}\ keer} = 20$$
+$$10 \cdot \orange{2} = \underbrace{10 + 10}_{\orange{2}\ keer} = 20$$
 
 {{< attention "Plus of min?" >}}
 Ook bij de vermenigvuldiging moet je opletten met **het teken**. Als er een **even aantal mintekens** staat,
@@ -67,10 +58,7 @@ dan is de uitkomst **positief**. Als er een **oneven aantal mintekens** staat, d
 {{< /attention >}}
 
 ## Gehele getallen delen
-$$\green{10} : \orange{2} = \frac{\green{10}}{\orange{2}} = 5$$
-
-We noemen $\green{10}$ het **{{< class "deeltal" "green" >}}** en $\orange{2}$ de **{{< class "deler" "orange" >}}** van de deling. Het resultaat $5$ noemt men
-het **quotiënt**. De '$:$' is het **deelteken**, maar we gebruiken ook vaak een **breukstreep**.
+{{< img "img/deling.svg" "Een deling bestaat uit een deeltal en een deler die als resultaat een quotiënt geven. We gebruiken het deelteken." >}}
 
 Een deling is eigenlijk het omgekeerde van een vermenigvuldiging.
 $\green{10} : \orange{2} = 5$ want $5 \cdot \orange{2} = \green{10}$. De regels voor het teken van de deling zijn hetzelfde
