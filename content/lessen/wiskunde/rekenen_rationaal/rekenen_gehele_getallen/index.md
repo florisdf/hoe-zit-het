@@ -49,18 +49,19 @@ het voorbeeld herschrijven als:
 $$10 + (-2) = 8$$
 
 Merk op dat we $-2$ tussen haakjes hebben geschreven. Dit doen we om verwarring te voorkomen. We tellen het getal $-2$ op bij $10$.
-{{< attention "Plus of min?" >}}
-Zoals je in het voorbeeld hebt kunnen zien, kan het zijn dat we **verschillende tekens** na elkaar krijgen. Om
-te bepalen of het uiteindelijk **'+'** of **'-'** wordt, moet je volgend schema onthouden:
 
-1. $+\ (+) = +$
-2. $+\ (-) = -$
-3. $-\ (+) = -$
-4. $-\ (-) = +$
+### Wat te doen met verschillende tekens?
+Soms kom je uitdrukking tegens zoals $2 -(-4))$. Wat moet je doen met al deze tekens en hoe bepaal je de uitkomst? Daarvoor kan je je best een persoon
+langs een getallenas voorstellen. 
 
-Twee **verschillende tekens** geeft **'-'**, terwijl twee **dezelfde tekens** altijd **'+'** geeft.
+Een **cijfer** vertelt ons het **aantal stappen** dat deze persoon zet. De richting {{< mute "(links of rechts)" >}} wordt bepaald
+door het teken. We starten standaard naar rechts, zoals we ook van links naar rechts schrijven. Als we een **plusteken** tegenkomen in de uitdrukking, dan gaan we
+verder **in dezelfde richting**. Komen we echter een **minteken tegen**, dan draaien we om een gaan we **in de andere richting** verder.
 
-{{< /attention >}}
+De persoon die de bewerking hierboven uitvoert langs de getallenas begint dus met **twee stappen naar rechts** te zetten. Vervolgens draait hij zich om, waarna hij zich
+nogmaals omdraait en dan **vier stappen (naar rechts)** zet.
+
+{{< svg "img/verschillende_tekens.svg" "Een persoon die langs de getallenas beweegt." >}}
 
 ## Gehele getallen vermenigvuldigen
 
@@ -74,7 +75,7 @@ Welk teken denk je dat $3 \cdot (-2)$ zal hebben? Als je dit uitschrijft zoals h
 
 $$\orange{3} \cdot (-2) = \underbrace{(-2) + (-2) + (-2)}_{\orange{3}\ \text{keer}} = -6$$
 
-Ook een vermenigvuldiging met twee negatieve factoren kan je op deze manier schrijven. Je moet de getallen dan niet optellen,
+Ook een vermenigvuldiging met **twee negatieve factoren** kan je op deze manier schrijven. Je moet de getallen dan niet optellen,
 maar **aftrekken**.
 
 $$\orange{-3} \cdot (-4) = \underbrace{\green{-}(-4) - (-4) - (-4)}_{\orange{-3}\ \text{keer}} = 12$$
@@ -88,8 +89,10 @@ $$\orange{3} \cdot (-2) = \underbrace{\green{+}(-2) + (-2) + (-2)}_{\orange{3}\ 
 
 ### Negatieve getallen
 
-Hieruit kunnen we besluiten dat als er een **even aantal mintekens** staat,
-de uitkomst **positief** is. Als er een **oneven aantal mintekens** staat, dan is de uitkomst **negatief**.
+Hieruit kunnen we besluiten dat als er een **even aantal negatieve factoren** zijn,
+de uitkomst **positief** is. Als er een **oneven aantal negatieve factoren** zijn, dan is de uitkomst **negatief**.
+
+*(Bekijk de alinea 'wat te doen bij verschillende tekens?' om te zien waarom dit klopt.)*
 
 ## Gehele getallen delen
 
