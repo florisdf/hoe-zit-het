@@ -21,16 +21,23 @@ de verzameling van de gehele getallen.
 
 {{< svg "img/optelling.svg" "Een optelling bestaat uit termen die als resultaat een som geven. We gebruiken het plusteken." >}}
 
+Een optelling kunnen we visueel voorstellen op een **getallenas**. Wanneer je **drie sprongen naar rechts** gaat en je daarna nog eens
+**twee sprongen naar rechts** gaat, heb je in totaal **vijf sprongen naar rechts** gezet. We kunnen dit schrijven als de som $3 + 2 = 5$.
+
+{{< svg "img/optelling_getallenas.svg" "De optelling met twee positieve getallen, weergegeven op een getallenas" >}}
+
 ### Negatieve getallen
 We kunnen ook negatieve getallen optellen. Als één van beide termen negatief is, dan trek je dit getal
-af van de andere term. Zo krijg je $4$ wanneer je $6$ en $-2$ optelt.
+af van de andere term. Zo krijg je $4$ wanneer je $6$ en $-2$ optelt. Je gaat eerst **zes sprongen naar rechts** en dan **twee sprongen naar links**.
 
 {{< svg "img/optelling_negatief_getal.svg" "De optelling met een negatief getal, weergegeven op een getallenas." >}}
 
 Als beide termen negatief zijn, dan tel je de **absolute waarden** van beide getallen op{{<mute " (dat zijn de getallen zonder teken) ">}} en plaats
 je er een **minteken** voor. Zo krijg je $-5$ wanneer je $-2$ en $-3$ optelt. $\mid -2\mid  + \mid -3 \mid = 5$, met een minteken voor wordt dit $-5$.
 
-{{< svg "img/optelling_negatieve_getallen.svg" "De optelling met twee negatieve getal, weergegeven op een getallenas." >}}
+Anders gezegd ga je eerst **twee sprongen naar links** en vervolgens nog eens **drie sprongen naar links**.
+
+{{< svg "img/optelling_negatieve_getallen.svg" "De optelling met twee negatieve getallen, weergegeven op een getallenas." >}}
 
 ## Gehele getallen van elkaar aftrekken
 
