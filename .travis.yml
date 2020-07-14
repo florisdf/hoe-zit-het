@@ -35,3 +35,6 @@ env:
 branches:
   only:
     - master
+
+notifications:
+  slack: hoezithet:XvtMGEvLV8a37LQTUioGFVoa
