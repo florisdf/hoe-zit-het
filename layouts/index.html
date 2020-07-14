@@ -18,6 +18,7 @@
     {{ partial "landing/title_img.svg" . }}
   </div>
 </section>
+ 
 <section id="why" class="pv2">
   <h2 class="tc fw1 f2 mh2">
     Waarom <span class="b nowrap">hoe zit het</span>?
@@ -60,10 +61,18 @@
   </div>
 </section>
 
+<section class="tc mh2 mh5-m mh7-l pb5 bb b--gold bw1">
+  <div>
+    {{ partial "main/sponsor" . }}
+  </div>
+</section>
+
+
 {{ $title_wiski := "<span class=\"gold\">NIEUW!</span> Oefeningen via wiski.be" }}
 {{ $img_wiski := "/images/landing_page/wiski.svg" }}
 {{ $text_wiski := "Om je de leerstof <span class=\"b\">nog beter te laten begrijpen</span>, werken we nu samen met <a href=\"http://wiski.be\">wiski.be</a>! Op allerlei lessen kan je nu <span class=\"b\">doorklikken naar een oefeningenreeks</span> die jou de geleerde theorie meteen laat inoefenen! 🤯" }}
 {{ $dict_wiski := (dict "title"  $title_wiski "img" $img_wiski "text" $text_wiski ) }}
+
 
 {{ $title_student := "Voor leerlingen" }}
 {{ $img_student := "/images/landing_page/student.svg" }}
