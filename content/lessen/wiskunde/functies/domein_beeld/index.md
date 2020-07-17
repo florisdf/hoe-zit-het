@@ -3,11 +3,12 @@ title: "Domein en beeld"
 date: 2018-07-01T22:13:11+02:00
 weight: 5
 draft: false
-tags: ["Functies", "Analyse"]
-categories: ["wiskunde", "analyse", "3e middelbaar"]
-level: 3M
-course: wiskunde
-topic: analyse
+tags: ["beeld van een functie", "bereik van een functie", "domein van een
+functie", "domein en beeld", "domein en bereik"]
+description: "Wat zijn domein en beeld of bereik van een functie? In deze les
+leggen we het domein en beeld of bereik van een functie uit. Dat doen we met
+behulp van verschillende illustraties zodat je een goede intuïtie krijgt voor
+deze begrippen."
 images: ['/lessen/wiskunde/functies/domein_beeld/plt/fx.png', '/lessen/wiskunde/functies/domein_beeld/plt/dom.png', '/lessen/wiskunde/functies/domein_beeld/plt/bld.png']
 ---
 We kunnen niet altijd eender welk getal als $x$ kiezen om in ons

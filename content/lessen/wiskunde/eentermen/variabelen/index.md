@@ -4,6 +4,8 @@ date: 2019-11-08T09:01:12+01:00
 weight: 1
 wiski: "http://wiski.be/oefenen/rekenen-met-lettervormen/take"
 draft: false
+tags: ["algebra", "algebraïsche expressie", "eenterm", "variabele", "veelterm", "verband"]
+description: "Wat zijn variabelen? In deze les leggen we het op een illustratieve manier uit. Deze les is een eerste opstapje naar eentermen en veeltermen. Verder kan ze als laagdrempelige manier dienen om leerlingen vertrouwd te maken met de abstractie van algebraïsche vormen."
 images: ['/lessen/wiskunde/eentermen/variabelen/img/living_no_dims.png', '/lessen/wiskunde/eentermen/variabelen/img/living_area_formula.png', '/lessen/wiskunde/eentermen/variabelen/img/bedroom_area_formula.png', '/lessen/wiskunde/eentermen/variabelen/img/greek_angle.png', '/lessen/wiskunde/eentermen/variabelen/img/emoji_formula.png', '/lessen/wiskunde/eentermen/variabelen/img/living_area_computed.png']
 ---
 

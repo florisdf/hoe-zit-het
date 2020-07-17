@@ -3,11 +3,8 @@ title: "Beduidende cijfers"
 date: 2019-02-06T18:36:58+01:00
 weight: 5
 draft: false
-tags: []
-categories: []
-level: ""
-course: ""
-topic: ""
+tags: ["afronden", "beduidend cijfer", "meting", "aantal beduidende cijfers"]
+description: "Wat zijn beduidende cijfers? Hoe vindt je het aantal beduidende cijfers? Deze les legt kort, maar visueel, uit wat beduidende cijfers zijn en hoe je het aantal beduidende cijfers van een meting of uitkomst kan bepalen."
 images: []
 ---
 De beduidende cijfers zijn de cijfers in een getal **vanaf het eerste cijfer dat verschillend is van nul**. Ze zijn hieronder aangeduid in het

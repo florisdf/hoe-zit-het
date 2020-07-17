@@ -3,11 +3,8 @@ title: "Wetenschappelijke schrijfwijze"
 date: 2019-01-28T08:07:16+01:00
 weight: 6
 draft: false
-tags: []
-categories: []
-level: ""
-course: ""
-topic: ""
+tags: ["wetenschappelijke notatie", "wetenschappelijke schrijfwijze", "beduidende cijfers"]
+description: "Wat is wetenschappelijke schrijfwijze? Wat is wetenschappelijke notatie? Deze les legt kort en visueel uit wat wetenschappelijke schrijfwijze is en waarom het zinvol is."
 images: []
 ---
 *Wetenschappelijke schrijfwijze* is een manier om getallen te noteren. Het houdt in dat je **de komma verschuift tot die na het eerste [beduidend cijfer](../beduidende_cijfers)** staat. Om het getal gelijk te houden, moet je samen met het verschuiven van de komma ook een [macht van 10](../machten_van_10) toevoegen.

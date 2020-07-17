@@ -3,11 +3,8 @@ title: "Wat zijn lichtstralen?"
 date: 2019-01-28T18:38:31+01:00
 weight: 1
 draft: false
-tags: []
-categories: []
-level: ""
-course: ""
-topic: ""
+tags: ["elektromagnetische golf", "elektromagnetische straling", "golflengte", "golven", "licht", "lichtstraal", "netvlies", "oog", "optica", "zien"]
+description: "Wat is een lichtstraal? Hoe komt het dat lichtstralen ervoor zorgen dat we kunnen zien? Deze les vertelt op een illustratieve manier wat lichtstralen zijn in het algemeen en hoe ze ervoor zorgen dat mensen kunnen zien. De les geeft een idee van wat elektromagnetische golven zijn en vertelt dat licht hier een voorbeeld van is."
 images: ['/lessen/fysica/lichtstralen/intro/img/mosaic.png', '/lessen/fysica/lichtstralen/intro/img/em_stralen.png', '/lessen/fysica/lichtstralen/intro/img/light_router.png', '/lessen/fysica/lichtstralen/intro/img/sunburn.png', '/lessen/fysica/lichtstralen/intro/img/light_rays.png']
 ---
 Zonder licht zouden we niets kunnen zien. Licht bestaat uit waanzinnig veel

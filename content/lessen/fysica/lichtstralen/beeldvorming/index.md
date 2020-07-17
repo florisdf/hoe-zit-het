@@ -3,11 +3,8 @@ title: "Beeldvorming"
 date: 2019-01-29T08:59:42+01:00
 weight: 7
 draft: false
-tags: []
-categories: []
-level: ""
-course: ""
-topic: ""
+tags: ["beeldvorming", "camera obscura", "convergerende lichtbundel", "divergerende lichtbundel", "evenwijdige lichtbundel", "fotocamera", "lens", "lichtbundel", "netvlies", "oog", "scherm", "sensor"]
+description: "Wat is beeldvorming? Deze les legt beeldvorming uit aan de hand van verschillende illustraties. Het menselijk oog en de fotocamera worden als voorbeelden gebruikt. Nadat we de types van lichtbundels uitgeleggen, bespreken we de camera obscura met daarbij de invloed van de grootte van het gaatje op het gevormde beeld."
 images: ['/lessen/fysica/lichtstralen/beeldvorming/img/orange.png', '/lessen/fysica/lichtstralen/beeldvorming/img/orange_beeldvorming.png', '/lessen/fysica/lichtstralen/beeldvorming/img/oog.png', '/lessen/fysica/lichtstralen/beeldvorming/img/sony_a7ii.png', '/lessen/fysica/lichtstralen/beeldvorming/img/divergerend.png', '/lessen/fysica/lichtstralen/beeldvorming/img/convergerend.png', '/lessen/fysica/lichtstralen/beeldvorming/img/evenwijdig.png', '/lessen/fysica/lichtstralen/beeldvorming/img/camera_obscura.png', '/lessen/fysica/lichtstralen/beeldvorming/img/camera_obscura_large_aperture.png']
 ---
 Wanneer wit licht [invalt op een sinaasappel](../absorberen_reflecteren_doorlaten#reflectie-absorptie)

@@ -1,5 +1,5 @@
 baseURL = "https://hoezithet.nu/"
-title = "hoe zit het?"
+title = "Hoe Zit Het?"
 languageCode = "nl-be"
 pluralizelisttitles = "false"
 
@@ -20,7 +20,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 
 [params]
   favicon = "/images/favicon.png"
-  description = "Gratis uitleg wiskunde en fysica"
+  description = "Problemen wiskunde of fysica? Met de gratis uitleg op Hoe Zit Het? heb je de leerstof razendsnel onder de knie."
   facebook = "https://fb.me/hoezithet"
   baseURL = "https://hoezithet.nu/"
   company = "Hoe Zit Het? vzw"

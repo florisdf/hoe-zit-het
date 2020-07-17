@@ -3,11 +3,8 @@ title: "Functievoorschrift"
 date: 2018-12-27T12:18:56+01:00
 weight: 2
 draft: false
-tags: ["Functies", "Analyse"]
-categories: ["wiskunde", "analyse", "3e middelbaar"]
-level: 3M
-course: wiskunde
-topic: analyse
+tags: ["functievoorschrift", "functiewaarde berekenen", "invullen in functie", "x-waarde invullen", "y-waarde berekenen"]
+description: "Wat is een functievoorschrift? In deze les leggen we het uit. We tonen op een illustratieve manier hoe je de functiewaarde kan berekenen voor een bepaalde waarde van x."
 images: ['/lessen/wiskunde/functies/voorschrift/img/conveyor_functiewaarde.png']
 ---
 Een [functie](../intro) is een verband tussen een $\orange{x}$ en een

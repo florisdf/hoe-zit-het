@@ -3,11 +3,8 @@ title: "Wat is een functie?"
 date: 2018-07-01T22:13:11+02:00
 weight: 1
 draft: false
-tags: ["Functies", "Analyse"]
-categories: ["wiskunde", "analyse", "3e middelbaar"]
-level: 3M
-course: wiskunde
-topic: analyse
+tags: ["afhankelijke variabele", "functie", "functiewaarde", "onafhankelijke variabele"]
+description: "Wat is een functie? In deze les leggen we uit wat een functie is in het algemeen, gebruik makend van de analogie met een machientje dat een ingang (x) en een uitgang (y) heeft."
 images: ['/lessen/wiskunde/functies/intro/img/conveyor_plain.png']
 ---
 Je kan een functie zien als een *machientje* waar je *iets* instopt en waar

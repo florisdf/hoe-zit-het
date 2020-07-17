@@ -3,6 +3,8 @@ title: "Snelheidsverandering"
 date: 2019-05-24T11:01:53+02:00
 weight: 8
 draft: true
+description: "Wat betekent snelheidsverandering juist? Deze les legt maakt het aan de hand van illustraties duidelijk. We tonen eerst wat er gebeurt wanneer de grootte of de richting van de snelheidsvector veranderen. Verder wordt er uitgelegd welke soort verandering volgt voor bepaalde resulterende krachten. Alle illustraties mag je gratis gebruiken in je eigen lessen."
+tags: ["kop-staartmethode", "kracht", "krachtvector", "Newton", "resulterende kracht", "snelheidsvector", "snelheidsverandering", "verandering van snelheid", "verandering van snelheidsvector"]
 images: ['/lessen/fysica/krachten_1/snelheidsverandering/img/snelheidsvector.png', '/lessen/fysica/krachten_1/snelheidsverandering/img/snelheid_vergroot.png', '/lessen/fysica/krachten_1/snelheidsverandering/img/snelheid_verkleint.png', '/lessen/fysica/krachten_1/snelheidsverandering/img/snelheid_draait.png', '/lessen/fysica/krachten_1/snelheidsverandering/img/maria_wind_versnelt.png', '/lessen/fysica/krachten_1/snelheidsverandering/img/maria_wind_vertraagt.png', '/lessen/fysica/krachten_1/snelheidsverandering/img/Fr_loodrecht_op_v.png', '/lessen/fysica/krachten_1/snelheidsverandering/img/Fr_blijft_loodrecht_op_v.png', '/lessen/fysica/krachten_1/snelheidsverandering/img/maria_wind_constante_v.png']
 ---
 Als er een [resulterende kracht](../resulterende_kracht) op een voorwerp

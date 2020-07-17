@@ -3,11 +3,12 @@ title: "Waardentabel"
 date: 2018-12-27T15:45:44+01:00
 weight: 3
 draft: false
-tags: ["Functies", "Analyse"]
-categories: ["wiskunde", "analyse", "3e middelbaar"]
-level: 3M
-course: wiskunde
-topic: analyse
+tags: ["functie", "functiewaarde", "waardentabel opstellen", "functiewaarden
+berekenen", "x-waarden invullen"]
+description: "Hoe stel je de waardentabel op van een functie? In deze les tonen
+we illustratief hoe hoe je meerdere functiewaarden kan verkrijgen door
+verschillende x-waarden in te vullen in het functievoorschrift om zo een
+waardentabel te maken."
 images: []
 ---
 We kunnen ons nu helemaal laten gaan en allerlei waarden voor $x$ in

@@ -3,6 +3,8 @@ title: "Vectoriële grootheden"
 date: 2019-09-18T21:25:10+02:00
 weight: 1
 draft: false
+tags: ["krachtvector", "snelheidsvector", "vectoriële snelheid", "vector", "vectoriële grootheid", "verplaatsingsvector", "versnellingsvector"]
+description: "Wat is een vectoriële grootheid? Welke vectoriële grootheden bestaan er zoal? In deze les leggen we uit hoe vectoren in de echte wereld kunnen voorkomen onder de vorm van vectoriële grootheden. We geven voorbeelden als verplaatsing, snelheid, kracht en versnelling, telkens voorzien van een illustratie. Ten slotte leggen we het verschil uit tussen een vectoriële grootheid en een scalaire grootheid."
 images: ['/lessen/wiskunde/vector_1/vectoriele_grootheden/img/verplaatsingsvector_1.png', '/lessen/wiskunde/vector_1/vectoriele_grootheden/img/verplaatsingsvector_2.png', '/lessen/wiskunde/vector_1/vectoriele_grootheden/img/vec_examples.png', '/lessen/wiskunde/vector_1/vectoriele_grootheden/img/scal_examples.png']
 ---
 

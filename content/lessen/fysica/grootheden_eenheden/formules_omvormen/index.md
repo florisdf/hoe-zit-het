@@ -3,11 +3,8 @@ title: "Formules invullen en omvormen"
 date: 2019-01-28T08:07:58+01:00
 weight: 8
 draft: false
-tags: ["grootheden_eenheden", "formules", "vergelijkingen"]
-categories: ["grootheden_eenheden", "formules"]
-level: "3M"
-course: "Fysica"
-topic: "grootheden_eenheden"
+tags: ["formule", "formule omvormen", "formule invullen", "massadichtheid"]
+description: "Hoe vorm je een formule om? Deze les legt uit hoe we in de fysica formules kunnen omvormen. Het omvormen wordt uitgelegd aan de hand van de formule voor massadichtheid."
 images: []
 ---
 Fysica levert een wiskundige beschrijving van bepaalde eigenschappen en onderdelen van de wereld en het heelal rondom ons. Die beschrijvingen schrijven we neer in **formules**. Zulke formules tonen een **wiskundig verband tussen [grootheden](../intro)**. Een eenvoudige formule is bijvoorbeeld hoe we massadichtheid kunnen berekenen:

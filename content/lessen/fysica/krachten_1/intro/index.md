@@ -3,11 +3,13 @@ title: "Wat is een kracht?"
 date: 2019-05-24T11:00:42+02:00
 weight: 1
 draft: false
-tags: []
-categories: []
-level: ""
-course: ""
-topic: ""
+tags: ["contactkracht", "dynamische kracht", "grootheid", "kracht",
+"krachtvector", "Newton", "puntmassa", "statische kracht", "veldkracht",
+"zwaartekracht", "zwaartekracht veld", "zwaartepunt"]
+description: "Wat is een kracht eigenlijk? En wat voor krachten bestaan er
+allemaal? In deze les leggen we krachten uit aan de hand van heldere
+illustraties, wat voor krachten er bestaan en welke effecten een kracht kan
+hebben."
 images: ['/lessen/fysica/krachten_1/intro/img/kracht_effecten.png', '/lessen/fysica/krachten_1/intro/img/krachten_voorbeelden.png', '/lessen/fysica/krachten_1/intro/img/evian_kracht.png', '/lessen/fysica/krachten_1/intro/img/veldkrachten.png', '/lessen/fysica/krachten_1/intro/img/zwaartekrachtsveld.png', '/lessen/fysica/krachten_1/intro/img/contactkrachten.png', '/lessen/fysica/krachten_1/intro/img/puntmassa.png']
 ---
 

@@ -3,11 +3,8 @@ title: "Wat zijn grootheden en eenheden?"
 date: 2019-01-28T08:04:59+01:00
 weight: 1
 draft: false
-tags: ["grootheden_eenheden", "SI-eenheid"]
-categories: ["grootheden_eenheden", "SI-eenheid"]
-level: "3M"
-course: "Fysica"
-topic: "grootheden_eenheden"
+tags: ["grootheid", "eenheid", "eenheden", "SI-eenheid", "SI-eenheden"]
+description: "Wat zijn grootheden? Wat zijn eenheden en SI-eenheden? In deze les leggen we uit wat grootheden en (SI) eenheden precies zijn en waarom we ze nodig hebben. We geven een overzicht van de voornaamste grootheden, samen met hun SI-eenheid."
 images: []
 ---
 We gebruiken **eenheden** om **grootheden** te beschrijven. Zo gebruiken we

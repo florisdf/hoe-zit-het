@@ -3,11 +3,8 @@ title: "Nulpunten en nulwaarden"
 date: 2018-07-01T22:13:11+02:00
 draft: false
 weight: 6
-tags: ["Functies", "Analyse"]
-categories: ["wiskunde", "analyse", "3e middelbaar"]
-level: "3M"
-course: "wiskunde"
-topic: "analyse"
+tags: ["nulpunt van een functie", "nulwaarde van een functie", "nulpunt", "nulwaarde", "nulpunt op een grafiek"]
+description: "Wat is een nulpunt van een functie? Wat is een nulwaarde van een functie? In deze les leggen we deze begrippen uit. Naast een analytische uitleg, tonen we op een grafiek hoe je nulpunten kan herkennen."
 images: ['/lessen/wiskunde/functies/nulpunten/plt/nulpunten.png']
 ---
 In veel toepassingen van functies zijn we geïnteresseerd in de waarde die we

@@ -4,12 +4,8 @@ date: 2020-01-09T07:02:25+01:00
 weight: 4
 wiski: "http://wiski.be/oefenen/rekenen-met-lettervormen/take"
 draft: false
-description: "In deze les leggen we aan de hand van voldoende voorbeelden uit
-hoe je eentermen bij elkaar kan optellen of van elkaar kan aftrekken. Omdat het
-optellen en aftrekken van eentermen gebaseerd is op de distributieve
-eigenschap, leggen we die ook nog eens extra uit in deze les."
-tags: ["eenterm", "eentermen optellen", "eentermen aftrekken", "verschil van
-eentermen", "som van eentermen", "bewerkingen met eentermen", "distributiviteit"]
+tags: ["algebra", "eenterm", "eentermen aftrekken", "eentermen optellen", "gelijksoortige eenterm", "getallenleer", "veelterm", "verschil van eentermen", "som van eentermen", "bewerkingen met eentermen", "distributiviteit"]
+description: "Hoe kan je eentermen optellen en aftrekken? In deze les leggen we het aan de hand van een voorbeeld uit. We doen dit door eerst alle eentermen te vereenvoudigen, vervolgens de gelijksoortige eentermen aan te duiden om ten slotte de coëfficiënten per soort op te tellen. "
 images: []
 ---
 

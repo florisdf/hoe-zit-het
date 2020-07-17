@@ -3,6 +3,10 @@ title: "Normaalkracht en gewicht"
 date: 2019-05-24T11:13:59+02:00
 weight: 4
 draft: false
+description: "Wat zijn normaalkracht en gewicht? In deze les leggen we beide
+krachten aan de hand van veel illustraties uit. We tonen wat deze krachten
+betekenen en in welke situaties ze voorkomen."
+tags: ["gewicht", "kracht", "normaalkracht", "ondersteunende kracht"]
 images: ['/lessen/fysica/krachten_1/normaalkracht_en_gewicht/img/staan_kapstok.png', '/lessen/fysica/krachten_1/normaalkracht_en_gewicht/img/speeltuin.png', '/lessen/fysica/krachten_1/normaalkracht_en_gewicht/img/normaalkracht_schuifaf.png', '/lessen/fysica/krachten_1/normaalkracht_en_gewicht/img/normaalkracht_klimrek.png', '/lessen/fysica/krachten_1/normaalkracht_en_gewicht/img/normaalkracht_loodrecht.png', '/lessen/fysica/krachten_1/normaalkracht_en_gewicht/img/gewicht_maria.png', '/lessen/fysica/krachten_1/normaalkracht_en_gewicht/img/gewicht_vs_normaalkracht.png']
 ---
 Wanneer je met je voeten op de grond staat, ondersteunt de grond jou. Wanneer
