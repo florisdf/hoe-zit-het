@@ -14,6 +14,6 @@ for p in tqdm(articles):
             '--javascript-delay', '5000', '--viewport-size', '1920x1080',
             str(pdf_file)]
     child_proccess = subprocess.Popen(args, stdin=subprocess.PIPE)
-    child_proccess.stdin.write(url.read_text())
+    child_proccess.stdin.write(url.read_bytes())
     child_proccess.communicate()
     child_proccess.stdin.close()
