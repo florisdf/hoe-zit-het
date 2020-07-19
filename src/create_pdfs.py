@@ -16,9 +16,8 @@ parser.add_argument('-f', '--force',
 args = parser.parse_args()
 LAZY = not args.force
 
-articles = list(Path('content/lessen').rglob('*/index.md'))
-urls = ['https://hoezithet.nu/bare/' + '/'.join(f.parts[1:-1])
-        for f in articles]
+articles = sorted(list(Path('content/lessen').rglob('*/index.md')))
+urls = sorted(list(Path('public/lessen').rglob('*/index.html')))
 
 logging.info('Checking urls...')
 for p, url in tqdm(zip(articles, urls)):
@@ -36,7 +35,6 @@ for p, url in tqdm(zip(articles, urls)):
     if prev_md5sum != cur_md5sum or not LAZY:
         md5_file.write_bytes(cur_md5sum)
         try:
-            urlopen(url)
             url_elements = url.split('/')[5:]
             pdf_dir = Path('content/lessen/' + '/'.join(url_elements))
             pdf_file = pdf_dir / ('-'.join(url_elements[-2:]).title() + '.pdf')
