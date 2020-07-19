@@ -11,6 +11,7 @@ install:
 - sudo apt-get install xvfb libfontconfig
 - wget https://github.com/wkhtmltopdf/packaging/releases/download/${WKHTMLTOPDF_RELEASE}/wkhtmltox_${WKHTMLTOPDF_RELEASE}.xenial_amd64.deb
 - sudo apt install ./wkhtmltox_${WKHTMLTOPDF_RELEASE}.xenial_amd64.deb
+- sudo mv /usr/local/bin/wkhtmltopdf /usr/bin/wkhtmltopdf
 - printf '#!/bin/bash\nxvfb-run -a --server-args="-screen 0, 1024x768x24" /usr/bin/wkhtmltopdf
   -q $*' | sudo tee /usr/bin/wkhtmltopdf.sh
 - sudo chmod a+x /usr/bin/wkhtmltopdf.sh
