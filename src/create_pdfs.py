@@ -21,6 +21,7 @@ articles = list(Path('content/lessen').rglob('*/index.md'))
 logging.info('Checking urls...')
 for p in tqdm(articles):
     url = f'file://{Path(str(p).replace("content/", "public/", 1).replace("index.md", "index.html")).absolute()}'
+    print(url)
     md5_file = p.parent / (p.stem + '.md5')
     m = hashlib.md5()
     m.update(p.read_bytes())
