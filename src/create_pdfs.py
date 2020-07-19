@@ -35,7 +35,8 @@ for p, url in tqdm(zip(articles, urls)):
     if prev_md5sum != cur_md5sum or not LAZY:
         md5_file.write_bytes(cur_md5sum)
         try:
-            url_elements = url.split('/')[5:]
+            url_elements = str(url.split('/'))[5:]
+            print(*url_elements)
             pdf_dir = Path('content/lessen/' + '/'.join(url_elements))
             pdf_file = pdf_dir / ('-'.join(url_elements[-2:]).title() + '.pdf')
             run(['wkhtmltopdf', '-T', '25mm', '-B', '25mm', '-R', '25mm', '-L',
