@@ -21,6 +21,7 @@ urls = sorted(list(Path('public/lessen').rglob('*/index.html')))
 
 logging.info('Checking urls...')
 for p, url in tqdm(zip(articles, urls)):
+    url = str(url)
     md5_file = p.parent / (p.stem + '.md5')
     m = hashlib.md5()
     m.update(p.read_bytes())
@@ -35,7 +36,7 @@ for p, url in tqdm(zip(articles, urls)):
     if prev_md5sum != cur_md5sum or not LAZY:
         md5_file.write_bytes(cur_md5sum)
         try:
-            url_elements = str(url).split('/')[5:]
+            url_elements = url.split('/')[5:]
             print(*url_elements)
             pdf_dir = Path('content/lessen/' + '/'.join(url_elements))
             pdf_file = pdf_dir / ('-'.join(url_elements[-2:]).title() + '.pdf')
