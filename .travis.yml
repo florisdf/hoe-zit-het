@@ -30,7 +30,7 @@ deploy:
       branch: master
   - provider: script
     skip_cleanup: true
-    script: rsync -r --delete-after --quiet $TRAVIS_BUILD_DIR/public root@dev.hoezithet.nu:hoezithet/dev_public
+    script: rsync -r --delete-after --quiet $TRAVIS_BUILD_DIR/public/ root@dev.hoezithet.nu:hoezithet/dev_public
     on:
       branch: develop
 env:
