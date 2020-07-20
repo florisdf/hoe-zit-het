@@ -12,8 +12,8 @@ for p in tqdm(articles[:5]):
                       .replace("index.md", "index.html")))
     lesson_html = Path(str(bare_html).replace("public/bare/", "public/", 1))
 
-    logging.log(str(bare_html))
-    logging.log(str(lesson_html))
+    logging.log(logging.WARNING, str(bare_html))
+    logging.log(logging.WARNING, str(lesson_html))
 
     pdf_file = (lesson_html.parent
                 / ('-'.join([lesson_html.parent.parent.name, 
@@ -25,7 +25,7 @@ for p in tqdm(articles[:5]):
     child_proccess = subprocess.Popen(args, stdin=subprocess.PIPE)
     # Replace absolute refs by relative refs
     root_dir = Path('public').absolute()
-    logging.log(str(root_dir))
+    logging.log(logging.WARNING, str(root_dir))
     child_proccess.stdin.write(bare_html.read_text()
                                .replace('="/bare/', f'="{root_dir}/')
                                .encode('utf-8'))
