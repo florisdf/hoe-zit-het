@@ -30,7 +30,7 @@ for p in tqdm(articles[:5]):
     logging.log(logging.WARNING, str(root_dir))
     html_content = bare_html.read_text()
     
-    for match in re.finditer(r'="/bare/', html_content):
+    for match in re.finditer(r'="/bare/[^"]*"', html_content):
         logging.log(logging.WARNING, match.group(0))
                 
     child_proccess.stdin.write(html_content
