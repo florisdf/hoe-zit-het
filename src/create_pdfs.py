@@ -9,8 +9,9 @@ articles = list(Path('content/lessen').rglob('*/index.md'))
 for p in tqdm(articles[:5]):
     bare_html = (Path(str(p).replace("content/",
                                     "public/bare/", 1)
-                      .replace("index.md", "index.html")))
-    lesson_html = Path(str(bare_html).replace("public/bare/", "public/", 1))
+                      .replace("index.md", "index.html")).absolute())
+    lesson_html = Path(str(bare_html).replace("public/bare/", "public/",
+                                              1)).absolute()
 
     logging.log(logging.WARNING, str(bare_html))
     logging.log(logging.WARNING, str(lesson_html))
