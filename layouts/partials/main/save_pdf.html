@@ -1,8 +1,7 @@
-{{ with .Resources.GetMatch ("*.pdf") }}
 <span class="h2">
   {{ partial "svg/svg_substitute" (dict  "svg_file" "/icons/pdf.svg" "new_color" $.Parent.Params.section_color ) }}
 </span>
-  <a class="link" href="{{ .RelPermalink }}" style="color: inherit;">
-    Les downloaden als PDF
-  </a>
-{{ end }}
+<!-- The href pattern will be replaced at deploy time. DO NOT REMOVE OR ADJUST IT, unless adjusting src/create_pdfs.py along with it. -->
+<a class="link" href="##REPLACED_BY_CREATE_PDFS##" style="color: inherit;">
+  Les downloaden als PDF
+</a>
