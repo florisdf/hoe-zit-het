@@ -6,11 +6,15 @@ import subprocess
 
 articles = list(Path('content/lessen').rglob('*/index.md'))
 
-for p in tqdm(articles):
+for p in tqdm(articles[:5]):
     bare_html = (Path(str(p).replace("content/",
                                     "public/bare/", 1)
                       .replace("index.md", "index.html")))
     lesson_html = Path(str(bare_html).replace("public/bare/", "public/", 1))
+
+    logging.log(str(bare_html))
+    logging.log(str(lesson_html))
+
     pdf_file = (lesson_html.parent
                 / ('-'.join([lesson_html.parent.parent.name, 
                              lesson_html.parent.name]).title() + '.pdf'))
@@ -21,6 +25,7 @@ for p in tqdm(articles):
     child_proccess = subprocess.Popen(args, stdin=subprocess.PIPE)
     # Replace absolute refs by relative refs
     root_dir = Path('public').absolute()
+    logging.log(str(root_dir))
     child_proccess.stdin.write(bare_html.read_text()
                                .replace('="/bare/', f'="{root_dir}/')
                                .encode('utf-8'))
