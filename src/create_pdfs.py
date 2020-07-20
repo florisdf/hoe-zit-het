@@ -28,7 +28,7 @@ for p in tqdm(articles[:5]):
     root_dir = Path('public').absolute()
     logging.log(logging.WARNING, str(root_dir))
     child_proccess.stdin.write(bare_html.read_text()
-                               .replace('="/bare/', f'="{root_dir}/')
+                               .replace('="/bare/', f'="public/')
                                .encode('utf-8'))
     child_proccess.communicate()
     child_proccess.stdin.close()
