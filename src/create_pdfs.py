@@ -18,7 +18,7 @@ for p in tqdm(articles):
     bare_content = bare_html.read_text()
     # Replace absolute refs by relative refs
     bare_content.replace('="/', '="public/')
-    child_proccess.stdin.write()
+    child_proccess.stdin.write(bare_content)
     child_proccess.communicate()
     child_proccess.stdin.close()
    
