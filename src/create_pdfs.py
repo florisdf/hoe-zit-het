@@ -22,7 +22,7 @@ for p in tqdm(articles):
     child_proccess.communicate()
     child_proccess.stdin.close()
    
-   # Link to correct pdf-file by replacing href pattern in lesson html file
-   pdf_link = str(pdf_file).replace('public/', '/', 1)
-   new_html_content = lesson_html.read_text().replace("##REPLACED_BY_CREATE_PDFS##", pdf_link)
-   lesson_html.write_text(new_html_content)
+    # Link to correct pdf-file by replacing href pattern in lesson html file
+    pdf_link = str(pdf_file).replace('public/', '/', 1)
+    new_html_content = lesson_html.read_text().replace("##REPLACED_BY_CREATE_PDFS##", pdf_link)
+    lesson_html.write_text(new_html_content)
