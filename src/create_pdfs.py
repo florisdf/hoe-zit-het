@@ -3,6 +3,7 @@ from pathlib import Path
 from tqdm import tqdm
 import logging
 import subprocess
+import re
 
 articles = list(Path('content/lessen').rglob('*/index.md'))
 
@@ -27,7 +28,12 @@ for p in tqdm(articles[:5]):
     # Replace absolute refs by relative refs
     root_dir = Path('public').absolute()
     logging.log(logging.WARNING, str(root_dir))
-    child_proccess.stdin.write(bare_html.read_text()
+    html_content = bare_html.read_text()
+    
+    for match in re.finditer(r'="/bare/', html_content):
+        logging.log(logging.WARNING, match.group(0))
+                
+    child_proccess.stdin.write(html_content
                                .replace('="/bare/', f'="public/')
                                .encode('utf-8'))
     child_proccess.communicate()
