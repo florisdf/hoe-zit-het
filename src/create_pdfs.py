@@ -15,13 +15,13 @@ for p in tqdm(articles[4:5]):
                                               1)).absolute()
 
     print(str(bare_html))
-    print('Contents:')
     pdf_file = (lesson_html.parent
                 / ('-'.join([lesson_html.parent.parent.name, 
                              lesson_html.parent.name]).title() + '.pdf'))
     args = ['wkhtmltopdf', '-T', '25mm', '-B', '25mm', '-R', '25mm', '-L',
             '25mm', '--no-stop-slow-scripts',
-            '--javascript-delay', '5000', '--viewport-size', '1920x1080', '-',
+            '--javascript-delay', '5000', '--viewport-size', '1920x1080',
+            str(bare_html),
             str(pdf_file)]
     child_proccess = subprocess.Popen(args, stdin=subprocess.PIPE)
     # Replace absolute refs by relative refs
