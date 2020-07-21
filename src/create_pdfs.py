@@ -16,7 +16,7 @@ for p in tqdm(articles[4:5]):
 
     logging.log(logging.WARNING, str(bare_html))
     logging.log(logging.WARNING, 'Contents:')
-    logging.log(logging.WARNING, '\n'.join(list(bare_html.parent.iterdir())))
+    logging.log(logging.WARNING, '\n'.join([str(p) for p in bare_html.parent.iterdir()])))
 
     pdf_file = (lesson_html.parent
                 / ('-'.join([lesson_html.parent.parent.name, 
