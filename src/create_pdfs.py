@@ -31,13 +31,16 @@ for p in tqdm(articles[:5]):
     html_content = bare_html.read_text()
     
     for match in re.finditer(r'="/bare/[^"]*"', html_content):
-        logging.log(logging.WARNING, match.group(0))
+        src_path = match.group(0)
+        logging.log(logging.WARNING, src_path)
+        new_src_path = src_path.replace('="/bare/', f'="{root_dir}/')
+        logging.log(logging.WARNING, new_src_path)
                 
-    child_proccess.stdin.write(html_content
-                               .replace('="/bare/', f'="public/')
-                               .encode('utf-8'))
-    child_proccess.communicate()
-    child_proccess.stdin.close()
+    # child_proccess.stdin.write(html _content
+    #                            .replace('="/bare/', f'="{root_dir}/')
+    #                            .encode('utf-8'))
+    # child_proccess.communicate()
+    # child_proccess.stdin.close()
    
     # Link to correct pdf-file by replacing href pattern in lesson html file
     pdf_link = str(pdf_file).replace('public/', '/', 1)
