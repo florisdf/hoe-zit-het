@@ -34,8 +34,7 @@ for p in tqdm(articles[4:5]):
     #     print(new_src_path)
     #     print(f'Exists? {Path(new_src_path).exists()}')
                 
-    child_proccess.stdin.write(html _content
-                               .replace('="/bare/', f'="{root_dir}/')
+    child_proccess.stdin.write(html_content.replace('="/bare/', f'="{root_dir}/')
                                .encode('utf-8'))
     child_proccess.communicate()
     child_proccess.stdin.close()
