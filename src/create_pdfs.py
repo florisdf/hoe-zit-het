@@ -15,7 +15,6 @@ for p in tqdm(articles[:5]):
                                               1)).absolute()
 
     logging.log(logging.WARNING, str(bare_html))
-    logging.log(logging.WARNING, str(lesson_html))
 
     pdf_file = (lesson_html.parent
                 / ('-'.join([lesson_html.parent.parent.name, 
@@ -27,14 +26,13 @@ for p in tqdm(articles[:5]):
     child_proccess = subprocess.Popen(args, stdin=subprocess.PIPE)
     # Replace absolute refs by relative refs
     root_dir = Path('public').absolute()
-    logging.log(logging.WARNING, str(root_dir))
     html_content = bare_html.read_text()
     
     for match in re.finditer(r'="/bare/[^"]*"', html_content):
         src_path = match.group(0)
-        logging.log(logging.WARNING, src_path)
         new_src_path = src_path.replace('="/bare/', f'="{root_dir}/')
         logging.log(logging.WARNING, new_src_path)
+        logging.log(logging.WARNING, f'Exists? {Path(new_src_path).exists()}')
                 
     # child_proccess.stdin.write(html _content
     #                            .replace('="/bare/', f'="{root_dir}/')
