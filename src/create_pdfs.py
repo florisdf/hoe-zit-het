@@ -7,7 +7,7 @@ import re
 
 articles = list(Path('content/lessen').rglob('*/index.md'))
 
-for p in tqdm(articles[:5]):
+for p in tqdm(articles[4:5]):
     bare_html = (Path(str(p).replace("content/",
                                     "public/bare/", 1)
                       .replace("index.md", "index.html")).absolute())
@@ -15,6 +15,8 @@ for p in tqdm(articles[:5]):
                                               1)).absolute()
 
     logging.log(logging.WARNING, str(bare_html))
+    logging.log(logging.WARNING, 'Contents:')
+    logging.log(logging.WARNING, '\n'.join(list(bare_html.parent.iterdir())))
 
     pdf_file = (lesson_html.parent
                 / ('-'.join([lesson_html.parent.parent.name, 
