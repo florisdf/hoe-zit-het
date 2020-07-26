@@ -114,3 +114,9 @@ Er zijn 4 basisbewerkingen in de wiskunde:
    het **quotiënt**.
 
 {{< /attention >}}
+{{< attention "Verschillende tekens" >}}
+Bij een **deling en vermenigvuldiging** geldt: 
+
+Als er een **even aantal mintekens** staat, dan is de uitkomst **positief**. 
+Als er een **oneven aantal mintekens** staat, dan is de uitkomst **negatief**.
+{{< /attention >}}
