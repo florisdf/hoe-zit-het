@@ -38,6 +38,27 @@ Als de **nul in de noemer** voorkomt, dan is de **uitkomst ongedefinieerd**, ong
 {{< /attention >}}
 
 {{< expand "Waarom kunnen we niet delen door 0?" >}}
+Er zijn verschillende redenen waarom we niet kunnen delen door 0.
+
+Enerzijds kunnen we deze vraag benaderen **vanuit algebraïsch standpunt** waar een deling eigenlijk **het omgekeerde** is **van een vermenigvuldiging**. Wanneer we dus $\frac{a}{b} = c$ hebben, dan geldt er: $c \cdot b = a$. Maar wanneer $b = 0$, dan is dit niet mogelijk. Neem bijvoorbeeld volgende breuk: $\frac{3}{0} = x$. Dan zou $x \cdot 0 = 3$, maar aangezien we delen door 0 in het linkerlid, krijgen we $0 \neq 3$. We kunnen dus **niet delen door nul zonder problemen**.
+
+Anderzijds kunnen we deze vraag (letterlijk :drum:) **benaderen met limieten**. Bij een limiet vragen we ons af wat er gebeurt met een uitdrukking wanneer $x$ nadert naar een getal. In ons geval kiezen we (voor het gemak) voor $\frac{1}{x}$ en vragen we ons af **welk getal dit nadert als $x$ nadert naar 0**. Om volledig te zijn naderen we zowel van links (negatieve getallen) als van rechts (positieve getallen). We krijgen dan $\lim\limits_{x \to 0^{\orange{-}}} \frac{1}{x} = -\infty$ en $\lim\limits_{x \to 0^{\orange{+}}} \frac{1}{x} = +\infty$, waardoor $\lim\limits_{x \to 0} \frac{1}{x}$ ongedefineerd is. 
+
+Hieronder vind je een tabel die toont hoe de rechterlimiet (die nadert van rechts) wordt berekend. Voor de linkerlimiet voeren we hetzelfde proces uit, maar nemen we steeds een negatieve $x$.
+
+| $x$     | $\frac{1}{x}$     |
+|---------|-------------------|
+| 1       | 1                 |
+| 0.1     | 10                |
+| 0.01    | 100               |
+| 0.001   | 1000              |
+| 0.0001  | 10000             |
+| 0.00001 | 100000            |
+| ...     | ...               |
+| 0       | $+\infty$         |
+
+Het is dus duidelijk dat we **geen eenduidige oplossing** hebben wanneer we **delen door 0**. Vandaar dat dit **ongedefinieerd** is.
+
 {{< /expand >}}
 
 ## Soorten breuken
