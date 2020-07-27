@@ -90,7 +90,7 @@ $$1.589 - 3.4 = 1.589 - 3.4\green{00} = -1.811$$
 
 ## Samengevat
 {{< attention "Breuken optellen en aftrekken" >}}
-Om breuken op te tellen of af te trekken moet je de **breuken eerst gelijknamig** maken en vervolgens de **tellers optellen**.
+Om breuken op te tellen of af te trekken moet je de **breuken eerst gelijknamig** maken en vervolgens de **tellers optellen of aftrekken**.
 {{< /attention >}}
 {{< attention "Breuken gelijknamig maken" >}}
 Om breuken gelijknamig te maken, kan je volgend **stappenplan** gebruiken:
