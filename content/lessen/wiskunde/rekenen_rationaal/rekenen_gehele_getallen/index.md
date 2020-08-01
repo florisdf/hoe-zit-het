@@ -56,7 +56,7 @@ langs een getallenas voorstellen.
 
 Een **cijfer** vertelt ons het **aantal stappen** dat deze persoon zet. De richting {{< mute "(links of rechts)" >}} wordt bepaald
 door het teken. We starten standaard naar rechts, zoals we ook van links naar rechts schrijven. Als we een **plusteken** tegenkomen in de uitdrukking, dan gaan we
-verder **in dezelfde richting**. Komen we echter een **minteken tegen**, dan draaien we om een gaan we **in de andere richting** verder.
+verder **in dezelfde richting**. Komen we echter een **minteken** tegen, dan draaien we om een gaan we **in de andere richting** verder.
 
 De persoon die de bewerking hierboven uitvoert langs de getallenas begint dus met **twee stappen naar rechts** te zetten. Vervolgens draait hij zich om, waarna hij zich
 nogmaals omdraait en dan **vier stappen (naar rechts)** zet.
