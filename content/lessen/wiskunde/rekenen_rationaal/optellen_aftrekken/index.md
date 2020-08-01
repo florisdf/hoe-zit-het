@@ -34,9 +34,10 @@ Als je breuken wilt optellen of aftrekken, moeten ze **altijd gelijknamig** zijn
 Om breuken gelijknamig te maken, gebruiken we vaak het **kleinst gemeenschappelijk veelvoud** van de noemers. We mogen echter niet zomaar de noemers veranderen zonder de tellers aan te passen. **Teller en noemer** moeten immers steeds **met hetzelfde getal** vermenigvuldigd {{< mute "(of gedeeld)" >}} worden. Als we de noemer dus bijvoorbeeld vermenigvuldigen met $4$, dan vermenigvuldigen we ook de teller met $4$.
 
 Aangezien het soms moeilijk is om het kleinst gemeenschappelijk veelvoud te vinden, kan je ook volgend **stappenplan** gebruiken:
-1. Je vermenigvuldigt de noemers met elkaar en het resultaat is de **nieuwe noemers voor beide breuken**
-2. Je vermenigvuldigt de teller van de eerste breuk met de noemer van de twee breuk, het resultaat is de **nieuwe teller van de eerste breuk**
-3. Je vermenigvuldigt de teller van de tweede breuk met de noemer van de eerste breuk, het resultaat is de **nieuwe teller van de tweede breuk**
+1. Je **vereenvoudigt**, indien mogelijk, de breuken.
+2. Je vermenigvuldigt de noemers met elkaar en het resultaat is de **nieuwe noemers voor beide breuken**
+3. Je vermenigvuldigt de teller van de eerste breuk met de noemer van de twee breuk, het resultaat is de **nieuwe teller van de eerste breuk**
+4. Je vermenigvuldigt de teller van de tweede breuk met de noemer van de eerste breuk, het resultaat is de **nieuwe teller van de tweede breuk**
 
 ### Nieuwe noemers voor beide breuken
 Bij de eerste stap **vermenivuldig je de noemers van beide breuken**. Het resultaat dat je bekomt wordt de nieuwe noemer voor beide breuken. Vaak komt dit overeen met het kleinst gemeenschappelijk veelvoud en anders is het niet veel meer werk. Bijvoorbeeld:
@@ -75,6 +76,8 @@ $$\frac{6}{56} + \frac{8}{56} = \frac{6 + 8}{56} = \frac{\frac{14}{\orange{14}}}
 
 Heb jij $\frac{1}{4}$ taart gegeten :scream:?! 
 
+**TIP:** Soms kan het handig zijn om **de breuken eerst te vereenvoudigen** vooraleer je ze gelijknamig maakt en optelt of aftrekt. Je zet de breuk dan om naar een vorm waarbij teller noemer geen gemeenschappelijke deler meer hebben. Dit maakt veel rekenwerk makkelijker :flexed_biceps:!
+
 ## Kommagetallen optellen en aftrekken
 Om kommagetallen op te tellen of af te trekken kan je **twee methoden** gebruiken. Enerzijds kan je de kommagetallen omzetten naar breuken en **bovenstaand stappenplan** volgen of anderzijds kan je een **gedachte-trucje** toepassen.
 
@@ -91,12 +94,16 @@ $$1.589 - 3.4 = 1.589 - 3.4\green{00} = -1.811$$
 ## Samengevat
 {{< attention "Breuken optellen en aftrekken" >}}
 Om breuken op te tellen of af te trekken moet je de **breuken eerst gelijknamig** maken en vervolgens de **tellers optellen of aftrekken**.
+
+In symbolen:
+$$\frac{a}{\orange{b}} \pm \frac{c}{\orange{b}} = \frac{a \pm c}{\orange{b}}$$
 {{< /attention >}}
 {{< attention "Breuken gelijknamig maken" >}}
 Om breuken gelijknamig te maken, kan je volgend **stappenplan** gebruiken:
-1. Je vermenigvuldigt de noemers met elkaar en het resultaat is de **nieuwe noemers voor beide breuken**
-2. Je vermenigvuldigt de teller van de eerste breuk met de noemer van de twee breuk, het resultaat is de **nieuwe teller van de eerste breuk**
-3. Je vermenigvuldigt de teller van de tweede breuk met de noemer van de eerste breuk, het resultaat is de **nieuwe teller van de tweede breuk**
+1. Je **vereenvoudigt**, indien mogelijk, de breuken
+2. Je vermenigvuldigt de noemers met elkaar en het resultaat is de **nieuwe noemers voor beide breuken**
+3. Je vermenigvuldigt de teller van de eerste breuk met de noemer van de twee breuk, het resultaat is de **nieuwe teller van de eerste breuk**
+4. Je vermenigvuldigt de teller van de tweede breuk met de noemer van de eerste breuk, het resultaat is de **nieuwe teller van de tweede breuk**
 {{< /attention >}}
 {{< attention "Kommagetallen optellen en aftrekken" >}}
 Je kan **de kommagetallen omzetten naar breuken** of een **gedachte-trucje** gebruiken. 
