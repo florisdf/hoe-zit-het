@@ -31,6 +31,8 @@ stelt $\frac{1}{4}$ voor, terwijl de rest van de pizza $\frac{3}{4}$ voorstelt.
 
 Een andere manier om aan breuken te denken is door middel van **een deling**. Zo betekent $\frac{3}{4}$ hetzelfde als $3 : 4$. De uitkomst van beide is $0,75$. Het is **veel makkelijker** om een **deling als een breuk te schrijven**, daarom werken wiskundigen veel liever met breuken in plaats van het deelteken.
 
+Aangezien een breuk eigenlijk een deling is, moeten we nog even naar onze **mintekens** kijken :eyes:. Zowel teller als noemer kunnen één (of meer) minteken(s) bevatten. Als **alleen de teller** of **alleen de noemer negatief** is, dan is de **breuk in zijn geheel negatief**. We noteren een minteken voor de breukstreep ($-\frac{a}{b}$). Als **teller én noemer negatief** zijn, dan is de **breuk in zijn geheel positief**.
+
 {{< attention "Een nul in de breuk" >}}
 Als de **nul in de teller** voorkomt, dan is de **uitkomst** $0$. Je neemt nul stukken van een pizza, dus kan je ook geen (of nul) stukken eten.
 
