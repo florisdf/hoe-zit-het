@@ -54,9 +54,9 @@ $$\frac{\green{1}}{8} \text{ en } \frac{1}{\green{6}} \rightarrow \green{1} \cdo
 $6$ wordt de **nieuwe teller van de eerste breuk**.
 
 ### Nieuwe teller van de tweede breuk
-Nu moeten we enkel nog de nieuwe teller van de tweede breuk berekenen. Dit doen we door de **teller van de tweede breuk** te **vermenigvuldigen** met de **(oude) noemers van de eerste breuk**.
+Nu moeten we enkel nog de nieuwe teller van de tweede breuk berekenen. Dit doen we door de **teller van de tweede breuk** te **vermenigvuldigen** met de **(oude) noemer van de eerste breuk**.
 
-$$\frac{1}{\green{8}} \text{ en } \frac{\green{1}}{\green{6}} \rightarrow \green{8} \cdot \green{1} = 8$$
+$$\frac{1}{\green{8}} \text{ en } \frac{\green{1}}{6} \rightarrow \green{8} \cdot \green{1} = 8$$
 
 $8$ wordt de **nieuwe teller van de tweede breuk**. 
 
