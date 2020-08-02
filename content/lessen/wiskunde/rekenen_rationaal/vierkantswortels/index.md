@@ -12,7 +12,7 @@ description: "In deze les herhalen we wat een vierkantswortel precies is en lere
 Net zoals de deling het omgekeerde is van de vermenigvuldiging, zijn **wortels** :carrot: het omgekeerde van [machten](../machten). 
 ## Wat is een vierkantswortel?
 
-{{< img "img/terminologie.svg" "Een macht bestaat uit een grondtal en een exponent. In dit voorbeeld is 5 het grondtal en 3 de exponent." >}}
+{{< svg "img/terminologie.svg" "Een macht bestaat uit een grondtal en een exponent. In dit voorbeeld is 5 het grondtal en 3 de exponent." >}}
 
 
 Een wortelteken schrijf je zoals een *V*, maar dan met een streepje links aan het begin en een grote streep boven de bewerking waarvan
