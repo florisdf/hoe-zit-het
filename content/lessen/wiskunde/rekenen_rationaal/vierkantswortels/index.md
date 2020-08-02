@@ -20,9 +20,9 @@ je de wortel neemt.
 
 Een **vierkantswortel** is een **speciale wortel**. Het wordt ook de **tweedemachtswortel** genoemd en is dus precies het omgekeerde van een **tweede macht** of **kwadraat**. Voor de rest van de les focussen we op deze (vierkants)wortel en laten we alle andere wortels {{< mute "zoals derdemachtswortels of achtstemachtswortels" >}} buiten beschouwing.
 
-| Je schrijft | Je leest het als         |
-|-------------|--------------------------|
-| $sqrt{a}$   | De vierkantswortel van a |
+| Je schrijft  | Je leest het als         |
+|--------------|--------------------------|
+| $\sqrt{a}$   | De vierkantswortel van a |
 
 ## Hoe reken ik een vierkantswortel uit?
 Zoals reeds gezegd in de inleiding, is een vierkantswortel **het omgekeerde van een tweede macht**.
