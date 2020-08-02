@@ -21,7 +21,7 @@ De **teller** *telt* het aantal delen dat je neemt. De **noemer** *benoemd* hoe 
 | $\frac{a}{b}$     | a over b                       |
 
 ## Hoe werkt een breuk?
-Het is handig om bij breuken **een pizza** :pizza: voor te stellen. De **noemer** van een breuk vertelt je **in hoeveel stukken** de pizza wordt verdeelt.
+Het is handig om bij breuken **een pizza** :pizza: voor te stellen. De **noemer** van een breuk vertelt je **in hoeveel stukken** de pizza wordt verdeeld.
 De **teller** van een breuk vertelt je dan **hoeveel stukken je neemt/eet** :yum:. 
 
 Zo is de pizza hieronder verdeelt in vier **gelijke** stukken. De *kleine* pizzapunt
