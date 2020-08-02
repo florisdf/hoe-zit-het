@@ -14,10 +14,11 @@ de wiskunde proberen we alles zo kort mogelijk te noteren. Zo leerde je vroeger 
 dat je de som $5 + 5 + 5$ ook kan schrijven als $3 \cdot 5$. In deze les gaan we bekijken 
 hoe we producten zoals $5 \cdot 5 \cdot 5$ korter kunnen schrijven.
 
+> Voor je aan deze les begint, fris je best eerst even de [les over vermenigvuldigen](../rekenen_gehele_getallen) op :wink:!
 ## Wat is een grondtal en een exponent?
 De uitdrukking uit de inleiding kunnen we herschrijven als: 
 
-{{< img "img/terminologie.svg" "Een macht bestaat uit een grondtal en een exponent. In dit voorbeeld is 5 het grondtal en 3 de exponent." >}}
+{{< svg "img/terminologie.svg" "Een macht bestaat uit een grondtal en een exponent. In dit voorbeeld is 5 het grondtal en 3 de exponent." >}}
 
 Om een macht correct op te schrijven, schrijf je
 eerst het grondtal $a$. Vervolgens schrijf je de exponent $n$ iets kleiner
@@ -81,7 +82,9 @@ $$\left( \frac{3}{4} \right) ^2 = \frac{3^2}{4^2} = \frac{9}{16}$$
 In symbolen:
 $$\left( \frac{a}{b} \right) ^n = \frac{a^n}{b^n}$$
 
-Om een **macht van een kommagetal** te berekenen, passen we wederom het **trucje** toe waarbij we de komma wegdenken :mage_man:. Eerst bereken je het **resultaat zonder komma** en vervolgens bepaal je de **plaats van de komma**. Dit doe je door de **exponent** te **vermenigvuldigen** met het **oorspronkelijk aantal cijfers na de komma**.
+Om een **macht van een kommagetal** te berekenen, passen we wederom het **trucje** toe waarbij we de komma wegdenken :mage_man:. 
+
+Eerst bereken je het **resultaat zonder komma** en vervolgens bepaal je de **plaats van de komma**. Dit doe je door de **exponent** te **vermenigvuldigen** met het **oorspronkelijk aantal cijfers na de komma**.
 
 $$0.12^2 \rightarrow 12^2 = 144 \rightarrow 0.0144$$
 
