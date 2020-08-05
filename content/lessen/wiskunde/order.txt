@@ -1,5 +1,6 @@
 rekenen
 verzamelingen
+meetkunde_1
 veeltermen
 functies
 1g_vgl
