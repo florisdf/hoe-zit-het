@@ -98,6 +98,8 @@ Breuken, kommagetallen {{< mute "of decimale vormen" >}} en procenten behoren al
 
 Zoals eerder gezegd is een breuk eigenlijk **een deling**. Wanneer je **1 deelt door 4** ($\frac{1}{4}$) krijg je **0,25** (probeer maar op je rekentoestel als je mij niet vertrouwt :face_with_raised_eyebrow:). Om dit vervolgens om te zetten naar een **procent**, **vermenigvuldig je met 100**. Reken maar eens na voor de andere voorbeelden!
 
+Een **%** wil eigenlijk niets anders zeggen dan **op honderd**. 10% lees je dus als **10 op 100** of $\frac{10}{100}$.
+
 ## Samengevat
 {{< attention "Wat is een breuk?" >}}
 Een breuk bestaat uit een **breukstreep** met daarboven de **teller** en onder de breukstreep staat de **noemer**. Eigenlijk is een breuk gewoon een andere manier om een **deling** te schrijven. De teller is het **deeltal** en de noemer de **deler**.
