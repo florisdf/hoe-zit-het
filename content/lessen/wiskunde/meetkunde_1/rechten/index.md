@@ -7,3 +7,99 @@ description: "In deze les gaan we verder in op rechten. We bekijken nog eens wat
 tags: ["Meetkundige begrippen", "Rechte", "Meetkundige eigenschappen", "Afstanden berekenen"]
 images: []
 ---
+Overal rondom ons zien we **lijnen of rechten**. Sommige snijden elkaar niet en andere wel. In deze les bekijken we de rechten door een wiskundige bril :nerd_face:!
+
+## Wat is een rechte?
+In de [vorige les](../basisbegrippen) hebben we reeds gezien wat een rechte is, maar om volledig te zijn herhaal ik het nog even.
+
+{{< svg "img/rechte.svg" "De rechte a is een lijn die oneindig doorloopt" >}}
+
+Een **rechte of lijn** is een rechte lijn die **oneindig doorloopt**. Het is dus een **oneindige verzameling punten in één richting**. Maar aangezien het onmogelijk is om een rechte oneindig door te trekken, spreken we af dat elke **onbegrensde** {{< mute "(door een punt)" >}} **lijn** een rechte is. Zoals doet vermoeden is een rechte ook steeds een **rechte lijn** en heeft hij geen gebogen stukken.
+
+We kunnen een rechte op twee manieren **benoemen**. Enerzijds **door een kleine letter**, zoals a. Of anderzijds **door twee punten op die rechte**.
+
+{{< svg "img/notatie_rechte.svg" "We kunnen een rechte op twee manieren benoemen. Oftewel met een kleine letter oftewel met twee punten op de rechte." >}}
+
+## Wat is het verschil evenwijdige en snijdende rechten?
+Het verschil tussen een evenwijdige en snijdende rechte is fundamenteel. Het is een verschil zoals dag :sun: en nacht :moon:.
+
+**Evenwijdige rechten** zijn rechten die **geen enkele gemeenschappelijk punt** hebben of rechten die **samenvallen** {{< mute "(alleen maar gemeenschappelijke punten hebben)." >}} We noteren **a // b** of **$a \parallel b$**.
+
+{{< svg "img/evenwijdige_rechten.svg" "Twee evenwijdige rechten vallen oftewel samen of raken elkaar nooit." >}}
+
+**Snijdenden rechten** zijn rechten die **juist één punt gemeenschappelijk** hebben. Dit gemeenschappelijke punt noemen we **het snijpunt**.
+
+{{< svg "img/snijdende_rechten.svg" "Twee snijdende rechten hebben 1 punt gemeenschappelijk. Dit punt noemen we het snijpunt." >}}
+
+Daarnaast bestaat er ook nog iets zoals **kruisende rechten**. Dit zijn rechten die elkaar **noch snijden** en **noch evenwijdig** zijn. We komen deze alleen tegen in een **drie dimensionale ruimte**, dus niet in het vlak (zoals een blaadje papier). Het zijn **rechten die niet in hetzelfde vlak liggen**. We gaan hier verder op in bij de les rond [ruimtefiguren](../figuren).
+
+## Een rechte hoek tussen twee loodrechte dragers
+Als je de [vorige les](../basisbegrippen) goed hebt gelezen, dan weet je dat een drager de rechte is waarop een bepaald lijnstuk, halfrechte, punt... ligt.
+Wanneer twee dragers {{< mute "of rechten" >}} **loodrecht** op elkaar liggen, betekent dit dat ze een **rechte hoek** {{< mute "(90°)" >}} vormen. We noteren **$a \perp b$**. 
+
+{{< svg "img/loodrechte_stand.svg" "Twee rechten die loodrecht op elkaar staan duiden we aan met een speciaal teken. Dit is een kleine rechte hoek in de hoek die 90° is." >}}
+
+Bert is bouwvakker :construction_worker:. Hij is al enkele dagen bezig met het metsen van een muur en wilt nu controleren of hij wel goed bezig is. Staat de muur mooi recht? Zijn materiaal ligt echter beneden en Bert is een beetje lui :sloth:. Hij heeft alleen touw en een klein stukje lood bij zich (zijn geluksbrenger).
+
+Gelukkig heeft Bert altijd opgelet bij **wiskunde en fysica** en weet hij perfect hoe hij hiermee kan controleren of hij goed bezig is :light_bulb:. Weet jij ook hoe je hiermee kan controleren of de muur recht staat?
+
+{{< svg "img/bouwvakker_bert.svg" "Een schietlood werd vroeger gebruikt om te kijke of iets recht stond. Het lood wordt namelijk door de zwaartekracht aangetrokken en maakt hierdoor een rechte hoek met het oppervlak. Als het schietlood dan evenwijdig is met de muur, dan staat de muur mooi recht." >}}
+
+Vermoedelijk komt de benaming *loodrecht* van dit gebruik.
+
+Daarnaast bestaat er **bij een lijnstuk** nog een speciale soort **loodlijn** (dat is een lijn die loodrecht staat op een andere), namelijk de **middelloodlijn.** 
+{{< attention "Middelloodlijn" >}}
+De **middelloodlijn van een lijnstuk** is de rechte die door het midden van dit lijnstuk gaat en loodrecht staat op dit lijnstuk.
+{{< /attention >}}
+
+## Overige eigenschappen
+Voor de volgende eigenschappen neem je er best een **blaadje papier** :page_with_curl: en een **scherp potlood** :pencil: bij! Zo kan je zelf controleren of wat ik zeg correct is en studeer je ondertussen de **eigenschappen** al wat in!
+
+### Overzicht
+
+| Gegevens                            | Eigenschap                                                                                                           |
+|-------------------------------------|----------------------------------------------------------------------------------------------------------------------|
+| rechte a en punt B                  | Door elk punt van het vlak kan je precies één rechte tekenen die evenwijdig is met een gegeven rechte.               |
+| rechte a en punt B                  | Door elk punt van het vlak kan je precies één rechte tekenen die  loodrecht staat op een gegeven rechte.             |
+| $a \parallel b$ en $b \parallel c$  | Als twee rechten evenwijdig zijn met met eenzelfde derde rechte, dan zijn die twee rechten onderling ook evenwijdig. |
+| $a \parallel b$ en $c \nparallel a$ | Als een rechte een van twee evenwijdigen snijdt, dan snijdt ze ook de andere.                                        |
+| $a \perp c$ en $b \perp c$          | Als twee rechten loodrecht op eenzelfde derde rechte staan, dan zijn de rechten onderling evenwijdig.                |
+| $a \perp b$ en $b \parallel c$      | Als een rechte loodrecht staat op een van twee evenwijdige rechten, dan staat ze ook loodrecht op de andere.         |
+
+{{< expand "Euclidische meetkunde" >}}
+De vlakke meetkunde, die het meest besproken wordt in het middelbaar, noemt men soms ook Euclidische meetkunde, naar de grondlegger **Euclides** (4e eeuw v. Chr.). Alle regeltjes in deze Euclidische meetkunde worden afgeleid uit **vijf axioma's of postulaten**. Een soort basisbeginselen waarop al de rest is voortgebouwd :classical_building:.
+
+De eerste eigenschap die hierboven is opgelijst, is het **vijfde postulaat** van de Euclidische meetkunde en dit kan men niet bewijzen. Veel wiskundigen, waaronder Euclides zelf, hebben dit doorheen de tijd proberen te bewijzen, zonder succes. Uiteindelijk was het **Carl Friedrich Gauss** (18e - 19e eeuw), een andere bekende wiskundige, die hieruit concludeerde dat er ook **niet-Euclidische meetkunde** bestond, waarbij het vijfde postulaat niet geldde. Sindsdien zijn er tal van niet-Euclidische meetkundes ontdekt/bestudeerd, zoals de **hyperbolische** en **elliptische** meetkunde :nerd:.
+{{< /expand >}}
+
+## Hoe bereken ik de afstand tussen een punt en een rechte?
+Als we de **afstand** willen meten :straight_ruler: tussen twee objecten, gebruiken we steeds **rechte lijnen**. Dit is de *kortste weg* en wordt dus gebruikt voor afstanden. Maar welke rechte lijn moeten we dan gebruiken om de afstand tussen een punt en een rechte te bepalen :thinking face:? We kunnen zoveel rechte lijnen trekken. Daarom spreken we af om de **loodlijn van de rechte a door het punt B** te gebruiken, dit is immers weer de *kortste weg* :light_bulb:.
+
+{{< svg "img/afstand_punt_rechte.svg" "We bepalen de afstand tussen een rechte a en een punt B als de lengte van de loodlijn van de rechte a door het punt B" >}}
+
+## Samengevat
+{{< attention "Wat is een rechte?" >}}
+Een **rechte of lijn** is een rechte lijn die **oneindig doorloopt**. We benoemen een rechte door een **kleine letter**, zoals a of **door twee punten op die rechte**.
+{{< /attention >}}
+
+{{< attention "Snijdende, kruisende en evenwijdige rechten" >}}
+**Snijdenden rechten** zijn rechten die **juist één punt gemeenschappelijk** hebben. Dit gemeenschappelijke punt noemen we **het snijpunt**.
+
+**Evenwijdige rechten** zijn rechten die **geen enkele gemeenschappelijk punt** hebben of rechten die **samenvallen**.
+
+Zowel snijdende als evenwijdige rechten liggen **in hetzelfde vlak**. Dit in tegenstelling tot **kruisende rechten**, die **niet in hetzelfde vlak** liggen.
+{{< /attention >}}
+
+{{< attention "Overige eigenschappen" >}}
+Er zijn nog enkele belangrijke eigenschappen (probeer ze uit door ze te tekenen!):
+1. Door elk punt van het vlak kan je precies één rechte tekenen die evenwijdig is met een gegeven rechte.
+2. Door elk punt van het vlak kan je precies één rechte tekenen die  loodrecht staat op een gegeven rechte.
+3. Als twee rechten evenwijdig zijn met met eenzelfde derde rechte, dan zijn die twee rechten onderling ook evenwijdig.
+4. Als een rechte een van twee evenwijdigen snijdt, dan snijdt ze ook de andere.
+5. Als twee rechten loodrecht op eenzelfde derde rechte staan, dan zijn de rechten onderling evenwijdig.
+6. Als een rechte loodrecht staat op een van twee evenwijdige rechten, dan staat ze ook loodrecht op de andere.
+{{< /attention >}}
+
+{{< attention "Afstand tussen een punt en een rechte" >}}
+We bepalen de afstand tussen **een rechte a** en een **punt B** als **de lengte van de loodlijn** van de **rechte a** door het **punt B**.
+{{< /attention >}}
