@@ -40,6 +40,8 @@ Anders gezegd ga je eerst **twee sprongen naar links** en vervolgens nog eens **
 
 ## Gehele getallen van elkaar aftrekken
 
+De onderdelen van een aftrekking noemen we, net als bij een optelling, de **termen**. Tussen die termen noteren we een **minteken** en de uitkomst van de aftrekking is het **verschil**.
+
 {{< svg "img/aftrekking.svg" "Een aftrekking bestaat uit termen die als resultaat een verschil geven. We gebruiken het minteken." >}}
 
 Een geheel getal aftrekken van een ander geheel getal betekent hetzelfde als zijn tegengestelde erbij optellen. Dus we kunnen
