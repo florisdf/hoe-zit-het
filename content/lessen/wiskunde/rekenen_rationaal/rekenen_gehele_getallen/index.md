@@ -74,7 +74,7 @@ Een vermenigvuldiging is eigenlijk een manier om een **optelling van dezelfde ge
 
 $$10 \cdot \orange{2} = \underbrace{10 + 10}_{\orange{2}\ \text{keer}} = 20$$
 
-Welk teken denk je dat $3 \cdot (-2)$ zal hebben? Als je dit uitschrijft zoals hierboven, kan je dit makkelijk te weten komen!
+Een eenvoudige vermenigvuldiging als $10 \cdot 2$ heb je wellicht al enkele jaren geleden leren oplossen. Welk teken denk je dat $3 \cdot (-2)$ zal hebben? Als je dit uitschrijft zoals hierboven, kan je dit snel te weten komen!
 
 $$\orange{3} \cdot (-2) = \underbrace{(-2) + (-2) + (-2)}_{\orange{3}\ \text{keer}} = -6$$
 
