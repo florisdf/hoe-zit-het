@@ -101,6 +101,8 @@ de uitkomst **positief** is. Als er een **oneven aantal negatieve factoren** zij
 
 ## Gehele getallen delen
 
+Een deling bestaat uit een **deeltal** die we moeten delen door een **deler**. Het resultaat van een deling noemen we het **quotiënt**.
+
 {{< svg "img/deling.svg" "Een deling bestaat uit een deeltal en een deler die als resultaat een quotiënt geven. We gebruiken het deelteken." >}}
 
 Een deling is eigenlijk het omgekeerde van een vermenigvuldiging.
