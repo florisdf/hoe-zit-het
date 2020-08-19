@@ -14,8 +14,7 @@ images: ['/lessen/wiskunde/rekenen_rationaal/rekenen_gehele_getallen/img/optelli
 '/lessen/wiskunde/rekenen_rationaal/rekenen_gehele_getallen/img/optelling_met_negatieve_getallen.png']
 ---
 Om later moeilijke berekeningen succesvol op te kunnen lossen, is het belangrijk dat we eerst leren **rekenen met gehele getallen**. Moeilijkere bewerkingen en concepten, 
-zoals machten en vierkantswortels, bouwen hier namelijk op voort. We kunnen ook zeggen dat we werken in $\mathbb{Z}$,
-de verzameling van de gehele getallen.
+zoals machten en vierkantswortels, bouwen namelijk voort op de bewerkingen van gehele getallen. Als symbool voor "de verzameling van de gehele getallen" gebruiken we $\mathbb{Z}$. Daarom zeggen we ook wel "rekenen in $\mathbb{Z}$" in plaats van "rekenen met gehele getallen".
 
 ## Gehele getallen bij elkaar optellen
 
