@@ -20,8 +20,8 @@ zoals machten en vierkantswortels, bouwen namelijk voort op de bewerkingen van g
 
 {{< svg "img/optelling.svg" "Een optelling bestaat uit termen die als resultaat een som geven. We gebruiken het plusteken." >}}
 
-Een optelling kunnen we visueel voorstellen op een **getallenas**. Wanneer je **drie sprongen naar rechts** gaat en je daarna nog eens
-**twee sprongen naar rechts** gaat, heb je in totaal **vijf sprongen naar rechts** gezet. We kunnen dit schrijven als de som $3 + 2 = 5$.
+Een optelling kunnen we visueel voorstellen op een **getallenas**. We beginnen op de $0$ van de getallenas en telkens we een optelling tegenkomen, zetten we een aantal stappen. Wanneer je bv. vanaf de $0$ **drie stappen naar rechts** gaat en je daarna nog eens
+**twee stappen naar rechts** gaat, kom je uit op de $5$ van de getallenas. We kunnen dit schrijven als de som $3 + 2 = 5$.
 
 {{< svg "img/optelling_getallenas.svg" "De optelling met twee positieve getallen, weergegeven op een getallenas" >}}
 
