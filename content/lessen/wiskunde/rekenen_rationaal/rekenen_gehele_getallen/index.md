@@ -39,7 +39,7 @@ Anders gezegd ga je eerst **twee stappen naar links** en vervolgens nog eens **d
 
 {{< svg "img/optelling_negatieve_getallen.svg" "De optelling met twee negatieve getallen, weergegeven op een getallenas." >}}
 
-## Gehele getallen van elkaar aftrekken
+## Natuurlijke getallen van elkaar aftrekken
 
 {{< svg "img/aftrekking.svg" "Een aftrekking bestaat uit termen die als resultaat een verschil geven. We gebruiken het minteken." >}}
 
