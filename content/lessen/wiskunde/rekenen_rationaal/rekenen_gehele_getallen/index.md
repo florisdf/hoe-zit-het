@@ -68,6 +68,8 @@ nogmaals omdraait en dan **vier stappen (naar rechts)** zet.
 
 ## Gehele getallen vermenigvuldigen
 
+De onderdelen van een vermenigvuldiging noemen we de **factoren**. Tussen de factoren noteren we een **maalteken** en de uitkomst van de vermenigvuldiging is het **product**.
+
 {{< svg "img/vermenigvuldiging.svg" "Een vermenigvuldiging bestaat uit factoren die als resultaat een product geven. We gebruiken het maalteken." >}}
 
 Een vermenigvuldiging is eigenlijk een manier om een **optelling van dezelfde getallen korter** te schrijven.
