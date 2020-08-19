@@ -14,15 +14,14 @@ images: ['/lessen/wiskunde/rekenen_rationaal/rekenen_gehele_getallen/img/optelli
 '/lessen/wiskunde/rekenen_rationaal/rekenen_gehele_getallen/img/optelling_met_negatieve_getallen.png']
 ---
 Om later moeilijke berekeningen succesvol op te kunnen lossen, is het belangrijk dat we eerst leren **rekenen met gehele getallen**. Moeilijkere bewerkingen en concepten, 
-zoals machten en vierkantswortels, bouwen hier namelijk op voort. We kunnen ook zeggen dat we werken in $\mathbb{Z}$,
-de verzameling van de gehele getallen.
+zoals machten en vierkantswortels, bouwen namelijk voort op de bewerkingen van gehele getallen. Als symbool voor "de verzameling van de gehele getallen" gebruiken we $\mathbb{Z}$. Daarom zeggen we ook wel "rekenen in $\mathbb{Z}$" in plaats van "rekenen met gehele getallen".
 
 ## Gehele getallen bij elkaar optellen
 
 {{< svg "img/optelling.svg" "Een optelling bestaat uit termen die als resultaat een som geven. We gebruiken het plusteken." >}}
 
-Een optelling kunnen we visueel voorstellen op een **getallenas**. Wanneer je **drie stappen naar rechts** gaat en je daarna nog eens
-**twee stappen naar rechts** gaat, heb je in totaal **vijf stappen naar rechts** gezet. We kunnen dit schrijven als de som $3 + 2 = 5$.
+Een optelling kunnen we visueel voorstellen op een **getallenas**. We beginnen op de $0$ van de getallenas en telkens we een optelling tegenkomen, zetten we een aantal stappen. Wanneer je bv. vanaf de $0$ **drie stappen naar rechts** gaat en je daarna nog eens
+**twee stappen naar rechts** gaat, kom je uit op de $5$ van de getallenas. We kunnen dit schrijven als de som $3 + 2 = 5$.
 
 {{< svg "img/optelling_getallenas.svg" "De optelling met twee positieve getallen, weergegeven op een getallenas" >}}
 
@@ -41,6 +40,8 @@ Anders gezegd ga je eerst **twee stappen naar links** en vervolgens nog eens **d
 
 ## Natuurlijke getallen van elkaar aftrekken
 
+De onderdelen van een aftrekking noemen we, net als bij een optelling, de **termen**. Tussen die termen noteren we een **minteken** en de uitkomst van de aftrekking is het **verschil**.
+
 {{< svg "img/aftrekking.svg" "Een aftrekking bestaat uit termen die als resultaat een verschil geven. We gebruiken het minteken." >}}
 
 Een geheel getal aftrekken van een ander geheel getal betekent hetzelfde als zijn tegengestelde erbij optellen. Dus we kunnen
@@ -48,7 +49,9 @@ het voorbeeld herschrijven als:
 
 $$10 + (-2) = 8$$
 
-Merk op dat we $-2$ tussen haakjes hebben geschreven. Dit doen we om verwarring te voorkomen. We tellen het getal $-2$ op bij $10$.
+Merk op dat we $-2$ tussen haakjes hebben geschreven. Dit doen we omdat "$10 + - 2$" nogal verwarrend en slordig is.
+
+$10 - 2$ is dus hetzelfde als $10 + (-2)$, of: "zet tien sprongen naar rechts en twee naar links". Dan komen we inderdaad uit op $8$!
 
 ### Wat te doen met verschillende tekens?
 Soms kom je uitdrukking tegens zoals $2 -(-4))$. Wat moet je doen met al deze tekens en hoe bepaal je de uitkomst? Daarvoor kan je je best een persoon
@@ -65,13 +68,15 @@ nogmaals omdraait en dan **vier stappen (naar rechts)** zet.
 
 ## Gehele getallen vermenigvuldigen
 
+De onderdelen van een vermenigvuldiging noemen we de **factoren**. Tussen de factoren noteren we een **maalteken** en de uitkomst van de vermenigvuldiging is het **product**.
+
 {{< svg "img/vermenigvuldiging.svg" "Een vermenigvuldiging bestaat uit factoren die als resultaat een product geven. We gebruiken het maalteken." >}}
 
 Een vermenigvuldiging is eigenlijk een manier om een **optelling van dezelfde getallen korter** te schrijven.
 
 $$10 \cdot \orange{2} = \underbrace{10 + 10}_{\orange{2}\ \text{keer}} = 20$$
 
-Welk teken denk je dat $3 \cdot (-2)$ zal hebben? Als je dit uitschrijft zoals hierboven, kan je dit makkelijk te weten komen!
+Een eenvoudige vermenigvuldiging als $10 \cdot 2$ heb je wellicht al enkele jaren geleden leren oplossen. Welk teken denk je dat $3 \cdot (-2)$ zal hebben? Als je dit uitschrijft zoals hierboven, kan je dit snel te weten komen!
 
 $$\orange{3} \cdot (-2) = \underbrace{(-2) + (-2) + (-2)}_{\orange{3}\ \text{keer}} = -6$$
 
@@ -95,6 +100,8 @@ de uitkomst **positief** is. Als er een **oneven aantal negatieve factoren** zij
 > Nog niet overtuigd :thinking_face:? Bekijk de alinea *Wat te doen met verschillende tekens?* nog eens grondig!
 
 ## Gehele getallen delen
+
+Een deling bestaat uit een **deeltal** die we moeten delen door een **deler**. Het resultaat van een deling noemen we het **quotiënt**.
 
 {{< svg "img/deling.svg" "Een deling bestaat uit een deeltal en een deler die als resultaat een quotiënt geven. We gebruiken het deelteken." >}}
 
