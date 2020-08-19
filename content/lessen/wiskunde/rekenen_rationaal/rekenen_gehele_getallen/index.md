@@ -13,7 +13,7 @@ images: ['/lessen/wiskunde/rekenen_rationaal/rekenen_gehele_getallen/img/optelli
 '/lessen/wiskunde/rekenen_rationaal/rekenen_gehele_getallen/img/vermenigvuldiging.png', '/lessen/wiskunde/rekenen_rationaal/rekenen_gehele_getallen/img/deling.png',
 '/lessen/wiskunde/rekenen_rationaal/rekenen_gehele_getallen/img/optelling_met_negatieve_getallen.png']
 ---
-Om moeilijke berekeningen succesvol op te lossen, is het belangrijk dat we kunnen **rekenen met gehele getallen**. Moeilijkere bewerkingen en concepten, 
+Om later moeilijke berekeningen succesvol op te kunnen lossen, is het belangrijk dat we eerst leren **rekenen met gehele getallen**. Moeilijkere bewerkingen en concepten, 
 zoals machten en vierkantswortels, bouwen hier namelijk op voort. We kunnen ook zeggen dat we werken in $\mathbb{Z}$,
 de verzameling van de gehele getallen.
 
