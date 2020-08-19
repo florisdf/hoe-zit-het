@@ -47,7 +47,9 @@ het voorbeeld herschrijven als:
 
 $$10 + (-2) = 8$$
 
-Merk op dat we $-2$ tussen haakjes hebben geschreven. Dit doen we om verwarring te voorkomen. We tellen het getal $-2$ op bij $10$.
+Merk op dat we $-2$ tussen haakjes hebben geschreven. Dit doen we omdat "$10 + - 2$" nogal verwarrend en slordig is.
+
+$10 - 2$ is dus hetzelfde als $10 + (-2)$, of: "zet tien sprongen naar rechts en twee naar links". Dan komen we inderdaad uit op $8$!
 
 ### Wat te doen met verschillende tekens?
 Soms kom je uitdrukking tegens zoals $2 -(-4))$. Wat moet je doen met al deze tekens en hoe bepaal je de uitkomst? Daarvoor kan je je best een persoon
