@@ -18,7 +18,9 @@ Een breuk bestaat uit een **teller** en een **noemer**. Tussen de teller en noem
 
 {{< svg "img/terminologie.svg" "Een breuk bestaat uit een breukstreep met daarboven de teller. Onder de breukstreep staat de noemer." >}}
 
-De **teller** *telt* het aantal delen dat je neemt. De **noemer** *benoemd* hoe groot het deel is :exploding_head:. Je kan onthouden: de **t**eller staat aan de **t**op! 
+De **teller** *telt* het aantal stukken dat je neemt. De **noemer** *benoemd* in hoeveel stukken we de taart hebben verdeeld. In de breuk $\frac{3}{4}$ is de teller $3$ en de noemer $4$. Dat betekent dat we de taart in $4$ stukken hebben verdeeld en we daar $3$ stukken van nemen.
+
+Een trucje om de teller en noemer te onthouden: de **t**eller staat aan de **t**op! 
 
 | Je schrijft       | Je leest het als               |
 |-------------------|--------------------------------|
