@@ -21,7 +21,7 @@ De uitdrukking uit de inleiding kunnen we herschrijven als:
 {{< svg "img/terminologie.svg" "Een macht bestaat uit een grondtal en een exponent. In dit voorbeeld is 5 het grondtal en 3 de exponent." >}}
 
 Om een macht correct op te schrijven, schrijf je
-eerst het grondtal $a$. Vervolgens schrijf je de exponent $n$ iets kleiner
+eerst het **grondtal** $a$. Vervolgens schrijf je de **exponent** $n$ iets kleiner
 en rechtsboven het grondtal.
 
 $$ a^n $$

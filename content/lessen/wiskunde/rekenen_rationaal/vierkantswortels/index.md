@@ -15,7 +15,7 @@ Net zoals de deling het omgekeerde is van de vermenigvuldiging, zijn **wortels**
 {{< svg "img/terminologie.svg" "Een macht bestaat uit een grondtal en een exponent. In dit voorbeeld is 5 het grondtal en 3 de exponent." >}}
 
 
-Een wortelteken schrijf je zoals een *V*, maar dan met een streepje links aan het begin en een grote streep boven de bewerking waarvan
+Een **wortelteken** schrijf je zoals een *V*, maar dan met een streepje links aan het begin en een grote streep boven de bewerking waarvan
 je de wortel neemt.
 
 Een **vierkantswortel** is een **speciale wortel**. Het wordt ook de **tweedemachtswortel** genoemd en is dus precies het omgekeerde van een **tweede macht** of **kwadraat**. Voor de rest van de les focussen we op deze (vierkants)wortel en laten we alle andere wortels {{< mute "zoals derdemachtswortels of achtstemachtswortels" >}} buiten beschouwing.
