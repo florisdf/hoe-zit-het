@@ -22,7 +22,10 @@ De **teller** *telt* het aantal delen dat je neemt. De **noemer** *benoemd* hoe 
 
 | Je schrijft       | Je leest het als               |
 |-------------------|--------------------------------|
-| $\frac{a}{b}$     | a over b                       |
+| $\frac{3}{4}$     | drie vierde |
+| $\frac{1}{8}$     | één achtste |
+| $\frac{5}{4}$     | vijf vierde  |
+| $\frac{2}{3}$     | twee derde |
 
 ## Hoe werkt een breuk?
 Het is handig om bij breuken **een pizza** :pizza: voor te stellen. De **noemer** van een breuk vertelt je **in hoeveel stukken** de pizza wordt verdeeld.
