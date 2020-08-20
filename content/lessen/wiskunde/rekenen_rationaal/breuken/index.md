@@ -10,6 +10,8 @@ description: "In deze les zoeken we uit wat een breuk precies is."
 Je bent op een feestje met acht personen en het is tijd voor de taart :birthday:. Iedereen wil uiteraard een even groot
 stuk van de taart, dus wordt hij in acht gelijke stukken gesneden :cake:. Iedereen krijgt dus één achtste of $\frac{1}{8}$ van de taart.
 
+Zoals je wellicht al weet, noemen we die $\frac{1}{8}$ een **breuk**. In deze les leggen we uit wat zo'n breuk weer precies is en in welke vormen een breuk zoal kan voorkomen.
+
 ## Waar staat de teller?
 
 {{< svg "img/terminologie.svg" "Een breuk bestaat uit een breukstreep met daarboven de teller. Onder de breukstreep staat de noemer." >}}
