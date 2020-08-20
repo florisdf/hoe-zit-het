@@ -91,7 +91,7 @@ Een andere soort breuken die we vaak tegenkomen zijn de **gelijknamige breuken**
 
 $$\frac{2}{\green{5}}, \frac{8}{\green{5}}, \frac{25}{\green{5}}$$
 
-Laten we het laatste voorbeeld nog eens van dichterbij bekijken :mag_right:. We kunnen $\frac{25}{5}$ namelijk ook schrijven als $\frac{5}{1}$ {{< mute "of simpelweg als 5." >}} Als we dit doen is de breuk **niet meer gelijknamig** met de anderen, want de **noemer is verandert**. 
+Laten we het laatste voorbeeld nog eens van dichterbij bekijken :mag_right:. We kunnen $\frac{25}{5}$ namelijk ook schrijven als $\frac{5}{1}$ {{< mute "of simpelweg als 5." >}} Als we dit doen is de breuk **niet meer gelijknamig** met de anderen, want de **noemer is veranderd**. 
 
 Omgekeerd kunnen we ook **een breuk gelijknamig maken**. Hoe we dit doen en waarom we dit gebruiken kan je lezen in de les over [het optellen en aftrekken van breuken en kommagetallen](../optellen_aftrekken).
 
