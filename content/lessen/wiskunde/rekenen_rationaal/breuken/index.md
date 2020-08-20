@@ -14,6 +14,8 @@ Zoals je wellicht al weet, noemen we die $\frac{1}{8}$ een **breuk**. In deze le
 
 ## Waar staat de teller?
 
+Een breuk bestaat uit een **teller** en een **noemer**. Tussen de teller en noemer trekken we een **breukstreep**.
+
 {{< svg "img/terminologie.svg" "Een breuk bestaat uit een breukstreep met daarboven de teller. Onder de breukstreep staat de noemer." >}}
 
 De **teller** *telt* het aantal delen dat je neemt. De **noemer** *benoemd* hoe groot het deel is :exploding_head:. Je kan onthouden: de **t**eller staat aan de **t**op! 
