@@ -75,7 +75,7 @@ Het is dus duidelijk dat we **geen eenduidige oplossing** hebben wanneer we **de
 ## Gelijkwaardige en gelijknamige breuken
 Er bestaan verschillende **speciale breuken** die hun eigen naam hebben gekregen.
 
-Sommige breuken zien er anders uit, maar betekenen eigenlijk hetzelde. Zo'n breuken noemen we **gelijkwaardige breuken**. Of ze nu zeggen dat je $\frac{1}{2}$ van de pizza krijgt of $\frac{2}{4}$, uiteindelijk zal je dezelfde hoeveelheid pizza kunnen eten. We kunnen namelijk zowel de teller als de noemer van $\frac{2}{4}$ **delen door {{< class "2" "orange" >}}**. Dan krijgen we $\frac{1}{2}$.
+Sommige breuken zien er anders uit, maar zijn eigenlijk gelijk aan elkaar. Zulke breuken noemen we **gelijkwaardige breuken**. Of ze nu zeggen dat je $\frac{1}{2}$ van de pizza krijgt of $\frac{2}{4}$, uiteindelijk zal je dezelfde hoeveelheid pizza kunnen eten. We kunnen namelijk zowel de teller als de noemer van $\frac{2}{4}$ **delen door {{< class "2" "orange" >}}**. Dan krijgen we $\frac{1}{2}$.
 
 $$\frac{\frac{2}{\orange{2}}}{\frac{4}{\orange{2}}} = \frac{1}{2}$$
 
