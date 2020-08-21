@@ -9,7 +9,7 @@
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    inkscape:export-ydpi="96"
    inkscape:export-xdpi="96"
-   inkscape:export-filename="/home/fdf/hugo/hoezithet/content/lessen/drawing.png"
+   inkscape:export-filename="D:\Hoe Zit Het\hoezithet\content\lessen\wiskunde\meetkunde_1\hoeken\img\ski_slope.png"
    sodipodi:docname="ski_slope.svg"
    inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
    id="svg4623"
@@ -40,9 +40,9 @@
      showgrid="false"
      inkscape:current-layer="layer3"
      inkscape:document-units="px"
-     inkscape:cy="549.38183"
-     inkscape:cx="959.42104"
-     inkscape:zoom="0.45254834"
+     inkscape:cy="703.64282"
+     inkscape:cx="850.12443"
+     inkscape:zoom="0.64"
      inkscape:pageshadow="2"
      inkscape:pageopacity="1"
      borderopacity="1.0"
@@ -98,7 +98,7 @@
      inkscape:groupmode="layer">
     <path
        style="fill:#738698;fill-opacity:1;stroke-width:1"
-       d="m 1733.0742,1096.5382 c 2.199,-3.6945 4.4201,-7.29 6.6191,-11.0286 91.7789,-155.10165 176.3562,-344.0583 310.0936,-506.91178 l -43.256,-41.81567 -181.7549,-23.7062 -23.8491,-87.57866 -265.1551,-58.38582 -283.0666,116.77163 89.3819,-266.35362 128.1082,-83.91718 128.1407,-83.928211 124.3914,-27.367668 192.2002,205.229919 145.25,-50.17218 154.9367,87.56767 43.9926,121.20275 c 18.3846,-12.20492 37.5059,-23.80511 57.2973,-34.81154 L 2293.0058,270.58252 2108.6346,96.425702 1955.7096,144.97061 1844.9309,39.436361 1717.4717,-71.122829 1596.9395,-46.537017 1456.6269,56.556257 1343.2749,96.227799 1117.5494,566.118 879.99278,686.74898 697.24866,808.80937 526.24738,1032.8304 h -55.32891 l 167.92224,-219.97469 -58.03363,-18.8572 -89.38206,-60.21104 -129.62555,82.09197 -186.92241,-62.03629 3.68348,-20.06668 116.21096,16.42721 147.47087,-147.76775 236.87475,-120.41106 165.37153,76.61623 71.9323,60.25502 78.9689,-40.1114 L 734.25921,370.729 466.0914,502.06955 233.6585,684.58288 -76.22589,633.49803 -243.09286,794.0425 l -230.93715,238.821 h -44.83942 v 63.6857 H 422.2965 1733.0742 Z"
+       d="m 1693.2994,1180.5072 c 2.199,-3.6945 4.4201,-7.29 6.6191,-11.0286 91.7789,-155.1017 176.3562,-344.05837 310.0936,-506.91185 l -43.256,-41.81567 -181.7549,-23.7062 -23.8491,-87.57866 -265.1551,-58.38582 -283.0666,116.77163 89.3819,-266.35362 128.1082,-83.91718 128.1407,-83.92821 124.3914,-27.36767 192.2002,205.22992 145.25,-50.17218 154.9367,87.56767 43.9926,121.20275 c 18.3846,-12.20492 37.5059,-23.80511 57.2973,-34.81154 L 2253.231,354.55145 2068.8598,180.39463 1915.9348,228.93954 1805.1561,123.40529 1677.6969,12.846101 1557.1647,37.431913 1416.8521,140.52518 1303.5001,180.19673 1077.7746,650.08693 840.21802,770.71791 657.4739,892.7783 486.47262,1116.7994 H 431.14371 L 599.06595,896.82464 541.03232,877.96744 451.65026,817.7564 322.02471,899.84837 135.1023,837.81208 138.78578,817.7454 254.99674,834.17261 402.46761,686.40486 639.34236,565.9938 l 165.37153,76.61623 71.9323,60.25502 78.9689,-40.1114 L 694.48445,454.69793 426.31664,586.03848 193.88374,768.55181 -116.00065,717.46696 -282.86762,878.01143 -513.80477,1116.8325 h -44.83942 v 63.6857 H 382.52174 1693.2994 Z"
        id="path2" />
   </g>
   <g
@@ -107,9 +107,9 @@
      inkscape:groupmode="layer">
     <polygon
        id="polygon2"
-       points="357.666,271.121 357.666,160.121 0,265.121 0,271.121 "
-       transform="matrix(-5.3679412,0,0,5.3679412,1920.0835,-373.13018)"
-       style="fill:#f6fffe;stroke-width:0.186291" />
+       points="0,271.121 357.666,271.121 357.666,160.121 0,265.121 "
+       transform="matrix(-5.3832313,0,0,5.3679412,1920.3597,-372.85397)"
+       style="fill:#f4f4f4;fill-opacity:1;stroke-width:0.186026" />
     <g
        transform="translate(229.6875,67.1875)"
        id="g1629">
@@ -164,7 +164,7 @@
     </g>
     <g
        style="stroke-width:0.685419"
-       transform="matrix(1.4589608,0,0,1.4589608,240.16653,-312.02868)"
+       transform="matrix(1.4589608,0,0,1.4589608,226.10403,-316.71618)"
        id="g1587">
       <path
          fill-rule="evenodd"
@@ -179,8 +179,10 @@
          sodipodi:nodetypes="cccccscc" />
     </g>
     <g
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
        style="stroke-width:0.548971"
-       transform="matrix(1.821589,0,0,1.821589,402.54104,97.806795)"
+       transform="matrix(1.821589,0,0,1.821589,455.57405,128.74272)"
        id="g1481">
       <path
          style="stroke-width:0.548971"
@@ -271,6 +273,23 @@
          d="m 240.02961,657.66455 c -6.62913,-2.76213 -8.28641,-8.0102 -8.28641,-8.0102 -10.49612,16.0204 -23.75436,17.67768 -23.75436,17.67768 0,-6.62912 -9.11505,-19.61117 -9.11505,-19.61117 v 66.73227 c 0,0 0.94631,17.15036 18.60668,19.23828 19.82422,2.34375 22.46094,-19.14063 22.46094,-19.14063 z"
          id="path1572-1" />
     </g>
+    <text
+       transform="matrix(0.97977213,0.40926122,-0.40926122,0.97977213,324.57818,-97.533781)"
+       id="text1637"
+       y="79.549515"
+       x="930.69196"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:Quicksand;-inkscape-font-specification:Quicksand;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:end;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:end;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;opacity:1;vector-effect:none;fill:#353535;fill-opacity:1;stroke-width:0.941785;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000;stop-opacity:1;"
+       xml:space="preserve"><tspan
+         style="stroke-width:0.941785;fill:#353535;fill-opacity:1;"
+         id="tspan1639"
+         y="79.549515"
+         x="930.69196"
+         sodipodi:role="line">Hoe groter de hellingshoek,</tspan><tspan
+         style="stroke-width:0.941785;fill:#353535;fill-opacity:1;"
+         id="tspan1643"
+         y="129.54951"
+         x="930.69196"
+         sodipodi:role="line">hoe steiler de helling.</tspan></text>
   </g>
   <g
      style="display:inline"
