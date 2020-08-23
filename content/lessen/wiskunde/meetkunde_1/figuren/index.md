@@ -9,7 +9,7 @@ images: []
 ---
 Tot nu toe hebben we het vooral over vlakke meetkunde gehad. Meetkunde die zich afspeelt op een blaadje papier :memo:. Maar wij leven niet in een vlakke wereld, wij leven in een wereld vol diepte. Wij leven in een **driedimensionele wereld** :seedling::elephant::standing_person:.
 
-Overal rondom ons zien we **ruimtefiguren** en dat is waar de het deze les over gaan hebben.
+Overal rondom ons zien we **ruimtefiguren** en dat is waar we het deze les over gaan hebben.
 
 ## Het verschil tussen 2D en 3D
 De **vlakke meetkunde** speelt zich af in **twee dimensies**, terwijl de **ruimtemeetkunde** zich afspeelt in **drie dimensies**. Zo'n dimensie moet je zien als een richting waarin je kunt meten. Bij twee dimensies wordt dit **lengte en breedte** en bij drie dimensies komt er ook nog **hoogte** bij. Om **een punt in een vlak** te beschrijven heb je slechts **2 coördinaten** nodig, eentje voor elke richting. En je kunt het al raden :thought_balloon:: **in een ruimte** (drie dimensies) heb je **3 coördinaten** nodig :exploding_head:.
