@@ -14,7 +14,7 @@ Een **punt** is het kleinste *deeltje* in de meetkunde. We stellen dit voor met 
 
 {{< svg "img/punt.svg" "Het punt P">}}
 
-Een **vlak** (vaak aangeduid als 'het vlak $\pi$'), waar de **vlakke of tweedimensionale meetkunde** zich afspeelt, is een verzameling van een oneindig aantal punten. Het zet zich **{{< class "oneindig" "blue" >}}** voort in **2 richtingen: lengte en breedte**. Je kan het vergelijken met een blaadje papier. Alles wat op het papier staat, ligt in een vlak. Een **ruimte** daarentegen, die zet zich in **3 richtingen** voort, namelijk **lengte, breedte en hoogte**. Dat is hoe wij naar de wereld kijken. Alles rondom ons kunnen we beschrijven met een lengte, breedte en hoogte of in **drie dimensies**.
+Een **vlak** (vaak aangeduid als 'het vlak $\pi$' of met een andere Griekse letter), waar de **vlakke of tweedimensionale meetkunde** zich afspeelt, is een verzameling van een oneindig aantal punten. Het zet zich **{{< class "oneindig" "blue" >}}** voort in **2 richtingen: lengte en breedte**. Je kan het vergelijken met een blaadje papier. Alles wat op het papier staat, ligt in een vlak. Een **ruimte** daarentegen, die zet zich in **3 richtingen** voort, namelijk **lengte, breedte en hoogte**. Dat is hoe wij naar de wereld kijken. Alles rondom ons kunnen we beschrijven met een lengte, breedte en hoogte of in **drie dimensies**.
 
 {{< svg "img/vlak.svg" "Het vlak pi bestaat uit een oneindig aantal punten" >}}
 
