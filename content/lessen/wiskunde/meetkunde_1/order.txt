@@ -4,5 +4,6 @@ hoeken
 figuren
 driehoeken
 vierhoeken
+cirkels
 omtrek
 oppervlakte
