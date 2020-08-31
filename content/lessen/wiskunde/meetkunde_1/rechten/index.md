@@ -7,7 +7,7 @@ description: "In deze les gaan we verder in op rechten. We bekijken nog eens wat
 tags: ["Meetkundige begrippen", "Rechte", "Meetkundige eigenschappen", "Afstanden berekenen"]
 images: []
 ---
-Overal rondom ons zien we **lijnen of rechten**. Sommige snijden elkaar niet en andere wel. In deze les bekijken we de rechten door een wiskundige bril :nerd_face:!
+Overal rondom ons zien we **lijnen of rechten**. Sommige snijden elkaar niet en andere wel. In deze les bekijken we de rechten door een wiskundige bril! :nerd_face:
 
 ## Wat is een rechte?
 In de [vorige les](../basisbegrippen) hebben we reeds gezien wat een rechte is, maar om volledig te zijn herhaal ik het nog even.
@@ -39,9 +39,9 @@ Wanneer twee dragers {{< mute "of rechten" >}} **loodrecht** op elkaar liggen, b
 
 {{< svg "img/loodrechte_stand.svg" "Twee rechten die loodrecht op elkaar staan duiden we aan met een speciaal teken. Dit is een kleine rechte hoek in de hoek die 90° is." >}}
 
-Bert is bouwvakker :construction_worker:. Hij is al enkele dagen bezig met het metsen van een muur en wilt nu controleren of hij wel goed bezig is. Staat de muur mooi recht? Zijn materiaal ligt echter beneden en Bert is een beetje lui :sloth:. Hij heeft alleen touw en een klein stukje lood bij zich (zijn geluksbrenger).
+Bert is bouwvakker. :construction_worker: Hij is al enkele dagen bezig met het metsen van een muur en wilt nu controleren of hij wel goed bezig is. Staat de muur mooi recht? Zijn materiaal ligt echter beneden en Bert is een beetje lui. :sloth: Hij heeft alleen touw en een klein stukje lood bij zich (zijn geluksbrenger).
 
-Gelukkig heeft Bert altijd opgelet bij **wiskunde en fysica** en weet hij perfect hoe hij hiermee kan controleren of hij goed bezig is :light_bulb:. Weet jij ook hoe je hiermee kan controleren of de muur recht staat?
+Gelukkig heeft Bert altijd opgelet bij **wiskunde en fysica** en weet hij perfect hoe hij hiermee kan controleren of hij goed bezig is. :light_bulb: Weet jij ook hoe je hiermee kan controleren of de muur recht staat?
 
 {{< svg "img/bouwvakker_bert.svg" "Een schietlood werd vroeger gebruikt om te kijke of iets recht stond. Het lood wordt namelijk door de zwaartekracht aangetrokken en maakt hierdoor een rechte hoek met het oppervlak. Als het schietlood dan evenwijdig is met de muur, dan staat de muur mooi recht." >}}
 
@@ -67,13 +67,13 @@ Voor de volgende eigenschappen neem je er best een **blaadje papier** :page_with
 | $a \perp b$ en $b \parallel c$      | Als een rechte loodrecht staat op een van twee evenwijdige rechten, dan staat ze ook loodrecht op de andere.         |
 
 {{< expand "Euclidische meetkunde" >}}
-De vlakke meetkunde, die het meest besproken wordt in het middelbaar, noemt men soms ook Euclidische meetkunde, naar de grondlegger **Euclides** (4e eeuw v. Chr.). Alle regeltjes in deze Euclidische meetkunde worden afgeleid uit **vijf axioma's of postulaten**. Een soort basisbeginselen waarop al de rest is voortgebouwd :classical_building:.
+De vlakke meetkunde, die het meest besproken wordt in het middelbaar, noemt men soms ook Euclidische meetkunde, naar de grondlegger **Euclides** (4e eeuw v. Chr.). Alle regeltjes in deze Euclidische meetkunde worden afgeleid uit **vijf axioma's of postulaten**. Een soort basisbeginselen waarop al de rest is voortgebouwd. :classical_building:
 
-De eerste eigenschap die hierboven is opgelijst, is het **vijfde postulaat** van de Euclidische meetkunde en dit kan men niet bewijzen. Veel wiskundigen, waaronder Euclides zelf, hebben dit doorheen de tijd proberen te bewijzen, zonder succes. Uiteindelijk was het **Carl Friedrich Gauss** (18e - 19e eeuw), een andere bekende wiskundige, die hieruit concludeerde dat er ook **niet-Euclidische meetkunde** bestond, waarbij het vijfde postulaat niet geldde. Sindsdien zijn er tal van niet-Euclidische meetkundes ontdekt/bestudeerd, zoals de **hyperbolische** en **elliptische** meetkunde :nerd:.
+De eerste eigenschap die hierboven is opgelijst, is het **vijfde postulaat** van de Euclidische meetkunde en dit kan men niet bewijzen. Veel wiskundigen, waaronder Euclides zelf, hebben dit doorheen de tijd proberen te bewijzen, zonder succes. Uiteindelijk was het **Carl Friedrich Gauss** (18e - 19e eeuw), een andere bekende wiskundige, die hieruit concludeerde dat er ook **niet-Euclidische meetkunde** bestaat, waarbij het vijfde postulaat niet geldt. Sindsdien zijn er tal van niet-Euclidische meetkundes ontdekt/bestudeerd, zoals de **hyperbolische** en **elliptische** meetkunde. :nerd:
 {{< /expand >}}
 
 ## Hoe bereken ik de afstand tussen een punt en een rechte?
-Als we de **afstand** willen meten :straight_ruler: tussen twee objecten, gebruiken we steeds **rechte lijnen**. Dit is de *kortste weg* en wordt dus gebruikt voor afstanden. Maar welke rechte lijn moeten we dan gebruiken om de afstand tussen een punt en een rechte te bepalen :thinking face:? We kunnen zoveel rechte lijnen trekken. Daarom spreken we af om de **loodlijn van de rechte a door het punt B** te gebruiken, dit is immers weer de *kortste weg* :light_bulb:.
+Als we de **afstand** willen meten :straight_ruler: tussen twee objecten, gebruiken we steeds **rechte lijnen**. Dit is de *kortste weg* en wordt dus gebruikt voor afstanden. Maar welke rechte lijn moeten we dan gebruiken om de afstand tussen een punt en een rechte te bepalen? :thinking face: We kunnen zoveel rechte lijnen trekken. Daarom spreken we af om de **loodlijn van de rechte a door het punt B** te gebruiken, dit is immers weer de *kortste weg*. :light_bulb:
 
 {{< svg "img/afstand_punt_rechte.svg" "We bepalen de afstand tussen een rechte a en een punt B als de lengte van de loodlijn van de rechte a door het punt B" >}}
 

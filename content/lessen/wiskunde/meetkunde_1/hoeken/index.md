@@ -10,7 +10,7 @@ images: []
 Wanneer twee lijnen elkaar snijden, dan doen ze dit onder een bepaalde **hoek**. Hoeken zijn belangrijk in alles wat met meetkunde te maken heeft, want ze vertellen iets over **de manier waarop** twee rechten, halfrechten of lijnstukken elkaar **snijden**. Tenslotte heeft het ook te maken met **draaiingen** :woozy_face:, dus hou je goed vast!
 
 ## Wat is een hoek?
-**Hoeken** kom je overal tegen. Denk maar aan de letterlijke hoeken van een kamer of de hellingshoek {{< mute "ook gekend als de hellingsgraad" >}} van een skipiste :skier::snowboarder:. 
+**Hoeken** kom je overal tegen. Denk maar aan de letterlijke hoeken van een kamer of de hellingshoek {{< mute "ook gekend als de hellingsgraad" >}} van een skipiste. :skier::snowboarder:
 
 {{< svg "img/ski_slope.svg" "Twee skiërs gaan een piste af. Hoe hoger de hellingshoek, hoe steiler de helling." >}}
 
@@ -18,12 +18,12 @@ Een **hoek** wordt steeds **bepaald door twee halfrechten met een gemeenschappel
 
 {{< svg "img/terminologie.svg" "Een hoek bestaat uit een hoekpunt en twee benen." >}}
 
-We kunnen een hoek op drie manieren **benoemen**. Enerzijds kunnen we dit doen met een **Griekse letter**, zoals $\alpha$ (alfa) of $\theta$ (thèta). Anderzijds kunnen we dit doen met een ***gewone* letter** (de letter van het grenspunt) waar een **hoedje** :tophat: op staat, bijvoorbeeld $\hat{A}$ of $\hat{B}$. Een derde manier gebruiken we als er **verwarring** is :confused:. We schrijven dan **drie letters** op. Twee letters (de buitenste) zijn afkomstig van **een punt op elk been**. De middelste letter is **de hoek zelf** en krijgt een hoedje. Zo krijg je bijvoorbeeld $B\hat{A}C$ :grinning:.
+We kunnen een hoek op drie manieren **benoemen**. Enerzijds kunnen we dit doen met een **Griekse letter**, zoals $\alpha$ (alfa) of $\theta$ (thèta). Anderzijds kunnen we dit doen met een ***gewone* letter** (de letter van het grenspunt) waar een **hoedje** :tophat: op staat, bijvoorbeeld $\hat{A}$ of $\hat{B}$. Een derde manier gebruiken we als er **verwarring** is. :confused: We schrijven dan **drie letters** op. Twee letters (de buitenste) zijn afkomstig van **een punt op elk been**. De middelste letter is **de hoek zelf** en krijgt een hoedje. Zo krijg je bijvoorbeeld $B\hat{A}C$. :grinning:
 
 {{< svg "img/notatie.svg" "Er zijn drie verschillende manieren om een hoek te benoemen. Hier staan ze alle drie aangeduid." >}}
 
 ## Bijzondere hoeken
-Er zijn enkele **bijzondere hoeken** waarvan je de naam best onthoudt, omdat je ze nog veel zal tegenkomen :brain:.
+Er zijn enkele **bijzondere hoeken** waarvan je de naam best onthoudt, omdat je ze nog veel zal tegenkomen. :brain:
 
 Om te beginnen kan je elke hoek opdelen in één van drie categorieën naargelang **de grootte** ervan. Deze indeling, van **scherpe, stompe en rechte hoeken**, zal je waarschijnlijk wel al kennen!
 
@@ -33,14 +33,14 @@ Daarnaast zijn er nog drie {{< mute "nieuwe" >}} termen: een **nulhoek**, **gest
 
 {{< svg "img/soorten_hoeken_speciaal.svg" "Een nulhoek is een hoek van 0°, een gestrekte hoek is een hoek van 180° en een volle hoek eentje van 360°." >}}
 
-Echt moeilijk te onthouden zijn ze niet, toch :face_with_monocle::wink:?!
+Echt moeilijk te onthouden zijn ze niet, toch?! :face_with_monocle::wink:
 
 ## Wat is de bissectrice van een hoek?
 In [de les over rechten](../rechten) hebben we de definitie van het midden van een lijnstuk gezien. Ook **hoeken** kunnen we **verdelen in twee gelijke hoeken**. De lijn die de hoek verdeelt noemt men de **deellijn of bissectrice**. 
 
 {{< svg "img/bissectrice.svg" "De bissectrice (of deellijn) van een hoek is de rechte die de hoek in twee even grote hoeken verdeelt." >}}
 
-Elke **hoek** heeft **juist één bissectrice**, net zoals elk lijnstuk juis één midden heeft :thumbs_up:.
+Elke **hoek** heeft **juist één bissectrice**, net zoals elk lijnstuk juis één midden heeft. :thumbs_up:
 
 {{< attention "Bissectrice van een hoek" >}}
 De **bissectrice** (of **deellijn**) van een hoek is de rechte die de hoek in twee even grote hoeken verdeelt.
@@ -57,7 +57,7 @@ Wanneer je een lijnstuk opneemt en **draait** {{< mute "(je zorgt er dus voor da
 
 {{< svg "img/draaiing.svg" "Een draaiing onder een hoek van 30°." >}}
 
-Later, bij de lessen over goniometrie, zal je zien dat een hoek ook anders beschreven kan worden. Namelijk als een afstand die je wandelt over de buitenkant van een cirkel. Dan spreken we niet meer over graden, maar over **radialen**. Maar voor nu zijn graden meer dan genoeg :wink:!
+Later, bij de lessen over goniometrie, zal je zien dat een hoek ook anders beschreven kan worden. Namelijk als een afstand die je wandelt over de buitenkant van een cirkel. Dan spreken we niet meer over graden, maar over **radialen**. Maar voor nu zijn graden meer dan genoeg! :wink:
 
 ## Samengevat
 {{< attention "Hoeken" >}}

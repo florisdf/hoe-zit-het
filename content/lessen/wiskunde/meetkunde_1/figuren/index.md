@@ -7,12 +7,12 @@ description: "In deze les gaan we verder in op de drie dimensionale ruimte. We b
 tags: ["Vlakke figuren", "Ruimtefiguren", "Meetkundige eigenschappen"]
 images: []
 ---
-Tot nu toe hebben we het vooral over vlakke meetkunde gehad. Meetkunde die zich afspeelt op een blaadje papier :memo:. Maar wij leven niet in een vlakke wereld, wij leven in een wereld vol diepte. Wij leven in een **driedimensionele wereld** :seedling::elephant::standing_person:.
+Tot nu toe hebben we het vooral over vlakke meetkunde gehad. Meetkunde die zich afspeelt op een blaadje papier. :memo: Maar wij leven niet in een vlakke wereld, wij leven in een wereld vol diepte. Wij leven in een **driedimensionele wereld**. :seedling::elephant::standing_person:
 
 Overal rondom ons zien we **ruimtefiguren** en dat is waar we het deze les over gaan hebben.
 
 ## Het verschil tussen 2D en 3D
-De **vlakke meetkunde** speelt zich af in **twee dimensies**, terwijl de **ruimtemeetkunde** zich afspeelt in **drie dimensies**. Zo'n dimensie moet je zien als een richting waarin je kunt meten. Bij twee dimensies wordt dit **lengte en breedte** en bij drie dimensies komt er ook nog **hoogte** bij. Om **een punt in een vlak** te beschrijven heb je slechts **2 coördinaten** nodig, eentje voor elke richting. En je kunt het al raden :thought_balloon:: **in een ruimte** (drie dimensies) heb je **3 coördinaten** nodig :exploding_head:.
+De **vlakke meetkunde** speelt zich af in **twee dimensies**, terwijl de **ruimtemeetkunde** zich afspeelt in **drie dimensies**. Zo'n dimensie moet je zien als een richting waarin je kunt meten. Bij twee dimensies wordt dit **lengte en breedte** en bij drie dimensies komt er ook nog **hoogte** bij. Om **een punt in een vlak** te beschrijven heb je slechts **2 coördinaten** nodig, eentje voor elke richting. En je kunt het al raden :thought_balloon:: **in een ruimte** (drie dimensies) heb je **3 coördinaten** nodig. :exploding_head:
 
 {{< svg "img/2d_3d.svg" "Een vlak heeft een lengte en een breedte, terwijl een ruimte ook nog een hoogte heeft." >}}
 
@@ -25,7 +25,7 @@ Voor de volledigheid vermelden we hier nog even **de vlakke figuren** waarvan je
 
 {{< svg "img/vlakke_figuren.svg" "Een overzicht van de vlakke figuren: vierkant, rechthoek, driehoek, trapezium, parallellogram, veelhoek en cirkel." >}}
 
-> In de lessen over [driehoeken](../driehoeken), [vierhoeken](../vierhoeken) en [cirkels](../cirkels) kan je meer leren over deze vlakke figuren :raised_hands:.
+> In de lessen over [driehoeken](../driehoeken), [vierhoeken](../vierhoeken) en [cirkels](../cirkels) kan je meer leren over deze vlakke figuren. :raised_hands:
 
 ## Ruimtefiguren weergeven in 2D
 We zijn allemaal wel al eens ruimtefiguren tegengekomen die zijn afgebeeld op een blad papier. Hiervoor gebruikt men **perspectieven**, zodat we **een gevoel van drie dimensies** krijgen op een twee dimensionaal vlak. 
@@ -39,17 +39,17 @@ Het **cavalièreperspectief** wordt het meest gebruikt voor het afbeelden van ru
 {{< /attention >}}
 
 ## Ruimtefiguren bestaan uit vlakke figuren
-We kunnen de ruimtefiguren ook **opensnijden** zodat we een soort bouwplaat krijgen. We spreken dan van de **ontwikkeling of opbouw van een ruimtefiguur**. Op zo'n ontwikkeling zijn de **maten en hoeken** perfect af te lezen, in tegenstelling tot perspectieven. We merken ook dat de **ruimtefiguren opgebouwd zijn uit vlakke figuren** :exploding_head:. 
+We kunnen de ruimtefiguren ook **opensnijden** zodat we een soort bouwplaat krijgen. We spreken dan van de **ontwikkeling of opbouw van een ruimtefiguur**. Op zo'n ontwikkeling zijn de **maten en hoeken** perfect af te lezen, in tegenstelling tot perspectieven. We merken ook dat de **ruimtefiguren opgebouwd zijn uit vlakke figuren**. :exploding_head:
 
-Een **kubus** bestaat uit **zes vierkanten**. Hieronder staat één ontwikkeling van een kubus, maar er zijn er meer! Kan jij er nog eentje vinden :face_with_monocle:? **TIP**: Als je je ontwikkelingen uitknipt :scissors:, kan je ze onmiddellijk uittesten door ze op te vouwen :flexed_biceps:.
+Een **kubus** bestaat uit **zes vierkanten**. Hieronder staat één ontwikkeling van een kubus, maar er zijn er meer! Kan jij er nog eentje vinden? :face_with_monocle: **TIP**: Als je je ontwikkelingen uitknipt :scissors:, kan je ze onmiddellijk uittesten door ze op te vouwen. :flexed_biceps:
 
 {{< svg "img/opbouw_kubus.svg" "Een kubus bestaat uit 6 vierkanten. Een ontwikkeling kan zijn: vier vierkanten naast elkaar en dan boven en onder de tweede nog een vierkant." >}}
 
-Een **balk** bestaat uit **zes rechthoeken**, die bestaan uit **drie paar gelijke rechthoeken**. Ook hier zijn andere ontwikkelingen mogelijk dan hieronder getoond :female_detective:.
+Een **balk** bestaat uit **zes rechthoeken**, die bestaan uit **drie paar gelijke rechthoeken**. Ook hier zijn andere ontwikkelingen mogelijk dan hieronder getoond. :female_detective:
 
 {{< svg "img/opbouw_balk.svg" "Een balk bestaat uit 6 rechthoeken. Een ontwikkeling kan zijn: vier rechthoeken naast elkaar en dan boven en onder de tweede nog een rechthoek." >}}
 
-Een **cilinder** bestaat uit **twee cirkels** en **een rechthoek**. De rechthoek vormt de **mantel** van de cilinder :coat:.
+Een **cilinder** bestaat uit **twee cirkels** en **een rechthoek**. De rechthoek vormt de **mantel** van de cilinder. :coat:
 
 {{< svg "img/opbouw_cilinder.svg" "Een cilinder bestaat uit 1 rechthoek en twee cirkels. De ontwikkeling ziet er als volgt uit: een rechthoek met erboven en eronder één cirkel die vasthangt aan de rechthoek." >}}
 
@@ -57,26 +57,26 @@ Een **piramide** bestaat uit **een veelhoek** als grondvlak en **driehoekige zij
 
 {{< svg "img/opbouw_piramide.svg" "Een piramide bestaat uit een grondvlak (veelhoek) en driehoeken, zoveel als er zijden zijn aan het grondvlak. De ontwikkeling ziet er als volgt uit: het grondvlak in het midden met aan alle zijde een even grote driehoek." >}}
 
-Een **kegel** bestaat uit **een cirkel** als grondvlak en **een gekromd vlak** :icecream:. Dit gekromd vlakt bekomt men door alle punten van de cirkel te verbinden met een **gemeenschappelijke top**.
+Een **kegel** bestaat uit **een cirkel** als grondvlak en **een gekromd vlak**. :icecream: Dit gekromd vlak bekomt men door alle punten van de cirkel te verbinden met een **gemeenschappelijke top**.
 
 {{< svg "img/opbouw_kegel.svg" "Een kegel bestaat uit een cirkel en een mantel. Dit moet je alleen herkennen!" >}}
 
-Tot slot bestaat er ook nog een **prisma**. Dit is **elke figuur met hetzelfde grond- en bovenvlak**, die **geen gekromde oppervlakken** heeft. De cilinder is dus **geen** prisma :warning:!  Met andere woorden is elke ruimtefiguur waarbij **twee veelhoeken**, eentje boven en eentje onder, **verbonden** zijn **met rechthoeken**, een prisma.
+Tot slot bestaat er ook nog een **prisma**. Dit is **elke figuur met hetzelfde grond- en bovenvlak**, die **geen gekromde oppervlakken** heeft. De cilinder is dus **geen** prisma! :warning: Met andere woorden is elke ruimtefiguur waarbij **twee veelhoeken**, eentje boven en eentje onder, **verbonden** zijn **met rechthoeken**, een prisma.
 
 {{< svg "img/prisma.svg" "Twee voorbeelden van een prisma." >}}
 
 ## Evenwijdige en snijdende vlakken
 Net zoals rechten, kunnen **vlakken evenwijdig zijn aan elkaar of elkaar snijden**.
 
-> Herinner je je dit niet meer :thinking_face:? Lees dan nog snel even [de les over rechten](../rechten) :sunglasses::straight_ruler:!
+> Herinner je je dit niet meer :thinking_face:? Lees dan nog snel even [de les over rechten](../rechten)! :sunglasses::straight_ruler:
 
 De definitie is namelijk voor beide **juist hetzelfde**. Alleen gaat het hier niet over rechten, maar over vlakken!
 
 {{< svg "img/ligging_vlakken.svg" "Visualisatie van evenwijdige en snijdende vlakken." >}}
 
-Als je de twee snijdende vlakken beter bekijkt :nerd:, dan kunnen je twee dingen opvallen. Ten eerste vormen **alle snijpunten** samen, {{< mute "dat zijn de punten die in/op beide vlakken liggen," >}} **een rechte**. Ten tweede snijden de twee rechter vlakken elkaar in dit voorbeeld loodrecht $\alpha \perp \beta$. Had je dit gezien :eyes:?
+Als je de twee snijdende vlakken beter bekijkt :nerd:, dan kunnen je twee dingen opvallen. Ten eerste vormen **alle snijpunten** samen, {{< mute "dat zijn de punten die in/op beide vlakken liggen," >}} **een rechte**. Ten tweede snijden de twee rechter vlakken elkaar in dit voorbeeld loodrecht $\alpha \perp \beta$. Had je dit gezien? :eyes:
 
-Ten slotte hebben we het nog even over **kruisende rechten**. Bij deze rechten is het **onmogelijk om ze in één vlak te plaatsen**. Daarmee verschillen ze van evenwijdige en snijdende rechten, waarbij dit wel mogelijk is :grinning:!
+Ten slotte hebben we het nog even over **kruisende rechten**. Bij deze rechten is het **onmogelijk om ze in één vlak te plaatsen**. Daarmee verschillen ze van evenwijdige en snijdende rechten, waarbij dit wel mogelijk is! :grinning:
 
 ## Samengevat
 {{< attention "Verschillende dimensies" >}}

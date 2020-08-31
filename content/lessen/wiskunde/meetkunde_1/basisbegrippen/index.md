@@ -18,14 +18,14 @@ Een **vlak** (vaak aangeduid als 'het vlak $\pi$' of met een andere Griekse lett
 
 {{< svg "img/vlak.svg" "Het vlak pi bestaat uit een oneindig aantal punten" >}}
 
-In het vlak kunnen we met behulp van punten een heleboel vormen en vlakke figuren tekenen en beschrijven. We kunnen het vlak zien als een spelbord waarop de punten onze pionnen zijn :game_die:. 
+In het vlak kunnen we met behulp van punten een heleboel vormen en vlakke figuren tekenen en beschrijven. We kunnen het vlak zien als een spelbord waarop de punten onze pionnen zijn. :game_die:
 
 ## Definiëren twee punten een rechte?
-Naast een punt en een vlak werken we in de meetkunde ook met **rechten**. Een **rechte of lijn** is een verzameling van punten, **oneindig in 1 richting**. Het is met andere woorden een **rechte lijn** die oneindig doorloopt langs beide kanten. We noteren dit bijna altijd met een **kleine letter**. Aangezien we een (rechte) lijn niet oneindig lang kunnen tekenen, spreken we af om een rechte **nooit in een punt te laten eindigen**. We trekken de lijn dus altijd nog een beetje door voordat we stoppen :straight_ruler:. Zo is het duidelijk dat het om een rechte gaat en geen lijnstuk (zie verder).
+Naast een punt en een vlak werken we in de meetkunde ook met **rechten**. Een **rechte of lijn** is een verzameling van punten, **oneindig in 1 richting**. Het is met andere woorden een **rechte lijn** die oneindig doorloopt langs beide kanten. We noteren dit bijna altijd met een **kleine letter**. Aangezien we een (rechte) lijn niet oneindig lang kunnen tekenen, spreken we af om een rechte **nooit in een punt te laten eindigen**. We trekken de lijn dus altijd nog een beetje door voordat we stoppen. :straight_ruler: Zo is het duidelijk dat het om een rechte gaat en geen lijnstuk (zie verder).
 
 {{< svg "img/rechte.svg" "De rechte a" >}}
 
-**Door één punt** A gaan **oneindig veel rechten**. Maar **door twee punten** A en B gaat slechts **één rechte**. Probeer zelf maar eens om een tweede rechte (die niet samenvalt met de andere) te tekenen door twee punten! Je zal zelf zien dat dit niet gaat :raised_hand:. 
+**Door één punt** A gaan **oneindig veel rechten**. Maar **door twee punten** A en B gaat slechts **één rechte**. Probeer zelf maar eens om een tweede rechte (die niet samenvalt met de andere) te tekenen door twee punten! Je zal zelf zien dat dit niet gaat. :raised_hand: 
 
 {{< svg "img/twee_punten_rechten.svg" "Door één punt gaat een oneindig aantal rechten, maar door twee punten gaat slechts één rechte." >}}
 
@@ -36,14 +36,14 @@ Naast een punt en een vlak werken we in de meetkunde ook met **rechten**. Een **
 De punten **A, B, C, D** zijn **collineair**. De punten **A, D en E** zijn bijvoorbeeld **niet collineair**. Merk ook op dat **elke groep van twee punten steeds collineair** is, aangezien twee punten steeds één rechte definiëren.
 
 ## Van punt naar ruimte
-Nog even herhalen vooraleer we verder gaan. Een **punt** is een stip en dus het kleinste dat er is in de meetkunde. Als je een **oneindig** aantal stippen in **1 richting** (bv. horizontaal) zet, dan krijg je een **rechte**. Een **vlak** is nog groter en kan je voorstellen als een blaadje papier :memo:. Alles wat op het blad staat, ligt in het vlak. Ook dit loopt **oneindig** door (in **twee richtingen**). Tenslotte is er een **ruimte**, dit heeft **drie dimensies** en het is dus een oneindig aantal punten in **drie richtingen**.
+Nog even herhalen vooraleer we verder gaan. Een **punt** is een stip en dus het kleinste dat er is in de meetkunde. Als je een **oneindig** aantal stippen in **1 richting** (bv. horizontaal) zet, dan krijg je een **rechte**. Een **vlak** is nog groter en kan je voorstellen als een blaadje papier. :memo: Alles wat op het blad staat, ligt in het vlak. Ook dit loopt **oneindig** door (in **twee richtingen**). Tenslotte is er een **ruimte**, dit heeft **drie dimensies** en het is dus een oneindig aantal punten in **drie richtingen**.
 
 {{< expand "Even stilstaan bij de betekenis van 'richting'" >}}
 Vaak denken mensen bij het woord **richting** aan links of rechts. In de wiskunde, en voornamelijk de fysica, spreken we echter op een andere manier over *richting*. Voor ons is richting namelijk **horizontaal, verticaal, in een hoek van 60°...**. Links en rechts duidt de **zin** aan. Wanneer we dus spreken over **oneindig in 1 richting**, kan je je het volgende voorstellen: **een horizontale lijn die zowel links als rechts oneindig doorloopt**. De richting is immers 'horizontaal' en zegt niets over links of rechts.
 {{< /expand >}}
 
 ## Wat is het verschil tussen een rechte en een lijnstuk?
-Een **lijnstuk** is, zoals doet vermoeden, een stuk van een lijn :exploding_head:. Meer bepaald: een lijn die **begrensd is door twee punten**. We **benoemen** het lijnstuk steeds naar zijn **grenspunten**. Dat zijn de **punten die het lijnstuk begrenzen**. Weet jij nu welke van volgende twee een lijnstuk is en welke een rechte {{< mute "of lijn" >}} :thinking_face:?
+Een **lijnstuk** is, zoals doet vermoeden, een stuk van een lijn. :exploding_head: Meer bepaald: een lijn die **begrensd is door twee punten**. We **benoemen** het lijnstuk steeds naar zijn **grenspunten**. Dat zijn de **punten die het lijnstuk begrenzen**. Weet jij nu welke van volgende twee een lijnstuk is en welke een rechte {{< mute "of lijn" >}}:thinking_face:? 
 
 {{< svg "img/lijnstuk_rechte.svg" "Een lijnstuk is een lijn die stopt in punten. We noteren dit met twee rechte haakjes, eentje rond elk grenspunt: [AB]. Een rechte loopt doorheen de punten, zoals eerder reeds vermeld. We noteren geen vierkante haakjes, maar gewoon AB." >}}
 
@@ -58,20 +58,20 @@ Tenslotte spreken we ook nog van een **drager**. Dit is de **rechte waarop het l
 {{< svg "img/overzicht_notatie.svg" "Een overzicht van alle geziene notaties." >}}
 
 ## Hoe noteer ik de lengte van een lijnstuk?
-Elk lijnstuk kunnen we **meten met een liniaal** :straight_ruler:. We meten dan eigenlijk **de afstand tussen de twee grenspunten**. In volgende lessen ga je nog zien hoe je de lengte van een lijnstuk {{< mute "oftewel de afstand tussen de twee grenspunten" >}} kan bereken uit andere gegevens, maar hoe moet je de bekomen lengte dan noteren?
+Elk lijnstuk kunnen we **meten met een liniaal**. :straight_ruler: We meten dan eigenlijk **de afstand tussen de twee grenspunten**. In volgende lessen ga je nog zien hoe je de lengte van een lijnstuk {{< mute "oftewel de afstand tussen de twee grenspunten" >}} kan bereken uit andere gegevens, maar hoe moet je de bekomen lengte dan noteren?
 
 Vooraleer we de lengte van het lijnstuk kunnen noteren, moeten we **zeggen van welk lijnstuk** we de lengte hebben gemeten. We doen dit door de vierkante haakjes te vervangen door **verticale strepen**. De lengte van het lijnstuk [AB] noteren we dus als **|AB|** = ...
 
-Vervolgens noteren we de lengte na het gelijkheidsteken. Een getal alleen, zoals vier, zegt echter niets. Vier wat? Vier duimen :thumbs_up:? Vier poten :feet:? Of vier konijntjes :rabbit:? We hebben een **eenheid** nodig. In Europa, en eigenlijk bijna overal, werken we met het **metriek stelsel**. Ook in de wetenschap is dit het systeem bij voorkeur. 
+Vervolgens noteren we de lengte na het gelijkheidsteken. Een getal alleen, zoals vier, zegt echter niets. Vier wat? Vier duimen? :thumbs_up: Vier poten? :feet: Of vier konijntjes? :rabbit: We hebben een **eenheid** nodig. In Europa, en eigenlijk bijna overal, werken we met het **metriek stelsel**. Ook in de wetenschap is dit het systeem bij voorkeur. 
 Alleen Engelsen, Amerikanen, Canadezen... doen een beetje moeilijk en werken met een ander systeem, {{< mute " namelijk het Brits-Amerikaanse maatsysteem of The Imperial System" >}}.
 
-Het **metriek stelsel** ken je gegarandeerd. Ik noem enkele voorbeelden: centimeter (cm), kilogram (kg), seconden (s)... Klinkt het bekend in de oren :ear:?
+Het **metriek stelsel** ken je gegarandeerd. Ik noem enkele voorbeelden: centimeter (cm), kilogram (kg), seconden (s)... Klinkt het bekend in de oren? :ear:
 > De [les over grootheden en eenheden](../../../fysica/grootheden_eenheden/intro) gaat dieper in op deze eenheden, zeker eens de moeite om te lezen!
 
 In de meetkunde maken we vooral (zo goed als altijd) gebruik van **afstandsmaten**. Dit zijn de **centimeter**, **decimeter**, **meter**... Twee centimeter wilt dan eigenlijk niets anders zeggen dan: twee maal de lengte van een centimeter. Een correcte notatie voor de lengte van [AB] is dus $|AB| = 4 \si{ cm}$.
 
 {{< expand "Wanneer gebruik ik geen eenheden?" >}}
-Je zal zien dat er soms toch **geen eenheid** staat. Deze wordt vaak weggelaten **als het gaat over verhoudingen** of als **de afbeelding geschaald wordt**. De grootte van de afbeeldingen op *Hoe Zit Het?* wordt namelijk aangepast naargelang de grootte van je scherm :desktop_computer:. Wij kunnen iets tekenen dat 4 cm lang is, maar als het dan verkleind wordt om op je smartphone :iphone: te passen, klopt de lengte niet meer. En aangezien de lengte van een (centi)meter vaststaat, kiezen we er voor om de **eenheid weg te laten**. Dat is het meest correct. Onze illustraties zijn tenslotte maar voorbeelden en geen tekeningen van een architect :house:.
+Je zal zien dat er soms toch **geen eenheid** staat. Deze wordt vaak weggelaten **als het gaat over verhoudingen** of als **de afbeelding geschaald wordt**. De grootte van de afbeeldingen op *Hoe Zit Het?* wordt namelijk aangepast naargelang de grootte van je scherm. :desktop_computer: Wij kunnen iets tekenen dat 4 cm lang is, maar als het dan verkleind wordt om op je smartphone :iphone: te passen, klopt de lengte niet meer. En aangezien de lengte van een (centi)meter vaststaat, kiezen we er voor om de **eenheid weg te laten**. Dat is het meest correct. Onze illustraties zijn tenslotte maar voorbeelden en geen tekeningen van een architect. :house:
 {{< /expand >}}
 
 Wanneer twee (of meer) **lijnstukken dezelfde lengte** hebben, duiden we dit aan met **dezelfde merktekens**.
@@ -87,7 +87,7 @@ M is het midden van een lijnstuk [AB] als en slechts als M op het lijnstuk [AB] 
 $$M = mi[AB] \Leftrightarrow |AM| = |BM| \text{ en } M \in [AB] $$
 {{< /attention >}}
 
-Wat wilt dit nu precies zeggen :face_with_monocle:? Stap per stap gaan we erdoorheen! **M** is een hoofdletter en verwijst hier dus naar **een punt M**. Dan komen we mi[AB] tegen. Dat betekent **het midden van** het lijnstuk **[AB]**.
+Wat wilt dit nu precies zeggen? :face_with_monocle: Stap per stap gaan we erdoorheen! **M** is een hoofdletter en verwijst hier dus naar **een punt M**. Dan komen we mi[AB] tegen. Dat betekent **het midden van** het lijnstuk **[AB]**.
 
 Een dubbele wederzijdse pijl ($\Leftrightarrow$) betekent **als en slechts als**. Een punt M is dus het midden van [AB] **alleen als** er wordt voldaan aan wat er na de pijl komt. Die voorwaarde is dat de **afstand tussen het punt A en het punt B** ($|AM| = |BM|$) gelijk moet zijn en **M moet een element zijn van**/op het lijnstuk **[AB]** liggen.
 
@@ -95,7 +95,7 @@ In welke van de drie onderstaande situaties is M het midden van het lijnstuk [AB
 
 {{< svg "img/definitie_midden.svg" "Aan beide voorwaarden moet voldaan worden. De lengte tussen punt M en punten A en B moet gelijk zijn en M moet op het lijnstuk liggen (dezelfde drager)." >}}
 
-Zie je, zo moeilijk zijn die definities niet :flexed_biceps::dancer::party_popper:!
+Zie je, zo moeilijk zijn die definities niet! :flexed_biceps::dancer::party_popper:
 
 ## Samengevat
 {{< attention "Punten, rechten, vlakken" >}}
