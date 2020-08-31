@@ -7,32 +7,32 @@ description: "Driehoeken zijn speciale vlakke figuren. Vervolgens leren we ook o
 tags: ["Vlakke figuren", "Driehoeken", "Meetkundige eigenschappen", "Tekenen met geodriehoek"]
 images: []
 ---
-**Driehoeken** vinden we overal rondom ons :earth_africa:! Ingenieurs gebruiken ze ook vaak omdat het zeer **stevige en stabiele figuren** zijn om te gebruiken in de bouw :building_construction::construction:.
+**Driehoeken** vinden we overal rondom ons :earth_africa:! Ingenieurs gebruiken ze ook vaak omdat het zeer **stevige en stabiele figuren** zijn om te gebruiken in de bouw. :building_construction::construction:
 
 ## Wat is een driehoek?
-**Elke veelhoek met drie hoeken en drie zijden** is een driehoek. Logisch, toch :sunglasses:?
+**Elke veelhoek met drie hoeken en drie zijden** is een driehoek. Logisch, toch? :sunglasses:
 
 {{< svg "img/driehoek.svg" "Een driehoek heeft steeds drie hoeken." >}}
 
 We spreken van de driehoek ABC en we **noteren** $\triangle{ABC}$. 
 
 Er is ook nog wat **specifieke terminologie** te kennen.
-Zo is $\hat{B}$ de **overstaande hoek** van de zijde $[AC]$. Het is met andere woorden de enige **hoek die niet op de zijde ligt** :see_no_evil:. $\hat{A}$ en $\hat{C}$ zijn dan weer de **aanliggende hoeken** van de zijde $[AC]$. Ze liggen beide **aan één kant van het lijnstuk**. Tenslotte kan elke hoek ook een **ingesloten hoek** zijn van twee zijden. Bijvoorbeeld: $\hat{B}$ is de ingesloten hoek van $[BC]$ en $[AB]$. Het is de **hoek die op beide zijden ligt**.
+Zo is $\hat{B}$ de **overstaande hoek** van de zijde $[AC]$. Het is met andere woorden de enige **hoek die niet op de zijde ligt**. :see_no_evil: $\hat{A}$ en $\hat{C}$ zijn dan weer de **aanliggende hoeken** van de zijde $[AC]$. Ze liggen beide **aan één kant van het lijnstuk**. Tenslotte kan elke hoek ook een **ingesloten hoek** zijn van twee zijden. Bijvoorbeeld: $\hat{B}$ is de ingesloten hoek van $[BC]$ en $[AB]$. Het is de **hoek die op beide zijden ligt**.
 
 ## De som van de hoeken van een driehoek is 180°
 
 Eén van de bekendste en meest gebruikte eigenschappen in de (vlakke) meetkunde is deze van de **som van de hoeken van een driehoek**. De hoeken vormen namelijk altijd **180°**.
 
-Je kant dit **zelf testen** door een willekeurige driehoek te tekenen en vervolgens de hoeken af te knippen :scissors:. Wanneer je de hoeken vervolgens naast elkaar legt, zie je dat ze een **gestrekte hoek** {{< mute "of 180°" >}} vormen.
+Je kant dit **zelf testen** door een willekeurige driehoek te tekenen en vervolgens de hoeken af te knippen. :scissors: Wanneer je de hoeken vervolgens naast elkaar legt, zie je dat ze een **gestrekte hoek** {{< mute "of 180°" >}} vormen.
 
 {{< attention "Som van de hoeken van een driehoek" >}}
 De **som van de hoeken van een driehoek** is steeds **180°**.
 {{< /attention >}}
 
 {{< expand "Driehoeken en de vorm van ons universum" >}}
-Dat de som van de hoeken van een driehoek 180° vormt is een handig gegeven. We moeten echter wel een kanttekening maken en erbij zeggen dat deze eigenschap enkel en alleen geldt in de vlakke meetkunde. In meetkundige systemen met gebogen oppervlakken, zoals de bolmeetkunde, geldt deze eigenschap niet. Aan de hand van deze inzichten is het gelukt om de vorm van ons universum te bepalen :milky_way:.
+Dat de som van de hoeken van een driehoek 180° vormt is een handig gegeven. We moeten echter wel een kanttekening maken en erbij zeggen dat deze eigenschap enkel en alleen geldt in de vlakke meetkunde. In meetkundige systemen met gebogen oppervlakken, zoals de bolmeetkunde, geldt deze eigenschap niet. Aan de hand van deze inzichten is het gelukt om de vorm van ons universum te bepalen. :milky_way:
 
-Astronomen hebben een denkbeeldige driehoek geconstrueerd met drie extreem verafgelegen objecten :star2:. Ze hebben vervolgens de som gemaakt van de hoeken en kwamen op een afgeronde waarde van 180°. Dit wilt zeggen dat het universum zo goed als vlak is (aangezien de eigenschap alleen geldt in vlakke meetkunde) :exploding_head:.
+Astronomen hebben een denkbeeldige driehoek geconstrueerd met drie extreem verafgelegen objecten :star2:. Ze hebben vervolgens de som gemaakt van de hoeken en kwamen op een afgeronde waarde van 180°. Dit wilt zeggen dat het universum zo goed als vlak is (aangezien de eigenschap alleen geldt in vlakke meetkunde). :exploding_head:
 {{< /expand >}}
 
 ## Merkwaardige lijnen
@@ -64,7 +64,7 @@ Tenslotte is er ook nog de **zwaartelijn**. Moest je een driehoek op zo'n zwaart
 Een **zwaartelijn** van een driehoek is de **rechte** door een hoekpunt en **door het midden** van de overstaande zijde.
 {{< /attention >}}
 
-Van elke merkwaardige lijn zijn er **drie in elke driehoek**. Deze drie hebben ook allemaal een **gemeenschappelijk snijpunt**. In het geval van de zwaartelijnen, noemen we dit het **zwaartepunt** :weight_lifter:.
+Van elke merkwaardige lijn zijn er **drie in elke driehoek**. Deze drie hebben ook allemaal een **gemeenschappelijk snijpunt**. In het geval van de zwaartelijnen, noemen we dit het **zwaartepunt**. :weight_lifter:
 
 ## Classificatie
 Driehoeken kunnen we op **twee manieren** classificeren. Enerzijds aan de hand van **hoeken** en anderszijds door middel van **zijden**.
