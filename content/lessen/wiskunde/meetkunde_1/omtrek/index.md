@@ -20,7 +20,7 @@ Voor sommige figuren, zoals een vierkant of ruit, kan het echter **simpeler**. H
 
 Bij een **ruit** en **vierkant** is het zo dat de **vier zijden even lang** zijn. Als je dus **één zijde** meet en je **vermenigvuldigt met vier**, dan heb je ook de omtrek van de figuur.
 
-Voor een **rechthoek** en **parallellogram** moet je nog een extra zijde meten. Je **meet** eerst **twee aanliggende zijde**n (die een hoekpunt delen). Vervolgens **vermenigvuldig** je **elke zijde met twee**. Nu tel je beide op en je hebt je uitkomst. :party_popper:
+Voor een **rechthoek** en **parallellogram** moet je nog een extra zijde meten. Je **meet** eerst **twee aanliggende zijden** (die een hoekpunt delen). Vervolgens **vermenigvuldig** je **elke zijde met twee**. Nu tel je beide op en je hebt je uitkomst. :party_popper:
 
 De **cirkel** is nog een geval apart. Hiervoor moet je de **straal** ($r$) meten en dit invullen in de formule $2 \cdot \pi \cdot r$. Hierbij is $\pi$ (pi) een {{< mute "irrationaal" >}} constant getal waarvoor je de waarde $3,14$ mag gebruiken.
 
