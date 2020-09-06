@@ -6,4 +6,5 @@ functies
 1g_vgl
 vector_1
 eentermen
+logaritmen
 afgeleiden_1
