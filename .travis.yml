@@ -19,7 +19,7 @@ install:
 script:
   - hugo version # prints the Hugo version, just in case.
   - python src/create_pdfs.py -f
-  - hugo -D # build the website (including drafts)
+  - hugo -D -e "production" # build the website (including drafts)
 
 deploy:
   provider: firebase

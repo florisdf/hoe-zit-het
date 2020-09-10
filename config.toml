@@ -33,7 +33,6 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
   default_fill = "#ffffff"
   default_stroke = "#000000"
 	default_image = "/images/default.png"
-  env = "production"
   images = ["/images/logo.png"]
   [params.adsense]
 	pub_id = "pub-3341140218430301"
