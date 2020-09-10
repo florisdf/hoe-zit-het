@@ -3,7 +3,62 @@ title: "Rekenregels voor logaritmen"
 date: 2020-09-06T18:00:00+02:00
 weight: 2
 draft: true
-description: ""
-tags: ["", ""]
+description: "In deze les leren we rekenen met logaritmen. Hiervoor bekijken we de verschillende rekenregels."
+tags: ["Logaritmen", "Rekenen", "Exponentiële", "Algebra", "Rekenregels"]
 images: []
 ---
+Wanneer we willen **rekenen met logaritmen**, dan moeten we ons houden aan enkele **regenregels**. Doen we dit niet, dan zou het wel eens helemaal fout kunnen aflopen! :grimacing:
+
+## De logaritme van een som en een verschil
+Wanneer we de **logaritme** nemen **van $x$** met een **grondtal $a$**, dan krijgen we **een exponent** waartoe we **$a$ moeten verheffen** om **$x$ te bekomen**. We weten ook dat een logaritmische functie het **inverse van een exponentiële functie** is. Tenslotte weten we dat we volgende bewerking niet meer kunnen vereenvoudigen:
+
+$$x^4 + 4x^3 - 2x + 6$$
+
+Net zoals er geen rekenregel bestaat voor de som of het verschil van machten, bestaat er ook **geen rekenregel voor de som of het verschil van een logaritme**.
+
+$\log (5x + 3)$ kunnen we dus **niet verder oplossen**. We kunnen dit met andere woorden **niet** schrijven als $\red{\log 5x + \log 3}$. :x:
+> Weet je nog dat bovenstaand logaritme een **tiendelige {{< mute "of Briggse" >}} logaritme** is? :thinking_face: Zo neen, bekijk dan nog even [de eerste les over logaritmen](..:logaritme). :raising_hands:
+
+Geloof je me nog niet? Laten we even naar een ander voorbeeld kijken: $\log(1000 + 100)$. 
+$$\log(1100) \approx 3,041 \red{\neq} \log(1000) + \log(100) = 5$$
+
+## Logaritmen van een product
+In tegenstelling tot de logaritmen van een som en een verschil, bestaat er **wel** een **rekenregel voor de logaritmen van een product en een quotiënt**. :smiley:
+
+Ook hier kunnen we weer vertrekken van **machten en exponentiële functies**. We weten:
+
+$$x^4 \orange{\cdot} x^3 = x^{4\orange{+}3} = x^7$$
+
+Net zoals het product van machten, de som van de exponenten is, is **de logaritme van een product de som van de logaritmen**. 
+
+Om dit nogmaals te illustreren, nemen we er de functie $^2\\!\log x$ bij. We maken hiervan een **tabel met de x-waarden en hun overeenkomstige functiewaarden**. Als we de x-waarde (linkse kolom) invullen, krijgen we de waarde rechts.
+
+| x   | $^2\\!\log x$ |
+|-----|---------------|
+| 1   | 0             |
+| 2   | 1             |
+| 4   | 2             |
+| 8   | 3             |
+| 16  | 4             |
+| 32  | 5             |
+| 64  | 6             |
+| 128 | 7             |
+
+We merken dat wanneer we **twee getallen in de linkse kolom vermenigvuldigen** (bv. 4 en 8), we de **overeenkomstige getallen van de rechtse kolom kunnen optellen** (bv. 2 en 3) om het beoogde resultaat te verkrijgen. Want $4 \cdot 8 = 32$ en $2 + 3 = 5$. Deze getallen staan ook mooi naast elkaar in de tabel. Onze rekenregel werkt dus! :flexed_biceps:
+
+{{< attention "De logaritme van een product" >}}
+De **logaritme van een product** is de **som van de logaritmen**.
+
+In symbolen:
+$$\forall a \in \mathbb{R}^+_0 \backslash \\{1\\}, \forall x_1, x_2 \in \mathbb{R}^+_0 :\\ ^a\\!\log (x_1 \orange{\cdot} x_2) = \\ ^a\\!\log x_1 \orange{+} \\ ^a\\!\log x_2$$
+{{< /attention >}}
+
+## De logaritme van een quotiënt
+
+## De logaritme van een macht
+
+## Logaritmen met een verschillend grondtal
+
+## Berekeningen buiten het bereik van een rekentoestel
+
+## Samengevat
