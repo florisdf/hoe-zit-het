@@ -31,7 +31,7 @@ $$x^4 \orange{\cdot} x^3 = x^{4\orange{+}3} = x^7$$
 
 Net zoals het product van machten, de som van de exponenten is, is **de logaritme van een product de som van de logaritmen**. 
 
-Om dit nogmaals te illustreren, nemen we er de functie $^2\\!\log x$ bij. We maken hiervan een **tabel met de x-waarden en hun overeenkomstige functiewaarden**. Als we de x-waarde (linkse kolom) invullen, krijgen we de waarde rechts.
+Om dit nogmaals te illustreren, nemen we er de functie $^2\\!\log x$ bij. We maken hiervan een **tabel met de x-waarden en hun overeenkomstige functiewaarden**. Als we de x-waarde (linkse kolom) invullen in $^2\\!\log x$ krijgen we de waarde rechts.
 
 | x   | $^2\\!\log x$ |
 |-----|---------------|
@@ -54,11 +54,47 @@ $$\forall a \in \mathbb{R}^+_0 \backslash \\{1\\}, \forall x_1, x_2 \in \mathbb{
 {{< /attention >}}
 
 ## De logaritme van een quotiënt
+Om **de logaritme van een quotiënt** te berekenen, gaan we op **gelijkaardige manier** te werk. Hier geven we het **bewijs**, gebruikmakend van één van de **{{< class "basisformules" "orange" >}}** en de regels voor **rekenen met machten**.
+
+\begin{split}
+    ^a\\!\log{ \frac{\orange{x_1}}{\orange{x_2}}} &= \\ ^a\\!\log{ \frac{\orange{a^{^a\\!\log x_1}}}{\orange{a^{^a\\!\log x_2}}}} \\\\\
+    &= \\ ^a\\!\log a^{^a\\!\log x_1 - \\ ^a\\!\log x_2} \\\\\
+    &= \\ ^a\\!\log x_1 - \\ ^a\\!\log x_2
+\end{split}
+
+{{< attention "De logaritme van een quotiënt" >}}
+De **logaritme van een quotiënt** is het **verschil van de logaritmen**.
+
+In symbolen:
+$$\forall a \in \mathbb{R}^+_0 \backslash \\{1\\}, \forall x_1, x_2 \in \mathbb{R}^+_0 :\\ ^a\\!\log{\frac{x_1}{x_2}} = \\ ^a\\!\log x_1 \orange{-} \\ ^a\\!\log x_2$$
+{{< /attention >}}
+
+Er kan hier ook sprake zijn van een **bijzonder geval**, namelijk $\frac{1}{x}$. :face_with_raised_eyebrow:
+
+$$^a\\!\log{\frac{1}{x}} = \cancelto{0}{^a\\!\log 1} - \\ ^a\\!\log x = - \\ ^a\\!\log x$$
+
+{{< attention "Bijzonder geval bij de logaritme van een quotiënt" >}}
+$$^a\\!\log{\frac{1}{x}} = - \\ ^a\\!\log x$$
+{{< /attention >}}
 
 ## De logaritme van een macht
+Ook hier gaan we op **analoge wijze** te werk en vinden we een **rekenregel**.
+> Kan jij hiervoor een bewijs vinden? :face_with_monocle:
+
+{{< attention "De logaritme van een macht" >}}
+De **logaritme van een macht** is gelijk aan een **veelvoud van de logaritmen**.
+
+In symbolen:
+$$\forall a \in \mathbb{R}^+_0 \backslash \\{1\\}, \forall x_1, x_2 \in \mathbb{R}^+_0 :\\ ^a\\!\log{x^\orange{n}} = \orange{n} \cdot \\ ^a\\!\log x$$
+{{< /attention >}}
+
+Dit werk ook met **wortels**! Een **n-demachtswortel** kunnen we immers schrijven als **exponent** $\frac{1}{n}$. Deze breuk als exponent kunnen we vervolgens voorop plaatsen. **In het algemeen** geldt:
+
+$$^a\\!\log{\sqrt[n]{x}} = ^a\\!\log{x^{\frac{1}{n}}} = \frac{1}{n} \cdot \\ ^a\\!\log{x}$$
 
 ## Logaritmen met een verschillend grondtal
 
 ## Berekeningen buiten het bereik van een rekentoestel
+Hoewel een **rekentoestel** een zeer handig instrument is, heeft het ook zo zijn **beperkingen**. :unamused: Probeer maar eens $(224\pi)^{128}$ te berekenen met je rekentoestel. Zeer grote kans dat dit niet werkt en *overflow* verschijnt, maar niet getreurd! **Aan de hand van logaritmen** en de [wetenschappelijke schrijfwijze](/lessen/fysica/grootheden_eenheden/wetenschappelijke_notatie/), kunnen we dit toch mooi uitdrukken. :confetti_ball:
 
 ## Samengevat
