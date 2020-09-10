@@ -39,6 +39,8 @@ $$^a\\!\log a = 1 \text{, want } a^1 = a$$
 $$^a\\!\log 1 = 0 \text{, want } a^0 = 1$$  
 {{< /attention >}}
 
+Toch willen we ook nog even vermelden dat een **andere veelvoorkomende notatie** {{< mute "(voornamelijk in het buitenland)" >}} het grondtal linksonder schrijft: $\log _a x$. :wink:
+
 ## Basisformules
 Er zijn twee **basisformules**, waarmee we de rekenregels voor logaritmen kunnen bewijzen.
 
