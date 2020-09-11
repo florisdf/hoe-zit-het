@@ -101,7 +101,7 @@ Zie je, zo moeilijk zijn die definities niet! :flexed_biceps::dancer::party_popp
 {{< attention "Punten, rechten, vlakken" >}}
 Een **punt** stellen we voor met een **stip** en benoemen we met een **hoofdletter**. Het is het kleinste *deeltje* in de meetkunde. Een **rechte of lijn** is een verzameling van een **oneindig aantal punten in één richting**. We benoemen dit met een **kleine letter** of door **twee punten** op de rechte (zoals: AB). Door **twee punten** gaat slechts **één rechte** en door **één punt** gaan een **oneindig aantal rechten**. Punten op dezelfde rechten noemen we **collineaire punten**.
 
-Het **vlak** is een **oneindige verzameling punten in twee richtingen**. Een blaadje papier is een vlak en alles wat erop staat, staat afgebeeldt in **twee dimensies** of **in het vlak**. Een **ruimte** is een **oneindige verzameling punten in drie richtingen**. We noemen dat **drie dimensionaal** en dat is de wereld waarin we leven.
+Het **vlak** is een **oneindige verzameling punten in twee richtingen**. Een blaadje papier is een vlak en alles wat erop staat, staat afgebeeld in **twee dimensies** of **in het vlak**. Een **ruimte** is een **oneindige verzameling punten in drie richtingen**. We noemen dat **drie dimensionaal** en dat is de wereld waarin we leven.
 {{< /attention >}}
 
 {{< attention "Een lijnstuk (meten)" >}}
