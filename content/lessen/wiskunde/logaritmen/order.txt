@@ -2,3 +2,4 @@ logaritme
 rekenregels
 functies
 vergelijkingen
+berekeningen_buiten_bereik

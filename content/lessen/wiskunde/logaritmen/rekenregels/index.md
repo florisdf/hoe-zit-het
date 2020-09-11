@@ -94,7 +94,6 @@ $$^a\\!\log{\sqrt[n]{x}} = ^a\\!\log{x^{\frac{1}{n}}} = \frac{1}{n} \cdot \\ ^a\
 
 ## Logaritmen met een verschillend grondtal
 
-## Berekeningen buiten het bereik van een rekentoestel
-Hoewel een **rekentoestel** een zeer handig instrument is, heeft het ook zo zijn **beperkingen**. :unamused: Probeer maar eens $(224\pi)^{128}$ te berekenen met je rekentoestel. Zeer grote kans dat dit niet werkt en *overflow* verschijnt, maar niet getreurd! **Aan de hand van logaritmen** en de [wetenschappelijke schrijfwijze](/lessen/fysica/grootheden_eenheden/wetenschappelijke_notatie/), kunnen we dit toch mooi uitdrukken. :confetti_ball:
+
 
 ## Samengevat
