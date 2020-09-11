@@ -2,13 +2,13 @@
 title: "Wat is een breuk?"
 date: 2020-07-05T15:00:00+02:00
 weight: 2
-draft: true
+draft: false
 images: []
 tags: ["Breuk", "Rationale getallen", "Bewerkingen", "Waarom kan je niet delen door 0?"]
 description: "In deze les zoeken we uit wat een breuk precies is."
 ---
-Je bent op een feestje met acht personen en het is tijd voor de taart :birthday:. Iedereen wil uiteraard een even groot
-stuk van de taart, dus wordt hij in acht gelijke stukken gesneden :cake:. Iedereen krijgt dus één achtste of $\frac{1}{8}$ van de taart.
+Je bent op een feestje met acht personen en het is tijd voor de taart. :birthday: Iedereen wil uiteraard een even groot
+stuk van de taart, dus wordt hij in acht gelijke stukken gesneden. :cake: Iedereen krijgt dus één achtste of $\frac{1}{8}$ van de taart.
 
 Zoals je wellicht al weet, noemen we die $\frac{1}{8}$ een **breuk**. In deze les leggen we uit wat zo'n breuk weer precies is en in welke vormen een breuk zoal kan voorkomen.
 
@@ -31,16 +31,16 @@ Een trucje om de teller en noemer te onthouden: de **t**eller staat aan de **t**
 
 ## Hoe werkt een breuk?
 Het is handig om bij breuken **een pizza** :pizza: voor te stellen. De **noemer** van een breuk vertelt je **in hoeveel stukken** de pizza wordt verdeeld.
-De **teller** van een breuk vertelt je dan **hoeveel stukken je neemt/eet** :yum:. 
+De **teller** van een breuk vertelt je dan **hoeveel stukken je neemt/eet**. :yum:
 
-Zo is de pizza hieronder verdeelt in vier **gelijke** stukken. De *kleine* pizzapunt
+Zo is de pizza hieronder verdeeld in vier **gelijke** stukken. De *kleine* pizzapunt
 stelt $\frac{1}{4}$ voor, terwijl de rest van de pizza $\frac{3}{4}$ voorstelt.
 
 {{< svg "img/pizza.svg" "Een pizza die in vier stukken is gedeeld, waarvan eentje wordt genomen." >}}
 
-Een andere manier om aan breuken te denken is door middel van **een deling**. Zo betekent $\frac{3}{4}$ hetzelfde als $3 : 4$. De uitkomst van beide is $0,75$. Het is **veel makkelijker** om een **deling als een breuk te schrijven**, daarom werken wiskundigen veel liever met breuken in plaats van het deelteken.
+Een andere manier om aan breuken te denken is door middel van **een deling**. Zo betekent $\frac{3}{4}$ hetzelfde als $3 : 4$. De uitkomst van beide is $0{,}75$. Het is **veel makkelijker** om een **deling als een breuk te schrijven**, daarom werken wiskundigen veel liever met breuken in plaats van het deelteken.
 
-Aangezien een breuk eigenlijk een deling is, moeten we nog even naar onze **mintekens** kijken :eyes:. Zowel teller als noemer kunnen één (of meer) minteken(s) bevatten. Als **alleen de teller** of **alleen de noemer negatief** is, dan is de **breuk in zijn geheel negatief**. We noteren een minteken voor de breukstreep ($-\frac{a}{b}$). Als **teller én noemer negatief** zijn, dan is de **breuk in zijn geheel positief**.
+Aangezien een breuk eigenlijk een deling is, moeten we nog even naar onze **mintekens** kijken. :eyes: Zowel teller als noemer kunnen één (of meer) minteken(s) bevatten. Als **alleen de teller** of **alleen de noemer negatief** is, dan is de **breuk in zijn geheel negatief**. We noteren een minteken voor de breukstreep ($-\frac{a}{b}$). Als **teller én noemer negatief** zijn, dan is de **breuk in zijn geheel positief**.
 
 {{< attention "Een nul in de breuk" >}}
 Als de **nul in de teller** voorkomt, dan is de **uitkomst** $0$. Je neemt nul stukken van een pizza, dus kan je ook geen (of nul) stukken eten.
@@ -65,7 +65,7 @@ Hieronder vind je een tabel die toont hoe de rechterlimiet (die nadert van recht
 | 0.001   | 1000              |
 | 0.0001  | 10000             |
 | 0.00001 | 100000            |
-| ...     | ...               |
+| \ldots  | \ldots            |
 | 0       | $+\infty$         |
 
 Het is dus duidelijk dat we **geen eenduidige oplossing** hebben wanneer we **delen door 0**. Vandaar dat dit **ongedefinieerd** is.
@@ -91,7 +91,7 @@ Een andere soort breuken die we vaak tegenkomen zijn de **gelijknamige breuken**
 
 $$\frac{2}{\green{5}}, \frac{8}{\green{5}}, \frac{25}{\green{5}}$$
 
-Laten we het laatste voorbeeld nog eens van dichterbij bekijken :mag_right:. We kunnen $\frac{25}{5}$ namelijk ook schrijven als $\frac{5}{1}$ {{< mute "of simpelweg als 5." >}} Als we dit doen is de breuk **niet meer gelijknamig** met de anderen, want de **noemer is veranderd**. 
+Laten we het laatste voorbeeld nog eens van dichterbij bekijken. :mag_right: We kunnen $\frac{25}{5}$ namelijk ook schrijven als $\frac{5}{1}$ {{< mute "of simpelweg als 5." >}} Als we dit doen is de breuk **niet meer gelijknamig** met de anderen, want de **noemer is veranderd**. 
 
 Omgekeerd kunnen we ook **een breuk gelijknamig maken**. Hoe we dit doen en waarom we dit gebruiken kan je lezen in de les over [het optellen en aftrekken van breuken en kommagetallen](../optellen_aftrekken).
 

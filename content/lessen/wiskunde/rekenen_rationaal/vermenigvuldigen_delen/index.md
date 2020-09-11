@@ -2,16 +2,16 @@
 title: "Vermenigvuldigen en delen van breuken en kommagetallen"
 date: 2020-07-05T15:00:00+02:00
 weight: 4
-draft: true
+draft: false
 images: []
 tags: ["Breuk", "Kommagetallen", "Vermenigvuldigen", "Delen", "Rationale getallen", "Bewerkingen"]
 description: "In deze les leren we hoe we rationale getallen kunnen delen en
 vermenigvuldigen."
 ---
-In vergelijking met het optellen en aftrekken van twee breuken is het vermenigvuldigen en delen van breuken *piece of cake* :cake:.
+In vergelijking met het optellen en aftrekken van twee breuken is het vermenigvuldigen en delen van breuken *piece of cake*. :cake:
 
 ## Hoe vermenigvuldig ik twee breuken?
-Twee breuken vermenigvuldigen is heel simpel. We **vermenigvuldigen tellers en noemers** om het resultaat te bekomen. 
+Twee breuken vermenigvuldigen is heel simpel. We **vermenigvuldigen tellers en noemers** om het resultaat te bekomen.
 
 $$\frac{2}{3} \cdot \frac{1}{2} = \frac{2}{6} = \frac{1}{3}$$
 
@@ -24,7 +24,7 @@ $$\frac{a}{b} \cdot \frac{c}{d} = \frac{a \cdot c}{b \cdot d}$$
 De regels voor het **minteken** zijn hetzelfde als bij de **gehele getallen**.
 
 ## Hoe deel ik twee breuken?
-Om twee breuken door elkaar te delen gebruiken we het feit dat een deling het **omgekeerde van een vermenigvuldiging** is. Dit betekent dat $8 : 4$ hetzelfde is als $8 \cdot \frac{1}{4}$. Reken maar even uit :rocket:!
+Om twee breuken door elkaar te delen, gebruiken we het feit dat een deling het **omgekeerde van een vermenigvuldiging** is. Dit betekent dat $8 : 4$ hetzelfde is als $8 \cdot \frac{1}{4}$. Reken maar even uit! :rocket:
 
 $$\frac{8}{\orange{1}} \cdot \frac{\green{1}}{4} = \frac{8 \cdot 1}{1 \cdot 4} = \frac{8}{4} = 8 : 4 = 2$$
 
@@ -86,5 +86,5 @@ Om **kommagetallen** te **vermenigvuldigen**:
 2. **Maak de som** van het **aantal cijfers na de komma**
 3. **Plaats** het resultaat **evenveel cijfers na de komma als berekend uit stap 2**
 
-Om **kommagetallen** te **delen**, **vermenigvuldig** je **deeltal en deler** met een **veelvoud van 10**. Je kiest het veelvould dat **evenveel nullen** heeft als er **cijfers zijn achter het langste kommagetal**.
+Om **kommagetallen** te **delen**, **vermenigvuldig** je **deeltal en deler** met een **veelvoud van 10**. Je kiest het veelvoud dat **evenveel nullen** heeft als er **cijfers zijn achter het langste kommagetal**.
 {{< /attention >}}

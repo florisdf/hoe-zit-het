@@ -2,7 +2,7 @@
 title: "Rekenen met gehele getallen"
 date: 2020-06-21T15:00:00+02:00
 weight: 1
-draft: true
+draft: false
 images: []
 categories: ["wiskunde", "getallen", "1e middelbaar"]
 tags: ["Optellen", "Aftrekken", "Vermenigvuldigen", "Delen", "Rekenen", "Bewerkingen"]
@@ -54,7 +54,7 @@ Merk op dat we $-2$ tussen haakjes hebben geschreven. Dit doen we omdat "$10 + -
 $10 - 2$ is dus hetzelfde als $10 + (-2)$, of: "zet tien sprongen naar rechts en twee naar links". Dan komen we inderdaad uit op $8$!
 
 ### Wat te doen met verschillende tekens?
-Soms kom je uitdrukking tegens zoals $2 -(-4))$. Wat moet je doen met al deze tekens en hoe bepaal je de uitkomst? Daarvoor kan je je best een persoon
+Soms kom je uitdrukking tegen zoals $2 -(-4))$. Wat moet je doen met al deze tekens en hoe bepaal je de uitkomst? Daarvoor kan je je best een persoon
 langs een getallenas voorstellen. 
 
 Een **cijfer** vertelt ons het **aantal stappen** dat deze persoon zet. De richting {{< mute "(links of rechts)" >}} wordt bepaald
@@ -97,7 +97,7 @@ $$\orange{3} \cdot (-2) = \underbrace{\green{+}(-2) + (-2) + (-2)}_{\orange{3}\ 
 Hieruit kunnen we besluiten dat als er een **even aantal negatieve factoren** zijn,
 de uitkomst **positief** is. Als er een **oneven aantal negatieve factoren** zijn, dan is de uitkomst **negatief**.
 
-> Nog niet overtuigd :thinking_face:? Bekijk de alinea *Wat te doen met verschillende tekens?* nog eens grondig!
+> Nog niet overtuigd? :thinking_face: Bekijk de alinea *Wat te doen met verschillende tekens?* nog eens grondig!
 
 ## Gehele getallen delen
 
