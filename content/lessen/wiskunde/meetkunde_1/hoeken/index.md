@@ -7,7 +7,7 @@ description: "In deze les gaan we verder in op hoeken. We bekijken nog eens wat 
 tags: ["Meetkundige begrippen", "Hoeken"]
 images: []
 ---
-Wanneer twee lijnen elkaar snijden, dan doen ze dit onder een bepaalde **hoek**. Hoeken zijn belangrijk in alles wat met meetkunde te maken heeft, want ze vertellen iets over **de manier waarop** twee rechten, halfrechten of lijnstukken elkaar **snijden**. Tenslotte heeft het ook te maken met **draaiingen** :woozy_face:, dus hou je goed vast!
+Wanneer twee lijnen elkaar snijden, dan doen ze dit onder een bepaalde **hoek**. Hoeken zijn belangrijk in alles wat met meetkunde te maken heeft, want ze vertellen iets over **de manier waarop** twee rechten, halfrechten of lijnstukken elkaar **snijden**. Daarnaast komen hoeken ook voor bij **draaiingen** :woozy_face:, dus hou je goed vast!
 
 ## Wat is een hoek?
 **Hoeken** kom je overal tegen. Denk maar aan de letterlijke hoeken van een kamer of de hellingshoek {{< mute "ook gekend als de hellingsgraad" >}} van een skipiste. :skier::snowboarder:
@@ -18,7 +18,7 @@ Een **hoek** wordt steeds **bepaald door twee halfrechten met een gemeenschappel
 
 {{< svg "img/terminologie.svg" "Een hoek bestaat uit een hoekpunt en twee benen." >}}
 
-We kunnen een hoek op drie manieren **benoemen**. Enerzijds kunnen we dit doen met een **Griekse letter**, zoals $\alpha$ (alfa) of $\theta$ (thèta). Anderzijds kunnen we dit doen met een ***gewone* letter** (de letter van het grenspunt) waar een **hoedje** :tophat: op staat, bijvoorbeeld $\hat{A}$ of $\hat{B}$. Een derde manier gebruiken we als er **verwarring** is. :confused: We schrijven dan **drie letters** op. Twee letters (de buitenste) zijn afkomstig van **een punt op elk been**. De middelste letter is **de hoek zelf** en krijgt een hoedje. Zo krijg je bijvoorbeeld $B\hat{A}C$. :grinning:
+We kunnen een hoek op drie manieren **benoemen**. Enerzijds kunnen we dit doen met een **Griekse letter**, zoals $\alpha$ (alfa) of $\theta$ (thèta). Anderzijds kunnen we dit doen met een ***gewone* letter** (de letter van het grenspunt) waar een **hoedje** :tophat: op staat, bijvoorbeeld $\hat{A}$ of $\hat{B}$. Een derde manier gebruiken we als er **verwarring** mogelijk zou zijn met één letter. :confused: We schrijven dan **drie letters** op. Twee letters (de buitenste) zijn afkomstig van **een punt op elk been**. De middelste letter is **de hoek zelf** en krijgt een hoedje. Zo krijg je bijvoorbeeld $B\hat{A}C$. :grinning:
 
 {{< svg "img/notatie.svg" "Er zijn drie verschillende manieren om een hoek te benoemen. Hier staan ze alle drie aangeduid." >}}
 
@@ -40,7 +40,7 @@ In [de les over rechten](../rechten) hebben we de definitie van het midden van e
 
 {{< svg "img/bissectrice.svg" "De bissectrice (of deellijn) van een hoek is de rechte die de hoek in twee even grote hoeken verdeelt." >}}
 
-Elke **hoek** heeft **juist één bissectrice**, net zoals elk lijnstuk juis één midden heeft. :thumbs_up:
+Elke **hoek** heeft **juist één bissectrice**, net zoals elk lijnstuk juist één midden heeft. :thumbs_up:
 
 {{< attention "Bissectrice van een hoek" >}}
 De **bissectrice** (of **deellijn**) van een hoek is de rechte die de hoek in twee even grote hoeken verdeelt.

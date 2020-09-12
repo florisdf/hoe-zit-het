@@ -29,21 +29,21 @@ Naast een punt en een vlak werken we in de meetkunde ook met **rechten**. Een **
 
 {{< svg "img/twee_punten_rechten.svg" "Door één punt gaat een oneindig aantal rechten, maar door twee punten gaat slechts één rechte." >}}
 
-**Punten** die **op dezelfde rechte** liggen (dit kunnen er meer dan twee zijn), noemen we **collineaire punten**.
+**Punten** die **op dezelfde rechte** liggen (dit kunnen meer dan twee punten zijn), noemen we **collineaire punten**.
 
 {{< svg "img/collineaire_punten.svg" "Punten zijn collineair als ze op dezelfde rechte liggen. Let op: een rechte mag je altijd doortrekken, dus punten die in het verlengde van de rechte liggen tellen ook mee." >}}
 
 De punten **A, B, C, D** zijn **collineair**. De punten **A, D en E** zijn bijvoorbeeld **niet collineair**. Merk ook op dat **elke groep van twee punten steeds collineair** is, aangezien twee punten steeds één rechte definiëren.
 
 ## Van punt naar ruimte
-Nog even herhalen vooraleer we verder gaan. Een **punt** is een stip en dus het kleinste dat er is in de meetkunde. Als je een **oneindig** aantal stippen in **1 richting** (bv. horizontaal) zet, dan krijg je een **rechte**. Een **vlak** is nog groter en kan je voorstellen als een blaadje papier. :memo: Alles wat op het blad staat, ligt in het vlak. Ook dit loopt **oneindig** door (in **twee richtingen**). Tenslotte is er een **ruimte**, dit heeft **drie dimensies** en het is dus een oneindig aantal punten in **drie richtingen**.
+Nog even herhalen vooraleer we verder gaan. Een **punt** is een stip en dus het kleinste dat er is in de meetkunde. Als je heel veel stippen in **1 richting** (bv. horizontaal) naast elkaar zet, dan krijg je een **rechte**. Een **vlak** is nog groter en kan je je voorstellen als een blaadje papier. :memo: Alles wat op het blad staat, ligt in het vlak. Ook dit loopt **oneindig** door (in **twee richtingen**). Tenslotte is er een **ruimte**, dit heeft **drie dimensies** en het is dus een oneindig aantal punten in **drie richtingen**.
 
 {{< expand "Even stilstaan bij de betekenis van 'richting'" >}}
-Vaak denken mensen bij het woord **richting** aan links of rechts. In de wiskunde, en voornamelijk de fysica, spreken we echter op een andere manier over *richting*. Voor ons is richting namelijk **horizontaal, verticaal, in een hoek van 60°...**. Links en rechts duidt de **zin** aan. Wanneer we dus spreken over **oneindig in 1 richting**, kan je je het volgende voorstellen: **een horizontale lijn die zowel links als rechts oneindig doorloopt**. De richting is immers 'horizontaal' en zegt niets over links of rechts.
+Vaak denken mensen bij het woord **richting** aan links of rechts. In de wiskunde, en voornamelijk de fysica, spreken we echter op een andere manier over *richting*. Voor ons is richting namelijk **horizontaal, verticaal, in een hoek van 60°...**. Links en rechts duidt de **zin** aan. Wanneer we dus spreken over **oneindig in 1 richting**, kan je je het volgende voorstellen: **een horizontale lijn die zowel links als rechts oneindig doorloopt**. De richting kan bv. 'horizontaal' zijn en zegt niets over links of rechts.
 {{< /expand >}}
 
 ## Wat is het verschil tussen een rechte en een lijnstuk?
-Een **lijnstuk** is, zoals doet vermoeden, een stuk van een lijn. :exploding_head: Meer bepaald: een lijn die **begrensd is door twee punten**. We **benoemen** het lijnstuk steeds naar zijn **grenspunten**. Dat zijn de **punten die het lijnstuk begrenzen**. Weet jij nu welke van volgende twee een lijnstuk is en welke een rechte {{< mute "of lijn" >}}:thinking_face:? 
+Een **lijnstuk** is, zoals doet vermoeden, een stuk van een lijn. :exploding_head: Meer bepaald: een lijn die **begrensd is door twee punten**. We **benoemen** het lijnstuk steeds naar zijn **grenspunten**. Dat zijn de **punten die het lijnstuk begrenzen**. Weet jij nu welke van volgende twee een lijnstuk is en welke een rechte {{< mute "of lijn" >}}? :thinking_face:
 
 {{< svg "img/lijnstuk_rechte.svg" "Een lijnstuk is een lijn die stopt in punten. We noteren dit met twee rechte haakjes, eentje rond elk grenspunt: [AB]. Een rechte loopt doorheen de punten, zoals eerder reeds vermeld. We noteren geen vierkante haakjes, maar gewoon AB." >}}
 
@@ -68,10 +68,10 @@ Alleen Engelsen, Amerikanen, Canadezen... doen een beetje moeilijk en werken met
 Het **metriek stelsel** ken je gegarandeerd. Ik noem enkele voorbeelden: centimeter (cm), kilogram (kg), seconden (s)... Klinkt het bekend in de oren? :ear:
 > De [les over grootheden en eenheden](../../../fysica/grootheden_eenheden/intro) gaat dieper in op deze eenheden, zeker eens de moeite om te lezen!
 
-In de meetkunde maken we vooral (zo goed als altijd) gebruik van **afstandsmaten**. Dit zijn de **centimeter**, **decimeter**, **meter**... Twee centimeter wilt dan eigenlijk niets anders zeggen dan: twee maal de lengte van een centimeter. Een correcte notatie voor de lengte van [AB] is dus $|AB| = 4 \si{ cm}$.
+In de meetkunde maken we vooral (zo goed als altijd) gebruik van **afstandsmaten**. Dit zijn de **centimeter**, **decimeter**, **meter**... Twee centimeter wil dan eigenlijk niets anders zeggen dan: twee maal de lengte van een centimeter. Een correcte notatie voor de lengte van [AB] is dus $|AB| = 4 \si{ cm}$.
 
 {{< expand "Wanneer gebruik ik geen eenheden?" >}}
-Je zal zien dat er soms toch **geen eenheid** staat. Deze wordt vaak weggelaten **als het gaat over verhoudingen** of als **de afbeelding geschaald wordt**. De grootte van de afbeeldingen op *Hoe Zit Het?* wordt namelijk aangepast naargelang de grootte van je scherm. :desktop_computer: Wij kunnen iets tekenen dat 4 cm lang is, maar als het dan verkleind wordt om op je smartphone :iphone: te passen, klopt de lengte niet meer. En aangezien de lengte van een (centi)meter vaststaat, kiezen we er voor om de **eenheid weg te laten**. Dat is het meest correct. Onze illustraties zijn tenslotte maar voorbeelden en geen tekeningen van een architect. :house:
+Je zal zien dat er soms toch **geen eenheid** staat. Deze wordt vaak weggelaten **als het gaat over verhoudingen** of als **de afbeelding geschaald wordt**. De grootte van de afbeeldingen op *Hoe Zit Het?* wordt namelijk aangepast naargelang de grootte van je scherm. :desktop_computer: Wij kunnen iets tekenen dat 4 cm lang is, maar als het dan verkleind wordt om op je smartphone :iphone: te passen, klopt de lengte niet meer. En aangezien de lengte van een (centi)meter vaststaat, kiezen we ervoor om de **eenheid weg te laten**. Dat is het meest correct. Onze illustraties zijn tenslotte maar voorbeelden en geen tekeningen van een architect. :house:
 {{< /expand >}}
 
 Wanneer twee (of meer) **lijnstukken dezelfde lengte** hebben, duiden we dit aan met **dezelfde merktekens**.
@@ -82,14 +82,14 @@ Wanneer twee (of meer) **lijnstukken dezelfde lengte** hebben, duiden we dit aan
 Meetkunde bevat jammer genoeg - voor sommigen - relatief veel **definities**. Maar je moet je altijd bedenken dat meetkunde een spel is, waarvan je de spelregels nu eenmaal **goed moet kennen**. Een groot voordeel bij meetkunde is dat je het meestal eens kan tekenen om te zien of je definitie klopt.
 
 {{< attention "Midden van een lijnstuk" >}} 
-M is het midden van een lijnstuk [AB] als en slechts als M op het lijnstuk [AB] ligt en het lijnstuk verdeelt is in twee even lange stukken.
+M is het midden van een lijnstuk [AB] als en slechts als M op het lijnstuk [AB] ligt en het lijnstuk verdeeld is in twee even lange stukken.
 
 $$M = mi[AB] \Leftrightarrow |AM| = |BM| \text{ en } M \in [AB] $$
 {{< /attention >}}
 
-Wat wilt dit nu precies zeggen? :face_with_monocle: Stap per stap gaan we erdoorheen! **M** is een hoofdletter en verwijst hier dus naar **een punt M**. Dan komen we mi[AB] tegen. Dat betekent **het midden van** het lijnstuk **[AB]**.
+Wat wil dit nu precies zeggen? :face_with_monocle: Stap per stap gaan we erdoorheen! **M** is een hoofdletter en verwijst hier dus naar **een punt M**. Dan komen we mi[AB] tegen. Dat betekent **het midden van** het lijnstuk **[AB]**.
 
-Een dubbele wederzijdse pijl ($\Leftrightarrow$) betekent **als en slechts als**. Een punt M is dus het midden van [AB] **alleen als** er wordt voldaan aan wat er na de pijl komt. Die voorwaarde is dat de **afstand tussen het punt A en het punt B** ($|AM| = |BM|$) gelijk moet zijn en **M moet een element zijn van**/op het lijnstuk **[AB]** liggen.
+Een dubbele wederzijdse pijl ($\Leftrightarrow$) betekent **als en slechts als**. Een punt M is dus het midden van [AB] **alleen als** er wordt voldaan aan wat er na de pijl komt. Die voorwaarde is dat de **afstand tussen het punt A en het punt B** ($|AM| = |BM|$) gelijk moet zijn en **M moet een element zijn van [AB]** {{< mute "(M moet op het lijnstuk [AB] liggen)" >}}.
 
 In welke van de drie onderstaande situaties is M het midden van het lijnstuk [AB]? {{< mute "Druk op 'toon uitleg' voor de uitkomst." >}}
 
@@ -99,7 +99,7 @@ Zie je, zo moeilijk zijn die definities niet! :flexed_biceps::dancer::party_popp
 
 ## Samengevat
 {{< attention "Punten, rechten, vlakken" >}}
-Een **punt** stellen we voor met een **stip** en benoemen we met een **hoofdletter**. Het is het kleinste *deeltje* in de meetkunde. Een **rechte of lijn** is een verzameling van een **oneindig aantal punten in één richting**. We benoemen dit met een **kleine letter** of door **twee punten** op de rechte (zoals: AB). Door **twee punten** gaat slechts **één rechte** en door **één punt** gaan een **oneindig aantal rechten**. Punten op dezelfde rechten noemen we **collineaire punten**.
+Een **punt** stellen we voor met een **stip** en benoemen we met een **hoofdletter**. Het is het kleinste *deeltje* in de meetkunde. Een **rechte of lijn** is een verzameling van een **oneindig aantal punten in één richting**. We benoemen dit met een **kleine letter** of door **twee punten** op de rechte (zoals: AB). Door **twee punten** gaat slechts **één rechte** en door **één punt** gaan **oneindig veel rechten**. Punten op dezelfde rechte noemen we **collineaire punten**.
 
 Het **vlak** is een **oneindige verzameling punten in twee richtingen**. Een blaadje papier is een vlak en alles wat erop staat, staat afgebeeld in **twee dimensies** of **in het vlak**. Een **ruimte** is een **oneindige verzameling punten in drie richtingen**. We noemen dat **drie dimensionaal** en dat is de wereld waarin we leven.
 {{< /attention >}}

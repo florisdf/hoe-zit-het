@@ -3,7 +3,7 @@ title: "Wat is het verschil tussen een vlakke- en een ruimtefiguur?"
 date: 2020-08-05T16:17:25+02:00
 weight: 4
 draft: true
-description: "In deze les gaan we verder in op de drie dimensionale ruimte. We bekijken het verschil tussen vlakke figuren en ruimtefiguren. Denk hierbij aan vierkanten, kubussen, cirkels, cilinders, driehoeken, prisma's... Daarnaast bekijken we ook enkele eigenschappen die alleen gelden in de ruimte (zoals kruisende rechten). Tenslotte komen perspectieven en ontwikkelingen van ruimtefiguren ook kort aan bod."
+description: "In deze les gaan we verder in op de driedimensionale ruimte. We bekijken het verschil tussen vlakke figuren en ruimtefiguren. Denk hierbij aan vierkanten, kubussen, cirkels, cilinders, driehoeken, prisma's... Daarnaast bekijken we ook enkele eigenschappen die alleen gelden in de ruimte (zoals kruisende rechten). Ten slotte komen perspectieven en ontwikkelingen van ruimtefiguren ook kort aan bod."
 tags: ["Vlakke figuren", "Ruimtefiguren", "Meetkundige eigenschappen"]
 images: []
 ---
@@ -16,9 +16,9 @@ De **vlakke meetkunde** speelt zich af in **twee dimensies**, terwijl de **ruimt
 
 {{< svg "img/2d_3d.svg" "Een vlak heeft een lengte en een breedte, terwijl een ruimte ook nog een hoogte heeft." >}}
 
-En dingen met **één dimensie** dan :thinking_face:? Wel, die kun je voorstellen op **een enkele rechte** (zoals de getallenas). Je kan dus alleen punten gebruiken als je iets in deze dimensie wil plaatsen. 
+En dingen met **één dimensie** dan? :thinking_face: Wel, die kun je voorstellen op **een enkele rechte** (zoals de getallenas). Je kan dus alleen punten gebruiken als je iets in deze dimensie wilt plaatsen. 
 
-Wil je **in een vlak** {{< mute "dat twee dimensies heeft" >}} iets plaatsen, dan kan je kiezen voor allerlei **vlakke figuren**. Denk hierbij aan trapezia, parallellogrammen, vierkanten, driehoeken... Het is **in de ruimte** {{< mute "die drie dimensies heeft" >}} dat je **ruimtefiguren** tegenkomt. Voorbeelden hiervan zijn de kubus, de balk, de cilinder en de *parallellopipidum* {{< mute "(dat is de overeenkomstige ruimtefiguur van een parallelogram)">}}(we konden deze geweldige naam niet weglaten :blush::musical_notes:). 
+Wil je **in een vlak** {{< mute "dat twee dimensies heeft" >}} iets plaatsen, dan kan je kiezen voor allerlei **vlakke figuren**. Denk hierbij aan trapezia, parallellogrammen, vierkanten, driehoeken... Het is **in de ruimte** {{< mute "die drie dimensies heeft" >}} dat je **ruimtefiguren** tegenkomt. Voorbeelden hiervan zijn de kubus, de balk, de cilinder en de *parallellepipedum* {{< mute "(dat is de overeenkomstige ruimtefiguur van een parallellogram)">}} (we konden deze geweldige naam niet weglaten :blush::musical_notes:). 
 
 ## Enkele vlakke figuren
 Voor de volledigheid vermelden we hier nog even **de vlakke figuren** waarvan je verondersteld wordt ze te kennen. 
@@ -28,14 +28,14 @@ Voor de volledigheid vermelden we hier nog even **de vlakke figuren** waarvan je
 > In de lessen over [driehoeken](../driehoeken), [vierhoeken](../vierhoeken) en [cirkels](../cirkels) kan je meer leren over deze vlakke figuren. :raised_hands:
 
 ## Ruimtefiguren weergeven in 2D
-We zijn allemaal wel al eens ruimtefiguren tegengekomen die zijn afgebeeld op een blad papier. Hiervoor gebruikt men **perspectieven**, zodat we **een gevoel van drie dimensies** krijgen op een twee dimensionaal vlak. 
+We zijn allemaal wel al eens ruimtefiguren tegengekomen die zijn afgebeeld op een blad papier. Hiervoor gebruikt men **perspectieven**, zodat we **een gevoel van drie dimensies** krijgen op een tweedimensionaal vlak. 
 
 {{< svg "img/cavaliere.svg" "Een kubus in cavalièreperspectief." >}}
 
 Elke (stippel)lijn noemt men een **ribbe** {{< mute "van de kubus" >}}.
 
 {{< attention "Cavalièreperspectief" >}}
-Het **cavalièreperspectief** wordt het meest gebruikt voor het afbeelden van ruimtefiguren. Om dit correct te gebruiken, **teken** je **eerst het vlak waarop je kijkt in ware grootte**. Vervolgens teken je de **zijvlakken onder een hoek van 45°** met de horizontale lijnen. Het zijn ook alleen deze schuine lijnen (die je onder een hoek tekent) die niet de werkelijke grootte hebben. Je tekent ze **de helft van de werkelijke lengte**. Tenslotte worden de **onzichtbare ribben (randen) met een stippelijn** aangeduid.
+Het **cavalièreperspectief** wordt het meest gebruikt voor het afbeelden van ruimtefiguren. Om dit correct te gebruiken, **teken je eerst het vlak waarop je kijkt in ware grootte**. Vervolgens teken je de **zijvlakken onder een hoek van 45°** met de horizontale lijnen. Het zijn ook alleen deze schuine lijnen (die je onder een hoek tekent) die niet de werkelijke grootte hebben. Je tekent ze **de helft van de werkelijke lengte**. Ten slotte worden de **onzichtbare ribben (randen) met een stippellijn** aangeduid.
 {{< /attention >}}
 
 ## Ruimtefiguren bestaan uit vlakke figuren
@@ -68,13 +68,13 @@ Tot slot bestaat er ook nog een **prisma**. Dit is **elke figuur met hetzelfde g
 ## Evenwijdige en snijdende vlakken
 Net zoals rechten, kunnen **vlakken evenwijdig zijn aan elkaar of elkaar snijden**.
 
-> Herinner je je dit niet meer :thinking_face:? Lees dan nog snel even [de les over rechten](../rechten)! :sunglasses::straight_ruler:
+> Herinner je je dit niet meer? :thinking_face: Lees dan nog snel even [de les over rechten](../rechten)! :sunglasses::straight_ruler:
 
 De definitie is namelijk voor beide **juist hetzelfde**. Alleen gaat het hier niet over rechten, maar over vlakken!
 
 {{< svg "img/ligging_vlakken.svg" "Visualisatie van evenwijdige en snijdende vlakken." >}}
 
-Als je de twee snijdende vlakken beter bekijkt :nerd:, dan kunnen je twee dingen opvallen. Ten eerste vormen **alle snijpunten** samen, {{< mute "dat zijn de punten die in/op beide vlakken liggen," >}} **een rechte**. Ten tweede snijden de twee rechter vlakken elkaar in dit voorbeeld loodrecht $\alpha \perp \beta$. Had je dit gezien? :eyes:
+Als je de twee snijdende vlakken beter bekijkt :nerd:, dan kunnen je twee dingen opvallen. Ten eerste vormen **alle snijpunten** samen, {{< mute "dat zijn de punten die in/op beide vlakken liggen," >}} **een rechte**. Ten tweede snijden de twee rechtse vlakken elkaar in dit voorbeeld loodrecht $\alpha \perp \beta$. Had je dit gezien? :eyes:
 
 Ten slotte hebben we het nog even over **kruisende rechten**. Bij deze rechten is het **onmogelijk om ze in één vlak te plaatsen**. Daarmee verschillen ze van evenwijdige en snijdende rechten, waarbij dit wel mogelijk is! :grinning:
 
@@ -92,7 +92,7 @@ Er bestaan verschillende soorten **vlakke figuren**, die je perfect op een blaad
 {{< /attention >}}
 
 {{< attention "Cavalièreperspectief" >}}
-Het **cavalièreperspectief** wordt het meest gebruikt voor het afbeelden van ruimtefiguren. Om dit correct te gebruiken, **teken** je **eerst het vlak waarop je kijkt in ware grootte**. Vervolgens teken je de **zijvlakken onder een hoek van 45°** met de horizontale lijnen. Het zijn ook alleen deze schuine lijnen (die je onder een hoek tekent) die niet de werkelijke grootte hebben. Je tekent ze **de helft van de werkelijke lengte**. Tenslotte worden de **onzichtbare ribben (randen) met een stippelijn** aangeduid.
+Het **cavalièreperspectief** wordt het meest gebruikt voor het afbeelden van ruimtefiguren. Om dit correct te gebruiken, **teken je eerst het vlak waarop je kijkt in ware grootte**. Vervolgens teken je de **zijvlakken onder een hoek van 45°** met de horizontale lijnen. Het zijn ook alleen deze schuine lijnen (die je onder een hoek tekent) die niet de werkelijke grootte hebben. Je tekent ze **de helft van de werkelijke lengte**. Tenslotte worden de **onzichtbare ribben (randen) met een stippelijn** aangeduid.
 {{< /attention >}}
 
 {{< attention "Evenwijdige en snijdende vlakken" >}}
