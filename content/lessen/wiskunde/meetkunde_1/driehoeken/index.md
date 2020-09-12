@@ -3,11 +3,11 @@ title: "Wat maakt een driehoek zo speciaal?"
 date: 2020-08-05T16:17:25+02:00
 weight: 5
 draft: true
-description: "Driehoeken zijn speciale vlakke figuren. Vervolgens leren we ook over de merkwaardige lijnen in een driehoek. Tenslotte ontdekken we de eigenschappen van een driehoek en leren we ze classificeren." 
+description: "Driehoeken zijn speciale vlakke figuren. Vervolgens leren we ook over de merkwaardige lijnen in een driehoek. Ten slotte ontdekken we de eigenschappen van een driehoek en leren we ze classificeren." 
 tags: ["Vlakke figuren", "Driehoeken", "Meetkundige eigenschappen", "Tekenen met geodriehoek"]
 images: []
 ---
-**Driehoeken** vinden we overal rondom ons :earth_africa:! Ingenieurs gebruiken ze ook vaak omdat het zeer **stevige en stabiele figuren** zijn om te gebruiken in de bouw. :building_construction::construction:
+**Driehoeken** vinden we overal rondom ons! :earth_africa: Ingenieurs gebruiken ze ook vaak omdat het zeer **stevige en stabiele figuren** zijn om te gebruiken in de bouw. :building_construction::construction:
 
 ## Wat is een driehoek?
 **Elke veelhoek met drie hoeken en drie zijden** is een driehoek. Logisch, toch? :sunglasses:
@@ -17,13 +17,13 @@ images: []
 We spreken van de driehoek ABC en we **noteren** $\triangle{ABC}$. 
 
 Er is ook nog wat **specifieke terminologie** te kennen.
-Zo is $\hat{B}$ de **overstaande hoek** van de zijde $[AC]$. Het is met andere woorden de enige **hoek die niet op de zijde ligt**. :see_no_evil: $\hat{A}$ en $\hat{C}$ zijn dan weer de **aanliggende hoeken** van de zijde $[AC]$. Ze liggen beide **aan één kant van het lijnstuk**. Tenslotte kan elke hoek ook een **ingesloten hoek** zijn van twee zijden. Bijvoorbeeld: $\hat{B}$ is de ingesloten hoek van $[BC]$ en $[AB]$. Het is de **hoek die op beide zijden ligt**.
+Zo is $\hat{B}$ de **overstaande hoek** van de zijde $[AC]$. Het is met andere woorden de enige **hoek die niet op de zijde ligt**. :see_no_evil: $\hat{A}$ en $\hat{C}$ zijn dan weer de **aanliggende hoeken** van de zijde $[AC]$. Ze liggen beide **aan één kant van het lijnstuk**. Ten slotte kan elke hoek ook een **ingesloten hoek** zijn van twee zijden. Bijvoorbeeld: $\hat{B}$ is de ingesloten hoek van $[BC]$ en $[AB]$. Het is de **hoek die op beide zijden ligt**.
 
 ## De som van de hoeken van een driehoek is 180°
 
 Eén van de bekendste en meest gebruikte eigenschappen in de (vlakke) meetkunde is deze van de **som van de hoeken van een driehoek**. De hoeken vormen namelijk altijd **180°**.
 
-Je kant dit **zelf testen** door een willekeurige driehoek te tekenen en vervolgens de hoeken af te knippen. :scissors: Wanneer je de hoeken vervolgens naast elkaar legt, zie je dat ze een **gestrekte hoek** {{< mute "of 180°" >}} vormen.
+Je kan dit **zelf testen** door een willekeurige driehoek te tekenen en vervolgens de hoeken af te knippen. :scissors: Wanneer je de hoeken vervolgens naast elkaar legt, zie je dat ze een **gestrekte hoek** {{< mute "of 180°" >}} vormen.
 
 {{< attention "Som van de hoeken van een driehoek" >}}
 De **som van de hoeken van een driehoek** is steeds **180°**.
@@ -32,11 +32,11 @@ De **som van de hoeken van een driehoek** is steeds **180°**.
 {{< expand "Driehoeken en de vorm van ons universum" >}}
 Dat de som van de hoeken van een driehoek 180° vormt is een handig gegeven. We moeten echter wel een kanttekening maken en erbij zeggen dat deze eigenschap enkel en alleen geldt in de vlakke meetkunde. In meetkundige systemen met gebogen oppervlakken, zoals de bolmeetkunde, geldt deze eigenschap niet. Aan de hand van deze inzichten is het gelukt om de vorm van ons universum te bepalen. :milky_way:
 
-Astronomen hebben een denkbeeldige driehoek geconstrueerd met drie extreem verafgelegen objecten :star2:. Ze hebben vervolgens de som gemaakt van de hoeken en kwamen op een afgeronde waarde van 180°. Dit wilt zeggen dat het universum zo goed als vlak is (aangezien de eigenschap alleen geldt in vlakke meetkunde). :exploding_head:
+Astronomen hebben een denkbeeldige driehoek geconstrueerd met drie extreem verafgelegen objecten :star2:. Ze hebben vervolgens de som gemaakt van de hoeken en kwamen op een afgeronde waarde van 180°. Dit wil zeggen dat het universum zo goed als vlak is (aangezien de eigenschap alleen geldt in vlakke meetkunde). :exploding_head:
 {{< /expand >}}
 
 ## Merkwaardige lijnen
-In een driehoek zijn verschillende **merkwaardige lijnen**. Dit zijn lijnen met een of meerdere speciale eigenschappen. Twee van zulke merkwaardige lijnen, de [middelloodlijn](../rechten) en [bissectrice](../hoeken), hebben we reeds behandeld in vorige lessen. **In het geval van een driehoek** wordt deze eigenschap dan **toegepast** op een zijde of hoek van de **driehoek**. 
+Een driehoek heeft verschillende **merkwaardige lijnen**. Dit zijn lijnen met een of meerdere speciale eigenschappen. Twee van zulke merkwaardige lijnen, de [middelloodlijn](../rechten) en [bissectrice](../hoeken), hebben we reeds behandeld in vorige lessen. **In het geval van een driehoek** wordt deze eigenschap dan **toegepast** op een zijde of hoek van de **driehoek**. 
 
 {{< attention "Middelloodlijn van een driehoek" >}}
 Een **middelloodlijn van een driehoek** is de rechte die **door het midden** gaat van een zijde en **loodrecht** staat op de drager van die zijde.
@@ -67,11 +67,11 @@ Een **zwaartelijn** van een driehoek is de **rechte** door een hoekpunt en **doo
 Van elke merkwaardige lijn zijn er **drie in elke driehoek**. Deze drie hebben ook allemaal een **gemeenschappelijk snijpunt**. In het geval van de zwaartelijnen, noemen we dit het **zwaartepunt**. :weight_lifter:
 
 ## Classificatie
-Driehoeken kunnen we op **twee manieren** classificeren. Enerzijds aan de hand van **hoeken** en anderszijds door middel van **zijden**.
+Driehoeken kunnen we op **twee manieren** classificeren. Enerzijds aan de hand van **hoeken** en anderzijds door middel van **zijden**.
 
-We spreken van een **scherphoekige driehoek** wanneer hij **drie scherpe hoeken** heeft. Een **rechthoekige driehoek** is een driehoek met **een rechte hoek** en analoog is een **stomphoekige driehoek** een driehoek met **een stompe hoek**.
+We spreken van een **scherphoekige driehoek** wanneer hij **drie scherpe hoeken** heeft. Een **rechthoekige driehoek** is een driehoek met **een rechte hoek** en op dezelfde manier is een **stomphoekige driehoek** een driehoek met **een stompe hoek**.
 
-Een **ongelijkzijdige** (of **ongelijkbendige**) **driehoek** is een driehoek met **drie verschillende, {{< mute "dus niet even lange," >}} zijden**. Een **gelijkbenige driehoek** is dan weer een driehoek met **twee gelijke zijde**, net zoals wij twee (ongeveer) gelijke benen hebben :leg:. De derde mogelijkheid is een **gelijkzijdige driehoek** met **drie gelijke zijden**.
+Een **ongelijkzijdige** (of **ongelijkbenige**) **driehoek** is een driehoek met **drie verschillende, {{< mute "dus niet even lange," >}} zijden**. Een **gelijkbenige driehoek** is dan weer een driehoek met **twee gelijke zijden**, net zoals wij twee (ongeveer) gelijke benen hebben :leg:. De derde mogelijkheid is een **gelijkzijdige driehoek** met **drie gelijke zijden**.
 
 ## Samengevat
 {{< attention "De driehoek" >}}

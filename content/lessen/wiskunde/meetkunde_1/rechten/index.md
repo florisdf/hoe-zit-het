@@ -3,14 +3,14 @@ title: "Wat is een rechte?"
 date: 2020-08-05T16:17:25+02:00
 weight: 2
 draft: true
-description: "In deze les gaan we verder in op rechten. We bekijken nog eens wat een rechte precies is en gaan vervolgens in op enkele belangrijke eigenschapen van deze rechten. Denk hierbij aan de onderlinge ligging, loodrechte stand, middelloodlijn... We leren ook hoe we de afstand tussen een punt en een rechte kunnen berekenen."
+description: "In deze les gaan we verder in op rechten. We bekijken nog eens wat een rechte precies is en gaan vervolgens in op enkele belangrijke eigenschappen van deze rechten. Denk hierbij aan de onderlinge ligging, loodrechte stand, middelloodlijn... We leren ook hoe we de afstand tussen een punt en een rechte kunnen berekenen."
 tags: ["Meetkundige begrippen", "Rechte", "Meetkundige eigenschappen", "Afstanden berekenen"]
 images: []
 ---
 Overal rondom ons zien we **lijnen of rechten**. Sommige snijden elkaar niet en andere wel. In deze les bekijken we de rechten door een wiskundige bril! :nerd_face:
 
 ## Wat is een rechte?
-In de [vorige les](../basisbegrippen) hebben we reeds gezien wat een rechte is, maar om volledig te zijn herhaal ik het nog even.
+In de [vorige les](../basisbegrippen) hebben we reeds gezien wat een rechte is, maar om volledig te zijn herhalen we dit nog even.
 
 {{< svg "img/rechte.svg" "De rechte a is een lijn die oneindig doorloopt" >}}
 
@@ -23,15 +23,15 @@ We kunnen een rechte op twee manieren **benoemen**. Enerzijds **door een kleine 
 ## Wat is het verschil evenwijdige en snijdende rechten?
 Het verschil tussen een evenwijdige en snijdende rechte is fundamenteel. Het is een verschil zoals dag :sun: en nacht :moon:.
 
-**Evenwijdige rechten** zijn rechten die **geen enkele gemeenschappelijk punt** hebben of rechten die **samenvallen** {{< mute "(alleen maar gemeenschappelijke punten hebben)." >}} We noteren **a // b** of **$a \parallel b$**.
+**Evenwijdige rechten** zijn rechten die overal even ver {{< mute "(letterlijk even wijd)" >}} van elkaar liggen. Als de {{< mute "(loodrechte)" >}} afstand tussen twee rechten bijvoorbeeld overal $1~\si{cm}$ is, dan zijn die rechten evenwijdig. Ze hebben dan **geen enkel punt gemeenschappelijk**. Het kan echter ook dat de afstand tussen twee rechten overal $0~\si{cm}$ is, en dan zijn de rechten òòk evenwijdig. In dat geval vallen de rechten samen en hebben ze dus **al hun punten gemeenschappelijk**. Wanneer rechte $a$ evenwijdig is aan rechte $b$, schrijven we dat als **$a$ // $b$** of **$a \parallel b$**.
 
 {{< svg "img/evenwijdige_rechten.svg" "Twee evenwijdige rechten vallen oftewel samen of raken elkaar nooit." >}}
 
 **Snijdenden rechten** zijn rechten die **juist één punt gemeenschappelijk** hebben. Dit gemeenschappelijke punt noemen we **het snijpunt**.
 
-{{< svg "img/snijdende_rechten.svg" "Twee snijdende rechten hebben 1 punt gemeenschappelijk. Dit punt noemen we het snijpunt." >}}
+{{< svg "img/snijdende_rechten.svg" "Twee snijdende rechten hebben één punt gemeenschappelijk. Dit punt noemen we het snijpunt." >}}
 
-Daarnaast bestaat er ook nog iets zoals **kruisende rechten**. Dit zijn rechten die elkaar **noch snijden** en **noch evenwijdig** zijn. We komen deze alleen tegen in een **drie dimensionale ruimte**, dus niet in het vlak (zoals een blaadje papier). Het zijn **rechten die niet in hetzelfde vlak liggen**. We gaan hier verder op in bij de les rond [ruimtefiguren](../figuren).
+Daarnaast bestaat er ook nog iets zoals **kruisende rechten**. Dit zijn rechten die elkaar **noch snijden**, **noch evenwijdig** zijn. We komen deze alleen tegen in een **driedimensionale ruimte**, dus niet in het vlak (zoals een blaadje papier). Het zijn **rechten die niet in hetzelfde vlak liggen**. We gaan hier verder op in bij de les rond [ruimtefiguren](../figuren).
 
 ## Een rechte hoek tussen twee loodrechte dragers
 Als je de [vorige les](../basisbegrippen) goed hebt gelezen, dan weet je dat een drager de rechte is waarop een bepaald lijnstuk, halfrechte, punt... ligt.
@@ -39,11 +39,11 @@ Wanneer twee dragers {{< mute "of rechten" >}} **loodrecht** op elkaar liggen, b
 
 {{< svg "img/loodrechte_stand.svg" "Twee rechten die loodrecht op elkaar staan duiden we aan met een speciaal teken. Dit is een kleine rechte hoek in de hoek die 90° is." >}}
 
-Bert is bouwvakker. :construction_worker: Hij is al enkele dagen bezig met het metsen van een muur en wilt nu controleren of hij wel goed bezig is. Staat de muur mooi recht? Zijn materiaal ligt echter beneden en Bert is een beetje lui. :sloth: Hij heeft alleen touw en een klein stukje lood bij zich (zijn geluksbrenger).
+Bert is bouwvakker. :construction_worker: Hij is al enkele dagen bezig met het metsen van een muur en wil nu controleren of hij wel goed bezig is. Staat de muur mooi recht? Zijn materiaal ligt echter beneden en Bert is een beetje lui. :sloth: Hij heeft alleen touw en een klein stukje lood bij zich (zijn geluksbrenger).
 
 Gelukkig heeft Bert altijd opgelet bij **wiskunde en fysica** en weet hij perfect hoe hij hiermee kan controleren of hij goed bezig is. :light_bulb: Weet jij ook hoe je hiermee kan controleren of de muur recht staat?
 
-{{< svg "img/bouwvakker_bert.svg" "Een schietlood werd vroeger gebruikt om te kijke of iets recht stond. Het lood wordt namelijk door de zwaartekracht aangetrokken en maakt hierdoor een rechte hoek met het oppervlak. Als het schietlood dan evenwijdig is met de muur, dan staat de muur mooi recht." >}}
+{{< svg "img/bouwvakker_bert.svg" "Een schietlood werd vroeger gebruikt om te kijken of iets recht stond. Het lood wordt namelijk door de zwaartekracht aangetrokken en maakt hierdoor een rechte hoek met het oppervlak. Als het schietlood dan evenwijdig is met de muur, dan staat de muur mooi recht." >}}
 
 Vermoedelijk komt de benaming *loodrecht* van dit gebruik.
 
@@ -60,8 +60,8 @@ Voor de volgende eigenschappen neem je er best een **blaadje papier** :page_with
 | Gegevens                            | Eigenschap                                                                                                           |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------------|
 | rechte a en punt B                  | Door elk punt van het vlak kan je precies één rechte tekenen die evenwijdig is met een gegeven rechte.               |
-| rechte a en punt B                  | Door elk punt van het vlak kan je precies één rechte tekenen die  loodrecht staat op een gegeven rechte.             |
-| $a \parallel b$ en $b \parallel c$  | Als twee rechten evenwijdig zijn met met eenzelfde derde rechte, dan zijn die twee rechten onderling ook evenwijdig. |
+| rechte a en punt B                  | Door elk punt van het vlak kan je precies één rechte tekenen die loodrecht staat op een gegeven rechte.             |
+| $a \parallel b$ en $b \parallel c$  | Als twee rechten evenwijdig zijn met eenzelfde derde rechte, dan zijn die twee rechten onderling ook evenwijdig. |
 | $a \parallel b$ en $c \nparallel a$ | Als een rechte een van twee evenwijdigen snijdt, dan snijdt ze ook de andere.                                        |
 | $a \perp c$ en $b \perp c$          | Als twee rechten loodrecht op eenzelfde derde rechte staan, dan zijn de rechten onderling evenwijdig.                |
 | $a \perp b$ en $b \parallel c$      | Als een rechte loodrecht staat op een van twee evenwijdige rechten, dan staat ze ook loodrecht op de andere.         |
@@ -85,7 +85,7 @@ Een **rechte of lijn** is een rechte lijn die **oneindig doorloopt**. We benoeme
 {{< attention "Snijdende, kruisende en evenwijdige rechten" >}}
 **Snijdenden rechten** zijn rechten die **juist één punt gemeenschappelijk** hebben. Dit gemeenschappelijke punt noemen we **het snijpunt**.
 
-**Evenwijdige rechten** zijn rechten die **geen enkele gemeenschappelijk punt** hebben of rechten die **samenvallen**.
+**Evenwijdige rechten** zijn rechten die **geen enkel gemeenschappelijk punt** hebben of rechten die **samenvallen**.
 
 Zowel snijdende als evenwijdige rechten liggen **in hetzelfde vlak**. Dit in tegenstelling tot **kruisende rechten**, die **niet in hetzelfde vlak** liggen.
 {{< /attention >}}

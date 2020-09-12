@@ -16,7 +16,7 @@ Elke **vlakke figuur** die wordt gevormd door **vier zijden** en **vier hoeken**
 
 In bovenstaande vierhoek kunnen we ook nog **diagonalen** tekenen. Dit is een **lijnstuk** dat **twee niet-aangrenzende hoekpunten** met elkaar verbindt. In bovenstaande figuur wordt dit dan [AD] en [BC]. {{< mute "Druk op 'Toon uitleg' om deze te zien." >}}
 
-Net zoals bij [driehoeken](../driehoeken) kunnen we ook spreken van **overstaande zijden en hoeken**. :triangular_ruler: Dit zijn steeds de zijden en hoeken die **het verst** van elkaar liggen. Met andere woorden: die dat het **minst met elkaar gemeen** hebben. 
+Net zoals bij [driehoeken](../driehoeken) kunnen we ook spreken van **overstaande zijden en hoeken**. :triangular_ruler: Dit zijn steeds de zijden en hoeken die **het verst** van elkaar liggen. Met andere woorden de hoeken die het **minst met elkaar gemeen** hebben. 
 
 ## De som van de hoeken van een vierhoek is 360°
 Naast het feit dat alle **vierhoeken** vier zijden en vier hoeken hebben, is **de som van de hoeken** ook steeds gelijk. Dit komt namelijk altijd uit op **360°**.
@@ -45,7 +45,7 @@ In een gelijkbenig trapezium zijn de basishoeken altijd **even groot**.
 ## Het parallellogram
 De volgende stap is een **parallellogram**. Dit is een vierhoek met **twee paar evenwijdige zijden**. 
 
-Deze definitie zorgt ervoor dat **elke parallellogram ook een trapezium** is, wanteen trapezium heeft **ten minste** één paar evenwijdige zijden. **Omgekeerd geldt dit niet**. Niet elke trapezium is een parallellogram :exclamation_mark:.
+Deze definitie zorgt ervoor dat **elke parallellogram ook een trapezium** is, want een trapezium heeft **ten minste** één paar evenwijdige zijden. **Omgekeerd geldt dit niet**. Niet elke trapezium is een parallellogram :exclamation_mark:.
 
 {{< svg "img/parallellogram.svg" "Een illustratie van een parallellogram." >}}
 

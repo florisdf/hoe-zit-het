@@ -7,18 +7,18 @@ description: "In deze les leren we de omtrek berekenen van driehoeken, vierhoeke
 tags: ["Metend rekenen", "Vlakke figuren", "Ruimtefiguren", "Omtrek", "Vierhoeken", "Cirkel", "Driehoeken",]
 images: []
 ---
-Als je rond een weide hebt gewandeld en je wil weten hoeveel meter dit was, dan zal je de **omtrek** van de weide moeten bepalen. Dat is ook wat we in deze les gaan doen! :raising_hands:
+Als je rond een weide hebt gewandeld en je wil weten hoeveel meter die was, dan zal je de **omtrek** van de weide moeten bepalen. Dat is ook wat we in deze les gaan doen! :raising_hands:
 
 ## Wat is de omtrek?
-De **omtrek** is de **totale lengte van de buitenzijde**. Dat wil zeggen dat je de **som** neemt **van alle buitenzijden**. Als je een figuur krijgt, is de omtrek steeds de doorlopende lijn (die hoeken kan bevatten). Je kan deze **volgen met je vinger** totdat je terug op dezelfde plaats bent.
+De **omtrek** is de **totale lengte van de buitenzijde**. Dat wil zeggen dat je de **som** neemt **van alle buitenzijden**. Als je een figuur krijgt, is de omtrek steeds de doorlopende lijn (die hoeken kan bevatten). Je kan deze **volgen met je vinger** totdat je terug op dezelfde plaats komt.
 
 ## Hoe bereken ik de omtrek?
 Zoals hierboven :point_up: reeds vermeld is de omtrek **de som van alle (buiten)zijden**. Je **meet** dus de lengte van alle zijden en **telt** deze **op**. Dit werkt voor elke figuur.
 
-Voor sommige figuren, zoals een vierkant of ruit, kan het echter **simpeler**. Heb je een idee waarom? :face_with_monocle:
+Voor sommige figuren, zoals een vierkant of een ruit, kan het echter **eenvoudiger**. Heb je een idee waarom? :face_with_monocle:
 > Geen idee? Bekijk [de les over vierhoeken](../vierhoeken) nog eens grondig! :flexed_biceps:
 
-Bij een **ruit** en **vierkant** is het zo dat de **vier zijden even lang** zijn. Als je dus **één zijde** meet en je **vermenigvuldigt met vier**, dan heb je ook de omtrek van de figuur.
+Bij een **ruit** en een **vierkant** is het zo dat de **vier zijden even lang** zijn. Als je dus **één zijde** meet en deze **vermenigvuldigt met vier**, dan heb je ook meteen de omtrek van die figuur.
 
 Voor een **rechthoek** en **parallellogram** moet je nog een extra zijde meten. Je **meet** eerst **twee aanliggende zijden** (die een hoekpunt delen). Vervolgens **vermenigvuldig** je **elke zijde met twee**. Nu tel je beide op en je hebt je uitkomst. :party_popper:
 
@@ -26,7 +26,7 @@ De **cirkel** is nog een geval apart. Hiervoor moet je de **straal** ($r$) meten
 
 ## Samengevat
 {{< attention "De omtrek van een figuur berekenen" >}}
-Om de **omtrek** te berekenen, neem je de **som van alle buitenzijden**. Bij enkele figuren kan dit makkelijker ($z$ staat voor zijde):
+Om de **omtrek** te berekenen, neem je de **som van alle buitenzijden**. Bij enkele figuren kan dit eenvoudiger ($z$ staat voor zijde):
 * Ruit en vierkant: $z \cdot 4$;
 * Parallellogram en rechthoek: $z_{1} \cdot 2 + z_{2} \cdot 2$ met $z_{1}$ de lange zijde en $z_{2}$ de korte zijde;
 * Cirkel: meet de straal ($r$) en vul in: $2 \cdot \pi \cdot r$ ($\pi \approx 3,14$).
