@@ -88,12 +88,57 @@ In symbolen:
 $$\forall a \in \mathbb{R}^+_0 \backslash \\{1\\}, \forall x_1, x_2 \in \mathbb{R}^+_0 :\\ ^a\\!\log{x^\orange{n}} = \orange{n} \cdot \\ ^a\\!\log x$$
 {{< /attention >}}
 
-Dit werk ook met **wortels**! Een **n-demachtswortel** kunnen we immers schrijven als **exponent** $\frac{1}{n}$. Deze breuk als exponent kunnen we vervolgens voorop plaatsen. **In het algemeen** geldt:
+Dit werkt ook met **wortels**! Een **n-demachtswortel** kunnen we immers schrijven als **exponent** $\frac{1}{n}$. Deze breuk als exponent kunnen we vervolgens voorop plaatsen. **In het algemeen** geldt:
 
-$$^a\\!\log{\sqrt[n]{x}} = ^a\\!\log{x^{\frac{1}{n}}} = \frac{1}{n} \cdot \\ ^a\\!\log{x}$$
+$$^a\\!\log{\sqrt[n]{x}} = \\ ^a\\!\log{x^{\frac{1}{n}}} = \frac{1}{n} \cdot \\ ^a\\!\log{x}$$
 
 ## Logaritmen met een verschillend grondtal
+Elk logaritme heeft een grondtal en **bovenstaande rekenregels** werken enkel en alleen wanneer het **grondtal gelijk** is. ⚠️  Gelukkig voor ons bestaan er ook rekenregels om het **grondtal van een logaritme *te wijzigen***.
 
+Het **verband tussen logaritmen met een verschillend grondtal** is als volgt:
 
+$$\orange{^b}\\!\log{\green{x}} = \frac{^a\\!\log{\green{x}}}{^a\\!\log{\orange{b}}}$$
+
+We zien dus dat een logaritme met **grondtal b**, omgezet kan worden naar een logaritme met **grondtal a**. Er zijn ook nog enkele **gevolgen** van deze rekenregel.
+
+Zo verkrijgen we door **kruiselingse vermenigvuldiging** volgende rekenregel:
+
+$$^a\\!\log \orange{b} \cdot \\ \orange{^b}\\!\log x = \\ ^a\\!\log x$$
+
+En ook het **getal waarvan we de logaritme nemen** en het **grondtal**, kunnen we **omdraaien** met een rekenregel. 🤯
+
+$$^a\\!\log b = \frac{1}{^b\\!\log a}$$
+
+> Kan jij bovenstaande rekenregels afleiden/bewijzen? 🤔 Vertrek steeds vanuit een **basisformule**, of uit de eerste rekenregel als het om een gevolg gaat! 💡
 
 ## Samengevat
+{{< attention "De logaritme van een product" >}}
+De **logaritme van een product** is de **som van de logaritmen**.
+
+In symbolen:
+$$\forall a \in \mathbb{R}^+_0 \backslash \\{1\\}, \forall x_1, x_2 \in \mathbb{R}^+_0 :\\ ^a\\!\log (x_1 \orange{\cdot} x_2) = \\ ^a\\!\log x_1 \orange{+} \\ ^a\\!\log x_2$$
+{{< /attention >}}
+
+{{< attention "De logaritme van een quotiënt" >}}
+De **logaritme van een quotiënt** is het **verschil van de logaritmen**.
+
+In symbolen:
+$$\forall a \in \mathbb{R}^+_0 \backslash \\{1\\}, \forall x_1, x_2 \in \mathbb{R}^+_0 :\\ ^a\\!\log{\frac{x_1}{x_2}} = \\ ^a\\!\log x_1 \orange{-} \\ ^a\\!\log x_2$$
+{{< /attention >}}
+
+{{< attention "De logaritme van een macht" >}}
+De **logaritme van een macht** is gelijk aan een **veelvoud van de logaritmen**.
+
+In symbolen:
+$$\forall a \in \mathbb{R}^+_0 \backslash \\{1\\}, \forall x_1, x_2 \in \mathbb{R}^+_0 :\\ ^a\\!\log{x^\orange{n}} = \orange{n} \cdot \\ ^a\\!\log x$$
+
+Dit werkt ook met **wortels**! Een **n-demachtswortel** kunnen we immers schrijven als **exponent** $\frac{1}{n}$.
+{{< /attention >}}
+
+{{< attention "De logaritmen van een verschillend grondtal" >}}
+$$\forall a \in \mathbb{R}^+_0 \backslash \\{1\\}, \forall x_1, x_2 \in \mathbb{R}^+_0 :\\ \orange{^b}\\!\log{\green{x}} = \frac{^a\\!\log{\green{x}}}{^a\\!\log{\orange{b}}}$$
+
+Er zijn ook twee **gevolgen**:
+$$^a\\!\log \orange{b} \cdot \\ \orange{^b}\\!\log x = \\ ^a\\!\log x$$
+$$^a\\!\log b = \frac{1}{^b\\!\log a}$$
+{{< /attention >}}
