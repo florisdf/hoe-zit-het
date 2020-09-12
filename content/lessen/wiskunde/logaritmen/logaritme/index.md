@@ -39,7 +39,7 @@ $$^a\\!\log a = 1 \text{, want } a^1 = a$$
 $$^a\\!\log 1 = 0 \text{, want } a^0 = 1$$  
 {{< /attention >}}
 
-Toch willen we ook nog even vermelden dat een **andere veelvoorkomende notatie** {{< mute "(voornamelijk in het buitenland)" >}} het grondtal linksonder schrijft: $\log _a x$. :wink:
+Toch willen we ook nog even vermelden dat een **andere veelvoorkomende notatie** {{< mute "(voornamelijk in het buitenland)" >}} het grondtal rechtsonder schrijft: $\log _a x$. :wink:
 
 ## Basisformules
 Er zijn twee **basisformules**, waarmee we de rekenregels voor logaritmen kunnen bewijzen.
@@ -71,7 +71,7 @@ Een tiendelige en een natuurlijke logaritme gingen naar de bar in Frankrijk. :be
 {{< /expand >}}
 
 ## Logaritmische schaal
-In de inleiding hadden we het reeds laten vallen: de **logaritmische schaal**. Een normale {{< mute "lineaire" >}} schaal werkt als volgt: bij elke sprong komt er $1$ bij. Wanneer je drie sprongen tegelijkertijd maakt ($1 + 1 + 1$), komt er $3$ bij enzovoort. een logaritmische schaal werkt een beetje anders. **Per sprong vermenigvuldig je** met het **grondtal van een logaritme**. Een logaritmische schaal met **grondtal 10** geeft volgende situatie. Als je drie sprongen maakt ($10 \cdot 10 \cdot 10$), komt er dus $1000$ bij. Een immens verschil! :exploding_head:
+In de inleiding hadden we het reeds laten vallen: de **logaritmische schaal**. Een normale {{< mute "lineaire" >}} schaal werkt als volgt: bij elke sprong komt er $1$ bij. Wanneer je drie sprongen tegelijkertijd maakt ($1 + 1 + 1$), komt er $3$ bij enzovoort. Een logaritmische schaal werkt een beetje anders. **Per sprong vermenigvuldig je** met het **grondtal van een logaritme**. Een logaritmische schaal met **grondtal 10** geeft volgende situatie. Als je drie sprongen maakt ($10 \cdot 10 \cdot 10$), komt er dus $1000$ bij. Een immens verschil! :exploding_head:
 
 {{< svg "img/logaritmische_schaal.svg" "Een lineaire en twee logaritmische schalen weergegeven op een as." >}}
 
