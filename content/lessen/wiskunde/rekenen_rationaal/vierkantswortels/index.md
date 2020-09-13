@@ -9,7 +9,7 @@ images: []
 tags: ["Vierkantswortels", "Rekenen", "Bewerkingen", "Breuken", "Kommagetallen", "Rationale getallen"]
 description: "In deze les herhalen we wat een vierkantswortel precies is en leren we de vierkantswortel te nemen van breuken en kommagetallen."
 ---
-Net zoals de deling het omgekeerde is van de vermenigvuldiging, zijn **wortels** :carrot: het omgekeerde van [machten](../machten). 
+Net zoals de deling het omgekeerde is van de vermenigvuldiging, zijn **wortels** 🥕 het omgekeerde van [machten](../machten). 
 
 ## Wat is een vierkantswortel?
 
@@ -43,7 +43,7 @@ Probeer zelf eens een waarde te vinden waarvoor geldt dat $\green{(a)}^2 = -25$.
 
 **Neen**, dit gaat niet, want als je eender welke $\green{a}$ probeert, kan je nooit op een negatief getal uitkomen. Als je
 een getal twee keer met zichzelf vermenigvuldigt, zal je **altijd op een positief getal** uitkomen. We zeggen dat $\sqrt{-25}$ niet
-gedefinieerd is. :stop_sign: :raised_hand:
+gedefinieerd is. 🛑 ✋
 
 {{< attention "Negatieve grondtallen bij vierkantswortels" >}}
 Een vierkantswortel met een **negatief grondtal** is **niet gedefinieerd**.

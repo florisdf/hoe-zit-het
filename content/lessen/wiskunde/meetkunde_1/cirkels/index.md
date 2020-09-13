@@ -7,12 +7,12 @@ description: "In deze les gaan we dieper in op de cirkel. We leren over de straa
 tags: ["Vlakke figuren", "Cirkels", "Meetkundige eigenschappen"]
 images: []
 ---
-Wanneer er een straatartiest een mooi nummer speelt :saxophone:, gaan de mensen spontaan in een cirkel staan. Ook DVD's, wielen of graancirkels zijn voorbeelden van een **cirkel**. :alien:
+Wanneer er een straatartiest een mooi nummer speelt 🎷, gaan de mensen spontaan in een cirkel staan. Ook DVD's, wielen of graancirkels zijn voorbeelden van een **cirkel**. 👽
 
 ## Wat is een cirkel?
 Een **cirkel** is de **verzameling van alle punten** die **op eenzelfde afstand** liggen van een gegeven punt, het **middelpunt**. 
 
-Een **passer** is hiervoor het beste bewijs. De **afstand** tussen het potlood en het metalen pinnetje **blijft altijd hetzelfde**. Wanneer je het ene been (met het potlood) draait, markeer je dus alle punten op een bepaalde afstand van het middelpunt, de plek waar het metalen pinnetje staat. :brain:
+Een **passer** is hiervoor het beste bewijs. De **afstand** tussen het potlood en het metalen pinnetje **blijft altijd hetzelfde**. Wanneer je het ene been (met het potlood) draait, markeer je dus alle punten op een bepaalde afstand van het middelpunt, de plek waar het metalen pinnetje staat. 🧠
 
 {{< svg "img/cirkel.svg" "Een illustratie van een cirkel." >}}
 

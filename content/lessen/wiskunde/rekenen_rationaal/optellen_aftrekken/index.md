@@ -8,12 +8,12 @@ tags: ["Breuk", "Kommagetallen", "Optellen", "Aftrekken", "Rationale getallen", 
 description: "In deze les leren we hoe we rationale getallen kunnen optellen en
 aftrekken."
 ---
-Je bent nog steeds op een verjaardagsfeestje en het [eerste stukje taart](../breuken/) ($\frac{1}{8}$) is op. :cake: Blijkbaar is er nog een {{< mute "(even grote)" >}} taart voor zij die willen. Jij en vijf anderen lusten wel nog een stukje. :yum: Deze taart wordt dus in zes gelijke delen verdeeld en jij krijgt hier één stukje van. Hoeveel taart heb je dan in het totaal gegeten? 
+Je bent nog steeds op een verjaardagsfeestje en het [eerste stukje taart](../breuken/) ($\frac{1}{8}$) is op. 🍰 Blijkbaar is er nog een {{< mute "(even grote)" >}} taart voor zij die willen. Jij en vijf anderen lusten wel nog een stukje. 😋 Deze taart wordt dus in zes gelijke delen verdeeld en jij krijgt hier één stukje van. Hoeveel taart heb je dan in het totaal gegeten? 
 
 ## Hoe kan ik breuken optellen en aftrekken?
 Uit de inleiding weten we dat je $\frac{1}{8}$ en $\frac{1}{6}$ van twee even grote taarten hebt gegeten. Hoe moeten we deze breuken nu optellen om te weten hoeveel taart je in totaal hebt gegeten?
 
-Misschien moeten we gewoon tellers en noemers optellen? :face_with_monocle: Laten we proberen!
+Misschien moeten we gewoon tellers en noemers optellen? 🧐 Laten we proberen!
 
 $$\frac{1 + 1}{8 + 6} = \frac{\frac{2}{\orange{2}}}{\frac{14}{\orange{2}}} = \frac{1}{7}$$ 
 
@@ -23,7 +23,7 @@ Dit kàn **niet juist** zijn! Het stuk van $\frac{1}{6}$ is immers op z'n eentje
 
 De methode met het optellen van teller en noemer is dus **foutief**!
 
-Misschien moeten we alleen de teller of alleen de noemer optellen? :face_with_raised_eyebrow: Maar als we hier even verder over nadenken kan ook dit niet. Wat doen we immers als we twee verschillende noemers (zoals in het voorbeeld) of twee verschillende tellers hebben? :thinking_face:
+Misschien moeten we alleen de teller of alleen de noemer optellen? 🤨 Maar als we hier even verder over nadenken kan ook dit niet. Wat doen we immers als we twee verschillende noemers (zoals in het voorbeeld) of twee verschillende tellers hebben? 🤔
 
 We moeten de breuken kunnen vergelijken. Elk stuk, van beide taarten, moet even groot zijn. Daarom is er slechts één juiste manier: **de breuken gelijknamig maken en vervolgens de tellers optellen of aftrekken**.
 
@@ -50,7 +50,7 @@ $$\frac{1}{\green{8}} \text{ en } \frac{1}{\green{6}} \rightarrow \green{6} \cdo
 $56$ wordt de **nieuwe noemer van beide breuken**.
 
 ### Nieuwe teller van de eerste breuk
-Nadat je de breuken op dezelfde noemer hebt gezet, moet je ook nog de **tellers aanpassen**. Anders zou je de breuk veranderen en dat willen we natuurlijk niet! :no_good: De nieuwe **teller van de eerste breuk** bekom je door de teller te **vermenigvuldigen** met de **(oude) noemer van de tweede breuk**.
+Nadat je de breuken op dezelfde noemer hebt gezet, moet je ook nog de **tellers aanpassen**. Anders zou je de breuk veranderen en dat willen we natuurlijk niet! 🙅 De nieuwe **teller van de eerste breuk** bekom je door de teller te **vermenigvuldigen** met de **(oude) noemer van de tweede breuk**.
 
 $$\frac{\green{1}}{8} \text{ en } \frac{1}{\green{6}} \rightarrow \green{1} \cdot \green{6} = 6$$
 
@@ -67,7 +67,7 @@ We bekomen dus **twee gelijknamige breuken** die gelijkwaardig zijn aan de origi
 
 $$\frac{1}{8} \text{ en } \frac{1}{6} = \frac{6}{56} \text{ en } \frac{8}{56}$$
 
-Hoera! :thumbs_up:
+Hoera! 👍
 
 ### Extra voorbeeld
 Kan jij mij vertellen welke stappen ik heb genomen om onderstaande optelling gelijknamig te maken?
@@ -75,13 +75,13 @@ Kan jij mij vertellen welke stappen ik heb genomen om onderstaande optelling gel
 {{< svg "img/extra_voorbeeld.svg" "Het gelijknamig maken van twee breuken met optionele uitleg." >}}
 
 ## Gelijknamige breuken optellen en aftrekken
-Het moeilijkste deel is achter de rug! :relieved::party_popper: Nadat we twee gelijknamige breuken hebben, moeten we alleen nog de **tellers optellen of aftrekken** volgens de [regels die we reeds kennen](../rekenen_gehele_getallen). We kunnen nu dus eindelijk berekenen hoeveel pizza we in totaal hebben gegeten.
+Het moeilijkste deel is achter de rug! 😌🎉 Nadat we twee gelijknamige breuken hebben, moeten we alleen nog de **tellers optellen of aftrekken** volgens de [regels die we reeds kennen](../rekenen_gehele_getallen). We kunnen nu dus eindelijk berekenen hoeveel pizza we in totaal hebben gegeten.
 
 $$\frac{6}{56} + \frac{8}{56} = \frac{6 + 8}{56} = \frac{\frac{14}{\orange{14}}}{\frac{56}{\orange{14}}} = \frac{1}{4}$$ 
 
-Heb jij $\frac{1}{4}$ taart gegeten?! :scream:
+Heb jij $\frac{1}{4}$ taart gegeten?! 😱
 
-**TIP:** Soms kan het handig zijn om **de breuken eerst te vereenvoudigen** vooraleer je ze gelijknamig maakt en optelt of aftrekt. Je zet de breuk dan om naar een vorm waarbij teller en noemer geen gemeenschappelijke deler meer hebben. Dit maakt veel rekenwerk makkelijker! :flexed_biceps:
+**TIP:** Soms kan het handig zijn om **de breuken eerst te vereenvoudigen** vooraleer je ze gelijknamig maakt en optelt of aftrekt. Je zet de breuk dan om naar een vorm waarbij teller en noemer geen gemeenschappelijke deler meer hebben. Dit maakt veel rekenwerk makkelijker! 💪
 
 ## Kommagetallen optellen en aftrekken
 Om kommagetallen op te tellen of af te trekken kan je **twee methoden** gebruiken. Enerzijds kan je de kommagetallen omzetten naar breuken en **bovenstaand stappenplan** volgen of anderzijds kan je een **gedachte-trucje** toepassen.

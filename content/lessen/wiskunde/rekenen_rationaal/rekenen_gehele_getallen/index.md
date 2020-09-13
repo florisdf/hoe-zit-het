@@ -97,7 +97,7 @@ $$\orange{3} \cdot (-2) = \underbrace{\green{+}(-2) + (-2) + (-2)}_{\orange{3}\ 
 Hieruit kunnen we besluiten dat als er een **even aantal negatieve factoren** zijn,
 de uitkomst **positief** is. Als er een **oneven aantal negatieve factoren** zijn, dan is de uitkomst **negatief**.
 
-> Nog niet overtuigd? :thinking_face: Bekijk de alinea *Wat te doen met verschillende tekens?* nog eens grondig!
+> Nog niet overtuigd? 🤔 Bekijk de alinea *Wat te doen met verschillende tekens?* nog eens grondig!
 
 ## Gehele getallen delen
 
