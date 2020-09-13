@@ -125,7 +125,7 @@ Ingang $x$               | $-\infty$    |           | $-3$       |             |
 -------------------------|--------------|-----------|------------|-------------|------------|-----------|----------------
 **Uitgang** $y = f(x)$   |              | $\red{-}$ | $\blue{0}$ | $\green{+}$ | $\blue{0}$ | $\red{-}$ |
 
-Et voilà! :muscle: We krijgen hetzelfde tekenschema als daarnet.
+Et voilà! 💪 We krijgen hetzelfde tekenschema als daarnet.
 
 ## Enkel nulpunten en grenzen van domein
 De x-waarden die in een tekenschema staan {{< mute "(de bovenste rij)" >}}, zijn *ofwel nulwaarden* {{% mute
@@ -137,7 +137,7 @@ nulpunt of na een grens van het domein**.
 Voor echt heel speciale functies kan het teken ook na andere x-waarden
 veranderen, namelijk na een *discontinuïteit*. Zulke functies zullen we niet zo
 vaak tegenkomen, dus is het niet de moeite om er nu verder op in te gaan.
-Zorgen voor later! :wave:
+Zorgen voor later! 👋
 
 ## Samengevat
 {{< attention "Tekenschema" >}}

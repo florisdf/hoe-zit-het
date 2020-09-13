@@ -7,7 +7,7 @@ description: "In deze les leren we rekenen met logaritmen. Hiervoor bekijken we 
 tags: ["Logaritmen", "Rekenen", "Exponentiële", "Algebra", "Rekenregels"]
 images: []
 ---
-Wanneer we willen **rekenen met logaritmen**, dan moeten we ons houden aan enkele **regenregels**. Doen we dit niet, dan zou het wel eens helemaal fout kunnen aflopen! :grimacing:
+Wanneer we willen **rekenen met logaritmen**, dan moeten we ons houden aan enkele **regenregels**. Doen we dit niet, dan zou het wel eens helemaal fout kunnen aflopen! 😬
 
 ## De logaritme van een som en een verschil
 Wanneer we de **logaritme** nemen **van $x$** met een **grondtal $a$**, dan krijgen we **een exponent** waartoe we **$a$ moeten verheffen** om **$x$ te bekomen**. We weten ook dat een logaritmische functie het **inverse van een exponentiële functie** is. Tenslotte weten we dat we volgende bewerking niet meer kunnen vereenvoudigen:
@@ -16,14 +16,14 @@ $$x^4 + 4x^3 - 2x + 6$$
 
 Net zoals er geen rekenregel bestaat voor de som of het verschil van machten, bestaat er ook **geen rekenregel voor de som of het verschil van een logaritme**.
 
-$\log (5x + 3)$ kunnen we dus **niet verder oplossen**. We kunnen dit met andere woorden **niet** schrijven als $\red{\log 5x + \log 3}$. :x:
-> Weet je nog dat bovenstaand logaritme een **tiendelige {{< mute "of Briggse" >}} logaritme** is? :thinking_face: Zo neen, bekijk dan nog even [de eerste les over logaritmen](..:logaritme). :raising_hands:
+$\log (5x + 3)$ kunnen we dus **niet verder oplossen**. We kunnen dit met andere woorden **niet** schrijven als $\red{\log 5x + \log 3}$. ❌
+> Weet je nog dat bovenstaand logaritme een **tiendelige {{< mute "of Briggse" >}} logaritme** is? 🤔 Zo neen, bekijk dan nog even [de eerste les over logaritmen](..:logaritme). 🙌
 
 Geloof je me nog niet? Laten we even naar een ander voorbeeld kijken: $\log(1000 + 100)$. 
 $$\log(1100) \approx 3,041 \red{\neq} \log(1000) + \log(100) = 5$$
 
 ## Logaritmen van een product
-In tegenstelling tot de logaritmen van een som en een verschil, bestaat er **wel** een **rekenregel voor de logaritmen van een product en een quotiënt**. :smiley:
+In tegenstelling tot de logaritmen van een som en een verschil, bestaat er **wel** een **rekenregel voor de logaritmen van een product en een quotiënt**. 😃
 
 Ook hier kunnen we weer vertrekken van **machten en exponentiële functies**. We weten:
 
@@ -44,7 +44,7 @@ Om dit nogmaals te illustreren, nemen we er de functie $^2\\!\log x$ bij. We mak
 | 64  | 6             |
 | 128 | 7             |
 
-We merken dat wanneer we **twee getallen in de linkse kolom vermenigvuldigen** (bv. 4 en 8), we de **overeenkomstige getallen van de rechtse kolom kunnen optellen** (bv. 2 en 3) om het beoogde resultaat te verkrijgen. Want $4 \cdot 8 = 32$ en $2 + 3 = 5$. Deze getallen staan ook mooi naast elkaar in de tabel. Onze rekenregel werkt dus! :flexed_biceps:
+We merken dat wanneer we **twee getallen in de linkse kolom vermenigvuldigen** (bv. 4 en 8), we de **overeenkomstige getallen van de rechtse kolom kunnen optellen** (bv. 2 en 3) om het beoogde resultaat te verkrijgen. Want $4 \cdot 8 = 32$ en $2 + 3 = 5$. Deze getallen staan ook mooi naast elkaar in de tabel. Onze rekenregel werkt dus! 💪
 
 {{< attention "De logaritme van een product" >}}
 De **logaritme van een product** is de **som van de logaritmen**.
@@ -69,7 +69,7 @@ In symbolen:
 $$\forall a \in \mathbb{R}^+_0 \backslash \\{1\\}, \forall x_1, x_2 \in \mathbb{R}^+_0 :\\ ^a\\!\log{\frac{x_1}{x_2}} = \\ ^a\\!\log x_1 \orange{-} \\ ^a\\!\log x_2$$
 {{< /attention >}}
 
-Er kan hier ook sprake zijn van een **bijzonder geval**, namelijk $\frac{1}{x}$. :face_with_raised_eyebrow:
+Er kan hier ook sprake zijn van een **bijzonder geval**, namelijk $\frac{1}{x}$. 🤨
 
 $$^a\\!\log{\frac{1}{x}} = \cancelto{0}{^a\\!\log 1} - \\ ^a\\!\log x = - \\ ^a\\!\log x$$
 
@@ -79,7 +79,7 @@ $$^a\\!\log{\frac{1}{x}} = - \\ ^a\\!\log x$$
 
 ## De logaritme van een macht
 Ook hier gaan we op **analoge wijze** te werk en vinden we een **rekenregel**.
-> Kan jij hiervoor een bewijs vinden? :face_with_monocle:
+> Kan jij hiervoor een bewijs vinden? 🧐
 
 {{< attention "De logaritme van een macht" >}}
 De **logaritme van een macht** is gelijk aan een **veelvoud van de logaritmen**.
