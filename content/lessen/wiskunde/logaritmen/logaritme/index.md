@@ -91,5 +91,5 @@ $$a^{^a\\!\log x} = x$$
 {{< attention "Tiendelige en natuurlijke logaritmen" >}}
 **Tiendelige of Briggse logaritmen** zijn logaritmen met **grondtal 10**. We noteren: $\log x$.
 
-**Natuurlijke of Neperiaanse logaritmen** zijn logarimten met **grondtal $e$**. We noteren: $\ln x$.
+**Natuurlijke of Neperiaanse logaritmen** zijn logaritmen met **grondtal $e$**. We noteren: $\ln x$.
 {{< /attention >}}

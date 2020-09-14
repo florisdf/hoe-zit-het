@@ -7,7 +7,7 @@ description: "In deze les leren we rekenen met logaritmen. Hiervoor bekijken we 
 tags: ["Logaritmen", "Rekenen", "Exponentiële", "Algebra", "Rekenregels"]
 images: []
 ---
-Wanneer we willen **rekenen met logaritmen**, dan moeten we ons houden aan enkele **regenregels**. Doen we dit niet, dan zou het wel eens helemaal fout kunnen aflopen! 😬
+Wanneer we willen **rekenen met logaritmen**, dan moeten we ons houden aan enkele **rekenregels**. Doen we dit niet, dan zou het wel eens helemaal fout kunnen aflopen! 😬
 
 ## De logaritme van een som en een verschil
 Wanneer we de **logaritme** nemen **van $x$** met een **grondtal $a$**, dan krijgen we **een exponent** waartoe we **$a$ moeten verheffen** om **$x$ te bekomen**. We weten ook dat een logaritmische functie het **inverse van een exponentiële functie** is. Tenslotte weten we dat we volgende bewerking niet meer kunnen vereenvoudigen:
