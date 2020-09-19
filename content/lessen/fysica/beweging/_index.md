@@ -6,7 +6,7 @@ draft: false
 section_color: "#19a974"
 tags: []
 categories: []
-level: "5e middelbaar"
+level: "6e middelbaar"
 course: "fysica"
 topic: "kinematica"
 images: []
