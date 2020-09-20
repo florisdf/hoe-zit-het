@@ -45,9 +45,9 @@ Aangezien het soms moeilijk is om het kleinst gemeenschappelijk veelvoud te vind
 ### Nieuwe noemers voor beide breuken
 Bij de eerste stap **vermenivuldig je de noemers van beide breuken**. Het resultaat dat je bekomt wordt de nieuwe noemer voor beide breuken. Vaak komt dit overeen met het kleinst gemeenschappelijk veelvoud en anders is het niet veel extra werk. Bijvoorbeeld:
 
-$$\frac{1}{\green{8}} \text{ en } \frac{1}{\green{6}} \rightarrow \green{6} \cdot \green{8} = 56$$ 
+$$\frac{1}{\green{8}} \text{ en } \frac{1}{\green{6}} \rightarrow \green{6} \cdot \green{8} = 48$$ 
 
-$56$ wordt de **nieuwe noemer van beide breuken**.
+$48$ wordt de **nieuwe noemer van beide breuken**.
 
 ### Nieuwe teller van de eerste breuk
 Nadat je de breuken op dezelfde noemer hebt gezet, moet je ook nog de **tellers aanpassen**. Anders zou je de breuk veranderen en dat willen we natuurlijk niet! 🙅 De nieuwe **teller van de eerste breuk** bekom je door de teller te **vermenigvuldigen** met de **(oude) noemer van de tweede breuk**.
@@ -65,7 +65,7 @@ $8$ wordt de **nieuwe teller van de tweede breuk**.
 
 We bekomen dus **twee gelijknamige breuken** die gelijkwaardig zijn aan de originele: 
 
-$$\frac{1}{8} \text{ en } \frac{1}{6} = \frac{6}{56} \text{ en } \frac{8}{56}$$
+$$\frac{1}{8} \text{ en } \frac{1}{6} = \frac{6}{48} \text{ en } \frac{8}{48}$$
 
 Hoera! 👍
 
@@ -77,9 +77,7 @@ Kan jij mij vertellen welke stappen ik heb genomen om onderstaande optelling gel
 ## Gelijknamige breuken optellen en aftrekken
 Het moeilijkste deel is achter de rug! 😌🎉 Nadat we twee gelijknamige breuken hebben, moeten we alleen nog de **tellers optellen of aftrekken** volgens de [regels die we reeds kennen](../rekenen_gehele_getallen). We kunnen nu dus eindelijk berekenen hoeveel pizza we in totaal hebben gegeten.
 
-$$\frac{6}{56} + \frac{8}{56} = \frac{6 + 8}{56} = \frac{\frac{14}{\orange{14}}}{\frac{56}{\orange{14}}} = \frac{1}{4}$$ 
-
-Heb jij $\frac{1}{4}$ taart gegeten?! 😱
+$$\frac{6}{48} + \frac{8}{48} = \frac{6 + 8}{48} = \frac{\frac{14}{\orange{2}}}{\frac{48}{\orange{2}}} = \frac{7}{24}$$ 
 
 **TIP:** Soms kan het handig zijn om **de breuken eerst te vereenvoudigen** vooraleer je ze gelijknamig maakt en optelt of aftrekt. Je zet de breuk dan om naar een vorm waarbij teller en noemer geen gemeenschappelijke deler meer hebben. Dit maakt veel rekenwerk makkelijker! 💪
 
