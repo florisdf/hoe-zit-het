@@ -43,6 +43,9 @@ for p, url in tqdm(zip(articles, urls)):
             run(['wkhtmltopdf', '-T', '25mm', '-B', '25mm', '-R', '25mm', '-L',
                  '25mm', url, '--no-stop-slow-scripts',
                 '--javascript-delay', '5000', '--viewport-size', '1920x1080',
+                '--footer-right', '[page]/[topage]',
+                '--footer-left', '[title]',
+                '--footer-font-name', 'Quicksand',
                  str(pdf_file)])
         except HTTPError as e:
             logging.info(f'{url} returned {e.code}')
