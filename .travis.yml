@@ -15,7 +15,8 @@ install:
   - sudo chmod a+x /usr/bin/wkhtmltopdf.sh
   - sudo ln -s /usr/bin/wkhtmltopdf.sh /usr/local/bin/wkhtmltopdf
   - curl "https://www.fontsquirrel.com/fonts/download/Quicksand" > quicksand.zip
-  - sudo unzip quicksand.zip -d /usr/share/fonts/opentype/Quicksand
+  - mkdir -p /usr/share/fonts/opentype/Quicksand
+  - unzip quicksand.zip -d /usr/share/fonts/opentype/Quicksand
   - fc-cache -fv
   - pip install -r requirements.txt
 
