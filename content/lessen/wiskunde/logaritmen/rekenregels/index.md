@@ -14,7 +14,7 @@ Wanneer we de **logaritme** nemen **van $x$** met een **grondtal $a$**, dan krij
 
 $$x^4 + 4x^3 - 2x + 6$$
 
-Net zoals er geen rekenregel bestaat voor de som of het verschil van machten, bestaat er ook **geen rekenregel voor de som of het verschil van een logaritme**.
+Net zoals er geen rekenregel bestaat voor de som of het verschil van machten, bestaat er ook **geen rekenregel voor de logaritme van een som of verschil**.
 
 $\log (5x + 3)$ kunnen we dus **niet verder oplossen**. We kunnen dit met andere woorden **niet** schrijven als $\red{\log 5x + \log 3}$. ❌
 > Weet je nog dat bovenstaand logaritme een **tiendelige {{< mute "of Briggse" >}} logaritme** is? 🤔 Zo neen, bekijk dan nog even [de eerste les over logaritmen](..:logaritme). 🙌
